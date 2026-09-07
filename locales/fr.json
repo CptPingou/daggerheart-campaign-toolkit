@@ -1,0 +1,2833 @@
+{
+  "schemaVersion": 1,
+  "locale": "fr",
+  "fallback": "en",
+  "entries": {
+    "srd-2.0.adversary.bear": {
+      "name": "Ours",
+      "system": {
+        "motivesAndTactics": "Grimper, défendre son territoire, rouer de coups, traquer"
+      }
+    },
+    "srd-2.0.armor.advanced-banded-armor": {
+      "name": "Avancé : Armure à bandes"
+    },
+    "srd-2.0.armor.advanced-brigandine-armor": {
+      "name": "Avancé : Brigandine"
+    },
+    "srd-2.0.armor.advanced-chainmail-armor": {
+      "name": "Avancé : Cotte de mailles"
+    },
+    "srd-2.0.armor.advanced-full-plate-armor": {
+      "name": "Avancé : Armure de plates complète"
+    },
+    "srd-2.0.armor.advanced-gambeson-armor": {
+      "name": "Avancé : Gambison"
+    },
+    "srd-2.0.armor.advanced-leather-armor": {
+      "name": "Avancé : Armure de cuir"
+    },
+    "srd-2.0.armor.advanced-mage-robes": {
+      "name": "Avancé : Robes de mage"
+    },
+    "srd-2.0.armor.advanced-scale-mail-armor": {
+      "name": "Avancé : Armure d’écailles"
+    },
+    "srd-2.0.armor.astral-raiment": {
+      "name": "Parure astrale"
+    },
+    "srd-2.0.armor.banded-armor": {
+      "name": "Armure à bandes"
+    },
+    "srd-2.0.armor.bellamoi-fine-armor": {
+      "name": "Armure raffinée de Bellamoi"
+    },
+    "srd-2.0.armor.bladefare-armor": {
+      "name": "Armure Bladefare"
+    },
+    "srd-2.0.armor.bloodstone-plate-armor": {
+      "name": "Armure de plates en pierre de sang"
+    },
+    "srd-2.0.armor.brigandine-armor": {
+      "name": "Brigandine"
+    },
+    "srd-2.0.armor.chainmail-armor": {
+      "name": "Cotte de mailles"
+    },
+    "srd-2.0.armor.channeling-armor": {
+      "name": "Armure de canalisation"
+    },
+    "srd-2.0.armor.circle-forged-dreadplate": {
+      "name": "Dreadplate forgée du Cercle"
+    },
+    "srd-2.0.armor.cloverweave-cloak": {
+      "name": "Cape en tissage de trèfle"
+    },
+    "srd-2.0.armor.darkweave-shroud": {
+      "name": "Linceul en tissage sombre"
+    },
+    "srd-2.0.armor.deep-forged-coral-armor": {
+      "name": "Armure de corail forgée des profondeurs"
+    },
+    "srd-2.0.armor.dragonscale-armor": {
+      "name": "Armure d’écailles de dragon"
+    },
+    "srd-2.0.armor.dunamis-silkchain": {
+      "name": "Cotte de soie Dunamis"
+    },
+    "srd-2.0.armor.elundrian-chain-armor": {
+      "name": "Cotte de mailles elundrienne"
+    },
+    "srd-2.0.armor.emberwoven-armor": {
+      "name": "Armure tissée de braises"
+    },
+    "srd-2.0.armor.enchanters-robes": {
+      "name": "Robes d’enchanteur"
+    },
+    "srd-2.0.armor.full-fortified-armor": {
+      "name": "Armure fortifiée complète"
+    },
+    "srd-2.0.armor.full-plate-armor": {
+      "name": "Armure de plates complète"
+    },
+    "srd-2.0.armor.gambeson-armor": {
+      "name": "Gambison"
+    },
+    "srd-2.0.armor.gilded-sunplate": {
+      "name": "Plate solaire dorée"
+    },
+    "srd-2.0.armor.godbound-laminar": {
+      "name": "Laminaire liée aux dieux"
+    },
+    "srd-2.0.armor.granminsters-finery": {
+      "name": "Atours de Granminster"
+    },
+    "srd-2.0.armor.hallowed-heroplate": {
+      "name": "Plate héroïque consacrée"
+    },
+    "srd-2.0.armor.harrowbone-armor": {
+      "name": "Armure d’os de Harrow"
+    },
+    "srd-2.0.armor.hawkguards-mantle": {
+      "name": "Manteau du Garde-faucon"
+    },
+    "srd-2.0.armor.improved-banded-armor": {
+      "name": "Amélioré : Armure à bandes"
+    },
+    "srd-2.0.armor.improved-brigandine-armor": {
+      "name": "Amélioré : Brigandine"
+    },
+    "srd-2.0.armor.improved-chainmail-armor": {
+      "name": "Amélioré : Cotte de mailles"
+    },
+    "srd-2.0.armor.improved-full-plate-armor": {
+      "name": "Amélioré : Armure de plates complète"
+    },
+    "srd-2.0.armor.improved-gambeson-armor": {
+      "name": "Amélioré : Gambison"
+    },
+    "srd-2.0.armor.improved-leather-armor": {
+      "name": "Amélioré : Armure de cuir"
+    },
+    "srd-2.0.armor.improved-mage-robes": {
+      "name": "Amélioré : Robes de mage"
+    },
+    "srd-2.0.armor.improved-scale-mail-armor": {
+      "name": "Amélioré : Armure d’écailles"
+    },
+    "srd-2.0.armor.irontree-breastplate-armor": {
+      "name": "Cuirasse d’Arbrefer"
+    },
+    "srd-2.0.armor.leather-armor": {
+      "name": "Armure de cuir"
+    },
+    "srd-2.0.armor.legendary-banded-armor": {
+      "name": "Légendaire : Armure à bandes"
+    },
+    "srd-2.0.armor.legendary-brigandine-armor": {
+      "name": "Légendaire : Brigandine"
+    },
+    "srd-2.0.armor.legendary-chainmail-armor": {
+      "name": "Légendaire : Cotte de mailles"
+    },
+    "srd-2.0.armor.legendary-full-plate-armor": {
+      "name": "Légendaire : Armure de plates complète"
+    },
+    "srd-2.0.armor.legendary-gambeson-armor": {
+      "name": "Légendaire : Gambison"
+    },
+    "srd-2.0.armor.legendary-leather-armor": {
+      "name": "Légendaire : Armure de cuir"
+    },
+    "srd-2.0.armor.legendary-mage-robes": {
+      "name": "Légendaire : Robes de mage"
+    },
+    "srd-2.0.armor.legendary-scale-mail-armor": {
+      "name": "Légendaire : Armure d’écailles"
+    },
+    "srd-2.0.armor.mage-robes": {
+      "name": "Robes de mage"
+    },
+    "srd-2.0.armor.monetts-cloak": {
+      "name": "Cape de Monett"
+    },
+    "srd-2.0.armor.resonant-harness": {
+      "name": "Harnais résonant"
+    },
+    "srd-2.0.armor.rosewild-armor": {
+      "name": "Armure de Rosewild"
+    },
+    "srd-2.0.armor.rune-forged-exosuit": {
+      "name": "Exosquelette forgé de runes"
+    },
+    "srd-2.0.armor.runes-of-fortification": {
+      "name": "Runes de fortification"
+    },
+    "srd-2.0.armor.runetan-floating-armor": {
+      "name": "Armure flottante runetane"
+    },
+    "srd-2.0.armor.savior-chainmail": {
+      "name": "Cotte de mailles du Sauveur"
+    },
+    "srd-2.0.armor.scale-mail-armor": {
+      "name": "Armure d’écailles"
+    },
+    "srd-2.0.armor.skywardens-lamellar": {
+      "name": "Lamellaire du Garde-ciel"
+    },
+    "srd-2.0.armor.spidersilk-tunic": {
+      "name": "Tunique en soie d’araignée"
+    },
+    "srd-2.0.armor.spiked-plate-armor": {
+      "name": "Armure de plates hérissée"
+    },
+    "srd-2.0.armor.stormthread-habit": {
+      "name": "Habit en fil d’orage"
+    },
+    "srd-2.0.armor.trollhide-cuirass": {
+      "name": "Cuirasse en peau de troll"
+    },
+    "srd-2.0.armor.tyris-soft-armor": {
+      "name": "Armure souple de Tyris"
+    },
+    "srd-2.0.armor.veritas-opal-armor": {
+      "name": "Armure d’opale Veritas"
+    },
+    "srd-2.0.armor.wyrdwood-splint-armor": {
+      "name": "Armure à attelles de Wyrdwood"
+    },
+    "srd-2.0.class.assassin": {
+      "name": "Assassin"
+    },
+    "srd-2.0.class.bard": {
+      "name": "Barde"
+    },
+    "srd-2.0.class.brawler": {
+      "name": "Bagarreur"
+    },
+    "srd-2.0.class.druid": {
+      "name": "Druide"
+    },
+    "srd-2.0.class.guardian": {
+      "name": "Gardien"
+    },
+    "srd-2.0.class.ranger": {
+      "name": "Rôdeur"
+    },
+    "srd-2.0.class.rogue": {
+      "name": "Roublard"
+    },
+    "srd-2.0.class.seraph": {
+      "name": "Séraphin"
+    },
+    "srd-2.0.class.sorcerer": {
+      "name": "Ensorceleur"
+    },
+    "srd-2.0.class.warlock": {
+      "name": "Occultiste"
+    },
+    "srd-2.0.class.warrior": {
+      "name": "Guerrier"
+    },
+    "srd-2.0.class.witch": {
+      "name": "Sorcière"
+    },
+    "srd-2.0.class.wizard": {
+      "name": "Magicien"
+    },
+    "srd-2.0.domain-card.arcana.adjust-reality": {
+      "name": "Altérer la réalité",
+      "system": {
+        "description": "Après que vous ou un allié consentant avez effectué n’importe quel jet, vous pouvez dépenser 5 Espoir pour remplacer son résultat numérique par le résultat de votre choix. Ce résultat doit rester possible compte tenu des dés lancés."
+      }
+    },
+    "srd-2.0.domain-card.arcana.arcana-touched": {
+      "name": "Touché par les Arcanes",
+      "system": {
+        "description": "Lorsque 4 cartes ou plus de votre sélection active appartiennent au domaine des Arcanes, vous bénéficiez des avantages suivants :\n◦ +1 à vos jets d’Incantation.\n◦ Une fois par repos, vous pouvez intervertir les résultats de vos dés d’Espoir et de Peur."
+      }
+    },
+    "srd-2.0.domain-card.arcana.arcane-reflection": {
+      "name": "Réflexion arcanique",
+      "system": {
+        "description": "Lorsque vous devriez subir des dégâts magiques, vous pouvez dépenser autant d’Espoir que vous le souhaitez pour lancer autant de d6. Si au moins l’un d’eux obtient un 6, l’attaque est renvoyée vers son lanceur, qui subit les dégâts à votre place."
+      }
+    },
+    "srd-2.0.domain-card.arcana.blink-out": {
+      "name": "Éclipse",
+      "system": {
+        "description": "Effectuez un jet d’Incantation (12). En cas de réussite, dépensez 1 Espoir pour vous téléporter vers un autre point que vous voyez à portée Lointaine. Si des créatures consentantes se trouvent à portée Très proche, dépensez 1 Espoir supplémentaire par créature que vous souhaitez emmener avec vous."
+      }
+    },
+    "srd-2.0.domain-card.arcana.chain-lightning": {
+      "name": "Éclair en chaîne",
+      "system": {
+        "description": "Cochez 2 Stress pour effectuer un jet d’Incantation et déchaîner la foudre sur toutes les cibles à portée Proche. Les cibles contre lesquelles vous réussissez doivent effectuer un jet de réaction dont la Difficulté est égale au résultat de votre jet d’Incantation. Celles qui échouent subissent 2d8+4 dégâts magiques. Les adversaires supplémentaires qui n’ont pas encore été ciblés par Éclair en chaîne et se trouvent à portée Proche d’une cible précédente ayant subi des dégâts doivent eux aussi effectuer ce jet de réaction. Ceux qui échouent subissent 2d8+4 dégâts magiques. La chaîne se poursuit jusqu’à ce qu’il n’y ait plus d’adversaire à portée."
+      }
+    },
+    "srd-2.0.domain-card.arcana.cinder-grasp": {
+      "name": "Étreinte de braise",
+      "system": {
+        "description": "Effectuez un jet d’Incantation contre une cible à portée de Corps à corps. En cas de réussite, la cible s’embrase instantanément, subit 1d20+3 dégâts magiques et est temporairement En feu. Lorsqu’une créature agit alors qu’elle est En feu, elle subit 2d6 dégâts magiques supplémentaires si elle est toujours En feu à la fin de son action."
+      }
+    },
+    "srd-2.0.domain-card.arcana.cloaking-blast": {
+      "name": "Déflagration occultante",
+      "system": {
+        "description": "Lorsque vous réussissez un jet d’Incantation pour lancer un autre sort, vous pouvez dépenser 1 Espoir pour devenir Dissimulé. Tant que vous êtes Dissimulé, vous restez invisible si vous êtes immobile lorsqu’un adversaire se déplace jusqu’à un endroit d’où il devrait normalement vous voir. Dès que vous vous déplacez dans la ligne de vue d’un adversaire ou à l’intérieur de celle-ci, ou que vous effectuez une attaque, vous n’êtes plus Dissimulé."
+      }
+    },
+    "srd-2.0.domain-card.arcana.confusing-aura": {
+      "name": "Aura de confusion",
+      "system": {
+        "description": "Effectuez un jet d’Incantation (14). Une fois par repos long, en cas de réussite, vous créez sur votre corps une couche d’illusion qui rend votre position exacte difficile à discerner. Cochez autant de Stress que vous le souhaitez pour créer autant de couches supplémentaires. Lorsqu’un adversaire effectue une attaque contre vous, lancez autant de d6 que de couches encore actives. Si au moins un dé obtient 5 ou plus, une couche de l’aura est détruite et l’attaque échoue. Si tous les résultats sont de 4 ou moins, vous subissez les dégâts et ce sort prend fin."
+      }
+    },
+    "srd-2.0.domain-card.arcana.counterspell": {
+      "name": "Contresort",
+      "system": {
+        "description": "Vous pouvez interrompre un effet magique en cours en effectuant un jet de réaction avec votre trait d’Incantation. En cas de réussite, l’effet s’arrête, toutes ses conséquences sont évitées et cette carte est placée dans votre réserve."
+      }
+    },
+    "srd-2.0.domain-card.arcana.earthquake": {
+      "name": "Séisme",
+      "system": {
+        "description": "Effectuez un jet d’Incantation (16). Une fois par repos, en cas de réussite, toutes les cibles à portée Très lointaine qui ne volent pas doivent effectuer un jet de réaction (18). Celles qui échouent subissent 3d10+8 dégâts physiques et deviennent temporairement Vulnérables. Celles qui réussissent subissent la moitié des dégâts. De plus, lorsque vous réussissez le jet d’Incantation, tout le terrain à portée Très lointaine devient difficile à traverser et les structures situées dans cette zone peuvent être endommagées ou s’effondrer."
+      }
+    },
+    "srd-2.0.domain-card.arcana.falling-sky": {
+      "name": "Ciel effondré",
+      "system": {
+        "description": "Effectuez un jet d’Incantation contre tous les adversaires à portée Lointaine. Cochez autant de Stress que vous le souhaitez pour faire pleuvoir des éclats d’énergie arcanique depuis les hauteurs. Les cibles contre lesquelles vous réussissez subissent 1d20+2 dégâts magiques pour chaque Stress coché."
+      }
+    },
+    "srd-2.0.domain-card.arcana.flight": {
+      "name": "Vol",
+      "system": {
+        "description": "Effectuez un jet d’Incantation (15). En cas de réussite, placez sur cette carte un nombre de jetons égal à votre Agilité (minimum 1). Lorsque vous effectuez un jet d’action en volant, dépensez un jeton de cette carte. Une fois résolue l’action qui dépense le dernier jeton, vous redescendez au sol directement sous votre position."
+      }
+    },
+    "srd-2.0.domain-card.arcana.floating-eye": {
+      "name": "Œil flottant",
+      "system": {
+        "description": "Dépensez 1 Espoir pour créer un petit orbe flottant que vous pouvez déplacer n’importe où à portée Très lointaine. Tant que ce sort est actif, vous pouvez voir à travers l’orbe comme si vous regardiez depuis sa position. Vous pouvez librement alterner entre vos propres sens et la vision de l’orbe. Si l’orbe subit des dégâts ou sort de portée, le sort prend fin."
+      }
+    },
+    "srd-2.0.domain-card.arcana.premonition": {
+      "name": "Prémonition",
+      "system": {
+        "description": "Vous pouvez canaliser l’énergie arcanique pour recevoir des visions du futur. Une fois par repos long, immédiatement après que le MJ vous a annoncé les conséquences d’un jet que vous avez effectué, vous pouvez annuler l’action et ses conséquences comme si elles n’avaient jamais eu lieu, puis effectuer une autre action à la place."
+      }
+    },
+    "srd-2.0.domain-card.arcana.preservation-blast": {
+      "name": "Déflagration protectrice",
+      "system": {
+        "description": "Effectuez un jet d’Incantation contre toutes les cibles à portée de Corps à corps. Les cibles contre lesquelles vous réussissez sont repoussées jusqu’à portée Lointaine et subissent d8+3 dégâts magiques en utilisant votre trait d’Incantation."
+      }
+    },
+    "srd-2.0.domain-card.arcana.rift-walker": {
+      "name": "Marcheur des failles",
+      "system": {
+        "description": "Effectuez un jet d’Incantation (15). En cas de réussite, vous placez une marque arcanique sur le sol à l’endroit où vous vous trouvez. La prochaine fois que vous lancez avec succès Marcheur des failles, une faille dans l’espace s’ouvre et offre un passage sûr vers l’endroit exact où la marque a été placée. Cette faille reste ouverte jusqu’à ce que vous choisissiez de la fermer ou que vous lanciez un autre sort. Vous pouvez mettre fin au sort à tout moment pour lancer de nouveau Marcheur des failles et placer la marque ailleurs."
+      }
+    },
+    "srd-2.0.domain-card.arcana.rune-ward": {
+      "name": "Garde runique",
+      "system": {
+        "description": "Vous possédez un bibelot très personnel qui peut être imprégné de magie protectrice et porté comme une garde par vous ou un allié. Décrivez-le et expliquez pourquoi il compte pour vous. Le porteur de la garde peut dépenser 1 Espoir pour réduire de 1d8 les dégâts qu’il devrait subir. Si le résultat du dé de Garde est 8, le pouvoir de la garde prend fin après avoir réduit les dégâts ce tour-ci. Elle peut être rechargée gratuitement lors de votre prochain repos."
+      }
+    },
+    "srd-2.0.domain-card.arcana.sensory-projection": {
+      "name": "Projection sensorielle",
+      "system": {
+        "description": "Une fois par repos, effectuez un jet d’Incantation (15). En cas de réussite, vous plongez dans une vision qui vous permet de voir et d’entendre clairement n’importe quel lieu où vous vous êtes déjà rendu, comme si vous vous y trouviez à cet instant. Vous pouvez vous déplacer librement dans cette vision sans être limité par les lois physiques ni les obstacles d’un corps matériel. Ce sort ne peut être détecté par des moyens ordinaires ou magiques. Vous quittez la vision si vous subissez des dégâts ou lancez un autre sort."
+      }
+    },
+    "srd-2.0.domain-card.arcana.telekinesis": {
+      "name": "Télékinésie",
+      "system": {
+        "description": "Effectuez un jet d’Incantation contre une cible à portée Lointaine. En cas de réussite, vous pouvez la déplacer par la pensée n’importe où à portée Lointaine de sa position d’origine. Vous pouvez projeter la cible soulevée comme une attaque en effectuant un jet d’Incantation supplémentaire contre la seconde cible que vous tentez d’atteindre. En cas de réussite, infligez à cette seconde cible d12+4 dégâts physiques en utilisant votre Maîtrise. Le sort prend alors fin."
+      }
+    },
+    "srd-2.0.domain-card.arcana.unleash-chaos": {
+      "name": "Déchaîner le chaos",
+      "system": {
+        "description": "Au début d’une session, placez sur cette carte un nombre de jetons égal à votre trait d’Incantation. Effectuez un jet d’Incantation contre une cible à portée Lointaine et dépensez autant de jetons que vous le souhaitez pour canaliser l’énergie brute qui sommeille en vous et la déchaîner contre elle. En cas de réussite, lancez autant de d10 que de jetons dépensés et infligez à la cible autant de dégâts magiques. Cochez 1 Stress pour replacer sur cette carte des jetons jusqu’à concurrence de votre trait d’Incantation. À la fin de chaque session, retirez tous les jetons non dépensés."
+      }
+    },
+    "srd-2.0.domain-card.arcana.wall-walk": {
+      "name": "Marche murale",
+      "system": {
+        "description": "Dépensez 1 Espoir pour permettre à une créature que vous pouvez toucher de grimper sur les murs et les plafonds aussi facilement qu’elle marche au sol. Cet effet dure jusqu’à la fin de la scène ou jusqu’à ce que vous lanciez de nouveau Marche murale."
+      }
+    },
+    "srd-2.0.domain-card.blade.a-soldiers-bond": {
+      "name": "Lien du soldat",
+      "system": {
+        "description": "Une fois par repos long, lorsque vous complimentez quelqu’un ou lui posez une question sur quelque chose qu’il maîtrise, vous pouvez tous les deux gagner 3 Espoir."
+      }
+    },
+    "srd-2.0.domain-card.blade.battle-cry": {
+      "name": "Cri de guerre",
+      "system": {
+        "description": "Une fois par repos long, lorsque vous vous précipitez vers le danger, vous pouvez pousser un cri galvanisant qui inspire vos alliés. Tous les alliés qui peuvent vous entendre effacent chacun 1 Stress et gagnent 1 Espoir. De plus, vos alliés ont l’avantage sur leurs jets d’attaque jusqu’à ce que vous ou un allié obteniez un échec avec Peur."
+      }
+    },
+    "srd-2.0.domain-card.blade.battle-hardened": {
+      "name": "Aguerri",
+      "system": {
+        "description": "Une fois par repos long, lorsque vous devriez effectuer une Action de mort, vous pouvez dépenser 1 Espoir pour effacer 1 Point de vie à la place."
+      }
+    },
+    "srd-2.0.domain-card.blade.battle-monster": {
+      "name": "Monstre de bataille",
+      "system": {
+        "description": "Lorsque vous réussissez une attaque contre un adversaire, vous pouvez marquer 4 Stress pour forcer la cible à marquer un nombre de Points de vie égal au nombre de Points de vie que vous avez actuellement marqués, au lieu d’effectuer un jet de dégâts."
+      }
+    },
+    "srd-2.0.domain-card.blade.blade-touched": {
+      "name": "Touché par la Lame",
+      "system": {
+        "description": "Lorsque 4 cartes ou plus de votre sélection active appartiennent au domaine de la Lame, vous bénéficiez des avantages suivants :\n◦ +2 à vos jets d’attaque\n◦ +4 à votre seuil de dégâts Sévères"
+      }
+    },
+    "srd-2.0.domain-card.blade.champions-edge": {
+      "name": "Tranchant du champion",
+      "system": {
+        "description": "Lorsque vous obtenez une réussite critique sur une attaque, vous pouvez dépenser jusqu’à 3 Espoir et choisir une des options suivantes pour chaque Espoir dépensé :\n◦ Effacez 1 Point de vie.\n◦ Effacez 1 emplacement d’Armure.\n◦ La cible doit marquer 1 Point de vie supplémentaire.\nVous ne pouvez pas choisir la même option plus d’une fois."
+      }
+    },
+    "srd-2.0.domain-card.blade.deadly-focus": {
+      "name": "Concentration mortelle",
+      "system": {
+        "description": "Une fois par repos, vous pouvez concentrer toute votre attention sur une cible de votre choix. Jusqu’à ce que vous attaquiez une autre créature, que vous vainquiez la cible ou que le combat prenne fin, gagnez +1 en Maîtrise."
+      }
+    },
+    "srd-2.0.domain-card.blade.fortified-armor": {
+      "name": "Armure fortifiée",
+      "system": {
+        "description": "Tant que vous portez une armure, gagnez +2 à vos seuils de dégâts."
+      }
+    },
+    "srd-2.0.domain-card.blade.frenzy": {
+      "name": "Frénésie",
+      "system": {
+        "description": "Une fois par repos long, vous pouvez entrer en Frénésie jusqu’à ce qu’il n’y ait plus aucun adversaire en vue.\nTant que vous êtes en Frénésie, vous ne pouvez pas utiliser vos emplacements d’Armure, et vous gagnez +10 à vos jets de dégâts ainsi que +8 à votre seuil de dégâts Sévères."
+      }
+    },
+    "srd-2.0.domain-card.blade.get-back-up": {
+      "name": "Relève-toi",
+      "system": {
+        "description": "Lorsque vous subissez des dégâts Sévères, vous pouvez marquer 1 Stress pour réduire leur gravité d’un seuil."
+      }
+    },
+    "srd-2.0.domain-card.blade.glancing-blow": {
+      "name": "Coup dévié",
+      "system": {
+        "description": "Lorsque vous échouez à une attaque, vous pouvez marquer 1 Stress pour infliger les dégâts de votre arme en utilisant la moitié de votre Maîtrise."
+      }
+    },
+    "srd-2.0.domain-card.blade.gore-and-glory": {
+      "name": "Sang et gloire",
+      "system": {
+        "description": "Lorsque vous obtenez une réussite critique sur une attaque avec une arme, gagnez 1 Espoir supplémentaire ou effacez 1 Stress supplémentaire.\nDe plus, lorsque vous infligez suffisamment de dégâts pour vaincre un ennemi, gagnez 1 Espoir ou effacez 1 Stress."
+      }
+    },
+    "srd-2.0.domain-card.blade.not-good-enough": {
+      "name": "Pas assez bon",
+      "system": {
+        "description": "Lorsque vous lancez vos dés de dégâts, vous pouvez relancer tous les 1 et les 2."
+      }
+    },
+    "srd-2.0.domain-card.blade.onslaught": {
+      "name": "Assaut",
+      "system": {
+        "description": "Lorsque vous réussissez une attaque avec votre arme, vous n’infligez jamais des dégâts inférieurs au seuil de dégâts Majeurs de la cible (la cible marque toujours au minimum 2 Points de vie).\nDe plus, lorsqu’une créature à portée de votre arme inflige des dégâts à un allié avec une attaque qui ne vous inclut pas, vous pouvez marquer 1 Stress pour la forcer à effectuer un jet de réaction (15). En cas d’échec, la cible doit marquer 1 Point de vie."
+      }
+    },
+    "srd-2.0.domain-card.blade.rage-up": {
+      "name": "Montée de rage",
+      "system": {
+        "description": "Avant d’effectuer une attaque, vous pouvez marquer 1 Stress pour gagner un bonus à votre jet de dégâts égal au double de votre Force. Vous pouvez utiliser Montée de rage deux fois par attaque."
+      }
+    },
+    "srd-2.0.domain-card.blade.reapers-strike": {
+      "name": "Frappe du faucheur",
+      "system": {
+        "description": "Une fois par repos long, dépensez 1 Espoir pour effectuer un jet d’attaque. Le MJ vous indique contre quelles cibles à portée ce jet réussirait. Choisissez l’une de ces cibles et forcez-la à marquer 5 Points de vie."
+      }
+    },
+    "srd-2.0.domain-card.blade.reckless": {
+      "name": "Téméraire",
+      "system": {
+        "description": "Marquez 1 Stress pour obtenir l’avantage sur une attaque."
+      }
+    },
+    "srd-2.0.domain-card.blade.scramble": {
+      "name": "Ruée",
+      "system": {
+        "description": "Une fois par repos, lorsqu’une créature à portée de Mêlée devrait vous infliger des dégâts, vous pouvez éviter l’attaque et vous déplacer en sécurité hors de sa portée de Mêlée."
+      }
+    },
+    "srd-2.0.domain-card.blade.versatile-fighter": {
+      "name": "Combattant polyvalent",
+      "system": {
+        "description": "Vous pouvez utiliser un autre trait de personnage pour une arme équipée à la place du trait normalement requis par cette arme.\nLorsque vous infligez des dégâts, vous pouvez marquer 1 Stress pour utiliser le résultat maximal de l’un de vos dés de dégâts au lieu de le lancer."
+      }
+    },
+    "srd-2.0.domain-card.blade.vitality": {
+      "name": "Vitalité",
+      "system": {
+        "description": "Lorsque vous choisissez cette carte, gagnez définitivement deux des bénéfices suivants :\n◦ 1 emplacement de Stress\n◦ 1 emplacement de Point de vie\n◦ +2 à vos seuils de dégâts\nPlacez ensuite définitivement cette carte dans votre réserve."
+      }
+    },
+    "srd-2.0.domain-card.blade.whirlwind": {
+      "name": "Tourbillon",
+      "system": {
+        "description": "Lorsque vous réussissez une attaque contre une cible à portée Très proche, vous pouvez dépenser 1 Espoir pour utiliser cette attaque contre toutes les autres cibles à portée Très proche. Tous les adversaires supplémentaires contre lesquels vous réussissez grâce à cette capacité subissent la moitié des dégâts."
+      }
+    },
+    "srd-2.0.domain-card.bone.bone-touched": {
+      "name": "Touché par l’Os",
+      "system": {
+        "description": "Lorsque 4 cartes ou plus de votre sélection active appartiennent au domaine de l’Os, vous bénéficiez des avantages suivants :\n◦ +1 en Agilité.\n◦ Une fois par repos, vous pouvez dépenser 3 Espoir pour faire échouer à la place une attaque qui avait réussi contre vous."
+      }
+    },
+    "srd-2.0.domain-card.bone.boost": {
+      "name": "Impulsion",
+      "system": {
+        "description": "Marquez 1 Stress pour prendre appui sur un allié consentant à portée Proche, vous projeter dans les airs et effectuer une attaque aérienne contre une cible à portée Lointaine. Vous avez l’avantage sur l’attaque, ajoutez un d10 au jet de dégâts et terminez votre déplacement à portée de Mêlée de la cible."
+      }
+    },
+    "srd-2.0.domain-card.bone.brace": {
+      "name": "Se camper",
+      "system": {
+        "description": "Lorsque vous marquez un emplacement d’Armure pour réduire des dégâts reçus, vous pouvez marquer 1 Stress pour marquer un emplacement d’Armure supplémentaire."
+      }
+    },
+    "srd-2.0.domain-card.bone.breaking-blow": {
+      "name": "Coup brisant",
+      "system": {
+        "description": "Lorsque vous réussissez une attaque, vous pouvez marquer 1 Stress pour que la prochaine attaque réussie contre cette même cible inflige 2d12 dégâts supplémentaires."
+      }
+    },
+    "srd-2.0.domain-card.bone.cruel-precision": {
+      "name": "Précision cruelle",
+      "system": {
+        "description": "Lorsque vous réussissez une attaque avec une arme, gagnez un bonus à votre jet de dégâts égal à votre Finesse ou à votre Agilité."
+      }
+    },
+    "srd-2.0.domain-card.bone.deathrun": {
+      "name": "Course mortelle",
+      "system": {
+        "description": "Dépensez 3 Espoir pour courir en ligne droite à travers le champ de bataille jusqu’à un point à portée Lointaine, en effectuant une attaque contre tous les adversaires à portée de votre arme le long de ce trajet. Choisissez l’ordre dans lequel vous infligez les dégâts aux cibles contre lesquelles vous avez réussi. Pour la première, lancez les dégâts de votre arme avec un bonus de +1 à votre Maîtrise. Retirez ensuite un dé de votre jet de dégâts et infligez les dégâts restants à la cible suivante. Continuez à retirer un dé pour chaque cible suivante jusqu’à ce que vous n’ayez plus de dés de dégâts ou d’adversaires.\nVous ne pouvez pas cibler le même adversaire plus d’une fois par attaque."
+      }
+    },
+    "srd-2.0.domain-card.bone.deft-maneuvers": {
+      "name": "Manœuvres habiles",
+      "system": {
+        "description": "Une fois par repos, marquez 1 Stress pour sprinter jusqu’à n’importe quel point à portée Lointaine sans effectuer de jet d’Agilité pour vous y rendre.\nSi vous terminez ce déplacement à portée de Mêlée d’un adversaire et effectuez immédiatement une attaque contre lui, gagnez un bonus de +1 au jet d’attaque."
+      }
+    },
+    "srd-2.0.domain-card.bone.ferocity": {
+      "name": "Férocité",
+      "system": {
+        "description": "Lorsque vous forcez un adversaire à marquer 1 Point de vie ou plus, vous pouvez dépenser 2 Espoir pour augmenter votre Esquive du nombre de Points de vie qu’il a marqués. Ce bonus dure jusqu’après la prochaine attaque effectuée contre vous."
+      }
+    },
+    "srd-2.0.domain-card.bone.i-see-it-coming": {
+      "name": "Je le vois venir",
+      "system": {
+        "description": "Lorsque vous êtes ciblé par une attaque effectuée depuis au-delà de la portée de Mêlée, vous pouvez marquer 1 Stress pour lancer un d4 et gagner contre cette attaque un bonus à votre Esquive égal au résultat."
+      }
+    },
+    "srd-2.0.domain-card.bone.know-thy-enemy": {
+      "name": "Connais ton ennemi",
+      "system": {
+        "description": "Lorsque vous observez une créature, vous pouvez effectuer un jet d’Instinct contre elle. En cas de réussite, dépensez 1 Espoir et demandez au MJ un ensemble d’informations parmi les options suivantes :\n◦ Ses Points de vie et son Stress non marqués.\n◦ Sa Difficulté et ses seuils de dégâts.\n◦ Ses tactiques et les dés de dégâts de son attaque standard.\n◦ Ses capacités et ses Expériences.\nDe plus, en cas de réussite, vous pouvez marquer 1 Stress pour retirer 1 Peur de la réserve de Peur du MJ."
+      }
+    },
+    "srd-2.0.domain-card.bone.on-the-brink": {
+      "name": "Au bord du gouffre",
+      "system": {
+        "description": "Lorsque vous avez 2 Points de vie non marqués ou moins, vous ne subissez pas de dégâts Mineurs."
+      }
+    },
+    "srd-2.0.domain-card.bone.rapid-riposte": {
+      "name": "Riposte rapide",
+      "system": {
+        "description": "Lorsqu’une attaque effectuée contre vous depuis la portée de Mêlée échoue, vous pouvez marquer 1 Stress et saisir l’occasion pour infliger à l’attaquant les dégâts d’arme de l’une de vos armes actives."
+      }
+    },
+    "srd-2.0.domain-card.bone.recovery": {
+      "name": "Récupération",
+      "system": {
+        "description": "Pendant un repos court, vous pouvez choisir à la place une action de temps libre de repos long. Vous pouvez dépenser 1 Espoir pour permettre à un allié de faire de même."
+      }
+    },
+    "srd-2.0.domain-card.bone.redirect": {
+      "name": "Redirection",
+      "system": {
+        "description": "Lorsqu’une attaque effectuée contre vous depuis au-delà de la portée de Mêlée échoue, lancez un nombre de d6 égal à votre Maîtrise. Si au moins l’un d’eux obtient un 6, vous pouvez marquer 1 Stress pour rediriger l’attaque afin qu’elle inflige ses dégâts à un adversaire à portée Très proche à la place."
+      }
+    },
+    "srd-2.0.domain-card.bone.signature-move": {
+      "name": "Botte signature",
+      "system": {
+        "description": "Nommez et décrivez votre botte de combat signature. Une fois par repos, lorsque vous exécutez cette botte dans le cadre d’une action, vous pouvez lancer un d20 comme dé d’Espoir. En cas de réussite, effacez 1 Stress."
+      }
+    },
+    "srd-2.0.domain-card.bone.splintering-strike": {
+      "name": "Frappe éclatante",
+      "system": {
+        "description": "Dépensez 1 Espoir et effectuez une attaque contre tous les adversaires à portée de votre arme. Une fois par repos long, si vous réussissez contre au moins une cible, lancez les dégâts de votre arme et répartissez ces dégâts comme vous le souhaitez entre les cibles contre lesquelles vous avez réussi. Avant d’infliger les dégâts à chaque cible, lancez un dé de dégâts supplémentaire et ajoutez son résultat aux dégâts que vous lui infligez."
+      }
+    },
+    "srd-2.0.domain-card.bone.strategic-approach": {
+      "name": "Approche stratégique",
+      "system": {
+        "description": "Après un repos long, placez sur cette carte un nombre de jetons égal à votre Savoir (minimum 1). La première fois que vous vous déplacez à portée Proche d’un adversaire et effectuez une attaque contre lui, vous pouvez dépenser un jeton pour choisir l’une des options suivantes :\n◦ Effectuez l’attaque avec l’avantage.\n◦ Effacez 1 Stress d’un allié à portée de Mêlée de l’adversaire.\n◦ Ajoutez un d8 à votre jet de dégâts.\nLorsque vous effectuez un repos long, retirez tous les jetons non dépensés."
+      }
+    },
+    "srd-2.0.domain-card.bone.swift-step": {
+      "name": "Pas vif",
+      "system": {
+        "description": "Lorsqu’une attaque effectuée contre vous échoue, effacez 1 Stress. Si vous ne pouvez pas effacer de Stress, gagnez 1 Espoir."
+      }
+    },
+    "srd-2.0.domain-card.bone.tactician": {
+      "name": "Tacticien",
+      "system": {
+        "description": "Lorsque vous Aidez un allié, il peut dépenser 1 Espoir pour ajouter l’une de vos Expériences à son jet en plus de votre dé d’avantage.\nLorsque vous effectuez un jet d’Équipe, vous pouvez lancer un d20 comme dé d’Espoir."
+      }
+    },
+    "srd-2.0.domain-card.bone.untouchable": {
+      "name": "Intouchable",
+      "system": {
+        "description": "Gagnez un bonus à votre Esquive égal à la moitié de votre Agilité."
+      }
+    },
+    "srd-2.0.domain-card.bone.wrangle": {
+      "name": "Maîtrise forcée",
+      "system": {
+        "description": "Effectuez un jet d’Agilité contre toutes les cibles à portée Proche. Dépensez 1 Espoir pour déplacer les cibles contre lesquelles vous réussissez, ainsi que tout allié consentant à portée Proche, vers un autre point à portée Proche."
+      }
+    },
+    "srd-2.0.domain-card.codex.banish": {
+      "name": "Bannissement",
+      "system": {
+        "description": "Effectuez un jet d’incantation contre une cible à portée proche. En cas de réussite, lancez un nombre de d20 égal à votre trait d’Incantation. La cible doit effectuer un jet de réaction avec une Difficulté égale à votre résultat le plus élevé. En cas de réussite, la cible doit marquer 1 Stress mais n’est pas bannie. Une fois par repos, en cas d’échec, elle est bannie de ce royaume.\nLorsque les PJ obtiennent un résultat avec Peur, la Difficulté subit un malus de −1 et la cible effectue un nouveau jet de réaction. En cas de réussite, elle revient de son bannissement."
+      }
+    },
+    "srd-2.0.domain-card.codex.book-of-ava": {
+      "name": "Livre de Ava",
+      "system": {
+        "description": "Poussée de puissance : Effectuez un jet d’incantation contre une cible à portée de mêlée. En cas de réussite, elle est repoussée jusqu’à portée lointaine et subit d10+2 dégâts magiques en utilisant votre Maîtrise.\nArmure de Tava : Dépensez 1 Espoir pour accorder à une cible que vous pouvez toucher un bonus de +1 à sa Valeur d’armure jusqu’à son prochain repos ou jusqu’à ce que vous lanciez de nouveau Armure de Tava.\nPointe de glace : Effectuez un jet d’incantation (12) pour invoquer une grande pointe de glace à portée lointaine. Si vous l’utilisez comme arme, effectuez plutôt le jet d’incantation contre la Difficulté de la cible. En cas de réussite, infligez d6 dégâts physiques en utilisant votre Maîtrise."
+      }
+    },
+    "srd-2.0.domain-card.codex.book-of-exota": {
+      "name": "Livre de Exota",
+      "system": {
+        "description": "Répudiation : Vous pouvez interrompre un effet magique en cours. Effectuez un jet de réaction en utilisant votre trait d’Incantation. Une fois par repos, en cas de réussite, l’effet s’arrête et toutes ses conséquences sont évitées.\nCréer une construction : Dépensez 1 Espoir pour choisir un groupe d’objets autour de vous et en créer une construction animée qui obéit à des ordres simples. Effectuez un jet d’incantation pour lui ordonner d’agir. Lorsque nécessaire, elle partage votre Esquive et vos traits, et ses attaques infligent 2d10+3 dégâts physiques. Vous ne pouvez maintenir qu’une seule construction à la fois, et elle se désagrège dès qu’elle subit des dégâts."
+      }
+    },
+    "srd-2.0.domain-card.codex.book-of-grynn": {
+      "name": "Livre de Grynn",
+      "system": {
+        "description": "Déflexion arcanique : Une fois par repos long, dépensez 1 Espoir pour annuler les dégâts d’une attaque qui vous cible ou cible un allié à portée très proche.\nVerrou temporel : Ciblez un objet à portée lointaine. Cet objet s’immobilise dans le temps et l’espace exactement là où il se trouve jusqu’à votre prochain repos. Si une créature tente de le déplacer, effectuez un jet d’incantation contre elle pour maintenir ce sort.\nMur de flammes : Effectuez un jet d’incantation (15). En cas de réussite, créez un mur temporaire de flammes magiques entre deux points à portée lointaine. Toutes les créatures sur sa trajectoire doivent choisir de quel côté elles se trouvent, et tout ce qui traverse ensuite le mur subit 4d10+3 dégâts magiques."
+      }
+    },
+    "srd-2.0.domain-card.codex.book-of-homet": {
+      "name": "Livre de Homet",
+      "system": {
+        "description": "Traversée : Effectuez un jet d’incantation (13). Une fois par repos, en cas de réussite, vous et toutes les créatures qui vous touchent pouvez traverser un mur ou une porte à portée proche. L’effet prend fin lorsque tout le monde est passé de l’autre côté.\nPorte planaire : Effectuez un jet d’incantation (14). Une fois par repos long, en cas de réussite, ouvrez un passage vers un lieu d’une autre dimension ou d’un autre plan d’existence où vous êtes déjà allé. Ce passage demeure jusqu’à votre prochain repos."
+      }
+    },
+    "srd-2.0.domain-card.codex.book-of-illiat": {
+      "name": "Livre de Illiat",
+      "system": {
+        "description": "Sommeil : Effectuez un jet d’incantation contre une cible à portée très proche. En cas de réussite, elle est Endormie jusqu’à ce qu’elle subisse des dégâts ou que le MJ dépense 1 Peur pendant son tour pour mettre fin à cet état.\nBarrage arcanique : Une fois par repos, dépensez autant d’Espoir que vous le souhaitez et projetez des projectiles magiques qui frappent une cible de votre choix à portée proche. Lancez un nombre de d6 égal à l’Espoir dépensé et infligez à la cible autant de dégâts magiques que le total obtenu.\nTélépathie : Dépensez 1 Espoir pour établir une communication mentale avec une cible que vous pouvez voir. Cette connexion dure jusqu’à votre prochain repos ou jusqu’à ce que vous lanciez de nouveau Télépathie."
+      }
+    },
+    "srd-2.0.domain-card.codex.book-of-korvax": {
+      "name": "Livre de Korvax",
+      "system": {
+        "description": "Lévitation : Effectuez un jet d’incantation pour soulever temporairement dans les airs une cible que vous pouvez voir et la déplacer à portée proche de sa position d’origine.\nRétractation : Dépensez 1 Espoir pour forcer une cible à portée de mêlée à effectuer un jet de réaction (15). En cas d’échec, elle oublie la dernière minute de votre conversation.\nCercle runique : Marquez 1 Stress pour créer un cercle magique temporaire au sol à l’endroit où vous vous tenez. Tous les adversaires à portée de mêlée, ou qui entrent à portée de mêlée, subissent 2d12+4 dégâts magiques et sont repoussés jusqu’à portée très proche."
+      }
+    },
+    "srd-2.0.domain-card.codex.book-of-norai": {
+      "name": "Livre de Norai",
+      "system": {
+        "description": "Lien mystique : Effectuez un jet d’incantation contre une cible à portée lointaine. En cas de réussite, elle est temporairement Entravée et doit marquer 1 Stress. Si vous ciblez une créature volante, ce sort la force à atterrir et l’Entrave temporairement.\nBoule de feu : Effectuez un jet d’incantation contre une cible à portée très lointaine. En cas de réussite, projetez vers elle une sphère de feu qui explose à l’impact. La cible et toutes les créatures à portée très proche d’elle doivent effectuer un jet de réaction (13). Les cibles qui échouent subissent d20+5 dégâts magiques en utilisant votre Maîtrise. Celles qui réussissent subissent la moitié de ces dégâts."
+      }
+    },
+    "srd-2.0.domain-card.codex.book-of-ronin": {
+      "name": "Livre de Ronin",
+      "system": {
+        "description": "Transformation : Effectuez un jet d’incantation (15). En cas de réussite, transformez-vous en un objet inanimé dont la taille ne dépasse pas deux fois votre taille normale. Vous pouvez conserver cette forme jusqu’à ce que vous subissiez des dégâts.\nÉnervation éternelle : Une fois par repos long, effectuez un jet d’incantation contre une cible à portée proche. En cas de réussite, elle devient définitivement Vulnérable. Elle ne peut mettre fin à cet état par aucun moyen."
+      }
+    },
+    "srd-2.0.domain-card.codex.book-of-sitil": {
+      "name": "Livre de Sitil",
+      "system": {
+        "description": "Modifier l’apparence : Vous modifiez magiquement votre apparence et vos vêtements afin de ne pas être reconnu.\nParallela : Dépensez 2 Espoir pour lancer ce sort sur vous-même ou un allié à portée proche. La prochaine fois que la cible effectue une attaque, elle peut toucher une cible supplémentaire à portée contre laquelle son jet d’attaque aurait réussi. Vous ne pouvez maintenir ce sort que sur une seule créature à la fois.\nIllusion : Effectuez un jet d’incantation (14). En cas de réussite, créez à portée proche une illusion visuelle temporaire qui ne dépasse pas votre taille et dure tant que vous la regardez. Elle résiste à l’examen jusqu’à ce qu’un observateur soit à portée de mêlée."
+      }
+    },
+    "srd-2.0.domain-card.codex.book-of-tyfar": {
+      "name": "Livre de Tyfar",
+      "system": {
+        "description": "Flamme sauvage : Effectuez un jet d’incantation contre jusqu’à trois adversaires à portée de mêlée. Les cibles contre lesquelles vous réussissez subissent 2d6 dégâts magiques et doivent marquer 1 Stress tandis que des flammes jaillissent de votre main.\nMain magique : Vous invoquez à portée lointaine une main magique de la même taille et de la même force que la vôtre.\nBrume mystérieuse : Effectuez un jet d’incantation (13) pour créer un épais brouillard temporaire dans une zone fixe à portée très proche. Le brouillard masque fortement cette zone et tout ce qui s’y trouve."
+      }
+    },
+    "srd-2.0.domain-card.codex.book-of-vagras": {
+      "name": "Livre de Vagras",
+      "system": {
+        "description": "Verrou runique : Effectuez un jet d’incantation (15) sur un objet que vous touchez et qui peut se fermer (comme une serrure, un coffre ou une boîte). Une fois par repos, en cas de réussite, vous pouvez verrouiller l’objet afin que seules les créatures de votre choix puissent l’ouvrir. Une personne ayant accès à la magie et une heure pour étudier le sort peut le briser.\nPorte arcanique : Lorsque vous n’avez aucun adversaire à portée de mêlée, effectuez un jet d’incantation (13). En cas de réussite, dépensez 1 Espoir pour créer un portail entre votre position et un point à portée lointaine que vous pouvez voir. Il se referme après le passage d’une créature.\nRévélation : Effectuez un jet d’incantation. Si quelque chose est caché par magie à portée proche, il est révélé."
+      }
+    },
+    "srd-2.0.domain-card.codex.book-of-vyola": {
+      "name": "Livre de Vyola",
+      "system": {
+        "description": "Exploration mémorielle : Effectuez un jet d’incantation contre une cible à portée lointaine. En cas de réussite, sondez l’esprit de la cible et posez une question au MJ. Le MJ décrit tous les souvenirs de la cible en rapport avec la réponse.\nClarté partagée : Une fois par repos long, dépensez 1 Espoir pour choisir deux créatures consentantes. Lorsque l’une d’elles devrait marquer du Stress, elles peuvent choisir laquelle des deux le marque. Ce sort dure jusqu’à leur prochain repos."
+      }
+    },
+    "srd-2.0.domain-card.codex.book-of-yarrow": {
+      "name": "Livre de Yarrow",
+      "system": {
+        "description": "Blocage temporel : Effectuez un jet d’incantation (18). En cas de réussite, le temps ralentit temporairement jusqu’à s’arrêter pour tous ceux qui se trouvent à portée lointaine, sauf vous. Il reprend la prochaine fois que vous effectuez un jet d’action qui cible une autre créature.\nImmunité magique : Dépensez 5 Espoir pour devenir immunisé aux dégâts magiques jusqu’à votre prochain repos."
+      }
+    },
+    "srd-2.0.domain-card.codex.codex-touched": {
+      "name": "Touché par le Codex",
+      "system": {
+        "description": "Lorsque 4 cartes ou plus de votre sélection active appartiennent au domaine du Codex, vous bénéficiez des avantages suivants :\n◦ Vous pouvez marquer 1 Stress pour ajouter votre Maîtrise à un jet d’incantation.\n◦ Une fois par repos, remplacez cette carte par n’importe quelle carte de votre réserve sans payer son Coût de rappel."
+      }
+    },
+    "srd-2.0.domain-card.codex.disintegration-wave": {
+      "name": "Onde de désintégration",
+      "system": {
+        "description": "Effectuez un jet d’incantation (18). Une fois par repos long, en cas de réussite, le MJ vous indique quels adversaires à portée lointaine ont une Difficulté de 18 ou moins. Marquez 1 Stress pour chacun de ceux que vous souhaitez toucher avec ce sort. Ils sont tués et ne peuvent revenir à la vie par aucun moyen."
+      }
+    },
+    "srd-2.0.domain-card.codex.manifest-wall": {
+      "name": "Mur manifesté",
+      "system": {
+        "description": "Effectuez un jet d’incantation (15). Une fois par repos, en cas de réussite, dépensez 1 Espoir pour créer un mur magique temporaire entre deux points à portée lointaine. Il peut mesurer jusqu’à 50 pieds de haut et prendre n’importe quel angle. Les créatures ou objets sur sa trajectoire sont repoussés du côté de votre choix. Le mur demeure jusqu’à votre prochain repos ou jusqu’à ce que vous lanciez de nouveau Mur manifesté."
+      }
+    },
+    "srd-2.0.domain-card.codex.safe-haven": {
+      "name": "Havre sûr",
+      "system": {
+        "description": "Lorsque vous disposez de quelques minutes de calme pour vous concentrer, vous pouvez dépenser 2 Espoir pour invoquer votre Havre sûr, une vaste demeure interdimensionnelle où vous et vos alliés pouvez vous abriter. Lorsque vous le faites, une porte magique apparaît quelque part à portée proche. Seules les créatures de votre choix peuvent entrer. Une fois à l’intérieur, vous pouvez rendre l’entrée invisible. Vous et toutes les personnes à l’intérieur pouvez toujours en sortir. Une fois que vous partez, la porte doit être invoquée de nouveau.\nLorsque vous prenez un repos dans votre propre Havre sûr, vous pouvez choisir une action de temps mort supplémentaire."
+      }
+    },
+    "srd-2.0.domain-card.codex.sigil-of-retribution": {
+      "name": "Sceau de rétribution",
+      "system": {
+        "description": "Marquez d’un sceau de rétribution un adversaire à portée proche. Le MJ gagne 1 Peur. Lorsque l’adversaire marqué vous inflige des dégâts ou en inflige à vos alliés, placez un d8 sur cette carte. Vous pouvez conserver sur cette carte un nombre de d8 égal à votre niveau. Lorsque vous réussissez une attaque contre l’adversaire marqué, lancez les dés placés sur cette carte et ajoutez leur total à votre jet de dégâts, puis retirez les dés. Cet effet prend fin lorsque l’adversaire marqué est vaincu ou lorsque vous lancez de nouveau Sceau de rétribution."
+      }
+    },
+    "srd-2.0.domain-card.codex.teleport": {
+      "name": "Téléportation",
+      "system": {
+        "description": "Une fois par repos long, vous pouvez vous téléporter instantanément, ainsi que n’importe quel nombre de cibles consentantes à portée proche, vers un lieu où vous êtes déjà allé. Choisissez l’une des options suivantes, puis effectuez un jet d’incantation (16) :\n◦ Si vous connaissez très bien le lieu, gagnez un bonus de +3.\n◦ Si vous l’avez visité fréquemment, gagnez un bonus de +1.\n◦ Si vous l’avez visité rarement, n’appliquez aucun modificateur.\n◦ Si vous n’y êtes allé qu’une seule fois, subissez un malus de −2.\nEn cas de réussite, vous apparaissez à l’endroit prévu. En cas d’échec, vous apparaissez ailleurs, l’ampleur de l’échec déterminant à quelle distance de votre destination."
+      }
+    },
+    "srd-2.0.domain-card.codex.transcendent-union": {
+      "name": "Union transcendante",
+      "system": {
+        "description": "Une fois par repos long, dépensez 5 Espoir pour lancer ce sort sur au moins deux créatures consentantes. Jusqu’à votre prochain repos, lorsqu’une créature liée par cette union devrait marquer du Stress ou des Points de vie, les créatures liées peuvent choisir laquelle les marque."
+      }
+    },
+    "srd-2.0.domain-card.dread.avatar-of-terror": {
+      "name": "Avatar de terreur",
+      "system": {
+        "description": "Marquez 1 Stress pour vous transformer en une créature nourrie par la peur. Tant que vous êtes sous cette forme, vous gagnez un bonus de 1d6 à vos jets de dégâts pour chaque Peur dans la réserve du MJ. De plus, vous gagnez 1 Espoir lorsque le MJ dépense 1 Peur pour mettre en lumière un adversaire à portée très proche.\nAvant d’effectuer un jet d’action, vous devez dépenser 1 Espoir. Si vous ne le pouvez pas, vous reprenez votre forme normale."
+      }
+    },
+    "srd-2.0.domain-card.dread.blighting-strike": {
+      "name": "Frappe flétrissante",
+      "system": {
+        "description": "Effectuez un jet d’incantation contre une cible à portée lointaine. En cas de réussite :\n ◦ Sur un résultat avec Espoir, infligez d6+1 dégâts magiques en utilisant votre Maîtrise. Sur un résultat avec Peur, infligez d10+1 dégâts magiques en utilisant votre Maîtrise.\n ◦ La prochaine attaque réussie de la cible inflige la moitié des dégâts.\nEn cas d’échec, vous devez dépenser 1 Espoir ou marquer 1 Stress."
+      }
+    },
+    "srd-2.0.domain-card.dread.chains-of-affliction": {
+      "name": "Chaînes d’affliction",
+      "system": {
+        "description": "Marquez 2 Stress pour Enchaîner temporairement une cible à portée proche. Lorsqu’une créature Enchaînée inflige des dégâts, la cible de son attaque marque 1 Point de vie de moins que normalement. Vous ne pouvez avoir qu’une seule créature Enchaînée à la fois."
+      }
+    },
+    "srd-2.0.domain-card.dread.damnation": {
+      "name": "Damnation",
+      "system": {
+        "description": "Effectuez un jet d’incantation contre une cible à portée lointaine. En cas de réussite, marquez autant de Stress que vous le souhaitez pour lancer un nombre égal de d20 et infliger des dégâts magiques égaux au total obtenu. Si cette attaque vainc la cible, tous les adversaires à portée lointaine de celle-ci doivent marquer 1 Stress."
+      }
+    },
+    "srd-2.0.domain-card.dread.dark-army": {
+      "name": "Armée sombre",
+      "system": {
+        "description": "Effectuez un jet d’incantation (14). Une fois par repos long, en cas de réussite, vous pouvez invoquer des fiélons qui vous entourent et se déplacent avec vous. Placez 8 jetons sur cette carte. Lorsque vous infligez des dégâts à une cible à portée très proche, vous pouvez dépenser autant de jetons que vous le souhaitez pour ajouter 1d8 à votre jet de dégâts pour chaque jeton dépensé. De plus, lorsque vous subissez des dégâts, vous pouvez dépenser autant de jetons que vous le souhaitez pour réduire les dégâts de 1d8 pour chaque jeton dépensé. Chaque fois que vous dépensez un jeton, un fiélon agit en votre nom, puis disparaît.\nLorsque vous prenez un repos, retirez tous les jetons non dépensés."
+      }
+    },
+    "srd-2.0.domain-card.dread.darkfire": {
+      "name": "Feu sombre",
+      "system": {
+        "description": "Une fois par scène, dépensez autant d’Espoir que vous le souhaitez pour cibler un nombre égal d’adversaires à portée proche. Chaque cible effectue un jet de réaction (15). Les cibles qui échouent subissent d8+6 dégâts magiques en utilisant votre trait d’Incantation tandis qu’elles sont englouties par un feu sombre. Les cibles qui réussissent subissent la moitié des dégâts."
+      }
+    },
+    "srd-2.0.domain-card.dread.dire-strike": {
+      "name": "Frappe funeste",
+      "system": {
+        "description": "Lorsqu’une cible marque au moins 1 Point de vie à cause d’une attaque que vous effectuez, vous pouvez dépenser 1 Espoir pour lui soutirer de la puissance. Le MJ perd 1 Peur."
+      }
+    },
+    "srd-2.0.domain-card.dread.dread-touched": {
+      "name": "Touché par l’Effroi",
+      "system": {
+        "description": "Lorsque votre équipement actif contient au moins 4 cartes du domaine Dread, vous gagnez les bénéfices suivants :\n ◦ Lorsque vous réussissez avec Peur, vous pouvez marquer 2 Stress pour empêcher le MJ de gagner 1 Peur.\n ◦ Une fois par repos, lorsque vous effectuez un jet d’action, vous pouvez gagner un bonus au jet égal au nombre de Peurs dans la réserve du MJ."
+      }
+    },
+    "srd-2.0.domain-card.dread.eldritch-flesh": {
+      "name": "Chair occulte",
+      "system": {
+        "description": "Gagnez un bonus de +1 à vos seuils de dégâts pour chaque Stress que vous avez marqué.\nDe plus, lorsque vous obtenez un résultat avec Peur, vous pouvez dépenser 2 Espoir pour récupérer un emplacement d’armure."
+      }
+    },
+    "srd-2.0.domain-card.dread.hideous-retribution": {
+      "name": "Rétribution hideuse",
+      "system": {
+        "description": "Lorsqu’un allié à portée proche subit des dégâts d’une cible que vous voyez, vous pouvez effectuer un jet de réaction contre cette cible en utilisant votre trait d’Incantation. En cas de réussite, marquez 1 Stress pour infliger d6 dégâts magiques en utilisant votre Maîtrise."
+      }
+    },
+    "srd-2.0.domain-card.dread.horror": {
+      "name": "Horreur",
+      "system": {
+        "description": "Une fois par scène, marquez 1 Stress pour invoquer une créature d’un autre monde qui inflige d8+1 dégâts magiques en utilisant votre trait d’Incantation à une cible à portée lointaine. Si la cible marque au moins 1 Point de vie à cause de cette attaque, elle doit réussir un jet de réaction (12) pour résister à l’horreur, ou marquer un nombre de Stress égal au nombre de Points de vie qu’elle a marqués.\nAprès avoir effectué l’attaque, la créature se dissipe."
+      }
+    },
+    "srd-2.0.domain-card.dread.invoke-torment": {
+      "name": "Invoquer le tourment",
+      "system": {
+        "description": "Vous infligez le double de dégâts aux cibles dont tous les emplacements de Stress sont marqués.\nDe plus, lorsqu’un adversaire à portée proche est vaincu alors que tous ses emplacements de Stress sont marqués, vous gagnez 1 Espoir."
+      }
+    },
+    "srd-2.0.domain-card.dread.jump-scare": {
+      "name": "Sursaut d’effroi",
+      "system": {
+        "description": "Lorsque vous infligez des dégâts magiques à une cible, vous pouvez marquer 1 Stress pour vous téléporter à portée de mêlée avec elle. Lorsque vous le faites, elle est Vulnérable jusqu’à ce qu’elle marque au moins 1 Point de vie."
+      }
+    },
+    "srd-2.0.domain-card.dread.savor-the-anguish": {
+      "name": "Savourer l’angoisse",
+      "system": {
+        "description": "Lorsqu’un adversaire à portée proche subit des dégâts Sévères, vous pouvez récupérer 1 Stress."
+      }
+    },
+    "srd-2.0.domain-card.dread.shared-trauma": {
+      "name": "Traumatisme partagé",
+      "system": {
+        "description": "Vous pouvez transférer la souffrance d’une créature à une autre. Une fois par repos, marquez autant de Points de vie que vous le souhaitez sur une créature consentante à portée de mêlée pour faire récupérer le même nombre de Points de vie à une autre créature consentante à portée de mêlée."
+      }
+    },
+    "srd-2.0.domain-card.dread.siphon-essence": {
+      "name": "Siphonner l’essence",
+      "system": {
+        "description": "Effectuez un jet d’incantation contre une cible à portée très proche. Une fois par repos long, en cas de réussite, la cible subit d12+4 dégâts magiques en utilisant votre Maîtrise. Sur une réussite avec Peur, vous gagnez un bonus de +1 à votre Maîtrise pour cette attaque.\nVous récupérez un nombre de Points de vie égal au nombre de Points de vie que la cible a marqués à cause de cette attaque."
+      }
+    },
+    "srd-2.0.domain-card.dread.spectral-mist": {
+      "name": "Brume spectrale",
+      "system": {
+        "description": "Dépensez 2 Espoir pour invoquer une brume inquiétante qui vous rend momentanément incorporel, ainsi que les alliés de votre choix à portée proche. Tant qu’une créature est incorporelle, elle peut traverser les objets solides et est immunisée aux dégâts physiques. Elle redevient corporelle après avoir traversé un objet solide ou effectué un jet d’action. Sinon, cet effet dure jusqu’à la fin de la scène."
+      }
+    },
+    "srd-2.0.domain-card.dread.terrify": {
+      "name": "Terrifier",
+      "system": {
+        "description": "Effectuez un jet d’incantation contre une cible à portée proche. En cas de réussite, la cible marque 1d4 Stress et vous pouvez la forcer à fuir en s’éloignant de vous d’une catégorie de portée (par exemple de Très proche à Proche ou de Proche à Lointaine). Sur une réussite avec Peur, la cible devient également temporairement Vulnérable."
+      }
+    },
+    "srd-2.0.domain-card.dread.umbral-veil": {
+      "name": "Voile d’ombre",
+      "system": {
+        "description": "Une fois par repos, vous pouvez marquer 1 Stress pour vous envelopper d’énergie ténébreuse. Lorsque vous le faites, placez sur cette carte un nombre de jetons égal au nombre de Peurs dans la réserve du MJ. Après qu’un jet d’attaque a été effectué contre vous, vous pouvez dépenser autant de jetons que vous le souhaitez pour appliquer un malus de −1 au résultat par jeton dépensé.\nÀ la fin de la scène, retirez tous les jetons non dépensés."
+      }
+    },
+    "srd-2.0.domain-card.dread.voice-of-dread": {
+      "name": "Voix de l’Effroi",
+      "system": {
+        "description": "Vous pouvez parler magiquement à une créature que vous voyez et la tourmenter par vos paroles. Effectuez un jet d’incantation contre elle. En cas de réussite, elle doit marquer 1 Stress et reste figée de terreur, ce qui la rend temporairement Entravée."
+      }
+    },
+    "srd-2.0.domain-card.dread.wall-of-hunger": {
+      "name": "Mur de faim",
+      "system": {
+        "description": "Effectuez un jet d’incantation (10). En cas de réussite, vous pouvez dépenser 1 Espoir pour créer un mur visible d’énergie nécrotique grouillante entre deux points à portée lointaine. Le mur persiste jusqu’à ce que vous marquiez 1 Point de vie ou lanciez de nouveau ce sort. Une créature qui se trouve dans le mur lorsqu’il apparaît ou qui le traverse doit marquer 2 Stress."
+      }
+    },
+    "srd-2.0.domain-card.grace.astral-projection": {
+      "name": "Projection astrale",
+      "system": {
+        "description": "Une fois par repos long, marquez un Stress pour créer une projection de vous-même qui peut apparaître n’importe où où vous vous êtes déjà rendu.\nVous pouvez voir et entendre à travers la projection comme si vous étiez à sa place, et agir sur le monde comme si vous y étiez. Une créature qui examine la projection peut déterminer qu’elle est d’origine magique. Cet effet dure jusqu’à votre prochain repos ou jusqu’à ce que votre projection subisse des dégâts."
+      }
+    },
+    "srd-2.0.domain-card.grace.copycat": {
+      "name": "Imitateur",
+      "system": {
+        "description": "Une fois par repos long, cette carte peut reproduire les capacités d’une autre carte de domaine de niveau 8 ou inférieur présente dans la sélection active d’un autre joueur. Dépensez un nombre d’Espoir égal à la moitié du niveau de cette carte pour accéder à sa capacité. Cet effet dure jusqu’à votre prochain repos ou jusqu’à ce que ce joueur place la carte dans son coffre."
+      }
+    },
+    "srd-2.0.domain-card.grace.deft-deceiver": {
+      "name": "Trompeur habile",
+      "system": {
+        "description": "Dépensez un Espoir pour obtenir un Avantage à un jet visant à tromper quelqu’un ou à lui faire croire un mensonge que vous lui racontez."
+      }
+    },
+    "srd-2.0.domain-card.grace.encore": {
+      "name": "Encore",
+      "system": {
+        "description": "Lorsqu’un allié à portée Proche inflige des dégâts à un adversaire, vous pouvez effectuer un jet d’Incantation contre cette même cible. En cas de réussite, vous infligez à la cible les mêmes dégâts que votre allié. Si votre jet d’Incantation réussit avec Peur, placez cette carte dans votre coffre."
+      }
+    },
+    "srd-2.0.domain-card.grace.endless-charisma": {
+      "name": "Charisme sans fin",
+      "system": {
+        "description": "Après avoir effectué un jet d’action pour persuader, mentir ou obtenir les faveurs de quelqu’un, vous pouvez dépenser un Espoir pour relancer le dé d’Espoir ou le dé de Peur."
+      }
+    },
+    "srd-2.0.domain-card.grace.enrapture": {
+      "name": "Envoûter",
+      "system": {
+        "description": "Effectuez un jet d’Incantation contre une cible à portée Proche. En cas de réussite, elle devient temporairement Envoûtée. Tant qu’elle est Envoûtée, l’attention de la cible reste fixée sur vous, son champ de vision se rétrécit et votre voix couvre tous les autres sons. Une fois par repos, en cas de réussite, vous pouvez marquer un Stress pour forcer la cible Envoûtée à marquer également un Stress."
+      }
+    },
+    "srd-2.0.domain-card.grace.grace-touched": {
+      "name": "Touché par la Grâce",
+      "system": {
+        "description": "Lorsque 4 cartes ou plus de votre sélection active appartiennent au domaine de la Grâce, vous bénéficiez des avantages suivants :\n◦ Vous pouvez marquer un emplacement d’Armure au lieu de marquer un Stress.\n◦ Lorsque vous devriez forcer une cible à marquer un certain nombre de Points de vie, vous pouvez choisir de lui faire marquer ce même nombre de Stress à la place."
+      }
+    },
+    "srd-2.0.domain-card.grace.hypnotic-shimmer": {
+      "name": "Scintillement hypnotique",
+      "system": {
+        "description": "Effectuez un jet d’Incantation contre tous les adversaires devant vous à portée Proche. Une fois par repos, en cas de réussite, vous créez une illusion de couleurs et de lumières scintillantes qui Étourdit temporairement les cibles contre lesquelles vous réussissez et les force à marquer un Stress. Tant qu’elles sont Étourdies, elles ne peuvent pas utiliser de réactions ni entreprendre d’autres actions jusqu’à ce qu’elles dissipent cet état."
+      }
+    },
+    "srd-2.0.domain-card.grace.inspirational-words": {
+      "name": "Paroles inspirantes",
+      "system": {
+        "description": "Vos paroles sont imprégnées de pouvoir. Après un repos long, placez sur cette carte un nombre de jetons égal à votre Présence. Lorsque vous parlez avec un allié, vous pouvez dépenser un jeton de cette carte pour lui accorder l’un des bénéfices suivants :\n◦ Votre allié efface un Stress.\n◦ Votre allié efface un Point de vie.\n◦ Votre allié gagne un Espoir.\nLorsque vous prenez un repos long, retirez tous les jetons non dépensés."
+      }
+    },
+    "srd-2.0.domain-card.grace.invisibility": {
+      "name": "Invisibilité",
+      "system": {
+        "description": "Effectuez un jet d’Incantation (10). En cas de réussite, marquez un Stress et choisissez-vous ou un allié à portée de Mêlée : cette créature devient Invisible. Une créature Invisible ne peut être vue que par des moyens magiques, et les jets d’attaque contre elle subissent un Désavantage. Placez sur cette carte un nombre de jetons égal à votre trait d’Incantation. Lorsque la créature Invisible effectue une action, dépensez un jeton de cette carte. Une fois résolue l’action qui dépense le dernier jeton, l’effet prend fin.\nVous ne pouvez maintenir l’Invisibilité que sur une seule créature à la fois."
+      }
+    },
+    "srd-2.0.domain-card.grace.mass-enrapture": {
+      "name": "Envoûtement de masse",
+      "system": {
+        "description": "Effectuez un jet d’Incantation contre toutes les cibles à portée Lointaine. Les cibles contre lesquelles vous réussissez deviennent temporairement Envoûtées. Tant qu’elle est Envoûtée, l’attention d’une cible reste fixée sur vous, son champ de vision se rétrécit et votre voix couvre tous les autres sons. Marquez un Stress pour forcer toutes les cibles Envoûtées à marquer un Stress, ce qui met fin à ce sort."
+      }
+    },
+    "srd-2.0.domain-card.grace.master-of-the-craft": {
+      "name": "Maître de l’art",
+      "system": {
+        "description": "Gagnez de façon permanente un bonus de +2 à deux de vos Expériences ou un bonus de +3 à l’une de vos Expériences. Placez ensuite définitivement cette carte dans votre coffre."
+      }
+    },
+    "srd-2.0.domain-card.grace.never-upstaged": {
+      "name": "Toujours sous les projecteurs",
+      "system": {
+        "description": "Lorsque vous marquez 1 Point de vie ou plus à cause d’une attaque, vous pouvez marquer 1 Stress pour placer sur cette carte un nombre de jetons égal au nombre de Points de vie que vous avez marqués. Lors de votre prochaine attaque réussie, gagnez un bonus de +5 à votre jet de dégâts pour chaque jeton sur cette carte, puis retirez tous les jetons."
+      }
+    },
+    "srd-2.0.domain-card.grace.notorious": {
+      "name": "Notoire",
+      "system": {
+        "description": "Les gens savent qui vous êtes et ce que vous avez fait, et ils vous traitent différemment à cause de cela. Lorsque vous vous appuyez sur votre notoriété pour obtenir ce que vous voulez, vous pouvez marquer un Stress avant le jet pour gagner un bonus de +10 au résultat. Votre nourriture et vos boissons sont toujours gratuites où que vous alliez, et tout ce que vous achetez d’autre voit son prix réduit d’un sac d’or (jusqu’à un minimum d’une poignée)."
+      }
+    },
+    "srd-2.0.domain-card.grace.share-the-burden": {
+      "name": "Partager le fardeau",
+      "system": {
+        "description": "Une fois par repos, prenez sur vous le Stress d’une créature consentante à portée de Mêlée. La cible décrit les connaissances intimes ou les émotions qui s’échappent télépathiquement de son esprit dans cet instant partagé. Transférez vers vous autant de ses Stress marqués que vous le souhaitez, puis gagnez un Espoir pour chaque Stress transféré."
+      }
+    },
+    "srd-2.0.domain-card.grace.soothing-speech": {
+      "name": "Paroles apaisantes",
+      "system": {
+        "description": "Pendant un repos court, lorsque vous prenez le temps de réconforter un autre personnage tout en utilisant sur lui l’action de repos Soigner les blessures, effacez un Point de vie supplémentaire sur ce personnage. Lorsque vous le faites, vous effacez également 2 Points de vie."
+      }
+    },
+    "srd-2.0.domain-card.grace.tell-no-lies": {
+      "name": "Ne dis aucun mensonge",
+      "system": {
+        "description": "Effectuez un jet d’Incantation contre une cible à portée Très proche. En cas de réussite, elle ne peut pas vous mentir tant qu’elle reste à portée Proche, mais rien ne l’oblige à parler. Si vous lui posez une question et qu’elle refuse de répondre, elle doit marquer un Stress et l’effet prend fin. En général, la cible ignore que ce sort a été lancé sur elle jusqu’à ce qu’il la force à dire la vérité."
+      }
+    },
+    "srd-2.0.domain-card.grace.thought-delver": {
+      "name": "Fouilleur de pensées",
+      "system": {
+        "description": "Vous pouvez jeter un coup d’œil dans l’esprit des autres. Dépensez un Espoir pour lire les pensées superficielles et imprécises d’une cible à portée Lointaine. Effectuez un jet d’Incantation contre la cible pour sonder des pensées plus profondes et mieux dissimulées.\nSur un résultat avec Peur, la cible peut, à la discrétion du MJ, prendre conscience que vous lisez ses pensées."
+      }
+    },
+    "srd-2.0.domain-card.grace.through-your-eyes": {
+      "name": "À travers tes yeux",
+      "system": {
+        "description": "Choisissez une cible à portée Très lointaine. Vous pouvez voir par ses yeux et entendre par ses oreilles. Vous pouvez librement alterner entre vos propres sens et ceux de la cible jusqu’à ce que vous lanciez un autre sort ou jusqu’à votre prochain repos."
+      }
+    },
+    "srd-2.0.domain-card.grace.troublemaker": {
+      "name": "Fauteur de troubles",
+      "system": {
+        "description": "Lorsque vous raillez ou provoquez une cible à portée Lointaine, effectuez un jet de Présence contre elle. Une fois par repos, en cas de réussite, lancez un nombre de d4 égal à votre Maîtrise. La cible doit marquer un nombre de Stress égal au résultat le plus élevé obtenu."
+      }
+    },
+    "srd-2.0.domain-card.grace.words-of-discord": {
+      "name": "Paroles de discorde",
+      "system": {
+        "description": "Murmurez des paroles de discorde à un adversaire à portée de Mêlée et effectuez un jet d’Incantation (13). En cas de réussite, la cible doit marquer un Stress et effectuer une attaque contre un autre adversaire plutôt que contre vous ou vos alliés.\nUne fois cette attaque terminée, la cible comprend ce qui s’est passé. La prochaine fois que vous lancez Paroles de discorde sur elle, subissez un malus de −5 au jet d’Incantation."
+      }
+    },
+    "srd-2.0.domain-card.midnight.chokehold": {
+      "name": "Étranglement",
+      "system.description": "Lorsque vous vous placez derrière une créature d’une taille proche de la vôtre, vous pouvez marquer 1 Stress pour l’immobiliser dans une prise d’étranglement, la rendant temporairement Vulnérable.\n\nLorsqu’une créature attaque une cible rendue Vulnérable de cette manière, elle inflige 2d6 dégâts supplémentaires.",
+      "system": {
+        "description": "Lorsque vous vous placez derrière une créature d’une taille proche de la vôtre, vous pouvez marquer 1 Stress pour l’immobiliser dans une prise d’étranglement, la rendant temporairement Vulnérable.\n\nLorsqu’une créature attaque une cible rendue Vulnérable de cette manière, elle inflige 2d6 dégâts supplémentaires."
+      }
+    },
+    "srd-2.0.domain-card.midnight.dark-whispers": {
+      "name": "Murmures sombres",
+      "system.description": "Vous pouvez parler dans l’esprit de toute personne avec laquelle vous avez eu un contact physique. Une fois ce canal ouvert, elle peut vous répondre mentalement. De plus, vous pouvez marquer 1 Stress pour effectuer un jet d’incantation contre elle. En cas de réussite, vous pouvez poser au MJ l’une des questions suivantes et recevoir une réponse :\n• Où se trouve-t-elle ?\n• Que fait-elle ?\n• De quoi a-t-elle peur ?\n• À quoi tient-elle le plus au monde ?",
+      "system": {
+        "description": "Vous pouvez parler dans l’esprit de toute personne avec laquelle vous avez eu un contact physique. Une fois ce canal ouvert, elle peut vous répondre mentalement. De plus, vous pouvez marquer 1 Stress pour effectuer un jet d’incantation contre elle. En cas de réussite, vous pouvez poser au MJ l’une des questions suivantes et recevoir une réponse :\n• Où se trouve-t-elle ?\n• Que fait-elle ?\n• De quoi a-t-elle peur ?\n• À quoi tient-elle le plus au monde ?"
+      }
+    },
+    "srd-2.0.domain-card.midnight.eclipse": {
+      "name": "Éclipse",
+      "system.description": "Effectuez un jet d’incantation (16). Une fois par repos long, en cas de réussite, plongez toute la zone à portée Lointaine dans des ténèbres complètes à travers lesquelles seuls vous et vos alliés pouvez voir. Les jets d’attaque visant vous-même ou un allié dans ces ombres subissent le Désavantage.\n\nDe plus, lorsque vous ou un allié réussissez avec Espoir contre un adversaire situé dans ces ombres, la cible doit marquer 1 Stress.\n\nCe sort dure jusqu’à ce que le MJ dépense 1 Peur pendant son tour pour dissiper cet effet ou que vous subissiez des dégâts Sévères.",
+      "system": {
+        "description": "Effectuez un jet d’incantation (16). Une fois par repos long, en cas de réussite, plongez toute la zone à portée Lointaine dans des ténèbres complètes à travers lesquelles seuls vous et vos alliés pouvez voir. Les jets d’attaque visant vous-même ou un allié dans ces ombres subissent le Désavantage.\n\nDe plus, lorsque vous ou un allié réussissez avec Espoir contre un adversaire situé dans ces ombres, la cible doit marquer 1 Stress.\n\nCe sort dure jusqu’à ce que le MJ dépense 1 Peur pendant son tour pour dissiper cet effet ou que vous subissiez des dégâts Sévères."
+      }
+    },
+    "srd-2.0.domain-card.midnight.glyph-of-nightfall": {
+      "name": "Glyphe du crépuscule",
+      "system.description": "Effectuez un jet d’incantation contre une cible à portée Très proche. En cas de réussite, dépensez 1 Espoir pour faire apparaître sur son corps un glyphe sombre qui révèle ses points faibles, réduisant temporairement la Difficulté de la cible d’une valeur égale à votre Savoir (minimum 1).",
+      "system": {
+        "description": "Effectuez un jet d’incantation contre une cible à portée Très proche. En cas de réussite, dépensez 1 Espoir pour faire apparaître sur son corps un glyphe sombre qui révèle ses points faibles, réduisant temporairement la Difficulté de la cible d’une valeur égale à votre Savoir (minimum 1)."
+      }
+    },
+    "srd-2.0.domain-card.midnight.hush": {
+      "name": "Silence",
+      "system.description": "Effectuez un jet d’incantation contre une cible à portée Proche. En cas de réussite, dépensez 1 Espoir pour invoquer autour d’elle une magie d’étouffement qui englobe tout ce qui se trouve à portée Très proche de la cible et la suit dans ses déplacements.\n\nLa cible et tout ce qui se trouve dans la zone sont Réduits au silence jusqu’à ce que le MJ dépense 1 Peur pendant son tour pour dissiper cet état, que vous lanciez de nouveau Silence ou que vous subissiez des dégâts Majeurs. Tant qu’ils sont Réduits au silence, ils ne peuvent produire aucun bruit ni lancer de sorts.",
+      "system": {
+        "description": "Effectuez un jet d’incantation contre une cible à portée Proche. En cas de réussite, dépensez 1 Espoir pour invoquer autour d’elle une magie d’étouffement qui englobe tout ce qui se trouve à portée Très proche de la cible et la suit dans ses déplacements.\n\nLa cible et tout ce qui se trouve dans la zone sont Réduits au silence jusqu’à ce que le MJ dépense 1 Peur pendant son tour pour dissiper cet état, que vous lanciez de nouveau Silence ou que vous subissiez des dégâts Majeurs. Tant qu’ils sont Réduits au silence, ils ne peuvent produire aucun bruit ni lancer de sorts."
+      }
+    },
+    "srd-2.0.domain-card.midnight.mass-disguise": {
+      "name": "Déguisement de masse",
+      "system.description": "Lorsque vous disposez de quelques minutes de silence pour vous concentrer, vous pouvez marquer 1 Stress pour modifier l’apparence de toutes les créatures consentantes à portée Proche. Leurs nouvelles formes doivent partager une structure corporelle générale et une taille similaires, et peuvent représenter quelqu’un ou quelque chose que vous avez déjà vu, ou être entièrement inventées. Une créature déguisée a l’Avantage aux jets de Présence pour éviter d’éveiller les soupçons.\n\nActivez un Compte à rebours (8). Il diminue en conséquence d’un événement choisi par le MJ. Lorsqu’il se déclenche, les déguisements disparaissent.",
+      "system": {
+        "description": "Lorsque vous disposez de quelques minutes de silence pour vous concentrer, vous pouvez marquer 1 Stress pour modifier l’apparence de toutes les créatures consentantes à portée Proche. Leurs nouvelles formes doivent partager une structure corporelle générale et une taille similaires, et peuvent représenter quelqu’un ou quelque chose que vous avez déjà vu, ou être entièrement inventées. Une créature déguisée a l’Avantage aux jets de Présence pour éviter d’éveiller les soupçons.\n\nActivez un Compte à rebours (8). Il diminue en conséquence d’un événement choisi par le MJ. Lorsqu’il se déclenche, les déguisements disparaissent."
+      }
+    },
+    "srd-2.0.domain-card.midnight.midnight-spirit": {
+      "name": "Esprit de Minuit",
+      "system.description": "Dépensez 1 Espoir pour invoquer un esprit de taille humanoïde qui peut déplacer ou porter des objets pour vous jusqu’à votre prochain repos.\n\nVous pouvez aussi l’envoyer attaquer un adversaire. Dans ce cas, effectuez un jet d’incantation contre une cible à portée Très lointaine. En cas de réussite, l’esprit se déplace à portée de Mêlée de cette cible. Lancez un nombre de d6 égal à votre trait d’Incantation et infligez à la cible autant de dégâts magiques. L’esprit se dissipe ensuite. Vous ne pouvez avoir qu’un seul esprit à la fois.",
+      "system": {
+        "description": "Dépensez 1 Espoir pour invoquer un esprit de taille humanoïde qui peut déplacer ou porter des objets pour vous jusqu’à votre prochain repos.\n\nVous pouvez aussi l’envoyer attaquer un adversaire. Dans ce cas, effectuez un jet d’incantation contre une cible à portée Très lointaine. En cas de réussite, l’esprit se déplace à portée de Mêlée de cette cible. Lancez un nombre de d6 égal à votre trait d’Incantation et infligez à la cible autant de dégâts magiques. L’esprit se dissipe ensuite. Vous ne pouvez avoir qu’un seul esprit à la fois."
+      }
+    },
+    "srd-2.0.domain-card.midnight.midnight-touched": {
+      "name": "Touché par Minuit",
+      "system.description": "Lorsque 4 cartes de domaine ou plus de votre équipement actif appartiennent au domaine Midnight, vous gagnez les bénéfices suivants :\n• Une fois par repos, lorsque vous avez 0 Espoir et que le MJ devrait gagner 1 Peur, vous pouvez gagner 1 Espoir à la place.\n• Lorsque vous réussissez une attaque, vous pouvez marquer 1 Stress pour ajouter le résultat de votre dé de Peur à votre jet de dégâts.",
+      "system": {
+        "description": "Lorsque 4 cartes de domaine ou plus de votre équipement actif appartiennent au domaine Midnight, vous gagnez les bénéfices suivants :\n• Une fois par repos, lorsque vous avez 0 Espoir et que le MJ devrait gagner 1 Peur, vous pouvez gagner 1 Espoir à la place.\n• Lorsque vous réussissez une attaque, vous pouvez marquer 1 Stress pour ajouter le résultat de votre dé de Peur à votre jet de dégâts."
+      }
+    },
+    "srd-2.0.domain-card.midnight.night-terror": {
+      "name": "Terreur nocturne",
+      "system.description": "Une fois par repos long, choisissez autant de cibles que vous le souhaitez à portée Très proche pour qu’elles vous perçoivent comme une horreur cauchemardesque. Chaque cible doit réussir un jet de réaction (16) ou devenir temporairement Horrifiée. Tant qu’elle est Horrifiée, elle est Vulnérable. Volez au MJ un nombre de Peurs égal au nombre de cibles Horrifiées (dans la limite des Peurs de sa réserve). Lancez un nombre de d6 égal au nombre de Peurs volées et infligez le total obtenu comme dégâts à chaque cible Horrifiée. Défaussez les Peurs volées.",
+      "system": {
+        "description": "Une fois par repos long, choisissez autant de cibles que vous le souhaitez à portée Très proche pour qu’elles vous perçoivent comme une horreur cauchemardesque. Chaque cible doit réussir un jet de réaction (16) ou devenir temporairement Horrifiée. Tant qu’elle est Horrifiée, elle est Vulnérable. Volez au MJ un nombre de Peurs égal au nombre de cibles Horrifiées (dans la limite des Peurs de sa réserve). Lancez un nombre de d6 égal au nombre de Peurs volées et infligez le total obtenu comme dégâts à chaque cible Horrifiée. Défaussez les Peurs volées."
+      }
+    },
+    "srd-2.0.domain-card.midnight.phantom-retreat": {
+      "name": "Retraite fantôme",
+      "system.description": "Dépensez 1 Espoir pour activer Retraite fantôme à l’endroit où vous vous trouvez. À tout moment avant votre prochain repos, dépensez 1 Espoir supplémentaire pour disparaître de votre position actuelle et réapparaître à l’endroit où vous vous trouviez lorsque vous avez activé Retraite fantôme. Ce sort prend fin après votre réapparition.",
+      "system": {
+        "description": "Dépensez 1 Espoir pour activer Retraite fantôme à l’endroit où vous vous trouvez. À tout moment avant votre prochain repos, dépensez 1 Espoir supplémentaire pour disparaître de votre position actuelle et réapparaître à l’endroit où vous vous trouviez lorsque vous avez activé Retraite fantôme. Ce sort prend fin après votre réapparition."
+      }
+    },
+    "srd-2.0.domain-card.midnight.pick-and-pull": {
+      "name": "Crocheter et tirer",
+      "system.description": "Vous avez l’Avantage aux jets d’action pour crocheter des serrures non magiques, désamorcer des pièges non magiques ou voler des objets à une cible (par discrétion ou par la force).",
+      "system": {
+        "description": "Vous avez l’Avantage aux jets d’action pour crocheter des serrures non magiques, désamorcer des pièges non magiques ou voler des objets à une cible (par discrétion ou par la force)."
+      }
+    },
+    "srd-2.0.domain-card.midnight.rain-of-blades": {
+      "name": "Pluie de lames",
+      "system.description": "Dépensez 1 Espoir pour effectuer un jet d’incantation et invoquer des lames de jet qui frappent toutes les cibles à portée Très proche. Les cibles contre lesquelles vous réussissez subissent d8+2 dégâts magiques en utilisant votre Maîtrise. Si une cible que vous touchez est Vulnérable, elle subit 1d8 dégâts supplémentaires.",
+      "system": {
+        "description": "Dépensez 1 Espoir pour effectuer un jet d’incantation et invoquer des lames de jet qui frappent toutes les cibles à portée Très proche. Les cibles contre lesquelles vous réussissez subissent d8+2 dégâts magiques en utilisant votre Maîtrise. Si une cible que vous touchez est Vulnérable, elle subit 1d8 dégâts supplémentaires."
+      }
+    },
+    "srd-2.0.domain-card.midnight.shadowbind": {
+      "name": "Entrave d’ombre",
+      "system.description": "Effectuez un jet d’incantation contre tous les adversaires à portée Très proche. Les cibles contre lesquelles vous réussissez sont temporairement Entravées tandis que leur ombre les immobilise.",
+      "system": {
+        "description": "Effectuez un jet d’incantation contre tous les adversaires à portée Très proche. Les cibles contre lesquelles vous réussissez sont temporairement Entravées tandis que leur ombre les immobilise."
+      }
+    },
+    "srd-2.0.domain-card.midnight.shadowhunter": {
+      "name": "Chasseur d’ombres",
+      "system.description": "Vos prouesses sont renforcées sous le couvert des ombres. Tant que vous êtes plongé dans une faible lumière ou dans les ténèbres, vous gagnez un bonus de +1 à votre Esquive et effectuez vos jets d’attaque avec l’Avantage.",
+      "system": {
+        "description": "Vos prouesses sont renforcées sous le couvert des ombres. Tant que vous êtes plongé dans une faible lumière ou dans les ténèbres, vous gagnez un bonus de +1 à votre Esquive et effectuez vos jets d’attaque avec l’Avantage."
+      }
+    },
+    "srd-2.0.domain-card.midnight.specter-of-the-dark": {
+      "name": "Spectre des ténèbres",
+      "system.description": "Marquez 1 Stress pour devenir Spectral jusqu’à ce que vous effectuiez un jet d’action ciblant une autre créature. Tant que vous êtes Spectral, vous êtes immunisé aux dégâts physiques et pouvez flotter et traverser les objets solides. Les autres créatures peuvent toujours vous voir sous cette forme.",
+      "system": {
+        "description": "Marquez 1 Stress pour devenir Spectral jusqu’à ce que vous effectuiez un jet d’action ciblant une autre créature. Tant que vous êtes Spectral, vous êtes immunisé aux dégâts physiques et pouvez flotter et traverser les objets solides. Les autres créatures peuvent toujours vous voir sous cette forme."
+      }
+    },
+    "srd-2.0.domain-card.midnight.spellcharge": {
+      "name": "Charge magique",
+      "system.description": "Lorsque vous subissez des dégâts magiques, placez sur cette carte un nombre de jetons égal au nombre de Points de vie que vous avez marqués. Vous pouvez stocker un nombre de jetons égal à votre trait d’Incantation.\n\nLorsque vous réussissez une attaque contre une cible, vous pouvez dépenser autant de jetons que vous le souhaitez pour ajouter un d6 à votre jet de dégâts pour chaque jeton dépensé.",
+      "system": {
+        "description": "Lorsque vous subissez des dégâts magiques, placez sur cette carte un nombre de jetons égal au nombre de Points de vie que vous avez marqués. Vous pouvez stocker un nombre de jetons égal à votre trait d’Incantation.\n\nLorsque vous réussissez une attaque contre une cible, vous pouvez dépenser autant de jetons que vous le souhaitez pour ajouter un d6 à votre jet de dégâts pour chaque jeton dépensé."
+      }
+    },
+    "srd-2.0.domain-card.midnight.stealth-expertise": {
+      "name": "Expertise de furtivité",
+      "system.description": "Lorsque vous obtenez un résultat avec Peur en tentant de vous déplacer sans être remarqué dans une zone dangereuse, vous pouvez marquer 1 Stress pour obtenir à la place un résultat avec Espoir.\n\nSi un allié à portée Proche tente lui aussi de se déplacer sans être remarqué et obtient un résultat avec Peur, vous pouvez marquer 1 Stress pour transformer son résultat en résultat avec Espoir.",
+      "system": {
+        "description": "Lorsque vous obtenez un résultat avec Peur en tentant de vous déplacer sans être remarqué dans une zone dangereuse, vous pouvez marquer 1 Stress pour obtenir à la place un résultat avec Espoir.\n\nSi un allié à portée Proche tente lui aussi de se déplacer sans être remarqué et obtient un résultat avec Peur, vous pouvez marquer 1 Stress pour transformer son résultat en résultat avec Espoir."
+      }
+    },
+    "srd-2.0.domain-card.midnight.twilight-toll": {
+      "name": "Glas du crépuscule",
+      "system.description": "Choisissez une cible à portée Lointaine. Lorsque vous réussissez contre elle un jet d’action qui n’entraîne pas de jet de dégâts, placez un jeton sur cette carte. Lorsque vous infligez des dégâts à cette cible, dépensez autant de jetons que vous le souhaitez pour ajouter un d12 à votre jet de dégâts pour chaque jeton dépensé. Vous ne pouvez maintenir Tribut du crépuscule que sur une seule créature à la fois.\n\nLorsque vous choisissez une nouvelle cible ou prenez un repos, retirez tous les jetons non dépensés.",
+      "system": {
+        "description": "Choisissez une cible à portée Lointaine. Lorsque vous réussissez contre elle un jet d’action qui n’entraîne pas de jet de dégâts, placez un jeton sur cette carte. Lorsque vous infligez des dégâts à cette cible, dépensez autant de jetons que vous le souhaitez pour ajouter un d12 à votre jet de dégâts pour chaque jeton dépensé. Vous ne pouvez maintenir Tribut du crépuscule que sur une seule créature à la fois.\n\nLorsque vous choisissez une nouvelle cible ou prenez un repos, retirez tous les jetons non dépensés."
+      }
+    },
+    "srd-2.0.domain-card.midnight.uncanny-disguise": {
+      "name": "Déguisement troublant",
+      "system.description": "Lorsque vous disposez de quelques minutes pour vous préparer, vous pouvez marquer 1 Stress pour revêtir l’apparence de n’importe quel humanoïde que vous pouvez vous représenter clairement. Tant que vous êtes déguisé, vous avez l’Avantage aux jets de Présence pour éviter d’éveiller les soupçons.\n\nPlacez sur cette carte un nombre de jetons égal à votre trait d’Incantation. Lorsque vous effectuez une action sous ce déguisement, dépensez un jeton de cette carte. Une fois résolue l’action qui dépense le dernier jeton, le déguisement disparaît.",
+      "system": {
+        "description": "Lorsque vous disposez de quelques minutes pour vous préparer, vous pouvez marquer 1 Stress pour revêtir l’apparence de n’importe quel humanoïde que vous pouvez vous représenter clairement. Tant que vous êtes déguisé, vous avez l’Avantage aux jets de Présence pour éviter d’éveiller les soupçons.\n\nPlacez sur cette carte un nombre de jetons égal à votre trait d’Incantation. Lorsque vous effectuez une action sous ce déguisement, dépensez un jeton de cette carte. Une fois résolue l’action qui dépense le dernier jeton, le déguisement disparaît."
+      }
+    },
+    "srd-2.0.domain-card.midnight.vanishing-dodge": {
+      "name": "Esquive évanescente",
+      "system.description": "Lorsqu’une attaque contre vous qui aurait infligé des dégâts physiques échoue, vous pouvez dépenser 1 Espoir pour vous envelopper d’ombre, devenir Caché et vous téléporter vers un point à portée Proche de l’attaquant. Vous restez Caché jusqu’à votre prochain jet d’action.",
+      "system": {
+        "description": "Lorsqu’une attaque contre vous qui aurait infligé des dégâts physiques échoue, vous pouvez dépenser 1 Espoir pour vous envelopper d’ombre, devenir Caché et vous téléporter vers un point à portée Proche de l’attaquant. Vous restez Caché jusqu’à votre prochain jet d’action."
+      }
+    },
+    "srd-2.0.domain-card.midnight.veil-of-night": {
+      "name": "Voile nocturne",
+      "system.description": "Effectuez un jet d’incantation (13). En cas de réussite, vous pouvez créer un rideau temporaire de ténèbres entre deux points à portée Lointaine. Vous seul pouvez voir à travers ces ténèbres. Vous êtes considéré comme Caché aux yeux des adversaires situés de l’autre côté du voile et vous avez l’Avantage aux attaques effectuées à travers les ténèbres. Le voile demeure jusqu’à ce que vous lanciez un autre sort.",
+      "system": {
+        "description": "Effectuez un jet d’incantation (13). En cas de réussite, vous pouvez créer un rideau temporaire de ténèbres entre deux points à portée Lointaine. Vous seul pouvez voir à travers ces ténèbres. Vous êtes considéré comme Caché aux yeux des adversaires situés de l’autre côté du voile et vous avez l’Avantage aux attaques effectuées à travers les ténèbres. Le voile demeure jusqu’à ce que vous lanciez un autre sort."
+      }
+    },
+    "srd-2.0.domain-card.sage.conjure-swarm": {
+      "name": "Conjurer un essaim",
+      "system": {
+        "description": "Scarabées cuirassés de Tekaira : Cochez 1 Stress pour conjurer des scarabées cuirassés qui vous encerclent. La prochaine fois que vous subissez des dégâts, réduisez leur gravité d’un seuil. Vous pouvez dépenser 1 Espoir pour maintenir les scarabées conjurés après avoir subi les dégâts.\nLucioles : Effectuez un jet d’Incantation contre tous les adversaires à portée Proche. Dépensez 1 Espoir pour infliger 2d8+3 dégâts magiques aux cibles contre lesquelles vous avez réussi."
+      }
+    },
+    "srd-2.0.domain-card.sage.conjured-steeds": {
+      "name": "Montures conjurées",
+      "system": {
+        "description": "Dépensez autant d’Espoir que vous le souhaitez pour conjurer autant de montures magiques (comme des chevaux, des chameaux ou des éléphants) que vous et vos alliés pouvez chevaucher jusqu’à votre prochain repos long ou jusqu’à ce que les montures subissent des dégâts. Les montures doublent votre vitesse terrestre pendant les voyages et, en cas de danger, vous permettent de vous déplacer jusqu’à portée Lointaine sans avoir à effectuer de jet. Les créatures chevauchant une monture subissent une pénalité de −2 aux jets d’attaque et gagnent un bonus de +2 aux jets de dégâts."
+      }
+    },
+    "srd-2.0.domain-card.sage.corrosive-projectile": {
+      "name": "Projectile corrosif",
+      "system": {
+        "description": "Effectuez un jet d’Incantation contre une cible à portée Lointaine. En cas de réussite, infligez d6+4 dégâts magiques en utilisant votre Maîtrise. De plus, cochez 2 Stress ou plus pour rendre la cible Corrodée de façon permanente. Tant qu’une cible est Corrodée, elle subit une pénalité de −1 à sa Difficulté pour chaque tranche de 2 Stress dépensés. Cet état peut se cumuler."
+      }
+    },
+    "srd-2.0.domain-card.sage.death-grip": {
+      "name": "Étreinte mortelle",
+      "system": {
+        "description": "Effectuez un jet d’Incantation contre une cible à portée Proche et choisissez l’une des options suivantes :\n• Vous attirez la cible à portée de Mêlée, ou vous vous attirez vous-même à portée de Mêlée d’elle.\n• Vous comprimez la cible et la forcez à cocher 2 Stress.\n• Tous les adversaires entre vous et la cible doivent réussir un jet de Réaction (13) ou être frappés par des lianes et subir 3d6+2 dégâts physiques.\nEn cas de réussite, des lianes jaillissent de vos mains, produisent l’effet choisi et Entravent temporairement la cible."
+      }
+    },
+    "srd-2.0.domain-card.sage.fane-of-the-wilds": {
+      "name": "Sanctuaire des terres sauvages",
+      "system": {
+        "description": "Après un repos long, placez sur cette carte un nombre de jetons égal au nombre de cartes du domaine Sage présentes dans votre équipement actif et votre réserve.\nLorsque vous devez effectuer un jet d’Incantation, vous pouvez dépenser autant de jetons que vous le souhaitez après le jet pour gagner un bonus de +1 par jeton dépensé.\nLorsque vous obtenez une réussite critique sur un jet d’Incantation pour un sort du domaine Sage, gagnez 1 jeton.\nLorsque vous prenez un repos long, retirez tous les jetons non dépensés."
+      }
+    },
+    "srd-2.0.domain-card.sage.forager": {
+      "name": "Cueilleur",
+      "system": {
+        "description": "Comme manœuvre de temps mort supplémentaire, vous pouvez lancer un d6 pour déterminer ce que vous trouvez en cueillant. Décrivez-le avec le MJ et ajoutez-le à votre inventaire comme consommable. Votre groupe peut transporter jusqu’à cinq consommables ainsi récoltés à la fois.\n1. Un aliment unique (Retirez 2 Stress)\n2. Une belle relique (Gagnez 2 Espoir)\n3. Une rune arcanique (+2 à un jet d’Incantation)\n4. Une fiole de soin (Récupérez 2 Points de vie)\n5. Un porte-bonheur (Relancez n’importe quel dé)\n6. Choisissez l’une des options ci-dessus."
+      }
+    },
+    "srd-2.0.domain-card.sage.force-of-nature": {
+      "name": "Force de la nature",
+      "system": {
+        "description": "Cochez 1 Stress pour vous transformer en un imposant esprit de la nature et gagner les bénéfices suivants :\n• Lorsque vous réussissez une attaque ou un jet d’Incantation, gagnez un bonus de +10 au jet de dégâts.\n• Lorsque vous infligez suffisamment de dégâts pour vaincre une créature à portée Proche, vous l’absorbez et récupérez 1 emplacement d’Armure.\n• Vous ne pouvez pas être Entravé.\nAvant d’effectuer un jet d’action, vous devez dépenser 1 Espoir. Si vous ne le pouvez pas, vous reprenez votre forme normale."
+      }
+    },
+    "srd-2.0.domain-card.sage.forest-sprites": {
+      "name": "Esprits de la forêt",
+      "system": {
+        "description": "Effectuez un jet d’Incantation (13). En cas de réussite, dépensez autant d’Espoir que vous le souhaitez pour créer autant de petits esprits de la forêt, qui apparaissent aux endroits de votre choix à portée Lointaine et procurent les bénéfices suivants :\n• Vos alliés gagnent un bonus de +3 aux jets d’attaque contre les adversaires à portée de Mêlée d’un esprit.\n• Un allié qui coche un emplacement d’Armure alors qu’il se trouve à portée de Mêlée d’un esprit peut cocher un emplacement d’Armure supplémentaire.\nUn esprit disparaît après avoir accordé un bénéfice ou subi des dégâts."
+      }
+    },
+    "srd-2.0.domain-card.sage.gifted-tracker": {
+      "name": "Pisteur doué",
+      "system": {
+        "description": "Lorsque vous pistez une créature ou un groupe de créatures précis à partir des traces de leur passage, vous pouvez dépenser autant d’Espoir que vous le souhaitez et poser au MJ autant de questions parmi la liste suivante :\n• Dans quelle direction sont-ils partis ?\n• Depuis combien de temps sont-ils passés par ici ?\n• Que faisaient-ils à cet endroit ?\n• Combien étaient-ils ?\nLorsque vous rencontrez des créatures que vous avez pistées de cette manière, gagnez un bonus de +1 à votre Esquive contre elles."
+      }
+    },
+    "srd-2.0.domain-card.sage.healing-field": {
+      "name": "Champ de guérison",
+      "system": {
+        "description": "Une fois par repos long, vous pouvez conjurer autour de vous un champ de plantes curatives. Toute la zone à portée Proche de vous s’épanouit d’une nature foisonnante, permettant à vous et à tous les alliés dans la zone de récupérer 1 Point de vie.\nDépensez 2 Espoir pour permettre à vous et à tous les alliés de récupérer 2 Points de vie à la place."
+      }
+    },
+    "srd-2.0.domain-card.sage.natural-familiar": {
+      "name": "Familier naturel",
+      "system": {
+        "description": "Dépensez 1 Espoir pour invoquer à vos côtés un petit esprit de la nature ou une créature des bois jusqu’à votre prochain repos, jusqu’à ce que vous lanciez de nouveau Familier naturel ou jusqu’à ce que le familier soit ciblé par une attaque. Si vous dépensez 1 Espoir supplémentaire, vous pouvez invoquer un familier capable de voler. Vous pouvez communiquer avec lui, effectuer un jet d’Incantation pour lui ordonner d’accomplir des tâches simples et cocher 1 Stress pour voir à travers ses yeux.\nLorsque vous infligez des dégâts à un adversaire à portée de Mêlée de votre familier, ajoutez un d6 à votre jet de dégâts."
+      }
+    },
+    "srd-2.0.domain-card.sage.natures-tongue": {
+      "name": "Langue de la nature",
+      "system": {
+        "description": "Vous pouvez parler le langage du monde naturel. Lorsque vous souhaitez parler aux plantes et aux animaux qui vous entourent, effectuez un jet d’Instinct (12). En cas de réussite, ils vous communiquent les informations qu’ils connaissent. Sur un jet avec Peur, leurs connaissances peuvent être limitées ou avoir un coût.\nDe plus, avant d’effectuer un jet d’Incantation dans un environnement naturel, vous pouvez dépenser 1 Espoir pour gagner un bonus de +2 au jet."
+      }
+    },
+    "srd-2.0.domain-card.sage.plant-dominion": {
+      "name": "Domination végétale",
+      "system": {
+        "description": "Effectuez un jet d’Incantation (18). Une fois par repos long, en cas de réussite, vous remodelez le monde naturel en modifiant la vie végétale environnante partout à portée Lointaine de vous. Par exemple, vous pouvez faire pousser instantanément des arbres, ouvrir un passage à travers des lianes épaisses ou créer un mur de racines."
+      }
+    },
+    "srd-2.0.domain-card.sage.rejuvenation-barrier": {
+      "name": "Barrière régénératrice",
+      "system": {
+        "description": "Effectuez un jet d’Incantation (15). Une fois par repos, en cas de réussite, créez autour de vous une barrière temporaire d’énergie protectrice à portée Très proche. Vous et tous les alliés présents dans la barrière au moment où ce sort est lancé récupérez 1d4 Points de vie. Tant que la barrière est active, vous et tous les alliés à l’intérieur avez une résistance aux dégâts physiques provenant de l’extérieur de la barrière.\nLorsque vous vous déplacez, la barrière vous suit."
+      }
+    },
+    "srd-2.0.domain-card.sage.sage-touched": {
+      "name": "Touché par la Sagesse",
+      "system": {
+        "description": "Lorsque 4 cartes de domaine ou plus de votre équipement actif appartiennent au domaine Sage, gagnez les bénéfices suivants :\n• Tant que vous êtes dans un environnement naturel, vous gagnez un bonus de +2 à vos jets d’Incantation.\n• Une fois par repos, vous pouvez doubler votre Agilité ou votre Instinct lorsque vous effectuez un jet utilisant ce Trait. Vous devez choisir de le faire avant de lancer les dés."
+      }
+    },
+    "srd-2.0.domain-card.sage.tempest": {
+      "name": "Tempête",
+      "system": {
+        "description": "Choisissez l’une des tempêtes suivantes et effectuez un jet d’Incantation contre toutes les cibles à portée Lointaine. Les cibles contre lesquelles vous réussissez subissent ses effets jusqu’à ce que le MJ dépense 1 Peur pendant son tour pour mettre fin à ce sort.\n• Blizzard : Infligez 2d20+8 dégâts magiques et les cibles deviennent temporairement Vulnérables.\n• Ouragan : Infligez 3d10+10 dégâts magiques et choisissez la direction dans laquelle souffle le vent. Les cibles ne peuvent pas se déplacer contre le vent.\n• Tempête de sable : Infligez 5d6+9 dégâts magiques. Les attaques effectuées depuis une distance supérieure à la portée de Mêlée ont un Désavantage."
+      }
+    },
+    "srd-2.0.domain-card.sage.thorn-skin": {
+      "name": "Peau d’épines",
+      "system": {
+        "description": "Une fois par repos, dépensez 1 Espoir pour faire pousser des épines sur tout votre corps. Lorsque vous le faites, placez sur cette carte un nombre de jetons égal à votre Trait d’Incantation. Lorsque vous subissez des dégâts, vous pouvez dépenser autant de jetons que vous le souhaitez pour lancer autant de d6. Additionnez les résultats et réduisez les dégâts reçus de ce montant. Si vous êtes à portée de Mêlée de l’attaquant, infligez-lui autant de dégâts.\nLorsque vous prenez un repos, retirez tous les jetons non dépensés."
+      }
+    },
+    "srd-2.0.domain-card.sage.towering-stalk": {
+      "name": "Tige imposante",
+      "system": {
+        "description": "Une fois par repos, vous pouvez conjurer à portée Proche une épaisse tige torsadée, facile à escalader. Elle peut atteindre une hauteur allant jusqu’à la portée Lointaine.\nCochez 1 Stress pour utiliser ce sort comme une attaque. Effectuez un jet d’Incantation contre un adversaire ou un groupe d’adversaires à portée Proche. La tige jaillissante soulève dans les airs les cibles contre lesquelles vous avez réussi puis les laisse retomber, infligeant d8 dégâts physiques en utilisant votre Maîtrise."
+      }
+    },
+    "srd-2.0.domain-card.sage.vicious-entangle": {
+      "name": "Enchevêtrement vicieux",
+      "system": {
+        "description": "Effectuez un jet d’Incantation contre une cible à portée Lointaine. En cas de réussite, des racines et des lianes jaillissent du sol, infligeant 1d8+1 dégâts physiques et Entravant temporairement la cible.\nDe plus, en cas de réussite, vous pouvez dépenser 1 Espoir pour Entraver temporairement un autre adversaire à portée Très proche de votre cible."
+      }
+    },
+    "srd-2.0.domain-card.sage.wild-fortress": {
+      "name": "Forteresse sauvage",
+      "system": {
+        "description": "Effectuez un jet d’Incantation (13). En cas de réussite, dépensez 2 Espoir pour faire pousser une barricade naturelle en forme de dôme dans laquelle vous et un allié pouvez vous mettre à couvert. Tant qu’elle se trouve dans le dôme, une créature ne peut pas être ciblée par des attaques et ne peut pas effectuer d’attaques. Les attaques contre le dôme réussissent automatiquement. Le dôme possède les seuils de dégâts suivants et persiste jusqu’à ce qu’il coche 3 Points de vie. Placez des jetons sur cette carte pour représenter les Points de vie cochés.\nSeuils : 15/30"
+      }
+    },
+    "srd-2.0.domain-card.sage.wild-surge": {
+      "name": "Déferlement sauvage",
+      "system": {
+        "description": "Une fois par repos long, cochez 1 Stress pour canaliser le monde naturel autour de vous et vous renforcer. Décrivez comment votre apparence change, puis placez un d6 sur cette carte avec la face 1 visible.\nTant que le dé de Déferlement sauvage est actif, ajoutez sa valeur à chaque jet d’action que vous effectuez. Après avoir ajouté sa valeur à un jet, augmentez de 1 la valeur du dé de Déferlement sauvage. Lorsque la valeur du dé devrait dépasser 6 ou lorsque vous prenez un repos, cette forme prend fin et vous devez cocher 1 Stress supplémentaire."
+      }
+    },
+    "srd-2.0.domain-card.splendor.bolt-beacon": {
+      "name": "Balise fulgurante",
+      "system": {
+        "description": "Effectuez un jet d’Incantation contre une cible à portée Lointaine. En cas de réussite, dépensez 1 Espoir pour projeter vers elle un trait de lumière scintillante, infligeant d8+2 dégâts magiques avec votre Maîtrise. La cible devient temporairement Vulnérable et brille intensément jusqu’à ce que cet état soit dissipé."
+      }
+    },
+    "srd-2.0.domain-card.splendor.divination": {
+      "name": "Divination",
+      "system": {
+        "description": "Une fois par repos long, dépensez 3 Espoir pour vous tourner vers les forces de l’au-delà et poser une question à laquelle on peut répondre par « oui » ou « non » concernant un événement, une personne, un lieu ou une situation dans un avenir proche. Pendant un instant, le présent s’efface et vous voyez la réponse devant vous."
+      }
+    },
+    "srd-2.0.domain-card.splendor.final-words": {
+      "name": "Dernières paroles",
+      "system": {
+        "description": "Vous pouvez insuffler un bref instant de vie à un cadavre afin de lui parler. Effectuez un jet d’Incantation (13). En cas de réussite avec Espoir, le cadavre répond à un maximum de trois questions. En cas de réussite avec Peur, il répond à une question. Le cadavre répond sincèrement, mais ne peut transmettre aucune information qu’il ignorait de son vivant. En cas d’échec, ou lorsqu’il a fini de répondre à vos questions, le corps tombe en poussière."
+      }
+    },
+    "srd-2.0.domain-card.splendor.healing-hands": {
+      "name": "Mains guérisseuses",
+      "system": {
+        "description": "Effectuez un jet d’Incantation (13) en ciblant une créature autre que vous à portée de Corps à corps. En cas de réussite, cochez 1 Stress pour lui faire récupérer 2 PV ou effacer 2 Stress. En cas d’échec, cochez 1 Stress pour lui faire récupérer 1 PV ou effacer 1 Stress. Vous ne pouvez pas soigner de nouveau la même cible avant votre prochain repos long."
+      }
+    },
+    "srd-2.0.domain-card.splendor.healing-strike": {
+      "name": "Frappe guérisseuse",
+      "system": {
+        "description": "Lorsque vous infligez des dégâts à un adversaire, vous pouvez dépenser 2 Espoir pour faire récupérer 1 PV à un allié à portée Proche."
+      }
+    },
+    "srd-2.0.domain-card.splendor.invigoration": {
+      "name": "Revigoration",
+      "system": {
+        "description": "Lorsque vous ou un allié à portée Proche avez utilisé une capacité soumise à une limite d’utilisation (comme une fois par repos ou une fois par session), vous pouvez dépenser autant d’Espoir que vous le souhaitez et lancer autant de d6. Si au moins l’un d’eux obtient un 6, la capacité peut être utilisée de nouveau."
+      }
+    },
+    "srd-2.0.domain-card.splendor.life-ward": {
+      "name": "Garde de vie",
+      "system": {
+        "description": "Dépensez 3 Espoir et choisissez un allié à portée Proche. Un sceau lumineux de protection apparaît sur lui. Lorsque cet allié devrait effectuer un mouvement de mort, il récupère 1 PV à la place. Cet effet prend fin lorsqu’il sauve la cible d’un mouvement de mort, lorsque vous lancez Garde de vie sur une autre cible ou lorsque vous prenez un repos long."
+      }
+    },
+    "srd-2.0.domain-card.splendor.mending-touch": {
+      "name": "Toucher réparateur",
+      "system": {
+        "description": "Vous posez les mains sur une créature et canalisez une magie curative pour refermer ses blessures. Lorsque vous pouvez prendre quelques minutes pour vous concentrer sur la cible que vous aidez, vous pouvez dépenser 2 Espoir pour lui faire récupérer 1 PV ou effacer 1 Stress. Une fois par repos long, si vous consacrez ce temps de soin à apprendre quelque chose de nouveau sur elle ou à révéler quelque chose sur vous-même, vous pouvez à la place lui faire récupérer 2 PV ou effacer 2 Stress."
+      }
+    },
+    "srd-2.0.domain-card.splendor.overwhelming-aura": {
+      "name": "Aura accablante",
+      "system": {
+        "description": "Effectuez un jet d’Incantation (15) pour renforcer magiquement votre aura. En cas de réussite, dépensez 2 Espoir pour rendre votre Présence égale à votre trait d’Incantation jusqu’à votre prochain repos long. Tant que ce sort est actif, un adversaire doit cocher 1 Stress lorsqu’il vous cible avec une attaque."
+      }
+    },
+    "srd-2.0.domain-card.splendor.reassurance": {
+      "name": "Réconfort",
+      "system": {
+        "description": "Une fois par repos, après qu’un allié a tenté un jet d’action mais avant que les conséquences ne s’appliquent, vous pouvez lui apporter votre aide ou des paroles de soutien. Lorsque vous le faites, votre allié peut relancer ses dés."
+      }
+    },
+    "srd-2.0.domain-card.splendor.restoration": {
+      "name": "Restauration",
+      "system": {
+        "description": "Après un repos long, placez sur cette carte un nombre de jetons égal à votre trait d’Incantation. Touchez une créature et dépensez autant de jetons que vous le souhaitez : pour chaque jeton dépensé, faites-lui récupérer 2 PV ou effacez 2 Stress. Vous pouvez également dépenser un jeton de cette carte lorsque vous touchez une créature pour dissiper l’état Vulnérable ou soigner une affection physique ou magique (le MJ peut exiger des jetons supplémentaires selon la gravité de l’affection). Lorsque vous prenez un repos long, retirez tous les jetons non dépensés."
+      }
+    },
+    "srd-2.0.domain-card.splendor.resurrection": {
+      "name": "Résurrection",
+      "system": {
+        "description": "Effectuez un jet d’Incantation (20). En cas de réussite, ramenez à pleine puissance une créature morte depuis au maximum 100 ans. Lancez ensuite un d6. Sur un résultat de 5 ou moins, placez définitivement cette carte dans votre réserve. En cas d’échec, vous ne pouvez pas lancer Résurrection de nouveau pendant une semaine."
+      }
+    },
+    "srd-2.0.domain-card.splendor.salvation-beam": {
+      "name": "Rayon de salut",
+      "system": {
+        "description": "Effectuez un jet d’Incantation (16). En cas de réussite, cochez autant de Stress que vous le souhaitez pour cibler une ligne d’alliés à portée Lointaine. Vous pouvez faire récupérer aux cibles un nombre total de PV égal au nombre de Stress cochés, répartis entre elles comme vous le souhaitez."
+      }
+    },
+    "srd-2.0.domain-card.splendor.second-wind": {
+      "name": "Second souffle",
+      "system": {
+        "description": "Une fois par repos, lorsque vous réussissez une attaque contre un adversaire, vous pouvez effacer 3 Stress ou récupérer 1 PV. En cas de réussite avec Espoir, vous faites également effacer 3 Stress ou récupérer 1 PV à un allié à portée Proche de vous."
+      }
+    },
+    "srd-2.0.domain-card.splendor.shape-material": {
+      "name": "Façonner la matière",
+      "system": {
+        "description": "Dépensez 1 Espoir pour façonner à votre convenance une portion de matière naturelle que vous touchez (comme de la pierre, de la glace ou du bois). La zone de matière affectée ne peut pas être plus grande que vous. Vous pouvez par exemple former un outil rudimentaire ou créer une porte. Vous ne pouvez affecter que la matière située à portée Proche du point que vous touchez."
+      }
+    },
+    "srd-2.0.domain-card.splendor.shield-aura": {
+      "name": "Aura de bouclier",
+      "system": {
+        "description": "Cochez 1 Stress pour lancer une aura protectrice sur une cible à portée Très proche. Lorsque la cible coche un emplacement d’armure, elle réduit la gravité de l’attaque d’un seuil supplémentaire. Si ce sort permet à une créature qui aurait dû subir des dégâts de ne cocher aucun PV, l’effet prend fin. Vous ne pouvez maintenir Aura de bouclier que sur une seule créature à la fois."
+      }
+    },
+    "srd-2.0.domain-card.splendor.smite": {
+      "name": "Châtiment",
+      "system": {
+        "description": "Une fois par repos, dépensez 3 Espoir pour charger votre puissant Châtiment. Lors de votre prochaine attaque réussie avec une arme, doublez le résultat de votre jet de dégâts. Cette attaque inflige des dégâts magiques quel que soit le type de dégâts de l’arme."
+      }
+    },
+    "srd-2.0.domain-card.splendor.splendor-touched": {
+      "name": "Touché par la Splendeur",
+      "system": {
+        "description": "Lorsque 4 cartes ou plus de votre sélection active appartiennent au domaine de la Splendeur, vous bénéficiez des avantages suivants :\n◦ +3 à votre seuil de dégâts Graves.\n◦ Une fois par repos long, lorsque des dégâts reçus devraient vous faire cocher un certain nombre de PV, vous pouvez choisir de cocher autant de Stress ou de dépenser autant d’Espoir à la place."
+      }
+    },
+    "srd-2.0.domain-card.splendor.stunning-sunlight": {
+      "name": "Lumière solaire étourdissante",
+      "system": {
+        "description": "Effectuez un jet d’Incantation pour déchaîner de puissants rayons de lumière solaire brûlante contre tous les adversaires devant vous à portée Lointaine. En cas de réussite, dépensez autant d’Espoir que vous le souhaitez et obligez autant de cibles contre lesquelles vous avez réussi à effectuer un jet de réaction (14). Les cibles qui réussissent subissent 3d20+3 dégâts magiques. Celles qui échouent subissent 4d20+5 dégâts magiques et sont temporairement Étourdies. Tant qu’elles sont Étourdies, elles ne peuvent pas utiliser de réactions ni entreprendre d’autre action jusqu’à ce qu’elles dissipent cet état."
+      }
+    },
+    "srd-2.0.domain-card.splendor.voice-of-reason": {
+      "name": "Voix de la raison",
+      "system": {
+        "description": "Vous parlez avec une puissance et une autorité incomparables. Vous avez l’Avantage aux jets d’action visant à désamorcer une situation violente ou à convaincre quelqu’un de suivre vos directives. De plus, l’adversité vous galvanise. Lorsque tous vos emplacements de Stress sont cochés, vous gagnez un bonus de +1 à votre Maîtrise pour les jets de dégâts."
+      }
+    },
+    "srd-2.0.domain-card.splendor.zone-of-protection": {
+      "name": "Zone de protection",
+      "system": {
+        "description": "Effectuez un jet d’Incantation (16). Une fois par repos long, en cas de réussite, choisissez un point à portée Lointaine et créez-y une zone de protection visible pour tous les alliés à portée Très proche de ce point. Placez alors un d6 sur cette carte, face 1 vers le haut. Lorsqu’un allié dans cette zone subit des dégâts, il les réduit de la valeur du dé. Augmentez ensuite la valeur du dé de 1. Lorsque sa valeur devrait dépasser 6, cet effet prend fin."
+      }
+    },
+    "srd-2.0.domain-card.valor.armorer": {
+      "name": "Armurier",
+      "system": {
+        "description": "Tant que vous portez une armure, vous gagnez un bonus de +1 à votre Score d’armure.\nPendant un repos, lorsque vous choisissez de réparer votre armure comme action de temps libre, vos alliés effacent également un emplacement d’armure."
+      }
+    },
+    "srd-2.0.domain-card.valor.bare-bones": {
+      "name": "À mains nues",
+      "system": {
+        "description": "Lorsque vous choisissez de ne pas équiper d’armure, votre Score d’armure de base est égal à 3 + votre Force et vous utilisez les seuils de dégâts de base suivants :\n ◦ Tier 1 : 9/19\n ◦ Tier 2 : 11/24\n ◦ Tier 3 : 13/31\n ◦ Tier 4 : 15/38"
+      }
+    },
+    "srd-2.0.domain-card.valor.body-basher": {
+      "name": "Briseur de corps",
+      "system": {
+        "description": "Vous engagez toute la force de votre corps au combat. Lors d’une attaque réussie avec une arme à portée de Mêlée, ajoutez à votre jet de dégâts un bonus égal à votre Force."
+      }
+    },
+    "srd-2.0.domain-card.valor.bold-presence": {
+      "name": "Présence audacieuse",
+      "system": {
+        "description": "Lorsque vous effectuez un jet de Présence, vous pouvez dépenser un Espoir pour ajouter votre Force au jet.\nDe plus, une fois par repos, lorsque vous devriez subir un état, vous pouvez décrire comment votre présence audacieuse vous aide dans cette situation et éviter de subir cet état."
+      }
+    },
+    "srd-2.0.domain-card.valor.critical-inspiration": {
+      "name": "Inspiration critique",
+      "system": {
+        "description": "Une fois par repos, lorsque vous obtenez une réussite critique sur une attaque, tous les alliés à portée Très proche peuvent effacer un Stress ou gagner un Espoir."
+      }
+    },
+    "srd-2.0.domain-card.valor.forceful-push": {
+      "name": "Poussée puissante",
+      "system": {
+        "description": "Effectuez une attaque avec votre arme principale contre une cible à portée de Mêlée. En cas de réussite, vous infligez des dégâts et la repoussez jusqu’à portée Proche. En cas de réussite avec Espoir, ajoutez un d6 à votre jet de dégâts.\nDe plus, vous pouvez dépenser un Espoir pour la rendre temporairement Vulnérable."
+      }
+    },
+    "srd-2.0.domain-card.valor.full-surge": {
+      "name": "Déferlement total",
+      "system": {
+        "description": "Une fois par repos long, marquez 3 Stress pour pousser votre corps jusqu’à ses limites. Gagnez un bonus de +2 à tous les Traits de votre personnage jusqu’à votre prochain repos."
+      }
+    },
+    "srd-2.0.domain-card.valor.goad-them-on": {
+      "name": "Provoque-les",
+      "system": {
+        "description": "Décrivez comment vous provoquez une cible à portée Proche, puis effectuez un jet de Présence contre elle. En cas de réussite, la cible doit marquer un Stress et, la prochaine fois que le MJ braque les projecteurs sur elle, elle doit vous prendre pour cible avec une attaque, qu’elle effectue avec Désavantage."
+      }
+    },
+    "srd-2.0.domain-card.valor.ground-pound": {
+      "name": "Frappe au sol",
+      "system": {
+        "description": "Dépensez 2 Espoir pour frapper le sol à vos pieds et effectuez un jet de Force contre toutes les cibles à portée Très proche. Les cibles contre lesquelles vous réussissez sont projetées jusqu’à portée Lointaine et doivent effectuer un jet de Réaction (17). Les cibles qui échouent subissent 4d10+8 dégâts. Celles qui réussissent subissent la moitié des dégâts."
+      }
+    },
+    "srd-2.0.domain-card.valor.hold-the-line": {
+      "name": "Tenir la ligne",
+      "system": {
+        "description": "Décrivez la posture défensive que vous adoptez et dépensez un Espoir. Si un adversaire se déplace à portée Très proche, il est attiré à portée de Mêlée et Entravé.\nCet état dure jusqu’à ce que vous vous déplaciez ou échouiez à un jet avec Peur, ou jusqu’à ce que le MJ dépense 2 Peur pendant son tour pour y mettre fin."
+      }
+    },
+    "srd-2.0.domain-card.valor.i-am-your-shield": {
+      "name": "Je suis ton bouclier",
+      "system": {
+        "description": "Lorsqu’un allié à portée Très proche devrait subir des dégâts, vous pouvez marquer un Stress pour vous interposer et devenir la cible de l’attaque à sa place. Lorsque vous subissez les dégâts de cette attaque, vous pouvez marquer autant d’emplacements d’armure que vous le souhaitez."
+      }
+    },
+    "srd-2.0.domain-card.valor.inevitable": {
+      "name": "Inévitable",
+      "system": {
+        "description": "Lorsque vous échouez à un jet d’action, votre prochain jet d’action bénéficie d’Avantage."
+      }
+    },
+    "srd-2.0.domain-card.valor.lead-by-example": {
+      "name": "Montrer l’exemple",
+      "system": {
+        "description": "Lorsque vous infligez des dégâts à un adversaire, vous pouvez marquer un Stress et décrire comment vous encouragez vos alliés. Le prochain PJ qui effectue une attaque contre cet adversaire peut effacer un Stress ou gagner un Espoir."
+      }
+    },
+    "srd-2.0.domain-card.valor.lean-on-me": {
+      "name": "Appuie-toi sur moi",
+      "system": {
+        "description": "Une fois par repos long, lorsque vous consolez ou encouragez un allié qui a échoué à un jet d’action, vous pouvez tous les deux effacer 2 Stress."
+      }
+    },
+    "srd-2.0.domain-card.valor.rise-up": {
+      "name": "Debout",
+      "system": {
+        "description": "Gagnez un bonus à votre seuil Sévère égal à votre Maîtrise.\nLorsque vous marquez un Point de vie ou plus à cause d’une attaque, effacez 1 Stress."
+      }
+    },
+    "srd-2.0.domain-card.valor.rousing-strike": {
+      "name": "Frappe galvanisante",
+      "system": {
+        "description": "Une fois par repos, lorsque vous obtenez une réussite critique sur une attaque, vous et tous les alliés qui peuvent vous voir ou vous entendre pouvez effacer un Point de vie ou 1d4 Stress."
+      }
+    },
+    "srd-2.0.domain-card.valor.shrug-it-off": {
+      "name": "Encaisse",
+      "system": {
+        "description": "Lorsque vous devriez subir des dégâts, vous pouvez marquer un Stress pour réduire leur gravité d’un seuil. Lorsque vous le faites, lancez un d6. Sur un résultat de 3 ou moins, placez cette carte dans votre réserve."
+      }
+    },
+    "srd-2.0.domain-card.valor.support-tank": {
+      "name": "Rempart de soutien",
+      "system": {
+        "description": "Lorsqu’un allié à portée Proche échoue à un jet, vous pouvez dépenser 2 Espoir pour lui permettre de relancer soit son dé d’Espoir, soit son dé de Peur."
+      }
+    },
+    "srd-2.0.domain-card.valor.unbreakable": {
+      "name": "Inébranlable",
+      "system": {
+        "description": "Lorsque vous marquez votre dernier Point de vie, au lieu d’effectuer une action de mort, vous pouvez lancer un d6 et effacer un nombre de Points de vie égal au résultat. Placez ensuite cette carte dans votre réserve."
+      }
+    },
+    "srd-2.0.domain-card.valor.unyielding-armor": {
+      "name": "Armure inflexible",
+      "system": {
+        "description": "Lorsque vous devriez marquer un emplacement d’armure, lancez un nombre de d6 égal à votre Maîtrise. Si au moins l’un des dés obtient un 6, réduisez la gravité d’un seuil sans marquer d’emplacement d’armure."
+      }
+    },
+    "srd-2.0.domain-card.valor.valor-touched": {
+      "name": "Touché par la Vaillance",
+      "system": {
+        "description": "Lorsque 4 cartes de domaine ou plus de votre sélection active appartiennent au domaine de la Vaillance, vous bénéficiez des avantages suivants :\n ◦ Bonus de +1 à votre Score d’armure\n ◦ Lorsque vous marquez 1 Point de vie ou plus sans marquer d’emplacement d’armure, effacez un emplacement d’armure."
+      }
+    },
+    "srd-2.0.environment.abandoned-grove": {
+      "name": "Bosquet abandonné"
+    },
+    "srd-2.0.subclass.beastbound": {
+      "name": "Lié aux bêtes"
+    },
+    "srd-2.0.subclass.call-of-the-brave": {
+      "name": "Appel du brave"
+    },
+    "srd-2.0.subclass.call-of-the-slayer": {
+      "name": "Appel du pourfendeur"
+    },
+    "srd-2.0.subclass.divine-wielder": {
+      "name": "Porteur divin"
+    },
+    "srd-2.0.subclass.elemental-origin": {
+      "name": "Origine élémentaire"
+    },
+    "srd-2.0.subclass.executioners-guild": {
+      "name": "Guilde des exécuteurs"
+    },
+    "srd-2.0.subclass.hedge": {
+      "name": "Haie"
+    },
+    "srd-2.0.subclass.juggernaut": {
+      "name": "Juggernaut"
+    },
+    "srd-2.0.subclass.martial-artist": {
+      "name": "Artiste martial"
+    },
+    "srd-2.0.subclass.moon": {
+      "name": "Lune"
+    },
+    "srd-2.0.subclass.nightwalker": {
+      "name": "Marcheur nocturne"
+    },
+    "srd-2.0.subclass.pact-of-the-endless": {
+      "name": "Pacte de l’Infini"
+    },
+    "srd-2.0.subclass.pact-of-the-wrathful": {
+      "name": "Pacte du Courroucé"
+    },
+    "srd-2.0.subclass.poisoners-guild": {
+      "name": "Guilde des empoisonneurs"
+    },
+    "srd-2.0.subclass.primal-origin": {
+      "name": "Origine primordiale"
+    },
+    "srd-2.0.subclass.school-of-knowledge": {
+      "name": "École du savoir"
+    },
+    "srd-2.0.subclass.school-of-war": {
+      "name": "École de guerre"
+    },
+    "srd-2.0.subclass.stalwart": {
+      "name": "Inébranlable"
+    },
+    "srd-2.0.subclass.syndicate": {
+      "name": "Syndicat"
+    },
+    "srd-2.0.subclass.troubadour": {
+      "name": "Troubadour"
+    },
+    "srd-2.0.subclass.vengeance": {
+      "name": "Vengeance"
+    },
+    "srd-2.0.subclass.warden-of-renewal": {
+      "name": "Gardien du renouveau"
+    },
+    "srd-2.0.subclass.warden-of-the-elements": {
+      "name": "Gardien des éléments"
+    },
+    "srd-2.0.subclass.wayfinder": {
+      "name": "Éclaireur"
+    },
+    "srd-2.0.subclass.winged-sentinel": {
+      "name": "Sentinelle ailée"
+    },
+    "srd-2.0.subclass.wordsmith": {
+      "name": "Maître des mots"
+    },
+    "srd-2.0.weapon.combat-wheelchair.1.arcane-frame-wheelchair": {
+      "name": "Fauteuil de combat à châssis arcanique"
+    },
+    "srd-2.0.weapon.combat-wheelchair.1.heavy-frame-wheelchair": {
+      "name": "Fauteuil de combat à châssis lourd"
+    },
+    "srd-2.0.weapon.combat-wheelchair.1.light-frame-wheelchair": {
+      "name": "Fauteuil de combat à châssis léger"
+    },
+    "srd-2.0.weapon.combat-wheelchair.2.improved-arcane-frame-wheelchair": {
+      "name": "Amélioré : Fauteuil de combat à châssis arcanique"
+    },
+    "srd-2.0.weapon.combat-wheelchair.2.improved-heavy-frame-wheelchair": {
+      "name": "Amélioré : Fauteuil de combat à châssis lourd"
+    },
+    "srd-2.0.weapon.combat-wheelchair.2.improved-light-frame-wheelchair": {
+      "name": "Amélioré : Fauteuil de combat à châssis léger"
+    },
+    "srd-2.0.weapon.combat-wheelchair.3.advanced-arcane-frame-wheelchair": {
+      "name": "Avancé : Fauteuil de combat à châssis arcanique"
+    },
+    "srd-2.0.weapon.combat-wheelchair.3.advanced-heavy-frame-wheelchair": {
+      "name": "Avancé : Fauteuil de combat à châssis lourd"
+    },
+    "srd-2.0.weapon.combat-wheelchair.3.advanced-light-frame-wheelchair": {
+      "name": "Avancé : Fauteuil de combat à châssis léger"
+    },
+    "srd-2.0.weapon.combat-wheelchair.4.legendary-arcane-frame-wheelchair": {
+      "name": "Légendaire : Fauteuil de combat à châssis arcanique"
+    },
+    "srd-2.0.weapon.combat-wheelchair.4.legendary-heavy-frame-wheelchair": {
+      "name": "Légendaire : Fauteuil de combat à châssis lourd"
+    },
+    "srd-2.0.weapon.combat-wheelchair.4.legendary-light-frame-wheelchair": {
+      "name": "Légendaire : Fauteuil de combat à châssis léger"
+    },
+    "srd-2.0.weapon.primary.1.arcane-gauntlets": {
+      "name": "Gantelets arcaniques"
+    },
+    "srd-2.0.weapon.primary.1.arcane-rifle": {
+      "name": "Fusil arcanique"
+    },
+    "srd-2.0.weapon.primary.1.battleaxe": {
+      "name": "Hache de bataille"
+    },
+    "srd-2.0.weapon.primary.1.brass-knuckles": {
+      "name": "Poings américains"
+    },
+    "srd-2.0.weapon.primary.1.brightsword": {
+      "name": "Épée lumineuse"
+    },
+    "srd-2.0.weapon.primary.1.broadsword": {
+      "name": "Épée large"
+    },
+    "srd-2.0.weapon.primary.1.casting-dagger": {
+      "name": "Dague d’incantation"
+    },
+    "srd-2.0.weapon.primary.1.crossbow": {
+      "name": "Arbalète"
+    },
+    "srd-2.0.weapon.primary.1.cutlass": {
+      "name": "Sabre"
+    },
+    "srd-2.0.weapon.primary.1.dagger": {
+      "name": "Dague"
+    },
+    "srd-2.0.weapon.primary.1.dualstaff": {
+      "name": "Bâton double"
+    },
+    "srd-2.0.weapon.primary.1.enchanted-chakram": {
+      "name": "Chakram enchanté"
+    },
+    "srd-2.0.weapon.primary.1.glowing-rings": {
+      "name": "Anneaux lumineux"
+    },
+    "srd-2.0.weapon.primary.1.greatstaff": {
+      "name": "Grand bâton"
+    },
+    "srd-2.0.weapon.primary.1.greatsword": {
+      "name": "Espadon"
+    },
+    "srd-2.0.weapon.primary.1.halberd": {
+      "name": "Hallebarde"
+    },
+    "srd-2.0.weapon.primary.1.hallowed-axe": {
+      "name": "Hache consacrée"
+    },
+    "srd-2.0.weapon.primary.1.hand-runes": {
+      "name": "Runes de main"
+    },
+    "srd-2.0.weapon.primary.1.katana": {
+      "name": "Katana"
+    },
+    "srd-2.0.weapon.primary.1.longbow": {
+      "name": "Arc long"
+    },
+    "srd-2.0.weapon.primary.1.longsword": {
+      "name": "Épée longue"
+    },
+    "srd-2.0.weapon.primary.1.mace": {
+      "name": "Masse"
+    },
+    "srd-2.0.weapon.primary.1.quarterstaff": {
+      "name": "Bâton de combat"
+    },
+    "srd-2.0.weapon.primary.1.rapier": {
+      "name": "Rapière"
+    },
+    "srd-2.0.weapon.primary.1.returning-blade": {
+      "name": "Lame de retour"
+    },
+    "srd-2.0.weapon.primary.1.rope-dart": {
+      "name": "Dard à corde"
+    },
+    "srd-2.0.weapon.primary.1.runelock-pistol": {
+      "name": "Pistolet à verrou runique"
+    },
+    "srd-2.0.weapon.primary.1.scepter": {
+      "name": "Sceptre"
+    },
+    "srd-2.0.weapon.primary.1.scimitar": {
+      "name": "Cimeterre"
+    },
+    "srd-2.0.weapon.primary.1.shadowblade": {
+      "name": "Lame d’ombre"
+    },
+    "srd-2.0.weapon.primary.1.shortbow": {
+      "name": "Arc court"
+    },
+    "srd-2.0.weapon.primary.1.shortstaff": {
+      "name": "Bâton court"
+    },
+    "srd-2.0.weapon.primary.1.spear": {
+      "name": "Lance"
+    },
+    "srd-2.0.weapon.primary.1.twisted-dagger": {
+      "name": "Dague torsadée"
+    },
+    "srd-2.0.weapon.primary.1.wand": {
+      "name": "Baguette"
+    },
+    "srd-2.0.weapon.primary.1.warhammer": {
+      "name": "Marteau de guerre"
+    },
+    "srd-2.0.weapon.primary.1.whipsword": {
+      "name": "Épée-fouet"
+    },
+    "srd-2.0.weapon.primary.2.bladed-fan": {
+      "name": "Éventail à lames"
+    },
+    "srd-2.0.weapon.primary.2.bladed-whip": {
+      "name": "Fouet à lames"
+    },
+    "srd-2.0.weapon.primary.2.blunderbuss": {
+      "name": "Tromblon"
+    },
+    "srd-2.0.weapon.primary.2.cane-sword": {
+      "name": "Canne-épée"
+    },
+    "srd-2.0.weapon.primary.2.casting-sword": {
+      "name": "Épée d’incantation"
+    },
+    "srd-2.0.weapon.primary.2.cyrurgiens-scalpel": {
+      "name": "Scalpel de Cyrurgien"
+    },
+    "srd-2.0.weapon.primary.2.devouring-dagger": {
+      "name": "Dague dévorante"
+    },
+    "srd-2.0.weapon.primary.2.displacement-razor": {
+      "name": "Rasoir de déplacement"
+    },
+    "srd-2.0.weapon.primary.2.ego-blade": {
+      "name": "Lame d’ego"
+    },
+    "srd-2.0.weapon.primary.2.elder-bow": {
+      "name": "Arc ancien"
+    },
+    "srd-2.0.weapon.primary.2.enchanted-lute": {
+      "name": "Luth enchanté"
+    },
+    "srd-2.0.weapon.primary.2.enchanted-shillelagh": {
+      "name": "Shillelagh enchanté"
+    },
+    "srd-2.0.weapon.primary.2.finehair-bow": {
+      "name": "Arc de crin fin"
+    },
+    "srd-2.0.weapon.primary.2.fury-gem": {
+      "name": "Gemme de fureur"
+    },
+    "srd-2.0.weapon.primary.2.gilded-falchion": {
+      "name": "Fauchon doré"
+    },
+    "srd-2.0.weapon.primary.2.greatbow": {
+      "name": "Grand arc"
+    },
+    "srd-2.0.weapon.primary.2.hammer-of-exota": {
+      "name": "Marteau d’Exota"
+    },
+    "srd-2.0.weapon.primary.2.improved-arcane-gauntlets": {
+      "name": "Amélioré : Gantelets arcaniques"
+    },
+    "srd-2.0.weapon.primary.2.improved-arcane-rifle": {
+      "name": "Amélioré : Fusil arcanique"
+    },
+    "srd-2.0.weapon.primary.2.improved-battleaxe": {
+      "name": "Amélioré : Hache de bataille"
+    },
+    "srd-2.0.weapon.primary.2.improved-brass-knuckles": {
+      "name": "Amélioré : Poings américains"
+    },
+    "srd-2.0.weapon.primary.2.improved-brightsword": {
+      "name": "Amélioré : Épée lumineuse"
+    },
+    "srd-2.0.weapon.primary.2.improved-broadsword": {
+      "name": "Amélioré : Épée large"
+    },
+    "srd-2.0.weapon.primary.2.improved-casting-dagger": {
+      "name": "Amélioré : Dague d’incantation"
+    },
+    "srd-2.0.weapon.primary.2.improved-crossbow": {
+      "name": "Amélioré : Arbalète"
+    },
+    "srd-2.0.weapon.primary.2.improved-cutlass": {
+      "name": "Amélioré : Sabre"
+    },
+    "srd-2.0.weapon.primary.2.improved-dagger": {
+      "name": "Amélioré : Dague"
+    },
+    "srd-2.0.weapon.primary.2.improved-dualstaff": {
+      "name": "Amélioré : Bâton double"
+    },
+    "srd-2.0.weapon.primary.2.improved-enchanted-chakram": {
+      "name": "Amélioré : Chakram enchanté"
+    },
+    "srd-2.0.weapon.primary.2.improved-glowing-rings": {
+      "name": "Amélioré : Anneaux lumineux"
+    },
+    "srd-2.0.weapon.primary.2.improved-greatstaff": {
+      "name": "Amélioré : Grand bâton"
+    },
+    "srd-2.0.weapon.primary.2.improved-greatsword": {
+      "name": "Amélioré : Espadon"
+    },
+    "srd-2.0.weapon.primary.2.improved-halberd": {
+      "name": "Amélioré : Hallebarde"
+    },
+    "srd-2.0.weapon.primary.2.improved-hallowed-axe": {
+      "name": "Amélioré : Hache consacrée"
+    },
+    "srd-2.0.weapon.primary.2.improved-hand-runes": {
+      "name": "Amélioré : Runes de main"
+    },
+    "srd-2.0.weapon.primary.2.improved-katana": {
+      "name": "Amélioré : Katana"
+    },
+    "srd-2.0.weapon.primary.2.improved-longbow": {
+      "name": "Amélioré : Arc long"
+    },
+    "srd-2.0.weapon.primary.2.improved-longsword": {
+      "name": "Amélioré : Épée longue"
+    },
+    "srd-2.0.weapon.primary.2.improved-mace": {
+      "name": "Amélioré : Masse"
+    },
+    "srd-2.0.weapon.primary.2.improved-quarterstaff": {
+      "name": "Amélioré : Bâton de combat"
+    },
+    "srd-2.0.weapon.primary.2.improved-rapier": {
+      "name": "Amélioré : Rapière"
+    },
+    "srd-2.0.weapon.primary.2.improved-returning-blade": {
+      "name": "Amélioré : Lame de retour"
+    },
+    "srd-2.0.weapon.primary.2.improved-rope-dart": {
+      "name": "Amélioré : Dard à corde"
+    },
+    "srd-2.0.weapon.primary.2.improved-runelock-pistol": {
+      "name": "Amélioré : Pistolet à verrou runique"
+    },
+    "srd-2.0.weapon.primary.2.improved-scepter": {
+      "name": "Amélioré : Sceptre"
+    },
+    "srd-2.0.weapon.primary.2.improved-scimitar": {
+      "name": "Amélioré : Cimeterre"
+    },
+    "srd-2.0.weapon.primary.2.improved-shadowblade": {
+      "name": "Amélioré : Lame d’ombre"
+    },
+    "srd-2.0.weapon.primary.2.improved-shortbow": {
+      "name": "Amélioré : Arc court"
+    },
+    "srd-2.0.weapon.primary.2.improved-shortstaff": {
+      "name": "Amélioré : Bâton court"
+    },
+    "srd-2.0.weapon.primary.2.improved-spear": {
+      "name": "Amélioré : Lance"
+    },
+    "srd-2.0.weapon.primary.2.improved-twisted-dagger": {
+      "name": "Amélioré : Dague torsadée"
+    },
+    "srd-2.0.weapon.primary.2.improved-wand": {
+      "name": "Amélioré : Baguette"
+    },
+    "srd-2.0.weapon.primary.2.improved-warhammer": {
+      "name": "Amélioré : Marteau de guerre"
+    },
+    "srd-2.0.weapon.primary.2.improved-whipsword": {
+      "name": "Amélioré : Épée-fouet"
+    },
+    "srd-2.0.weapon.primary.2.javelins": {
+      "name": "Javelots"
+    },
+    "srd-2.0.weapon.primary.2.keeper-s-staff": {
+      "name": "Bâton du Gardien"
+    },
+    "srd-2.0.weapon.primary.2.knuckle-blades": {
+      "name": "Lames de poing"
+    },
+    "srd-2.0.weapon.primary.2.lance": {
+      "name": "Lance de cavalerie"
+    },
+    "srd-2.0.weapon.primary.2.scepter-of-elias": {
+      "name": "Sceptre d’Elias"
+    },
+    "srd-2.0.weapon.primary.2.spellbound-bangles": {
+      "name": "Bracelets ensorcelés"
+    },
+    "srd-2.0.weapon.primary.2.splintershaft-bow": {
+      "name": "Arc à hampe éclatée"
+    },
+    "srd-2.0.weapon.primary.2.steelforged-halberd": {
+      "name": "Hallebarde forgée d’acier"
+    },
+    "srd-2.0.weapon.primary.2.urok-broadsword": {
+      "name": "Épée large urok"
+    },
+    "srd-2.0.weapon.primary.2.wand-of-enthrallment": {
+      "name": "Baguette d’envoûtement"
+    },
+    "srd-2.0.weapon.primary.2.war-pick": {
+      "name": "Bec de guerre"
+    },
+    "srd-2.0.weapon.primary.2.war-scythe": {
+      "name": "Faux de guerre"
+    },
+    "srd-2.0.weapon.primary.2.yutari-bloodbow": {
+      "name": "Arc de sang yutari"
+    },
+    "srd-2.0.weapon.primary.3.advanced-arcane-gauntlets": {
+      "name": "Avancé : Gantelets arcaniques"
+    },
+    "srd-2.0.weapon.primary.3.advanced-arcane-rifle": {
+      "name": "Avancé : Fusil arcanique"
+    },
+    "srd-2.0.weapon.primary.3.advanced-battleaxe": {
+      "name": "Avancé : Hache de bataille"
+    },
+    "srd-2.0.weapon.primary.3.advanced-brass-knuckles": {
+      "name": "Avancé : Poings américains"
+    },
+    "srd-2.0.weapon.primary.3.advanced-brightsword": {
+      "name": "Avancé : Épée lumineuse"
+    },
+    "srd-2.0.weapon.primary.3.advanced-broadsword": {
+      "name": "Avancé : Épée large"
+    },
+    "srd-2.0.weapon.primary.3.advanced-casting-dagger": {
+      "name": "Avancé : Dague d’incantation"
+    },
+    "srd-2.0.weapon.primary.3.advanced-crossbow": {
+      "name": "Avancé : Arbalète"
+    },
+    "srd-2.0.weapon.primary.3.advanced-cutlass": {
+      "name": "Avancé : Sabre"
+    },
+    "srd-2.0.weapon.primary.3.advanced-dagger": {
+      "name": "Avancé : Dague"
+    },
+    "srd-2.0.weapon.primary.3.advanced-dualstaff": {
+      "name": "Avancé : Bâton double"
+    },
+    "srd-2.0.weapon.primary.3.advanced-enchanted-chakram": {
+      "name": "Avancé : Chakram enchanté"
+    },
+    "srd-2.0.weapon.primary.3.advanced-glowing-rings": {
+      "name": "Avancé : Anneaux lumineux"
+    },
+    "srd-2.0.weapon.primary.3.advanced-greatstaff": {
+      "name": "Avancé : Grand bâton"
+    },
+    "srd-2.0.weapon.primary.3.advanced-greatsword": {
+      "name": "Avancé : Espadon"
+    },
+    "srd-2.0.weapon.primary.3.advanced-halberd": {
+      "name": "Avancé : Hallebarde"
+    },
+    "srd-2.0.weapon.primary.3.advanced-hallowed-axe": {
+      "name": "Avancé : Hache consacrée"
+    },
+    "srd-2.0.weapon.primary.3.advanced-hand-runes": {
+      "name": "Avancé : Runes de main"
+    },
+    "srd-2.0.weapon.primary.3.advanced-katana": {
+      "name": "Avancé : Katana"
+    },
+    "srd-2.0.weapon.primary.3.advanced-longbow": {
+      "name": "Avancé : Arc long"
+    },
+    "srd-2.0.weapon.primary.3.advanced-longsword": {
+      "name": "Avancé : Épée longue"
+    },
+    "srd-2.0.weapon.primary.3.advanced-mace": {
+      "name": "Avancé : Masse"
+    },
+    "srd-2.0.weapon.primary.3.advanced-quarterstaff": {
+      "name": "Avancé : Bâton de combat"
+    },
+    "srd-2.0.weapon.primary.3.advanced-rapier": {
+      "name": "Avancé : Rapière"
+    },
+    "srd-2.0.weapon.primary.3.advanced-returning-blade": {
+      "name": "Avancé : Lame de retour"
+    },
+    "srd-2.0.weapon.primary.3.advanced-rope-dart": {
+      "name": "Avancé : Dard à corde"
+    },
+    "srd-2.0.weapon.primary.3.advanced-runelock-pistol": {
+      "name": "Avancé : Pistolet à verrou runique"
+    },
+    "srd-2.0.weapon.primary.3.advanced-scepter": {
+      "name": "Avancé : Sceptre"
+    },
+    "srd-2.0.weapon.primary.3.advanced-scimitar": {
+      "name": "Avancé : Cimeterre"
+    },
+    "srd-2.0.weapon.primary.3.advanced-shadowblade": {
+      "name": "Avancé : Lame d’ombre"
+    },
+    "srd-2.0.weapon.primary.3.advanced-shortbow": {
+      "name": "Avancé : Arc court"
+    },
+    "srd-2.0.weapon.primary.3.advanced-shortstaff": {
+      "name": "Avancé : Bâton court"
+    },
+    "srd-2.0.weapon.primary.3.advanced-spear": {
+      "name": "Avancé : Lance"
+    },
+    "srd-2.0.weapon.primary.3.advanced-twisted-dagger": {
+      "name": "Avancé : Dague torsadée"
+    },
+    "srd-2.0.weapon.primary.3.advanced-wand": {
+      "name": "Avancé : Baguette"
+    },
+    "srd-2.0.weapon.primary.3.advanced-warhammer": {
+      "name": "Avancé : Marteau de guerre"
+    },
+    "srd-2.0.weapon.primary.3.advanced-whipsword": {
+      "name": "Avancé : Épée-fouet"
+    },
+    "srd-2.0.weapon.primary.3.arc-wand": {
+      "name": "Baguette d’arc"
+    },
+    "srd-2.0.weapon.primary.3.black-powder-revolver": {
+      "name": "Revolver à poudre noire"
+    },
+    "srd-2.0.weapon.primary.3.bladed-star": {
+      "name": "Étoile à lames"
+    },
+    "srd-2.0.weapon.primary.3.blitz-hammer": {
+      "name": "Marteau-éclair"
+    },
+    "srd-2.0.weapon.primary.3.bravesword": {
+      "name": "Épée vaillante"
+    },
+    "srd-2.0.weapon.primary.3.chained-scythe": {
+      "name": "Faux enchaînée"
+    },
+    "srd-2.0.weapon.primary.3.crystal-spear": {
+      "name": "Lance de cristal"
+    },
+    "srd-2.0.weapon.primary.3.double-flail": {
+      "name": "Fléau double"
+    },
+    "srd-2.0.weapon.primary.3.flickerfly-blade": {
+      "name": "Lame de luciole"
+    },
+    "srd-2.0.weapon.primary.3.gunblade": {
+      "name": "Lame-pistolet"
+    },
+    "srd-2.0.weapon.primary.3.hammer-of-wrath": {
+      "name": "Marteau du courroux"
+    },
+    "srd-2.0.weapon.primary.3.labrys-axe": {
+      "name": "Hache labrys"
+    },
+    "srd-2.0.weapon.primary.3.meridian-cutlass": {
+      "name": "Sabre méridien"
+    },
+    "srd-2.0.weapon.primary.3.platinum-estoc": {
+      "name": "Estoc de platine"
+    },
+    "srd-2.0.weapon.primary.3.retractable-saber": {
+      "name": "Sabre rétractable"
+    },
+    "srd-2.0.weapon.primary.3.rime-scepter": {
+      "name": "Sceptre de givre"
+    },
+    "srd-2.0.weapon.primary.3.rocket-maul": {
+      "name": "Maillet-fusée"
+    },
+    "srd-2.0.weapon.primary.3.singing-sword": {
+      "name": "Épée chantante"
+    },
+    "srd-2.0.weapon.primary.3.soldiers-pike": {
+      "name": "Pique de soldat"
+    },
+    "srd-2.0.weapon.primary.3.spiked-bow": {
+      "name": "Arc à pointes"
+    },
+    "srd-2.0.weapon.primary.3.staff-of-augma": {
+      "name": "Bâton d’Augma"
+    },
+    "srd-2.0.weapon.primary.3.talon-blades": {
+      "name": "Lames-serres"
+    },
+    "srd-2.0.weapon.primary.4.aantari-bow": {
+      "name": "Arc aantari"
+    },
+    "srd-2.0.weapon.primary.4.adders-fang": {
+      "name": "Croc de vipère"
+    },
+    "srd-2.0.weapon.primary.4.arquebus": {
+      "name": "Arquebuse"
+    },
+    "srd-2.0.weapon.primary.4.bec-de-corbin": {
+      "name": "Bec de corbin"
+    },
+    "srd-2.0.weapon.primary.4.black-powder-serpentine": {
+      "name": "Serpentine à poudre noire"
+    },
+    "srd-2.0.weapon.primary.4.bloodstaff": {
+      "name": "Bâton de sang"
+    },
+    "srd-2.0.weapon.primary.4.clockwork-crossbow": {
+      "name": "Arbalète mécanique"
+    },
+    "srd-2.0.weapon.primary.4.curved-dagger": {
+      "name": "Dague courbe"
+    },
+    "srd-2.0.weapon.primary.4.demons-edge": {
+      "name": "Tranchant du démon"
+    },
+    "srd-2.0.weapon.primary.4.dual-ended-sword": {
+      "name": "Épée à double extrémité"
+    },
+    "srd-2.0.weapon.primary.4.extended-polearm": {
+      "name": "Arme d’hast allongée"
+    },
+    "srd-2.0.weapon.primary.4.floating-bladeshards": {
+      "name": "Éclats de lame flottants"
+    },
+    "srd-2.0.weapon.primary.4.fusion-gloves": {
+      "name": "Gants de fusion"
+    },
+    "srd-2.0.weapon.primary.4.gravity-arbalest": {
+      "name": "Arbalète gravitationnelle"
+    },
+    "srd-2.0.weapon.primary.4.hand-cannon": {
+      "name": "Canon à main"
+    },
+    "srd-2.0.weapon.primary.4.impact-gauntlet": {
+      "name": "Gantelet d’impact"
+    },
+    "srd-2.0.weapon.primary.4.infinite-staff": {
+      "name": "Bâton infini"
+    },
+    "srd-2.0.weapon.primary.4.legendary-arcane-gauntlets": {
+      "name": "Légendaire : Gantelets arcaniques"
+    },
+    "srd-2.0.weapon.primary.4.legendary-arcane-rifle": {
+      "name": "Légendaire : Fusil arcanique"
+    },
+    "srd-2.0.weapon.primary.4.legendary-battleaxe": {
+      "name": "Légendaire : Hache de bataille"
+    },
+    "srd-2.0.weapon.primary.4.legendary-brass-knuckles": {
+      "name": "Légendaire : Poings américains"
+    },
+    "srd-2.0.weapon.primary.4.legendary-brightsword": {
+      "name": "Légendaire : Épée lumineuse"
+    },
+    "srd-2.0.weapon.primary.4.legendary-broadsword": {
+      "name": "Légendaire : Épée large"
+    },
+    "srd-2.0.weapon.primary.4.legendary-casting-dagger": {
+      "name": "Légendaire : Dague d’incantation"
+    },
+    "srd-2.0.weapon.primary.4.legendary-crossbow": {
+      "name": "Légendaire : Arbalète"
+    },
+    "srd-2.0.weapon.primary.4.legendary-cutlass": {
+      "name": "Légendaire : Sabre"
+    },
+    "srd-2.0.weapon.primary.4.legendary-dagger": {
+      "name": "Légendaire : Dague"
+    },
+    "srd-2.0.weapon.primary.4.legendary-dualstaff": {
+      "name": "Légendaire : Bâton double"
+    },
+    "srd-2.0.weapon.primary.4.legendary-enchanted-chakram": {
+      "name": "Légendaire : Chakram enchanté"
+    },
+    "srd-2.0.weapon.primary.4.legendary-glowing-rings": {
+      "name": "Légendaire : Anneaux lumineux"
+    },
+    "srd-2.0.weapon.primary.4.legendary-greatstaff": {
+      "name": "Légendaire : Grand bâton"
+    },
+    "srd-2.0.weapon.primary.4.legendary-greatsword": {
+      "name": "Légendaire : Espadon"
+    },
+    "srd-2.0.weapon.primary.4.legendary-halberd": {
+      "name": "Légendaire : Hallebarde"
+    },
+    "srd-2.0.weapon.primary.4.legendary-hallowed-axe": {
+      "name": "Légendaire : Hache consacrée"
+    },
+    "srd-2.0.weapon.primary.4.legendary-hand-runes": {
+      "name": "Légendaire : Runes de main"
+    },
+    "srd-2.0.weapon.primary.4.legendary-katana": {
+      "name": "Légendaire : Katana"
+    },
+    "srd-2.0.weapon.primary.4.legendary-longbow": {
+      "name": "Légendaire : Arc long"
+    },
+    "srd-2.0.weapon.primary.4.legendary-longsword": {
+      "name": "Légendaire : Épée longue"
+    },
+    "srd-2.0.weapon.primary.4.legendary-mace": {
+      "name": "Légendaire : Masse"
+    },
+    "srd-2.0.weapon.primary.4.legendary-quarterstaff": {
+      "name": "Légendaire : Bâton de combat"
+    },
+    "srd-2.0.weapon.primary.4.legendary-rapier": {
+      "name": "Légendaire : Rapière"
+    },
+    "srd-2.0.weapon.primary.4.legendary-returning-blade": {
+      "name": "Légendaire : Lame de retour"
+    },
+    "srd-2.0.weapon.primary.4.legendary-rope-dart": {
+      "name": "Légendaire : Dard à corde"
+    },
+    "srd-2.0.weapon.primary.4.legendary-runelock-pistol": {
+      "name": "Légendaire : Pistolet à verrou runique"
+    },
+    "srd-2.0.weapon.primary.4.legendary-scepter": {
+      "name": "Légendaire : Sceptre"
+    },
+    "srd-2.0.weapon.primary.4.legendary-scimitar": {
+      "name": "Légendaire : Cimeterre"
+    },
+    "srd-2.0.weapon.primary.4.legendary-shadowblade": {
+      "name": "Légendaire : Lame d’ombre"
+    },
+    "srd-2.0.weapon.primary.4.legendary-shortbow": {
+      "name": "Légendaire : Arc court"
+    },
+    "srd-2.0.weapon.primary.4.legendary-shortstaff": {
+      "name": "Légendaire : Bâton court"
+    },
+    "srd-2.0.weapon.primary.4.legendary-spear": {
+      "name": "Légendaire : Lance"
+    },
+    "srd-2.0.weapon.primary.4.legendary-twisted-dagger": {
+      "name": "Légendaire : Dague torsadée"
+    },
+    "srd-2.0.weapon.primary.4.legendary-wand": {
+      "name": "Légendaire : Baguette"
+    },
+    "srd-2.0.weapon.primary.4.legendary-warhammer": {
+      "name": "Légendaire : Marteau de guerre"
+    },
+    "srd-2.0.weapon.primary.4.legendary-whipsword": {
+      "name": "Légendaire : Épée-fouet"
+    },
+    "srd-2.0.weapon.primary.4.magus-revolver": {
+      "name": "Revolver du mage"
+    },
+    "srd-2.0.weapon.primary.4.midas-scythe": {
+      "name": "Faux de Midas"
+    },
+    "srd-2.0.weapon.primary.4.ricochet-axes": {
+      "name": "Haches à ricochet"
+    },
+    "srd-2.0.weapon.primary.4.severed-dragon-claw": {
+      "name": "Griffe de dragon tranchée"
+    },
+    "srd-2.0.weapon.primary.4.siphoning-gauntlets": {
+      "name": "Gantelets siphonneurs"
+    },
+    "srd-2.0.weapon.primary.4.sledge-axe": {
+      "name": "Hache-masse"
+    },
+    "srd-2.0.weapon.primary.4.starmetal-blade": {
+      "name": "Lame de métal stellaire"
+    },
+    "srd-2.0.weapon.primary.4.storm-gods-greataxe": {
+      "name": "Grande hache du dieu des tempêtes"
+    },
+    "srd-2.0.weapon.primary.4.swinging-ropeblade": {
+      "name": "Lame à corde oscillante"
+    },
+    "srd-2.0.weapon.primary.4.sword-of-light-flame": {
+      "name": "Épée de lumière et de flamme"
+    },
+    "srd-2.0.weapon.primary.4.thistlebow": {
+      "name": "Arc de chardon"
+    },
+    "srd-2.0.weapon.primary.4.wand-of-essek": {
+      "name": "Baguette d’Essek"
+    },
+    "srd-2.0.weapon.secondary.1.fighting-cloak": {
+      "name": "Cape de combat"
+    },
+    "srd-2.0.weapon.secondary.1.focus-runes": {
+      "name": "Runes de focalisation"
+    },
+    "srd-2.0.weapon.secondary.1.grappler": {
+      "name": "Grappin"
+    },
+    "srd-2.0.weapon.secondary.1.hand-crossbow": {
+      "name": "Arbalète de poing"
+    },
+    "srd-2.0.weapon.secondary.1.hatchet": {
+      "name": "Hachette"
+    },
+    "srd-2.0.weapon.secondary.1.offhand-brass-knuckles": {
+      "name": "Poings américains de main secondaire"
+    },
+    "srd-2.0.weapon.secondary.1.round-shield": {
+      "name": "Bouclier rond"
+    },
+    "srd-2.0.weapon.secondary.1.rune-shield": {
+      "name": "Bouclier runique"
+    },
+    "srd-2.0.weapon.secondary.1.shortsword": {
+      "name": "Épée courte"
+    },
+    "srd-2.0.weapon.secondary.1.small-dagger": {
+      "name": "Petite dague"
+    },
+    "srd-2.0.weapon.secondary.1.throwing-knives": {
+      "name": "Couteaux de lancer"
+    },
+    "srd-2.0.weapon.secondary.1.tower-shield": {
+      "name": "Pavois"
+    },
+    "srd-2.0.weapon.secondary.1.whip": {
+      "name": "Fouet"
+    },
+    "srd-2.0.weapon.secondary.2.collapsible-baton": {
+      "name": "Matraque télescopique"
+    },
+    "srd-2.0.weapon.secondary.2.eldritch-vambrace": {
+      "name": "Brassard occulte"
+    },
+    "srd-2.0.weapon.secondary.2.improved-fighting-cloak": {
+      "name": "Amélioré : Cape de combat"
+    },
+    "srd-2.0.weapon.secondary.2.improved-focus-runes": {
+      "name": "Amélioré : Runes de focalisation"
+    },
+    "srd-2.0.weapon.secondary.2.improved-grappler": {
+      "name": "Amélioré : Grappin"
+    },
+    "srd-2.0.weapon.secondary.2.improved-hand-crossbow": {
+      "name": "Amélioré : Arbalète de poing"
+    },
+    "srd-2.0.weapon.secondary.2.improved-hatchet": {
+      "name": "Amélioré : Hachette"
+    },
+    "srd-2.0.weapon.secondary.2.improved-offhand-brass-knuckles": {
+      "name": "Amélioré : Poings américains de main secondaire"
+    },
+    "srd-2.0.weapon.secondary.2.improved-round-shield": {
+      "name": "Amélioré : Bouclier rond"
+    },
+    "srd-2.0.weapon.secondary.2.improved-rune-shield": {
+      "name": "Amélioré : Bouclier runique"
+    },
+    "srd-2.0.weapon.secondary.2.improved-shortsword": {
+      "name": "Amélioré : Épée courte"
+    },
+    "srd-2.0.weapon.secondary.2.improved-small-dagger": {
+      "name": "Amélioré : Petite dague"
+    },
+    "srd-2.0.weapon.secondary.2.improved-throwing-knives": {
+      "name": "Amélioré : Couteaux de lancer"
+    },
+    "srd-2.0.weapon.secondary.2.improved-tower-shield": {
+      "name": "Amélioré : Pavois"
+    },
+    "srd-2.0.weapon.secondary.2.improved-whip": {
+      "name": "Amélioré : Fouet"
+    },
+    "srd-2.0.weapon.secondary.2.parrying-dagger": {
+      "name": "Dague de parade"
+    },
+    "srd-2.0.weapon.secondary.2.razor-wire": {
+      "name": "Fil barbelé"
+    },
+    "srd-2.0.weapon.secondary.2.returning-axe": {
+      "name": "Hache de retour"
+    },
+    "srd-2.0.weapon.secondary.2.segmented-staff": {
+      "name": "Bâton segmenté"
+    },
+    "srd-2.0.weapon.secondary.2.spiked-shield": {
+      "name": "Bouclier à pointes"
+    },
+    "srd-2.0.weapon.secondary.3.advanced-fighting-cloak": {
+      "name": "Avancé : Cape de combat"
+    },
+    "srd-2.0.weapon.secondary.3.advanced-focus-runes": {
+      "name": "Avancé : Runes de focalisation"
+    },
+    "srd-2.0.weapon.secondary.3.advanced-grappler": {
+      "name": "Avancé : Grappin"
+    },
+    "srd-2.0.weapon.secondary.3.advanced-hand-crossbow": {
+      "name": "Avancé : Arbalète de poing"
+    },
+    "srd-2.0.weapon.secondary.3.advanced-hatchet": {
+      "name": "Avancé : Hachette"
+    },
+    "srd-2.0.weapon.secondary.3.advanced-offhand-brass-knuckles": {
+      "name": "Avancé : Poings américains de main secondaire"
+    },
+    "srd-2.0.weapon.secondary.3.advanced-round-shield": {
+      "name": "Avancé : Bouclier rond"
+    },
+    "srd-2.0.weapon.secondary.3.advanced-rune-shield": {
+      "name": "Avancé : Bouclier runique"
+    },
+    "srd-2.0.weapon.secondary.3.advanced-shortsword": {
+      "name": "Avancé : Épée courte"
+    },
+    "srd-2.0.weapon.secondary.3.advanced-small-dagger": {
+      "name": "Avancé : Petite dague"
+    },
+    "srd-2.0.weapon.secondary.3.advanced-throwing-knives": {
+      "name": "Avancé : Couteaux de lancer"
+    },
+    "srd-2.0.weapon.secondary.3.advanced-tower-shield": {
+      "name": "Avancé : Pavois"
+    },
+    "srd-2.0.weapon.secondary.3.advanced-whip": {
+      "name": "Avancé : Fouet"
+    },
+    "srd-2.0.weapon.secondary.3.buckler": {
+      "name": "Rondache"
+    },
+    "srd-2.0.weapon.secondary.3.hand-sling": {
+      "name": "Fronde"
+    },
+    "srd-2.0.weapon.secondary.3.powered-gauntlet": {
+      "name": "Gantelet motorisé"
+    },
+    "srd-2.0.weapon.secondary.3.soul-chain": {
+      "name": "Chaîne d’âme"
+    },
+    "srd-2.0.weapon.secondary.3.tinkers-hammer": {
+      "name": "Marteau de bricoleur"
+    },
+    "srd-2.0.weapon.secondary.3.vorpal-shard": {
+      "name": "Éclat vorpal"
+    },
+    "srd-2.0.weapon.secondary.3.war-dart": {
+      "name": "Dard de guerre"
+    },
+    "srd-2.0.weapon.secondary.4.blackblood-tendril": {
+      "name": "Vrille de sang noir"
+    },
+    "srd-2.0.weapon.secondary.4.braveshield": {
+      "name": "Bouclier vaillant"
+    },
+    "srd-2.0.weapon.secondary.4.echo-blade": {
+      "name": "Lame d’écho"
+    },
+    "srd-2.0.weapon.secondary.4.knuckle-claws": {
+      "name": "Griffes de poing"
+    },
+    "srd-2.0.weapon.secondary.4.legendary-fighting-cloak": {
+      "name": "Légendaire : Cape de combat"
+    },
+    "srd-2.0.weapon.secondary.4.legendary-focus-runes": {
+      "name": "Légendaire : Runes de focalisation"
+    },
+    "srd-2.0.weapon.secondary.4.legendary-grappler": {
+      "name": "Légendaire : Grappin"
+    },
+    "srd-2.0.weapon.secondary.4.legendary-hand-crossbow": {
+      "name": "Légendaire : Arbalète de poing"
+    },
+    "srd-2.0.weapon.secondary.4.legendary-hatchet": {
+      "name": "Légendaire : Hachette"
+    },
+    "srd-2.0.weapon.secondary.4.legendary-offhand-brass-knuckles": {
+      "name": "Légendaire : Poings américains de main secondaire"
+    },
+    "srd-2.0.weapon.secondary.4.legendary-round-shield": {
+      "name": "Légendaire : Bouclier rond"
+    },
+    "srd-2.0.weapon.secondary.4.legendary-rune-shield": {
+      "name": "Légendaire : Bouclier runique"
+    },
+    "srd-2.0.weapon.secondary.4.legendary-shortsword": {
+      "name": "Légendaire : Épée courte"
+    },
+    "srd-2.0.weapon.secondary.4.legendary-small-dagger": {
+      "name": "Légendaire : Petite dague"
+    },
+    "srd-2.0.weapon.secondary.4.legendary-throwing-knives": {
+      "name": "Légendaire : Couteaux de lancer"
+    },
+    "srd-2.0.weapon.secondary.4.legendary-tower-shield": {
+      "name": "Légendaire : Pavois"
+    },
+    "srd-2.0.weapon.secondary.4.legendary-whip": {
+      "name": "Légendaire : Fouet"
+    },
+    "srd-2.0.weapon.secondary.4.orb": {
+      "name": "Orbe"
+    },
+    "srd-2.0.weapon.secondary.4.primer-shard": {
+      "name": "Éclat d’amorce"
+    },
+    "srd-2.0.weapon.secondary.4.void-needle": {
+      "name": "Aiguille du Vide"
+    },
+    "srd-2.0.weapon.supplemental-monster-hunting.primary.1.blessed-brass-knuckles": {
+      "name": "Poings américains bénis"
+    },
+    "srd-2.0.weapon.supplemental-monster-hunting.primary.1.holy-shotgun": {
+      "name": "Fusil à pompe sacré"
+    },
+    "srd-2.0.weapon.supplemental-monster-hunting.primary.1.repeating-crossbow": {
+      "name": "Arbalète à répétition"
+    },
+    "srd-2.0.weapon.supplemental-monster-hunting.primary.2.blessed-brass-knuckles": {
+      "name": "Poings américains bénis"
+    },
+    "srd-2.0.weapon.supplemental-monster-hunting.primary.2.holy-shotgun": {
+      "name": "Fusil à pompe sacré"
+    },
+    "srd-2.0.weapon.supplemental-monster-hunting.primary.2.repeating-crossbow": {
+      "name": "Arbalète à répétition"
+    },
+    "srd-2.0.weapon.supplemental-monster-hunting.primary.3.blessed-brass-knuckles": {
+      "name": "Poings américains bénis"
+    },
+    "srd-2.0.weapon.supplemental-monster-hunting.primary.3.holy-shotgun": {
+      "name": "Fusil à pompe sacré"
+    },
+    "srd-2.0.weapon.supplemental-monster-hunting.primary.3.repeating-crossbow": {
+      "name": "Arbalète à répétition"
+    },
+    "srd-2.0.weapon.supplemental-monster-hunting.primary.4.blessed-brass-knuckles": {
+      "name": "Poings américains bénis"
+    },
+    "srd-2.0.weapon.supplemental-monster-hunting.primary.4.holy-shotgun": {
+      "name": "Fusil à pompe sacré"
+    },
+    "srd-2.0.weapon.supplemental-monster-hunting.primary.4.repeating-crossbow": {
+      "name": "Arbalète à répétition"
+    },
+    "srd-2.0.weapon.supplemental-monster-hunting.secondary.1.chain-whip": {
+      "name": "Fouet-chaîne"
+    },
+    "srd-2.0.weapon.supplemental-monster-hunting.secondary.1.hallowed-shield": {
+      "name": "Bouclier consacré"
+    },
+    "srd-2.0.weapon.supplemental-monster-hunting.secondary.1.wooden-stake": {
+      "name": "Pieu de bois"
+    },
+    "srd-2.0.weapon.supplemental-monster-hunting.secondary.2.chain-whip": {
+      "name": "Fouet-chaîne"
+    },
+    "srd-2.0.weapon.supplemental-monster-hunting.secondary.2.hallowed-shield": {
+      "name": "Bouclier consacré"
+    },
+    "srd-2.0.weapon.supplemental-monster-hunting.secondary.2.wooden-stake": {
+      "name": "Pieu de bois"
+    },
+    "srd-2.0.weapon.supplemental-monster-hunting.secondary.3.chain-whip": {
+      "name": "Fouet-chaîne"
+    },
+    "srd-2.0.weapon.supplemental-monster-hunting.secondary.3.hallowed-shield": {
+      "name": "Bouclier consacré"
+    },
+    "srd-2.0.weapon.supplemental-monster-hunting.secondary.3.wooden-stake": {
+      "name": "Pieu de bois"
+    },
+    "srd-2.0.weapon.supplemental-monster-hunting.secondary.4.chain-whip": {
+      "name": "Fouet-chaîne"
+    },
+    "srd-2.0.weapon.supplemental-monster-hunting.secondary.4.hallowed-shield": {
+      "name": "Bouclier consacré"
+    },
+    "srd-2.0.weapon.supplemental-monster-hunting.secondary.4.wooden-stake": {
+      "name": "Pieu de bois"
+    },
+    "srd-2.0.weapon.supplemental-western.primary.1.revolver": {
+      "name": "Revolver"
+    },
+    "srd-2.0.weapon.supplemental-western.primary.1.rifle": {
+      "name": "Fusil"
+    },
+    "srd-2.0.weapon.supplemental-western.primary.1.shotgun": {
+      "name": "Fusil à pompe"
+    },
+    "srd-2.0.weapon.supplemental-western.primary.2.revolver": {
+      "name": "Revolver"
+    },
+    "srd-2.0.weapon.supplemental-western.primary.2.rifle": {
+      "name": "Fusil"
+    },
+    "srd-2.0.weapon.supplemental-western.primary.2.shotgun": {
+      "name": "Fusil à pompe"
+    },
+    "srd-2.0.weapon.supplemental-western.primary.3.revolver": {
+      "name": "Revolver"
+    },
+    "srd-2.0.weapon.supplemental-western.primary.3.rifle": {
+      "name": "Fusil"
+    },
+    "srd-2.0.weapon.supplemental-western.primary.3.shotgun": {
+      "name": "Fusil à pompe"
+    },
+    "srd-2.0.weapon.supplemental-western.primary.4.revolver": {
+      "name": "Revolver"
+    },
+    "srd-2.0.weapon.supplemental-western.primary.4.rifle": {
+      "name": "Fusil"
+    },
+    "srd-2.0.weapon.supplemental-western.primary.4.shotgun": {
+      "name": "Fusil à pompe"
+    },
+    "srd-2.0.weapon.supplemental-western.secondary.1.lasso": {
+      "name": "Lasso"
+    },
+    "srd-2.0.weapon.supplemental-western.secondary.1.small-revolver": {
+      "name": "Petit revolver"
+    },
+    "srd-2.0.weapon.supplemental-western.secondary.2.lasso": {
+      "name": "Lasso"
+    },
+    "srd-2.0.weapon.supplemental-western.secondary.2.small-revolver": {
+      "name": "Petit revolver"
+    },
+    "srd-2.0.weapon.supplemental-western.secondary.3.lasso": {
+      "name": "Lasso"
+    },
+    "srd-2.0.weapon.supplemental-western.secondary.3.small-revolver": {
+      "name": "Petit revolver"
+    },
+    "srd-2.0.weapon.supplemental-western.secondary.4.lasso": {
+      "name": "Lasso"
+    },
+    "srd-2.0.weapon.supplemental-western.secondary.4.small-revolver": {
+      "name": "Petit revolver"
+    },
+    "the-void.2026-07-09.class.blood-hunter": {
+      "name": "Chasseur de sang"
+    },
+    "the-void.2026-07-09.domain_card.bleeding-tree": {
+      "name": "Arbre sanglant",
+      "system": {
+        "description": "Une fois par repos long, lorsqu’un adversaire à portée Proche est vaincu, vous pouvez faire jaillir de son corps un arbre tortueux et veiné qui exsude de la force vitale. Placez sur cette carte un nombre de jetons égal à votre trait d’Incantation. Un PJ à portée de Mêlée de l’arbre peut dépenser 1 jeton de cette carte pour siphonner la force vitale de l’arbre et effacer 1 PV."
+      }
+    },
+    "the-void.2026-07-09.domain_card.blood-bind": {
+      "name": "Lien de sang",
+      "system": {
+        "description": "Effectuez un jet d’incantation contre un adversaire à portée Proche. En cas de réussite, marquez 1 Stress tandis que vous ralentissez la vitalité de la cible. La cible est temporairement Entravée et Vulnérable. Chaque fois que la cible est sous les projecteurs tant que l’un de ces états persiste, elle marque 1 Stress."
+      }
+    },
+    "the-void.2026-07-09.domain_card.blood-puppet": {
+      "name": "Marionnette de sang",
+      "system": {
+        "description": "Effectuez un jet d’incantation contre un adversaire à portée Proche. En cas de réussite, dépensez 1 Espoir pour accomplir n’importe lesquelles des actions suivantes, dans l’ordre de votre choix :\n• Déplacez la cible jusqu’à une portée Proche de sa position actuelle. Pour déplacer la cible sur un terrain dangereux, vous devez dépenser 1 Espoir supplémentaire.\n• La cible effectue une attaque standard contre une autre cible de votre choix à portée de cette attaque."
+      }
+    },
+    "the-void.2026-07-09.domain_card.blood-spike": {
+      "name": "Pointe de sang",
+      "system": {
+        "description": "Effectuez un jet d’incantation contre une cible à portée Proche. En cas de réussite, dépensez 1 Espoir pour infliger à la cible d8+2 dégâts magiques en utilisant votre Maîtrise, et la cible marque 1 Stress. Si vous avez marqué au moins 3 PV, le dé de dégâts devient un d10 à la place."
+      }
+    },
+    "the-void.2026-07-09.domain_card.blood-touched": {
+      "name": "Touché par le Sang",
+      "system": {
+        "description": "Tant qu’au moins 4 cartes de domaine de votre équipement appartiennent au domaine du Sang, vous gagnez les bénéfices suivants :\n• Vous gagnez 1 Espoir lorsque vous subissez des dégâts Majeurs ou supérieurs.\n• Lorsque vous effectuez un jet d’incantation, vous pouvez dépenser 1 Espoir pour gagner un bonus égal au nombre de PV que vous avez marqués."
+      }
+    },
+    "the-void.2026-07-09.domain_card.brand-of-castigation": {
+      "name": "Marque de châtiment",
+      "system": {
+        "description": "Lorsque vous réussissez un jet d’attaque contre une cible, vous pouvez marquer 1 Stress pour lui apposer une Marque jusqu’à ce que vous preniez un repos long ou lanciez de nouveau ce sort. Vous connaissez toujours la direction de la cible Marquée. Si la cible Marquée vous inflige des dégâts, vous pouvez retirer l’état Marqué pour lui faire marquer 2 Stress."
+      }
+    },
+    "the-void.2026-07-09.domain_card.burning-gore": {
+      "name": "Sang brûlant",
+      "system": {
+        "description": "Effectuez un jet d’incantation (13). En cas de réussite, marquez 1 PV pour enflammer le sang d’un groupe à portée Lointaine, faisant marquer 1 PV à chaque cible. Si vous avez marqué au moins 3 PV, chaque cible marque 2 PV à la place."
+      }
+    },
+    "the-void.2026-07-09.domain_card.glyph-of-hemorrhaging": {
+      "name": "Glyphe d’hémorragie",
+      "system": {
+        "description": "Effectuez un jet d’incantation contre une cible à portée Proche. En cas de réussite, dépensez 1 Espoir pour marquer la cible d’un glyphe magique qui la fait saigner abondamment. Jusqu’à ce que le glyphe s’efface, les dégâts subis par la cible sont augmentés d’un seuil. Le glyphe s’efface lorsque vous prenez un repos, lancez de nouveau ce sort ou lorsque la cible subit des dégâts Sévères ou supérieurs."
+      }
+    },
+    "the-void.2026-07-09.domain_card.grisly-harpoon": {
+      "name": "Harpon macabre",
+      "system": {
+        "description": "Effectuez un jet d’incantation contre une créature à portée Lointaine. En cas de réussite, marquez 1 Stress pour lancer sur la cible un harpon de sang magique invoqué, infligeant d10 dégâts magiques en utilisant votre Maîtrise. Vous pouvez ensuite vous attirer jusqu’à portée de Mêlée de la cible, ou attirer la cible jusqu’à portée de Mêlée de vous. Sinon, si vous ciblez un objet non tenu ou un élément du terrain à portée Lointaine, effectuez un jet d’incantation (13). En cas de réussite, vous attirez l’objet jusqu’à vous ou vous vous attirez jusqu’au terrain."
+      }
+    },
+    "the-void.2026-07-09.domain_card.ichor-wave": {
+      "name": "Vague d’ichor",
+      "system": {
+        "description": "Marquez 1 PV pour effectuer un jet d’incantation contre toutes les cibles devant vous à portée Proche. En cas de réussite, infligez d10 dégâts magiques en utilisant le nombre de PV que vous avez marqués à la place de votre Maîtrise. En cas d’échec, infligez la moitié des dégâts."
+      }
+    },
+    "the-void.2026-07-09.domain_card.life-link": {
+      "name": "Lien vital",
+      "system": {
+        "description": "Effectuez un jet d’incantation (14). Une fois par repos, en cas de réussite, vous invoquez un lien magique entre vous et une cible consentante à portée Proche qui dure jusqu’à la fin de la scène. Lorsque l’une des créatures liées devrait marquer 1 PV, l’autre créature liée peut marquer 1 PV à sa place."
+      }
+    },
+    "the-void.2026-07-09.domain_card.lifeblood-talisman": {
+      "name": "Talisman de sang vital",
+      "system": {
+        "description": "Marquez 1 PV pour invoquer un talisman imprégné de votre essence vitale. Lorsque le porteur du talisman devrait subir des dégâts Sévères ou supérieurs, il peut détruire le talisman pour réduire les dégâts de deux seuils. Sinon, le talisman disparaît lorsque vous prenez un repos ou lancez de nouveau ce sort."
+      }
+    },
+    "the-void.2026-07-09.domain_card.palpitations": {
+      "name": "Palpitations",
+      "system": {
+        "description": "Lorsque vous ou un allié effectuez un jet d’action pour effrayer ou intimider une créature à portée Proche, vous pouvez dépenser 1 Espoir pour donner l’Avantage au jet. En cas de réussite, la cible marque 1 Stress. De plus, une fois par repos long, vous pouvez dépenser 1 Espoir pour vous calmer ou calmer une créature consentante à portée Proche, permettant à la cible d’effacer 2 Stress."
+      }
+    },
+    "the-void.2026-07-09.domain_card.parasite-of-the-will": {
+      "name": "Parasite de la volonté",
+      "system": {
+        "description": "Effectuez un jet d’incantation contre un adversaire à portée Proche. Une fois par repos, en cas de réussite, marquez 1 PV pour Infecter la cible avec un minuscule ver de sang magique. Les jets de Présence contre la cible Infectée ont l’Avantage. Lorsque la cible Infectée effectue un jet d’attaque, vous pouvez dépenser 1 Espoir pour lui donner le Désavantage. L’état Infecté dure jusqu’à ce que vous preniez un repos ou sacrifiiez le ver de sang pour faire marquer 1 PV à la cible Infectée."
+      }
+    },
+    "the-void.2026-07-09.domain_card.power-through-pain": {
+      "name": "Puiser dans la douleur",
+      "system": {
+        "description": "Lorsque vous marquez 1 PV, placez 1 jeton sur cette carte. Lors d’une attaque réussie, vous pouvez dépenser autant de jetons que vous le souhaitez depuis cette carte pour gagner un bonus de 1d6 aux dégâts de l’attaque pour chaque jeton dépensé. Cette carte peut contenir un nombre maximal de jetons égal à votre trait d’Incantation. Retirez tous les jetons de cette carte lorsque vous prenez un repos long."
+      }
+    },
+    "the-void.2026-07-09.domain_card.sanguine-feast": {
+      "name": "Festin sanguin",
+      "system": {
+        "description": "Effectuez un jet d’incantation contre un adversaire à portée Proche. Une fois par repos, en cas de réussite, lancez un nombre de d6 égal au nombre de PV que vous avez marqués, et vous pouvez marquer 1 PV supplémentaire pour relancer autant de ces dés que vous le souhaitez. La cible marque 1 PV pour chaque résultat de 4 ou plus."
+      }
+    },
+    "the-void.2026-07-09.domain_card.scabrous-adamance": {
+      "name": "Adamance scabreuse",
+      "system": {
+        "description": "Vos blessures se referment en croûtes cuirassées. Lorsque vous marquez 2 PV ou plus à cause d’une attaque, effacez 1 emplacement d’armure."
+      }
+    },
+    "the-void.2026-07-09.domain_card.vampiric-strike": {
+      "name": "Frappe vampirique",
+      "system": {
+        "description": "Lorsque vous infligez des dégâts Majeurs ou supérieurs à un adversaire à portée Proche, vous pouvez marquer 1 Stress pour effacer 1 PV."
+      }
+    },
+    "the-void.2026-07-09.domain_card.viscous-form": {
+      "name": "Forme visqueuse",
+      "system": {
+        "description": "Marquez 1 Stress pour placer sur cette carte un nombre de jetons égal à votre trait d’Incantation et vous transformer en une flaque de sang. Retirez 1 jeton chaque fois que vous effectuez un jet d’action ou subissez des dégâts. Vous quittez cette forme lorsque vous retirez le dernier jeton de cette carte. Sous forme de sang, vous gagnez une résistance aux dégâts physiques et pouvez vous glisser dans tout espace qu’un liquide peut traverser."
+      }
+    },
+    "the-void.2026-07-09.domain_card.vital-ward": {
+      "name": "Garde vitale",
+      "system": {
+        "description": "Choisissez le type de dégâts physiques ou magiques, puis effectuez un jet d’incantation (15). En cas de réussite, vous tracez au sol autour de vous un cercle de sang de portée Très Proche qui accorde aux créatures de votre choix à l’intérieur une résistance à ce type de dégâts. Le cercle dure jusqu’à ce que vous subissiez des dégâts Majeurs ou supérieurs, quittiez le cercle ou lanciez de nouveau ce sort."
+      }
+    },
+    "the-void.2026-07-09.domain_card.weave-the-flesh": {
+      "name": "Tisser la chair",
+      "system": {
+        "description": "Une fois par repos long, vous pouvez marquer 1 PV pour coaguler, suturer et fortifier les autres avec votre propre sang vital. Chaque cible consentante à portée Très Proche efface 1 PV et 1 emplacement d’armure."
+      }
+    },
+    "the-void.2026-07-09.subclass.order-of-the-lycan": {
+      "name": "Ordre du Lycan"
+    },
+    "the-void.2026-07-09.subclass.order-of-the-mutant": {
+      "name": "Ordre du Mutant"
+    },
+    "the-void.2026-07-09.subclass.order-of-the-specter": {
+      "name": "Ordre du Spectre"
+    }
+  }
+}

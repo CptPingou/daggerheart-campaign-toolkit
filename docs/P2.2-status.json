@@ -1,0 +1,16 @@
+{
+  "phase": "P2.2",
+  "module_id": "daggerheart-campaign-toolkit",
+  "version": "0.1.0",
+  "status": "READY_FOR_FOUNDRY_TEST",
+  "checks_to_validate": [
+    "module visible dans Manage Modules",
+    "module activable sous Foundry v14 / daggerheart",
+    "compendium Campaign Toolkit — Macros visible",
+    "smokeTest() retourne systemOk=true",
+    "smokeTest() retourne packAvailable=true",
+    "macro Campaign Toolkit — Smoke Test seedée",
+    "aucun contenu Foundryborne modifié"
+  ],
+  "next_after_green": "P2.3.1 — petit corpus pilote"
+}

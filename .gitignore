@@ -1,0 +1,16 @@
+﻿# Foundry generated/runtime compendiums
+packs/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Logs / temp
+*.log
+*.tmp
+*.bak
+
+# Archives
+*.zip

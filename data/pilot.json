@@ -1,0 +1,307 @@
+{
+  "phase": "P2.3.1",
+  "source": "daggerheart-data",
+  "purpose": "Foundryborne native-document pilot only",
+  "entries": [
+    {
+      "key": "pilot-class",
+      "kind": "class",
+      "source_path": "data/playtest/blood-hunter-v1.5/classes/blood-hunter.json",
+      "source_id": "the-void.v1.5.class.blood-hunter",
+      "data": {
+        "id": "the-void.v1.5.class.blood-hunter",
+        "kind": "class",
+        "identity": {
+          "name": "Blood Hunter",
+          "slug": "blood-hunter"
+        },
+        "source": {
+          "corpus": "the-void",
+          "product": "blood-hunter",
+          "version": "1.5",
+          "status": "playtest"
+        },
+        "provenance": {
+          "source_file": "Bloodhunter-v1.5-The-Void.pdf",
+          "page": 1
+        },
+        "availability": {
+          "in_srd": false,
+          "private_only": true,
+          "deprecated": false
+        },
+        "rules": {
+          "domains": [
+            "blade",
+            "blood"
+          ],
+          "starting_evasion": 9,
+          "suggested_traits": {
+            "instinct": 1,
+            "presence": 0,
+            "knowledge": 0
+          },
+          "features": [
+            {
+              "name": "Blood Maledict",
+              "category": "hope_feature",
+              "cost": {
+                "hope": 3
+              },
+              "range": "far",
+              "text": "Spend 3 Hope to target a creature within Far range or in a vision from your Grim Psychometry. Until you finish a rest, take Severe damage, or use this feature again, you have advantage on all action rolls against the target."
+            },
+            {
+              "name": "Crimson Rite",
+              "category": "class_feature",
+              "cost": {
+                "hp": 1
+              },
+              "text": "You can enchant your strikes with bloodthirsty power at the cost of your vitality. Mark a Hit Point to enchant one of your active weapons. Until you finish your next rest, that weapon deals physical or magic damage (choose when you use this feature) and an extra 1d6 damage when you hit with it. This extra damage increases to 2d6 at level 5 and 3d6 at level 8."
+            },
+            {
+              "name": "Grim Psychometry",
+              "category": "class_feature",
+              "roll": {
+                "type": "spellcast",
+                "difficulty": 12
+              },
+              "range": "very_close",
+              "text": "While inspecting a creature, a location, or an object within Very Close range, make a Spellcast Roll (12). On a success, mark a Stress to have a vision of the most recent violence involving the target, and until you finish a rest, you have advantage on any action roll to recall lore about things in the vision."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "key": "pilot-subclass",
+      "kind": "subclass",
+      "source_path": "data/playtest/blood-hunter-v1.5/subclasses/order-of-the-ghost-slayer.json",
+      "source_id": "the-void.v1.5.subclass.order-of-the-ghost-slayer",
+      "data": {
+        "id": "the-void.v1.5.subclass.order-of-the-ghost-slayer",
+        "kind": "subclass",
+        "identity": {
+          "name": "Order of the Ghost Slayer",
+          "slug": "order-of-the-ghost-slayer"
+        },
+        "source": {
+          "corpus": "the-void",
+          "product": "blood-hunter",
+          "version": "1.5",
+          "status": "playtest"
+        },
+        "provenance": {
+          "source_file": "Bloodhunter-v1.5-The-Void.pdf",
+          "page": 3
+        },
+        "availability": {
+          "in_srd": false,
+          "private_only": true,
+          "deprecated": false
+        },
+        "class_id": "the-void.v1.5.class.blood-hunter",
+        "rules": {
+          "spellcast_trait": "agility",
+          "features": [
+            {
+              "tier": "foundation",
+              "name": "Chasing Death",
+              "text": "While you have 1–3 unmarked Hit Points, you can use your Crimson Rite feature without paying the Hit Point cost. If you have only 1 unmarked Hit Point, you roll d8s instead of d6s for the extra damage of your Crimson Rite."
+            },
+            {
+              "tier": "foundation",
+              "name": "Shadowed Grit",
+              "text": "When the GM gains a Fear from a Duality Dice roll, you can mark a Stress to gain a Hope."
+            },
+            {
+              "tier": "specialization",
+              "name": "Veilwalker",
+              "text": "You can briefly slip into the realm between the living and the dead. Spend 2 Hope to disappear and then reappear next to a creature or a corpse within Far range. You then have advantage on the next attack roll you make in this scene."
+            },
+            {
+              "tier": "mastery",
+              "name": "Spectral Form",
+              "text": "You have another death move option: Spectral Form. When you choose this option, you clear a Hit Point, your body becomes spectral, you have resistance to physical damage, and you can pass through objects. This form ends if you clear any more Hit Points. It also ends if you mark your last Hit Point, which forces you to take a different death move. You’re shunted to the nearest open space if you’re inside an object when the form ends."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "key": "pilot-domain_card",
+      "kind": "domain_card",
+      "source_path": "data/srd-2.0/domain-cards/arcana.json",
+      "source_id": "srd-2.0.domain-card.arcana.rune-ward",
+      "data": {
+        "id": "srd-2.0.domain-card.arcana.rune-ward",
+        "kind": "domain_card",
+        "identity": {
+          "name": "Rune Ward",
+          "slug": "rune-ward"
+        },
+        "source": {
+          "corpus": "daggerheart-srd",
+          "product": "srd",
+          "version": "2.0",
+          "status": "srd"
+        },
+        "availability": {
+          "in_srd": true,
+          "private_only": false,
+          "deprecated": false
+        },
+        "rules": {
+          "domain": "arcana",
+          "level": 1,
+          "card_type": "spell",
+          "recall_cost": 0
+        },
+        "content": {
+          "rules_text": "You have a deeply personal trinket that can be infused with \nprotective magic and held as a ward by you or an ally. Describe \nwhat it is and why it’s important to you. The ward’s holder can \nspend a Hope to reduce incoming damage by 1d8. \nIf the Ward Die result is 8, the ward’s power ends after it \nreduces damage this turn. It can be recharged for free  \non your next rest.",
+          "notes": null
+        }
+      }
+    },
+    {
+      "key": "pilot-weapon",
+      "kind": "weapon",
+      "source_path": "data/srd-2.0/equipment/supplemental-weapons.json",
+      "source_id": "srd-2.0.weapon.supplemental-western.primary.1.revolver",
+      "data": {
+        "id": "srd-2.0.weapon.supplemental-western.primary.1.revolver",
+        "kind": "weapon",
+        "slot": "primary",
+        "tier": 1,
+        "name": "Revolver",
+        "trait": "Finesse",
+        "range": "Far",
+        "damage": "d8+1",
+        "damage_type": "phy",
+        "burden": "One-Handed",
+        "feature": {
+          "name": "Six Shot",
+          "text": "Place 6 Ammo tokens on your character sheet. Spend 1 Ammo token to make an attack. You can mark a Stress to regain spent Ammo tokens."
+        },
+        "source_subset": "supplemental-western",
+        "source": {
+          "corpus": "daggerheart-srd",
+          "version": "2.0",
+          "status": "srd"
+        },
+        "canonical": true
+      }
+    },
+    {
+      "key": "pilot-armor",
+      "kind": "armor",
+      "source_path": "data/srd-2.0/equipment/armor.json",
+      "source_id": "srd-2.0.armor.mage-robes",
+      "data": {
+        "id": "srd-2.0.armor.mage-robes",
+        "kind": "armor",
+        "name": "Mage Robes",
+        "tier": 1,
+        "base_thresholds": {
+          "major": 4,
+          "severe": 10
+        },
+        "base_score": 2,
+        "feature": {
+          "name": "Enchanted",
+          "text": "Gain a bonus to your damage thresholds equal to your Spellcast trait."
+        },
+        "source": {
+          "corpus": "daggerheart-srd",
+          "version": "2.0",
+          "status": "srd"
+        }
+      }
+    },
+    {
+      "key": "pilot-adversary",
+      "kind": "adversary",
+      "source_path": "data/srd-2.0/adversaries/adversaries.json",
+      "source_id": "srd-2.0.adversary.acid-burrower",
+      "data": {
+        "id": "srd-2.0.adversary.acid-burrower",
+        "kind": "adversary",
+        "tier": 1,
+        "role": "Solo",
+        "name": "Acid Burrower",
+        "motives_tactics": null,
+        "difficulty": 14,
+        "thresholds": {
+          "major": 8,
+          "severe": 15
+        },
+        "hp": 8,
+        "stress": 3,
+        "stress_none": false,
+        "attack": {
+          "modifier": 3,
+          "name": "Claws",
+          "range": "Very Close",
+          "damage": "1d12+2",
+          "damage_type": "phy"
+        },
+        "experience_text": "Tremor Sense +2",
+        "features_text": "Relentless (3) - Passive: The Burrower can be spotlighted up to three times per GM turn. Spend Fear as usual to spotlight them. Earth Eruption - Action: Mark a Stress to have the Burrower burst out of the ground. All creatures within Very Close range must succeed on an Agility Reaction Roll or be knocked over, making them Vulnerable until they next act. Spit Acid - Action: Make an attack against all targets in front of the Burrower within Close range. T argets the Burrower succeeds against take 2d6 physical damage and must mark an Armor Slot without receiving its benefi ts (they can still use armor to reduce the damage). If they can’t mark an Armor Slot, they must mark an additional HP and you gain a Fear. Acid Bath - Reaction: When the Burrower takes Severe damage, all creatures within Close range are bathed in their acidic blood, taking 1d10 physical damage. This splash covers the ground within Very Close range with blood, and all creatures other than the Burrower who move through it take 1d6 physical damage. BEAR Tier  Bruiser A large bear with thick fur and powerful claws. Motives & Tactics: Climb, defend territory, pummel, track Diffi culty: 14 | Thresholds: 9/17 | HP: 7 | Stress: 2 ATK: +1 | Claws: Melee | 1d8+3 phy Experience: Ambusher +3, Keen Senses +2 FEATURES Overwhelming Force - Passive: T argets who mark HP from the Bear’s standard attack are knocked back to Very Close range. Bite - Action: Mark a Stress to make an attack against a target within Melee range. On a success, deal 3d4+10 physical damage and the target is Restrained until they break free with a successful Strength Roll. Momentum - Reaction: When the Bear makes a successful attack against a PC, you gain a Fear.",
+        "source": {
+          "corpus": "daggerheart-srd",
+          "version": "2.0",
+          "status": "srd"
+        },
+        "canonical": true,
+        "provenance_debug": {
+          "raw_name": "Acid Burrower",
+          "raw_tier": 1,
+          "name_match_ratio": 1.0
+        }
+      }
+    },
+    {
+      "key": "pilot-environment",
+      "kind": "environment",
+      "source_path": "data/srd-2.0/environments/environments.json",
+      "source_id": "srd-2.0.environment.abandoned-grove",
+      "data": {
+        "id": "srd-2.0.environment.abandoned-grove",
+        "kind": "environment",
+        "tier": 1,
+        "type": "Exploration",
+        "name": "Abandoned Grove",
+        "description": "A former druidic grove lying fallow and fully reclaimed by nature.",
+        "impulses": "Draw in the curious, echo the past Diffi culty: 11",
+        "difficulty": 11,
+        "difficulty_special": null,
+        "potential_adversaries_text": "Beasts (Bear, Dire Wolf, Glass Snake), Grove Guardians (Minor Treant, Sylvan Soldier, Young Dryad)",
+        "features_text": "Overgrown Battlefi eld - Passive: There has been a battle here. A PC can make an Instinct Roll to identify evidence of that fi ght. On a success with Hope, learn all three pieces of information below. On a success with Fear, learn two. On a failure, a PC can mark a Stress to learn one and gain advantage on the next action roll to investigate this environment. A PC with an appropriate background or Experience can learn an additional detail and ask a follow-up question about the scene and get a truthful (if not always complete) answer. • Traces of a battle (broken weapons and branches, gouges in the ground) litter the ground. • A moss-covered tree trunk is actually the corpse of a treant. • Still-standing trees are twisted in strange ways, as if by powerful magic. Why did these groups come to blows? Why is the grove unused now? Barbed Vines - Action: Pick a point within the grove. All targets within Very Close range of that point must succeed on an Agility Reaction Roll or take 1d8+3 physical damage and become Restrained by barbed vines. Restrained lasts until they’re freed with a successful Finesse or Strength roll or by dealing at least 6 damage to the vines. How many vines are there? Where do they grab you? Do they pull you down or lift you oﬀ the ground? You Are Not Welcome Here - Action: A Young Dryad, two Sylvan Soldiers, and a number of Minor Treants equal to the number of PCs appear to confront the party for their intrusion. What are the grove guardians concealing? What threat to the forest could the PCs confront to appease the Dryad? Defi ler - Action: Spend a Fear to summon a Minor Chaos Elemental drawn to the echoes of violence and discord. They appear within Far range of a chosen PC and immediately take the spotlight. What color does the grass turn as the elemental appears? How does the chaos warp insects and small wildlife within the grove?",
+        "source": {
+          "corpus": "daggerheart-srd",
+          "version": "2.0",
+          "status": "srd"
+        },
+        "provenance_debug": {
+          "raw_name": "Abandoned Grove",
+          "raw_tier": 1,
+          "raw_type": "Exploration",
+          "name_match_ratio": 1.0
+        }
+      }
+    }
+  ],
+  "expected": {
+    "item_count": 5,
+    "actor_count": 2,
+    "kinds": [
+      "class",
+      "subclass",
+      "domain_card",
+      "weapon",
+      "armor",
+      "adversary",
+      "environment"
+    ]
+  }
+}
