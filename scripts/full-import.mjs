@@ -381,6 +381,7 @@ export async function importFullMapped() {
   const equipmentFeatureCatalog = await ensureSourceEquipmentFeatureCatalog(payload.entries);
   const grouped = new Map(Object.values(ROUTES).map(r => [r.packId, []]));
   const buildFailures = [];
+  const importLocale = getImportLocale();
 
   for (const entry of payload.entries) {
     const route = ROUTES[entry.kind];
@@ -389,7 +390,10 @@ export async function importFullMapped() {
       continue;
     }
     try {
-      grouped.get(route.packId).push(markManaged(await route.build(entry), entry.kind));
+      const data = markManaged(await route.build(entry), entry.kind);
+      const sourceId = entry.data?.id ?? entry.sourceId ?? data.flags?.[FLAG_SCOPE]?.sourceId ?? null;
+      await applyContentLocale(data, sourceId, importLocale);
+      grouped.get(route.packId).push(data);
     } catch (error) {
       buildFailures.push({ sourceId: entry.data?.id ?? null, kind: entry.kind, message: error?.message ?? String(error) });
       console.error(`${MODULE_ID} | full mapping failed`, entry, error);

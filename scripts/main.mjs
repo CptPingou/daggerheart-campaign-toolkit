@@ -1,11 +1,19 @@
 import { localizeNativeEquipmentConfigLabels } from "./equipment-native-fr.mjs";
 import "./content-locale-settings.mjs";
 import { importFullMapped, fullStatus } from "./full-import.mjs";
+import { importCampaignFrames, importCampaignFramePilot, campaignFrameStatus } from "./campaign-frame-import.mjs";
 import { semanticAudit } from "./semantic-audit.mjs";
 import { localizationAudit } from "./localization-audit.mjs";
+import { weaponProgressionApi } from "./weapon-progression.mjs";
+import { motherboardAugmentCatalogApi } from "./weapon-augment-catalog.mjs";
+import { createWeaponAugmentStateApi } from "./weapon-augment-state.mjs";
+import { registerWeaponAugmentSheetIntegration } from "./weapon-augment-sheet.mjs";
+import {
+  registerWeaponAugmentNativeFeatures,
+} from "./weapon-augment-native.mjs";
 
 const MODULE_ID = "daggerheart-campaign-toolkit";
-const SMOKE_MACRO_NAME = "Campaign Toolkit — Smoke Test";
+const SMOKE_MACRO_NAME = "Campaign Toolkit - Smoke Test";
 const DATA_PACKS = [
   "dh-classes",
   "dh-subclasses",
@@ -14,6 +22,7 @@ const DATA_PACKS = [
   "dh-armor",
   "dh-adversaries",
   "dh-environments",
+  "dh-campaign-frames",
 ];
 
 function registerBloodDomain() {
@@ -46,7 +55,7 @@ Hooks.once("init", () => {
   }
 
   game.modules.get(MODULE_ID).api = {
-    version: "0.4.3",
+    version: "0.5.11",
     async smokeTest() {
       const systemOk = game.system?.id === "daggerheart";
       const packs = Object.fromEntries([
@@ -63,18 +72,35 @@ Hooks.once("init", () => {
       };
       console.table(result);
       const green = systemOk && Object.values(packs).every(Boolean);
-      ui.notifications[green ? "info" : "warn"](`Campaign Toolkit : smoke test ${green ? "GREEN" : "incomplet — voir console"}`);
+      ui.notifications[green ? "info" : "warn"](`Campaign Toolkit : smoke test ${green ? "GREEN" : "incomplet - voir console"}`);
       return result;
     },
     importFullMapped,
     fullStatus,
+    importCampaignFrames,
+    importCampaignFramePilot,
+    campaignFrameStatus,
     semanticAudit,
     localizationAudit,
+    weaponProgression: weaponProgressionApi,
+    weaponAugments: motherboardAugmentCatalogApi,
+    weaponAugmentState: createWeaponAugmentStateApi(motherboardAugmentCatalogApi),
   };
+
+  registerWeaponAugmentSheetIntegration();
 });
 
 Hooks.once("ready", async () => {
   console.log(`${MODULE_ID} | ready`);
+
+  try {
+    const nativeAugments = await registerWeaponAugmentNativeFeatures(
+      motherboardAugmentCatalogApi,
+    );
+    console.info(`${MODULE_ID} | native Weapon Augments ready`, nativeAugments);
+  } catch (error) {
+    console.error(`${MODULE_ID} | unable to register native Weapon Augments`, error);
+  }
   const locale = game.settings.get(MODULE_ID, "contentLocale") ?? "en";
   const nativeLabels = localizeNativeEquipmentConfigLabels(locale);
   if (nativeLabels) console.info(`${MODULE_ID} | localized native equipment labels`, nativeLabels);

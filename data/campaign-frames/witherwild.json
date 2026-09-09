@@ -1,0 +1,300 @@
+{
+  "phase": "P2.4.1a",
+  "source_path": "data/srd-2.0/campaign-frames/witherwild.json",
+  "audit": {
+    "phase": "P2.4.1a",
+    "source_path": "data/srd-2.0/campaign-frames/witherwild.json",
+    "kind": "campaign_frame",
+    "id": "srd-2.0.campaign-frame.witherwild",
+    "name": "The Witherwild",
+    "slug": "witherwild",
+    "checks": {
+      "kind_campaign_frame": true,
+      "id_present": true,
+      "identity_present": true,
+      "sections_present": true,
+      "section_ids_unique": true,
+      "sections_well_formed": true,
+      "section_names_match": true
+    },
+    "section_count": 14,
+    "malformed_sections": [],
+    "green": true
+  },
+  "data": {
+    "id": "srd-2.0.campaign-frame.witherwild",
+    "kind": "campaign_frame",
+    "identity": {
+      "name": "The Witherwild",
+      "slug": "witherwild"
+    },
+    "source": {
+      "corpus": "daggerheart-srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "provenance": {
+      "printed_pages": [
+        184,
+        189
+      ]
+    },
+    "complexity_rating": 1,
+    "sections": [
+      {
+        "id": "srd-2.0.campaign-frame.witherwild.the-pitch",
+        "name": "The Pitch",
+        "rules_text": "Read this section to your players to introduce them to the \ncampaign.\nFanewick was once a place of great abundance and \npeace—dangerous to those unfamiliar with the land, but a \ncornucopia to those who respected its ways. When Haven \ninvaded the wilds and forced the land into eternal spring, a \ndangerous bloom known as the Witherwild took hold and \nnow threatens the lives of all who live there. In a Witherwild \ncampaign, you’ll play unlikely heroes from humble \nbeginnings who are reckoning with their newfound duty to \nsave Fanewick’s people from dangerous corruption.",
+        "raw_heading": "THE PITCH"
+      },
+      {
+        "id": "srd-2.0.campaign-frame.witherwild.tone-feel",
+        "name": "Tone & Feel",
+        "rules_text": "Adventurous, Dynamic, Epic, Heroic, Thrilling, Uncanny, \nWhimsical",
+        "raw_heading": "TONE & FEEL"
+      },
+      {
+        "id": "srd-2.0.campaign-frame.witherwild.themes",
+        "name": "Themes",
+        "rules_text": "Cultural Clash, Ends Justify Means, Grief, People vs. \nNature, Transformation and Change, Survival",
+        "raw_heading": "THEMES"
+      },
+      {
+        "id": "srd-2.0.campaign-frame.witherwild.touchstones",
+        "name": "Touchstones",
+        "rules_text": "Princess Mononoke, The Legend of Zelda, The Dark Crystal, \nNausicaä of the Valley of the Wind",
+        "raw_heading": "TOUCHSTONES"
+      },
+      {
+        "id": "srd-2.0.campaign-frame.witherwild.overview",
+        "name": "Overview",
+        "rules_text": "If your group decides to play this campaign, give your players the \nfollowing information before character creation.\nFanewick is a wild and untamed land, long avoided by outside \nforces. The woods are dark and twisting, filled with Faint \nDivinities who perform small miracles and services for its \ninhabitants, but are just as likely to lure travelers off narrow \npaths to their ruin. Seemingly harmless expanses of field hide \nbogs that engulf entire armies, consuming heavy artillery as \nquickly as it can cross the border. This wilderness fosters \nhardy people who are bold enough to raise families where \nothers have not and strictly follow the unique rules that keep \nthem safe. These Wicklings remained insulated from their \nneighbors’ wars until plague forced the people of Haven to \ndesperate acts.\nHaven was once the most powerful force in the region; for \ncenturies, the high stone walls into the capital bore the phrase \n“The Godless Gate.” While the original meaning has been \nlost to common knowledge, some dusty tomes and ancient \nrecords state that the founders of Haven wished to be free \nof the influence of the Faint Divinities that dominated the \nsurrounding regions. They hatched a plan to kill one of the \nmightiest of these deities, known as Shun’Aush the Granite \nOphid. While their exact method of deicide is forgotten, their \nvictory ensured Haven’s dominance in the region for centuries \nto come. They made their home behind his remains, which \nbecame the mighty walls that Haven is known for. \nBut Shun’Aush would have his revenge. As the Havenites \ncarved through his stone body, the fine dust left behind \nsettled into the surrounding earth. There was a time of \nprosperity over many centuries while the scales of the god \nremained undisturbed. But progress is its own pressure. The \ngrowing population demanded increased productivity, and \nas farmers tilled deeper soil and miners hacked into hidden \nstone, the ancient stone dust rose to the surface. The same \nwalls that brought the city security became the crucible that \nincubated a virulent plague. \nOver the last two years, over half of Haven’s populace fell to a \ndisease known as the Serpent’s Sickness. First, victims cough \nup dust. Soon after, their skin breaks out in a scaling rash. \nFinally, their body hardens—first the flesh, bones, and soft \ntissue, spreading until, finally, their organs ossify. Once within \nthe organs, “the serpent” moves so quickly that sufferers \npetrify where they stand, filling Haven with statues of victims \nin their last moments of agony.\nThe High Magus of Haven, Archmage Phylax, discovered a \nrare red flower called the crimson lady’s veil that could cure \nthe Serpent’s Sickness. These buds grow prolifically across \nFanewick in the spring—but for every ten thousand of the \ncommon white-petaled blossoms, only one red flower blooms.\nDesperate to save their people from the plague, Haven \ninvaded Fanewick to amass the scarce red buds. Their forces \nplunged into the deep wood and, under the guidance of \nArchmage Phylax, plucked out the Reaping Eye from the most \npowerful Faint Divinity that protected the land: The Great \nOwl Nikta, the Shepherd of the Seasons. The Shepherd kept \nFanewick in balance by turning her eyes upon the land, first \nfor ripening, then ruination. Thus Nikta maintained the cycle \nof seasons—of growth and decay, of death and rebirth. With \nher Reaping Eye removed, Nikta can only watch over Fanewick \nwith the Sowing Eye, forcing the land into everlasting spring. \nIn the year since, Haven has conquered the bogs, turning them \ninto fields to harvest red flowers. The endless growth that \nonce seemed like a gift quickly evolved into a scourge known \nas the Witherwild—Fanewick’s flora and fauna flourished, \nunchecked and uncontrolled. Animals swell to massive size; \ntrees warp, twist, and begin to hunt people; and vines creep \nalong the forest floor, strangling all they touch. This explosive \ngrowth is unconquerable and unrelenting, with no force able \nto stop the burgeoning verdance for long. \nPrior to the Serpent’s Sickness and the Shepherd’s endless \ngrowth, your party lived a peaceful life in Fanewick or a life of \ntoil and conquest in Haven. But when the danger demands a \nresponse, even the unprepared—and unwilling—must make \na stand.",
+        "raw_heading": "OVERVIEW"
+      },
+      {
+        "id": "srd-2.0.campaign-frame.witherwild.communities",
+        "name": "Communities",
+        "rules_text": "All communities are available, but some have unique aspects \nwithin a Witherwild campaign. As needed, provide the following \ninformation to your players and choose one or more of the \nquestions to ask them during your session zero.\nLOREBORNE AND HIGHBORNE\nIn Fanewick, knowledge is the most valuable commodity, and \nthose who have expertise have the most power. This economy \nof information functions primarily through gifting and trading, \nand wisdom would be considered acceptable collateral for \na weapon or warm meal. As such, loreborne community \nmembers are the wealthiest in Fanewick and might be smaller, \ndistinct groups of hunters, historians, or artisans within larger \nvillages.\nWhat knowledge did your community teach you that you \nmust now protect or share?\nWhat are you able to accomplish because of your upbringing \nthat others outside your community do not understand?\nYou once traded important knowledge for something terrible. \nWhat did you impart and what did you gain in return?  \nIn Haven, the wealthiest members are highborne, having \ninherited riches built in the walled city over generations. \nWhile the highborne of Haven were more insulated from the \nSerpent’s Sickness, none were immune.\nWho have you lost to the Serpent’s Sickness? How did it \naffect you?\nHow did your family make their wealth? Have you rejected \nor embraced their core set of ethics?\nYou grew up in a world of abundance but were kept from \nlearning something about the world. What was this \nknowledge and when did you discover it?\nRIDGEBORNE, UNDERBORNE,  \nAND WILDBORNE\nCharacters from these communities were likely raised in \nFanewick’s deadly environs, which have only become more \ndangerous as the Witherwild grows. Each community has \nunique customs, some freely shared and others kept secret, \nthat allow them safe passage through dangerous terrain and \nthe Faint Divinities’ territories.  \nIn exchange for protection from the Witherwild for themselves \nand their families, some Wicklings from these groups have \nbeen forced to take jobs as farmers in Haven’s flower fields. \nThough it is backbreaking work performed for a nation \ndestroying their land, the farmers are offered safety by the \nHaven fires that burn back the ever-creeping Witherwild.\nWhat Faint Divinities do you give tribute to, and how have \nyou been rewarded in kind?\nYou displeased a god of Fanewick. What did you do, and \nwhat misfortune befell you or a loved one?\nYou fled the place of your birth. What circumstances drove \nyou to leave?\nORDERBORNE\nPlayers might choose to build orderborne characters if they \nwant to play current or former members of the Haven Army \nthat invaded Fanewick. Though the army brings violence into \nthis land, they also carry overwhelming grief for a homeland \nsuccumbing to disease.\nWhat regrets do you carry with you from your conquest of \nforeign soil?\nWhat kindness did an enemy combatant bestow upon you \nin an hour of need? How did this change your view of the \npeople of Fanewick?\nYou were charged with planting a rumor in a Fanewick \ncommunity. What is the rumor, and do you plan to carry \nout this mission?\nSLYBORNE\nAs the Haven Army is the current martial power in Fanewick, \nthose who wish to play slyborne characters might come \nfrom Fanewick rebel groups seeking to expel the invading \nforces from their lands. Depending on the tactics their group \nemploys, a character from a slyborne community might align \nwith or go against their upbringing.\nWho among the Haven Army do you wish to exact revenge \nupon and why?\nYou joined an insurgent group working to free this land \nfrom Haven’s grasp. What has given you doubts about the \nleadership’s methods?\nSomeone you love is a member of the Haven Army. How \nhave you used your position in the rebellion to protect them?\nSEABORNE\nBoth Fanewick and Haven have a coastal border. The majority \nof Fanewick’s seaborne communities live in small seaside \ngroups and focus on local travel to neighboring regions, while \nHavenites tend to live in large ports that ship and receive \ngoods from distant lands.\nYou recently traveled by sea over a vast distance. What \nwent terribly wrong on that passage, and how has it \nchanged you?\nGrowing up on the sea taught you a skill few have. What did \nyou learn, and how did it save your life?\nYou used to sail with a companion. Who were they, and \nhow do you remain connected?\nWANDERBORNE\nWanderborne communities can be found in both Fanewick and \nHaven, though safe travel has been severely restricted due to \nthe military occupation and the expansion of the Witherwild. \nWhether a wanderborne character comes from Fanewick, \nHaven, or elsewhere, the player should determine their \ncharacter’s personal views on the invasion of Fanewick, and \nhow that aligns or departs from their community’s views.\nWhat do you do to keep your small community safe, \nindependent, and hidden from Haven’s forces?\nBecause of your community’s transience, you have loved \nones in both Fanewick and Haven. How has this affected \nyour relationship with the invasion?\nYour community travels to protect something. What is it, \nand why does it keep you from settling down?",
+        "raw_heading": "COMMUNITIES",
+        "subsections": [
+          {
+            "id": "srd-2.0.campaign-frame.witherwild.communities.loreborne-and-highborne",
+            "name": "Loreborne and Highborne",
+            "raw_heading": "LOREBORNE AND HIGHBORNE"
+          },
+          {
+            "id": "srd-2.0.campaign-frame.witherwild.communities.ridgeborne-underborne-and-wildborne",
+            "name": "Ridgeborne, Underborne, and Wildborne",
+            "raw_heading": "RIDGEBORNE, UNDERBORNE, AND WILDBORNE"
+          },
+          {
+            "id": "srd-2.0.campaign-frame.witherwild.communities.orderborne",
+            "name": "Orderborne",
+            "raw_heading": "ORDERBORNE"
+          },
+          {
+            "id": "srd-2.0.campaign-frame.witherwild.communities.slyborne",
+            "name": "Slyborne",
+            "raw_heading": "SLYBORNE"
+          },
+          {
+            "id": "srd-2.0.campaign-frame.witherwild.communities.seaborne",
+            "name": "Seaborne",
+            "raw_heading": "SEABORNE"
+          },
+          {
+            "id": "srd-2.0.campaign-frame.witherwild.communities.wanderborne",
+            "name": "Wanderborne",
+            "raw_heading": "WANDERBORNE"
+          }
+        ]
+      },
+      {
+        "id": "srd-2.0.campaign-frame.witherwild.ancestries",
+        "name": "Ancestries",
+        "rules_text": "All ancestries are available, but some have unique aspects \nwithin a Witherwild campaign. As needed, provide the following \ninformation to your players.\nCLANKS\nClanks from Haven are commonly made from iron and steel, \nwhile clanks from Fanewick are typically constructed from \nwood and stone.\nFUNGRIL\nSince the Witherwild spread throughout Fanewick, some \nfungril inhabiting the forests have grown noticeably larger than \nfungril from other regions.\nDRAKONA, FAUNS, FIRBOLGS, AND INFERNIS\nAfter the Witherwild corrupted Fanewick, some drakona, \nfauns, firbolgs, and infernis have noticed their horns growing \nfaster and longer.\nGALAPA AND RIBBETS\nMany families of galapa and ribbets who lived in the bogs of \nFanewick were displaced when Haven’s army invaded.\nHavenites and the Serpent’s Sickness\nAnyone, but especially those from Haven, may carry the \nSerpent’s Sickness, which stiffens their movements and gives \nthem limited time to survive without a cure.\n",
+        "raw_heading": "ANCESTRIES",
+        "subsections": [
+          {
+            "id": "srd-2.0.campaign-frame.witherwild.ancestries.clanks",
+            "name": "Clanks",
+            "raw_heading": "CLANKS"
+          },
+          {
+            "id": "srd-2.0.campaign-frame.witherwild.ancestries.fungril",
+            "name": "Fungril",
+            "raw_heading": "FUNGRIL"
+          },
+          {
+            "id": "srd-2.0.campaign-frame.witherwild.ancestries.drakona-fauns-firbolgs-and-infernis",
+            "name": "Drakona, Fauns, Firbolgs, and Infernis",
+            "raw_heading": "DRAKONA, FAUNS, FIRBOLGS, AND INFERNIS"
+          },
+          {
+            "id": "srd-2.0.campaign-frame.witherwild.ancestries.galapa-and-ribbets",
+            "name": "Galapa and Ribbets",
+            "raw_heading": "GALAPA AND RIBBETS"
+          },
+          {
+            "id": "srd-2.0.campaign-frame.witherwild.ancestries.havenites-and-the-serpents-sickness",
+            "name": "Havenites and the Serpent’s Sickness",
+            "raw_heading": "Havenites and the Serpent’s Sickness"
+          }
+        ]
+      },
+      {
+        "id": "srd-2.0.campaign-frame.witherwild.classes",
+        "name": "Classes",
+        "rules_text": "All classes are available, but some have unique aspects within \na Witherwild campaign. As needed, provide the following \ninformation to your players.\nDruids, Rangers, and Sorcerers\nDruids, rangers, and sorcerers are commonly found \nthroughout Fanewick. If players choose one of these classes, \nthey should consider how their character’s connection to the \nnatural world might be impacted by the Witherwild.\nWARRIORS AND WIZARDS\nWarriors and wizards are prevalent in Haven. A large wizarding \nschool in Haven teaches fighters and healers, and the Haven \nArmy is largely composed of warriors and School of War \nwizards. If a PC is either of these classes, consider their \npersonal relationship to the Haven Army.\nVENGEANCE GUARDIAN\nMany Wicklings who seek revenge on Haven or to expel them \nfrom Fanewick become Vengeance guardians. If players \nchoose this subclass, they should consider what ideals or \ninstitutions their character protects.\nSYNDICATE ROGUE\nThe Haven Army sends spies into Fanewick communities to \ngain information on planned attacks and manipulate public \nperception. When selecting the Syndicate rogue subclass, \nplayers should consider how their character might be \nconnected to or impacted by these covert operatives.",
+        "raw_heading": "CLASSES",
+        "subsections": [
+          {
+            "id": "srd-2.0.campaign-frame.witherwild.classes.druids-rangers-and-sorcerers",
+            "name": "Druids, Rangers, and Sorcerers",
+            "raw_heading": "Druids, Rangers, and Sorcerers"
+          },
+          {
+            "id": "srd-2.0.campaign-frame.witherwild.classes.warriors-and-wizards",
+            "name": "Warriors and Wizards",
+            "raw_heading": "WARRIORS AND WIZARDS"
+          },
+          {
+            "id": "srd-2.0.campaign-frame.witherwild.classes.vengeance-guardian",
+            "name": "Vengeance Guardian",
+            "raw_heading": "VENGEANCE GUARDIAN"
+          },
+          {
+            "id": "srd-2.0.campaign-frame.witherwild.classes.syndicate-rogue",
+            "name": "Syndicate Rogue",
+            "raw_heading": "SYNDICATE ROGUE"
+          }
+        ]
+      },
+      {
+        "id": "srd-2.0.campaign-frame.witherwild.player-principles",
+        "name": "Player Principles",
+        "rules_text": "If your group decides to play this campaign, give your players the \nfollowing information before character creation.\nMAKE THE INVASION PERSONAL\nConsider how Haven’s invasion of Fanewick deeply impacts \nyour character. Let these details inform what they want and \nwhat they’re willing to do to get it. Everyone has lost a loved \none to the Witherwild or the Serpent’s Sickness, and more \nare dying by the day. Consider how the growing conflict \ncaused your character to act in ways they aren’t proud of, \nor transformed personal truths they once believed were \nunshakable.\nTREAT DEATH WITH IMPORTANCE\nTaking a life should not be done without consideration, \ndesperation, and consequences. As your character journeys, \nthey should remember those they’ve lost and those they’ve \nslain, allowing each death to affect their choices in the future. \nEMBRACE VULNERABILITY\nFind your character’s humanity and showcase it whenever you \ncan. They should be as vulnerable during quiet moments as \nthey are vicious during violent ones, opening up to their allies \neven if they close themself off to everyone else.",
+        "raw_heading": "PLAYER PRINCIPLES",
+        "subsections": [
+          {
+            "id": "srd-2.0.campaign-frame.witherwild.player-principles.make-the-invasion-personal",
+            "name": "Make the Invasion Personal",
+            "raw_heading": "MAKE THE INVASION PERSONAL"
+          },
+          {
+            "id": "srd-2.0.campaign-frame.witherwild.player-principles.treat-death-with-importance",
+            "name": "Treat Death with Importance",
+            "raw_heading": "TREAT DEATH WITH IMPORTANCE"
+          },
+          {
+            "id": "srd-2.0.campaign-frame.witherwild.player-principles.embrace-vulnerability",
+            "name": "Embrace Vulnerability",
+            "raw_heading": "EMBRACE VULNERABILITY"
+          }
+        ]
+      },
+      {
+        "id": "srd-2.0.campaign-frame.witherwild.gm-principles",
+        "name": "GM Principles",
+        "rules_text": "Keep the following guidance in mind while you GM this \ncampaign.\nPAINT THE WORLD IN CONTRAST\nSubvert expectations by giving space for the nightmarish to \ncharm and the beautiful to terrify. Give the PCs visions of the \nnatural beauty of Fanewick that has run roughshod across \nthe region, breaking the bounds of the bogs and forests and \ndevastating homes and communities. Show the grim and \nordered life behind Haven’s walls, but also show the culture, \nart, and progress that has come out of centuries of safety. \nContrast the capricious nature of the Faint Divinities with \nthe devotion of the Wicklings and Havenites fighting to save \ntheir home. In a place of long nights and days, dual seasons, \nand two nations in conflict, look for ways to highlight bold \ndualities.\nSHOW THEM TRUE DANGER\nThough it may be tragic, bodily harm is not the worst tragedy \nthat can befall the characters. To illustrate what’s truly at \nstake, use the PCs’ origins in Fanewick or Haven to show them \nwhat they stand to lose, be it their homes, family, friends, \ncommunities, or even their core truths and beliefs. The events \nof this campaign may change, threaten, or destroy these \naspects of their past—when your players create and are \ninvested in their character’s backstory, they have something \nto fight for.\nOFFER ALTERNATIVES TO VIOLENCE\nBy illuminating nonviolent approaches to problem-solving, the \nPCs can help break the brutal cycle that binds this world. For \nexample, showing compassion—rather than swordpoint—\nto a corrupted beast can free them from the Witherwild. \nSimilarly, the conflict between Haven and Fanewick shouldn’t \nonly be solved with blood and blade. What threatens both \ncould also unify them. Give the PCs opportunities to mend old \nwounds, right past wrongs, and heal the rift between Haven \nand Fanewick from within.\nCREATE MULTIDIMENSIONAL ALLIES AND \nADVERSARIES\nNo adversary or ally is all good or all bad, and they each have \nmultidimensional lives. Even the most congenial ally should \nbe hiding darkness inside them, hoping their failings will go \nundiscovered. Those painted as evil should sometimes do the \nright thing, even if it’s for the wrong reason. Just because a \nPC or NPC is from Haven doesn’t make them a villain, and, \nconversely, not all the inhabitants of Fanewick are virtuous. \nFinding the nuance, complications, and deeper motivations \nof the people of Haven and Fanewick will lead to richer \ninteractions, more complex moral choices, and a deeper sense \nof attachment to the world for the players. \n",
+        "raw_heading": "GM PRINCIPLES",
+        "subsections": [
+          {
+            "id": "srd-2.0.campaign-frame.witherwild.gm-principles.paint-the-world-in-contrast",
+            "name": "Paint the World in Contrast",
+            "raw_heading": "PAINT THE WORLD IN CONTRAST"
+          },
+          {
+            "id": "srd-2.0.campaign-frame.witherwild.gm-principles.show-them-true-danger",
+            "name": "Show Them True Danger",
+            "raw_heading": "SHOW THEM TRUE DANGER"
+          },
+          {
+            "id": "srd-2.0.campaign-frame.witherwild.gm-principles.offer-alternatives-to-violence",
+            "name": "Offer Alternatives to Violence",
+            "raw_heading": "OFFER ALTERNATIVES TO VIOLENCE"
+          },
+          {
+            "id": "srd-2.0.campaign-frame.witherwild.gm-principles.create-multidimensional-allies-and-adversaries",
+            "name": "Create Multidimensional Allies and Adversaries",
+            "raw_heading": "CREATE MULTIDIMENSIONAL ALLIES AND ADVERSARIES"
+          }
+        ]
+      },
+      {
+        "id": "srd-2.0.campaign-frame.witherwild.distinctions",
+        "name": "Distinctions",
+        "rules_text": "Use this information to prepare your campaign. You can also \nshare it with your players as needed.\nTHE WEEKS OF DAY AND NIGHT\nThe day and night cycle occurs weekly, meaning the sun rises \nfor an entire week before setting into a nighttime of the same \nlength. This has an impact on everything from agriculture to \ntrade, as many merchants refuse to travel through the night. \nBut this cycle doesn’t just affect Wicklings, it’s dictated how \nFanewick’s wondrous ecology has evolved. Days and nights \nare accompanied by entirely different natural soundscapes \nas Fanewick’s nocturnal denizens sleep through the long days \nand stalk the woods in times of darkness while their diurnal \ncounterparts sleep. The plants similarly live on this strange \nday-night loop, and many live out their entire life cycles in a \nweek. Sun rose vines make a thorny ascent to the top of the \ntree canopy over the course of the week, only to wilt under the \nlight of the moon. Conversely, night bloom, a bioluminescent \nflower that emits the smell of burnt sugar and decay, \nonly blossoms when evening falls, illuminating patches of \nforest—a godsend to anyone forced to travel in the dark.\nTHE SERPENT’S SICKNESS\nThe plague sweeping across Haven spares no one. Since \nthe initial outbreak, Haven officials have worked tirelessly to \nquarantine those in the early stages of the disease, but this \neffort has done little to stop its spread. Due to the rarity of \ncrimson lady’s veil, many citizens began to carry or consume \nall manner of flowers and snake sheddings in an attempt to \nprotect or cure themselves. \nIn the initial stages, victims are afflicted with a hacking cough \nladen with dust that resembles powdered bone. Then a scaled \nrash erupts across their skin, cracking their flesh in a unique \nand painful pattern that resembles a snake’s skin. Not long \nafter, the victims’ bodies harden until their organs solidify and \ncease to function. The final stages of the Serpent’s Sickness is \nso quick that many transform into statues where they stand, \nleaving all of Haven a cenotaph to a once-great power.\nLADY’S VEIL\nThese small flowers grow in patches of sun throughout \nFanewick. For every ten thousand blossoms of white-petaled \nflowers, one blooms a unique and vibrant red. These flowers \nhave long been used in herbal teas across the region, with the \ncrimson flowers holding a place in specific ceremonies. Even \nso, they were only foraged until the Havenites discovered \ncrimson lady’s veil—the only known cure for Serpent’s \nSickness. \nThus, the Haven Army invaded Fanewick and began cultivating \nthe flowers on massive farms that have overtaken the region’s \nbogs. Though the theft of the Reaping Eye has created an \nindefinite growing season, the red flowers remain just as rare, \nand Fanewick is permeated by a sickly sweet smell as the \nHaven Army races to mass-produce a cure for the Serpent’s \nSickness. \nTHE WITHERWILD\nThis corruption, empowered by the endless spring, is \nspreading throughout Fanewick. Some believe the overgrowth \nbegan in the forest, while others claim it sprang from the \nbogs. But no matter its origins, this flourishing malignancy \ninduces horrific changes and massive growth on anything \nit touches, transforming them into Withered beings. Plants \nspring to life with a desire to consume all around them. \nAnimals grow to immense proportions, with onerous \ndispositions to match their exaggerated teeth, tusks, and \nclaws. Even harmless creatures that were once hunted for \nfood have become dangerous and formidable adversaries. \nWhen a person is corrupted by the Witherwild, either from \na purposeful attack or accidental harm (see the upcoming \n“Corruption from the Witherwild” section), they are \ntransformed. They become a nightmarish hybrid—their body \nwarped and intertwined with plant or beast. The Witherwild \nslowly replaces the personality of its victims with the same \ndrive to consume exhibited by the rest of the corrupted \nFanewick. Though the Withered may retain a semblance of \nwho they are for a time, they eventually face the final loss of \ntheir personhood. Some Wicklings believe the Withered are \ngifted this power by Nikta’s wrath to drive the forces of Haven \nfrom Fanewick and return the Shepherd’s Reaping Eye.\nTHE GODS OF FANEWICK\nGods in this land aren’t ethereal concepts that exist in another \nrealm; instead, they wander the land as incarnate beings, \nresiding in both the natural world as well as within homes and \nsmall villages. As such, they’re generally present in Wicklings’ \nlives. Many communities, and some larger families, even have \ntheir own small god or tutelary spirit who watches over them. \nBelief and worship take on a different meaning in Fanewick—\nthere is a constant push and pull between the goals of people \nand their deific neighbors. The gods must curry worship from \nmortals, often by performing small miracles, acts of service, \nor by testing their resolve with tricks and curses. Mortals \nrely on the small blessings from the gods to keep them safe \nwhen traveling and working in Fanewick. The most powerful \nand widely acknowledged Faint Divinity is the Shepherd of \nSeasons, Nikta, as the loss of her eye had the most recent and \nvisible impact on everyone in Fanewick.\nFanewick’s various divinities each have their own opinion \nconcerning the Witherwild corruption. While some enjoy \nnature’s newfound dominance, many of the lesser deities are \nwary of how out of balance Fanewick has become. While their \nbehavior and motives may be inscrutable, these deities are \nmore accessible than gods who watch from on high. \nFulg, Stacker of Stones: A small god who favors tribute in \nthe form of smooth, stacked river rocks. Under his power, \nbivalves and limpets grow abundantly on rocks where they \ncan be easily harvested. He is largely uninformed about the \nproblems Fanewick faces, and he prefers it that way.\nHyacynis, They Who Spread Small Blossoms: A friend of \nbees and tiny flowers who has embraced the Witherwild \nafter seeing their influence and domain swell (literally) \nto immense proportions. They’re enjoying this rampant \ngrowth and do not see a reason to end it.\nIkla, the Sky Painter: Ikla’s artistic prowess and talent are \nunmatched, painting the skies of each weekly sunrise and \nsunset over Fanewick in a myriad of scintillating colors. \nThey could not be lazier the rest of the week, and their \ndemeanor is exceedingly unpleasant, offended that anyone \nwould ask a favor of them during their time off.\nOove, the Watcher of the Night Bloom: He is one of the \nfew local gods who has never been seen, but he is often \nheard in the wilds at night, whispering directions to lost \ntravelers, pointing them to the nearest source of night \nbloom. Locals claim he leads those who displease him \nor harm nocturnal creatures into dangerous terrain. It’s \nrumored that he watches over Fanewick nights from his \nhome on the moon.\nQui’Gar, Whispered Sweetness for a Thorny End: A quiet \ngod who presides over the deaths of those who pass in \nthorny bushes and briar patches. Traditionally, she doesn’t \nreceive many visitors, but the Witherwild’s corruptive \ngrowth has made her job harder and upended her quiet \nexistence.\nRohkin, the Wandering Horn: Rohkin watches over the \nmany herds of horned creatures that reside in Fanewick. \nIn happier times, he preserved the balance of nature \nand civilization, preventing overhunting. But since the \ncorruption of the Witherwild has taken hold, he’s seen his \nherds change into unrecognizable, dangerous beasts.\nThese are but a small slice of the hundreds, if not thousands, \nof Faint Divinities lurking, relaxing, hunting, and playing \nthroughout Fanewick.  \nWhat Faint Divinities do the PCs acknowledge and pay \ntribute to, if any?\nHow has the Witherwild changed the outlook, personality, \nand dispositions of the Faint Divinities the characters \nencounter?\nWhich gods ally themselves with Haven to preserve the \nendless spring? Which align with Fanewick?",
+        "raw_heading": "DISTINCTIONS",
+        "subsections": [
+          {
+            "id": "srd-2.0.campaign-frame.witherwild.distinctions.the-weeks-of-day-and-night",
+            "name": "The Weeks of Day and Night",
+            "raw_heading": "THE WEEKS OF DAY AND NIGHT"
+          },
+          {
+            "id": "srd-2.0.campaign-frame.witherwild.distinctions.the-serpents-sickness",
+            "name": "The Serpent’s Sickness",
+            "raw_heading": "THE SERPENT’S SICKNESS"
+          },
+          {
+            "id": "srd-2.0.campaign-frame.witherwild.distinctions.ladys-veil",
+            "name": "Lady’s Veil",
+            "raw_heading": "LADY’S VEIL"
+          },
+          {
+            "id": "srd-2.0.campaign-frame.witherwild.distinctions.the-witherwild",
+            "name": "The Witherwild",
+            "raw_heading": "THE WITHERWILD"
+          },
+          {
+            "id": "srd-2.0.campaign-frame.witherwild.distinctions.the-gods-of-fanewick",
+            "name": "The Gods of Fanewick",
+            "raw_heading": "THE GODS OF FANEWICK"
+          }
+        ]
+      },
+      {
+        "id": "srd-2.0.campaign-frame.witherwild.inciting-incident",
+        "name": "Inciting Incident",
+        "rules_text": "You can use the prompt below to start your campaign, or create \nyour own.\nThe Reaping Eye is stowed in a secure vault beneath the \ncentral tower of Haven’s wizarding school, seemingly \nimpossible to recover. A secretive and dangerous rebel group, \nled by a mysterious figure known only as the Fanewraith (she/her), has hatched a plan to end the curse of the Witherwild: \nfind the Great Owl, Nikta, and pluck out the Sowing Eye. \nWhile this may solve the immediate problem, the long-term \nconsequences are not being considered, just as they weren’t \nwhen Haven invaded. \nHaven’s beleaguered spymaster, Kreil Dirn (he/him), is not \na popular person in Haven. He is responsible for rooting out \ninsurgents, stopping schemes before they have a chance to \nstart, and keeping a close watch on Haven’s internal activities. \nKreil has never agreed—at least not openly—with Archmage \nPhylax’s (they/them) decision to steal the Reaping Eye, and \nthe consequences they’ve all paid for that decision have been \ngrimly vindicating. \nRecently, Kreil uncovered the Fanewraith’s plot and is horrified \nby the possibility of her success. Knowing he can’t send a \ntroop of Haven soldiers deep into the woods to hunt down and \nstop the Fanewraith from stealing the Sowing Eye, Kreil uses \nhis vast network of informants and spies to find a group of \nadventurers who can bring the Fanewraith to swift justice.\nThe party is sent an invitation from Haven to meet with \nKreil. But is his information correct? Does he have his own \nmotivation or secret ambition? Whether they come from \nFanewick or Haven, the party must extend some trust to a \nperson who is equally as dangerous and mercurial as the \n“enemy” they pursue. And what will they do when they find the \nFanewraith? Bring her to justice? Side with her? Attempt to \nrecover the Reaping Eye?\nKreil advises the party to start their hunt for the Fanewraith \nin the treetop village of Alula, where he suspects she runs her \noperation.",
+        "raw_heading": "THE INCITING INCIDENT"
+      },
+      {
+        "id": "srd-2.0.campaign-frame.witherwild.campaign-mechanics",
+        "name": "Campaign Mechanics",
+        "rules_text": "The following mechanics are unique to this campaign.\nCORRUPTION FROM THE WITHERWILD\nAdversaries and environments in this campaign can gain \nan additional type called Withered. When an adversary is \nWithered, describe how the Witherwild changed or impacted \nhow they would normally appear or operate. You also need \nabout 20 Wither tokens (these can be the same as the tokens \nyou use for Fear). \nAny time a PC takes Severe damage from a Withered \nadversary or environment, gain a Wither token and place it \non that PC’s character sheet. When you do, the PC must roll \ntheir Fear Die. If they roll equal to or below the number of \nWither tokens on their sheet, they immediately gain a scar and \nclear all tokens, describing how the Witherwild changes them \npermanently.\nAt the end of each session, clear all Wither tokens from the \nPCs’ sheets and gain an equal amount of Fear. If a character \never dies with Wither tokens on their sheet, their body is \npermanently taken over by the Witherwild.",
+        "raw_heading": "CAMPAIGN MECHANICS",
+        "subsections": [
+          {
+            "id": "srd-2.0.campaign-frame.witherwild.campaign-mechanics.corruption-from-the-witherwild",
+            "name": "Corruption from the Witherwild",
+            "raw_heading": "CORRUPTION FROM THE WITHERWILD"
+          }
+        ]
+      },
+      {
+        "id": "srd-2.0.campaign-frame.witherwild.session-zero-questions",
+        "name": "Session Zero Questions",
+        "rules_text": "Ask any of these questions to your players, or make your own.\nWhat dangerous animal comes out during the week of night \nthat isn’t out during the week of day?\nWhat unique trait (such as appearance, smell, or taste) \ndoes anything tainted by the Witherwild have? \nWhat superstitions does your character or their community \nhave about traversing Fanewick during the long nights?\nYour character has witnessed something beautiful that \ncame from the Witherwild. What is it and how has it \ntransformed their view of the corruption?\nIf your character is from Fanewick, what commodity do they secretly enjoy that comes from Haven? If they’re from Haven, what delicacy from Fanewick can they not get enough of?",
+        "raw_heading": "SESSION ZERO QUESTIONS"
+      }
+    ],
+    "section_names": [
+      "The Pitch",
+      "Tone & Feel",
+      "Themes",
+      "Touchstones",
+      "Overview",
+      "Communities",
+      "Ancestries",
+      "Classes",
+      "Player Principles",
+      "GM Principles",
+      "Distinctions",
+      "Inciting Incident",
+      "Campaign Mechanics",
+      "Session Zero Questions"
+    ]
+  }
+}

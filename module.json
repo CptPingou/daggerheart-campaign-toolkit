@@ -81,6 +81,12 @@
       "label": "Campaign Toolkit — Environments",
       "path": "packs/dh-environments",
       "type": "Actor"
+    },
+    {
+      "name": "dh-campaign-frames",
+      "label": "Campaign Toolkit — Campaign Frames",
+      "path": "packs/dh-campaign-frames",
+      "type": "JournalEntry"
     }
   ],
   "packFolders": [
@@ -96,8 +102,12 @@
         "dh-weapons",
         "dh-armor",
         "dh-adversaries",
-        "dh-environments"
+        "dh-environments",
+        "dh-campaign-frames"
       ]
     }
+  ],
+  "styles": [
+    "styles/weapon-augments.css"
   ]
 }

@@ -1,0 +1,586 @@
+{
+  "schemaVersion": 1,
+  "id": "motherboard.base-augments",
+  "name": "Motherboard Base Augments",
+  "source": {
+    "campaignFrame": "Motherboard",
+    "reference": "Daggerheart Core Rulebook, Motherboard module sheet"
+  },
+  "slotProgression": {
+    "tier1": 2,
+    "additionalPerTier": 1
+  },
+  "augments": [
+    {
+      "id": "motherboard.force",
+      "name": "Force",
+      "description": "+1 damage",
+      "recipe": [
+        {
+          "resource": "gears",
+          "quantity": 3
+        },
+        {
+          "resource": "lenses",
+          "quantity": 2
+        },
+        {
+          "resource": "aluminum",
+          "quantity": 4
+        },
+        {
+          "resource": "capacitor",
+          "quantity": 1
+        }
+      ],
+      "precompile": null,
+      "feature": {
+        "primitive": "damageBonus",
+        "value": 1
+      }
+    },
+    {
+      "id": "motherboard.guard",
+      "name": "Guard",
+      "description": "+1 Armor Score",
+      "recipe": [
+        {
+          "resource": "wires",
+          "quantity": 3
+        },
+        {
+          "resource": "silver",
+          "quantity": 2
+        },
+        {
+          "resource": "platinum",
+          "quantity": 2
+        },
+        {
+          "resource": "fuses",
+          "quantity": 3
+        }
+      ],
+      "precompile": null,
+      "feature": {
+        "primitive": "armorScoreBonus",
+        "value": 1
+      }
+    },
+    {
+      "id": "motherboard.converge",
+      "name": "Converge",
+      "description": "+1 to attack rolls",
+      "recipe": [
+        {
+          "resource": "coils",
+          "quantity": 4
+        },
+        {
+          "resource": "crystals",
+          "quantity": 2
+        },
+        {
+          "resource": "gold",
+          "quantity": 5
+        },
+        {
+          "resource": "discs",
+          "quantity": 3
+        }
+      ],
+      "precompile": null,
+      "feature": {
+        "primitive": "attackRollBonus",
+        "value": 1
+      }
+    },
+    {
+      "id": "motherboard.amplify",
+      "name": "Amplify",
+      "description": "On a successful attack, roll an additional damage die and drop the lowest result.",
+      "recipe": [
+        {
+          "resource": "crystals",
+          "quantity": 4
+        },
+        {
+          "resource": "cobalt",
+          "quantity": 4
+        },
+        {
+          "resource": "copper",
+          "quantity": 4
+        },
+        {
+          "resource": "capacitors",
+          "quantity": 4
+        }
+      ],
+      "precompile": null,
+      "feature": {
+        "primitive": "damageRollExtraDieDropLowest",
+        "trigger": "successfulAttack",
+        "extraDice": 1,
+        "dropLowest": 1
+      }
+    },
+    {
+      "id": "motherboard.scope",
+      "name": "Scope",
+      "description": "Increase range by one step (Melee to Very Close, Close to Far, etc.).",
+      "recipe": [
+        {
+          "resource": "lenses",
+          "quantity": 5
+        },
+        {
+          "resource": "silver",
+          "quantity": 3
+        },
+        {
+          "resource": "circuits",
+          "quantity": 2
+        },
+        {
+          "resource": "relays",
+          "quantity": 2
+        }
+      ],
+      "precompile": null,
+      "feature": {
+        "primitive": "rangeStepBonus",
+        "value": 1
+      }
+    },
+    {
+      "id": "motherboard.deny",
+      "name": "Deny",
+      "description": "+2 Armor Score",
+      "recipe": [
+        {
+          "resource": "coils",
+          "quantity": 6
+        },
+        {
+          "resource": "wires",
+          "quantity": 3
+        },
+        {
+          "resource": "copper",
+          "quantity": 2
+        },
+        {
+          "resource": "batteries",
+          "quantity": 4
+        }
+      ],
+      "precompile": null,
+      "feature": {
+        "primitive": "armorScoreBonus",
+        "value": 2
+      }
+    },
+    {
+      "id": "motherboard.target",
+      "name": "Target",
+      "description": "+2 to attack rolls",
+      "recipe": [
+        {
+          "resource": "wires",
+          "quantity": 10
+        },
+        {
+          "resource": "gold",
+          "quantity": 7
+        },
+        {
+          "resource": "fuses",
+          "quantity": 5
+        },
+        {
+          "resource": "circuits",
+          "quantity": 5
+        },
+        {
+          "resource": "batteries",
+          "quantity": 2
+        }
+      ],
+      "precompile": null,
+      "feature": {
+        "primitive": "attackRollBonus",
+        "value": 2
+      }
+    },
+    {
+      "id": "motherboard.split",
+      "name": "Split",
+      "description": "When you make an attack, mark a Stress to target another creature within range.",
+      "recipe": [
+        {
+          "resource": "gears",
+          "quantity": 12
+        },
+        {
+          "resource": "lenses",
+          "quantity": 5
+        },
+        {
+          "resource": "aluminum",
+          "quantity": 15
+        },
+        {
+          "resource": "relays",
+          "quantity": 9
+        }
+      ],
+      "precompile": null,
+      "feature": {
+        "primitive": "additionalAttackTarget",
+        "trigger": "makeAttack",
+        "cost": {
+          "stress": 1
+        },
+        "targets": 1,
+        "range": "weapon"
+      }
+    },
+    {
+      "id": "motherboard.fix",
+      "name": "Fix",
+      "description": "When you deal Severe damage, clear a Hit Point.",
+      "recipe": [
+        {
+          "resource": "coils",
+          "quantity": 6
+        },
+        {
+          "resource": "wires",
+          "quantity": 4
+        },
+        {
+          "resource": "crystal",
+          "quantity": 1
+        },
+        {
+          "resource": "cobalt",
+          "quantity": 5
+        },
+        {
+          "resource": "silver",
+          "quantity": 5
+        },
+        {
+          "resource": "relays",
+          "quantity": 7
+        },
+        {
+          "resource": "batteries",
+          "quantity": 2
+        }
+      ],
+      "precompile": null,
+      "feature": {
+        "primitive": "clearHitPoint",
+        "trigger": "dealSevereDamage",
+        "value": 1
+      }
+    },
+    {
+      "id": "motherboard.scare",
+      "name": "Scare",
+      "description": "When you critically succeed on an attack, the target must mark a Stress.",
+      "recipe": [
+        {
+          "resource": "triggers",
+          "quantity": 6
+        },
+        {
+          "resource": "copper",
+          "quantity": 8
+        },
+        {
+          "resource": "aluminum",
+          "quantity": 9
+        },
+        {
+          "resource": "discs",
+          "quantity": 10
+        }
+      ],
+      "precompile": null,
+      "feature": {
+        "primitive": "targetMarksStress",
+        "trigger": "criticalAttackSuccess",
+        "value": 1
+      }
+    },
+    {
+      "id": "motherboard.sear",
+      "name": "Sear",
+      "description": "+2 damage",
+      "recipe": [
+        {
+          "resource": "triggers",
+          "quantity": 11
+        },
+        {
+          "resource": "platinum",
+          "quantity": 11
+        },
+        {
+          "resource": "circuits",
+          "quantity": 11
+        },
+        {
+          "resource": "discs",
+          "quantity": 7
+        }
+      ],
+      "precompile": {
+        "primitive": "tier",
+        "minimum": 2
+      },
+      "feature": {
+        "primitive": "damageBonus",
+        "value": 2
+      }
+    },
+    {
+      "id": "motherboard.absorb",
+      "name": "Absorb",
+      "description": "You can mark an additional Armor Slot against incoming damage.",
+      "recipe": [
+        {
+          "resource": "gears",
+          "quantity": 26
+        },
+        {
+          "resource": "gold",
+          "quantity": 13
+        },
+        {
+          "resource": "relays",
+          "quantity": 15
+        },
+        {
+          "resource": "batteries",
+          "quantity": 8
+        }
+      ],
+      "precompile": {
+        "primitive": "tier",
+        "minimum": 2
+      },
+      "feature": {
+        "primitive": "additionalArmorSlotAgainstDamage",
+        "value": 1
+      }
+    },
+    {
+      "id": "motherboard.kick",
+      "name": "Kick",
+      "description": "On a successful attack, you can mark 2 Stress to force the target to mark an additional Hit Point.",
+      "recipe": [
+        {
+          "resource": "triggers",
+          "quantity": 33
+        },
+        {
+          "resource": "crystals",
+          "quantity": 13
+        },
+        {
+          "resource": "cobalt",
+          "quantity": 23
+        },
+        {
+          "resource": "discs",
+          "quantity": 16
+        }
+      ],
+      "precompile": {
+        "primitive": "tier",
+        "minimum": 2
+      },
+      "feature": {
+        "primitive": "targetMarksAdditionalHitPoint",
+        "trigger": "successfulAttack",
+        "cost": {
+          "stress": 2
+        },
+        "value": 1
+      }
+    },
+    {
+      "id": "motherboard.block",
+      "name": "Block",
+      "description": "+3 Armor Score; -1 Evasion",
+      "recipe": [
+        {
+          "resource": "crystals",
+          "quantity": 27
+        },
+        {
+          "resource": "aluminum",
+          "quantity": 67
+        },
+        {
+          "resource": "relays",
+          "quantity": 33
+        },
+        {
+          "resource": "capacitors",
+          "quantity": 4
+        },
+        {
+          "resource": "batteries",
+          "quantity": 5
+        }
+      ],
+      "precompile": {
+        "primitive": "tier",
+        "minimum": 3
+      },
+      "feature": {
+        "primitive": "compound",
+        "effects": [
+          {
+            "primitive": "armorScoreBonus",
+            "value": 3
+          },
+          {
+            "primitive": "evasionBonus",
+            "value": -1
+          }
+        ]
+      }
+    },
+    {
+      "id": "motherboard.zip",
+      "name": "Zip",
+      "description": "Move up to Far range as part of an attack.",
+      "recipe": [
+        {
+          "resource": "coils",
+          "quantity": 37
+        },
+        {
+          "resource": "silver",
+          "quantity": 43
+        },
+        {
+          "resource": "fuses",
+          "quantity": 67
+        },
+        {
+          "resource": "capacitors",
+          "quantity": 12
+        }
+      ],
+      "precompile": {
+        "primitive": "tier",
+        "minimum": 3
+      },
+      "feature": {
+        "primitive": "moveAsPartOfAttack",
+        "range": "Far"
+      }
+    },
+    {
+      "id": "motherboard.bury",
+      "name": "Bury",
+      "description": "+3 damage",
+      "recipe": [
+        {
+          "resource": "triggers",
+          "quantity": 28
+        },
+        {
+          "resource": "circuits",
+          "quantity": 28
+        },
+        {
+          "resource": "relays",
+          "quantity": 28
+        },
+        {
+          "resource": "relic",
+          "quantity": 1
+        }
+      ],
+      "precompile": {
+        "primitive": "tier",
+        "minimum": 3
+      },
+      "feature": {
+        "primitive": "damageBonus",
+        "value": 3
+      }
+    },
+    {
+      "id": "motherboard.follow",
+      "name": "Follow",
+      "description": "Mark 2 Stress to reroll your attack.",
+      "recipe": [
+        {
+          "resource": "gears",
+          "quantity": 75
+        },
+        {
+          "resource": "lenses",
+          "quantity": 67
+        },
+        {
+          "resource": "copper",
+          "quantity": 30
+        },
+        {
+          "resource": "circuits",
+          "quantity": 33
+        }
+      ],
+      "precompile": {
+        "primitive": "tier",
+        "minimum": 4
+      },
+      "feature": {
+        "primitive": "rerollAttack",
+        "cost": {
+          "stress": 2
+        }
+      }
+    },
+    {
+      "id": "motherboard.override",
+      "name": "Override",
+      "description": "Attack rolls have advantage.",
+      "recipe": [
+        {
+          "resource": "wires",
+          "quantity": 63
+        },
+        {
+          "resource": "gold",
+          "quantity": 71
+        },
+        {
+          "resource": "discs",
+          "quantity": 58
+        },
+        {
+          "resource": "relics",
+          "quantity": 5
+        }
+      ],
+      "precompile": {
+        "primitive": "tier",
+        "minimum": 4
+      },
+      "feature": {
+        "primitive": "attackRollAdvantage"
+      }
+    }
+  ]
+}
