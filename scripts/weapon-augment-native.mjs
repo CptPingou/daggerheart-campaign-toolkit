@@ -47,16 +47,118 @@ function effect(name, description, img, changes) {
     name,
     description,
     img,
-    changes,
+    system: {
+      changes,
+    },
   };
 }
 
 function additiveChange(key, value) {
   return {
     key,
-    mode: 2,
+    type: "add",
     value: String(value),
   };
+}
+
+function armorChange(max) {
+  return {
+    type: "armor",
+    value: {
+      max: String(max),
+    },
+  };
+}
+
+function nativeActionsFromAugment(augment) {
+  switch (augment.id) {
+    case "motherboard.split":
+      return {
+        split: {
+          type: "effect",
+          chatDisplay: true,
+          name: "Split",
+          description: featureText(augment),
+          img: "icons/skills/movement/arrow-upward-yellow.webp",
+          cost: [
+            {
+              key: "stress",
+              value: 1,
+            },
+          ],
+        },
+      };
+
+    case "motherboard.follow":
+      return {
+        follow: {
+          type: "effect",
+          chatDisplay: true,
+          name: "Follow",
+          description: featureText(augment),
+          img: "icons/magic/control/buff-luck-fortune-green.webp",
+          cost: [
+            {
+              key: "stress",
+              value: 2,
+            },
+          ],
+        },
+      };
+
+    case "motherboard.scare":
+      return {
+        scare: {
+          type: "effect",
+          chatDisplay: true,
+          name: "Scare",
+          description: featureText(augment),
+          img: "icons/magic/death/skull-energy-light-purple.webp",
+        },
+      };
+
+    case "motherboard.kick":
+      return {
+        kick: {
+          type: "effect",
+          chatDisplay: true,
+          name: "Kick",
+          description: featureText(augment),
+          img: "icons/skills/melee/strike-sword-steel-yellow.webp",
+          cost: [
+            {
+              key: "stress",
+              value: 2,
+            },
+          ],
+        },
+      };
+
+    case "motherboard.zip":
+      return {
+        zip: {
+          type: "effect",
+          chatDisplay: true,
+          name: "Zip",
+          description: featureText(augment),
+          img: "icons/skills/movement/feet-winged-boots-glowing-yellow.webp",
+        },
+      };
+
+    case "motherboard.fix":
+      return {
+        fix: {
+          type: "effect",
+          chatDisplay: true,
+          name: "Fix",
+          description: featureText(augment),
+          img: "icons/magic/life/heart-cross-strong-green.webp",
+        },
+      };
+
+    default:
+      return {};
+  }
 }
 
 function nativeEffectsFromAugment(augment) {
@@ -77,7 +179,7 @@ function nativeEffectsFromAugment(augment) {
           "Guard",
           "Gain +1 Armor Score.",
           "icons/equipment/shield/heater-steel-boss-red.webp",
-          [additiveChange("system.armorScore", 1)],
+          [armorChange(1)],
         ),
       ];
 
@@ -97,7 +199,7 @@ function nativeEffectsFromAugment(augment) {
           "Deny",
           "Gain +2 Armor Score.",
           "icons/equipment/shield/heater-steel-boss-red.webp",
-          [additiveChange("system.armorScore", 2)],
+          [armorChange(2)],
         ),
       ];
 
@@ -128,7 +230,7 @@ function nativeEffectsFromAugment(augment) {
           "Gain +3 Armor Score and lose 1 Evasion.",
           "icons/skills/melee/shield-block-gray-yellow.webp",
           [
-            additiveChange("system.armorScore", 3),
+            armorChange(3),
             additiveChange("system.evasion", -1),
           ],
         ),
@@ -156,7 +258,7 @@ function descriptorFromAugment(augment) {
     name: augment.name ?? augment.id,
     img: "icons/magic/life/cross-worn-green.webp",
     description: featureText(augment),
-    actions: [],
+    actions: nativeActionsFromAugment(augment),
     effects: nativeEffectsFromAugment(augment),
   };
 }

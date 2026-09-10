@@ -885,6 +885,104 @@ export async function buildItem(entry) {
   return data;
 }
 
+
+function huntingNotesHtml(raw) {
+  const hunting = raw?.hunting;
+  if (!hunting || typeof hunting !== "object" || Array.isArray(hunting)) return "";
+
+  const esc = (value) => foundry.utils.escapeHTML(String(value ?? ""));
+  const labelTag = (tag) => {
+    const labels = {
+      herbivore: "Herbivore",
+      burrower: "Fouisseur",
+      flying: "Volant",
+      carnivore: "Carnivore",
+    };
+    return labels[tag] ?? String(tag);
+  };
+
+  const lines = [];
+  lines.push("<h3>Hunting</h3>");
+
+  if (Array.isArray(hunting.tags) && hunting.tags.length) {
+    lines.push(`<p><strong>Tags :</strong> ${hunting.tags.map(labelTag).map(esc).join(", ")}</p>`);
+  }
+
+  if (hunting.footprint?.width && hunting.footprint?.height) {
+    lines.push(
+      `<p><strong>Empreinte :</strong> ${esc(hunting.footprint.width)}×${esc(hunting.footprint.height)}</p>`
+    );
+  }
+
+  if (hunting.mobility?.mode) {
+    const mobility = hunting.mobility.state
+      ? `${hunting.mobility.mode} (${hunting.mobility.state})`
+      : hunting.mobility.mode;
+    lines.push(`<p><strong>Mobilité :</strong> ${esc(mobility)}</p>`);
+  }
+
+  const normal = hunting.reactions?.normal;
+  const fear = hunting.reactions?.fear;
+  const normalName = normal?.name ?? "Réaction normale";
+  const fearName = fear?.name ?? "Réaction renforcée";
+
+  lines.push("<h4>Matrice d'Engagement</h4>");
+  lines.push("<ul>");
+  lines.push("<li><strong>Succès + Hope :</strong> 2 OP — aucune réaction hostile — Spotlight → Finisher.</li>");
+  lines.push(`<li><strong>Succès + Fear :</strong> 2 OP — ${esc(normalName)}.</li>`);
+  lines.push(`<li><strong>Échec + Hope :</strong> 1 OP — ${esc(normalName)}.</li>`);
+  lines.push(`<li><strong>Échec + Fear :</strong> 1 OP — ${esc(fearName)}.</li>`);
+  lines.push("</ul>");
+
+  const reactionDetails = (reaction, key) => {
+    if (!reaction || typeof reaction !== "object") return;
+
+    lines.push(`<h4>${esc(reaction.name ?? key)}</h4>`);
+
+    if (reaction.baseReaction === "normal" && normal?.name) {
+      lines.push(`<p>Résoudre d'abord <strong>${esc(normal.name)}</strong>, puis appliquer la conséquence ci-dessous.</p>`);
+    }
+
+    const resolution = reaction.resolution;
+    if (!resolution || typeof resolution !== "object") return;
+
+    if (resolution.kind === "attack") {
+      const attack = resolution.attack ?? {};
+      const mod = Number(attack.modifier);
+      const modText = Number.isFinite(mod) ? (mod >= 0 ? `+${mod}` : `${mod}`) : "?";
+      lines.push(
+        `<p><strong>Attaque contre l'Opener :</strong> ${esc(modText)} | ` +
+        `${esc(attack.range ?? "?")} | ${esc(attack.damage ?? "?")} ${esc(attack.damage_type ?? "")}</p>`
+      );
+      if (reaction.supportWindow) {
+        lines.push("<p><strong>Support :</strong> 1 Hope → −1d4 au jet d'attaque du monstre.</p>");
+      }
+      if (resolution.onHit?.markStress) {
+        lines.push(`<p><strong>Sur une touche :</strong> la cible marque ${esc(resolution.onHit.markStress)} Stress.</p>`);
+      }
+    } else if (resolution.kind === "forcedMovement") {
+      lines.push(
+        `<p>Projeter l'Opener de <strong>${esc(resolution.steps ?? "?")} bandes de portée</strong>.`
+      );
+      if (resolution.collision?.damagePerUnspentStep) {
+        lines.push(
+          ` Chaque bande non parcourue à cause d'un obstacle solide inflige ` +
+          `<strong>${esc(resolution.collision.damagePerUnspentStep)} ${esc(resolution.collision.damage_type ?? "")}</strong> de collision.</p>`
+        );
+      } else {
+        lines.push("</p>");
+      }
+    } else if (resolution.kind === "consequence" && resolution.text) {
+      lines.push(`<p>${esc(resolution.text)}</p>`);
+    }
+  };
+
+  reactionDetails(normal, "Réaction normale");
+  reactionDetails(fear, "Réaction renforcée");
+
+  return lines.join("");
+}
+
 export async function buildActor(entry) {
   const raw = entry.data;
   const r = rules(raw);
@@ -898,6 +996,13 @@ export async function buildActor(entry) {
 
   const data = await nativeTemplate("Actor", type);
   data.name = nameOf(raw, entry.key);
+
+  // P2.6.4a1: Actor templates are cloned from a native Foundryborne specimen.
+  // Never keep the specimen's prototype-token identity (e.g. "Cult Adept").
+  if (data.prototypeToken && typeof data.prototypeToken === "object") {
+    data.prototypeToken.name = data.name;
+  }
+
   data.flags = foundry.utils.mergeObject(
     data.flags ?? {},
     provenanceFlags(raw, entry.source_path),
@@ -1001,14 +1106,16 @@ export async function buildActor(entry) {
       if (!Object.keys(experiences).length) gaps.push("system.experiences:parse");
     }
 
-    const noteParts = [
-      raw?.features_text ? `Features source normalized into embedded Items (${Array.isArray(raw?.features) ? raw.features.length : 0})` : "",
-    ].filter(Boolean);
-    data.system.notes = noteParts.length
-      ? `<p>${foundry.utils.escapeHTML(noteParts.join("\n\n"))}</p>`
-      : "";
+    const huntingNote = huntingNotesHtml(raw);
+    data.system.notes = huntingNote || "";
     data.items = await mapEmbeddedSourceFeatures(raw, entry.source_path, gaps);
     data.flags[FLAG_SCOPE].sourceFeatureCount = Array.isArray(raw?.features) ? raw.features.length : 0;
+
+    // P2.6.3e / P2.6.4a: preserve the complete canonical Hunting extension
+    // losslessly in Toolkit flags. The note above is presentation only.
+    if (raw?.hunting && typeof raw.hunting === "object" && !Array.isArray(raw.hunting)) {
+      data.flags[FLAG_SCOPE].hunting = foundry.utils.deepClone(raw.hunting);
+    }
   }
 
   if (entry.kind === "environment") {

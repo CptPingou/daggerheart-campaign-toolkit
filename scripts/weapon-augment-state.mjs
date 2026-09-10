@@ -45,6 +45,65 @@ function assertSlots(slots) {
   return slots;
 }
 
+const WEAPON_RANGE_STEPS = [
+  "melee",
+  "veryClose",
+  "close",
+  "far",
+  "veryFar",
+];
+
+function nextWeaponRange(range) {
+  const index = WEAPON_RANGE_STEPS.indexOf(range);
+  if (index < 0) return range;
+  return WEAPON_RANGE_STEPS[Math.min(index + 1, WEAPON_RANGE_STEPS.length - 1)];
+}
+
+function applyStructuralAugmentUpdate(weapon, augmentId, state, update) {
+  if (augmentId !== "motherboard.scope") return;
+
+  const currentRange = weapon.system?.attack?.range;
+  if (!WEAPON_RANGE_STEPS.includes(currentRange)) {
+    throw new Error(
+      `Scope cannot increase unsupported weapon range: ${currentRange ?? "missing"}.`,
+    );
+  }
+
+  const appliedRange = nextWeaponRange(currentRange);
+
+  state.structural ??= {};
+  state.structural.scope = {
+    baseRange: currentRange,
+    appliedRange,
+  };
+
+  update["system.attack.range"] = appliedRange;
+}
+
+function removeStructuralAugmentUpdate(weapon, augmentId, state, update) {
+  if (augmentId !== "motherboard.scope") return;
+
+  const scopeState = state.structural?.scope;
+  if (!scopeState) return;
+
+  const currentRange = weapon.system?.attack?.range;
+
+  // Only restore if Scope still owns the value it applied. If another system,
+  // GM edit, or future augment changed the range meanwhile, preserve that value.
+  if (
+    scopeState.baseRange &&
+    currentRange === scopeState.appliedRange &&
+    currentRange !== scopeState.baseRange
+  ) {
+    update["system.attack.range"] = scopeState.baseRange;
+  }
+
+  delete state.structural.scope;
+  if (Object.keys(state.structural).length === 0) {
+    delete state.structural;
+  }
+}
+
 function emptyState(slots = 2) {
   return {
     schemaVersion: SCHEMA_VERSION,
@@ -147,11 +206,17 @@ async function writeState(weapon, state) {
   return getWeaponAugmentState(weapon);
 }
 
-async function writeStateAndNativeFeatures(weapon, state, weaponFeatures) {
+async function writeStateAndNativeFeatures(
+  weapon,
+  state,
+  weaponFeatures,
+  extraUpdate = {},
+) {
   assertOwnedWeapon(weapon);
   validateWeaponAugmentStateData(state);
 
   await weapon.update({
+    ...clone(extraUpdate),
     [`flags.${MODULE_ID}.${FLAG_KEY}`]: clone(state),
     "system.weaponFeatures": clone(weaponFeatures),
   });
@@ -334,7 +399,53 @@ export function createWeaponAugmentStateApi(catalogApi) {
         augment.id,
       );
 
-      return writeStateAndNativeFeatures(weapon, next, nativeFeatures);
+      const extraUpdate = {};
+      applyStructuralAugmentUpdate(weapon, augment.id, next, extraUpdate);
+
+      return writeStateAndNativeFeatures(
+        weapon,
+        next,
+        nativeFeatures,
+        extraUpdate,
+      );
+    },
+
+    async resync(weapon) {
+      assertOwnedWeapon(weapon);
+      assertGM();
+
+      const current = getWeaponAugmentState(weapon);
+      if (!current.initialized) {
+        throw new Error("Weapon Augment state must be initialized first.");
+      }
+
+      validateWeaponAugmentStateData(current.state);
+
+      const preservedFeatures = getWeaponFeatureEntries(weapon).filter(
+        (feature) => !String(feature?.value ?? "").startsWith("motherboard-"),
+      );
+
+      // Remove Toolkit-owned Motherboard features first so Foundryborne runs
+      // its native cleanup lifecycle for linked effects/actions.
+      await weapon.update({
+        "system.weaponFeatures": clone(preservedFeatures),
+      });
+
+      // Rebuild only the Augments currently installed in Toolkit state.
+      let rebuiltFeatures = clone(preservedFeatures);
+
+      for (const augmentId of current.state.installed) {
+        rebuiltFeatures = addNativeWeaponFeature(rebuiltFeatures, augmentId);
+      }
+
+      await weapon.update({
+        "system.weaponFeatures": clone(rebuiltFeatures),
+      });
+
+      return {
+        ...getWeaponAugmentState(weapon),
+        nativeWeaponFeatures: getWeaponFeatureEntries(weapon),
+      };
     },
 
     async uninstall(weapon, augmentId) {
@@ -359,7 +470,15 @@ export function createWeaponAugmentStateApi(catalogApi) {
         augmentId,
       );
 
-      return writeStateAndNativeFeatures(weapon, next, nativeFeatures);
+      const extraUpdate = {};
+      removeStructuralAugmentUpdate(weapon, augmentId, next, extraUpdate);
+
+      return writeStateAndNativeFeatures(
+        weapon,
+        next,
+        nativeFeatures,
+        extraUpdate,
+      );
     },
   };
 }

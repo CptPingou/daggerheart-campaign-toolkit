@@ -55,7 +55,7 @@ Hooks.once("init", () => {
   }
 
   game.modules.get(MODULE_ID).api = {
-    version: "0.5.11",
+    version: "0.5.25",
     async smokeTest() {
       const systemOk = game.system?.id === "daggerheart";
       const packs = Object.fromEntries([

@@ -217,6 +217,10 @@ async function injectAugmentTab(app, html) {
         <span>${slots}</span>
         <button type="button" data-dct-slot-action="increment">+</button>
       </div>
+      <button type="button"
+              data-dct-augment-resync="true">
+        Resync installed Augments
+      </button>
       <div class="dct-augment-note">
         Precompile eligibility is enforced. Recipes are displayed, but scrap/material consumption is not enforced yet.
       </div>
@@ -276,6 +280,23 @@ async function injectAugmentTab(app, html) {
   }
 
   panel.addEventListener("click", async event => {
+    const resyncButton = event.target.closest("[data-dct-augment-resync]");
+    if (resyncButton) {
+      if (!game.user?.isGM) return;
+
+      resyncButton.disabled = true;
+      try {
+        await api.weaponAugmentState.resync(weapon);
+        ui.notifications.info("Installed Augments resynchronized.");
+        await app.render({ force: true });
+      } catch (error) {
+        console.error(`${MODULE_ID} | Weapon Augment resync failed`, error);
+        ui.notifications.error(error?.message ?? "Weapon Augment resync failed.");
+        resyncButton.disabled = false;
+      }
+      return;
+    }
+
     const slotButton = event.target.closest("[data-dct-slot-action]");
     if (slotButton) {
       if (!game.user?.isGM) return;

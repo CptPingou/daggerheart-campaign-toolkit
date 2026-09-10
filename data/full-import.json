@@ -2,7 +2,7 @@
   "phase": "BH-2026-07-09-active",
   "manifest": {
     "version": "BH-2026-07-09-active",
-    "description": "Canonical DH-DATA sources used by the Foundry full import. Blood Hunter active playtest source is The Void 2026-07-09; v1.5 remains historical in DH-DATA and is excluded from the active Foundry export.",
+    "description": "Canonical DH-DATA sources used by the Foundry full import. Blood Hunter active playtest source is The Void 2026-07-09; v1.5 remains historical in DH-DATA and is excluded from the active Foundry export. Monster Hunter homebrew adversaries are exported as the distinct `homebrew-monster-hunter` corpus.",
     "sources": [
       {
         "corpus": "srd-2.0",
@@ -59,6 +59,13 @@
         ]
       },
       {
+        "corpus": "homebrew-monster-hunter",
+        "kind": "adversary",
+        "paths": [
+          "data/homebrew/monster-hunter/adversaries/**/*.json"
+        ]
+      },
+      {
         "corpus": "srd-2.0",
         "kind": "environment",
         "paths": [
@@ -93,17 +100,17 @@
       "domain_card": 231,
       "weapon": 358,
       "armor": 69,
-      "adversary": 264,
+      "adversary": 267,
       "environment": 47
     }
   },
   "audit": {
     "phase": "BH-2026-07-09-active",
     "manifest": "config/foundry-import-manifest.json",
-    "total": 1012,
-    "expected_total": 1012,
+    "total": 1015,
+    "expected_total": 1015,
     "counts": {
-      "adversary": 264,
+      "adversary": 267,
       "armor": 69,
       "class": 14,
       "domain_card": 231,
@@ -117,7 +124,7 @@
       "domain_card": 231,
       "weapon": 358,
       "armor": 69,
-      "adversary": 264,
+      "adversary": 267,
       "environment": 47
     },
     "count_check": {
@@ -147,8 +154,8 @@
         "ok": true
       },
       "adversary": {
-        "expected": 264,
-        "actual": 264,
+        "expected": 267,
+        "actual": 267,
         "ok": true
       },
       "environment": {
@@ -162,6 +169,9 @@
         "class": 1,
         "domain_card": 21,
         "subclass": 3
+      },
+      "homebrew-monster-hunter": {
+        "adversary": 3
       },
       "srd-2.0": {
         "adversary": 264,
@@ -281,6 +291,24 @@
         "kind": "adversary",
         "records": 264,
         "accepted_unique": 264
+      },
+      {
+        "path": "data/homebrew/monster-hunter/adversaries/queen-vespoid.json",
+        "kind": "adversary",
+        "records": 1,
+        "accepted_unique": 1
+      },
+      {
+        "path": "data/homebrew/monster-hunter/adversaries/tetsucabra.json",
+        "kind": "adversary",
+        "records": 1,
+        "accepted_unique": 1
+      },
+      {
+        "path": "data/homebrew/monster-hunter/adversaries/vespoid-minion.json",
+        "kind": "adversary",
+        "records": 1,
+        "accepted_unique": 1
       },
       {
         "path": "data/srd-2.0/environments/environments.json",
@@ -453,6 +481,285 @@
     "green": true
   },
   "entries": [
+    {
+      "kind": "adversary",
+      "key": "homebrew.monster-hunter.adversary.queen-vespoid",
+      "corpus": "homebrew-monster-hunter",
+      "source_path": "data/homebrew/monster-hunter/adversaries/queen-vespoid.json",
+      "data": {
+        "id": "homebrew.monster-hunter.adversary.queen-vespoid",
+        "kind": "adversary",
+        "tier": 1,
+        "role": "Leader",
+        "name": "Reine Vespoid",
+        "motives_tactics": "Rester en hauteur, commander l'essaim, encercler, harceler, isoler les proies",
+        "difficulty": 13,
+        "thresholds": {
+          "major": 7,
+          "severe": 13
+        },
+        "hp": 6,
+        "stress": 4,
+        "stress_none": false,
+        "attack": {
+          "modifier": 3,
+          "name": "Dard royal",
+          "range": "Very Close",
+          "damage": "1d8+2",
+          "damage_type": "phy"
+        },
+        "experience_text": "Vol +3, Commandement d'essaim +3",
+        "features_text": "Vol royal - Passive: Tant que la Reine Vespoid vole, elle gagne +2 à sa Difficulty. Appel de l'essaim - Action: Une fois par scène, marquez 1 Stress pour invoquer trois Vespoid Minions, qui apparaissent à portée Far de la Reine. Commandement royal - Action: Quand vous mettez la Reine Vespoid en Spotlight, marquez 1 Stress pour mettre également en Spotlight jusqu'à deux Vespoid Minions à portée Far. Ils agissent l'un après l'autre. Dard paralysant - Reaction: Quand la Reine Vespoid réussit son attaque standard et que la cible marque au moins 1 HP, vous pouvez dépenser 1 Fear pour lui faire marquer 1 Stress supplémentaire.",
+        "source": {
+          "corpus": "monster-hunter-homebrew",
+          "version": "0.1",
+          "status": "homebrew"
+        },
+        "canonical": true,
+        "features": [
+          {
+            "name": "Vol royal",
+            "type": "Passive",
+            "text": "Tant que la Reine Vespoid vole, elle gagne +2 à sa Difficulty."
+          },
+          {
+            "name": "Appel de l'essaim",
+            "type": "Action",
+            "text": "Une fois par scène, marquez 1 Stress pour invoquer trois Vespoid Minions, qui apparaissent à portée Far de la Reine."
+          },
+          {
+            "name": "Commandement royal",
+            "type": "Action",
+            "text": "Quand vous mettez la Reine Vespoid en Spotlight, marquez 1 Stress pour mettre également en Spotlight jusqu'à deux Vespoid Minions à portée Far. Ils agissent l'un après l'autre."
+          },
+          {
+            "name": "Dard paralysant",
+            "type": "Reaction",
+            "text": "Quand la Reine Vespoid réussit son attaque standard et que la cible marque au moins 1 HP, vous pouvez dépenser 1 Fear pour lui faire marquer 1 Stress supplémentaire."
+          }
+        ],
+        "hunting": {
+          "schemaVersion": 1,
+          "footprint": {
+            "width": 2,
+            "height": 2
+          },
+          "tags": [
+            "flying"
+          ],
+          "mobility": {
+            "mode": "flying",
+            "state": "elevated"
+          },
+          "reactions": {
+            "normal": {
+              "name": "Crache-venin",
+              "trigger": [
+                "success-fear",
+                "failure-hope"
+              ],
+              "target": "opener",
+              "supportWindow": true,
+              "resolution": {
+                "kind": "attack",
+                "attack": {
+                  "modifier": 3,
+                  "name": "Crache-venin",
+                  "range": "Far",
+                  "damage": "1d8",
+                  "damage_type": "phy"
+                },
+                "onHit": {
+                  "markStress": 1
+                }
+              }
+            },
+            "fear": {
+              "name": "Nuée paralysante",
+              "trigger": [
+                "failure-fear"
+              ],
+              "baseReaction": "normal",
+              "resolution": {
+                "kind": "consequence",
+                "text": "Après Crache-venin, si l'attaque touche, l'Opener marque 1 Stress supplémentaire et ne peut pas se déplacer avant la fin de sa prochaine action."
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "kind": "adversary",
+      "key": "homebrew.monster-hunter.adversary.tetsucabra",
+      "corpus": "homebrew-monster-hunter",
+      "source_path": "data/homebrew/monster-hunter/adversaries/tetsucabra.json",
+      "data": {
+        "id": "homebrew.monster-hunter.adversary.tetsucabra",
+        "kind": "adversary",
+        "tier": 1,
+        "role": "Bruiser",
+        "name": "Tetsucabra",
+        "motives_tactics": "Défendre son territoire, charger, projeter, creuser, utiliser les rochers",
+        "difficulty": 13,
+        "thresholds": {
+          "major": 9,
+          "severe": 17
+        },
+        "hp": 7,
+        "stress": 3,
+        "stress_none": false,
+        "attack": {
+          "modifier": 1,
+          "name": "Morsure massive",
+          "range": "Melee",
+          "damage": "1d10+3",
+          "damage_type": "phy"
+        },
+        "experience_text": "Territorial +3, Fouisseur +2",
+        "features_text": "Mâchoire de pierre - Passive: Quand une cible marque des PV à cause de l'attaque standard du Tetsucabra, elle est repoussée jusqu'à Very Close. Soulèvement de rocher - Action: Marquez 1 Stress pour que le Tetsucabra arrache ou soulève un rocher à portée Very Close et le projette sur une cible à portée Close. Faites une attaque contre cette cible. Sur un succès, infligez 1d10+3 dégâts physiques et placez le rocher dans une position cohérente avec l'impact. Percée souterraine - Action: Dépensez 1 Fear pour que le Tetsucabra s'enfouisse puis ressorte à un point à portée Close. Il peut immédiatement se repositionner au contact d'une cible ou derrière un élément de terrain cohérent avec sa sortie.",
+        "source": {
+          "corpus": "monster-hunter-homebrew",
+          "version": "0.1",
+          "status": "homebrew"
+        },
+        "canonical": true,
+        "features": [
+          {
+            "name": "Mâchoire de pierre",
+            "type": "Passive",
+            "text": "Quand une cible marque des PV à cause de l'attaque standard du Tetsucabra, elle est repoussée jusqu'à Very Close."
+          },
+          {
+            "name": "Soulèvement de rocher",
+            "type": "Action",
+            "text": "Marquez 1 Stress pour que le Tetsucabra arrache ou soulève un rocher à portée Very Close et le projette sur une cible à portée Close. Faites une attaque contre cette cible. Sur un succès, infligez 1d10+3 dégâts physiques et placez le rocher dans une position cohérente avec l'impact."
+          },
+          {
+            "name": "Percée souterraine",
+            "type": "Action",
+            "text": "Dépensez 1 Fear pour que le Tetsucabra s'enfouisse puis ressorte à un point à portée Close. Il peut immédiatement se repositionner au contact d'une cible ou derrière un élément de terrain cohérent avec sa sortie."
+          }
+        ],
+        "hunting": {
+          "schemaVersion": 1,
+          "footprint": {
+            "width": 2,
+            "height": 2
+          },
+          "tags": [
+            "herbivore",
+            "burrower"
+          ],
+          "reactions": {
+            "normal": {
+              "name": "Coup de boutoir",
+              "trigger": [
+                "success-fear",
+                "failure-hope"
+              ],
+              "target": "opener",
+              "supportWindow": true,
+              "resolution": {
+                "kind": "attack",
+                "attack": {
+                  "modifier": 1,
+                  "name": "Coup de boutoir",
+                  "range": "Melee",
+                  "damage": "1d10+3",
+                  "damage_type": "phy"
+                }
+              }
+            },
+            "fear": {
+              "name": "Charge tectonique",
+              "trigger": [
+                "failure-fear"
+              ],
+              "baseReaction": "normal",
+              "resolution": {
+                "kind": "forcedMovement",
+                "steps": 2,
+                "pathExample": [
+                  "Melee",
+                  "Very Close",
+                  "Close"
+                ],
+                "collision": {
+                  "damagePerUnspentStep": "1d6",
+                  "damage_type": "phy"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "kind": "adversary",
+      "key": "homebrew.monster-hunter.adversary.vespoid-minion",
+      "corpus": "homebrew-monster-hunter",
+      "source_path": "data/homebrew/monster-hunter/adversaries/vespoid-minion.json",
+      "data": {
+        "id": "homebrew.monster-hunter.adversary.vespoid-minion",
+        "kind": "adversary",
+        "tier": 1,
+        "role": "Minion",
+        "name": "Vespoid Minion",
+        "motives_tactics": "Voler, encercler, harceler, protéger la Reine",
+        "difficulty": 10,
+        "thresholds": null,
+        "hp": 1,
+        "stress": 1,
+        "stress_none": false,
+        "attack": {
+          "modifier": -2,
+          "name": "Piqûre",
+          "range": "Melee",
+          "damage": "2",
+          "damage_type": "phy"
+        },
+        "experience_text": "Vol +2",
+        "features_text": "Minion (3) - Passive: Le Vespoid est vaincu dès qu'il subit des dégâts. Pour chaque tranche de 3 dégâts qu'un PJ inflige au Vespoid, il vainc un Minion supplémentaire à portée contre lequel l'attaque aurait réussi. Vol - Passive: Tant que le Vespoid vole, il gagne +2 à sa Difficulty. Group Attack - Action: Dépensez 1 Fear pour choisir une cible et mettre en Spotlight tous les Vespoid Minions à portée Close d'elle. Ils se déplacent à portée Melee de la cible et font un seul jet d'attaque partagé. Sur un succès, ils infligent chacun 2 dégâts physiques. Combinez ces dégâts.",
+        "source": {
+          "corpus": "monster-hunter-homebrew",
+          "version": "0.1",
+          "status": "homebrew"
+        },
+        "canonical": true,
+        "features": [
+          {
+            "name": "Minion (3)",
+            "type": "Passive",
+            "text": "Le Vespoid est vaincu dès qu'il subit des dégâts. Pour chaque tranche de 3 dégâts qu'un PJ inflige au Vespoid, il vainc un Minion supplémentaire à portée contre lequel l'attaque aurait réussi."
+          },
+          {
+            "name": "Vol",
+            "type": "Passive",
+            "text": "Tant que le Vespoid vole, il gagne +2 à sa Difficulty."
+          },
+          {
+            "name": "Group Attack",
+            "type": "Action",
+            "text": "Dépensez 1 Fear pour choisir une cible et mettre en Spotlight tous les Vespoid Minions à portée Close d'elle. Ils se déplacent à portée Melee de la cible et font un seul jet d'attaque partagé. Sur un succès, ils infligent chacun 2 dégâts physiques. Combinez ces dégâts."
+          }
+        ],
+        "hunting": {
+          "schemaVersion": 1,
+          "footprint": {
+            "width": 1,
+            "height": 1
+          },
+          "tags": [
+            "flying"
+          ],
+          "mobility": {
+            "mode": "flying",
+            "state": "elevated"
+          }
+        }
+      }
+    },
     {
       "kind": "adversary",
       "key": "srd-2.0.adversary.acid-burrower",
