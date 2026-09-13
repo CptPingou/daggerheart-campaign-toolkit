@@ -13,6 +13,13 @@
       },
       {
         "corpus": "srd-2.0",
+        "kind": "class_feature",
+        "paths": [
+          "data/srd-2.0/indexes/class-features.json"
+        ]
+      },
+      {
+        "corpus": "srd-2.0",
         "kind": "subclass",
         "paths": [
           "data/srd-2.0/indexes/subclasses.json",
@@ -101,18 +108,20 @@
       "weapon": 358,
       "armor": 69,
       "adversary": 267,
-      "environment": 47
+      "environment": 47,
+      "class_feature": 36
     }
   },
   "audit": {
     "phase": "BH-2026-07-09-active",
     "manifest": "config/foundry-import-manifest.json",
-    "total": 1015,
-    "expected_total": 1015,
+    "total": 1051,
+    "expected_total": 1051,
     "counts": {
       "adversary": 267,
       "armor": 69,
       "class": 14,
+      "class_feature": 36,
       "domain_card": 231,
       "environment": 47,
       "subclass": 29,
@@ -125,7 +134,8 @@
       "weapon": 358,
       "armor": 69,
       "adversary": 267,
-      "environment": 47
+      "environment": 47,
+      "class_feature": 36
     },
     "count_check": {
       "class": {
@@ -162,6 +172,11 @@
         "expected": 47,
         "actual": 47,
         "ok": true
+      },
+      "class_feature": {
+        "expected": 36,
+        "actual": 36,
+        "ok": true
       }
     },
     "by_corpus": {
@@ -177,6 +192,7 @@
         "adversary": 264,
         "armor": 69,
         "class": 13,
+        "class_feature": 36,
         "domain_card": 210,
         "environment": 47,
         "subclass": 26,
@@ -189,6 +205,12 @@
         "kind": "class",
         "records": 13,
         "accepted_unique": 13
+      },
+      {
+        "path": "data/srd-2.0/indexes/class-features.json",
+        "kind": "class_feature",
+        "records": 36,
+        "accepted_unique": 36
       },
       {
         "path": "data/srd-2.0/indexes/subclasses.json",
@@ -20221,7 +20243,48 @@
         ],
         "starting_evasion": 12,
         "starting_hit_points": 5,
-        "validation": "confirmed_srd2_pdf"
+        "validation": "confirmed_srd2_pdf",
+        "content": {
+          "description": "<p>Assassins are masters at inflicting deadly injuries with precise strikes. Unlike those who wield violence as only a means to an end, assassins approach death as a profession. Many members of this class believe theirs is a worthy, if not sacred, trade, and some join guilds to hone their craft, define their beliefs, and earn money. People from all walks of life hire assassins for their skills: powerful rulers looking to avoid all-out war, business leaders seeking to eliminate the competition, and even average people hoping to settle a grudge. Often, an assassin is the last resort for killing those previously believed to be unkillable. While some of these deadly professionals will destroy anyone in their path for the right reasons or the right price, others hold strict moral codes or personal rules that dictate their targets. Those who end up the target of an assassin should count themselves among the dead.</p>",
+          "background_questions": [
+            "You once killed someone you were close to. What happened, and how did it change you?",
+            "What organization trained you in the art of killing, and how did you become a member?",
+            "Throughout your career, one target has eluded you. Who are they, and how have they slipped through your fingers?"
+          ],
+          "connections": [
+            "I've killed someone for you. Who were they?",
+            "How did you save me when I was on the brink of death? What have I promised you as repayment?",
+            "What secret about myself did I tell you, and how did it change your view of me?"
+          ]
+        },
+        "character_guide": {
+          "suggested_traits": {
+            "agility": 2,
+            "strength": -1,
+            "finesse": 1,
+            "instinct": 0,
+            "presence": 0,
+            "knowledge": 1
+          },
+          "suggested_primary_weapon": "katana",
+          "suggested_secondary_weapon": null,
+          "suggested_armor": "brigandine-armor"
+        },
+        "feature_refs": [
+          {
+            "type": "hope",
+            "id": "srd-2.0.class-feature.assassin.deadly-determination"
+          },
+          {
+            "type": "class",
+            "id": "srd-2.0.class-feature.assassin.marked-for-death"
+          },
+          {
+            "type": "class",
+            "id": "srd-2.0.class-feature.assassin.get-in-and-get-out"
+          }
+        ],
+        "content_validation": "candidate_foundryborne_2.9.4"
       }
     },
     {
@@ -20250,7 +20313,44 @@
         ],
         "starting_evasion": 10,
         "starting_hit_points": 5,
-        "validation": "confirmed_srd2_pdf"
+        "validation": "confirmed_srd2_pdf",
+        "content": {
+          "description": "<p>Bards are the most charismatic people in all the realms. Members of this class are masters of captivation and specialize in a variety of performance types, including singing, playing musical instruments, weaving tales, or telling jokes. Whether performing for an audience or speaking to an individual, bards thrive in social situations. Members of this profession bond and train at schools or guilds, but a current of egotism runs through those of the bardic persuasion. While they may be the most likely class to bring people together, a bard of ill temper can just as easily tear a party apart.</p>",
+          "background_questions": [
+            "Who from your community taught you to have such confidence in yourself?",
+            "You were in love once. Who did you adore, and how did they hurt you?",
+            "You've always looked up to another bard. Who are they, and why do you idolize them?"
+          ],
+          "connections": [
+            "What made you realize we were going to be such good friends?",
+            "What do I do that annoys you?",
+            "Why do you grab my hand at night?"
+          ]
+        },
+        "character_guide": {
+          "suggested_traits": {
+            "agility": 0,
+            "strength": -1,
+            "finesse": 1,
+            "instinct": 0,
+            "presence": 2,
+            "knowledge": 1
+          },
+          "suggested_primary_weapon": "rapier",
+          "suggested_secondary_weapon": "small-dagger",
+          "suggested_armor": "gambeson-armor"
+        },
+        "feature_refs": [
+          {
+            "type": "hope",
+            "id": "srd-2.0.class-feature.bard.make-a-scene"
+          },
+          {
+            "type": "class",
+            "id": "srd-2.0.class-feature.bard.rally"
+          }
+        ],
+        "content_validation": "candidate_foundryborne_2.9.4"
       }
     },
     {
@@ -20279,7 +20379,48 @@
         ],
         "starting_evasion": 10,
         "starting_hit_points": 6,
-        "validation": "confirmed_srd2_pdf"
+        "validation": "confirmed_srd2_pdf",
+        "content": {
+          "description": "<p>Experts in unarmed combat, brawlers hone their bodies into lethal weapons. Whether they learned from formal training, studied with a mentor, or picked up their skills one fight at a time, the process is always rigorous as brawlers develop their body and mind to work as one. Brawlers are valued for their power and versatility and typically join a party or a cause when the need or desire arises. Because a brawler's body is their strongest weapon, they typically seek out new challenges or consistent sparring partners so they can maintain their skills and add new techniques to their repertoire. Though they might appear unassuming to those accustomed to foes who are armed to the teeth, brawlers often accomplish more with bare knuckles than an average soldier with a sword.</p>",
+          "background_questions": [
+            "Where did you spend time during your formative years that taught you, directly or indirectly, how to fight in the style you use?",
+            "What organization has vowed to kill you on sight, and what did you do to invoke their ire?",
+            "Who did you recently lose a fight to that you're desperate for a rematch against?"
+          ],
+          "connections": [
+            "What is one thing we're both afraid of?",
+            "What do I rely on you for during our travels? How do you feel about it?",
+            "I still haven't forgiven you for something you said to me. What was it, and why did you say it?"
+          ]
+        },
+        "character_guide": {
+          "suggested_traits": {
+            "agility": 1,
+            "strength": 1,
+            "finesse": 0,
+            "instinct": 2,
+            "presence": 0,
+            "knowledge": -1
+          },
+          "suggested_primary_weapon": null,
+          "suggested_secondary_weapon": null,
+          "suggested_armor": "brigandine-armor"
+        },
+        "feature_refs": [
+          {
+            "type": "hope",
+            "id": "srd-2.0.class-feature.brawler.square-up"
+          },
+          {
+            "type": "class",
+            "id": "srd-2.0.class-feature.brawler.i-am-the-weapon"
+          },
+          {
+            "type": "class",
+            "id": "srd-2.0.class-feature.brawler.combo-strike"
+          }
+        ],
+        "content_validation": "candidate_foundryborne_2.9.4"
       }
     },
     {
@@ -20308,7 +20449,48 @@
         ],
         "starting_evasion": 10,
         "starting_hit_points": 6,
-        "validation": "confirmed_srd2_pdf"
+        "validation": "confirmed_srd2_pdf",
+        "content": {
+          "description": "<p>Becoming a druid is more than an occupation; it's a calling for those who wish to learn from and protect the magic of the wilderness. While one might underestimate a gentle druid who practices the often-quiet work of cultivating flora, druids who channel the untamed forces of nature are terrifying to behold. Druids cultivate their abilities in small groups, often connected by a specific ethos or locale, but some choose to work alone. Through years of study and dedication, druids can learn to transform into beasts and shape nature itself.</p>",
+          "background_questions": [
+            "Why was the community you grew up in so reliant on nature and its creatures?",
+            "Who was the first wild animal you bonded with? Why did your bond end?",
+            "Who has been trying to hunt you down? What do they want from you?"
+          ],
+          "connections": [
+            "What did you confide in me that makes me leap into danger for you every time?",
+            "What animal do I say you remind me of?",
+            "What affectionate nickname have you given me?"
+          ]
+        },
+        "character_guide": {
+          "suggested_traits": {
+            "agility": 1,
+            "strength": 0,
+            "finesse": 1,
+            "instinct": 2,
+            "presence": -1,
+            "knowledge": 0
+          },
+          "suggested_primary_weapon": "shortstaff",
+          "suggested_secondary_weapon": "round-shield",
+          "suggested_armor": "leather-armor"
+        },
+        "feature_refs": [
+          {
+            "type": "hope",
+            "id": "srd-2.0.class-feature.druid.evolution"
+          },
+          {
+            "type": "class",
+            "id": "srd-2.0.class-feature.druid.beastform"
+          },
+          {
+            "type": "class",
+            "id": "srd-2.0.class-feature.druid.wildtouch"
+          }
+        ],
+        "content_validation": "candidate_foundryborne_2.9.4"
       }
     },
     {
@@ -20337,7 +20519,44 @@
         ],
         "starting_evasion": 9,
         "starting_hit_points": 7,
-        "validation": "confirmed_srd2_pdf"
+        "validation": "confirmed_srd2_pdf",
+        "content": {
+          "description": "<p>The title of guardian represents an array of martial professions, speaking more to their moral compass and unshakeable fortitude than the means by which they fight. While many guardians join groups of militants for either a country or cause, they're more likely to follow those few they truly care for, majority be damned. Guardians are known for fighting with remarkable ferocity even against overwhelming odds, defending their cohort above all else. Woe betide those who harm the ally of a guardian, as the guardian will answer this injury in kind.</p>",
+          "background_questions": [
+            "Who from your community did you fail to protect, and why do you still think of them?",
+            "You've been tasked with protecting something important and delivering it somewhere dangerous. What is it, and where does it need to go?",
+            "You consider an aspect of yourself to be a weakness. What is it, and how has it affected you?"
+          ],
+          "connections": [
+            "How did I save your life the first time we met?",
+            "What small gift did you give me that you notice I always carry with me?",
+            "What lie have you told me about yourself that I absolutely believe?"
+          ]
+        },
+        "character_guide": {
+          "suggested_traits": {
+            "agility": 1,
+            "strength": 2,
+            "finesse": -1,
+            "instinct": 0,
+            "presence": 1,
+            "knowledge": 0
+          },
+          "suggested_primary_weapon": "battleaxe",
+          "suggested_secondary_weapon": null,
+          "suggested_armor": "chainmail-armor"
+        },
+        "feature_refs": [
+          {
+            "type": "hope",
+            "id": "srd-2.0.class-feature.guardian.frontline-tank"
+          },
+          {
+            "type": "class",
+            "id": "srd-2.0.class-feature.guardian.unstoppable"
+          }
+        ],
+        "content_validation": "candidate_foundryborne_2.9.4"
       }
     },
     {
@@ -20366,7 +20585,44 @@
         ],
         "starting_evasion": 12,
         "starting_hit_points": 6,
-        "validation": "confirmed_srd2_pdf"
+        "validation": "confirmed_srd2_pdf",
+        "content": {
+          "description": "<p>Rangers are highly skilled hunters who, despite their martial abilities, rarely lend their skills to an army. Through mastery of the body and a deep understanding of the wilderness, rangers become sly tacticians, pursuing their quarry with cunning and patience. Many rangers track and fight alongside an animal companion with whom they've forged a powerful spiritual bond. By honing their skills in the wild, rangers become expert trackers, as likely to ensnare their foes in a trap as they are to assail them head-on.</p>",
+          "background_questions": [
+            "A terrible creature hurt your community, and you've vowed to hunt them down. What are they, and what unique trail or sign do they leave behind?",
+            "Your first kill almost killed you, too. What was it, and what part of you was never the same after that event?",
+            "You've traveled many dangerous lands, but what is the one place you refuse to go?"
+          ],
+          "connections": [
+            "What friendly competition do we have?",
+            "Why do you act differently when we're alone than when others are around?",
+            "What threat have you asked me to watch for, and why are you worried about it?"
+          ]
+        },
+        "character_guide": {
+          "suggested_traits": {
+            "agility": 2,
+            "strength": 0,
+            "finesse": 1,
+            "instinct": 1,
+            "presence": -1,
+            "knowledge": 0
+          },
+          "suggested_primary_weapon": "shortbow",
+          "suggested_secondary_weapon": null,
+          "suggested_armor": "leather-armor"
+        },
+        "feature_refs": [
+          {
+            "type": "hope",
+            "id": "srd-2.0.class-feature.ranger.hold-them-off"
+          },
+          {
+            "type": "class",
+            "id": "srd-2.0.class-feature.ranger.rangers-focus"
+          }
+        ],
+        "content_validation": "candidate_foundryborne_2.9.4"
       }
     },
     {
@@ -20395,7 +20651,48 @@
         ],
         "starting_evasion": 12,
         "starting_hit_points": 6,
-        "validation": "confirmed_srd2_pdf"
+        "validation": "confirmed_srd2_pdf",
+        "content": {
+          "description": "<p>Rogues are scoundrels, often in both attitude and practice. Broadly known as liars and thieves, the best among this class move through the world anonymously. Utilizing their sharp wits and blades, rogues trick their foes through social manipulation as easily as breaking locks, climbing through windows, or dealing underhanded blows. These masters of magical craft manipulate shadow and movement, adding an array of useful and deadly tools to their repertoire. Rogues frequently establish guilds to meet future accomplices, hire out jobs, and hone secret skills, proving that there's honor among thieves for those who know where to look.</p>",
+          "background_questions": [
+            "What did you get caught doing that got you exiled from your home community?",
+            "You used to have a different life, but you've tried to leave it behind. Who from your past is still chasing you?",
+            "Who from your past were you most sad to say goodbye to?"
+          ],
+          "connections": [
+            "What did I recently convince you to do that got us both in trouble?",
+            "What have I discovered about your past that I hold secret from the others?",
+            "Who do you know from my past, and how have they influenced your feelings about me?"
+          ]
+        },
+        "character_guide": {
+          "suggested_traits": {
+            "agility": 1,
+            "strength": -1,
+            "finesse": 2,
+            "instinct": 0,
+            "presence": 1,
+            "knowledge": 0
+          },
+          "suggested_primary_weapon": "dagger",
+          "suggested_secondary_weapon": "small-dagger",
+          "suggested_armor": "gambeson-armor"
+        },
+        "feature_refs": [
+          {
+            "type": "hope",
+            "id": "srd-2.0.class-feature.rogue.rogues-dodge"
+          },
+          {
+            "type": "class",
+            "id": "srd-2.0.class-feature.rogue.cloaked"
+          },
+          {
+            "type": "class",
+            "id": "srd-2.0.class-feature.rogue.sneak-attack"
+          }
+        ],
+        "content_validation": "candidate_foundryborne_2.9.4"
       }
     },
     {
@@ -20424,7 +20721,44 @@
         ],
         "starting_evasion": 9,
         "starting_hit_points": 7,
-        "validation": "confirmed_srd2_pdf"
+        "validation": "confirmed_srd2_pdf",
+        "content": {
+          "description": "<p>Seraphs are divine fighters and healers imbued with sacred purpose. A wide array of deities exist within the realms, and thus numerous kinds of seraphs are appointed by these gods. Their ethos traditionally aligns with the domain or goals of their god, such as defending the weak, exacting vengeance, protecting a land or artifact, or upholding a particular faith. Some seraphs ally themselves with an army or locale, much to the satisfaction of their rulers, but other crusaders fight in opposition to the follies of the Mortal Realm. It is better to be a seraph's ally than their enemy, as they are terrifying foes to those who defy their purpose.</p>",
+          "background_questions": [
+            "Which god did you devote yourself to? What incredible feat did they perform for you in a moment of desperation?",
+            "How did your appearance change after taking your oath?",
+            "In what strange or unique way do you communicate with your god?"
+          ],
+          "connections": [
+            "What promise did you make me agree to, should you die on the battlefield?",
+            "Why do you ask me so many questions about my god?",
+            "You've told me to protect one member of our party above all others, even yourself. Who are they and why?"
+          ]
+        },
+        "character_guide": {
+          "suggested_traits": {
+            "agility": 0,
+            "strength": 2,
+            "finesse": 0,
+            "instinct": 1,
+            "presence": 1,
+            "knowledge": -1
+          },
+          "suggested_primary_weapon": "hallowed-axe",
+          "suggested_secondary_weapon": "round-shield",
+          "suggested_armor": "chainmail-armor"
+        },
+        "feature_refs": [
+          {
+            "type": "hope",
+            "id": "srd-2.0.class-feature.seraph.life-support"
+          },
+          {
+            "type": "class",
+            "id": "srd-2.0.class-feature.seraph.prayer-dice"
+          }
+        ],
+        "content_validation": "candidate_foundryborne_2.9.4"
       }
     },
     {
@@ -20453,7 +20787,52 @@
         ],
         "starting_evasion": 10,
         "starting_hit_points": 6,
-        "validation": "confirmed_srd2_pdf"
+        "validation": "confirmed_srd2_pdf",
+        "content": {
+          "description": "<p>Not all innate magic users choose to hone their craft, but those who do can become powerful sorcerers. The gifts of these wielders are passed down through families, even if the family is unaware of or reluctant to practice them. A sorcerer's abilities can range from the elemental to the illusionary and beyond, and many practitioners band together into collectives based on their talents. The act of becoming a formidable sorcerer is not the practice of acquiring power, but learning to cultivate and control the power one already possesses. The magic of a misguided or undisciplined sorcerer is a dangerous force indeed.</p>",
+          "background_questions": [
+            "What did you do that made the people in your community wary of you?",
+            "What mentor taught you to control your untamed magic, and why are they no longer able to guide you?",
+            "You have a deep fear you hide from everyone. What is it, and why does it scare you?"
+          ],
+          "connections": [
+            "Why do you trust me so deeply?",
+            "What did I do that makes you cautious around me?",
+            "Why do we keep our shared past a secret?"
+          ]
+        },
+        "character_guide": {
+          "suggested_traits": {
+            "agility": 0,
+            "strength": -1,
+            "finesse": 1,
+            "instinct": 2,
+            "presence": 1,
+            "knowledge": 0
+          },
+          "suggested_primary_weapon": "dualstaff",
+          "suggested_secondary_weapon": null,
+          "suggested_armor": "gambeson-armor"
+        },
+        "feature_refs": [
+          {
+            "type": "hope",
+            "id": "srd-2.0.class-feature.sorcerer.volatile-magic"
+          },
+          {
+            "type": "class",
+            "id": "srd-2.0.class-feature.sorcerer.arcane-sense"
+          },
+          {
+            "type": "class",
+            "id": "srd-2.0.class-feature.sorcerer.minor-illusion"
+          },
+          {
+            "type": "class",
+            "id": "srd-2.0.class-feature.sorcerer.channel-raw-power"
+          }
+        ],
+        "content_validation": "candidate_foundryborne_2.9.4"
       }
     },
     {
@@ -20482,7 +20861,48 @@
         ],
         "starting_evasion": 11,
         "starting_hit_points": 5,
-        "validation": "confirmed_srd2_pdf"
+        "validation": "confirmed_srd2_pdf",
+        "content": {
+          "description": "<p>Those who've traded their lives—or perhaps even their souls—to an otherworldly patron in exchange for incredible power are known as warlocks. Often, these mortals have reached a point of desperation that leads them to make this sacrifice: they hope to protect themselves or a loved one, aid their community, seek vengeance, increase their status, or otherwise further their ambitions. The powerful entities they entreat are as varied as the warlocks themselves: gods, spirits, demons, or other beings unknown to even the mortal who makes the pact. The entities each have their own sphere of influence that defines their otherworldly power, and those that collect souls are rarely known for their benevolence. Thus, a warlock's power is defined by the relationship they maintain with their benefactor. Despite their terrifying magic, warlocks might find that someone or something else is pulling their strings.</p>",
+          "background_questions": [
+            "Who from your community shunned you after you made a pact with your patron?",
+            "What desperate situation led you to pledge your life to your patron?",
+            "Your patron has given you one task you must accomplish above all else. What is it, and why does it worry you?"
+          ],
+          "connections": [
+            "Why do you think I confide in you about what my patron says and does?",
+            "Our relationship has changed since you saw me show tribute to my patron. What did you see, and how has it affected you?",
+            "I once did something very foolish, and you've never let me live it down. What was it?"
+          ]
+        },
+        "character_guide": {
+          "suggested_traits": {
+            "agility": 1,
+            "strength": -1,
+            "finesse": 0,
+            "instinct": 1,
+            "presence": 2,
+            "knowledge": 0
+          },
+          "suggested_primary_weapon": "scimitar",
+          "suggested_secondary_weapon": "fighting-cloak",
+          "suggested_armor": "mage-robes"
+        },
+        "feature_refs": [
+          {
+            "type": "hope",
+            "id": "srd-2.0.class-feature.warlock.patrons-boon"
+          },
+          {
+            "type": "class",
+            "id": "srd-2.0.class-feature.warlock.patrons-pact"
+          },
+          {
+            "type": "class",
+            "id": "srd-2.0.class-feature.warlock.favor"
+          }
+        ],
+        "content_validation": "candidate_foundryborne_2.9.4"
       }
     },
     {
@@ -20511,7 +20931,48 @@
         ],
         "starting_evasion": 11,
         "starting_hit_points": 6,
-        "validation": "confirmed_srd2_pdf"
+        "validation": "confirmed_srd2_pdf",
+        "content": {
+          "description": "<p>Becoming a warrior requires years, often a lifetime, of training and dedication to the mastery of weapons and violence. While many who seek to fight hone only their strength, warriors understand the importance of an agile body and mind, making them some of the most sought-after fighters across the realms. Frequently, warriors find employment within an army, a band of mercenaries, or even a royal guard, but their potential is wasted in any position where they cannot continue to improve and expand their skills. Warriors are known to have a favored weapon; to come between them and their blade would be a grievous mistake.</p>",
+          "background_questions": [
+            "Who taught you to fight, and why did they stay behind when you left home?",
+            "Somebody defeated you in battle years ago and left you to die. Who was it, and how did they betray you?",
+            "What legendary place have you always wanted to visit, and why is it so special?"
+          ],
+          "connections": [
+            "We knew each other long before this party came together. How?",
+            "What mundane task do you usually help me with off the battlefield?",
+            "What fear am I helping you overcome?"
+          ]
+        },
+        "character_guide": {
+          "suggested_traits": {
+            "agility": 2,
+            "strength": 1,
+            "finesse": 0,
+            "instinct": 1,
+            "presence": -1,
+            "knowledge": 0
+          },
+          "suggested_primary_weapon": "longsword",
+          "suggested_secondary_weapon": null,
+          "suggested_armor": "chainmail-armor"
+        },
+        "feature_refs": [
+          {
+            "type": "hope",
+            "id": "srd-2.0.class-feature.warrior.no-mercy"
+          },
+          {
+            "type": "class",
+            "id": "srd-2.0.class-feature.warrior.attack-of-opportunity"
+          },
+          {
+            "type": "class",
+            "id": "srd-2.0.class-feature.warrior.combat-training"
+          }
+        ],
+        "content_validation": "candidate_foundryborne_2.9.4"
       }
     },
     {
@@ -20540,7 +21001,48 @@
         ],
         "starting_evasion": 10,
         "starting_hit_points": 6,
-        "validation": "confirmed_srd2_pdf"
+        "validation": "confirmed_srd2_pdf",
+        "content": {
+          "description": "<p>Witches are magical practitioners who commune with the forces of nature and entities from realms beyond. These spellcasters call forth power through craft, combining the tangible and ephemeral by casting spells, murmuring incantations, creating talismans, weaving illusions, and maintaining other personalized practices. They can protect their allies and harm their enemies by invoking powerful forces beyond themselves—supernatural beings such as ancestors, deities, or aspects of nature. Often, their magical knowledge is passed down from these entities or through many generations of practitioners who gather in small groups known as covens. Witches are frequently feared and misunderstood, as their methods can appear mysterious, strange, and even macabre to the uninitiated. Whichever path they walk, a witch treads the boundary between light and shadow without fear.</p>",
+          "background_questions": [
+            "Who from your community feared your magical craft? What rumor did they spread about you, and what truth did it contain?",
+            "You once used your power to help someone in a dire situation. Who were they, and why did they come to you?",
+            "Your magic once opened a door best left closed. Who or what was on the other side?"
+          ],
+          "connections": [
+            "What unique ritual or practice have I taught you that we now perform together?",
+            "I once appeared to you in a dream and shared a vision of the future. What did I tell you?",
+            "What do you typically come to me for advice about?"
+          ]
+        },
+        "character_guide": {
+          "suggested_traits": {
+            "agility": 0,
+            "strength": -1,
+            "finesse": 0,
+            "instinct": 2,
+            "presence": 1,
+            "knowledge": 1
+          },
+          "suggested_primary_weapon": "casting-dagger",
+          "suggested_secondary_weapon": "rune-shield",
+          "suggested_armor": "mage-robes"
+        },
+        "feature_refs": [
+          {
+            "type": "hope",
+            "id": "srd-2.0.class-feature.witch.witchs-charm"
+          },
+          {
+            "type": "class",
+            "id": "srd-2.0.class-feature.witch.hex"
+          },
+          {
+            "type": "class",
+            "id": "srd-2.0.class-feature.witch.commune"
+          }
+        ],
+        "content_validation": "candidate_foundryborne_2.9.4"
       }
     },
     {
@@ -20569,7 +21071,48 @@
         ],
         "starting_evasion": 11,
         "starting_hit_points": 5,
-        "validation": "confirmed_srd2_pdf"
+        "validation": "confirmed_srd2_pdf",
+        "content": {
+          "description": "<p>Whether through an institution or individual study, those known as wizards acquire and hone immense magical power over years of learning using a variety of tools, including books, stones, potions, and herbs. Some wizards dedicate their lives to mastering a particular school of magic, while others learn from a wide variety of disciplines. Many wizards become wise and powerful figures in their communities, advising rulers, providing medicines and healing, and even leading war councils. While these mages all work toward the common goal of collecting magical knowledge, wizards often have the most conflict within their own ranks, as the acquisition, keeping, and sharing of powerful secrets is a topic of intense debate that has resulted in innumerable deaths.</p>",
+          "background_questions": [
+            "What responsibilities did your community once count on you for? How did you let them down?",
+            "You've spent your life searching for a book or object of great significance. What is it, and why is it so important to you?",
+            "You have a powerful rival. Who are they, and why are you so determined to defeat them?"
+          ],
+          "connections": [
+            "What favor have I asked of you that you're not sure you can fulfill?",
+            "What weird hobby or strange fascination do we both share?",
+            "What secret about yourself have you entrusted only to me?"
+          ]
+        },
+        "character_guide": {
+          "suggested_traits": {
+            "agility": -1,
+            "strength": 0,
+            "finesse": 0,
+            "instinct": 1,
+            "presence": 1,
+            "knowledge": 2
+          },
+          "suggested_primary_weapon": "greatstaff",
+          "suggested_secondary_weapon": null,
+          "suggested_armor": "leather-armor"
+        },
+        "feature_refs": [
+          {
+            "type": "hope",
+            "id": "srd-2.0.class-feature.wizard.not-this-time"
+          },
+          {
+            "type": "class",
+            "id": "srd-2.0.class-feature.wizard.prestidigitation"
+          },
+          {
+            "type": "class",
+            "id": "srd-2.0.class-feature.wizard.strange-patterns"
+          }
+        ],
+        "content_validation": "candidate_foundryborne_2.9.4"
       }
     },
     {
@@ -20644,6 +21187,1014 @@
             }
           ]
         }
+      }
+    },
+    {
+      "kind": "class_feature",
+      "key": "srd-2.0.class-feature.assassin.deadly-determination",
+      "corpus": "srd-2.0",
+      "source_path": "data/srd-2.0/indexes/class-features.json",
+      "data": {
+        "id": "srd-2.0.class-feature.assassin.deadly-determination",
+        "kind": "class_feature",
+        "name": "Deadly Determination",
+        "slug": "deadly-determination",
+        "class_id": "srd-2.0.class.assassin",
+        "feature_type": "hope",
+        "source": {
+          "corpus": "daggerheart-srd",
+          "version": "2.0",
+          "status": "srd"
+        },
+        "availability": {
+          "in_srd": true,
+          "private_only": false,
+          "deprecated": false
+        },
+        "content": {
+          "rules_text": "<p><strong>Spend 3 Hope</strong> to clear 2 Stress.</p>"
+        },
+        "validation": "candidate_foundryborne_2.9.4"
+      }
+    },
+    {
+      "kind": "class_feature",
+      "key": "srd-2.0.class-feature.assassin.get-in-and-get-out",
+      "corpus": "srd-2.0",
+      "source_path": "data/srd-2.0/indexes/class-features.json",
+      "data": {
+        "id": "srd-2.0.class-feature.assassin.get-in-and-get-out",
+        "kind": "class_feature",
+        "name": "Get In & Get Out",
+        "slug": "get-in-and-get-out",
+        "class_id": "srd-2.0.class.assassin",
+        "feature_type": "class",
+        "source": {
+          "corpus": "daggerheart-srd",
+          "version": "2.0",
+          "status": "srd"
+        },
+        "availability": {
+          "in_srd": true,
+          "private_only": false,
+          "deprecated": false
+        },
+        "content": {
+          "rules_text": "<p><strong>Spend a Hope</strong> to ask the GM for a quick or inconspicuous way into or out of a place you can see. The next roll you make that acts on this information has advantage.</p>"
+        },
+        "validation": "candidate_foundryborne_2.9.4"
+      }
+    },
+    {
+      "kind": "class_feature",
+      "key": "srd-2.0.class-feature.assassin.marked-for-death",
+      "corpus": "srd-2.0",
+      "source_path": "data/srd-2.0/indexes/class-features.json",
+      "data": {
+        "id": "srd-2.0.class-feature.assassin.marked-for-death",
+        "kind": "class_feature",
+        "name": "Marked for Death",
+        "slug": "marked-for-death",
+        "class_id": "srd-2.0.class.assassin",
+        "feature_type": "class",
+        "source": {
+          "corpus": "daggerheart-srd",
+          "version": "2.0",
+          "status": "srd"
+        },
+        "availability": {
+          "in_srd": true,
+          "private_only": false,
+          "deprecated": false
+        },
+        "content": {
+          "rules_text": "<p>On a successful weapon attack, you can <strong>mark a Stress</strong> to make the target <em>Marked for Death</em>. When you deal damage to a target you've <em>Marked for Death</em>, add a number of <strong>d4s</strong> equal to your tier to the damage roll.</p><p>You can have only one adversary <em>Marked for Death</em> at a time. This condition lasts until you take a rest, the current adversary <em>Marked for Death</em> is defeated, or the GM spends a number of Fear equal to your tier to clear it.</p>"
+        },
+        "validation": "candidate_foundryborne_2.9.4"
+      }
+    },
+    {
+      "kind": "class_feature",
+      "key": "srd-2.0.class-feature.bard.make-a-scene",
+      "corpus": "srd-2.0",
+      "source_path": "data/srd-2.0/indexes/class-features.json",
+      "data": {
+        "id": "srd-2.0.class-feature.bard.make-a-scene",
+        "kind": "class_feature",
+        "name": "Make a Scene",
+        "slug": "make-a-scene",
+        "class_id": "srd-2.0.class.bard",
+        "feature_type": "hope",
+        "source": {
+          "corpus": "daggerheart-srd",
+          "version": "2.0",
+          "status": "srd"
+        },
+        "availability": {
+          "in_srd": true,
+          "private_only": false,
+          "deprecated": false
+        },
+        "content": {
+          "rules_text": "<p>Spend <strong>3 Hope</strong> to temporarily <strong>Distract a target</strong> within <strong>Close</strong> range, giving them a <strong>-2 penalty</strong> to their Difficulty.</p>"
+        },
+        "validation": "candidate_foundryborne_2.9.4"
+      }
+    },
+    {
+      "kind": "class_feature",
+      "key": "srd-2.0.class-feature.bard.rally",
+      "corpus": "srd-2.0",
+      "source_path": "data/srd-2.0/indexes/class-features.json",
+      "data": {
+        "id": "srd-2.0.class-feature.bard.rally",
+        "kind": "class_feature",
+        "name": "Rally",
+        "slug": "rally",
+        "class_id": "srd-2.0.class.bard",
+        "feature_type": "class",
+        "source": {
+          "corpus": "daggerheart-srd",
+          "version": "2.0",
+          "status": "srd"
+        },
+        "availability": {
+          "in_srd": true,
+          "private_only": false,
+          "deprecated": false
+        },
+        "content": {
+          "rules_text": "<p>Once per session, describe how you rally the party and give yourself and each of your allies a Rally Die. At level 1, your Rally Die is a d6. A PC can spend their Rally Die to roll it, adding the result to their action roll, reaction roll, damage roll, or to clear a number of Stress equal to the result. At the end of each session, clear all unspent Rally Dice. At level 5, your Rally Die increases to a d8.</p>"
+        },
+        "validation": "candidate_foundryborne_2.9.4"
+      }
+    },
+    {
+      "kind": "class_feature",
+      "key": "srd-2.0.class-feature.brawler.combo-strike",
+      "corpus": "srd-2.0",
+      "source_path": "data/srd-2.0/indexes/class-features.json",
+      "data": {
+        "id": "srd-2.0.class-feature.brawler.combo-strike",
+        "kind": "class_feature",
+        "name": "Combo Strike",
+        "slug": "combo-strike",
+        "class_id": "srd-2.0.class.brawler",
+        "feature_type": "class",
+        "source": {
+          "corpus": "daggerheart-srd",
+          "version": "2.0",
+          "status": "srd"
+        },
+        "availability": {
+          "in_srd": true,
+          "private_only": false,
+          "deprecated": false
+        },
+        "content": {
+          "rules_text": "<p>After rolling damage on a successful attack with a Melee weapon, you can <strong>mark a Stress</strong> to start a combo strike. When you do, roll your Combo Die and note the result, then continue rolling your Combo Die until the result of your latest roll is lower than the roll that preceded it. You deal extra damage equal to the total of all rolled Combo Die results on this attack. The results can't be modified by any means.</p><p>Your Combo Die starts as a <strong>d4</strong>. Once per tier, you can increase your Combo Die by one step as a level advancement option.</p>"
+        },
+        "validation": "candidate_foundryborne_2.9.4"
+      }
+    },
+    {
+      "kind": "class_feature",
+      "key": "srd-2.0.class-feature.brawler.i-am-the-weapon",
+      "corpus": "srd-2.0",
+      "source_path": "data/srd-2.0/indexes/class-features.json",
+      "data": {
+        "id": "srd-2.0.class-feature.brawler.i-am-the-weapon",
+        "kind": "class_feature",
+        "name": "I Am the Weapon",
+        "slug": "i-am-the-weapon",
+        "class_id": "srd-2.0.class.brawler",
+        "feature_type": "class",
+        "source": {
+          "corpus": "daggerheart-srd",
+          "version": "2.0",
+          "status": "srd"
+        },
+        "availability": {
+          "in_srd": true,
+          "private_only": false,
+          "deprecated": false
+        },
+        "content": {
+          "rules_text": "<p>Your barehanded attacks are as strong as any blade. You have a primary weapon called Brawler's Strike equipped while you have no other Active Weapons. It uses a trait of your choice, has Melee range, and deals <strong>d8+d6</strong> physical damage using your Proficiency (both the <strong>d8</strong> and <strong>d6</strong> scale off your Proficiency). While this weapon is active, you gain a +1 bonus to your Evasion.</p>"
+        },
+        "validation": "candidate_foundryborne_2.9.4"
+      }
+    },
+    {
+      "kind": "class_feature",
+      "key": "srd-2.0.class-feature.brawler.square-up",
+      "corpus": "srd-2.0",
+      "source_path": "data/srd-2.0/indexes/class-features.json",
+      "data": {
+        "id": "srd-2.0.class-feature.brawler.square-up",
+        "kind": "class_feature",
+        "name": "Square Up",
+        "slug": "square-up",
+        "class_id": "srd-2.0.class.brawler",
+        "feature_type": "hope",
+        "source": {
+          "corpus": "daggerheart-srd",
+          "version": "2.0",
+          "status": "srd"
+        },
+        "availability": {
+          "in_srd": true,
+          "private_only": false,
+          "deprecated": false
+        },
+        "content": {
+          "rules_text": "<p><strong>Spend 3 Hope</strong> to intimidate a target within Close range, making them temporarily <em>Vulnerable</em>.</p>"
+        },
+        "validation": "candidate_foundryborne_2.9.4"
+      }
+    },
+    {
+      "kind": "class_feature",
+      "key": "srd-2.0.class-feature.druid.beastform",
+      "corpus": "srd-2.0",
+      "source_path": "data/srd-2.0/indexes/class-features.json",
+      "data": {
+        "id": "srd-2.0.class-feature.druid.beastform",
+        "kind": "class_feature",
+        "name": "Beastform",
+        "slug": "beastform",
+        "class_id": "srd-2.0.class.druid",
+        "feature_type": "class",
+        "source": {
+          "corpus": "daggerheart-srd",
+          "version": "2.0",
+          "status": "srd"
+        },
+        "availability": {
+          "in_srd": true,
+          "private_only": false,
+          "deprecated": false
+        },
+        "content": {
+          "rules_text": "<p>Mark a Stress to magically transform into a creature of your tier or lower from the Beastform list. You can drop out of this form at any time. While transformed, you can't use weapons or cast spells from domain cards, but you can still use other features or abilities you have access to. Spells you cast before you transform stay active and last for their normal duration, and you can talk and communicate as normal. Additionally, you gain the Beastform's features, add their Evasion bonus to your Evasion, and use the trait specified in their statistics for your attack. While you're in a Beastform, your armor becomes part of your body and you mark Armor Slots as usual; when you drop out of a Beastform, those marked Armor Slots remain marked. If you mark your last Hit Point, you automatically drop out of this form.</p>"
+        },
+        "validation": "candidate_foundryborne_2.9.4"
+      }
+    },
+    {
+      "kind": "class_feature",
+      "key": "srd-2.0.class-feature.druid.evolution",
+      "corpus": "srd-2.0",
+      "source_path": "data/srd-2.0/indexes/class-features.json",
+      "data": {
+        "id": "srd-2.0.class-feature.druid.evolution",
+        "kind": "class_feature",
+        "name": "Evolution",
+        "slug": "evolution",
+        "class_id": "srd-2.0.class.druid",
+        "feature_type": "hope",
+        "source": {
+          "corpus": "daggerheart-srd",
+          "version": "2.0",
+          "status": "srd"
+        },
+        "availability": {
+          "in_srd": true,
+          "private_only": false,
+          "deprecated": false
+        },
+        "content": {
+          "rules_text": "<p><strong>Spend 3 Hope</strong> to transform into a Beastform without marking a Stress. When you do, choose one trait to raise by +1 until you drop out of that Beastform.</p>"
+        },
+        "validation": "candidate_foundryborne_2.9.4"
+      }
+    },
+    {
+      "kind": "class_feature",
+      "key": "srd-2.0.class-feature.druid.wildtouch",
+      "corpus": "srd-2.0",
+      "source_path": "data/srd-2.0/indexes/class-features.json",
+      "data": {
+        "id": "srd-2.0.class-feature.druid.wildtouch",
+        "kind": "class_feature",
+        "name": "Wildtouch",
+        "slug": "wildtouch",
+        "class_id": "srd-2.0.class.druid",
+        "feature_type": "class",
+        "source": {
+          "corpus": "daggerheart-srd",
+          "version": "2.0",
+          "status": "srd"
+        },
+        "availability": {
+          "in_srd": true,
+          "private_only": false,
+          "deprecated": false
+        },
+        "content": {
+          "rules_text": "<p>You can perform harmless, subtle effects that involve nature—such as causing a flower to rapidly grow, summoning a slight gust of wind, or starting a campfire— at will.</p>"
+        },
+        "validation": "candidate_foundryborne_2.9.4"
+      }
+    },
+    {
+      "kind": "class_feature",
+      "key": "srd-2.0.class-feature.guardian.frontline-tank",
+      "corpus": "srd-2.0",
+      "source_path": "data/srd-2.0/indexes/class-features.json",
+      "data": {
+        "id": "srd-2.0.class-feature.guardian.frontline-tank",
+        "kind": "class_feature",
+        "name": "Frontline Tank",
+        "slug": "frontline-tank",
+        "class_id": "srd-2.0.class.guardian",
+        "feature_type": "hope",
+        "source": {
+          "corpus": "daggerheart-srd",
+          "version": "2.0",
+          "status": "srd"
+        },
+        "availability": {
+          "in_srd": true,
+          "private_only": false,
+          "deprecated": false
+        },
+        "content": {
+          "rules_text": "<p><strong>Spend 3 Hope</strong> to clear 2 Armor Slots</p>"
+        },
+        "validation": "candidate_foundryborne_2.9.4"
+      }
+    },
+    {
+      "kind": "class_feature",
+      "key": "srd-2.0.class-feature.guardian.unstoppable",
+      "corpus": "srd-2.0",
+      "source_path": "data/srd-2.0/indexes/class-features.json",
+      "data": {
+        "id": "srd-2.0.class-feature.guardian.unstoppable",
+        "kind": "class_feature",
+        "name": "Unstoppable",
+        "slug": "unstoppable",
+        "class_id": "srd-2.0.class.guardian",
+        "feature_type": "class",
+        "source": {
+          "corpus": "daggerheart-srd",
+          "version": "2.0",
+          "status": "srd"
+        },
+        "availability": {
+          "in_srd": true,
+          "private_only": false,
+          "deprecated": false
+        },
+        "content": {
+          "rules_text": "<p>Once per long rest, you can become Unstoppable. You gain an Unstoppable Die. At level 1, your Unstoppable Die is a d4. Place it on your character sheet in the space provided, starting with the 1 value facing up. After you make a damage roll that deals 1 or more Hit Points to a target, increase the Unstoppable Die value by one. When the die's value would exceed its maximum value or when the scene ends, remove the die and drop out of Unstoppable. At level 5, your Unstoppable Die increases to a d6. While Unstoppable, you gain the following benefits:</p><ul><li><p>You reduce the severity of physical damage by one threshold (Severe to Major, Major to Minor, Minor to None).</p></li><li><p>You add the current value of the Unstoppable Die to your damage roll.</p></li><li><p>You can't be Restrained or Vulnerable.</p></li></ul><blockquote><p>Tip: If your Unstoppable Die is a d4 and the 4 is currently facing up, you remove the die the next time you would increase it. However, if your Unstoppable Die has increased to a d6 and the 4 is currently facing up, you'll turn it to 5 the next time you would increase it. In this case, you'll remove the die after you would need to increase it higher than 6.</p></blockquote>"
+        },
+        "validation": "candidate_foundryborne_2.9.4"
+      }
+    },
+    {
+      "kind": "class_feature",
+      "key": "srd-2.0.class-feature.ranger.hold-them-off",
+      "corpus": "srd-2.0",
+      "source_path": "data/srd-2.0/indexes/class-features.json",
+      "data": {
+        "id": "srd-2.0.class-feature.ranger.hold-them-off",
+        "kind": "class_feature",
+        "name": "Hold Them Off",
+        "slug": "hold-them-off",
+        "class_id": "srd-2.0.class.ranger",
+        "feature_type": "hope",
+        "source": {
+          "corpus": "daggerheart-srd",
+          "version": "2.0",
+          "status": "srd"
+        },
+        "availability": {
+          "in_srd": true,
+          "private_only": false,
+          "deprecated": false
+        },
+        "content": {
+          "rules_text": "<p><strong>Spend 3 Hope</strong> when you succeed on an attack with a weapon to use that same roll against two additional adversaries within range of the attack.</p>"
+        },
+        "validation": "candidate_foundryborne_2.9.4"
+      }
+    },
+    {
+      "kind": "class_feature",
+      "key": "srd-2.0.class-feature.ranger.rangers-focus",
+      "corpus": "srd-2.0",
+      "source_path": "data/srd-2.0/indexes/class-features.json",
+      "data": {
+        "id": "srd-2.0.class-feature.ranger.rangers-focus",
+        "kind": "class_feature",
+        "name": "Ranger's Focus",
+        "slug": "rangers-focus",
+        "class_id": "srd-2.0.class.ranger",
+        "feature_type": "class",
+        "source": {
+          "corpus": "daggerheart-srd",
+          "version": "2.0",
+          "status": "srd"
+        },
+        "availability": {
+          "in_srd": true,
+          "private_only": false,
+          "deprecated": false
+        },
+        "content": {
+          "rules_text": "<p>Spend a Hope and make an attack against a target. On a success, deal your attack's normal damage and temporarily make the attack's target your Focus. Until this feature ends or you make a different creature your Focus, you gain the following benefits against your Focus:</p><ul><li><p>You know precisely what direction they are in.</p></li><li><p>When you deal damage to them, they must mark a Stress.</p></li><li><p>When you fail an attack against them, you can end your Ranger's Focus feature to reroll your Duality Dice.</p></li></ul>"
+        },
+        "validation": "candidate_foundryborne_2.9.4"
+      }
+    },
+    {
+      "kind": "class_feature",
+      "key": "srd-2.0.class-feature.rogue.cloaked",
+      "corpus": "srd-2.0",
+      "source_path": "data/srd-2.0/indexes/class-features.json",
+      "data": {
+        "id": "srd-2.0.class-feature.rogue.cloaked",
+        "kind": "class_feature",
+        "name": "Cloaked",
+        "slug": "cloaked",
+        "class_id": "srd-2.0.class.rogue",
+        "feature_type": "class",
+        "source": {
+          "corpus": "daggerheart-srd",
+          "version": "2.0",
+          "status": "srd"
+        },
+        "availability": {
+          "in_srd": true,
+          "private_only": false,
+          "deprecated": false
+        },
+        "content": {
+          "rules_text": "<p>Any time you would be Hidden, you are instead Cloaked. In addition to the benefits of the Hidden condition, while Cloaked you remain unseen if you are stationary when an adversary moves to where they would normally see you. After you make an attack or end a move within line of sight of an adversary, you are no longer Cloaked.</p>"
+        },
+        "validation": "candidate_foundryborne_2.9.4"
+      }
+    },
+    {
+      "kind": "class_feature",
+      "key": "srd-2.0.class-feature.rogue.rogues-dodge",
+      "corpus": "srd-2.0",
+      "source_path": "data/srd-2.0/indexes/class-features.json",
+      "data": {
+        "id": "srd-2.0.class-feature.rogue.rogues-dodge",
+        "kind": "class_feature",
+        "name": "Rogue's Dodge",
+        "slug": "rogues-dodge",
+        "class_id": "srd-2.0.class.rogue",
+        "feature_type": "hope",
+        "source": {
+          "corpus": "daggerheart-srd",
+          "version": "2.0",
+          "status": "srd"
+        },
+        "availability": {
+          "in_srd": true,
+          "private_only": false,
+          "deprecated": false
+        },
+        "content": {
+          "rules_text": "<p><strong>Spend 3 Hope</strong> to gain a +2 bonus to your Evasion until the next time an attack succeeds against you. Otherwise, this bonus lasts until your next rest.</p>"
+        },
+        "validation": "candidate_foundryborne_2.9.4"
+      }
+    },
+    {
+      "kind": "class_feature",
+      "key": "srd-2.0.class-feature.rogue.sneak-attack",
+      "corpus": "srd-2.0",
+      "source_path": "data/srd-2.0/indexes/class-features.json",
+      "data": {
+        "id": "srd-2.0.class-feature.rogue.sneak-attack",
+        "kind": "class_feature",
+        "name": "Sneak Attack",
+        "slug": "sneak-attack",
+        "class_id": "srd-2.0.class.rogue",
+        "feature_type": "class",
+        "source": {
+          "corpus": "daggerheart-srd",
+          "version": "2.0",
+          "status": "srd"
+        },
+        "availability": {
+          "in_srd": true,
+          "private_only": false,
+          "deprecated": false
+        },
+        "content": {
+          "rules_text": "<p>When you succeed on an attack while Cloaked or while an ally is within Melee range of your target, add a number of d6s equal to your tier to your damage roll.</p><ul><li><p>Level 1 -&gt; Tier 1</p></li><li><p>Levels 2–4 -&gt; Tier 2</p></li><li><p>Levels 5–7 -&gt; Tier 3</p></li><li><p>Levels 8–10 -&gt; Tier 4</p></li></ul>"
+        },
+        "validation": "candidate_foundryborne_2.9.4"
+      }
+    },
+    {
+      "kind": "class_feature",
+      "key": "srd-2.0.class-feature.seraph.life-support",
+      "corpus": "srd-2.0",
+      "source_path": "data/srd-2.0/indexes/class-features.json",
+      "data": {
+        "id": "srd-2.0.class-feature.seraph.life-support",
+        "kind": "class_feature",
+        "name": "Life Support",
+        "slug": "life-support",
+        "class_id": "srd-2.0.class.seraph",
+        "feature_type": "hope",
+        "source": {
+          "corpus": "daggerheart-srd",
+          "version": "2.0",
+          "status": "srd"
+        },
+        "availability": {
+          "in_srd": true,
+          "private_only": false,
+          "deprecated": false
+        },
+        "content": {
+          "rules_text": "<p><strong>Spend 3 Hope</strong> to clear a Hit Point on an ally within Close range.</p>"
+        },
+        "validation": "candidate_foundryborne_2.9.4"
+      }
+    },
+    {
+      "kind": "class_feature",
+      "key": "srd-2.0.class-feature.seraph.prayer-dice",
+      "corpus": "srd-2.0",
+      "source_path": "data/srd-2.0/indexes/class-features.json",
+      "data": {
+        "id": "srd-2.0.class-feature.seraph.prayer-dice",
+        "kind": "class_feature",
+        "name": "Prayer Dice",
+        "slug": "prayer-dice",
+        "class_id": "srd-2.0.class.seraph",
+        "feature_type": "class",
+        "source": {
+          "corpus": "daggerheart-srd",
+          "version": "2.0",
+          "status": "srd"
+        },
+        "availability": {
+          "in_srd": true,
+          "private_only": false,
+          "deprecated": false
+        },
+        "content": {
+          "rules_text": "<p>At the beginning of each session, roll a number of d4s equal to your subclass's Spellcast trait and place them on your character sheet in the space provided. These are your Prayer Dice. You can spend any number of Prayer Dice to aid yourself or an ally within Far range. You can use a spent die's value to reduce incoming damage, add to a roll's result after the roll is made, or gain Hope equal to the result. At the end of each session, clear all unspent Prayer Dice.</p>"
+        },
+        "validation": "candidate_foundryborne_2.9.4"
+      }
+    },
+    {
+      "kind": "class_feature",
+      "key": "srd-2.0.class-feature.sorcerer.arcane-sense",
+      "corpus": "srd-2.0",
+      "source_path": "data/srd-2.0/indexes/class-features.json",
+      "data": {
+        "id": "srd-2.0.class-feature.sorcerer.arcane-sense",
+        "kind": "class_feature",
+        "name": "Arcane Sense",
+        "slug": "arcane-sense",
+        "class_id": "srd-2.0.class.sorcerer",
+        "feature_type": "class",
+        "source": {
+          "corpus": "daggerheart-srd",
+          "version": "2.0",
+          "status": "srd"
+        },
+        "availability": {
+          "in_srd": true,
+          "private_only": false,
+          "deprecated": false
+        },
+        "content": {
+          "rules_text": "<p>You can sense the presence of magical people and objects within Close range.</p>"
+        },
+        "validation": "candidate_foundryborne_2.9.4"
+      }
+    },
+    {
+      "kind": "class_feature",
+      "key": "srd-2.0.class-feature.sorcerer.channel-raw-power",
+      "corpus": "srd-2.0",
+      "source_path": "data/srd-2.0/indexes/class-features.json",
+      "data": {
+        "id": "srd-2.0.class-feature.sorcerer.channel-raw-power",
+        "kind": "class_feature",
+        "name": "Channel Raw Power",
+        "slug": "channel-raw-power",
+        "class_id": "srd-2.0.class.sorcerer",
+        "feature_type": "class",
+        "source": {
+          "corpus": "daggerheart-srd",
+          "version": "2.0",
+          "status": "srd"
+        },
+        "availability": {
+          "in_srd": true,
+          "private_only": false,
+          "deprecated": false
+        },
+        "content": {
+          "rules_text": "<p>Once per long rest, you can place a domain card from your loadout into your vault and choose to either:</p><ul><li><p>Gain Hope equal to the level of the card.</p></li><li><p>Enhance a spell that deals damage, gaining a bonus to your damage roll equal to twice the level of the card.</p></li></ul>"
+        },
+        "validation": "candidate_foundryborne_2.9.4"
+      }
+    },
+    {
+      "kind": "class_feature",
+      "key": "srd-2.0.class-feature.sorcerer.minor-illusion",
+      "corpus": "srd-2.0",
+      "source_path": "data/srd-2.0/indexes/class-features.json",
+      "data": {
+        "id": "srd-2.0.class-feature.sorcerer.minor-illusion",
+        "kind": "class_feature",
+        "name": "Minor Illusion",
+        "slug": "minor-illusion",
+        "class_id": "srd-2.0.class.sorcerer",
+        "feature_type": "class",
+        "source": {
+          "corpus": "daggerheart-srd",
+          "version": "2.0",
+          "status": "srd"
+        },
+        "availability": {
+          "in_srd": true,
+          "private_only": false,
+          "deprecated": false
+        },
+        "content": {
+          "rules_text": "<p>Make a <strong>Spellcast Roll (10)</strong>. On a success, you create a minor visual illusion no larger than yourself within Close range. This illusion is convincing to anyone at Close range or farther.</p>"
+        },
+        "validation": "candidate_foundryborne_2.9.4"
+      }
+    },
+    {
+      "kind": "class_feature",
+      "key": "srd-2.0.class-feature.sorcerer.volatile-magic",
+      "corpus": "srd-2.0",
+      "source_path": "data/srd-2.0/indexes/class-features.json",
+      "data": {
+        "id": "srd-2.0.class-feature.sorcerer.volatile-magic",
+        "kind": "class_feature",
+        "name": "Volatile Magic",
+        "slug": "volatile-magic",
+        "class_id": "srd-2.0.class.sorcerer",
+        "feature_type": "hope",
+        "source": {
+          "corpus": "daggerheart-srd",
+          "version": "2.0",
+          "status": "srd"
+        },
+        "availability": {
+          "in_srd": true,
+          "private_only": false,
+          "deprecated": false
+        },
+        "content": {
+          "rules_text": "<p><strong>Spend 3 Hope</strong> to reroll any number of your damage dice on an attack that deals magic damage.</p>"
+        },
+        "validation": "candidate_foundryborne_2.9.4"
+      }
+    },
+    {
+      "kind": "class_feature",
+      "key": "srd-2.0.class-feature.warlock.favor",
+      "corpus": "srd-2.0",
+      "source_path": "data/srd-2.0/indexes/class-features.json",
+      "data": {
+        "id": "srd-2.0.class-feature.warlock.favor",
+        "kind": "class_feature",
+        "name": "Favor",
+        "slug": "favor",
+        "class_id": "srd-2.0.class.warlock",
+        "feature_type": "class",
+        "source": {
+          "corpus": "daggerheart-srd",
+          "version": "2.0",
+          "status": "srd"
+        },
+        "availability": {
+          "in_srd": true,
+          "private_only": false,
+          "deprecated": false
+        },
+        "content": {
+          "rules_text": "<p>You start with 3 Favor. You can use a downtime move to show tribute to your patron. Describe how and gain Favor equal to your Spellcast trait. Additionally, when you succeed on an action roll with Hope, you can choose to gain a Favor instead of a Hope.</p>"
+        },
+        "validation": "candidate_foundryborne_2.9.4"
+      }
+    },
+    {
+      "kind": "class_feature",
+      "key": "srd-2.0.class-feature.warlock.patrons-boon",
+      "corpus": "srd-2.0",
+      "source_path": "data/srd-2.0/indexes/class-features.json",
+      "data": {
+        "id": "srd-2.0.class-feature.warlock.patrons-boon",
+        "kind": "class_feature",
+        "name": "Patron's Boon",
+        "slug": "patrons-boon",
+        "class_id": "srd-2.0.class.warlock",
+        "feature_type": "hope",
+        "source": {
+          "corpus": "daggerheart-srd",
+          "version": "2.0",
+          "status": "srd"
+        },
+        "availability": {
+          "in_srd": true,
+          "private_only": false,
+          "deprecated": false
+        },
+        "content": {
+          "rules_text": "<p>When you fail a roll, you can <strong>spend 3 Hope</strong> to reroll with advantage.</p>"
+        },
+        "validation": "candidate_foundryborne_2.9.4"
+      }
+    },
+    {
+      "kind": "class_feature",
+      "key": "srd-2.0.class-feature.warlock.patrons-pact",
+      "corpus": "srd-2.0",
+      "source_path": "data/srd-2.0/indexes/class-features.json",
+      "data": {
+        "id": "srd-2.0.class-feature.warlock.patrons-pact",
+        "kind": "class_feature",
+        "name": "Patron's Pact",
+        "slug": "patrons-pact",
+        "class_id": "srd-2.0.class.warlock",
+        "feature_type": "class",
+        "source": {
+          "corpus": "daggerheart-srd",
+          "version": "2.0",
+          "status": "srd"
+        },
+        "availability": {
+          "in_srd": true,
+          "private_only": false,
+          "deprecated": false
+        },
+        "content": {
+          "rules_text": "<p>You have committed yourself to a supernatural entity —such as a god, fae, or demon—in exchange for power. Write their name on your character sheet, then work with your GM to determine their sphere of influence (such as Nature, Chaos, Wisdom, Mischief, Love, War, Justice, or Death). Before making an action roll that relates to your patron's sphere of influence, you can <strong>spend a Favor</strong> to call upon their aid, rolling your Patron Die and adding its result to the total. Your Patron Die starts at a <strong>[[/r d6]]</strong> and increases to a <strong>[[/r d8]]</strong> at level 5.</p>"
+        },
+        "validation": "candidate_foundryborne_2.9.4"
+      }
+    },
+    {
+      "kind": "class_feature",
+      "key": "srd-2.0.class-feature.warrior.attack-of-opportunity",
+      "corpus": "srd-2.0",
+      "source_path": "data/srd-2.0/indexes/class-features.json",
+      "data": {
+        "id": "srd-2.0.class-feature.warrior.attack-of-opportunity",
+        "kind": "class_feature",
+        "name": "Attack Of Opportunity",
+        "slug": "attack-of-opportunity",
+        "class_id": "srd-2.0.class.warrior",
+        "feature_type": "class",
+        "source": {
+          "corpus": "daggerheart-srd",
+          "version": "2.0",
+          "status": "srd"
+        },
+        "availability": {
+          "in_srd": true,
+          "private_only": false,
+          "deprecated": false
+        },
+        "content": {
+          "rules_text": "<p>If an adversary within Melee range attempts to leave that range, make a reaction roll using a trait of your choice against their Difficulty. Choose one effect on a success, or two if you critically succeed:</p><ul><li><p>They can't move from where they are.</p></li><li><p>You deal damage to them equal to your primary weapon's damage.</p></li><li><p>You move with them.</p></li></ul>"
+        },
+        "validation": "candidate_foundryborne_2.9.4"
+      }
+    },
+    {
+      "kind": "class_feature",
+      "key": "srd-2.0.class-feature.warrior.combat-training",
+      "corpus": "srd-2.0",
+      "source_path": "data/srd-2.0/indexes/class-features.json",
+      "data": {
+        "id": "srd-2.0.class-feature.warrior.combat-training",
+        "kind": "class_feature",
+        "name": "Combat Training",
+        "slug": "combat-training",
+        "class_id": "srd-2.0.class.warrior",
+        "feature_type": "class",
+        "source": {
+          "corpus": "daggerheart-srd",
+          "version": "2.0",
+          "status": "srd"
+        },
+        "availability": {
+          "in_srd": true,
+          "private_only": false,
+          "deprecated": false
+        },
+        "content": {
+          "rules_text": "<p>You ignore burden when equipping weapons. When you deal physical damage, you gain a bonus to your damage roll equal to your level.</p>"
+        },
+        "validation": "candidate_foundryborne_2.9.4"
+      }
+    },
+    {
+      "kind": "class_feature",
+      "key": "srd-2.0.class-feature.warrior.no-mercy",
+      "corpus": "srd-2.0",
+      "source_path": "data/srd-2.0/indexes/class-features.json",
+      "data": {
+        "id": "srd-2.0.class-feature.warrior.no-mercy",
+        "kind": "class_feature",
+        "name": "No Mercy",
+        "slug": "no-mercy",
+        "class_id": "srd-2.0.class.warrior",
+        "feature_type": "hope",
+        "source": {
+          "corpus": "daggerheart-srd",
+          "version": "2.0",
+          "status": "srd"
+        },
+        "availability": {
+          "in_srd": true,
+          "private_only": false,
+          "deprecated": false
+        },
+        "content": {
+          "rules_text": "<p><strong>Spend 3 Hope</strong> to gain a +1 bonus to your attack rolls until your next rest.</p>"
+        },
+        "validation": "candidate_foundryborne_2.9.4"
+      }
+    },
+    {
+      "kind": "class_feature",
+      "key": "srd-2.0.class-feature.witch.commune",
+      "corpus": "srd-2.0",
+      "source_path": "data/srd-2.0/indexes/class-features.json",
+      "data": {
+        "id": "srd-2.0.class-feature.witch.commune",
+        "kind": "class_feature",
+        "name": "Commune",
+        "slug": "commune",
+        "class_id": "srd-2.0.class.witch",
+        "feature_type": "class",
+        "source": {
+          "corpus": "daggerheart-srd",
+          "version": "2.0",
+          "status": "srd"
+        },
+        "availability": {
+          "in_srd": true,
+          "private_only": false,
+          "deprecated": false
+        },
+        "content": {
+          "rules_text": "<p>Once per long rest during a moment of calm, you can commune with an ancestor, a deity, a spirit, or an otherworldly being. Ask them a question, then roll a number of <strong>[[/r d6]]{d6s}</strong> equal to your Spellcast trait. Choose one of the results and reference the chart below for the effect.</p><ul><li><p>1–3: You taste a flavor, smell a scent, or feel a sensation relevant to the answer.</p></li><li><p>4–5: You hear sounds or see a vision relevant to the answer.</p></li><li><p>6: You psychically experience a scene relevant to the answer as if you were there.</p></li></ul>"
+        },
+        "validation": "candidate_foundryborne_2.9.4"
+      }
+    },
+    {
+      "kind": "class_feature",
+      "key": "srd-2.0.class-feature.witch.hex",
+      "corpus": "srd-2.0",
+      "source_path": "data/srd-2.0/indexes/class-features.json",
+      "data": {
+        "id": "srd-2.0.class-feature.witch.hex",
+        "kind": "class_feature",
+        "name": "Hex",
+        "slug": "hex",
+        "class_id": "srd-2.0.class.witch",
+        "feature_type": "class",
+        "source": {
+          "corpus": "daggerheart-srd",
+          "version": "2.0",
+          "status": "srd"
+        },
+        "availability": {
+          "in_srd": true,
+          "private_only": false,
+          "deprecated": false
+        },
+        "content": {
+          "rules_text": "<p><strong>Mark a Stress</strong> to temporarily <em>Hex</em> a target within Far range. While <em>Hexed</em>, the target gains a penalty to their damage rolls and Difficulty equal to your tier. The maximum number of creatures you can <em>Hex</em> at one time is equal to your Spellcast trait.</p>"
+        },
+        "validation": "candidate_foundryborne_2.9.4"
+      }
+    },
+    {
+      "kind": "class_feature",
+      "key": "srd-2.0.class-feature.witch.witchs-charm",
+      "corpus": "srd-2.0",
+      "source_path": "data/srd-2.0/indexes/class-features.json",
+      "data": {
+        "id": "srd-2.0.class-feature.witch.witchs-charm",
+        "kind": "class_feature",
+        "name": "Witch's Charm",
+        "slug": "witchs-charm",
+        "class_id": "srd-2.0.class.witch",
+        "feature_type": "hope",
+        "source": {
+          "corpus": "daggerheart-srd",
+          "version": "2.0",
+          "status": "srd"
+        },
+        "availability": {
+          "in_srd": true,
+          "private_only": false,
+          "deprecated": false
+        },
+        "content": {
+          "rules_text": "<p>When you or an ally within Far range fails an action roll, you can <strong>spend 3 Hope</strong> to change it into a success with Fear instead.</p>"
+        },
+        "validation": "candidate_foundryborne_2.9.4"
+      }
+    },
+    {
+      "kind": "class_feature",
+      "key": "srd-2.0.class-feature.wizard.not-this-time",
+      "corpus": "srd-2.0",
+      "source_path": "data/srd-2.0/indexes/class-features.json",
+      "data": {
+        "id": "srd-2.0.class-feature.wizard.not-this-time",
+        "kind": "class_feature",
+        "name": "Not This Time",
+        "slug": "not-this-time",
+        "class_id": "srd-2.0.class.wizard",
+        "feature_type": "hope",
+        "source": {
+          "corpus": "daggerheart-srd",
+          "version": "2.0",
+          "status": "srd"
+        },
+        "availability": {
+          "in_srd": true,
+          "private_only": false,
+          "deprecated": false
+        },
+        "content": {
+          "rules_text": "<p><strong>Spend 3 Hope</strong> to force an adversary within Far range to reroll an attack or damage roll.</p>"
+        },
+        "validation": "candidate_foundryborne_2.9.4"
+      }
+    },
+    {
+      "kind": "class_feature",
+      "key": "srd-2.0.class-feature.wizard.prestidigitation",
+      "corpus": "srd-2.0",
+      "source_path": "data/srd-2.0/indexes/class-features.json",
+      "data": {
+        "id": "srd-2.0.class-feature.wizard.prestidigitation",
+        "kind": "class_feature",
+        "name": "Prestidigitation",
+        "slug": "prestidigitation",
+        "class_id": "srd-2.0.class.wizard",
+        "feature_type": "class",
+        "source": {
+          "corpus": "daggerheart-srd",
+          "version": "2.0",
+          "status": "srd"
+        },
+        "availability": {
+          "in_srd": true,
+          "private_only": false,
+          "deprecated": false
+        },
+        "content": {
+          "rules_text": "<p>You can perform harmless, subtle magical effects at will. For example, you can change an object's color, create a smell, light a candle, cause a tiny object to f loat, illuminate a room, or repair a small object.</p>"
+        },
+        "validation": "candidate_foundryborne_2.9.4"
+      }
+    },
+    {
+      "kind": "class_feature",
+      "key": "srd-2.0.class-feature.wizard.strange-patterns",
+      "corpus": "srd-2.0",
+      "source_path": "data/srd-2.0/indexes/class-features.json",
+      "data": {
+        "id": "srd-2.0.class-feature.wizard.strange-patterns",
+        "kind": "class_feature",
+        "name": "Strange Patterns",
+        "slug": "strange-patterns",
+        "class_id": "srd-2.0.class.wizard",
+        "feature_type": "class",
+        "source": {
+          "corpus": "daggerheart-srd",
+          "version": "2.0",
+          "status": "srd"
+        },
+        "availability": {
+          "in_srd": true,
+          "private_only": false,
+          "deprecated": false
+        },
+        "content": {
+          "rules_text": "<p>Choose a number between 1 and 12. When you roll that number on a Duality Die, gain a Hope or clear a Stress.</p><p>You can change this number when you take a long rest.</p>"
+        },
+        "validation": "candidate_foundryborne_2.9.4"
       }
     },
     {

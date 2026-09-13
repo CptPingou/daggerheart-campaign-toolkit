@@ -61,11 +61,38 @@ function sanitizeEmbeddedActorData(data) {
 function baseDescription(raw) {
   const content = raw?.content ?? {};
   const desc = textValue(content.rules_text) || textValue(content) || textValue(raw?.description);
-  return desc ? `<p>${foundry.utils.escapeHTML(desc)}</p>` : "";
+  if (!desc) return "";
+  // Canonical DH-DATA may deliberately carry sanitized rich text (notably
+  // class/class-feature prose bootstrapped from the SRD Foundry source).
+  // Preserve that markup; plain-text sources are escaped as before.
+  if (/<\/?[a-z][\s\S]*>/i.test(desc)) return desc;
+  return `<p>${foundry.utils.escapeHTML(desc)}</p>`;
 }
 
 function normalizedChoice(value) {
   return typeof value === "string" ? value.trim().toLowerCase() : value;
+}
+
+const DOMAIN_ICON_BASE =
+  "modules/daggerheart-campaign-toolkit/assets/icons/domains";
+
+const DOMAIN_ICON_KEYS = new Set([
+  "arcana",
+  "blade",
+  "bone",
+  "codex",
+  "dread",
+  "grace",
+  "midnight",
+  "sage",
+  "splendor",
+  "valor",
+]);
+
+function domainIcon(domain) {
+  const key = normalizedChoice(domain);
+  if (!key || !DOMAIN_ICON_KEYS.has(key)) return null;
+  return `${DOMAIN_ICON_BASE}/${key}.png`;
 }
 
 function normalizedToken(value) {
@@ -634,6 +661,7 @@ export async function buildItem(entry) {
     domain_card: "domainCard",
     weapon: "weapon",
     armor: "armor",
+    class_feature: "feature",
   };
   const type = typeByKind[entry.kind];
   if (!type) throw new Error(`Unsupported pilot Item kind: ${entry.kind}`);
@@ -646,6 +674,11 @@ export async function buildItem(entry) {
     { inplace: false }
   );
 
+  // P2.3.4e-fix3: nativeTemplate() is a schema specimen, never a semantic
+  // source. Always discard its prose before applying canonical DH-DATA.
+  // This prevents the first native Item of a type (for example Assassin)
+  // from leaking its description into every imported document of that type.
+  if (data.system && "description" in data.system) data.system.description = "";
   const description = baseDescription(raw);
   if (description) data.system.description = description;
 
@@ -653,6 +686,9 @@ export async function buildItem(entry) {
 
   if (entry.kind === "class") {
     // Sanitize every source-specific relation carried by the SRD template.
+    // The native document is used only to obtain a valid Foundryborne schema.
+    // No specimen-specific prose, effects, links or recommendations may leak.
+    data.effects = [];
     data.system.domains = [];
     data.system.classItems = [];
     data.system.features = clearItemLinks(data.system.features);
@@ -662,6 +698,8 @@ export async function buildItem(entry) {
       data.system.inventory.choiceB = [];
     }
     if (data.system.characterGuide && typeof data.system.characterGuide === "object") {
+      // Preserve the native schema shape but neutralize every recommendation
+      // inherited from the specimen.
       if (data.system.characterGuide.suggestedTraits) {
         for (const key of Object.keys(data.system.characterGuide.suggestedTraits)) {
           data.system.characterGuide.suggestedTraits[key] = 0;
@@ -690,12 +728,52 @@ export async function buildItem(entry) {
     const hitPoints = Number(r.starting_hit_points ?? r.hitPoints ?? raw?.starting_hit_points ?? raw?.hitPoints);
     if (Number.isFinite(hitPoints)) data.system.hitPoints = hitPoints;
 
-    // DH-DATA currently carries Blood Hunter feature text, but not canonical
-    // Foundry feature UUIDs for all classes. Never borrow the template links.
+    const content = raw?.content ?? {};
+    if (Array.isArray(content.background_questions)) data.system.backgroundQuestions = [...content.background_questions];
+    if (Array.isArray(content.connections)) data.system.connections = [...content.connections];
+
+    const guide = raw?.character_guide ?? {};
+    if (data.system.characterGuide && guide.suggested_traits && typeof guide.suggested_traits === "object") {
+      for (const [trait, value] of Object.entries(guide.suggested_traits)) {
+        if (trait in data.system.characterGuide.suggestedTraits && Number.isFinite(Number(value))) {
+          data.system.characterGuide.suggestedTraits[trait] = Number(value);
+        }
+      }
+    }
+    // Equipment recommendations are stable semantic slugs in DH-DATA. Their
+    // Foundry ItemLink payloads are resolved in a later pass; never borrow the
+    // specimen's recommendations.
+    if (guide.suggested_primary_weapon) gaps.push("system.characterGuide.suggestedPrimaryWeapon");
+    if (guide.suggested_secondary_weapon) gaps.push("system.characterGuide.suggestedSecondaryWeapon");
+    if (guide.suggested_armor) gaps.push("system.characterGuide.suggestedArmor");
+
+    // Canonical SRD class features are separate class_feature entities. The
+    // parent links are resolved after all family packs have been imported.
+    if (Array.isArray(raw?.feature_refs) && raw.feature_refs.length) gaps.push("system.features");
+    // Blood Hunter still carries embedded feature definitions and uses its
+    // dedicated resolver below.
     if (Array.isArray(r.features) && r.features.length) gaps.push("system.features");
   }
 
+  if (entry.kind === "class_feature") {
+    // Feature specimens may contain executable automation/effects belonging to
+    // an unrelated native feature. Keep only schema + canonical prose.
+    data.effects = [];
+    if (data.system) {
+      if ("actions" in data.system) delete data.system.actions;
+      if ("resource" in data.system) delete data.system.resource;
+      if ("gmNotes" in data.system) data.system.gmNotes = "";
+      if ("granter" in data.system) data.system.granter = null;
+      if ("actorResources" in data.system) data.system.actorResources = [];
+      if ("featureForm" in data.system) data.system.featureForm = "passive";
+    }
+    data.flags[FLAG_SCOPE].parentSourceId = raw?.class_id ?? null;
+    data.flags[FLAG_SCOPE].sourceFeatureType = raw?.feature_type ?? null;
+  }
+
   if (entry.kind === "subclass") {
+    // As with classes, the native subclass is a schema specimen only.
+    data.effects = [];
     data.system.features = clearItemLinks(data.system.features);
     data.system.featureState = 1; // native schema default, not template semantics
     data.system.linkedClass = null;
@@ -718,8 +796,21 @@ export async function buildItem(entry) {
   }
 
   if (entry.kind === "domain_card") {
+    // Domain-card specimens can carry executable Actions and Active Effects.
+    // Never inherit them: only explicitly mapped canonical mechanics belong
+    // on the imported card.
+    data.effects = [];
+    if ("actions" in data.system) data.system.actions = [];
+    if ("resource" in data.system) data.system.resource = null;
+
     const domain = r.domain ?? raw?.domain;
-    if (domain) data.system.domain = normalizedChoice(domain);
+    if (domain) {
+      data.system.domain = normalizedChoice(domain);
+
+      const icon = domainIcon(domain);
+      if (icon) data.img = icon;
+      else gaps.push("img.domain");
+    }
 
     const level = Number(r.level ?? raw?.level);
     if (Number.isFinite(level)) data.system.level = level;
@@ -727,13 +818,12 @@ export async function buildItem(entry) {
     const recall = Number(r.recall_cost ?? r.recallCost ?? raw?.recall_cost);
     if (Number.isFinite(recall)) data.system.recallCost = recall;
 
-    // "ability" is the native neutral default for the current imported corpus.
-    // Actions/resources are not copied from the template.
-    if (Array.isArray(data.system.actions)) data.system.actions = [];
-    if (data.system.resource && typeof data.system.resource === "object") {
-      // Resource is optional metadata; a foreign template resource must not leak.
-      data.system.resource = null;
-    }
+    // Domain-card type is canonical DH-DATA semantics, not a template default.
+    // Explicitly map it so a spell/grimoire never inherits the specimen's
+    // neutral "ability" value. Unknown future values remain visible as gaps.
+    const cardType = normalizedChoice(r.card_type ?? r.cardType ?? raw?.card_type);
+    if (["ability", "spell", "grimoire"].includes(cardType)) data.system.type = cardType;
+    else if (cardType) gaps.push("system.type");
   }
 
   if (entry.kind === "weapon" || entry.kind === "armor") {

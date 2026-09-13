@@ -5,6 +5,13 @@ import { importCampaignFrames, importCampaignFramePilot, campaignFrameStatus } f
 import { semanticAudit } from "./semantic-audit.mjs";
 import { localizationAudit } from "./localization-audit.mjs";
 import { weaponProgressionApi } from "./weapon-progression.mjs";
+import { engagementOpportunityApi } from "./engagement-opportunity.mjs";
+import { createEngagementOpenerApi, registerEngagementOpenerChatHook } from "./engagement-opener.mjs";
+import { createEngagementFinisherApi, registerEngagementFinisherChatHook } from "./engagement-finisher.mjs";
+import { createEngagementSupportApi, registerEngagementSupportActionHook } from "./engagement-support.mjs";
+import { createEngagementApi } from "./engagement.mjs";
+import { huntingCardsApi } from "./hunting-cards.mjs";
+import { registerHuntingDomain, registerContextualDomainCardBypass } from "./hunting-domain-card-bridge.mjs";
 import { motherboardAugmentCatalogApi } from "./weapon-augment-catalog.mjs";
 import { createWeaponAugmentStateApi } from "./weapon-augment-state.mjs";
 import { registerWeaponAugmentSheetIntegration } from "./weapon-augment-sheet.mjs";
@@ -47,15 +54,20 @@ function registerBloodDomain() {
 // persisted world documents. Registering this only from the init hook is too late:
 // Item documents containing system.domain = "blood" may already be validated then.
 const bloodDomainBootstrapped = registerBloodDomain();
+const huntingDomainBootstrapped = registerHuntingDomain();
 
 Hooks.once("init", () => {
   console.log(`${MODULE_ID} | init`);
   if (!bloodDomainBootstrapped && !CONFIG?.DH?.DOMAIN?.domains?.blood) {
     registerBloodDomain();
   }
+  if (!huntingDomainBootstrapped && !CONFIG?.DH?.DOMAIN?.domains?.hunting) {
+    registerHuntingDomain();
+  }
+  registerContextualDomainCardBypass();
 
   game.modules.get(MODULE_ID).api = {
-    version: "0.5.25",
+    version: "0.5.47",
     async smokeTest() {
       const systemOk = game.system?.id === "daggerheart";
       const packs = Object.fromEntries([
@@ -82,11 +94,49 @@ Hooks.once("init", () => {
     campaignFrameStatus,
     semanticAudit,
     localizationAudit,
+    engagementOpportunity: engagementOpportunityApi,
+    engagementOpener: createEngagementOpenerApi(engagementOpportunityApi),
+    engagementFinisher: createEngagementFinisherApi(engagementOpportunityApi),
+    engagementSupport: createEngagementSupportApi(),
+    huntingCards: huntingCardsApi,
     weaponProgression: weaponProgressionApi,
     weaponAugments: motherboardAugmentCatalogApi,
     weaponAugmentState: createWeaponAugmentStateApi(motherboardAugmentCatalogApi),
   };
 
+  const toolkitApi = game.modules.get(MODULE_ID).api;
+  toolkitApi.engagement = createEngagementApi({
+    opportunity: toolkitApi.engagementOpportunity,
+    opener: toolkitApi.engagementOpener,
+    finisher: toolkitApi.engagementFinisher,
+    support: toolkitApi.engagementSupport,
+  });
+
+  const huntingCardsBaseApi = toolkitApi.huntingCards;
+  toolkitApi.huntingCards = Object.freeze({
+    ...huntingCardsBaseApi,
+    async installPrototypeActions(actor, sourceItem, sourceAction) {
+      return huntingCardsBaseApi.installPrototypeActionsFrom(
+        actor,
+        sourceItem,
+        sourceAction,
+        {
+          opener: toolkitApi.engagementOpener,
+          finisher: toolkitApi.engagementFinisher,
+        },
+      );
+    },
+    async installSupportAction(actor) {
+      return huntingCardsBaseApi.installSupportAction(
+        actor,
+        toolkitApi.engagementSupport,
+      );
+    },
+  });
+
+  registerEngagementOpenerChatHook(toolkitApi.engagementOpener);
+  registerEngagementFinisherChatHook(toolkitApi.engagementFinisher);
+  registerEngagementSupportActionHook(toolkitApi.engagementSupport);
   registerWeaponAugmentSheetIntegration();
 });
 

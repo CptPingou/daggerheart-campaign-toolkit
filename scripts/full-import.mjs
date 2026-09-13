@@ -7,7 +7,8 @@ const FULL_URL = `modules/${MODULE_ID}/data/full-import.json`;
 const MAPPING_VERSION = "BH-2026-07-09-active";
 
 const ROUTES = Object.freeze({
-  class:       { packId: "dh-classes",       documentClass: Item,  build: buildItem },
+  class:         { packId: "dh-classes",       documentClass: Item,  build: buildItem },
+  class_feature: { packId: "dh-features",      documentClass: Item,  build: buildItem },
   subclass:    { packId: "dh-subclasses",    documentClass: Item,  build: buildItem },
   domain_card: { packId: "dh-domain-cards",  documentClass: Item,  build: buildItem },
   weapon:      { packId: "dh-weapons",       documentClass: Item,  build: buildItem },
@@ -144,6 +145,57 @@ async function deleteSupportManaged(pack, { keepIds = null } = {}) {
     await pack.configure({ locked: true });
   }
   return removed;
+}
+
+async function resolveCanonicalClassFeatures(payload) {
+  const classPack = game.packs.get(`${MODULE_ID}.dh-classes`);
+  const featurePack = game.packs.get(`${MODULE_ID}.dh-features`);
+  if (!classPack || !featurePack) return { parents: 0, linked: 0, unresolved: 0 };
+
+  const classRows = await classPack.getIndex({ fields: [`flags.${FLAG_SCOPE}.sourceId`, `flags.${FLAG_SCOPE}.managed`] });
+  const featureRows = await featurePack.getIndex({ fields: [`flags.${FLAG_SCOPE}.sourceId`, `flags.${FLAG_SCOPE}.managed`] });
+  const classBySource = new Map();
+  const featureBySource = new Map();
+
+  for (const row of classRows) {
+    if (foundry.utils.getProperty(row, `flags.${FLAG_SCOPE}.managed`) !== true) continue;
+    const sourceId = foundry.utils.getProperty(row, `flags.${FLAG_SCOPE}.sourceId`);
+    if (sourceId) classBySource.set(sourceId, row);
+  }
+  for (const row of featureRows) {
+    if (foundry.utils.getProperty(row, `flags.${FLAG_SCOPE}.managed`) !== true) continue;
+    const sourceId = foundry.utils.getProperty(row, `flags.${FLAG_SCOPE}.sourceId`);
+    if (sourceId) featureBySource.set(sourceId, row);
+  }
+
+  const stats = { parents: 0, linked: 0, unresolved: 0 };
+  await classPack.configure({ locked: false });
+  try {
+    for (const entry of (payload.entries ?? []).filter(e => e.kind === "class" && Array.isArray(e.data?.feature_refs))) {
+      const parentRow = classBySource.get(entry.data.id);
+      const parent = parentRow ? await classPack.getDocument(parentRow._id) : null;
+      if (!parent) { stats.unresolved += entry.data.feature_refs.length || 1; continue; }
+
+      const links = [];
+      for (const ref of entry.data.feature_refs) {
+        const featureRow = featureBySource.get(ref?.id);
+        const feature = featureRow ? await featurePack.getDocument(featureRow._id) : null;
+        if (!feature || !["hope", "class"].includes(ref?.type)) { stats.unresolved += 1; continue; }
+        links.push({ type: ref.type, item: feature.uuid });
+      }
+
+      if (links.length !== entry.data.feature_refs.length) continue;
+      const flags = foundry.utils.deepClone(parent.flags?.[FLAG_SCOPE] ?? {});
+      flags.mappingGaps = (flags.mappingGaps ?? []).filter(g => g !== "system.features");
+      flags.sourceFeatureCount = links.length;
+      await parent.update({ "system.features": links, [`flags.${FLAG_SCOPE}`]: flags });
+      stats.parents += 1;
+      stats.linked += links.length;
+    }
+  } finally {
+    await classPack.configure({ locked: true });
+  }
+  return stats;
 }
 
 async function resolveBloodHunterFeatures(payload) {
@@ -407,12 +459,13 @@ export async function importFullMapped() {
   }
 
   const subclassLinks = await resolveSubclassClassLinks();
+  const canonicalClassFeatures = await resolveCanonicalClassFeatures(payload);
   const bloodHunterFeatures = await resolveBloodHunterFeatures(payload);
   const environmentPotentialAdversaries = await resolveEnvironmentPotentialAdversaries();
 
   const created = Object.values(packs).reduce((n, r) => n + r.created, 0);
   const failed = Object.values(packs).reduce((n, r) => n + r.failed, 0);
-  const result = { sourceEntries: payload.entries.length, created, failed, buildFailures, subclassLinks, bloodHunterFeatures, environmentPotentialAdversaries, equipmentFeatureCatalog, packs };
+  const result = { sourceEntries: payload.entries.length, created, failed, buildFailures, subclassLinks, canonicalClassFeatures, bloodHunterFeatures, environmentPotentialAdversaries, equipmentFeatureCatalog, packs };
 
   console.table(Object.fromEntries(Object.entries(packs).map(([kind, r]) => [kind, {
     attempted: r.attempted,
@@ -421,7 +474,7 @@ export async function importFullMapped() {
   }])));
   console.table({ sourceEntries: result.sourceEntries, created, importFailed: failed, buildFailed: buildFailures.length });
 
-  if (failed || buildFailures.length || created !== payload.entries.length || bloodHunterFeatures.unresolved) {
+  if (failed || buildFailures.length || created !== payload.entries.length || canonicalClassFeatures.unresolved || bloodHunterFeatures.unresolved) {
     ui.notifications.warn("Campaign Toolkit : P2.3.3 import incomplet — voir console");
   } else {
     ui.notifications.info("Campaign Toolkit : P2.3.3 import GREEN");
