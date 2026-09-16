@@ -1,4 +1,5 @@
 import { localizeNativeEquipmentConfigLabels } from "./equipment-native-fr.mjs";
+import { localizeNativeCharacterOptions } from "./character-options-native-fr.mjs";
 import "./content-locale-settings.mjs";
 import { importFullMapped, fullStatus } from "./full-import.mjs";
 import { importCampaignFrames, importCampaignFramePilot, campaignFrameStatus } from "./campaign-frame-import.mjs";
@@ -152,9 +153,20 @@ Hooks.once("ready", async () => {
     console.error(`${MODULE_ID} | unable to register native Weapon Augments`, error);
   }
   const locale = game.settings.get(MODULE_ID, "contentLocale") ?? "en";
-  const nativeLabels = localizeNativeEquipmentConfigLabels(locale);
-  if (nativeLabels) console.info(`${MODULE_ID} | localized native equipment labels`, nativeLabels);
-  if (!game.user?.isGM) return;
+
+const nativeLabels = localizeNativeEquipmentConfigLabels(locale);
+if (nativeLabels) {
+  console.info(`${MODULE_ID} | localized native equipment labels`, nativeLabels);
+}
+
+try {
+  const characterOptions = await localizeNativeCharacterOptions(locale);
+  console.info(`${MODULE_ID} | localized native character options`, characterOptions);
+} catch (error) {
+  console.error(`${MODULE_ID} | unable to localize native character options`, error);
+}
+
+if (!game.user?.isGM) return;
   const pack = game.packs.get(`${MODULE_ID}.toolkit-macros`);
   if (!pack) return;
   try {

@@ -9,6 +9,358 @@
         "motivesAndTactics": "Grimper, défendre son territoire, rouer de coups, traquer"
       }
     },
+    "srd-2.0.ancestry.aetheris": {
+      "description": "<p>Les Aetheris sont des humanoïdes que l'on reconnaît aisément à leurs ailes et à leurs marques sacrées.</p>",
+      "name": "Aetheris"
+    },
+    "srd-2.0.ancestry.aetheris.feature.celestial-wings": {
+      "name": "Ailes célestes",
+      "description": "<p>Vous possédez des ailes qui vous permettent de voler. Une fois par scène pendant que vous volez, vous pouvez <strong>dépenser 1 Espoir</strong> au lieu de marquer un emplacement d’Armure.</p>",
+      "system.actions.UWBrm5byhRrJpu4x.name": "Dépenser de l’Espoir"
+    },
+    "srd-2.0.ancestry.aetheris.feature.hallowed-aura": {
+      "name": "Aura sacrée",
+      "description": "<p>Une fois par repos long, lorsqu’un allié à portée Proche obtient un jet avec Peur, vous pouvez le transformer en jet avec Espoir.</p>",
+      "system.actions.NBKcarcNqeWCqCHG.name": "Peur en Espoir"
+    },
+    "srd-2.0.ancestry.clank": {
+      "description": "<p>Les Clanks sont des êtres mécaniques doués de conscience, construits à partir de matériaux variés, notamment du métal, du bois et de la pierre.</p>",
+      "name": "Clank"
+    },
+    "srd-2.0.ancestry.clank.feature.efficient": {
+      "name": "Efficace",
+      "description": "<p>Lorsque vous prenez un repos court, vous pouvez choisir une action de repos long à la place d’une action de repos court.</p>",
+      "effects.0.name": "Efficace",
+      "effects.0.description": "<p>Lorsque vous prenez un repos court, vous pouvez choisir une action de repos long à la place d’une action de repos court.</p>"
+    },
+    "srd-2.0.ancestry.clank.feature.purposeful-design": {
+      "name": "Conception dédiée",
+      "description": "<p>Décidez qui vous a créé et dans quel but. À la création du personnage, choisissez l’une de vos Expériences qui correspond le mieux à ce but et gagnez-y un bonus permanent de +1.</p><section id=\"secret-buVzWddXKTJlXDpq\" class=\"secret\"><p>Note : l’automatisation du bonus permanent n’est pas implémentée. Augmentez manuellement l’Expérience dans le champ d’édition correspondant.</p></section>"
+    },
+    "srd-2.0.ancestry.drakona": {
+      "description": "<p>Les Drakona ressemblent à des dragons sans ailes de forme humanoïde et possèdent un puissant souffle élémentaire.</p>",
+      "name": "Drakona"
+    },
+    "srd-2.0.ancestry.drakona.feature.elemental-breath": {
+      "name": "Souffle élémentaire",
+      "description": "<p>Choisissez un élément pour votre souffle (comme la foudre, le feu ou la glace). Vous pouvez utiliser ce souffle contre une cible ou un groupe de cibles à portée Très proche, en le traitant comme une arme d’Instinct infligeant <strong>d8</strong> dégâts magiques en utilisant votre Maîtrise.</p>",
+      "system.actions.a6WROv0OKx0lbYVa.name": "Attaquer",
+      "system.actions.a6WROv0OKx0lbYVa.areas.0.name": "Souffle élémentaire"
+    },
+    "srd-2.0.ancestry.drakona.feature.scales": {
+      "name": "Écailles",
+      "description": "<p>Vos écailles constituent une protection naturelle. Lorsque vous devriez subir des dégâts Sévères, vous pouvez <strong>marquer 1 Stress</strong> pour marquer 1 PV de moins.</p>",
+      "effects.0.name": "Écailles",
+      "effects.0.description": "<p>Lorsque vous devriez subir des dégâts Sévères, vous pouvez marquer 1 Stress pour marquer 1 PV de moins.</p>"
+    },
+    "srd-2.0.ancestry.dwarf": {
+      "description": "<p>Les Nains sont aisément reconnaissables à leur petite taille, leur carrure trapue, leur musculature dense et leur pilosité abondante.</p>",
+      "name": "Nain"
+    },
+    "srd-2.0.ancestry.dwarf.feature.increased-fortitude": {
+      "name": "Robustesse accrue",
+      "description": "<p><strong>Dépensez 3 Espoir</strong> pour réduire de moitié les dégâts physiques subis.</p>",
+      "system.actions.pFPbjyexOPx5gog6.name": "Dépenser de l’Espoir"
+    },
+    "srd-2.0.ancestry.dwarf.feature.thick-skin": {
+      "name": "Peau épaisse",
+      "description": "<p>Lorsque vous subissez des dégâts Mineurs, vous pouvez <strong>marquer 2 Stress</strong> au lieu de marquer 1 PV.</p>",
+      "effects.0.name": "Peau épaisse",
+      "effects.0.description": "<p>Lorsque vous subissez des dégâts Mineurs, vous pouvez marquer 2 Stress au lieu de marquer 1 PV.</p>"
+    },
+    "srd-2.0.ancestry.earthkin": {
+      "description": "<p>Les Earthkin sont des humanoïdes dont le corps est fait de chair et de terre.</p>",
+      "name": "Earthkin"
+    },
+    "srd-2.0.ancestry.earthkin.feature.immovable": {
+      "name": "Inébranlable",
+      "description": "<p>Tant que vous touchez le sol, vous ne pouvez pas être soulevé ni déplacé contre votre volonté.</p>"
+    },
+    "srd-2.0.ancestry.earthkin.feature.stoneskin": {
+      "name": "Peau de pierre",
+      "description": "<p>À la création du personnage, gagnez un bonus permanent de +1 à votre score d’Armure et à vos seuils de dégâts.</p>",
+      "effects.0.name": "Peau de pierre",
+      "effects.0.description": "<p>À la création du personnage, gagnez un bonus permanent de +1 à votre score d’Armure et à vos seuils de dégâts.</p>"
+    },
+    "srd-2.0.ancestry.elf": {
+      "description": "<p>Les Elfes sont généralement de grands humanoïdes aux oreilles pointues et aux sens particulièrement aiguisés.</p>",
+      "name": "Elfe"
+    },
+    "srd-2.0.ancestry.elf.feature.celestial-trance": {
+      "name": "Transe céleste",
+      "description": "<p>Pendant un repos, vous pouvez entrer en transe pour choisir une action de temps libre supplémentaire.</p>",
+      "effects.0.name": "Transe céleste",
+      "effects.0.description": "<p>Pendant un repos, vous pouvez entrer en transe pour choisir une action de temps libre supplémentaire.</p>"
+    },
+    "srd-2.0.ancestry.elf.feature.quick-reactions": {
+      "name": "Réactions rapides",
+      "description": "<p><strong>Marquez 1 Stress</strong> pour obtenir un avantage à un jet de réaction.</p>",
+      "system.actions.6Av1Y8JXWDkteLhc.name": "Marquer du Stress"
+    },
+    "srd-2.0.ancestry.emberkin": {
+      "description": "<p>Les Emberkin sont des humanoïdes dont le corps est fait de chair et de feu.</p>",
+      "name": "Emberkin"
+    },
+    "srd-2.0.ancestry.emberkin.feature.fireproof": {
+      "name": "Ignifugé",
+      "description": "<p>Vous êtes immunisé aux dégâts causés par les flammes, qu’elles soient magiques ou ordinaires.</p>"
+    },
+    "srd-2.0.ancestry.emberkin.feature.ignition": {
+      "name": "Ignition",
+      "description": "<p><strong>Marquez 1 Stress</strong> pour envelopper votre arme principale de flammes jusqu’à la fin de la scène. Tant que l’arme est enflammée, elle émet une vive lumière et vous gagnez un bonus de <strong>1d6</strong> aux jets de dégâts effectués avec cette arme.</p>",
+      "system.actions.uMtBNRpIZ67EyWxD.name": "Marquer du Stress",
+      "effects.0.name": "Ignition",
+      "effects.0.description": "<p>Tant que l’arme est enflammée, elle émet une vive lumière et vous gagnez un bonus de <strong>1d6</strong> aux jets de dégâts effectués avec cette arme.</p>"
+    },
+    "srd-2.0.ancestry.faerie": {
+      "description": "<p>Les Fées sont des créatures humanoïdes ailées aux traits insectoïdes.</p>",
+      "name": "Fée"
+    },
+    "srd-2.0.ancestry.faerie.feature.luckbender": {
+      "name": "Infléchisseur de chance",
+      "description": "<p>Une fois par session, après que vous ou un allié consentant à portée Proche avez effectué un jet d’action, vous pouvez <strong>dépenser 3 Espoir</strong> pour relancer les dés de Dualité.</p>",
+      "system.actions.l1wUmqMzG8YF9sqb.name": "Dépenser de l’Espoir"
+    },
+    "srd-2.0.ancestry.faerie.feature.wings": {
+      "name": "Ailes",
+      "description": "<p>Vous pouvez voler. Pendant que vous volez, après qu’un adversaire a effectué une attaque contre vous, vous pouvez <strong>marquer 1 Stress</strong> pour gagner un bonus de +2 à votre Esquive contre cette attaque.</p>",
+      "system.actions.dpKxkDSjXsP8kHMI.name": "Marquer du Stress",
+      "effects.0.name": "Ailes",
+      "effects.0.description": "<p>Vous gagnez un bonus de +2 à votre Esquive contre l’attaque de l’adversaire.</p>"
+    },
+    "srd-2.0.ancestry.faun": {
+      "description": "<p>Les Faunes ressemblent à des chèvres humanoïdes, avec des cornes recourbées, des pupilles carrées et des sabots fendus.</p>",
+      "name": "Faune"
+    },
+    "srd-2.0.ancestry.faun.feature.caprine-leap": {
+      "name": "Bond caprin",
+      "description": "<p>Vous pouvez bondir n’importe où à portée Proche comme si vous utilisiez un déplacement normal, ce qui vous permet de franchir des obstacles, sauter par-dessus des brèches ou escalader facilement des barrières.</p>"
+    },
+    "srd-2.0.ancestry.faun.feature.kick": {
+      "name": "Coup de pied",
+      "description": "<p>Lorsque vous réussissez une attaque contre une cible à portée Corps à corps, vous pouvez <strong>marquer 1 Stress</strong> pour prendre appui sur elle d’un coup de pied, infligeant <strong>2d6</strong> dégâts supplémentaires et repoussant soit la cible, soit vous-même jusqu’à portée Très proche.</p>",
+      "system.actions.bXbQ57CB1Hfj5XrS.name": "Infliger des dégâts"
+    },
+    "srd-2.0.ancestry.firbolg": {
+      "description": "<p>Les Firbolgs sont des humanoïdes bovins que l'on reconnaît généralement à leur large museau et à leurs longues oreilles tombantes.</p>",
+      "name": "Firbolg"
+    },
+    "srd-2.0.ancestry.firbolg.feature.charge": {
+      "name": "Charge",
+      "description": "<p>Lorsque vous réussissez un jet d’Agilité pour passer d’une portée Loin ou Très loin à une portée Corps à corps avec une ou plusieurs cibles, vous pouvez <strong>marquer 1 Stress</strong> pour infliger <strong>1d12</strong> dégâts physiques à toutes les cibles à portée Corps à corps.</p>",
+      "system.actions.KLg0T6I1w24sfIbH.name": "Infliger des dégâts"
+    },
+    "srd-2.0.ancestry.firbolg.feature.unshakeable": {
+      "name": "Imperturbable",
+      "description": "<p>Lorsque vous devriez marquer 1 Stress, lancez un <strong>d6</strong>. Sur un résultat de 6, ne le marquez pas.</p>",
+      "system.actions.x8xbjyCrJ0okOpIU.name": "Utiliser"
+    },
+    "srd-2.0.ancestry.fungril": {
+      "description": "<p>Les Fungrils ressemblent à des champignons humanoïdes. Leur apparence peut être plus humanoïde ou plus fongique, et leurs couleurs vont des tons terreux aux rouges, jaunes, violets et bleus éclatants. Leur corps, leur visage et leurs membres présentent une incroyable diversité, sans qu’il existe de morphologie commune. Leur taille peut aller d’environ 60 cm à plus de 2 m. Un Fungril vit généralement autour de 300 ans, bien que certains vivent beaucoup plus longtemps. Ils peuvent communiquer sans paroles et nombre d’entre eux utilisent un réseau mycélien pour échanger chimiquement des informations avec d’autres Fungrils sur de longues distances.</p>",
+      "name": "Fungril"
+    },
+    "srd-2.0.ancestry.fungril.feature.death-connection": {
+      "name": "Lien avec la mort",
+      "description": "<p>Lorsque vous touchez un cadavre mort récemment, vous pouvez <strong>marquer 1 Stress</strong> pour en extraire un souvenir lié à une émotion ou une sensation précise de votre choix.</p>",
+      "system.actions.0RdKeWfbPRTHcAMf.name": "Extraire"
+    },
+    "srd-2.0.ancestry.fungril.feature.fungril-network": {
+      "name": "Réseau fungril",
+      "description": "<p>Effectuez un <strong>jet d’Instinct (12)</strong> pour utiliser votre réseau mycélien afin de parler avec d’autres membres de votre ascendance. En cas de réussite, vous pouvez communiquer quelle que soit la distance.</p>",
+      "system.actions.ZYfigAyUdDUteczO.name": "Communiquer"
+    },
+    "srd-2.0.ancestry.galapa": {
+      "description": "<p>Les Galapa ressemblent à des tortues anthropomorphes dotées d'une grande carapace bombée dans laquelle elles peuvent se rétracter.</p>",
+      "name": "Galapa"
+    },
+    "srd-2.0.ancestry.galapa.feature.retract": {
+      "name": "Rétraction",
+      "description": "<p><strong>Marquez 1 Stress</strong> pour vous rétracter dans votre carapace. Tant que vous êtes dans votre carapace, vous êtes résistant aux dégâts physiques, vous subissez un désavantage aux jets d’action et vous ne pouvez pas vous déplacer.<br><br>(Après avoir marqué le Stress, activez manuellement l’effet Rétraction dans l’onglet des effets et appliquez le désavantage à vos jets d’action. Désactivez manuellement l’effet Rétraction lorsque vous quittez votre carapace.)</p>",
+      "system.actions.HfiAg14hrYt7Yvnj.name": "Marquer du Stress",
+      "effects.0.name": "Rétraction",
+      "effects.0.description": "<p>Tant que vous êtes dans votre carapace, vous êtes résistant aux dégâts physiques, vous subissez un désavantage aux jets d’action et vous ne pouvez pas vous déplacer.</p>",
+      "effects.0.system.changes.1.value": "Jets d’action"
+    },
+    "srd-2.0.ancestry.galapa.feature.shell": {
+      "name": "Carapace",
+      "description": "<p>Gagnez un bonus à vos seuils de dégâts égal à votre Maîtrise.</p>",
+      "effects.0.name": "Carapace",
+      "effects.0.description": "<p>Gagnez un bonus à vos seuils de dégâts égal à votre Maîtrise.</p>"
+    },
+    "srd-2.0.ancestry.giant": {
+      "description": "<p>Les Géants sont d'immenses humanoïdes aux larges épaules, aux longs bras et dotés d'un à trois yeux.</p>",
+      "name": "Géant"
+    },
+    "srd-2.0.ancestry.giant.feature.endurance": {
+      "name": "Endurance",
+      "description": "<p>À la création du personnage, gagnez un emplacement de PV supplémentaire.</p>",
+      "effects.0.name": "Endurance",
+      "effects.0.description": "<p>À la création du personnage, gagnez un emplacement de PV supplémentaire.</p>"
+    },
+    "srd-2.0.ancestry.giant.feature.reach": {
+      "name": "Allonge",
+      "description": "<p>Considérez toute arme, capacité, tout sort ou toute autre aptitude ayant une portée Corps à corps comme ayant à la place une portée Très proche.</p>"
+    },
+    "srd-2.0.ancestry.gnome": {
+      "description": "<p>Les Gnomes sont généralement de petits humanoïdes à la tête conique, capables de se téléporter sur de courtes distances.</p>",
+      "name": "Gnome"
+    },
+    "srd-2.0.ancestry.gnome.feature.flicker-step": {
+      "name": "Pas scintillant",
+      "description": "<p>Une fois par scène, vous pouvez vous téléporter vers un autre point que vous voyez à portée Loin.</p>",
+      "system.actions.Mm3kdZ1AOYnDY0E9.name": "Se téléporter"
+    },
+    "srd-2.0.ancestry.gnome.feature.nimble-fingers": {
+      "name": "Doigts agiles",
+      "description": "<p>Lorsque vous effectuez un jet de Finesse, vous pouvez <strong>dépenser 2 Espoir</strong> pour relancer votre dé d’Espoir.</p>",
+      "system.actions.eIaosYhBPLBmFMSr.name": "Dépenser de l’Espoir"
+    },
+    "srd-2.0.ancestry.goblin": {
+      "description": "<p>Les Gobelins sont de petits humanoïdes facilement reconnaissables à leurs grands yeux et à leurs immenses oreilles membraneuses.</p>",
+      "name": "Gobelin"
+    },
+    "srd-2.0.ancestry.goblin.feature.danger-sense": {
+      "name": "Sens du danger",
+      "description": "<p>Une fois par repos, <strong>marquez 1 Stress</strong> pour forcer un adversaire à relancer une attaque contre vous ou un allié à portée Très proche.</p>",
+      "system.actions.V2K3pMWOCVwBUnjq.name": "Marquer du Stress"
+    },
+    "srd-2.0.ancestry.goblin.feature.surefooted": {
+      "name": "Pied sûr",
+      "description": "<p>Vous ignorez le désavantage aux jets d’Agilité.</p>"
+    },
+    "srd-2.0.ancestry.halfling": {
+      "description": "<p>Les Halfelins sont de petits humanoïdes aux grands pieds velus et aux oreilles rondes proéminentes.</p>",
+      "name": "Halfelin"
+    },
+    "srd-2.0.ancestry.halfling.feature.internal-compass": {
+      "name": "Boussole intérieure",
+      "description": "<p>Lorsque vous obtenez un 1 sur votre dé d’Espoir, vous pouvez le relancer.</p>"
+    },
+    "srd-2.0.ancestry.halfling.feature.luckbringer": {
+      "name": "Porte-bonheur",
+      "description": "<p>Au début de chaque session, chaque membre de votre groupe gagne 1 Espoir.</p>",
+      "system.actions.8sK3t73bFkpb999C.name": "Gagner de l’Espoir"
+    },
+    "srd-2.0.ancestry.human": {
+      "description": "<p>Les Humains sont aisément reconnaissables à leurs mains habiles, leurs oreilles arrondies et leur constitution endurante.</p>",
+      "name": "Humain"
+    },
+    "srd-2.0.ancestry.human.feature.adaptability": {
+      "name": "Adaptabilité",
+      "description": "<p>Lorsque vous échouez à un jet auquel vous avez appliqué l’une de vos Expériences, vous pouvez <strong>marquer 1 Stress</strong> pour le relancer.</p>",
+      "system.actions.D7EE2L2Y96nfrfTW.name": "Marquer du Stress"
+    },
+    "srd-2.0.ancestry.human.feature.high-stamina": {
+      "name": "Grande endurance",
+      "description": "<p>À la création du personnage, gagnez un emplacement de Stress supplémentaire.</p>",
+      "effects.0.name": "Grande endurance",
+      "effects.0.description": "<p>À la création du personnage, gagnez un emplacement de Stress supplémentaire.</p>"
+    },
+    "srd-2.0.ancestry.infernis": {
+      "description": "<p>Les Infernis sont des humanoïdes dotés de canines acérées, d'oreilles pointues et de cornes. Ils descendent de démons originaires des Cercles Inférieurs.</p>",
+      "name": "Infernis"
+    },
+    "srd-2.0.ancestry.infernis.feature.dread-visage": {
+      "name": "Visage terrifiant",
+      "description": "<p>Vous avez un avantage aux jets visant à intimider des créatures hostiles.</p>",
+      "effects.0.name": "Visage terrifiant",
+      "effects.0.description": "<p>Vous avez un avantage aux jets visant à intimider des créatures hostiles.</p>",
+      "effects.0.system.changes.0.value": "Visage terrifiant : jets visant à intimider des créatures hostiles"
+    },
+    "srd-2.0.ancestry.infernis.feature.fearless": {
+      "name": "Sans peur",
+      "description": "<p>Lorsque vous obtenez un jet avec Peur, vous pouvez <strong>marquer 2 Stress</strong> pour le transformer en jet avec Espoir.</p>",
+      "system.actions.G1H7k5RdvS1EJgFu.name": "Marquer du Stress"
+    },
+    "srd-2.0.ancestry.katari": {
+      "description": "<p>Les Katari sont des humanoïdes félins dotés de griffes rétractiles, de pupilles verticales et de hautes oreilles triangulaires.</p>",
+      "name": "Katari"
+    },
+    "srd-2.0.ancestry.katari.feature.feline-instincts": {
+      "name": "Instincts félins",
+      "description": "<p>Lorsque vous effectuez un jet d’Agilité, vous pouvez <strong>dépenser 2 Espoir</strong> pour relancer votre dé d’Espoir.</p>",
+      "system.actions.ALsGHOy0q5THGxz5.name": "Dépenser de l’Espoir"
+    },
+    "srd-2.0.ancestry.katari.feature.retracting-claws": {
+      "name": "Griffes rétractiles",
+      "description": "<p>Effectuez un <strong>jet d’Agilité</strong> pour griffer une cible à portée Corps à corps. En cas de réussite, elle devient temporairement Vulnérable.</p>",
+      "system.actions.LcFhDb3sJk8sraAc.name": "Griffer",
+      "effects.0.name": "Griffes rétractiles"
+    },
+    "srd-2.0.ancestry.orc": {
+      "description": "<p>Les Orcs sont des humanoïdes que l'on reconnaît aisément à leurs traits anguleux et aux défenses semblables à celles d'un sanglier qui dépassent de leur mâchoire inférieure.</p>",
+      "name": "Orc"
+    },
+    "srd-2.0.ancestry.orc.feature.sturdy": {
+      "name": "Robuste",
+      "description": "<p>Lorsqu’il ne vous reste que 1 PV, les attaques contre vous subissent un désavantage.</p>"
+    },
+    "srd-2.0.ancestry.orc.feature.tusks": {
+      "name": "Défenses",
+      "description": "<p>Lorsque vous réussissez une attaque contre une cible à portée Corps à corps, vous pouvez <strong>dépenser 1 Espoir</strong> pour l’encorner avec vos défenses et infliger <strong>1d6</strong> dégâts supplémentaires.</p>",
+      "system.actions.ytSFDCONRi5L4THz.name": "Dépenser de l’Espoir",
+      "effects.0.name": "Défenses",
+      "effects.0.description": "<p>Vous encornez la cible avec vos défenses et infligez 1d6 dégâts supplémentaires avec cette attaque.</p>"
+    },
+    "srd-2.0.ancestry.ribbet": {
+      "description": "<p>Les Ribbet ressemblent à des grenouilles anthropomorphes, avec des yeux saillants ainsi que des mains et des pieds palmés.</p>",
+      "name": "Ribbet"
+    },
+    "srd-2.0.ancestry.ribbet.feature.amphibious": {
+      "name": "Amphibie",
+      "description": "<p>Vous pouvez respirer et vous déplacer naturellement sous l’eau.</p>"
+    },
+    "srd-2.0.ancestry.ribbet.feature.long-tongue": {
+      "name": "Longue langue",
+      "description": "<p>Vous pouvez utiliser votre longue langue pour saisir des objets à portée Proche. <strong>Marquez 1 Stress</strong> pour utiliser votre langue comme une arme de Finesse à portée Proche qui inflige <strong>d12</strong> dégâts physiques en utilisant votre Maîtrise.</p>",
+      "system.actions.MhAWv7tuvkfOf7wQ.name": "Marquer du Stress"
+    },
+    "srd-2.0.ancestry.simiah": {
+      "description": "<p>Les Simiah ressemblent à des singes anthropomorphes, avec de longs membres et des pieds préhensiles.</p>",
+      "name": "Simiah"
+    },
+    "srd-2.0.ancestry.simiah.feature.natural-climber": {
+      "name": "Grimpeur-né",
+      "description": "<p>Vous avez un avantage aux jets d’Agilité impliquant de garder l’équilibre ou de grimper.</p>",
+      "effects.0.name": "Grimpeur-né",
+      "effects.0.description": "<p>Vous avez un avantage aux jets d’Agilité impliquant de garder l’équilibre ou de grimper.</p>",
+      "effects.0.system.changes.0.value": "Jets d’Agilité impliquant de garder l’équilibre ou de grimper"
+    },
+    "srd-2.0.ancestry.simiah.feature.nimble": {
+      "name": "Agile",
+      "description": "<p>À la création du personnage, gagnez un bonus permanent de +1 à votre Esquive.</p>",
+      "effects.0.name": "Agile",
+      "effects.0.description": "<p>À la création du personnage, gagnez un bonus permanent de +1 à votre Esquive.</p>"
+    },
+    "srd-2.0.ancestry.skykin": {
+      "description": "<p>Les Skykin sont des humanoïdes dont le corps est fait de chair et d'air.</p>",
+      "name": "Skykin"
+    },
+    "srd-2.0.ancestry.skykin.feature.eye-of-the-storm": {
+      "name": "Œil du cyclone",
+      "description": "<p><strong>Dépensez 2 Espoir</strong> pour vous accorder, ou accorder à un allié à portée Corps à corps, un bonus de +1 à l’Esquive jusqu’à ce que vous subissiez des dégâts Sévères ou que vous utilisiez de nouveau cette capacité.</p>",
+      "system.actions.q5tGBckJzCGyIbmu.name": "Dépenser de l’Espoir",
+      "effects.0.name": "Œil du cyclone",
+      "effects.0.description": "<p>Bonus de +1 à l’Esquive.</p>"
+    },
+    "srd-2.0.ancestry.skykin.feature.gale-force": {
+      "name": "Vent violent",
+      "description": "<p><strong>Marquez 1 Stress</strong> pour invoquer une rafale de vent qui vous transporte, ou transporte un allié à portée Très proche, jusqu’à une distance Très loin. De plus, vous pouvez toujours contrôler votre vitesse de chute.</p>",
+      "system.actions.3WRpmFBVS5HvCcOG.name": "Marquer du Stress"
+    },
+    "srd-2.0.ancestry.tidekin": {
+      "description": "<p>Les Tidekin sont des humanoïdes dont le corps est fait de chair et d'eau.</p>",
+      "name": "Tidekin"
+    },
+    "srd-2.0.ancestry.tidekin.feature.amphibious": {
+      "name": "Amphibie",
+      "description": "<p>Vous pouvez respirer et vous déplacer naturellement sous l’eau.</p>"
+    },
+    "srd-2.0.ancestry.tidekin.feature.lifespring": {
+      "name": "Source de vie",
+      "description": "<p>Une fois par repos, lorsque vous avez accès à une petite quantité d’eau, vous pouvez <strong>marquer 1 Stress</strong> pour effacer 1 PV sur vous-même ou un allié à portée Très proche.</p>",
+      "system.actions.xIWHvlsLjznMLrGX.name": "Marquer du Stress"
+    },
     "srd-2.0.armor.advanced-banded-armor": {
       "name": "Avancé : Armure à bandes"
     },
@@ -254,6 +606,157 @@
     },
     "srd-2.0.class.wizard": {
       "name": "Magicien"
+    },
+    "srd-2.0.community.duneborne": {
+      "description": "<p>Faire partie d’une communauté née des dunes signifie que vous avez établi votre foyer parmi les sables mouvants et le climat aride du désert.</p>",
+      "name": "Né des dunes"
+    },
+    "srd-2.0.community.duneborne.feature.oasis": {
+      "name": "Oasis",
+      "description": "<p>Pendant un repos court, vous ou un allié pouvez relancer un dé utilisé pour une action de temps libre et conserver le résultat le plus élevé.</p>"
+    },
+    "srd-2.0.community.freeborne": {
+      "description": "<p>Faire partie d’une communauté affranchie signifie que vous venez d’un collectif autrefois soumis à un régime tyrannique, mais désormais libéré.</p>",
+      "name": "Né libre"
+    },
+    "srd-2.0.community.freeborne.feature.unbound": {
+      "name": "Affranchi",
+      "description": "<p>Une fois par session, lorsque vous obtenez un jet avec Peur, vous pouvez le transformer en jet avec Espoir.</p>",
+      "system.actions.L03g0jA9msxRiuXL.name": "Peur en Espoir"
+    },
+    "srd-2.0.community.frostborne": {
+      "description": "<p>Faire partie d’une communauté née du givre signifie que vous venez d’une région de neige et de glace.</p>",
+      "name": "Né du givre"
+    },
+    "srd-2.0.community.frostborne.feature.hardy": {
+      "name": "Endurci",
+      "description": "<p>Lorsque vous prenez un repos, effacez 1 PV.</p>"
+    },
+    "srd-2.0.community.hearthborne": {
+      "description": "<p>Faire partie d’une communauté née du foyer signifie que vous êtes d’origine modeste, ayant vécu dans un village simple ou une paisible campagne.</p>",
+      "name": "Né du foyer"
+    },
+    "srd-2.0.community.hearthborne.feature.close-knit": {
+      "name": "Soudés",
+      "description": "<p>Une fois par repos long, vous pouvez <strong>dépenser autant d’Espoir que vous le souhaitez</strong> pour accorder à un allié à portée Loin un nombre égal d’Espoir.</p>",
+      "system.actions.OmflNw0H1vsGAQVp.name": "Donner de l’Espoir"
+    },
+    "srd-2.0.community.highborne": {
+      "description": "<p>Faire partie d’une communauté de haute naissance signifie que vous êtes habitué à une vie d’élégance, d’opulence et de prestige au sein des plus hautes sphères de la société.</p>",
+      "name": "Né des hauteurs"
+    },
+    "srd-2.0.community.highborne.feature.privilege": {
+      "name": "Privilège",
+      "description": "<p>Vous avez un avantage aux jets visant à fréquenter la noblesse, négocier des prix ou tirer parti de votre réputation pour obtenir ce que vous voulez.</p>",
+      "effects.0.name": "Privilège",
+      "effects.0.description": "<p>Vous avez un avantage aux jets visant à fréquenter la noblesse, négocier des prix ou tirer parti de votre réputation pour obtenir ce que vous voulez.</p>",
+      "effects.0.system.changes.0.value": "Fréquenter la noblesse",
+      "effects.0.system.changes.1.value": "Négocier des prix",
+      "effects.0.system.changes.2.value": "Tirer parti de votre réputation pour obtenir ce que vous voulez"
+    },
+    "srd-2.0.community.loreborne": {
+      "description": "<p>Faire partie d’une communauté érudite signifie que vous venez d’une société qui valorise particulièrement les compétences académiques ou politiques.</p>",
+      "name": "Né du savoir"
+    },
+    "srd-2.0.community.loreborne.feature.well-read": {
+      "name": "Érudit",
+      "description": "<p>Vous avez un avantage aux jets impliquant l’histoire, la culture ou la politique d’une personne ou d’un lieu important.</p>",
+      "effects.0.name": "Érudit",
+      "effects.0.description": "<p>Vous avez un avantage aux jets impliquant l’histoire, la culture ou la politique d’une personne ou d’un lieu important.</p>",
+      "effects.0.system.changes.0.value": "Histoire, culture ou politique d’une personne ou d’un lieu important"
+    },
+    "srd-2.0.community.orderborne": {
+      "description": "<p>Faire partie d’une communauté née d’un ordre signifie que vous venez d’un collectif centré sur la discipline ou la foi et que vous suivez un ensemble de principes issus de cette expérience.</p>",
+      "name": "Né de l’ordre"
+    },
+    "srd-2.0.community.orderborne.feature.dedicated": {
+      "name": "Dévoué",
+      "description": "<p>Notez trois maximes ou valeurs que votre éducation vous a inculquées. Une fois par repos, lorsque vous décrivez comment votre action actuelle incarne l’un de ces principes, vous pouvez lancer un d20 comme dé d’Espoir.</p>",
+      "system.actions.ZBVqSlsDUKf8uGrI.name": "Utiliser"
+    },
+    "srd-2.0.community.reborne": {
+      "description": "<p>Vous avez autrefois appartenu à une autre communauté dont vous ne faites désormais plus partie.</p>",
+      "name": "Renaissant"
+    },
+    "srd-2.0.community.reborne.feature.found-family": {
+      "name": "Famille choisie",
+      "description": "<p>Une fois par repos, vous pouvez <strong>dépenser 1 Espoir</strong> pour utiliser l’Expérience d’un allié comme si c’était la vôtre. Lorsque vous le faites, décrivez comment le temps passé avec cet allié vous a préparé à cet instant.</p><p>Lorsque vous rejoignez une nouvelle communauté ou retrouvez votre ancienne communauté, vous pouvez échanger définitivement cette carte contre celle de cette communauté.</p>",
+      "system.actions.jt9gOu3FQLcW1TFC.name": "Dépenser de l’Espoir"
+    },
+    "srd-2.0.community.ridgeborne": {
+      "description": "<p>Faire partie d’une communauté née des crêtes signifie que les pics rocheux et les falaises abruptes des montagnes ont été votre foyer.</p>",
+      "name": "Né des crêtes"
+    },
+    "srd-2.0.community.ridgeborne.feature.steady": {
+      "name": "Assuré",
+      "description": "<p>Vous avez un avantage aux jets visant à franchir des falaises et corniches dangereuses, vous orienter dans des environnements hostiles ou utiliser vos connaissances de survie.</p>",
+      "effects.0.name": "Assuré",
+      "effects.0.description": "<p>Vous avez un avantage aux jets visant à franchir des falaises et corniches dangereuses, vous orienter dans des environnements hostiles ou utiliser vos connaissances de survie.</p>",
+      "effects.0.system.changes.0.value": "Franchir des falaises et corniches dangereuses",
+      "effects.0.system.changes.1.value": "S’orienter dans un environnement hostile",
+      "effects.0.system.changes.2.value": "Utiliser vos connaissances de survie"
+    },
+    "srd-2.0.community.seaborne": {
+      "description": "<p>Faire partie d’une communauté née de la mer signifie que vous avez vécu sur ou près d’une vaste étendue d’eau.</p>",
+      "name": "Né de la mer"
+    },
+    "srd-2.0.community.seaborne.feature.know-the-tide": {
+      "name": "Connaître la marée",
+      "description": "<p>Vous pouvez ressentir le flux et le reflux de la vie. Lorsque vous obtenez un jet avec Peur, placez un jeton sur votre carte de Communauté. Vous pouvez conserver un nombre de jetons égal à votre niveau. Avant d’effectuer un jet d’action, vous pouvez dépenser autant de ces jetons que vous le souhaitez pour gagner un bonus de +1 au jet par jeton dépensé. À la fin de chaque session, retirez tous les jetons non dépensés.</p>",
+      "system.actions.tFlus34KotJjHfTe.name": "Connaître la marée"
+    },
+    "srd-2.0.community.slyborne": {
+      "description": "<p>Faire partie d’une communauté interlope signifie que vous venez d’un groupe opérant hors-la-loi, qu’il s’agisse de criminels, d’escrocs ou d’arnaqueurs en tout genre.</p>",
+      "name": "Né de la ruse"
+    },
+    "srd-2.0.community.slyborne.feature.scoundrel": {
+      "name": "Canaille",
+      "description": "<p>Vous avez un avantage aux jets visant à négocier avec des criminels, détecter les mensonges ou trouver un endroit sûr où vous cacher.</p>",
+      "effects.0.name": "Canaille",
+      "effects.0.description": "<p>Vous avez un avantage aux jets visant à négocier avec des criminels, détecter les mensonges ou trouver un endroit sûr où vous cacher.</p>",
+      "effects.0.system.changes.0.value": "Négocier avec des criminels",
+      "effects.0.system.changes.1.value": "Détecter les mensonges",
+      "effects.0.system.changes.2.value": "Trouver un endroit sûr où se cacher"
+    },
+    "srd-2.0.community.underborne": {
+      "description": "<p>Faire partie d’une communauté souterraine signifie que vous venez d’une société vivant sous terre.</p>",
+      "name": "Né des profondeurs"
+    },
+    "srd-2.0.community.underborne.feature.low-light-living": {
+      "name": "Vie dans la pénombre",
+      "description": "<p>Lorsque vous vous trouvez dans une zone faiblement éclairée ou plongée dans de profondes ombres, vous avez un avantage aux jets visant à vous cacher, enquêter ou percevoir des détails dans cette zone.</p>",
+      "effects.0.name": "Vie dans la pénombre",
+      "effects.0.description": "<p>Lorsque vous vous trouvez dans une zone faiblement éclairée ou plongée dans de profondes ombres, vous avez un avantage aux jets visant à vous cacher, enquêter ou percevoir des détails dans cette zone.</p>",
+      "effects.0.system.changes.0.value": "Jets pour se cacher, enquêter ou percevoir des détails dans la pénombre"
+    },
+    "srd-2.0.community.wanderborne": {
+      "description": "<p>Faire partie d’une communauté nomade signifie que vous avez vécu en nomade, renonçant à un foyer permanent et découvrant une grande variété de cultures.</p>",
+      "name": "Né de l’errance"
+    },
+    "srd-2.0.community.wanderborne.feature.nomadic-pack": {
+      "name": "Paquetage nomade",
+      "description": "<p>Ajoutez un Paquetage nomade à votre inventaire. Une fois par session, vous pouvez <strong>dépenser 1 Espoir</strong> pour fouiller dans ce paquetage et en sortir un objet ordinaire utile à la situation. Déterminez avec le MJ quel objet vous en retirez.</p>",
+      "system.actions.Jd9uVincqkIMAXgU.name": "Sortir un objet"
+    },
+    "srd-2.0.community.warborne": {
+      "description": "<p>Faire partie d’une communauté née de la guerre signifie que vous venez d’un lieu ravagé, aujourd’hui ou autrefois, par la guerre.</p>",
+      "name": "Né de la guerre"
+    },
+    "srd-2.0.community.warborne.feature.brave-face": {
+      "name": "Faire bonne figure",
+      "description": "<p>Une fois par session, lorsque vous devriez être forcé de marquer 1 Stress, vous pouvez <strong>dépenser 1 Espoir</strong> à la place.</p>",
+      "system.actions.sguCcIhnp8FjwVZd.name": "Dépenser de l’Espoir"
+    },
+    "srd-2.0.community.wildborne": {
+      "description": "<p>Faire partie d’une communauté née des bois signifie que vous avez vécu au cœur de la forêt.</p>",
+      "name": "Né des terres sauvages"
+    },
+    "srd-2.0.community.wildborne.feature.lightfoot": {
+      "name": "Pas léger",
+      "description": "<p>Vos déplacements sont naturellement silencieux. Vous avez un avantage aux jets visant à vous déplacer sans être entendu.</p>",
+      "effects.0.name": "Pas léger",
+      "effects.0.description": "<p>Vos déplacements sont naturellement silencieux. Vous avez un avantage aux jets visant à vous déplacer sans être entendu.</p>",
+      "effects.0.system.changes.0.value": "Se déplacer sans être entendu."
     },
     "srd-2.0.domain-card.arcana.adjust-reality": {
       "name": "Altérer la réalité",
