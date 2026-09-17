@@ -1,0 +1,1172 @@
+[
+  {
+    "type": "subclass",
+    "name": "Guilde des empoisonneurs",
+    "img": "icons/skills/toxins/cup-goblet-poisoned-spilled.webp",
+    "system": {
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null
+      },
+      "description": "",
+      "gmNotes": "",
+      "spellcastingTrait": "knowledge",
+      "features": [],
+      "featureState": 1,
+      "isMulticlass": false,
+      "linkedClass": "Compendium.daggerheart-campaign-toolkit.dh-classes.Item.7sK9WSzaLj9Hk5i0"
+    },
+    "effects": [],
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "sourceId": "srd-2.0.subclass.poisoners-guild",
+        "sourcePath": "data/srd-2.0/indexes/subclasses.json",
+        "source": {
+          "corpus": "daggerheart-srd",
+          "version": "2.0",
+          "status": "srd"
+        },
+        "mappingVersion": "BH-2026-07-09-active",
+        "linkedClassSourceId": "Assassin",
+        "mappingGaps": [],
+        "contentLocale": "fr",
+        "canonicalSourceId": "srd-2.0.subclass.poisoners-guild",
+        "localeFallback": false,
+        "localizedPaths": [
+          "name"
+        ],
+        "managed": true,
+        "kind": "subclass",
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "contentOrigin": "core",
+        "sourceNamespace": "daggerheart-srd-2.0"
+      }
+    },
+    "_id": "1HZdoDThErcTAgeP"
+  },
+  {
+    "type": "subclass",
+    "name": "Appel du pourfendeur",
+    "img": "icons/skills/toxins/cup-goblet-poisoned-spilled.webp",
+    "system": {
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null
+      },
+      "description": "",
+      "gmNotes": "",
+      "spellcastingTrait": null,
+      "features": [],
+      "featureState": 1,
+      "isMulticlass": false,
+      "linkedClass": "Compendium.daggerheart-campaign-toolkit.dh-classes.Item.7vgJpixepbYSo21v"
+    },
+    "effects": [],
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "sourceId": "srd-2.0.subclass.call-of-the-slayer",
+        "sourcePath": "data/srd-2.0/indexes/subclasses.json",
+        "source": {
+          "corpus": "daggerheart-srd",
+          "version": "2.0",
+          "status": "srd"
+        },
+        "mappingVersion": "BH-2026-07-09-active",
+        "linkedClassSourceId": "Warrior",
+        "mappingGaps": [],
+        "contentLocale": "fr",
+        "canonicalSourceId": "srd-2.0.subclass.call-of-the-slayer",
+        "localeFallback": false,
+        "localizedPaths": [
+          "name"
+        ],
+        "managed": true,
+        "kind": "subclass",
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "contentOrigin": "core",
+        "sourceNamespace": "daggerheart-srd-2.0"
+      }
+    },
+    "_id": "2J9WgdBmPRwh5f8Y"
+  },
+  {
+    "type": "subclass",
+    "name": "Appel du brave",
+    "img": "icons/skills/toxins/cup-goblet-poisoned-spilled.webp",
+    "system": {
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null
+      },
+      "description": "",
+      "gmNotes": "",
+      "spellcastingTrait": null,
+      "features": [],
+      "featureState": 1,
+      "isMulticlass": false,
+      "linkedClass": "Compendium.daggerheart-campaign-toolkit.dh-classes.Item.7vgJpixepbYSo21v"
+    },
+    "effects": [],
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "sourceId": "srd-2.0.subclass.call-of-the-brave",
+        "sourcePath": "data/srd-2.0/indexes/subclasses.json",
+        "source": {
+          "corpus": "daggerheart-srd",
+          "version": "2.0",
+          "status": "srd"
+        },
+        "mappingVersion": "BH-2026-07-09-active",
+        "linkedClassSourceId": "Warrior",
+        "mappingGaps": [],
+        "contentLocale": "fr",
+        "canonicalSourceId": "srd-2.0.subclass.call-of-the-brave",
+        "localeFallback": false,
+        "localizedPaths": [
+          "name"
+        ],
+        "managed": true,
+        "kind": "subclass",
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "contentOrigin": "core",
+        "sourceNamespace": "daggerheart-srd-2.0"
+      }
+    },
+    "_id": "4Zm9LuK1iBINBPkC"
+  },
+  {
+    "type": "subclass",
+    "name": "Guilde des exécuteurs",
+    "img": "icons/skills/toxins/cup-goblet-poisoned-spilled.webp",
+    "system": {
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null
+      },
+      "description": "",
+      "gmNotes": "",
+      "spellcastingTrait": "agility",
+      "features": [],
+      "featureState": 1,
+      "isMulticlass": false,
+      "linkedClass": "Compendium.daggerheart-campaign-toolkit.dh-classes.Item.7sK9WSzaLj9Hk5i0"
+    },
+    "effects": [],
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "sourceId": "srd-2.0.subclass.executioners-guild",
+        "sourcePath": "data/srd-2.0/indexes/subclasses.json",
+        "source": {
+          "corpus": "daggerheart-srd",
+          "version": "2.0",
+          "status": "srd"
+        },
+        "mappingVersion": "BH-2026-07-09-active",
+        "linkedClassSourceId": "Assassin",
+        "mappingGaps": [],
+        "contentLocale": "fr",
+        "canonicalSourceId": "srd-2.0.subclass.executioners-guild",
+        "localeFallback": false,
+        "localizedPaths": [
+          "name"
+        ],
+        "managed": true,
+        "kind": "subclass",
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "contentOrigin": "core",
+        "sourceNamespace": "daggerheart-srd-2.0"
+      }
+    },
+    "_id": "5JOquUXS3eAXwYJq"
+  },
+  {
+    "type": "subclass",
+    "name": "Lié aux bêtes",
+    "img": "icons/skills/toxins/cup-goblet-poisoned-spilled.webp",
+    "system": {
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null
+      },
+      "description": "",
+      "gmNotes": "",
+      "spellcastingTrait": "agility",
+      "features": [],
+      "featureState": 1,
+      "isMulticlass": false,
+      "linkedClass": "Compendium.daggerheart-campaign-toolkit.dh-classes.Item.q8ar5XS4C1j3WngF"
+    },
+    "effects": [],
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "sourceId": "srd-2.0.subclass.beastbound",
+        "sourcePath": "data/srd-2.0/indexes/subclasses.json",
+        "source": {
+          "corpus": "daggerheart-srd",
+          "version": "2.0",
+          "status": "srd"
+        },
+        "mappingVersion": "BH-2026-07-09-active",
+        "linkedClassSourceId": "Ranger",
+        "mappingGaps": [],
+        "contentLocale": "fr",
+        "canonicalSourceId": "srd-2.0.subclass.beastbound",
+        "localeFallback": false,
+        "localizedPaths": [
+          "name"
+        ],
+        "managed": true,
+        "kind": "subclass",
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "contentOrigin": "core",
+        "sourceNamespace": "daggerheart-srd-2.0"
+      }
+    },
+    "_id": "7TSS5urN2KFazlBn"
+  },
+  {
+    "type": "subclass",
+    "name": "Vengeance",
+    "img": "icons/skills/toxins/cup-goblet-poisoned-spilled.webp",
+    "system": {
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null
+      },
+      "description": "",
+      "gmNotes": "",
+      "spellcastingTrait": null,
+      "features": [],
+      "featureState": 1,
+      "isMulticlass": false,
+      "linkedClass": "Compendium.daggerheart-campaign-toolkit.dh-classes.Item.nzkduMEUFKSCIXe2"
+    },
+    "effects": [],
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "sourceId": "srd-2.0.subclass.vengeance",
+        "sourcePath": "data/srd-2.0/indexes/subclasses.json",
+        "source": {
+          "corpus": "daggerheart-srd",
+          "version": "2.0",
+          "status": "srd"
+        },
+        "mappingVersion": "BH-2026-07-09-active",
+        "linkedClassSourceId": "Guardian",
+        "mappingGaps": [],
+        "contentLocale": "fr",
+        "canonicalSourceId": "srd-2.0.subclass.vengeance",
+        "localeFallback": false,
+        "localizedPaths": [
+          "name"
+        ],
+        "managed": true,
+        "kind": "subclass",
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "contentOrigin": "core",
+        "sourceNamespace": "daggerheart-srd-2.0"
+      }
+    },
+    "_id": "7gXesUhFiA0fzs5y"
+  },
+  {
+    "type": "subclass",
+    "name": "Origine élémentaire",
+    "img": "icons/skills/toxins/cup-goblet-poisoned-spilled.webp",
+    "system": {
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null
+      },
+      "description": "",
+      "gmNotes": "",
+      "spellcastingTrait": "instinct",
+      "features": [],
+      "featureState": 1,
+      "isMulticlass": false,
+      "linkedClass": "Compendium.daggerheart-campaign-toolkit.dh-classes.Item.MbbKUpRKNfc7cqOL"
+    },
+    "effects": [],
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "sourceId": "srd-2.0.subclass.elemental-origin",
+        "sourcePath": "data/srd-2.0/indexes/subclasses.json",
+        "source": {
+          "corpus": "daggerheart-srd",
+          "version": "2.0",
+          "status": "srd"
+        },
+        "mappingVersion": "BH-2026-07-09-active",
+        "linkedClassSourceId": "Sorcerer",
+        "mappingGaps": [],
+        "contentLocale": "fr",
+        "canonicalSourceId": "srd-2.0.subclass.elemental-origin",
+        "localeFallback": false,
+        "localizedPaths": [
+          "name"
+        ],
+        "managed": true,
+        "kind": "subclass",
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "contentOrigin": "core",
+        "sourceNamespace": "daggerheart-srd-2.0"
+      }
+    },
+    "_id": "Al7PiDpBcDz7IpLo"
+  },
+  {
+    "type": "subclass",
+    "name": "Lune",
+    "img": "icons/skills/toxins/cup-goblet-poisoned-spilled.webp",
+    "system": {
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null
+      },
+      "description": "",
+      "gmNotes": "",
+      "spellcastingTrait": "instinct",
+      "features": [],
+      "featureState": 1,
+      "isMulticlass": false,
+      "linkedClass": "Compendium.daggerheart-campaign-toolkit.dh-classes.Item.H7HOBsfhZ2JEnROi"
+    },
+    "effects": [],
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "sourceId": "srd-2.0.subclass.moon",
+        "sourcePath": "data/srd-2.0/indexes/subclasses-hope-fear.json",
+        "source": {
+          "corpus": "daggerheart-srd",
+          "version": "2.0",
+          "status": "srd"
+        },
+        "mappingVersion": "BH-2026-07-09-active",
+        "linkedClassSourceId": "Witch",
+        "mappingGaps": [],
+        "contentLocale": "fr",
+        "canonicalSourceId": "srd-2.0.subclass.moon",
+        "localeFallback": false,
+        "localizedPaths": [
+          "name"
+        ],
+        "managed": true,
+        "kind": "subclass",
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "contentOrigin": "core",
+        "sourceNamespace": "daggerheart-srd-2.0"
+      }
+    },
+    "_id": "HdrcqoXAleM9PNtN"
+  },
+  {
+    "type": "subclass",
+    "name": "Origine primordiale",
+    "img": "icons/skills/toxins/cup-goblet-poisoned-spilled.webp",
+    "system": {
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null
+      },
+      "description": "",
+      "gmNotes": "",
+      "spellcastingTrait": "instinct",
+      "features": [],
+      "featureState": 1,
+      "isMulticlass": false,
+      "linkedClass": "Compendium.daggerheart-campaign-toolkit.dh-classes.Item.MbbKUpRKNfc7cqOL"
+    },
+    "effects": [],
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "sourceId": "srd-2.0.subclass.primal-origin",
+        "sourcePath": "data/srd-2.0/indexes/subclasses.json",
+        "source": {
+          "corpus": "daggerheart-srd",
+          "version": "2.0",
+          "status": "srd"
+        },
+        "mappingVersion": "BH-2026-07-09-active",
+        "linkedClassSourceId": "Sorcerer",
+        "mappingGaps": [],
+        "contentLocale": "fr",
+        "canonicalSourceId": "srd-2.0.subclass.primal-origin",
+        "localeFallback": false,
+        "localizedPaths": [
+          "name"
+        ],
+        "managed": true,
+        "kind": "subclass",
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "contentOrigin": "core",
+        "sourceNamespace": "daggerheart-srd-2.0"
+      }
+    },
+    "_id": "IZnXc3wA5Bcgk6mg"
+  },
+  {
+    "type": "subclass",
+    "name": "Marcheur nocturne",
+    "img": "icons/skills/toxins/cup-goblet-poisoned-spilled.webp",
+    "system": {
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null
+      },
+      "description": "",
+      "gmNotes": "",
+      "spellcastingTrait": "finesse",
+      "features": [],
+      "featureState": 1,
+      "isMulticlass": false,
+      "linkedClass": "Compendium.daggerheart-campaign-toolkit.dh-classes.Item.LMnEwg29foy6y9tO"
+    },
+    "effects": [],
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "sourceId": "srd-2.0.subclass.nightwalker",
+        "sourcePath": "data/srd-2.0/indexes/subclasses.json",
+        "source": {
+          "corpus": "daggerheart-srd",
+          "version": "2.0",
+          "status": "srd"
+        },
+        "mappingVersion": "BH-2026-07-09-active",
+        "linkedClassSourceId": "Rogue",
+        "mappingGaps": [],
+        "contentLocale": "fr",
+        "canonicalSourceId": "srd-2.0.subclass.nightwalker",
+        "localeFallback": false,
+        "localizedPaths": [
+          "name"
+        ],
+        "managed": true,
+        "kind": "subclass",
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "contentOrigin": "core",
+        "sourceNamespace": "daggerheart-srd-2.0"
+      }
+    },
+    "_id": "LkqOgfvEwgCn3w7i"
+  },
+  {
+    "type": "subclass",
+    "name": "Inébranlable",
+    "img": "icons/skills/toxins/cup-goblet-poisoned-spilled.webp",
+    "system": {
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null
+      },
+      "description": "",
+      "gmNotes": "",
+      "spellcastingTrait": null,
+      "features": [],
+      "featureState": 1,
+      "isMulticlass": false,
+      "linkedClass": "Compendium.daggerheart-campaign-toolkit.dh-classes.Item.nzkduMEUFKSCIXe2"
+    },
+    "effects": [],
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "sourceId": "srd-2.0.subclass.stalwart",
+        "sourcePath": "data/srd-2.0/indexes/subclasses.json",
+        "source": {
+          "corpus": "daggerheart-srd",
+          "version": "2.0",
+          "status": "srd"
+        },
+        "mappingVersion": "BH-2026-07-09-active",
+        "linkedClassSourceId": "Guardian",
+        "mappingGaps": [],
+        "contentLocale": "fr",
+        "canonicalSourceId": "srd-2.0.subclass.stalwart",
+        "localeFallback": false,
+        "localizedPaths": [
+          "name"
+        ],
+        "managed": true,
+        "kind": "subclass",
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "contentOrigin": "core",
+        "sourceNamespace": "daggerheart-srd-2.0"
+      }
+    },
+    "_id": "Mi18HqxnPr4DKemu"
+  },
+  {
+    "type": "subclass",
+    "name": "Juggernaut",
+    "img": "icons/skills/toxins/cup-goblet-poisoned-spilled.webp",
+    "system": {
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null
+      },
+      "description": "",
+      "gmNotes": "",
+      "spellcastingTrait": null,
+      "features": [],
+      "featureState": 1,
+      "isMulticlass": false,
+      "linkedClass": "Compendium.daggerheart-campaign-toolkit.dh-classes.Item.iUOlInkVIIKPk0Aa"
+    },
+    "effects": [],
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "sourceId": "srd-2.0.subclass.juggernaut",
+        "sourcePath": "data/srd-2.0/indexes/subclasses.json",
+        "source": {
+          "corpus": "daggerheart-srd",
+          "version": "2.0",
+          "status": "srd"
+        },
+        "mappingVersion": "BH-2026-07-09-active",
+        "linkedClassSourceId": "Brawler",
+        "mappingGaps": [],
+        "contentLocale": "fr",
+        "canonicalSourceId": "srd-2.0.subclass.juggernaut",
+        "localeFallback": false,
+        "localizedPaths": [
+          "name"
+        ],
+        "managed": true,
+        "kind": "subclass",
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "contentOrigin": "core",
+        "sourceNamespace": "daggerheart-srd-2.0"
+      }
+    },
+    "_id": "MlwytdiETjyxRszf"
+  },
+  {
+    "type": "subclass",
+    "name": "Pacte de l’Infini",
+    "img": "icons/skills/toxins/cup-goblet-poisoned-spilled.webp",
+    "system": {
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null
+      },
+      "description": "",
+      "gmNotes": "",
+      "spellcastingTrait": "presence",
+      "features": [],
+      "featureState": 1,
+      "isMulticlass": false,
+      "linkedClass": "Compendium.daggerheart-campaign-toolkit.dh-classes.Item.LZ4jJsMOMFSvQbtw"
+    },
+    "effects": [],
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "sourceId": "srd-2.0.subclass.pact-of-the-endless",
+        "sourcePath": "data/srd-2.0/indexes/subclasses-hope-fear.json",
+        "source": {
+          "corpus": "daggerheart-srd",
+          "version": "2.0",
+          "status": "srd"
+        },
+        "mappingVersion": "BH-2026-07-09-active",
+        "linkedClassSourceId": "Warlock",
+        "mappingGaps": [],
+        "contentLocale": "fr",
+        "canonicalSourceId": "srd-2.0.subclass.pact-of-the-endless",
+        "localeFallback": false,
+        "localizedPaths": [
+          "name"
+        ],
+        "managed": true,
+        "kind": "subclass",
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "contentOrigin": "core",
+        "sourceNamespace": "daggerheart-srd-2.0"
+      }
+    },
+    "_id": "MmBPz0RRqsQjQLRq"
+  },
+  {
+    "type": "subclass",
+    "name": "Pacte du Courroucé",
+    "img": "icons/skills/toxins/cup-goblet-poisoned-spilled.webp",
+    "system": {
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null
+      },
+      "description": "",
+      "gmNotes": "",
+      "spellcastingTrait": "presence",
+      "features": [],
+      "featureState": 1,
+      "isMulticlass": false,
+      "linkedClass": "Compendium.daggerheart-campaign-toolkit.dh-classes.Item.LZ4jJsMOMFSvQbtw"
+    },
+    "effects": [],
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "sourceId": "srd-2.0.subclass.pact-of-the-wrathful",
+        "sourcePath": "data/srd-2.0/indexes/subclasses-hope-fear.json",
+        "source": {
+          "corpus": "daggerheart-srd",
+          "version": "2.0",
+          "status": "srd"
+        },
+        "mappingVersion": "BH-2026-07-09-active",
+        "linkedClassSourceId": "Warlock",
+        "mappingGaps": [],
+        "contentLocale": "fr",
+        "canonicalSourceId": "srd-2.0.subclass.pact-of-the-wrathful",
+        "localeFallback": false,
+        "localizedPaths": [
+          "name"
+        ],
+        "managed": true,
+        "kind": "subclass",
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "contentOrigin": "core",
+        "sourceNamespace": "daggerheart-srd-2.0"
+      }
+    },
+    "_id": "OnMnQ2HRwjHMnneo"
+  },
+  {
+    "type": "subclass",
+    "name": "Artiste martial",
+    "img": "icons/skills/toxins/cup-goblet-poisoned-spilled.webp",
+    "system": {
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null
+      },
+      "description": "",
+      "gmNotes": "",
+      "spellcastingTrait": null,
+      "features": [],
+      "featureState": 1,
+      "isMulticlass": false,
+      "linkedClass": "Compendium.daggerheart-campaign-toolkit.dh-classes.Item.iUOlInkVIIKPk0Aa"
+    },
+    "effects": [],
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "sourceId": "srd-2.0.subclass.martial-artist",
+        "sourcePath": "data/srd-2.0/indexes/subclasses.json",
+        "source": {
+          "corpus": "daggerheart-srd",
+          "version": "2.0",
+          "status": "srd"
+        },
+        "mappingVersion": "BH-2026-07-09-active",
+        "linkedClassSourceId": "Brawler",
+        "mappingGaps": [],
+        "contentLocale": "fr",
+        "canonicalSourceId": "srd-2.0.subclass.martial-artist",
+        "localeFallback": false,
+        "localizedPaths": [
+          "name"
+        ],
+        "managed": true,
+        "kind": "subclass",
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "contentOrigin": "core",
+        "sourceNamespace": "daggerheart-srd-2.0"
+      }
+    },
+    "_id": "RJVgYA8tIZNeNrSg"
+  },
+  {
+    "type": "subclass",
+    "name": "Gardien des éléments",
+    "img": "icons/skills/toxins/cup-goblet-poisoned-spilled.webp",
+    "system": {
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null
+      },
+      "description": "",
+      "gmNotes": "",
+      "spellcastingTrait": "instinct",
+      "features": [],
+      "featureState": 1,
+      "isMulticlass": false,
+      "linkedClass": "Compendium.daggerheart-campaign-toolkit.dh-classes.Item.pBze94pWMkN43fSU"
+    },
+    "effects": [],
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "sourceId": "srd-2.0.subclass.warden-of-the-elements",
+        "sourcePath": "data/srd-2.0/indexes/subclasses.json",
+        "source": {
+          "corpus": "daggerheart-srd",
+          "version": "2.0",
+          "status": "srd"
+        },
+        "mappingVersion": "BH-2026-07-09-active",
+        "linkedClassSourceId": "Druid",
+        "mappingGaps": [],
+        "contentLocale": "fr",
+        "canonicalSourceId": "srd-2.0.subclass.warden-of-the-elements",
+        "localeFallback": false,
+        "localizedPaths": [
+          "name"
+        ],
+        "managed": true,
+        "kind": "subclass",
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "contentOrigin": "core",
+        "sourceNamespace": "daggerheart-srd-2.0"
+      }
+    },
+    "_id": "Te8D54TVt1L8w0Fg"
+  },
+  {
+    "type": "subclass",
+    "name": "Haie",
+    "img": "icons/skills/toxins/cup-goblet-poisoned-spilled.webp",
+    "system": {
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null
+      },
+      "description": "",
+      "gmNotes": "",
+      "spellcastingTrait": "knowledge",
+      "features": [],
+      "featureState": 1,
+      "isMulticlass": false,
+      "linkedClass": "Compendium.daggerheart-campaign-toolkit.dh-classes.Item.H7HOBsfhZ2JEnROi"
+    },
+    "effects": [],
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "sourceId": "srd-2.0.subclass.hedge",
+        "sourcePath": "data/srd-2.0/indexes/subclasses-hope-fear.json",
+        "source": {
+          "corpus": "daggerheart-srd",
+          "version": "2.0",
+          "status": "srd"
+        },
+        "mappingVersion": "BH-2026-07-09-active",
+        "linkedClassSourceId": "Witch",
+        "mappingGaps": [],
+        "contentLocale": "fr",
+        "canonicalSourceId": "srd-2.0.subclass.hedge",
+        "localeFallback": false,
+        "localizedPaths": [
+          "name"
+        ],
+        "managed": true,
+        "kind": "subclass",
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "contentOrigin": "core",
+        "sourceNamespace": "daggerheart-srd-2.0"
+      }
+    },
+    "_id": "aHfkeFavA9CjY7uf"
+  },
+  {
+    "type": "subclass",
+    "name": "Gardien du renouveau",
+    "img": "icons/skills/toxins/cup-goblet-poisoned-spilled.webp",
+    "system": {
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null
+      },
+      "description": "",
+      "gmNotes": "",
+      "spellcastingTrait": "instinct",
+      "features": [],
+      "featureState": 1,
+      "isMulticlass": false,
+      "linkedClass": "Compendium.daggerheart-campaign-toolkit.dh-classes.Item.pBze94pWMkN43fSU"
+    },
+    "effects": [],
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "sourceId": "srd-2.0.subclass.warden-of-renewal",
+        "sourcePath": "data/srd-2.0/indexes/subclasses.json",
+        "source": {
+          "corpus": "daggerheart-srd",
+          "version": "2.0",
+          "status": "srd"
+        },
+        "mappingVersion": "BH-2026-07-09-active",
+        "linkedClassSourceId": "Druid",
+        "mappingGaps": [],
+        "contentLocale": "fr",
+        "canonicalSourceId": "srd-2.0.subclass.warden-of-renewal",
+        "localeFallback": false,
+        "localizedPaths": [
+          "name"
+        ],
+        "managed": true,
+        "kind": "subclass",
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "contentOrigin": "core",
+        "sourceNamespace": "daggerheart-srd-2.0"
+      }
+    },
+    "_id": "f3dRMOwzG76MeTQM"
+  },
+  {
+    "type": "subclass",
+    "name": "École du savoir",
+    "img": "icons/skills/toxins/cup-goblet-poisoned-spilled.webp",
+    "system": {
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null
+      },
+      "description": "",
+      "gmNotes": "",
+      "spellcastingTrait": "knowledge",
+      "features": [],
+      "featureState": 1,
+      "isMulticlass": false,
+      "linkedClass": "Compendium.daggerheart-campaign-toolkit.dh-classes.Item.CQDkKBQe0NkN0f8y"
+    },
+    "effects": [],
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "sourceId": "srd-2.0.subclass.school-of-knowledge",
+        "sourcePath": "data/srd-2.0/indexes/subclasses.json",
+        "source": {
+          "corpus": "daggerheart-srd",
+          "version": "2.0",
+          "status": "srd"
+        },
+        "mappingVersion": "BH-2026-07-09-active",
+        "linkedClassSourceId": "Wizard",
+        "mappingGaps": [],
+        "contentLocale": "fr",
+        "canonicalSourceId": "srd-2.0.subclass.school-of-knowledge",
+        "localeFallback": false,
+        "localizedPaths": [
+          "name"
+        ],
+        "managed": true,
+        "kind": "subclass",
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "contentOrigin": "core",
+        "sourceNamespace": "daggerheart-srd-2.0"
+      }
+    },
+    "_id": "jBLSfHqR7abeeB4G"
+  },
+  {
+    "type": "subclass",
+    "name": "Éclaireur",
+    "img": "icons/skills/toxins/cup-goblet-poisoned-spilled.webp",
+    "system": {
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null
+      },
+      "description": "",
+      "gmNotes": "",
+      "spellcastingTrait": "agility",
+      "features": [],
+      "featureState": 1,
+      "isMulticlass": false,
+      "linkedClass": "Compendium.daggerheart-campaign-toolkit.dh-classes.Item.q8ar5XS4C1j3WngF"
+    },
+    "effects": [],
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "sourceId": "srd-2.0.subclass.wayfinder",
+        "sourcePath": "data/srd-2.0/indexes/subclasses.json",
+        "source": {
+          "corpus": "daggerheart-srd",
+          "version": "2.0",
+          "status": "srd"
+        },
+        "mappingVersion": "BH-2026-07-09-active",
+        "linkedClassSourceId": "Ranger",
+        "mappingGaps": [],
+        "contentLocale": "fr",
+        "canonicalSourceId": "srd-2.0.subclass.wayfinder",
+        "localeFallback": false,
+        "localizedPaths": [
+          "name"
+        ],
+        "managed": true,
+        "kind": "subclass",
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "contentOrigin": "core",
+        "sourceNamespace": "daggerheart-srd-2.0"
+      }
+    },
+    "_id": "jF56PosJOfsEtP7O"
+  },
+  {
+    "type": "subclass",
+    "name": "École de guerre",
+    "img": "icons/skills/toxins/cup-goblet-poisoned-spilled.webp",
+    "system": {
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null
+      },
+      "description": "",
+      "gmNotes": "",
+      "spellcastingTrait": "knowledge",
+      "features": [],
+      "featureState": 1,
+      "isMulticlass": false,
+      "linkedClass": "Compendium.daggerheart-campaign-toolkit.dh-classes.Item.CQDkKBQe0NkN0f8y"
+    },
+    "effects": [],
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "sourceId": "srd-2.0.subclass.school-of-war",
+        "sourcePath": "data/srd-2.0/indexes/subclasses.json",
+        "source": {
+          "corpus": "daggerheart-srd",
+          "version": "2.0",
+          "status": "srd"
+        },
+        "mappingVersion": "BH-2026-07-09-active",
+        "linkedClassSourceId": "Wizard",
+        "mappingGaps": [],
+        "contentLocale": "fr",
+        "canonicalSourceId": "srd-2.0.subclass.school-of-war",
+        "localeFallback": false,
+        "localizedPaths": [
+          "name"
+        ],
+        "managed": true,
+        "kind": "subclass",
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "contentOrigin": "core",
+        "sourceNamespace": "daggerheart-srd-2.0"
+      }
+    },
+    "_id": "jKJ8dGVNRmaLP7Ot"
+  },
+  {
+    "type": "subclass",
+    "name": "Troubadour",
+    "img": "icons/skills/toxins/cup-goblet-poisoned-spilled.webp",
+    "system": {
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null
+      },
+      "description": "",
+      "gmNotes": "",
+      "spellcastingTrait": "presence",
+      "features": [],
+      "featureState": 1,
+      "isMulticlass": false,
+      "linkedClass": "Compendium.daggerheart-campaign-toolkit.dh-classes.Item.XLnt2B6sv2PRep5n"
+    },
+    "effects": [],
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "sourceId": "srd-2.0.subclass.troubadour",
+        "sourcePath": "data/srd-2.0/indexes/subclasses.json",
+        "source": {
+          "corpus": "daggerheart-srd",
+          "version": "2.0",
+          "status": "srd"
+        },
+        "mappingVersion": "BH-2026-07-09-active",
+        "linkedClassSourceId": "Bard",
+        "mappingGaps": [],
+        "contentLocale": "fr",
+        "canonicalSourceId": "srd-2.0.subclass.troubadour",
+        "localeFallback": false,
+        "localizedPaths": [
+          "name"
+        ],
+        "managed": true,
+        "kind": "subclass",
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "contentOrigin": "core",
+        "sourceNamespace": "daggerheart-srd-2.0"
+      }
+    },
+    "_id": "jNhB9C29a6d88Ai9"
+  },
+  {
+    "type": "subclass",
+    "name": "Syndicat",
+    "img": "icons/skills/toxins/cup-goblet-poisoned-spilled.webp",
+    "system": {
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null
+      },
+      "description": "",
+      "gmNotes": "",
+      "spellcastingTrait": "finesse",
+      "features": [],
+      "featureState": 1,
+      "isMulticlass": false,
+      "linkedClass": "Compendium.daggerheart-campaign-toolkit.dh-classes.Item.LMnEwg29foy6y9tO"
+    },
+    "effects": [],
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "sourceId": "srd-2.0.subclass.syndicate",
+        "sourcePath": "data/srd-2.0/indexes/subclasses.json",
+        "source": {
+          "corpus": "daggerheart-srd",
+          "version": "2.0",
+          "status": "srd"
+        },
+        "mappingVersion": "BH-2026-07-09-active",
+        "linkedClassSourceId": "Rogue",
+        "mappingGaps": [],
+        "contentLocale": "fr",
+        "canonicalSourceId": "srd-2.0.subclass.syndicate",
+        "localeFallback": false,
+        "localizedPaths": [
+          "name"
+        ],
+        "managed": true,
+        "kind": "subclass",
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "contentOrigin": "core",
+        "sourceNamespace": "daggerheart-srd-2.0"
+      }
+    },
+    "_id": "nH4tXru94LPpg8yN"
+  },
+  {
+    "type": "subclass",
+    "name": "Porteur divin",
+    "img": "icons/skills/toxins/cup-goblet-poisoned-spilled.webp",
+    "system": {
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null
+      },
+      "description": "",
+      "gmNotes": "",
+      "spellcastingTrait": "strength",
+      "features": [],
+      "featureState": 1,
+      "isMulticlass": false,
+      "linkedClass": "Compendium.daggerheart-campaign-toolkit.dh-classes.Item.pxnSUw9ikPFlvTfY"
+    },
+    "effects": [],
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "sourceId": "srd-2.0.subclass.divine-wielder",
+        "sourcePath": "data/srd-2.0/indexes/subclasses.json",
+        "source": {
+          "corpus": "daggerheart-srd",
+          "version": "2.0",
+          "status": "srd"
+        },
+        "mappingVersion": "BH-2026-07-09-active",
+        "linkedClassSourceId": "Seraph",
+        "mappingGaps": [],
+        "contentLocale": "fr",
+        "canonicalSourceId": "srd-2.0.subclass.divine-wielder",
+        "localeFallback": false,
+        "localizedPaths": [
+          "name"
+        ],
+        "managed": true,
+        "kind": "subclass",
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "contentOrigin": "core",
+        "sourceNamespace": "daggerheart-srd-2.0"
+      }
+    },
+    "_id": "nnUErxiMXlBGJSGV"
+  },
+  {
+    "type": "subclass",
+    "name": "Maître des mots",
+    "img": "icons/skills/toxins/cup-goblet-poisoned-spilled.webp",
+    "system": {
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null
+      },
+      "description": "",
+      "gmNotes": "",
+      "spellcastingTrait": "presence",
+      "features": [],
+      "featureState": 1,
+      "isMulticlass": false,
+      "linkedClass": "Compendium.daggerheart-campaign-toolkit.dh-classes.Item.XLnt2B6sv2PRep5n"
+    },
+    "effects": [],
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "sourceId": "srd-2.0.subclass.wordsmith",
+        "sourcePath": "data/srd-2.0/indexes/subclasses.json",
+        "source": {
+          "corpus": "daggerheart-srd",
+          "version": "2.0",
+          "status": "srd"
+        },
+        "mappingVersion": "BH-2026-07-09-active",
+        "linkedClassSourceId": "Bard",
+        "mappingGaps": [],
+        "contentLocale": "fr",
+        "canonicalSourceId": "srd-2.0.subclass.wordsmith",
+        "localeFallback": false,
+        "localizedPaths": [
+          "name"
+        ],
+        "managed": true,
+        "kind": "subclass",
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "contentOrigin": "core",
+        "sourceNamespace": "daggerheart-srd-2.0"
+      }
+    },
+    "_id": "syeqEboZLeRkhH7r"
+  },
+  {
+    "type": "subclass",
+    "name": "Sentinelle ailée",
+    "img": "icons/skills/toxins/cup-goblet-poisoned-spilled.webp",
+    "system": {
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null
+      },
+      "description": "",
+      "gmNotes": "",
+      "spellcastingTrait": "strength",
+      "features": [],
+      "featureState": 1,
+      "isMulticlass": false,
+      "linkedClass": "Compendium.daggerheart-campaign-toolkit.dh-classes.Item.pxnSUw9ikPFlvTfY"
+    },
+    "effects": [],
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "sourceId": "srd-2.0.subclass.winged-sentinel",
+        "sourcePath": "data/srd-2.0/indexes/subclasses.json",
+        "source": {
+          "corpus": "daggerheart-srd",
+          "version": "2.0",
+          "status": "srd"
+        },
+        "mappingVersion": "BH-2026-07-09-active",
+        "linkedClassSourceId": "Seraph",
+        "mappingGaps": [],
+        "contentLocale": "fr",
+        "canonicalSourceId": "srd-2.0.subclass.winged-sentinel",
+        "localeFallback": false,
+        "localizedPaths": [
+          "name"
+        ],
+        "managed": true,
+        "kind": "subclass",
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "contentOrigin": "core",
+        "sourceNamespace": "daggerheart-srd-2.0"
+      }
+    },
+    "_id": "wcFGIbTHdf4aytAz"
+  }
+]

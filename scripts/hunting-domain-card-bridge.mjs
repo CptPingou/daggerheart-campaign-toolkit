@@ -15,7 +15,24 @@ function contextualMarkerFromModel(model) {
   return item.flags?.[MODULE_ID]?.[FLAG_KEY] ?? null;
 }
 
-function isToolkitHuntingCard(model) {
+function toolkitCardMarkerFromModel(model) {
+  const item = model?.parent;
+  if (!item) return null;
+
+  if (typeof item.getFlag === "function") {
+    return item.getFlag(MODULE_ID, "toolkitCard") ?? null;
+  }
+
+  return item.flags?.[MODULE_ID]?.toolkitCard ?? null;
+}
+
+function isToolkitManagedDomainCard(model) {
+  const toolkitCard = toolkitCardMarkerFromModel(model);
+  if (toolkitCard?.eligibility === "toolkit" && toolkitCard?.family) {
+    return true;
+  }
+
+  // Legacy compatibility for the pre-family contextual Hunting implementation.
   const marker = contextualMarkerFromModel(model);
   return marker?.contextual === true && marker?.domainId === HUNTING_DOMAIN_ID;
 }
@@ -59,7 +76,7 @@ export function registerContextualDomainCardBypass() {
   const basePreCreate = basePrototype?._preCreate;
 
   prototype._preCreate = async function (data, options, user) {
-    if (!isToolkitHuntingCard(this)) {
+    if (!isToolkitManagedDomainCard(this)) {
       return original.call(this, data, options, user);
     }
 
@@ -106,7 +123,7 @@ export function registerContextualDomainCardBypass() {
 
   patched = true;
   console.log(
-    `${MODULE_ID} | contextual Hunting domainCard preCreate bypass registered`,
+    `${MODULE_ID} | Toolkit-managed domainCard preCreate bypass registered`,
   );
   return true;
 }

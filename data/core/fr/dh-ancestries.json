@@ -1,0 +1,4578 @@
+[
+  {
+    "name": "Réactions rapides",
+    "type": "feature",
+    "_id": "0NSPSuB8KSEYTJIP",
+    "img": "icons/skills/movement/feet-winged-boots-brown.webp",
+    "system": {
+      "description": "<p><strong>Marquez 1 Stress</strong> pour obtenir un avantage à un jet de réaction.</p>",
+      "resource": null,
+      "actions": {
+        "6Av1Y8JXWDkteLhc": {
+          "type": "effect",
+          "_id": "6Av1Y8JXWDkteLhc",
+          "systemPath": "actions",
+          "description": "",
+          "chatDisplay": true,
+          "actionType": "action",
+          "cost": [
+            {
+              "scalable": false,
+              "key": "stress",
+              "value": 1,
+              "step": null,
+              "itemId": null,
+              "consumeOnSuccess": false
+            }
+          ],
+          "uses": {
+            "value": null,
+            "max": "",
+            "recovery": null,
+            "consumeOnSuccess": false
+          },
+          "effects": [],
+          "target": {
+            "type": "any",
+            "amount": null
+          },
+          "name": "Marquer du Stress",
+          "img": "icons/skills/movement/feet-winged-boots-brown.webp",
+          "range": "",
+          "baseAction": false,
+          "originItem": {
+            "type": "itemCollection"
+          },
+          "triggers": [],
+          "areas": []
+        }
+      },
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null,
+        "artist": ""
+      },
+      "gmNotes": "",
+      "granter": null,
+      "featureForm": "passive",
+      "actorResources": []
+    },
+    "effects": [],
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "canonicalId": null,
+        "contentOrigin": "core",
+        "contentLocale": "fr",
+        "owned": true,
+        "family": "ancestry",
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "sourceNamespace": "daggerheart-srd-2.0"
+      }
+    }
+  },
+  {
+    "name": "Robustesse accrue",
+    "type": "feature",
+    "_id": "0RN0baBxh95GT1cm",
+    "img": "icons/magic/control/buff-strength-muscle-damage-red.webp",
+    "system": {
+      "description": "<p><strong>Dépensez 3 Espoir</strong> pour réduire de moitié les dégâts physiques que vous subissez.</p>",
+      "resource": null,
+      "actions": {
+        "pFPbjyexOPx5gog6": {
+          "type": "effect",
+          "_id": "pFPbjyexOPx5gog6",
+          "systemPath": "actions",
+          "description": "",
+          "chatDisplay": true,
+          "actionType": "action",
+          "cost": [
+            {
+              "scalable": false,
+              "key": "hope",
+              "value": 3,
+              "step": null,
+              "itemId": null,
+              "consumeOnSuccess": false
+            }
+          ],
+          "uses": {
+            "value": null,
+            "max": "",
+            "recovery": null,
+            "consumeOnSuccess": false
+          },
+          "effects": [],
+          "target": {
+            "type": "any",
+            "amount": null
+          },
+          "name": "Dépenser de l’Espoir",
+          "img": "icons/magic/control/buff-strength-muscle-damage-red.webp",
+          "range": "",
+          "baseAction": false,
+          "originItem": {
+            "type": "itemCollection"
+          },
+          "triggers": [],
+          "areas": []
+        }
+      },
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null,
+        "artist": ""
+      },
+      "gmNotes": "",
+      "granter": null,
+      "featureForm": "passive",
+      "actorResources": []
+    },
+    "effects": [],
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "canonicalId": null,
+        "contentOrigin": "core",
+        "contentLocale": "fr",
+        "owned": true,
+        "family": "ancestry",
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "sourceNamespace": "daggerheart-srd-2.0"
+      }
+    }
+  },
+  {
+    "name": "Efficace",
+    "type": "feature",
+    "_id": "2xlqKOkDxWHbuj4t",
+    "img": "icons/magic/time/clock-stopwatch-white-blue.webp",
+    "system": {
+      "description": "<p>Lorsque vous prenez un repos court, vous pouvez choisir une action de repos long à la place d’une action de repos court.</p>",
+      "resource": null,
+      "actions": {},
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null,
+        "artist": ""
+      },
+      "gmNotes": "",
+      "granter": null,
+      "featureForm": "passive",
+      "actorResources": []
+    },
+    "effects": [
+      {
+        "name": "Efficace",
+        "type": "base",
+        "_id": "EEryWN2nE33ppGHi",
+        "img": "icons/magic/time/clock-stopwatch-white-blue.webp",
+        "system": {
+          "changes": [
+            {
+              "key": "system.bonuses.rest.shortRest.longMoves",
+              "type": "add",
+              "value": 1,
+              "priority": null,
+              "phase": "initial"
+            },
+            {
+              "key": "system.bonuses.rest.shortRest.shortMoves",
+              "type": "add",
+              "value": -1,
+              "priority": null,
+              "phase": "initial"
+            }
+          ],
+          "duration": {
+            "description": ""
+          },
+          "rangeDependence": null,
+          "stacking": null,
+          "targetDispositions": []
+        },
+        "disabled": false,
+        "duration": {
+          "value": null,
+          "units": "seconds",
+          "expiry": null,
+          "expired": false
+        },
+        "description": "<p>Lorsque vous prenez un repos court, vous pouvez choisir une action de repos long à la place d’une action de repos court.</p>",
+        "tint": "#ffffff",
+        "transfer": true,
+        "statuses": [],
+        "sort": 0,
+        "flags": {},
+        "start": null,
+        "showIcon": 1,
+        "folder": null,
+        "origin": null
+      }
+    ],
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "canonicalId": null,
+        "contentOrigin": "core",
+        "contentLocale": "fr",
+        "owned": true,
+        "family": "ancestry",
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "sourceNamespace": "daggerheart-srd-2.0"
+      }
+    }
+  },
+  {
+    "name": "Simiah",
+    "img": "icons/magic/nature/tree-bare-glow-yellow.webp",
+    "type": "ancestry",
+    "system": {
+      "description": "<p>Les Simiah ressemblent à des singes anthropomorphes, avec de longs membres et des pieds préhensiles.</p>",
+      "features": [
+        {
+          "type": "primary",
+          "item": "Compendium.daggerheart-campaign-toolkit.dh-ancestries.Item.soQvPL0MrTLLcc31"
+        },
+        {
+          "type": "secondary",
+          "item": "Compendium.daggerheart-campaign-toolkit.dh-ancestries.Item.3lNqft3LmOlEIEkw"
+        }
+      ],
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null,
+        "artist": ""
+      },
+      "loreReference": "simiah",
+      "gmNotes": ""
+    },
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "canonicalId": "srd-2.0.ancestry.simiah",
+        "contentOrigin": "core",
+        "contentLocale": "fr",
+        "owned": true,
+        "family": "ancestry",
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "sourceNamespace": "daggerheart-srd-2.0"
+      }
+    },
+    "_id": "2yMLxxn7CHEvmShj",
+    "effects": []
+  },
+  {
+    "name": "Géant",
+    "img": "icons/creatures/magical/construct-iron-stomping-yellow.webp",
+    "type": "ancestry",
+    "system": {
+      "description": "<p>Les Géants sont d'immenses humanoïdes aux larges épaules, aux longs bras et dotés d'un à trois yeux.</p>",
+      "features": [
+        {
+          "type": "primary",
+          "item": "Compendium.daggerheart-campaign-toolkit.dh-ancestries.Item.tXWEMdLXafUSZTbK"
+        },
+        {
+          "type": "secondary",
+          "item": "Compendium.daggerheart-campaign-toolkit.dh-ancestries.Item.WRs2jvwM0STmkWIW"
+        }
+      ],
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null,
+        "artist": ""
+      },
+      "loreReference": "giant",
+      "gmNotes": ""
+    },
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "canonicalId": "srd-2.0.ancestry.giant",
+        "contentOrigin": "core",
+        "contentLocale": "fr",
+        "owned": true,
+        "family": "ancestry",
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "sourceNamespace": "daggerheart-srd-2.0"
+      }
+    },
+    "_id": "3U8CncG92a7ERIJ0",
+    "effects": []
+  },
+  {
+    "name": "Agile",
+    "type": "feature",
+    "_id": "3lNqft3LmOlEIEkw",
+    "img": "icons/skills/movement/arrows-up-trio-red.webp",
+    "system": {
+      "description": "<p>À la création du personnage, gagnez définitivement +1 en Esquive.</p>",
+      "resource": null,
+      "actions": {},
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null,
+        "artist": ""
+      },
+      "gmNotes": "",
+      "granter": null,
+      "featureForm": "passive",
+      "actorResources": []
+    },
+    "effects": [
+      {
+        "name": "Agile",
+        "type": "base",
+        "_id": "zaxVYqKzUYDJ3SDq",
+        "img": "icons/skills/movement/arrows-up-trio-red.webp",
+        "system": {
+          "changes": [
+            {
+              "key": "system.evasion",
+              "type": "add",
+              "value": 1,
+              "priority": null,
+              "phase": "initial"
+            }
+          ],
+          "duration": {
+            "description": ""
+          },
+          "rangeDependence": null,
+          "stacking": null,
+          "targetDispositions": []
+        },
+        "disabled": false,
+        "duration": {
+          "value": null,
+          "units": "seconds",
+          "expiry": null,
+          "expired": false
+        },
+        "description": "<p>À la création du personnage, gagnez définitivement +1 en Esquive.</p>",
+        "tint": "#ffffff",
+        "transfer": true,
+        "statuses": [],
+        "sort": 0,
+        "flags": {},
+        "start": null,
+        "showIcon": 1,
+        "folder": null,
+        "origin": null
+      }
+    ],
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "canonicalId": null,
+        "contentOrigin": "core",
+        "contentLocale": "fr",
+        "owned": true,
+        "family": "ancestry",
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "sourceNamespace": "daggerheart-srd-2.0"
+      }
+    }
+  },
+  {
+    "name": "Solide",
+    "type": "feature",
+    "_id": "60o3cKUZzxO9EDQF",
+    "img": "icons/magic/defensive/shield-barrier-glowing-triangle-purple-orange.webp",
+    "system": {
+      "description": "<p>Lorsqu’il ne vous reste qu’1 Point de Vie, les attaques contre vous subissent un désavantage.</p>",
+      "resource": null,
+      "actions": {},
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null,
+        "artist": ""
+      },
+      "gmNotes": "",
+      "granter": null,
+      "featureForm": "passive",
+      "actorResources": []
+    },
+    "effects": [],
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "canonicalId": null,
+        "contentOrigin": "core",
+        "contentLocale": "fr",
+        "owned": true,
+        "family": "ancestry",
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "sourceNamespace": "daggerheart-srd-2.0"
+      }
+    }
+  },
+  {
+    "name": "Porte-bonheur",
+    "type": "feature",
+    "_id": "8O6SQQMxKWr430QA",
+    "img": "icons/magic/life/heart-hand-gold-green.webp",
+    "system": {
+      "description": "<p>Au début de chaque session, chaque membre de votre groupe gagne 1 Espoir.</p>",
+      "resource": null,
+      "actions": {
+        "8sK3t73bFkpb999C": {
+          "type": "healing",
+          "_id": "8sK3t73bFkpb999C",
+          "systemPath": "actions",
+          "description": "",
+          "chatDisplay": true,
+          "actionType": "action",
+          "cost": [],
+          "uses": {
+            "value": null,
+            "max": "1",
+            "recovery": "session",
+            "consumeOnSuccess": false
+          },
+          "damage": {
+            "main": null,
+            "resources": {
+              "hope": {
+                "value": {
+                  "custom": {
+                    "enabled": true,
+                    "formula": "1"
+                  },
+                  "multiplier": "prof",
+                  "flatMultiplier": 1,
+                  "dice": "d6",
+                  "bonus": null
+                },
+                "applyTo": "hope",
+                "base": false,
+                "resultBased": false,
+                "valueAlt": {
+                  "multiplier": "prof",
+                  "flatMultiplier": 1,
+                  "dice": "d6",
+                  "bonus": null,
+                  "custom": {
+                    "enabled": false,
+                    "formula": ""
+                  }
+                },
+                "fullRestore": false,
+                "itemId": null
+              }
+            }
+          },
+          "target": {
+            "type": "friendly",
+            "amount": null
+          },
+          "effects": [],
+          "roll": {
+            "type": null,
+            "trait": null,
+            "difficulty": null,
+            "bonus": null,
+            "advState": "neutral",
+            "diceRolling": {
+              "multiplier": "prof",
+              "flatMultiplier": 1,
+              "dice": "d6",
+              "compare": null,
+              "treshold": null
+            },
+            "useDefault": false
+          },
+          "name": "Gagner de l’Espoir",
+          "img": "icons/magic/life/heart-hand-gold-green.webp",
+          "range": "",
+          "baseAction": false,
+          "originItem": {
+            "type": "itemCollection"
+          },
+          "triggers": [],
+          "areas": []
+        }
+      },
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null,
+        "artist": ""
+      },
+      "gmNotes": "",
+      "granter": null,
+      "featureForm": "passive",
+      "actorResources": []
+    },
+    "effects": [],
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "canonicalId": null,
+        "contentOrigin": "core",
+        "contentLocale": "fr",
+        "owned": true,
+        "family": "ancestry",
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "sourceNamespace": "daggerheart-srd-2.0"
+      }
+    }
+  },
+  {
+    "type": "ancestry",
+    "name": "Skykin",
+    "system": {
+      "loreReference": "skykin",
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null
+      },
+      "description": "<p>Les Skykin sont des humanoïdes dont le corps est fait de chair et d'air.</p>",
+      "gmNotes": "",
+      "features": [
+        {
+          "type": "primary",
+          "item": "Compendium.daggerheart-campaign-toolkit.dh-ancestries.Item.hgFrDlmnPjhRUxOg"
+        },
+        {
+          "type": "secondary",
+          "item": "Compendium.daggerheart-campaign-toolkit.dh-ancestries.Item.H18ab3im0cn6gYdC"
+        }
+      ]
+    },
+    "_id": "8j6sTY4Y2hfeUHyi",
+    "img": "icons/magic/air/air-pressure-shield-blue.webp",
+    "effects": [],
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "canonicalId": "srd-2.0.ancestry.skykin",
+        "contentOrigin": "core",
+        "contentLocale": "fr",
+        "owned": true,
+        "family": "ancestry",
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "sourceNamespace": "daggerheart-srd-2.0"
+      }
+    }
+  },
+  {
+    "name": "Réseau fungril",
+    "type": "feature",
+    "_id": "9tmeXm623hl4Qnws",
+    "img": "icons/commodities/biological/suckers-green.webp",
+    "system": {
+      "description": "<p>Faites un <strong>jet d’Instinct (12)</strong> pour utiliser votre réseau mycélien afin de communiquer avec d’autres membres de votre ascendance. En cas de réussite, vous pouvez communiquer quelle que soit la distance.</p>",
+      "resource": null,
+      "actions": {
+        "ZYfigAyUdDUteczO": {
+          "type": "attack",
+          "_id": "ZYfigAyUdDUteczO",
+          "systemPath": "actions",
+          "description": "",
+          "chatDisplay": true,
+          "actionType": "action",
+          "cost": [],
+          "uses": {
+            "value": null,
+            "max": "",
+            "recovery": null,
+            "consumeOnSuccess": false
+          },
+          "damage": {
+            "main": null,
+            "resources": {}
+          },
+          "target": {
+            "type": "any",
+            "amount": null
+          },
+          "effects": [],
+          "roll": {
+            "type": "trait",
+            "trait": "instinct",
+            "difficulty": 12,
+            "bonus": null,
+            "advState": "neutral",
+            "diceRolling": {
+              "multiplier": "flat",
+              "flatMultiplier": 1,
+              "dice": "d6",
+              "compare": null,
+              "treshold": null
+            },
+            "useDefault": false
+          },
+          "save": {
+            "trait": null,
+            "difficulty": null,
+            "damageMod": "none"
+          },
+          "name": "Communiquer",
+          "img": "icons/magic/sonic/explosion-impact-shock-wave.webp",
+          "range": "",
+          "baseAction": false,
+          "originItem": {
+            "type": "itemCollection"
+          },
+          "triggers": [],
+          "areas": []
+        }
+      },
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null,
+        "artist": ""
+      },
+      "gmNotes": "",
+      "granter": null,
+      "featureForm": "passive",
+      "actorResources": []
+    },
+    "effects": [],
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "canonicalId": null,
+        "contentOrigin": "core",
+        "contentLocale": "fr",
+        "owned": true,
+        "family": "ancestry",
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "sourceNamespace": "daggerheart-srd-2.0"
+      }
+    }
+  },
+  {
+    "name": "Carapace",
+    "type": "feature",
+    "_id": "A6a87OWA3tx16g9V",
+    "img": "icons/creatures/reptiles/turtle-shell-glowing-green.webp",
+    "system": {
+      "description": "<p>Augmentez vos seuils de dégâts d’un montant égal à votre Maîtrise.</p>",
+      "resource": null,
+      "actions": {},
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null,
+        "artist": ""
+      },
+      "gmNotes": "",
+      "granter": null,
+      "featureForm": "passive",
+      "actorResources": []
+    },
+    "effects": [
+      {
+        "name": "Carapace",
+        "type": "base",
+        "_id": "41uiZKXzSSomf9YD",
+        "img": "icons/creatures/reptiles/turtle-shell-glowing-green.webp",
+        "system": {
+          "changes": [
+            {
+              "key": "system.damageThresholds.major",
+              "type": "add",
+              "value": "@prof",
+              "priority": 21,
+              "phase": "initial"
+            },
+            {
+              "key": "system.damageThresholds.severe",
+              "type": "add",
+              "value": "@prof",
+              "priority": 21,
+              "phase": "initial"
+            }
+          ],
+          "duration": {
+            "description": ""
+          },
+          "rangeDependence": null,
+          "stacking": null,
+          "targetDispositions": []
+        },
+        "disabled": false,
+        "duration": {
+          "value": null,
+          "units": "seconds",
+          "expiry": null,
+          "expired": false
+        },
+        "description": "<p>Augmentez vos seuils de dégâts d’un montant égal à votre Maîtrise.</p>",
+        "tint": "#ffffff",
+        "transfer": true,
+        "statuses": [],
+        "sort": 0,
+        "flags": {},
+        "start": null,
+        "showIcon": 1,
+        "folder": null,
+        "origin": null
+      }
+    ],
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "canonicalId": null,
+        "contentOrigin": "core",
+        "contentLocale": "fr",
+        "owned": true,
+        "family": "ancestry",
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "sourceNamespace": "daggerheart-srd-2.0"
+      }
+    }
+  },
+  {
+    "name": "Charge",
+    "type": "feature",
+    "_id": "AA2CZlJSWW8GPhrR",
+    "img": "icons/magic/movement/trail-streak-impact-blue.webp",
+    "system": {
+      "description": "<p>Lorsque vous réussissez un jet d’Agilité pour passer d’une portée Lointaine ou Très lointaine à une portée de Mêlée avec une ou plusieurs cibles, vous pouvez <strong>marquer 1 Stress</strong> pour infliger <strong>1d12</strong> dégâts physiques à toutes les cibles à portée de Mêlée.</p>",
+      "resource": null,
+      "actions": {
+        "KLg0T6I1w24sfIbH": {
+          "type": "damage",
+          "_id": "KLg0T6I1w24sfIbH",
+          "systemPath": "actions",
+          "description": "",
+          "chatDisplay": true,
+          "actionType": "action",
+          "cost": [
+            {
+              "scalable": false,
+              "key": "stress",
+              "value": 1,
+              "step": null,
+              "itemId": null,
+              "consumeOnSuccess": false
+            }
+          ],
+          "uses": {
+            "value": null,
+            "max": "",
+            "recovery": null,
+            "consumeOnSuccess": false
+          },
+          "damage": {
+            "main": {
+              "value": {
+                "custom": {
+                  "enabled": false,
+                  "formula": ""
+                },
+                "multiplier": "flat",
+                "flatMultiplier": 1,
+                "dice": "d12",
+                "bonus": null
+              },
+              "applyTo": "hitPoints",
+              "type": [
+                "magical"
+              ],
+              "base": false,
+              "resultBased": false,
+              "valueAlt": {
+                "multiplier": "prof",
+                "flatMultiplier": 1,
+                "dice": "d6",
+                "bonus": null,
+                "custom": {
+                  "enabled": false,
+                  "formula": ""
+                }
+              },
+              "includeBase": false,
+              "direct": false,
+              "fullRestore": false,
+              "itemId": null
+            },
+            "resources": {}
+          },
+          "target": {
+            "type": "any",
+            "amount": null
+          },
+          "effects": [],
+          "name": "Infliger des dégâts",
+          "img": "icons/magic/movement/trail-streak-impact-blue.webp",
+          "range": "",
+          "baseAction": false,
+          "originItem": {
+            "type": "itemCollection"
+          },
+          "triggers": [],
+          "areas": []
+        }
+      },
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null,
+        "artist": ""
+      },
+      "gmNotes": "",
+      "granter": null,
+      "featureForm": "passive",
+      "actorResources": []
+    },
+    "effects": [],
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "canonicalId": null,
+        "contentOrigin": "core",
+        "contentLocale": "fr",
+        "owned": true,
+        "family": "ancestry",
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "sourceNamespace": "daggerheart-srd-2.0"
+      }
+    }
+  },
+  {
+    "name": "Sens du danger",
+    "type": "feature",
+    "_id": "AXqcoxnRoWBbbKpK",
+    "img": "icons/magic/perception/orb-eye-scrying.webp",
+    "system": {
+      "description": "<p>Une fois par repos, <strong>marquez 1 Stress</strong> pour obliger un adversaire à relancer une attaque contre vous ou un allié à portée Très proche.</p>",
+      "resource": null,
+      "actions": {
+        "V2K3pMWOCVwBUnjq": {
+          "type": "effect",
+          "_id": "V2K3pMWOCVwBUnjq",
+          "systemPath": "actions",
+          "description": "",
+          "chatDisplay": true,
+          "actionType": "action",
+          "cost": [
+            {
+              "scalable": false,
+              "key": "stress",
+              "value": 1,
+              "step": null,
+              "itemId": null,
+              "consumeOnSuccess": false
+            }
+          ],
+          "uses": {
+            "value": null,
+            "max": "1",
+            "recovery": "shortRest",
+            "consumeOnSuccess": false
+          },
+          "effects": [],
+          "target": {
+            "type": "friendly",
+            "amount": null
+          },
+          "name": "Marquer du Stress",
+          "img": "icons/magic/perception/orb-eye-scrying.webp",
+          "range": "veryClose",
+          "baseAction": false,
+          "originItem": {
+            "type": "itemCollection"
+          },
+          "triggers": [],
+          "areas": []
+        }
+      },
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null,
+        "artist": ""
+      },
+      "gmNotes": "",
+      "granter": null,
+      "featureForm": "passive",
+      "actorResources": []
+    },
+    "effects": [],
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "canonicalId": null,
+        "contentOrigin": "core",
+        "contentLocale": "fr",
+        "owned": true,
+        "family": "ancestry",
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "sourceNamespace": "daggerheart-srd-2.0"
+      }
+    }
+  },
+  {
+    "name": "Adaptabilité",
+    "type": "feature",
+    "_id": "BNofV1UC4ZbdFTkb",
+    "img": "icons/magic/control/silhouette-hold-change-blue.webp",
+    "system": {
+      "description": "<p>Lorsque vous échouez à un jet utilisant l’une de vos Expériences, vous pouvez <strong>marquer 1 Stress</strong> pour le relancer.</p>",
+      "resource": null,
+      "actions": {
+        "D7EE2L2Y96nfrfTW": {
+          "type": "effect",
+          "_id": "D7EE2L2Y96nfrfTW",
+          "systemPath": "actions",
+          "description": "",
+          "chatDisplay": true,
+          "actionType": "action",
+          "cost": [
+            {
+              "scalable": false,
+              "key": "stress",
+              "value": 1,
+              "step": null,
+              "itemId": null,
+              "consumeOnSuccess": false
+            }
+          ],
+          "uses": {
+            "value": null,
+            "max": "",
+            "recovery": null,
+            "consumeOnSuccess": false
+          },
+          "effects": [],
+          "target": {
+            "type": "any",
+            "amount": null
+          },
+          "name": "Marquer du Stress",
+          "img": "icons/magic/control/silhouette-hold-change-blue.webp",
+          "range": "",
+          "baseAction": false,
+          "originItem": {
+            "type": "itemCollection"
+          },
+          "triggers": [],
+          "areas": []
+        }
+      },
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null,
+        "artist": ""
+      },
+      "gmNotes": "",
+      "granter": null,
+      "featureForm": "passive",
+      "actorResources": []
+    },
+    "effects": [],
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "canonicalId": null,
+        "contentOrigin": "core",
+        "contentLocale": "fr",
+        "owned": true,
+        "family": "ancestry",
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "sourceNamespace": "daggerheart-srd-2.0"
+      }
+    }
+  },
+  {
+    "name": "Halfelin",
+    "img": "icons/tools/navigation/compass-brass-blue-red.webp",
+    "type": "ancestry",
+    "system": {
+      "description": "<p>Les Halfelins sont de petits humanoïdes aux grands pieds velus et aux oreilles rondes proéminentes.</p>",
+      "features": [
+        {
+          "type": "primary",
+          "item": "Compendium.daggerheart-campaign-toolkit.dh-ancestries.Item.8O6SQQMxKWr430QA"
+        },
+        {
+          "type": "secondary",
+          "item": "Compendium.daggerheart-campaign-toolkit.dh-ancestries.Item.e2Cu6exxtvfQzc1e"
+        }
+      ],
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null,
+        "artist": ""
+      },
+      "loreReference": "halfling",
+      "gmNotes": ""
+    },
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "canonicalId": "srd-2.0.ancestry.halfling",
+        "contentOrigin": "core",
+        "contentLocale": "fr",
+        "owned": true,
+        "family": "ancestry",
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "sourceNamespace": "daggerheart-srd-2.0"
+      }
+    },
+    "_id": "CtL2jDjvPOJxNJKm",
+    "effects": []
+  },
+  {
+    "type": "feature",
+    "name": "Inébranlable",
+    "_id": "CvUVZRfxgxhmRQ9I",
+    "img": "icons/magic/defensive/shield-barrier-glowing-triangle-orange.webp",
+    "system": {
+      "attribution": {},
+      "description": "<p>Tant que vous touchez le sol, vous ne pouvez pas être soulevé ou déplacé contre votre volonté.</p>",
+      "gmNotes": "",
+      "resource": null,
+      "actions": {},
+      "featureForm": "passive",
+      "granter": null,
+      "actorResources": []
+    },
+    "effects": [],
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "canonicalId": null,
+        "contentOrigin": "core",
+        "contentLocale": "fr",
+        "owned": true,
+        "family": "ancestry",
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "sourceNamespace": "daggerheart-srd-2.0"
+      }
+    }
+  },
+  {
+    "name": "Orc",
+    "img": "icons/commodities/bones/horn-drinking-white.webp",
+    "type": "ancestry",
+    "system": {
+      "description": "<p>Les Orcs sont des humanoïdes que l'on reconnaît aisément à leurs traits anguleux et aux défenses semblables à celles d'un sanglier qui dépassent de leur mâchoire inférieure.</p>",
+      "features": [
+        {
+          "type": "primary",
+          "item": "Compendium.daggerheart-campaign-toolkit.dh-ancestries.Item.60o3cKUZzxO9EDQF"
+        },
+        {
+          "type": "secondary",
+          "item": "Compendium.daggerheart-campaign-toolkit.dh-ancestries.Item.YhxD1ujZpftPu19w"
+        }
+      ],
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null,
+        "artist": ""
+      },
+      "loreReference": "orc",
+      "gmNotes": ""
+    },
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "canonicalId": "srd-2.0.ancestry.orc",
+        "contentOrigin": "core",
+        "contentLocale": "fr",
+        "owned": true,
+        "family": "ancestry",
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "sourceNamespace": "daggerheart-srd-2.0"
+      }
+    },
+    "_id": "D1RbUsRV9HpTrPuF",
+    "effects": []
+  },
+  {
+    "name": "Gobelin",
+    "img": "icons/magic/symbols/arrowhead-green.webp",
+    "type": "ancestry",
+    "system": {
+      "description": "<p>Les Gobelins sont de petits humanoïdes facilement reconnaissables à leurs grands yeux et à leurs immenses oreilles membraneuses.</p>",
+      "features": [
+        {
+          "type": "primary",
+          "item": "Compendium.daggerheart-campaign-toolkit.dh-ancestries.Item.YsJticxv8OFndd4D"
+        },
+        {
+          "type": "secondary",
+          "item": "Compendium.daggerheart-campaign-toolkit.dh-ancestries.Item.AXqcoxnRoWBbbKpK"
+        }
+      ],
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null,
+        "artist": ""
+      },
+      "loreReference": "goblin",
+      "gmNotes": ""
+    },
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "canonicalId": "srd-2.0.ancestry.goblin",
+        "contentOrigin": "core",
+        "contentLocale": "fr",
+        "owned": true,
+        "family": "ancestry",
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "sourceNamespace": "daggerheart-srd-2.0"
+      }
+    },
+    "_id": "EKPEdIz9lA9grPqH",
+    "effects": []
+  },
+  {
+    "type": "feature",
+    "name": "Embrasement",
+    "_id": "FaHu2yAthY6ZvM2d",
+    "img": "icons/magic/fire/dagger-rune-enchant-flame-strong-red.webp",
+    "system": {
+      "attribution": {},
+      "description": "<p><strong>Marquez 1 Stress</strong> pour envelopper votre arme principale de flammes jusqu’à la fin de la scène. Tant qu’elle brûle, elle émet une vive lumière et vous gagnez un bonus de <strong>1d6</strong> aux jets de dégâts effectués avec cette arme.</p>",
+      "gmNotes": "",
+      "resource": null,
+      "actions": {
+        "uMtBNRpIZ67EyWxD": {
+          "type": "effect",
+          "_id": "uMtBNRpIZ67EyWxD",
+          "systemPath": "actions",
+          "baseAction": false,
+          "description": "",
+          "chatDisplay": true,
+          "originItem": {
+            "type": "itemCollection"
+          },
+          "actionType": "action",
+          "triggers": [],
+          "areas": [],
+          "cost": [
+            {
+              "scalable": false,
+              "key": "stress",
+              "value": 1,
+              "itemId": null,
+              "step": null,
+              "consumeOnSuccess": false
+            }
+          ],
+          "uses": {
+            "value": null,
+            "max": "",
+            "recovery": null,
+            "consumeOnSuccess": false
+          },
+          "effects": [
+            {
+              "_id": "YWiD5AGYLBKvajs2",
+              "onSave": false
+            }
+          ],
+          "target": {
+            "type": "self",
+            "amount": null
+          },
+          "name": "Marquer du Stress",
+          "range": "self"
+        }
+      },
+      "featureForm": "passive",
+      "granter": null,
+      "actorResources": []
+    },
+    "effects": [
+      {
+        "name": "Embrasement",
+        "disabled": false,
+        "img": "icons/magic/fire/dagger-rune-enchant-flame-strong-red.webp",
+        "description": "<p><strong>Marquez 1 Stress</strong> pour envelopper votre arme principale de flammes jusqu’à la fin de la scène. Tant qu’elle brûle, elle émet une vive lumière et vous gagnez un bonus de <strong>1d6</strong> aux jets de dégâts effectués avec cette arme.</p>",
+        "transfer": false,
+        "statuses": [],
+        "system": {
+          "changes": [
+            {
+              "key": "system.bonuses.damage.primaryWeapon.dice",
+              "type": "add",
+              "value": "1d6",
+              "priority": null,
+              "phase": "initial"
+            },
+            {
+              "key": "token.light.bright",
+              "type": "override",
+              "value": 5,
+              "priority": null,
+              "phase": "initial"
+            },
+            {
+              "key": "token.light.dim",
+              "type": "override",
+              "value": 10,
+              "priority": null,
+              "phase": "initial"
+            }
+          ],
+          "duration": {
+            "description": "",
+            "type": "scene"
+          },
+          "rangeDependence": null,
+          "stacking": null,
+          "targetDispositions": []
+        },
+        "_id": "YWiD5AGYLBKvajs2",
+        "type": "base",
+        "start": {
+          "time": 0,
+          "combat": null,
+          "combatant": null,
+          "initiative": null,
+          "round": null,
+          "turn": null
+        },
+        "duration": {
+          "value": null,
+          "units": "seconds",
+          "expiry": null,
+          "expired": false
+        },
+        "tint": "#ffffff",
+        "showIcon": 1,
+        "folder": null,
+        "sort": 0,
+        "flags": {},
+        "origin": null
+      }
+    ],
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "canonicalId": null,
+        "contentOrigin": "core",
+        "contentLocale": "fr",
+        "owned": true,
+        "family": "ancestry",
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "sourceNamespace": "daggerheart-srd-2.0"
+      }
+    }
+  },
+  {
+    "name": "Imperturbable",
+    "type": "feature",
+    "_id": "G5pE8FW94V1W9jJx",
+    "img": "icons/magic/control/buff-flight-wings-runes-blue-white.webp",
+    "system": {
+      "description": "<p>Lorsque vous devriez marquer du Stress, lancez un <strong>d6</strong>. Sur un résultat de 6, ne le marquez pas.</p>",
+      "resource": null,
+      "actions": {
+        "x8xbjyCrJ0okOpIU": {
+          "type": "attack",
+          "_id": "x8xbjyCrJ0okOpIU",
+          "systemPath": "actions",
+          "description": "",
+          "chatDisplay": true,
+          "actionType": "action",
+          "cost": [],
+          "uses": {
+            "value": null,
+            "max": "",
+            "recovery": null,
+            "consumeOnSuccess": false
+          },
+          "damage": {
+            "main": null,
+            "resources": {}
+          },
+          "target": {
+            "type": "any",
+            "amount": null
+          },
+          "effects": [],
+          "roll": {
+            "type": "diceSet",
+            "trait": null,
+            "difficulty": null,
+            "bonus": null,
+            "advState": "neutral",
+            "diceRolling": {
+              "multiplier": "flat",
+              "flatMultiplier": 1,
+              "dice": "d6",
+              "compare": "equal",
+              "treshold": 6
+            },
+            "useDefault": false
+          },
+          "save": {
+            "trait": null,
+            "difficulty": null,
+            "damageMod": "none"
+          },
+          "name": "Utiliser",
+          "img": "icons/magic/control/buff-flight-wings-runes-blue-white.webp",
+          "range": "",
+          "baseAction": false,
+          "originItem": {
+            "type": "itemCollection"
+          },
+          "triggers": [],
+          "areas": []
+        }
+      },
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null,
+        "artist": ""
+      },
+      "gmNotes": "",
+      "granter": null,
+      "featureForm": "passive",
+      "actorResources": []
+    },
+    "effects": [],
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "canonicalId": null,
+        "contentOrigin": "core",
+        "contentLocale": "fr",
+        "owned": true,
+        "family": "ancestry",
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "sourceNamespace": "daggerheart-srd-2.0"
+      }
+    }
+  },
+  {
+    "name": "Amphibie",
+    "type": "feature",
+    "_id": "GVhmLouGq9GWCsN8",
+    "img": "icons/magic/water/bubbles-air-water-light.webp",
+    "system": {
+      "description": "<p>Vous pouvez respirer et vous déplacer naturellement sous l’eau.</p>",
+      "resource": null,
+      "actions": {},
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null,
+        "artist": ""
+      },
+      "gmNotes": "",
+      "granter": null,
+      "featureForm": "passive",
+      "actorResources": []
+    },
+    "effects": [],
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "canonicalId": null,
+        "contentOrigin": "core",
+        "contentLocale": "fr",
+        "owned": true,
+        "family": "ancestry",
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "sourceNamespace": "daggerheart-srd-2.0"
+      }
+    }
+  },
+  {
+    "type": "feature",
+    "name": "Œil du cyclone",
+    "_id": "H18ab3im0cn6gYdC",
+    "img": "icons/magic/air/wind-vortex-swirl-blue-purple.webp",
+    "system": {
+      "attribution": {},
+      "description": "<p><strong>Dépensez 2 Espoir</strong> pour accorder à vous-même ou à un allié à portée de Mêlée un bonus de +1 en Esquive jusqu’à ce que vous subissiez des dégâts Sévères ou que vous utilisiez à nouveau cette capacité.</p>",
+      "gmNotes": "",
+      "resource": null,
+      "actions": {
+        "q5tGBckJzCGyIbmu": {
+          "type": "effect",
+          "_id": "q5tGBckJzCGyIbmu",
+          "systemPath": "actions",
+          "baseAction": false,
+          "description": "",
+          "chatDisplay": true,
+          "originItem": {
+            "type": "itemCollection"
+          },
+          "actionType": "action",
+          "triggers": [],
+          "areas": [],
+          "cost": [
+            {
+              "scalable": false,
+              "key": "hope",
+              "value": 2,
+              "itemId": null,
+              "step": null,
+              "consumeOnSuccess": false
+            }
+          ],
+          "uses": {
+            "value": null,
+            "max": "",
+            "recovery": null,
+            "consumeOnSuccess": false
+          },
+          "effects": [
+            {
+              "_id": "2XEJf5yXdvk1r81V",
+              "onSave": false
+            }
+          ],
+          "target": {
+            "type": "any",
+            "amount": 1
+          },
+          "name": "Dépenser de l’Espoir",
+          "range": "veryClose"
+        }
+      },
+      "featureForm": "passive",
+      "granter": null,
+      "actorResources": []
+    },
+    "effects": [
+      {
+        "name": "Œil du cyclone",
+        "disabled": false,
+        "img": "icons/magic/air/wind-vortex-swirl-blue-purple.webp",
+        "description": "<p><strong>Dépensez 2 Espoir</strong> pour accorder à vous-même ou à un allié à portée de Mêlée un bonus de +1 en Esquive jusqu’à ce que vous subissiez des dégâts Sévères ou que vous utilisiez à nouveau cette capacité.</p>",
+        "transfer": false,
+        "statuses": [],
+        "system": {
+          "changes": [
+            {
+              "key": "system.evasion",
+              "type": "add",
+              "value": 1,
+              "priority": null,
+              "phase": "initial"
+            }
+          ],
+          "duration": {
+            "description": "",
+            "type": ""
+          },
+          "rangeDependence": null,
+          "stacking": null,
+          "targetDispositions": []
+        },
+        "_id": "2XEJf5yXdvk1r81V",
+        "type": "base",
+        "start": {
+          "time": 0,
+          "combat": null,
+          "combatant": null,
+          "initiative": null,
+          "round": null,
+          "turn": null
+        },
+        "duration": {
+          "value": null,
+          "units": "seconds",
+          "expiry": null,
+          "expired": false
+        },
+        "tint": "#ffffff",
+        "showIcon": 1,
+        "folder": null,
+        "sort": 0,
+        "flags": {},
+        "origin": null
+      }
+    ],
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "canonicalId": null,
+        "contentOrigin": "core",
+        "contentLocale": "fr",
+        "owned": true,
+        "family": "ancestry",
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "sourceNamespace": "daggerheart-srd-2.0"
+      }
+    }
+  },
+  {
+    "type": "feature",
+    "name": "Source de vie",
+    "_id": "HCyMnY3yW1PBTZvc",
+    "img": "icons/magic/water/water-well.webp",
+    "system": {
+      "attribution": {},
+      "description": "<p>Une fois par repos, si vous avez accès à une petite quantité d’eau, vous pouvez <strong>marquer 1 Stress</strong> pour effacer 1 Point de Vie marqué sur vous-même ou sur un allié à portée Très proche.</p>",
+      "gmNotes": "",
+      "resource": null,
+      "actions": {
+        "xIWHvlsLjznMLrGX": {
+          "type": "healing",
+          "_id": "xIWHvlsLjznMLrGX",
+          "systemPath": "actions",
+          "baseAction": false,
+          "description": "",
+          "chatDisplay": true,
+          "originItem": {
+            "type": "itemCollection"
+          },
+          "actionType": "action",
+          "triggers": [],
+          "areas": [],
+          "cost": [
+            {
+              "scalable": false,
+              "key": "stress",
+              "value": 1,
+              "itemId": null,
+              "step": null,
+              "consumeOnSuccess": false
+            }
+          ],
+          "uses": {
+            "value": null,
+            "max": "1",
+            "recovery": "shortRest",
+            "consumeOnSuccess": false
+          },
+          "damage": {
+            "main": null,
+            "resources": {
+              "hitPoints": {
+                "base": false,
+                "applyTo": "hitPoints",
+                "resultBased": false,
+                "fullRestore": false,
+                "value": {
+                  "multiplier": "flat",
+                  "flatMultiplier": 0,
+                  "dice": "d6",
+                  "bonus": 1,
+                  "custom": {
+                    "enabled": false,
+                    "formula": ""
+                  }
+                },
+                "valueAlt": {
+                  "multiplier": "flat",
+                  "flatMultiplier": 1,
+                  "dice": "d6",
+                  "bonus": null,
+                  "custom": {
+                    "enabled": false,
+                    "formula": ""
+                  }
+                },
+                "itemId": null
+              }
+            }
+          },
+          "target": {
+            "type": "any",
+            "amount": 1
+          },
+          "effects": [],
+          "roll": {
+            "type": null,
+            "trait": null,
+            "difficulty": null,
+            "bonus": null,
+            "advState": "neutral",
+            "diceRolling": {
+              "multiplier": "prof",
+              "flatMultiplier": 1,
+              "dice": "d6",
+              "compare": null,
+              "treshold": null
+            },
+            "useDefault": false
+          },
+          "name": "Marquer du Stress",
+          "range": "veryClose"
+        }
+      },
+      "featureForm": "passive",
+      "granter": null,
+      "actorResources": []
+    },
+    "effects": [],
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "canonicalId": null,
+        "contentOrigin": "core",
+        "contentLocale": "fr",
+        "owned": true,
+        "family": "ancestry",
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "sourceNamespace": "daggerheart-srd-2.0"
+      }
+    }
+  },
+  {
+    "name": "Grande endurance",
+    "type": "feature",
+    "_id": "HMXNJZ7ynzajR2KT",
+    "img": "icons/magic/control/buff-flight-wings-runes-purple-orange.webp",
+    "system": {
+      "description": "<p>À la création du personnage, gagnez un emplacement de Stress supplémentaire.</p>",
+      "resource": null,
+      "actions": {},
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null,
+        "artist": ""
+      },
+      "gmNotes": "",
+      "granter": null,
+      "featureForm": "passive",
+      "actorResources": []
+    },
+    "effects": [
+      {
+        "name": "Grande endurance",
+        "type": "base",
+        "_id": "Xl3TsKUJcl6vi1ly",
+        "img": "icons/magic/control/buff-flight-wings-runes-purple-orange.webp",
+        "system": {
+          "changes": [
+            {
+              "key": "system.resources.stress.max",
+              "type": "add",
+              "value": 1,
+              "priority": null,
+              "phase": "initial"
+            }
+          ],
+          "duration": {
+            "description": ""
+          },
+          "rangeDependence": null,
+          "stacking": null,
+          "targetDispositions": []
+        },
+        "disabled": false,
+        "duration": {
+          "value": null,
+          "units": "seconds",
+          "expiry": null,
+          "expired": false
+        },
+        "description": "<p>À la création du personnage, gagnez un emplacement de Stress supplémentaire.</p>",
+        "tint": "#ffffff",
+        "transfer": true,
+        "statuses": [],
+        "sort": 0,
+        "flags": {},
+        "start": null,
+        "showIcon": 1,
+        "folder": null,
+        "origin": null
+      }
+    ],
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "canonicalId": null,
+        "contentOrigin": "core",
+        "contentLocale": "fr",
+        "owned": true,
+        "family": "ancestry",
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "sourceNamespace": "daggerheart-srd-2.0"
+      }
+    }
+  },
+  {
+    "name": "Faune",
+    "img": "icons/magic/nature/leaf-flower-wreath-glow-green-blue.webp",
+    "type": "ancestry",
+    "system": {
+      "description": "<p>Les Faunes ressemblent à des chèvres humanoïdes, avec des cornes recourbées, des pupilles carrées et des sabots fendus.</p>",
+      "features": [
+        {
+          "type": "primary",
+          "item": "Compendium.daggerheart-campaign-toolkit.dh-ancestries.Item.nLL2zuDDDbbyxlrQ"
+        },
+        {
+          "type": "secondary",
+          "item": "Compendium.daggerheart-campaign-toolkit.dh-ancestries.Item.gpW19TfJk0WWFh1S"
+        }
+      ],
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null,
+        "artist": ""
+      },
+      "loreReference": "faun",
+      "gmNotes": ""
+    },
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "canonicalId": "srd-2.0.ancestry.faun",
+        "contentOrigin": "core",
+        "contentLocale": "fr",
+        "owned": true,
+        "family": "ancestry",
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "sourceNamespace": "daggerheart-srd-2.0"
+      }
+    },
+    "_id": "HaYhe6WqoXW5EbRl",
+    "effects": []
+  },
+  {
+    "name": "Ribbet",
+    "img": "icons/creatures/amphibians/bullfrog-glass-teal.webp",
+    "type": "ancestry",
+    "system": {
+      "description": "<p>Les Ribbet ressemblent à des grenouilles anthropomorphes, avec des yeux saillants ainsi que des mains et des pieds palmés.</p>",
+      "features": [
+        {
+          "type": "primary",
+          "item": "Compendium.daggerheart-campaign-toolkit.dh-ancestries.Item.GVhmLouGq9GWCsN8"
+        },
+        {
+          "type": "secondary",
+          "item": "Compendium.daggerheart-campaign-toolkit.dh-ancestries.Item.oWbdlh51ajn1Q5kL"
+        }
+      ],
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null,
+        "artist": ""
+      },
+      "loreReference": "ribbet",
+      "gmNotes": ""
+    },
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "canonicalId": "srd-2.0.ancestry.ribbet",
+        "contentOrigin": "core",
+        "contentLocale": "fr",
+        "owned": true,
+        "family": "ancestry",
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "sourceNamespace": "daggerheart-srd-2.0"
+      }
+    },
+    "_id": "HwOoBKXOL9Tf5j85",
+    "effects": []
+  },
+  {
+    "name": "Intrépide",
+    "type": "feature",
+    "_id": "IlWvn5kCqCBMuUJn",
+    "img": "icons/magic/light/orb-container-orange.webp",
+    "system": {
+      "description": "<p>Lorsque vous obtenez un jet avec Peur, vous pouvez <strong>marquer 2 Stress</strong> pour le transformer en jet avec Espoir.</p>",
+      "resource": null,
+      "actions": {
+        "G1H7k5RdvS1EJgFu": {
+          "type": "effect",
+          "_id": "G1H7k5RdvS1EJgFu",
+          "systemPath": "actions",
+          "description": "",
+          "chatDisplay": true,
+          "actionType": "action",
+          "cost": [
+            {
+              "scalable": false,
+              "key": "stress",
+              "value": 2,
+              "step": null,
+              "itemId": null,
+              "consumeOnSuccess": false
+            }
+          ],
+          "uses": {
+            "value": null,
+            "max": "",
+            "recovery": null,
+            "consumeOnSuccess": false
+          },
+          "effects": [],
+          "target": {
+            "type": "self",
+            "amount": null
+          },
+          "name": "Marquer du Stress",
+          "img": "icons/magic/light/orb-container-orange.webp",
+          "range": "",
+          "baseAction": false,
+          "originItem": {
+            "type": "itemCollection"
+          },
+          "triggers": [],
+          "areas": []
+        }
+      },
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null,
+        "artist": ""
+      },
+      "gmNotes": "",
+      "granter": null,
+      "featureForm": "passive",
+      "actorResources": []
+    },
+    "effects": [],
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "canonicalId": null,
+        "contentOrigin": "core",
+        "contentLocale": "fr",
+        "owned": true,
+        "family": "ancestry",
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "sourceNamespace": "daggerheart-srd-2.0"
+      }
+    }
+  },
+  {
+    "name": "Fungril",
+    "img": "icons/commodities/biological/suckers-green.webp",
+    "type": "ancestry",
+    "system": {
+      "description": "<p>Les Fungrils ressemblent à des champignons humanoïdes. Leur apparence peut être plus humanoïde ou plus fongique, et leurs couleurs vont des tons terreux aux rouges, jaunes, violets et bleus éclatants. Leur corps, leur visage et leurs membres présentent une incroyable diversité, sans qu’il existe de morphologie commune. Leur taille peut aller d’environ 60 cm à plus de 2 m. Un Fungril vit généralement autour de 300 ans, bien que certains vivent beaucoup plus longtemps. Ils peuvent communiquer sans paroles et nombre d’entre eux utilisent un réseau mycélien pour échanger chimiquement des informations avec d’autres Fungrils sur de longues distances.</p>",
+      "features": [
+        {
+          "type": "primary",
+          "item": "Compendium.daggerheart-campaign-toolkit.dh-ancestries.Item.9tmeXm623hl4Qnws"
+        },
+        {
+          "type": "secondary",
+          "item": "Compendium.daggerheart-campaign-toolkit.dh-ancestries.Item.WuwXH2r2uM9sDJtj"
+        }
+      ],
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null,
+        "artist": ""
+      },
+      "loreReference": "fungril",
+      "gmNotes": ""
+    },
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "canonicalId": "srd-2.0.ancestry.fungril",
+        "contentOrigin": "core",
+        "contentLocale": "fr",
+        "owned": true,
+        "family": "ancestry",
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "sourceNamespace": "daggerheart-srd-2.0"
+      }
+    },
+    "_id": "J1hX7nBBc5jQiHli",
+    "effects": []
+  },
+  {
+    "type": "ancestry",
+    "name": "Aetheris",
+    "system": {
+      "loreReference": "aetheris",
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null
+      },
+      "description": "<p>Les Aetheris sont des humanoïdes que l'on reconnaît aisément à leurs ailes et à leurs marques sacrées.</p>",
+      "gmNotes": "",
+      "features": [
+        {
+          "type": "primary",
+          "item": "Compendium.daggerheart-campaign-toolkit.dh-ancestries.Item.k9hwCXpESBx326PC"
+        },
+        {
+          "type": "secondary",
+          "item": "Compendium.daggerheart-campaign-toolkit.dh-ancestries.Item.qNoIvEtDIA8JkOiq"
+        }
+      ]
+    },
+    "_id": "MOe9Lf4CeK3FKNyL",
+    "img": "icons/magic/holy/angel-winged-humanoid-blue.webp",
+    "effects": [],
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "canonicalId": "srd-2.0.ancestry.aetheris",
+        "contentOrigin": "core",
+        "contentLocale": "fr",
+        "owned": true,
+        "family": "ancestry",
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "sourceNamespace": "daggerheart-srd-2.0"
+      }
+    }
+  },
+  {
+    "type": "ancestry",
+    "name": "Gnome",
+    "system": {
+      "loreReference": "gnome",
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null
+      },
+      "description": "<p>Les Gnomes sont généralement de petits humanoïdes à la tête conique, capables de se téléporter sur de courtes distances.</p>",
+      "gmNotes": "",
+      "features": [
+        {
+          "type": "primary",
+          "item": "Compendium.daggerheart-campaign-toolkit.dh-ancestries.Item.tsX9rZ2JRkzgF8DR"
+        },
+        {
+          "type": "secondary",
+          "item": "Compendium.daggerheart-campaign-toolkit.dh-ancestries.Item.puDdIetm05O8andm"
+        }
+      ]
+    },
+    "_id": "RkSFOANAzYlAVv91",
+    "img": "icons/magic/movement/trail-streak-zigzag-teal.webp",
+    "effects": [],
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "canonicalId": "srd-2.0.ancestry.gnome",
+        "contentOrigin": "core",
+        "contentLocale": "fr",
+        "owned": true,
+        "family": "ancestry",
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "sourceNamespace": "daggerheart-srd-2.0"
+      }
+    }
+  },
+  {
+    "name": "Peau épaisse",
+    "type": "feature",
+    "_id": "S0Ww7pYOSREt8qKg",
+    "img": "icons/magic/defensive/shield-barrier-glowing-triangle-orange.webp",
+    "system": {
+      "description": "<p>Lorsque vous subissez des dégâts Mineurs, vous pouvez <strong>marquer 2 Stress</strong> au lieu de marquer 1 Point de Vie.</p>",
+      "resource": null,
+      "actions": {},
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null,
+        "artist": ""
+      },
+      "gmNotes": "",
+      "granter": null,
+      "featureForm": "passive",
+      "actorResources": []
+    },
+    "effects": [
+      {
+        "name": "Peau épaisse",
+        "type": "base",
+        "_id": "4Lc40mNnRInTKMC5",
+        "img": "icons/magic/defensive/shield-barrier-glowing-triangle-orange.webp",
+        "system": {
+          "changes": [
+            {
+              "key": "system.rules.damageReduction.stressDamageReduction.minor.cost",
+              "type": "override",
+              "value": 2,
+              "priority": null,
+              "phase": "initial"
+            }
+          ],
+          "duration": {
+            "description": ""
+          },
+          "rangeDependence": null,
+          "stacking": null,
+          "targetDispositions": []
+        },
+        "disabled": false,
+        "duration": {
+          "value": null,
+          "units": "seconds",
+          "expiry": null,
+          "expired": false
+        },
+        "description": "<p>Lorsque vous subissez des dégâts Mineurs, vous pouvez <strong>marquer 2 Stress</strong> au lieu de marquer 1 Point de Vie.</p>",
+        "tint": "#ffffff",
+        "transfer": true,
+        "statuses": [],
+        "sort": 0,
+        "flags": {},
+        "start": null,
+        "showIcon": 1,
+        "folder": null,
+        "origin": null
+      }
+    ],
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "canonicalId": null,
+        "contentOrigin": "core",
+        "contentLocale": "fr",
+        "owned": true,
+        "family": "ancestry",
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "sourceNamespace": "daggerheart-srd-2.0"
+      }
+    }
+  },
+  {
+    "type": "feature",
+    "name": "Peau de pierre",
+    "_id": "THm8khYAtu2vQrdd",
+    "img": "icons/magic/earth/strike-fist-stone-light.webp",
+    "system": {
+      "attribution": {},
+      "description": "<p>À la création du personnage, gagnez définitivement +1 à votre Score d’Armure et à vos seuils de dégâts.</p>",
+      "gmNotes": "",
+      "resource": null,
+      "actions": {},
+      "featureForm": "passive",
+      "granter": null,
+      "actorResources": []
+    },
+    "effects": [
+      {
+        "name": "Peau de pierre",
+        "type": "base",
+        "system": {
+          "changes": [
+            {
+              "type": "armor",
+              "phase": "initial",
+              "value": {
+                "interaction": "none",
+                "current": 0,
+                "max": "1",
+                "damageThresholds": null
+              },
+              "priority": 20
+            },
+            {
+              "key": "system.damageThresholds.major",
+              "type": "add",
+              "value": 1,
+              "priority": null,
+              "phase": "initial"
+            },
+            {
+              "key": "system.damageThresholds.severe",
+              "type": "add",
+              "value": 1,
+              "priority": null,
+              "phase": "initial"
+            }
+          ],
+          "duration": {
+            "description": "",
+            "type": ""
+          },
+          "rangeDependence": null,
+          "stacking": null,
+          "targetDispositions": []
+        },
+        "_id": "XVc542D7mVNeoRCb",
+        "img": "icons/magic/life/heart-cross-blue.webp",
+        "disabled": false,
+        "start": {
+          "time": 0,
+          "combat": null,
+          "combatant": null,
+          "initiative": null,
+          "round": null,
+          "turn": null
+        },
+        "duration": {
+          "value": null,
+          "units": "seconds",
+          "expiry": null,
+          "expired": false
+        },
+        "description": "<p>À la création du personnage, gagnez définitivement +1 à votre Score d’Armure et à vos seuils de dégâts.</p>",
+        "tint": "#ffffff",
+        "transfer": true,
+        "statuses": [],
+        "showIcon": 1,
+        "folder": null,
+        "sort": 0,
+        "flags": {},
+        "origin": null
+      }
+    ],
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "canonicalId": null,
+        "contentOrigin": "core",
+        "contentLocale": "fr",
+        "owned": true,
+        "family": "ancestry",
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "sourceNamespace": "daggerheart-srd-2.0"
+      }
+    }
+  },
+  {
+    "name": "Transe céleste",
+    "type": "feature",
+    "_id": "TfolXWFG2W2hx6sK",
+    "img": "icons/magic/perception/orb-crystal-ball-scrying-blue.webp",
+    "system": {
+      "description": "<p>Pendant un repos, vous pouvez entrer en transe afin de choisir une action de temps mort supplémentaire.</p>",
+      "resource": null,
+      "actions": {},
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null,
+        "artist": ""
+      },
+      "gmNotes": "",
+      "granter": null,
+      "featureForm": "passive",
+      "actorResources": []
+    },
+    "effects": [
+      {
+        "name": "Transe céleste",
+        "type": "base",
+        "_id": "LqQvZJJLNMnFkt1D",
+        "img": "icons/magic/perception/orb-crystal-ball-scrying-blue.webp",
+        "system": {
+          "changes": [
+            {
+              "key": "system.bonuses.rest.shortRest.shortMoves",
+              "type": "add",
+              "value": 1,
+              "priority": null,
+              "phase": "initial"
+            },
+            {
+              "key": "system.bonuses.rest.longRest.longMoves",
+              "type": "add",
+              "value": 1,
+              "priority": null,
+              "phase": "initial"
+            }
+          ],
+          "duration": {
+            "description": ""
+          },
+          "rangeDependence": null,
+          "stacking": null,
+          "targetDispositions": []
+        },
+        "disabled": false,
+        "duration": {
+          "value": null,
+          "units": "seconds",
+          "expiry": null,
+          "expired": false
+        },
+        "description": "<p>Pendant un repos, vous pouvez entrer en transe afin de choisir une action de temps mort supplémentaire.</p>",
+        "tint": "#ffffff",
+        "transfer": true,
+        "statuses": [],
+        "sort": 0,
+        "flags": {},
+        "start": null,
+        "showIcon": 1,
+        "folder": null,
+        "origin": null
+      }
+    ],
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "canonicalId": null,
+        "contentOrigin": "core",
+        "contentLocale": "fr",
+        "owned": true,
+        "family": "ancestry",
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "sourceNamespace": "daggerheart-srd-2.0"
+      }
+    }
+  },
+  {
+    "name": "Infléchisseur de chance",
+    "type": "feature",
+    "_id": "U6iFjZgLYawlOlQZ",
+    "img": "icons/magic/control/buff-luck-fortune-green-gold.webp",
+    "system": {
+      "description": "<p>Une fois par session, après que vous ou un allié consentant à portée Proche avez effectué un jet d’action, vous pouvez <strong>dépenser 3 Espoir</strong> pour relancer les Dés de Dualité.</p>",
+      "resource": null,
+      "actions": {
+        "l1wUmqMzG8YF9sqb": {
+          "type": "effect",
+          "_id": "l1wUmqMzG8YF9sqb",
+          "systemPath": "actions",
+          "description": "",
+          "chatDisplay": true,
+          "actionType": "action",
+          "cost": [
+            {
+              "scalable": false,
+              "key": "hope",
+              "value": 3,
+              "step": null,
+              "itemId": null,
+              "consumeOnSuccess": false
+            }
+          ],
+          "uses": {
+            "value": null,
+            "max": "1",
+            "recovery": "session",
+            "consumeOnSuccess": false
+          },
+          "effects": [],
+          "target": {
+            "type": "friendly",
+            "amount": null
+          },
+          "name": "Dépenser de l’Espoir",
+          "img": "icons/magic/control/buff-luck-fortune-green-gold.webp",
+          "range": "close",
+          "baseAction": false,
+          "originItem": {
+            "type": "itemCollection"
+          },
+          "triggers": [],
+          "areas": []
+        }
+      },
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null,
+        "artist": ""
+      },
+      "gmNotes": "",
+      "granter": null,
+      "featureForm": "passive",
+      "actorResources": []
+    },
+    "effects": [],
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "canonicalId": null,
+        "contentOrigin": "core",
+        "contentLocale": "fr",
+        "owned": true,
+        "family": "ancestry",
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "sourceNamespace": "daggerheart-srd-2.0"
+      }
+    }
+  },
+  {
+    "name": "Rétraction",
+    "type": "feature",
+    "_id": "UFR67BUOhNGLFyg9",
+    "img": "icons/magic/defensive/shield-barrier-flaming-diamond-teal.webp",
+    "system": {
+      "description": "<p><strong>Marquez 1 Stress</strong> pour vous rétracter dans votre carapace. Tant que vous y restez, vous êtes résistant aux dégâts physiques, vous subissez un désavantage aux jets d’action et vous ne pouvez pas vous déplacer.<br><br>(Après avoir marqué le Stress, activez manuellement l’effet Rétraction dans l’onglet Effets et appliquez le désavantage à vos jets d’action. Désactivez manuellement l’effet lorsque vous sortez de votre carapace.)</p>",
+      "resource": null,
+      "actions": {
+        "HfiAg14hrYt7Yvnj": {
+          "type": "effect",
+          "_id": "HfiAg14hrYt7Yvnj",
+          "systemPath": "actions",
+          "description": "",
+          "chatDisplay": true,
+          "actionType": "action",
+          "cost": [
+            {
+              "scalable": false,
+              "key": "stress",
+              "value": 1,
+              "step": null,
+              "consumeOnSuccess": false,
+              "itemId": null
+            }
+          ],
+          "uses": {
+            "value": null,
+            "max": "",
+            "recovery": null,
+            "consumeOnSuccess": false
+          },
+          "effects": [
+            {
+              "_id": "3V4FPoyjJUnFP9WS",
+              "onSave": false
+            }
+          ],
+          "target": {
+            "type": "self",
+            "amount": null
+          },
+          "name": "Marquer du Stress",
+          "img": "icons/magic/defensive/shield-barrier-flaming-diamond-teal.webp",
+          "range": "self",
+          "baseAction": false,
+          "originItem": {
+            "type": "itemCollection"
+          },
+          "triggers": [],
+          "areas": []
+        }
+      },
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null,
+        "artist": ""
+      },
+      "gmNotes": "",
+      "granter": null,
+      "featureForm": "passive",
+      "actorResources": []
+    },
+    "effects": [
+      {
+        "name": "Rétraction",
+        "img": "icons/magic/defensive/shield-barrier-flaming-diamond-teal.webp",
+        "transfer": true,
+        "_id": "3V4FPoyjJUnFP9WS",
+        "type": "base",
+        "system": {
+          "changes": [
+            {
+              "key": "system.resistance.physical.resistance",
+              "type": "override",
+              "value": 1,
+              "priority": null,
+              "phase": "initial"
+            },
+            {
+              "key": "system.disadvantageSources",
+              "type": "add",
+              "value": "Jets d’action",
+              "priority": null,
+              "phase": "initial"
+            }
+          ],
+          "duration": {
+            "type": "",
+            "description": ""
+          },
+          "rangeDependence": null,
+          "stacking": null,
+          "targetDispositions": []
+        },
+        "disabled": true,
+        "duration": {
+          "value": null,
+          "units": "seconds",
+          "expiry": null,
+          "expired": false
+        },
+        "description": "<p><strong>Marquez 1 Stress</strong> pour vous rétracter dans votre carapace. Tant que vous y restez, vous êtes résistant aux dégâts physiques, vous subissez un désavantage aux jets d’action et vous ne pouvez pas vous déplacer.<br><br>(Après avoir marqué le Stress, activez manuellement l’effet Rétraction dans l’onglet Effets et appliquez le désavantage à vos jets d’action. Désactivez manuellement l’effet lorsque vous sortez de votre carapace.)</p>",
+        "tint": "#ffffff",
+        "statuses": [],
+        "sort": 0,
+        "flags": {},
+        "start": {
+          "time": 0,
+          "combat": null,
+          "combatant": null,
+          "initiative": null,
+          "round": null,
+          "turn": null
+        },
+        "showIcon": 1,
+        "folder": null,
+        "origin": null
+      }
+    ],
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "canonicalId": null,
+        "contentOrigin": "core",
+        "contentLocale": "fr",
+        "owned": true,
+        "family": "ancestry",
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "sourceNamespace": "daggerheart-srd-2.0"
+      }
+    }
+  },
+  {
+    "type": "ancestry",
+    "name": "Earthkin",
+    "system": {
+      "loreReference": "earthkin",
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null
+      },
+      "description": "<p>Les Earthkin sont des humanoïdes dont le corps est fait de chair et de terre.</p>",
+      "gmNotes": "",
+      "features": [
+        {
+          "type": "primary",
+          "item": "Compendium.daggerheart-campaign-toolkit.dh-ancestries.Item.THm8khYAtu2vQrdd"
+        },
+        {
+          "type": "secondary",
+          "item": "Compendium.daggerheart-campaign-toolkit.dh-ancestries.Item.CvUVZRfxgxhmRQ9I"
+        }
+      ]
+    },
+    "_id": "UfSkmzJu8trnSbJW",
+    "img": "icons/magic/defensive/armor-stone-skin.webp",
+    "effects": [],
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "canonicalId": "srd-2.0.ancestry.earthkin",
+        "contentOrigin": "core",
+        "contentLocale": "fr",
+        "owned": true,
+        "family": "ancestry",
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "sourceNamespace": "daggerheart-srd-2.0"
+      }
+    }
+  },
+  {
+    "name": "Drakona",
+    "img": "icons/creatures/reptiles/dragon-horned-blue.webp",
+    "type": "ancestry",
+    "system": {
+      "description": "<p>Les Drakona ressemblent à des dragons sans ailes de forme humanoïde et possèdent un puissant souffle élémentaire.</p>",
+      "features": [
+        {
+          "type": "primary",
+          "item": "Compendium.daggerheart-campaign-toolkit.dh-ancestries.Item.u8ZhV962rNmUlzkp"
+        },
+        {
+          "type": "secondary",
+          "item": "Compendium.daggerheart-campaign-toolkit.dh-ancestries.Item.sRaE3CgkgjBF1UpV"
+        }
+      ],
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null,
+        "artist": ""
+      },
+      "loreReference": "drakona",
+      "gmNotes": ""
+    },
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "canonicalId": "srd-2.0.ancestry.drakona",
+        "contentOrigin": "core",
+        "contentLocale": "fr",
+        "owned": true,
+        "family": "ancestry",
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "sourceNamespace": "daggerheart-srd-2.0"
+      }
+    },
+    "_id": "VLeOEqkLS0RbF0tB",
+    "effects": []
+  },
+  {
+    "name": "Allonge",
+    "type": "feature",
+    "_id": "WRs2jvwM0STmkWIW",
+    "img": "icons/weapons/staves/staff-simple.webp",
+    "system": {
+      "description": "<p>Considérez toute arme, capacité, sort ou autre aptitude ayant une portée de Mêlée comme ayant une portée Très proche.</p>",
+      "resource": null,
+      "actions": {},
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null,
+        "artist": ""
+      },
+      "gmNotes": "",
+      "granter": null,
+      "featureForm": "passive",
+      "actorResources": []
+    },
+    "effects": [],
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "canonicalId": null,
+        "contentOrigin": "core",
+        "contentLocale": "fr",
+        "owned": true,
+        "family": "ancestry",
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "sourceNamespace": "daggerheart-srd-2.0"
+      }
+    }
+  },
+  {
+    "name": "Ailes",
+    "type": "feature",
+    "_id": "WquAjoOcso8lwySW",
+    "img": "icons/creatures/abilities/wing-batlike-white-blue.webp",
+    "system": {
+      "description": "<p>Vous pouvez voler. Lorsque vous volez, après qu’un adversaire a effectué une attaque contre vous, vous pouvez <strong>marquer 1 Stress</strong> pour gagner un bonus de +2 en Esquive contre cette attaque.</p>",
+      "resource": null,
+      "actions": {
+        "dpKxkDSjXsP8kHMI": {
+          "type": "effect",
+          "_id": "dpKxkDSjXsP8kHMI",
+          "systemPath": "actions",
+          "description": "",
+          "chatDisplay": true,
+          "actionType": "action",
+          "cost": [
+            {
+              "scalable": false,
+              "key": "stress",
+              "value": 1,
+              "step": null,
+              "itemId": null,
+              "consumeOnSuccess": false
+            }
+          ],
+          "uses": {
+            "value": null,
+            "max": "",
+            "recovery": null,
+            "consumeOnSuccess": false
+          },
+          "effects": [],
+          "target": {
+            "type": "self",
+            "amount": null
+          },
+          "name": "Marquer du Stress",
+          "img": "icons/creatures/abilities/wing-batlike-white-blue.webp",
+          "range": "self",
+          "baseAction": false,
+          "originItem": {
+            "type": "itemCollection"
+          },
+          "triggers": [],
+          "areas": []
+        }
+      },
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null,
+        "artist": ""
+      },
+      "gmNotes": "",
+      "granter": null,
+      "featureForm": "passive",
+      "actorResources": []
+    },
+    "effects": [
+      {
+        "name": "Ailes",
+        "type": "base",
+        "_id": "zD3xVdwkEQi2ivOn",
+        "img": "icons/creatures/abilities/wing-batlike-white-blue.webp",
+        "system": {
+          "changes": [
+            {
+              "key": "system.evasion",
+              "type": "add",
+              "value": 2,
+              "priority": null,
+              "phase": "initial"
+            }
+          ],
+          "duration": {
+            "description": ""
+          },
+          "rangeDependence": null,
+          "stacking": null,
+          "targetDispositions": []
+        },
+        "disabled": true,
+        "duration": {
+          "value": null,
+          "units": "seconds",
+          "expiry": null,
+          "expired": false
+        },
+        "description": "<p>Vous pouvez voler. Lorsque vous volez, après qu’un adversaire a effectué une attaque contre vous, vous pouvez <strong>marquer 1 Stress</strong> pour gagner un bonus de +2 en Esquive contre cette attaque.</p>",
+        "tint": "#ffffff",
+        "transfer": true,
+        "statuses": [],
+        "sort": 0,
+        "flags": {},
+        "start": null,
+        "showIcon": 1,
+        "folder": null,
+        "origin": null
+      }
+    ],
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "canonicalId": null,
+        "contentOrigin": "core",
+        "contentLocale": "fr",
+        "owned": true,
+        "family": "ancestry",
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "sourceNamespace": "daggerheart-srd-2.0"
+      }
+    }
+  },
+  {
+    "name": "Lien avec la mort",
+    "type": "feature",
+    "_id": "WuwXH2r2uM9sDJtj",
+    "img": "icons/magic/death/hand-undead-skeleton-fire-green.webp",
+    "system": {
+      "description": "<p>Lorsque vous touchez un cadavre mort récemment, vous pouvez <strong>marquer 1 Stress</strong> pour en extraire un souvenir lié à une émotion ou une sensation précise de votre choix.</p>",
+      "resource": null,
+      "actions": {
+        "0RdKeWfbPRTHcAMf": {
+          "type": "effect",
+          "_id": "0RdKeWfbPRTHcAMf",
+          "systemPath": "actions",
+          "description": "",
+          "chatDisplay": true,
+          "actionType": "action",
+          "cost": [
+            {
+              "scalable": false,
+              "key": "stress",
+              "value": 1,
+              "step": null,
+              "itemId": null,
+              "consumeOnSuccess": false
+            }
+          ],
+          "uses": {
+            "value": null,
+            "max": "",
+            "recovery": null,
+            "consumeOnSuccess": false
+          },
+          "effects": [],
+          "target": {
+            "type": "any",
+            "amount": null
+          },
+          "name": "Extraire",
+          "img": "icons/magic/death/hand-undead-skeleton-fire-green.webp",
+          "range": "",
+          "baseAction": false,
+          "originItem": {
+            "type": "itemCollection"
+          },
+          "triggers": [],
+          "areas": []
+        }
+      },
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null,
+        "artist": ""
+      },
+      "gmNotes": "",
+      "granter": null,
+      "featureForm": "passive",
+      "actorResources": []
+    },
+    "effects": [],
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "canonicalId": null,
+        "contentOrigin": "core",
+        "contentLocale": "fr",
+        "owned": true,
+        "family": "ancestry",
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "sourceNamespace": "daggerheart-srd-2.0"
+      }
+    }
+  },
+  {
+    "name": "Fée",
+    "img": "icons/magic/nature/leaf-drip-light-green.webp",
+    "type": "ancestry",
+    "system": {
+      "description": "<p>Les Fées sont des créatures humanoïdes ailées aux traits insectoïdes.</p>",
+      "features": [
+        {
+          "type": "primary",
+          "item": "Compendium.daggerheart-campaign-toolkit.dh-ancestries.Item.U6iFjZgLYawlOlQZ"
+        },
+        {
+          "type": "secondary",
+          "item": "Compendium.daggerheart-campaign-toolkit.dh-ancestries.Item.WquAjoOcso8lwySW"
+        }
+      ],
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null,
+        "artist": ""
+      },
+      "loreReference": "faerie",
+      "gmNotes": ""
+    },
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "canonicalId": "srd-2.0.ancestry.faerie",
+        "contentOrigin": "core",
+        "contentLocale": "fr",
+        "owned": true,
+        "family": "ancestry",
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "sourceNamespace": "daggerheart-srd-2.0"
+      }
+    },
+    "_id": "XzJVbb5NT9k79ykR",
+    "effects": []
+  },
+  {
+    "name": "Défenses",
+    "type": "feature",
+    "_id": "YhxD1ujZpftPu19w",
+    "img": "icons/creatures/abilities/fang-tooth-blood-red.webp",
+    "system": {
+      "description": "<p>Lorsque vous réussissez une attaque contre une cible à portée de Mêlée, vous pouvez <strong>dépenser 1 Espoir</strong> pour l’encorner avec vos défenses et infliger <strong>1d6</strong> dégâts supplémentaires.</p>",
+      "resource": null,
+      "actions": {
+        "ytSFDCONRi5L4THz": {
+          "type": "damage",
+          "_id": "ytSFDCONRi5L4THz",
+          "systemPath": "actions",
+          "description": "",
+          "chatDisplay": true,
+          "actionType": "action",
+          "cost": [
+            {
+              "key": "hope",
+              "value": 1,
+              "scalable": false,
+              "step": null,
+              "consumeOnSuccess": false,
+              "itemId": null
+            }
+          ],
+          "uses": {
+            "value": null,
+            "max": "",
+            "recovery": null,
+            "consumeOnSuccess": false
+          },
+          "damage": {
+            "main": {
+              "value": {
+                "custom": {
+                  "enabled": false,
+                  "formula": ""
+                },
+                "multiplier": "flat",
+                "dice": "d6",
+                "bonus": null,
+                "flatMultiplier": 1
+              },
+              "applyTo": "hitPoints",
+              "type": [],
+              "base": false,
+              "resultBased": false,
+              "valueAlt": {
+                "multiplier": "prof",
+                "flatMultiplier": 1,
+                "dice": "d6",
+                "bonus": null,
+                "custom": {
+                  "enabled": false,
+                  "formula": ""
+                }
+              },
+              "includeBase": false,
+              "direct": false,
+              "fullRestore": false,
+              "itemId": null
+            },
+            "resources": {}
+          },
+          "target": {
+            "type": "any",
+            "amount": 1
+          },
+          "effects": [],
+          "name": "Dépenser de l’Espoir",
+          "img": "icons/creatures/abilities/fang-tooth-blood-red.webp",
+          "range": "melee",
+          "baseAction": false,
+          "originItem": {
+            "type": "itemCollection"
+          },
+          "triggers": [],
+          "areas": []
+        }
+      },
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null,
+        "artist": ""
+      },
+      "gmNotes": "",
+      "granter": null,
+      "featureForm": "passive",
+      "actorResources": []
+    },
+    "effects": [
+      {
+        "name": "Défenses",
+        "type": "base",
+        "_id": "klEyAxQa5YHXVnrl",
+        "img": "icons/creatures/abilities/fang-tooth-blood-red.webp",
+        "system": {
+          "changes": [
+            {
+              "key": "system.bonuses.damage.physical.dice",
+              "type": "add",
+              "value": "1d6",
+              "priority": null,
+              "phase": "initial"
+            },
+            {
+              "key": "system.bonuses.damage.magical.dice",
+              "type": "add",
+              "value": "1d6",
+              "priority": null,
+              "phase": "initial"
+            }
+          ],
+          "duration": {
+            "description": ""
+          },
+          "rangeDependence": null,
+          "stacking": null,
+          "targetDispositions": []
+        },
+        "disabled": true,
+        "duration": {
+          "value": null,
+          "units": "seconds",
+          "expiry": null,
+          "expired": false
+        },
+        "description": "<p>Lorsque vous réussissez une attaque contre une cible à portée de Mêlée, vous pouvez <strong>dépenser 1 Espoir</strong> pour l’encorner avec vos défenses et infliger <strong>1d6</strong> dégâts supplémentaires.</p>",
+        "tint": "#ffffff",
+        "transfer": true,
+        "statuses": [],
+        "sort": 0,
+        "flags": {},
+        "start": null,
+        "showIcon": 1,
+        "folder": null,
+        "origin": null
+      }
+    ],
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "canonicalId": null,
+        "contentOrigin": "core",
+        "contentLocale": "fr",
+        "owned": true,
+        "family": "ancestry",
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "sourceNamespace": "daggerheart-srd-2.0"
+      }
+    }
+  },
+  {
+    "name": "Pied sûr",
+    "type": "feature",
+    "_id": "YsJticxv8OFndd4D",
+    "img": "icons/skills/movement/feet-bladed-boots-fire.webp",
+    "system": {
+      "description": "<p>Vous ignorez le désavantage sur les jets d’Agilité.</p>",
+      "resource": null,
+      "actions": {},
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null,
+        "artist": ""
+      },
+      "gmNotes": "",
+      "granter": null,
+      "featureForm": "passive",
+      "actorResources": []
+    },
+    "effects": [],
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "canonicalId": null,
+        "contentOrigin": "core",
+        "contentLocale": "fr",
+        "owned": true,
+        "family": "ancestry",
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "sourceNamespace": "daggerheart-srd-2.0"
+      }
+    }
+  },
+  {
+    "name": "Griffes rétractiles",
+    "type": "feature",
+    "_id": "Zj69cAeb3NjIa8Hn",
+    "img": "icons/creatures/claws/claw-straight-orange.webp",
+    "system": {
+      "description": "<p>Faites un <strong>jet d’Agilité</strong> pour griffer une cible à portée de Mêlée. En cas de réussite, elle devient temporairement Vulnérable.</p>",
+      "resource": null,
+      "actions": {
+        "LcFhDb3sJk8sraAc": {
+          "type": "attack",
+          "_id": "LcFhDb3sJk8sraAc",
+          "systemPath": "actions",
+          "description": "",
+          "chatDisplay": true,
+          "actionType": "action",
+          "cost": [],
+          "uses": {
+            "value": null,
+            "max": "",
+            "recovery": null,
+            "consumeOnSuccess": false
+          },
+          "damage": {
+            "main": null,
+            "resources": {}
+          },
+          "target": {
+            "type": "any",
+            "amount": null
+          },
+          "effects": [
+            {
+              "_id": "pO76svFkmWmZ6LjC",
+              "onSave": false
+            }
+          ],
+          "roll": {
+            "type": "attack",
+            "trait": "agility",
+            "difficulty": null,
+            "bonus": null,
+            "advState": "neutral",
+            "diceRolling": {
+              "multiplier": "prof",
+              "flatMultiplier": 1,
+              "dice": "d6",
+              "compare": null,
+              "treshold": null
+            },
+            "useDefault": false
+          },
+          "save": {
+            "trait": null,
+            "difficulty": null,
+            "damageMod": "none"
+          },
+          "name": "Griffer",
+          "img": "icons/creatures/claws/claw-straight-orange.webp",
+          "range": "melee",
+          "baseAction": false,
+          "originItem": {
+            "type": "itemCollection"
+          },
+          "triggers": [],
+          "areas": []
+        }
+      },
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null,
+        "artist": ""
+      },
+      "gmNotes": "",
+      "granter": null,
+      "featureForm": "passive",
+      "actorResources": []
+    },
+    "effects": [
+      {
+        "name": "Griffes rétractiles",
+        "img": "icons/creatures/claws/claw-straight-orange.webp",
+        "transfer": false,
+        "_id": "pO76svFkmWmZ6LjC",
+        "type": "base",
+        "system": {
+          "changes": [],
+          "duration": {
+            "type": "temporary",
+            "description": ""
+          },
+          "rangeDependence": null,
+          "stacking": null,
+          "targetDispositions": []
+        },
+        "disabled": false,
+        "duration": {
+          "value": null,
+          "units": "seconds",
+          "expiry": null,
+          "expired": false
+        },
+        "description": "",
+        "tint": "#ffffff",
+        "statuses": [
+          "vulnerable"
+        ],
+        "sort": 0,
+        "flags": {},
+        "start": {
+          "time": 0,
+          "combat": null,
+          "combatant": null,
+          "initiative": null,
+          "round": null,
+          "turn": null
+        },
+        "showIcon": 1,
+        "folder": null,
+        "origin": null
+      }
+    ],
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "canonicalId": null,
+        "contentOrigin": "core",
+        "contentLocale": "fr",
+        "owned": true,
+        "family": "ancestry",
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "sourceNamespace": "daggerheart-srd-2.0"
+      }
+    }
+  },
+  {
+    "name": "Boussole interne",
+    "type": "feature",
+    "_id": "e2Cu6exxtvfQzc1e",
+    "img": "icons/tools/navigation/compass-worn-copper.webp",
+    "system": {
+      "description": "<p>Lorsque votre Dé d’Espoir obtient un 1, vous pouvez le relancer.</p>",
+      "resource": null,
+      "actions": {},
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null,
+        "artist": ""
+      },
+      "gmNotes": "",
+      "granter": null,
+      "featureForm": "passive",
+      "actorResources": []
+    },
+    "effects": [],
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "canonicalId": null,
+        "contentOrigin": "core",
+        "contentLocale": "fr",
+        "owned": true,
+        "family": "ancestry",
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "sourceNamespace": "daggerheart-srd-2.0"
+      }
+    }
+  },
+  {
+    "name": "Galapa",
+    "img": "icons/creatures/reptiles/turtle-shell-glowing-green.webp",
+    "type": "ancestry",
+    "system": {
+      "description": "<p>Les Galapa ressemblent à des tortues anthropomorphes dotées d'une grande carapace bombée dans laquelle elles peuvent se rétracter.</p>",
+      "features": [
+        {
+          "type": "primary",
+          "item": "Compendium.daggerheart-campaign-toolkit.dh-ancestries.Item.A6a87OWA3tx16g9V"
+        },
+        {
+          "type": "secondary",
+          "item": "Compendium.daggerheart-campaign-toolkit.dh-ancestries.Item.UFR67BUOhNGLFyg9"
+        }
+      ],
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null,
+        "artist": ""
+      },
+      "loreReference": "galapa",
+      "gmNotes": ""
+    },
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "canonicalId": "srd-2.0.ancestry.galapa",
+        "contentOrigin": "core",
+        "contentLocale": "fr",
+        "owned": true,
+        "family": "ancestry",
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "sourceNamespace": "daggerheart-srd-2.0"
+      }
+    },
+    "_id": "eZNG5Iv0yfbHs5CO",
+    "effects": []
+  },
+  {
+    "name": "Clank",
+    "img": "icons/creatures/magical/construct-golem-stone-blue.webp",
+    "type": "ancestry",
+    "system": {
+      "description": "<p>Les Clanks sont des êtres mécaniques doués de conscience, construits à partir de matériaux variés, notamment du métal, du bois et de la pierre.</p>",
+      "features": [
+        {
+          "type": "primary",
+          "item": "Compendium.daggerheart-campaign-toolkit.dh-ancestries.Item.g6I4tRUQNgL4vZ6H"
+        },
+        {
+          "type": "secondary",
+          "item": "Compendium.daggerheart-campaign-toolkit.dh-ancestries.Item.2xlqKOkDxWHbuj4t"
+        }
+      ],
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null,
+        "artist": ""
+      },
+      "loreReference": "clank",
+      "gmNotes": ""
+    },
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "canonicalId": "srd-2.0.ancestry.clank",
+        "contentOrigin": "core",
+        "contentLocale": "fr",
+        "owned": true,
+        "family": "ancestry",
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "sourceNamespace": "daggerheart-srd-2.0"
+      }
+    },
+    "_id": "ed8BoLR4SHOpeV00",
+    "effects": []
+  },
+  {
+    "name": "Conception intentionnelle",
+    "type": "feature",
+    "_id": "g6I4tRUQNgL4vZ6H",
+    "img": "icons/tools/scribal/lens-blue.webp",
+    "system": {
+      "description": "<p>Décidez qui vous a créé et dans quel but. À la création du personnage, choisissez l’une de vos Expériences qui correspond le mieux à ce but et gagnez définitivement +1 à cette Expérience.</p><section id=\"secret-buVzWddXKTJlXDpq\" class=\"secret\"><p>Note : l’automatisation de ce bonus permanent n’est pas implémentée. Augmentez manuellement l’Expérience dans le champ d’édition correspondant.</p></section>",
+      "resource": null,
+      "actions": {},
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null,
+        "artist": ""
+      },
+      "gmNotes": "",
+      "granter": null,
+      "featureForm": "passive",
+      "actorResources": []
+    },
+    "effects": [],
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "canonicalId": null,
+        "contentOrigin": "core",
+        "contentLocale": "fr",
+        "owned": true,
+        "family": "ancestry",
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "sourceNamespace": "daggerheart-srd-2.0"
+      }
+    }
+  },
+  {
+    "name": "Coup de pied",
+    "type": "feature",
+    "_id": "gpW19TfJk0WWFh1S",
+    "img": "icons/skills/melee/shield-damaged-broken-gold.webp",
+    "system": {
+      "description": "<p>Lorsque vous réussissez une attaque contre une cible à portée de Mêlée, vous pouvez <strong>marquer 1 Stress</strong> pour prendre appui sur elle d’un coup de pied, infliger <strong>2d6</strong> dégâts supplémentaires et repousser soit la cible, soit vous-même jusqu’à portée Très proche.</p>",
+      "resource": null,
+      "actions": {
+        "bXbQ57CB1Hfj5XrS": {
+          "type": "damage",
+          "_id": "bXbQ57CB1Hfj5XrS",
+          "systemPath": "actions",
+          "description": "",
+          "chatDisplay": true,
+          "actionType": "action",
+          "cost": [
+            {
+              "scalable": false,
+              "key": "stress",
+              "value": 1,
+              "step": null,
+              "consumeOnSuccess": false,
+              "itemId": null
+            }
+          ],
+          "uses": {
+            "value": null,
+            "max": "",
+            "recovery": null,
+            "consumeOnSuccess": false
+          },
+          "damage": {
+            "main": {
+              "value": {
+                "custom": {
+                  "enabled": false,
+                  "formula": ""
+                },
+                "multiplier": "flat",
+                "flatMultiplier": 2,
+                "dice": "d6",
+                "bonus": null
+              },
+              "applyTo": "hitPoints",
+              "type": [],
+              "base": false,
+              "resultBased": false,
+              "valueAlt": {
+                "multiplier": "prof",
+                "flatMultiplier": 1,
+                "dice": "d6",
+                "bonus": null,
+                "custom": {
+                  "enabled": false,
+                  "formula": ""
+                }
+              },
+              "includeBase": false,
+              "direct": false,
+              "fullRestore": false,
+              "itemId": null
+            },
+            "resources": {}
+          },
+          "target": {
+            "type": "any",
+            "amount": null
+          },
+          "effects": [],
+          "name": "Infliger des dégâts",
+          "img": "icons/skills/melee/shield-damaged-broken-gold.webp",
+          "range": "melee",
+          "baseAction": false,
+          "originItem": {
+            "type": "itemCollection"
+          },
+          "triggers": [],
+          "areas": []
+        }
+      },
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null,
+        "artist": ""
+      },
+      "gmNotes": "",
+      "granter": null,
+      "featureForm": "passive",
+      "actorResources": []
+    },
+    "effects": [],
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "canonicalId": null,
+        "contentOrigin": "core",
+        "contentLocale": "fr",
+        "owned": true,
+        "family": "ancestry",
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "sourceNamespace": "daggerheart-srd-2.0"
+      }
+    }
+  },
+  {
+    "type": "feature",
+    "name": "Force du vent",
+    "_id": "hgFrDlmnPjhRUxOg",
+    "img": "icons/magic/air/air-burst-spiral-blue-gray.webp",
+    "system": {
+      "attribution": {},
+      "description": "<p><strong>Marquez 1 Stress</strong> pour invoquer une rafale qui vous transporte, vous ou un allié à portée Très proche, jusqu’à portée Très lointaine. De plus, vous pouvez toujours contrôler votre vitesse de chute.</p>",
+      "gmNotes": "",
+      "resource": null,
+      "actions": {
+        "3WRpmFBVS5HvCcOG": {
+          "type": "effect",
+          "_id": "3WRpmFBVS5HvCcOG",
+          "systemPath": "actions",
+          "baseAction": false,
+          "description": "",
+          "chatDisplay": true,
+          "originItem": {
+            "type": "itemCollection"
+          },
+          "actionType": "action",
+          "triggers": [],
+          "areas": [],
+          "cost": [
+            {
+              "scalable": false,
+              "key": "stress",
+              "value": 1,
+              "itemId": null,
+              "step": null,
+              "consumeOnSuccess": false
+            }
+          ],
+          "uses": {
+            "value": null,
+            "max": "",
+            "recovery": null,
+            "consumeOnSuccess": false
+          },
+          "effects": [],
+          "target": {
+            "type": "any",
+            "amount": null
+          },
+          "name": "Marquer du Stress",
+          "range": ""
+        }
+      },
+      "featureForm": "passive",
+      "granter": null,
+      "actorResources": []
+    },
+    "effects": [],
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "canonicalId": null,
+        "contentOrigin": "core",
+        "contentLocale": "fr",
+        "owned": true,
+        "family": "ancestry",
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "sourceNamespace": "daggerheart-srd-2.0"
+      }
+    }
+  },
+  {
+    "name": "Infernis",
+    "img": "icons/creatures/unholy/demon-female-succubus-orange.webp",
+    "type": "ancestry",
+    "system": {
+      "description": "<p>Les Infernis sont des humanoïdes dotés de canines acérées, d'oreilles pointues et de cornes. Ils descendent de démons originaires des Cercles Inférieurs.</p>",
+      "features": [
+        {
+          "type": "primary",
+          "item": "Compendium.daggerheart-campaign-toolkit.dh-ancestries.Item.IlWvn5kCqCBMuUJn"
+        },
+        {
+          "type": "secondary",
+          "item": "Compendium.daggerheart-campaign-toolkit.dh-ancestries.Item.i92lYjDhVB0LyPid"
+        }
+      ],
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null,
+        "artist": ""
+      },
+      "loreReference": "infernis",
+      "gmNotes": ""
+    },
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "canonicalId": "srd-2.0.ancestry.infernis",
+        "contentOrigin": "core",
+        "contentLocale": "fr",
+        "owned": true,
+        "family": "ancestry",
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "sourceNamespace": "daggerheart-srd-2.0"
+      }
+    },
+    "_id": "hyxcuF2I0xcZSGkm",
+    "effects": []
+  },
+  {
+    "name": "Firbolg",
+    "img": "icons/commodities/leather/fur-blue.webp",
+    "type": "ancestry",
+    "system": {
+      "description": "<p>Les Firbolgs sont des humanoïdes bovins que l'on reconnaît généralement à leur large museau et à leurs longues oreilles tombantes.</p>",
+      "features": [
+        {
+          "type": "primary",
+          "item": "Compendium.daggerheart-campaign-toolkit.dh-ancestries.Item.AA2CZlJSWW8GPhrR"
+        },
+        {
+          "type": "secondary",
+          "item": "Compendium.daggerheart-campaign-toolkit.dh-ancestries.Item.G5pE8FW94V1W9jJx"
+        }
+      ],
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null,
+        "artist": ""
+      },
+      "loreReference": "firbolg",
+      "gmNotes": ""
+    },
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "canonicalId": "srd-2.0.ancestry.firbolg",
+        "contentOrigin": "core",
+        "contentLocale": "fr",
+        "owned": true,
+        "family": "ancestry",
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "sourceNamespace": "daggerheart-srd-2.0"
+      }
+    },
+    "_id": "hzKmydI8sR3uk4CO",
+    "effects": []
+  },
+  {
+    "name": "Visage terrifiant",
+    "type": "feature",
+    "_id": "i92lYjDhVB0LyPid",
+    "img": "icons/magic/control/fear-fright-monster-red.webp",
+    "system": {
+      "description": "<p>Vous avez l’avantage aux jets visant à intimider les créatures hostiles.</p>",
+      "resource": null,
+      "actions": {},
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null,
+        "artist": ""
+      },
+      "gmNotes": "",
+      "granter": null,
+      "featureForm": "passive",
+      "actorResources": []
+    },
+    "effects": [
+      {
+        "name": "Visage terrifiant",
+        "type": "base",
+        "_id": "2Gd6iHQX521aAZqC",
+        "img": "icons/magic/control/fear-fright-monster-red.webp",
+        "system": {
+          "changes": [
+            {
+              "key": "system.advantageSources",
+              "type": "add",
+              "value": "Visage terrifiant : jets visant à intimider les créatures hostiles",
+              "priority": null,
+              "phase": "initial"
+            }
+          ],
+          "duration": {
+            "description": ""
+          },
+          "rangeDependence": null,
+          "stacking": null,
+          "targetDispositions": []
+        },
+        "disabled": false,
+        "duration": {
+          "value": null,
+          "units": "seconds",
+          "expiry": null,
+          "expired": false
+        },
+        "description": "<p>Vous avez l’avantage aux jets visant à intimider les créatures hostiles.</p>",
+        "tint": "#ffffff",
+        "transfer": true,
+        "statuses": [],
+        "sort": 0,
+        "flags": {},
+        "start": null,
+        "showIcon": 1,
+        "folder": null,
+        "origin": null
+      }
+    ],
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "canonicalId": null,
+        "contentOrigin": "core",
+        "contentLocale": "fr",
+        "owned": true,
+        "family": "ancestry",
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "sourceNamespace": "daggerheart-srd-2.0"
+      }
+    }
+  },
+  {
+    "type": "feature",
+    "name": "Aura sacrée",
+    "_id": "k9hwCXpESBx326PC",
+    "img": "icons/magic/holy/barrier-shield-winged-cross.webp",
+    "system": {
+      "attribution": {},
+      "description": "<p>Une fois par repos long, lorsqu’un allié à portée Proche obtient un jet avec Peur, vous pouvez le transformer en jet avec Espoir.</p>",
+      "gmNotes": "",
+      "resource": null,
+      "actions": {
+        "NBKcarcNqeWCqCHG": {
+          "type": "effect",
+          "_id": "NBKcarcNqeWCqCHG",
+          "systemPath": "actions",
+          "baseAction": false,
+          "description": "",
+          "chatDisplay": true,
+          "originItem": {
+            "type": "itemCollection"
+          },
+          "actionType": "action",
+          "triggers": [],
+          "areas": [],
+          "cost": [],
+          "uses": {
+            "value": null,
+            "max": "1",
+            "recovery": "longRest",
+            "consumeOnSuccess": false
+          },
+          "effects": [],
+          "target": {
+            "type": "any",
+            "amount": null
+          },
+          "name": "Peur vers Espoir",
+          "range": ""
+        }
+      },
+      "featureForm": "passive",
+      "granter": null,
+      "actorResources": []
+    },
+    "effects": [],
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "canonicalId": null,
+        "contentOrigin": "core",
+        "contentLocale": "fr",
+        "owned": true,
+        "family": "ancestry",
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "sourceNamespace": "daggerheart-srd-2.0"
+      }
+    }
+  },
+  {
+    "type": "feature",
+    "name": "Amphibie",
+    "_id": "kFuNdXalIInsFRlh",
+    "img": "icons/magic/water/bubbles-air-water-light.webp",
+    "system": {
+      "attribution": {},
+      "description": "<p>Vous pouvez respirer et vous déplacer naturellement sous l’eau.</p>",
+      "gmNotes": "",
+      "resource": null,
+      "actions": {},
+      "featureForm": "passive",
+      "granter": null,
+      "actorResources": []
+    },
+    "effects": [],
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "canonicalId": null,
+        "contentOrigin": "core",
+        "contentLocale": "fr",
+        "owned": true,
+        "family": "ancestry",
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "sourceNamespace": "daggerheart-srd-2.0"
+      }
+    }
+  },
+  {
+    "name": "Instincts félins",
+    "type": "feature",
+    "_id": "lNgbbYnCKgrdvA85",
+    "img": "icons/magic/perception/eye-slit-orange.webp",
+    "system": {
+      "description": "<p>Lorsque vous faites un jet d’Agilité, vous pouvez <strong>dépenser 2 Espoir</strong> pour relancer votre Dé d’Espoir.</p>",
+      "resource": null,
+      "actions": {
+        "ALsGHOy0q5THGxz5": {
+          "type": "effect",
+          "_id": "ALsGHOy0q5THGxz5",
+          "systemPath": "actions",
+          "description": "",
+          "chatDisplay": true,
+          "actionType": "action",
+          "cost": [
+            {
+              "scalable": false,
+              "key": "hope",
+              "value": 2,
+              "step": null,
+              "itemId": null,
+              "consumeOnSuccess": false
+            }
+          ],
+          "uses": {
+            "value": null,
+            "max": "",
+            "recovery": null,
+            "consumeOnSuccess": false
+          },
+          "effects": [],
+          "target": {
+            "type": "any",
+            "amount": null
+          },
+          "name": "Dépenser de l’Espoir",
+          "img": "icons/magic/perception/eye-slit-orange.webp",
+          "range": "",
+          "baseAction": false,
+          "originItem": {
+            "type": "itemCollection"
+          },
+          "triggers": [],
+          "areas": []
+        }
+      },
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null,
+        "artist": ""
+      },
+      "gmNotes": "",
+      "granter": null,
+      "featureForm": "passive",
+      "actorResources": []
+    },
+    "effects": [],
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "canonicalId": null,
+        "contentOrigin": "core",
+        "contentLocale": "fr",
+        "owned": true,
+        "family": "ancestry",
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "sourceNamespace": "daggerheart-srd-2.0"
+      }
+    }
+  },
+  {
+    "type": "ancestry",
+    "name": "Emberkin",
+    "system": {
+      "loreReference": "emberkin",
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null
+      },
+      "description": "<p>Les Emberkin sont des humanoïdes dont le corps est fait de chair et de feu.</p>",
+      "gmNotes": "",
+      "features": [
+        {
+          "type": "primary",
+          "item": "Compendium.daggerheart-campaign-toolkit.dh-ancestries.Item.zmTuxjHiNDsW4VYa"
+        },
+        {
+          "type": "secondary",
+          "item": "Compendium.daggerheart-campaign-toolkit.dh-ancestries.Item.FaHu2yAthY6ZvM2d"
+        }
+      ]
+    },
+    "_id": "moNuI4qFehGE1ZgV",
+    "img": "icons/magic/fire/elemental-fire-humanoid.webp",
+    "effects": [],
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "canonicalId": "srd-2.0.ancestry.emberkin",
+        "contentOrigin": "core",
+        "contentLocale": "fr",
+        "owned": true,
+        "family": "ancestry",
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "sourceNamespace": "daggerheart-srd-2.0"
+      }
+    }
+  },
+  {
+    "name": "Bond caprin",
+    "type": "feature",
+    "_id": "nLL2zuDDDbbyxlrQ",
+    "img": "icons/skills/movement/arrow-upward-yellow.webp",
+    "system": {
+      "description": "<p>Vous pouvez bondir n’importe où à portée Proche comme s’il s’agissait d’un déplacement normal, ce qui vous permet de franchir des obstacles, des fossés ou des barrières avec aisance.</p>",
+      "resource": null,
+      "actions": {},
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null,
+        "artist": ""
+      },
+      "gmNotes": "",
+      "granter": null,
+      "featureForm": "passive",
+      "actorResources": []
+    },
+    "effects": [],
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "canonicalId": null,
+        "contentOrigin": "core",
+        "contentLocale": "fr",
+        "owned": true,
+        "family": "ancestry",
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "sourceNamespace": "daggerheart-srd-2.0"
+      }
+    }
+  },
+  {
+    "name": "Longue langue",
+    "type": "feature",
+    "_id": "oWbdlh51ajn1Q5kL",
+    "img": "icons/commodities/biological/tongue-violet.webp",
+    "system": {
+      "description": "<p>Vous pouvez utiliser votre longue langue pour saisir des objets à portée Proche. <strong>Marquez 1 Stress</strong> pour l’utiliser comme une arme de Finesse à portée Proche qui inflige <strong>d12</strong> dégâts physiques en utilisant votre Maîtrise.</p>",
+      "resource": null,
+      "actions": {
+        "MhAWv7tuvkfOf7wQ": {
+          "type": "attack",
+          "_id": "MhAWv7tuvkfOf7wQ",
+          "systemPath": "actions",
+          "description": "",
+          "chatDisplay": true,
+          "actionType": "action",
+          "cost": [
+            {
+              "scalable": false,
+              "key": "stress",
+              "value": 1,
+              "step": null,
+              "itemId": null,
+              "consumeOnSuccess": false
+            }
+          ],
+          "uses": {
+            "value": null,
+            "max": "",
+            "recovery": null,
+            "consumeOnSuccess": false
+          },
+          "damage": {
+            "main": {
+              "resultBased": false,
+              "value": {
+                "custom": {
+                  "enabled": false,
+                  "formula": ""
+                },
+                "multiplier": "prof",
+                "dice": "d12",
+                "bonus": null,
+                "flatMultiplier": 1
+              },
+              "applyTo": "hitPoints",
+              "type": [],
+              "base": false,
+              "valueAlt": {
+                "multiplier": "prof",
+                "flatMultiplier": 1,
+                "dice": "d6",
+                "bonus": null,
+                "custom": {
+                  "enabled": false,
+                  "formula": ""
+                }
+              },
+              "includeBase": false,
+              "direct": false,
+              "fullRestore": false,
+              "itemId": null
+            },
+            "resources": {}
+          },
+          "target": {
+            "type": "any",
+            "amount": null
+          },
+          "effects": [],
+          "roll": {
+            "type": "attack",
+            "trait": "finesse",
+            "difficulty": null,
+            "bonus": null,
+            "advState": "neutral",
+            "diceRolling": {
+              "multiplier": "prof",
+              "flatMultiplier": 1,
+              "dice": "d6",
+              "compare": null,
+              "treshold": null
+            },
+            "useDefault": false
+          },
+          "save": {
+            "trait": null,
+            "difficulty": null,
+            "damageMod": "none"
+          },
+          "name": "Marquer du Stress",
+          "img": "icons/commodities/biological/tongue-violet.webp",
+          "range": "close",
+          "baseAction": false,
+          "originItem": {
+            "type": "itemCollection"
+          },
+          "triggers": [],
+          "areas": []
+        }
+      },
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null,
+        "artist": ""
+      },
+      "gmNotes": "",
+      "granter": null,
+      "featureForm": "passive",
+      "actorResources": []
+    },
+    "effects": [],
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "canonicalId": null,
+        "contentOrigin": "core",
+        "contentLocale": "fr",
+        "owned": true,
+        "family": "ancestry",
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "sourceNamespace": "daggerheart-srd-2.0"
+      }
+    }
+  },
+  {
+    "name": "Nain",
+    "img": "icons/equipment/head/helm-norman-engraved.webp",
+    "type": "ancestry",
+    "system": {
+      "description": "<p>Les Nains sont aisément reconnaissables à leur petite taille, leur carrure trapue, leur musculature dense et leur pilosité abondante.</p>",
+      "features": [
+        {
+          "type": "primary",
+          "item": "Compendium.daggerheart-campaign-toolkit.dh-ancestries.Item.S0Ww7pYOSREt8qKg"
+        },
+        {
+          "type": "secondary",
+          "item": "Compendium.daggerheart-campaign-toolkit.dh-ancestries.Item.0RN0baBxh95GT1cm"
+        }
+      ],
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null,
+        "artist": ""
+      },
+      "loreReference": "dwarf",
+      "gmNotes": ""
+    },
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "canonicalId": "srd-2.0.ancestry.dwarf",
+        "contentOrigin": "core",
+        "contentLocale": "fr",
+        "owned": true,
+        "family": "ancestry",
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "sourceNamespace": "daggerheart-srd-2.0"
+      }
+    },
+    "_id": "pDt6fI6otv2E2odf",
+    "effects": []
+  },
+  {
+    "type": "feature",
+    "name": "Pas scintillant",
+    "_id": "puDdIetm05O8andm",
+    "img": "icons/magic/movement/trail-streak-zigzag-yellow.webp",
+    "system": {
+      "attribution": {},
+      "description": "<p>Une fois par scène, vous pouvez vous téléporter vers un autre point visible à portée Lointaine.</p>",
+      "gmNotes": "",
+      "resource": null,
+      "actions": {
+        "Mm3kdZ1AOYnDY0E9": {
+          "type": "effect",
+          "_id": "Mm3kdZ1AOYnDY0E9",
+          "systemPath": "actions",
+          "baseAction": false,
+          "description": "",
+          "chatDisplay": true,
+          "originItem": {
+            "type": "itemCollection"
+          },
+          "actionType": "action",
+          "triggers": [],
+          "areas": [],
+          "cost": [],
+          "uses": {
+            "value": null,
+            "max": "1",
+            "recovery": "scene",
+            "consumeOnSuccess": false
+          },
+          "effects": [],
+          "target": {
+            "type": "any",
+            "amount": null
+          },
+          "name": "Se téléporter",
+          "range": "far"
+        }
+      },
+      "featureForm": "passive",
+      "granter": null,
+      "actorResources": []
+    },
+    "effects": [],
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "canonicalId": null,
+        "contentOrigin": "core",
+        "contentLocale": "fr",
+        "owned": true,
+        "family": "ancestry",
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "sourceNamespace": "daggerheart-srd-2.0"
+      }
+    }
+  },
+  {
+    "name": "Elfe",
+    "img": "icons/weapons/ammunition/arrows-fletching.webp",
+    "type": "ancestry",
+    "system": {
+      "description": "<p>Les Elfes sont généralement de grands humanoïdes aux oreilles pointues et aux sens particulièrement aiguisés.</p>",
+      "features": [
+        {
+          "type": "primary",
+          "item": "Compendium.daggerheart-campaign-toolkit.dh-ancestries.Item.0NSPSuB8KSEYTJIP"
+        },
+        {
+          "type": "secondary",
+          "item": "Compendium.daggerheart-campaign-toolkit.dh-ancestries.Item.TfolXWFG2W2hx6sK"
+        }
+      ],
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null,
+        "artist": ""
+      },
+      "loreReference": "elf",
+      "gmNotes": ""
+    },
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "canonicalId": "srd-2.0.ancestry.elf",
+        "contentOrigin": "core",
+        "contentLocale": "fr",
+        "owned": true,
+        "family": "ancestry",
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "sourceNamespace": "daggerheart-srd-2.0"
+      }
+    },
+    "_id": "q2l6g3Ssa04K84GO",
+    "effects": []
+  },
+  {
+    "type": "feature",
+    "name": "Ailes célestes",
+    "_id": "qNoIvEtDIA8JkOiq",
+    "img": "icons/creatures/abilities/wings-birdlike-blue.webp",
+    "system": {
+      "attribution": {},
+      "description": "<p>Vous possédez des ailes qui vous permettent de voler. Une fois par scène lorsque vous volez, vous pouvez <strong>dépenser 1 Espoir</strong> au lieu de marquer un emplacement d’Armure.</p>",
+      "gmNotes": "",
+      "resource": null,
+      "actions": {
+        "UWBrm5byhRrJpu4x": {
+          "type": "effect",
+          "_id": "UWBrm5byhRrJpu4x",
+          "systemPath": "actions",
+          "baseAction": false,
+          "description": "",
+          "chatDisplay": true,
+          "originItem": {
+            "type": "itemCollection"
+          },
+          "actionType": "action",
+          "triggers": [],
+          "areas": [],
+          "cost": [
+            {
+              "itemId": null,
+              "key": "hope",
+              "value": 1,
+              "scalable": false,
+              "step": null,
+              "consumeOnSuccess": false
+            }
+          ],
+          "uses": {
+            "value": null,
+            "max": "1",
+            "recovery": "scene",
+            "consumeOnSuccess": false
+          },
+          "effects": [],
+          "target": {
+            "type": "any",
+            "amount": null
+          },
+          "name": "Dépenser de l’Espoir",
+          "range": ""
+        }
+      },
+      "featureForm": "passive",
+      "granter": null,
+      "actorResources": []
+    },
+    "effects": [],
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "canonicalId": null,
+        "contentOrigin": "core",
+        "contentLocale": "fr",
+        "owned": true,
+        "family": "ancestry",
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "sourceNamespace": "daggerheart-srd-2.0"
+      }
+    }
+  },
+  {
+    "name": "Souffle élémentaire",
+    "type": "feature",
+    "_id": "sRaE3CgkgjBF1UpV",
+    "img": "icons/creatures/abilities/dragon-fire-breath-orange.webp",
+    "system": {
+      "description": "<p>Choisissez un élément pour votre souffle, comme la foudre, le feu ou la glace. Vous pouvez utiliser ce souffle contre une cible ou un groupe de cibles à portée Très proche, comme une arme d’Instinct infligeant <strong>d8</strong> dégâts magiques en utilisant votre Maîtrise.</p>",
+      "resource": null,
+      "actions": {
+        "a6WROv0OKx0lbYVa": {
+          "type": "attack",
+          "_id": "a6WROv0OKx0lbYVa",
+          "systemPath": "actions",
+          "description": "",
+          "chatDisplay": true,
+          "actionType": "action",
+          "cost": [],
+          "uses": {
+            "value": null,
+            "max": "",
+            "recovery": null,
+            "consumeOnSuccess": false
+          },
+          "damage": {
+            "main": {
+              "resultBased": false,
+              "value": {
+                "custom": {
+                  "enabled": false,
+                  "formula": ""
+                },
+                "multiplier": "prof",
+                "dice": "d8",
+                "bonus": null,
+                "flatMultiplier": 1
+              },
+              "applyTo": "hitPoints",
+              "type": [],
+              "base": false,
+              "valueAlt": {
+                "multiplier": "prof",
+                "flatMultiplier": 1,
+                "dice": "d6",
+                "bonus": null,
+                "custom": {
+                  "enabled": false,
+                  "formula": ""
+                }
+              },
+              "includeBase": false,
+              "direct": false,
+              "fullRestore": false,
+              "itemId": null
+            },
+            "resources": {}
+          },
+          "target": {
+            "type": "any",
+            "amount": null
+          },
+          "effects": [],
+          "roll": {
+            "type": "attack",
+            "trait": "instinct",
+            "difficulty": null,
+            "bonus": null,
+            "advState": "neutral",
+            "diceRolling": {
+              "multiplier": "prof",
+              "flatMultiplier": 1,
+              "dice": "d6",
+              "compare": null,
+              "treshold": null
+            },
+            "useDefault": false
+          },
+          "save": {
+            "trait": null,
+            "difficulty": null,
+            "damageMod": "none"
+          },
+          "name": "Attaquer",
+          "img": "icons/creatures/abilities/dragon-fire-breath-orange.webp",
+          "range": "veryClose",
+          "areas": [
+            {
+              "name": "Elemental Breath",
+              "type": "placed",
+              "shape": "emanation",
+              "size": "veryClose",
+              "effects": [],
+              "hasHole": false
+            }
+          ],
+          "baseAction": false,
+          "originItem": {
+            "type": "itemCollection"
+          },
+          "triggers": []
+        }
+      },
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null,
+        "artist": ""
+      },
+      "gmNotes": "",
+      "granter": null,
+      "featureForm": "passive",
+      "actorResources": []
+    },
+    "effects": [],
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "canonicalId": null,
+        "contentOrigin": "core",
+        "contentLocale": "fr",
+        "owned": true,
+        "family": "ancestry",
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "sourceNamespace": "daggerheart-srd-2.0"
+      }
+    }
+  },
+  {
+    "name": "Grimpeur naturel",
+    "type": "feature",
+    "_id": "soQvPL0MrTLLcc31",
+    "img": "icons/magic/nature/root-vine-barrier-wall-brown.webp",
+    "system": {
+      "description": "<p>Vous avez l’avantage aux jets d’Agilité impliquant l’équilibre ou l’escalade.</p>",
+      "resource": null,
+      "actions": {},
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null,
+        "artist": ""
+      },
+      "gmNotes": "",
+      "granter": null,
+      "featureForm": "passive",
+      "actorResources": []
+    },
+    "effects": [
+      {
+        "name": "Grimpeur naturel",
+        "type": "base",
+        "_id": "HQeQH9gUfrjlWWcg",
+        "img": "icons/magic/nature/root-vine-barrier-wall-brown.webp",
+        "system": {
+          "changes": [
+            {
+              "key": "system.advantageSources",
+              "type": "add",
+              "value": "Jets d’Agilité impliquant l’équilibre ou l’escalade",
+              "priority": null,
+              "phase": "initial"
+            }
+          ],
+          "duration": {
+            "description": ""
+          },
+          "rangeDependence": null,
+          "stacking": null,
+          "targetDispositions": []
+        },
+        "disabled": false,
+        "duration": {
+          "value": null,
+          "units": "seconds",
+          "expiry": null,
+          "expired": false
+        },
+        "description": "<p>Vous avez l’avantage aux jets d’Agilité impliquant l’équilibre ou l’escalade.</p>",
+        "tint": "#ffffff",
+        "transfer": true,
+        "statuses": [],
+        "sort": 0,
+        "flags": {},
+        "start": null,
+        "showIcon": 1,
+        "folder": null,
+        "origin": null
+      }
+    ],
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "canonicalId": null,
+        "contentOrigin": "core",
+        "contentLocale": "fr",
+        "owned": true,
+        "family": "ancestry",
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "sourceNamespace": "daggerheart-srd-2.0"
+      }
+    }
+  },
+  {
+    "name": "Endurance",
+    "type": "feature",
+    "_id": "tXWEMdLXafUSZTbK",
+    "img": "icons/magic/control/buff-strength-muscle-damage.webp",
+    "system": {
+      "description": "<p>À la création du personnage, gagnez un emplacement de Point de Vie supplémentaire.</p>",
+      "resource": null,
+      "actions": {},
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null,
+        "artist": ""
+      },
+      "gmNotes": "",
+      "granter": null,
+      "featureForm": "passive",
+      "actorResources": []
+    },
+    "effects": [
+      {
+        "name": "Endurance",
+        "type": "base",
+        "_id": "db8W2Q0Qty84XV0x",
+        "img": "icons/magic/control/buff-strength-muscle-damage.webp",
+        "system": {
+          "changes": [
+            {
+              "key": "system.resources.hitPoints.max",
+              "type": "add",
+              "value": 1,
+              "priority": null,
+              "phase": "initial"
+            }
+          ],
+          "duration": {
+            "description": ""
+          },
+          "rangeDependence": null,
+          "stacking": null,
+          "targetDispositions": []
+        },
+        "disabled": false,
+        "duration": {
+          "value": null,
+          "units": "seconds",
+          "expiry": null,
+          "expired": false
+        },
+        "description": "<p>À la création du personnage, gagnez un emplacement de Point de Vie supplémentaire.</p>",
+        "tint": "#ffffff",
+        "transfer": true,
+        "statuses": [],
+        "sort": 0,
+        "flags": {},
+        "start": null,
+        "showIcon": 1,
+        "folder": null,
+        "origin": null
+      }
+    ],
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "canonicalId": null,
+        "contentOrigin": "core",
+        "contentLocale": "fr",
+        "owned": true,
+        "family": "ancestry",
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "sourceNamespace": "daggerheart-srd-2.0"
+      }
+    }
+  },
+  {
+    "type": "feature",
+    "name": "Doigts agiles",
+    "_id": "tsX9rZ2JRkzgF8DR",
+    "img": "icons/skills/social/peace-luck-insult.webp",
+    "system": {
+      "attribution": {},
+      "description": "<p>Lorsque vous faites un jet de Finesse, vous pouvez <strong>dépenser 2 Espoir</strong> pour relancer votre Dé d’Espoir.</p>",
+      "gmNotes": "",
+      "resource": null,
+      "actions": {
+        "eIaosYhBPLBmFMSr": {
+          "type": "effect",
+          "_id": "eIaosYhBPLBmFMSr",
+          "systemPath": "actions",
+          "baseAction": false,
+          "description": "",
+          "chatDisplay": true,
+          "originItem": {
+            "type": "itemCollection"
+          },
+          "actionType": "action",
+          "triggers": [],
+          "areas": [],
+          "cost": [
+            {
+              "scalable": false,
+              "key": "hope",
+              "value": 2,
+              "itemId": null,
+              "step": null,
+              "consumeOnSuccess": false
+            }
+          ],
+          "uses": {
+            "value": null,
+            "max": "",
+            "recovery": null,
+            "consumeOnSuccess": false
+          },
+          "effects": [],
+          "target": {
+            "type": "any",
+            "amount": null
+          },
+          "name": "Dépenser de l’Espoir",
+          "range": ""
+        }
+      },
+      "featureForm": "passive",
+      "granter": null,
+      "actorResources": []
+    },
+    "effects": [],
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "canonicalId": null,
+        "contentOrigin": "core",
+        "contentLocale": "fr",
+        "owned": true,
+        "family": "ancestry",
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "sourceNamespace": "daggerheart-srd-2.0"
+      }
+    }
+  },
+  {
+    "name": "Écailles",
+    "type": "feature",
+    "_id": "u8ZhV962rNmUlzkp",
+    "img": "icons/commodities/leather/scales-brown.webp",
+    "system": {
+      "description": "<p>Vos écailles constituent une protection naturelle. Lorsque vous devriez subir des dégâts Sévères, vous pouvez <strong>marquer 1 Stress</strong> pour marquer 1 Point de Vie de moins.</p>",
+      "resource": null,
+      "actions": {},
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null,
+        "artist": ""
+      },
+      "gmNotes": "",
+      "granter": null,
+      "featureForm": "passive",
+      "actorResources": []
+    },
+    "effects": [
+      {
+        "name": "Écailles",
+        "type": "base",
+        "_id": "b6Pkwwk7pgBeeUTe",
+        "img": "icons/commodities/leather/scales-brown.webp",
+        "system": {
+          "changes": [
+            {
+              "key": "system.rules.damageReduction.stressDamageReduction.severe.cost",
+              "type": "override",
+              "value": 1,
+              "priority": null,
+              "phase": "initial"
+            }
+          ],
+          "duration": {
+            "description": ""
+          },
+          "rangeDependence": null,
+          "stacking": null,
+          "targetDispositions": []
+        },
+        "disabled": false,
+        "duration": {
+          "value": null,
+          "units": "seconds",
+          "expiry": null,
+          "expired": false
+        },
+        "description": "<p>Vos écailles constituent une protection naturelle. Lorsque vous devriez subir des dégâts Sévères, vous pouvez <strong>marquer 1 Stress</strong> pour marquer 1 Point de Vie de moins.</p>",
+        "tint": "#ffffff",
+        "transfer": true,
+        "statuses": [],
+        "sort": 0,
+        "flags": {},
+        "start": null,
+        "showIcon": 1,
+        "folder": null,
+        "origin": null
+      }
+    ],
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "canonicalId": null,
+        "contentOrigin": "core",
+        "contentLocale": "fr",
+        "owned": true,
+        "family": "ancestry",
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "sourceNamespace": "daggerheart-srd-2.0"
+      }
+    }
+  },
+  {
+    "type": "ancestry",
+    "name": "Tidekin",
+    "system": {
+      "loreReference": "tidekin",
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null
+      },
+      "description": "<p>Les Tidekin sont des humanoïdes dont le corps est fait de chair et d'eau.</p>",
+      "gmNotes": "",
+      "features": [
+        {
+          "type": "primary",
+          "item": "Compendium.daggerheart-campaign-toolkit.dh-ancestries.Item.kFuNdXalIInsFRlh"
+        },
+        {
+          "type": "secondary",
+          "item": "Compendium.daggerheart-campaign-toolkit.dh-ancestries.Item.HCyMnY3yW1PBTZvc"
+        }
+      ]
+    },
+    "_id": "whKWzHY0cC4fAsLs",
+    "img": "icons/magic/water/wave-water-teal.webp",
+    "effects": [],
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "canonicalId": "srd-2.0.ancestry.tidekin",
+        "contentOrigin": "core",
+        "contentLocale": "fr",
+        "owned": true,
+        "family": "ancestry",
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "sourceNamespace": "daggerheart-srd-2.0"
+      }
+    }
+  },
+  {
+    "name": "Humain",
+    "img": "icons/skills/social/diplomacy-handshake-yellow.webp",
+    "type": "ancestry",
+    "system": {
+      "description": "<p>Les Humains sont aisément reconnaissables à leurs mains habiles, leurs oreilles arrondies et leur constitution endurante.</p>",
+      "features": [
+        {
+          "type": "primary",
+          "item": "Compendium.daggerheart-campaign-toolkit.dh-ancestries.Item.HMXNJZ7ynzajR2KT"
+        },
+        {
+          "type": "secondary",
+          "item": "Compendium.daggerheart-campaign-toolkit.dh-ancestries.Item.BNofV1UC4ZbdFTkb"
+        }
+      ],
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null,
+        "artist": ""
+      },
+      "loreReference": "human",
+      "gmNotes": ""
+    },
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "canonicalId": "srd-2.0.ancestry.human",
+        "contentOrigin": "core",
+        "contentLocale": "fr",
+        "owned": true,
+        "family": "ancestry",
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "sourceNamespace": "daggerheart-srd-2.0"
+      }
+    },
+    "_id": "wtJ5V5qRppLQn61n",
+    "effects": []
+  },
+  {
+    "name": "Katari",
+    "img": "icons/creatures/claws/claw-straight-orange.webp",
+    "type": "ancestry",
+    "system": {
+      "description": "<p>Les Katari sont des humanoïdes félins dotés de griffes rétractiles, de pupilles verticales et de hautes oreilles triangulaires.</p>",
+      "features": [
+        {
+          "type": "primary",
+          "item": "Compendium.daggerheart-campaign-toolkit.dh-ancestries.Item.lNgbbYnCKgrdvA85"
+        },
+        {
+          "type": "secondary",
+          "item": "Compendium.daggerheart-campaign-toolkit.dh-ancestries.Item.Zj69cAeb3NjIa8Hn"
+        }
+      ],
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null,
+        "artist": ""
+      },
+      "loreReference": "katari",
+      "gmNotes": ""
+    },
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "canonicalId": "srd-2.0.ancestry.katari",
+        "contentOrigin": "core",
+        "contentLocale": "fr",
+        "owned": true,
+        "family": "ancestry",
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "sourceNamespace": "daggerheart-srd-2.0"
+      }
+    },
+    "_id": "yyW0UM8srD9WuwW7",
+    "effects": []
+  },
+  {
+    "type": "feature",
+    "name": "Ignifugé",
+    "_id": "zmTuxjHiNDsW4VYa",
+    "img": "icons/magic/fire/flame-burning-yellow-orange.webp",
+    "system": {
+      "attribution": {},
+      "description": "<p>Vous êtes immunisé aux dégâts causés par les flammes, qu’elles soient magiques ou ordinaires.</p>",
+      "gmNotes": "",
+      "resource": null,
+      "actions": {},
+      "featureForm": "passive",
+      "granter": null,
+      "actorResources": []
+    },
+    "effects": [],
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "canonicalId": null,
+        "contentOrigin": "core",
+        "contentLocale": "fr",
+        "owned": true,
+        "family": "ancestry",
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "sourceNamespace": "daggerheart-srd-2.0"
+      }
+    }
+  }
+]

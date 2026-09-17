@@ -1,0 +1,10 @@
+{
+  "schema": "daggerheart-campaign-toolkit/homebrew-namespace@1",
+  "namespace": "eberron",
+  "contentOrigin": "homebrew",
+  "status": "reserved",
+  "packs": {},
+  "notes": [
+    "Namespace réservé à la future couche Eberron."
+  ]
+}

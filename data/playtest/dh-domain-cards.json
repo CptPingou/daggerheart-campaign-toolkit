@@ -1,0 +1,1136 @@
+[
+  {
+    "name": "Lien de sang",
+    "img": "systems/daggerheart/assets/icons/domains/domain-card/sage.png",
+    "type": "domainCard",
+    "system": {
+      "description": "Effectuez un jet d’incantation contre un adversaire à portée Proche. En cas de réussite, marquez 1 Stress tandis que vous ralentissez la vitalité de la cible. La cible est temporairement Entravée et Vulnérable. Chaque fois que la cible est sous les projecteurs tant que l’un de ces états persiste, elle marque 1 Stress.",
+      "domain": "blood",
+      "recallCost": 1,
+      "level": 6,
+      "type": "spell",
+      "actions": {},
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null,
+        "artist": ""
+      },
+      "gmNotes": "",
+      "resource": null,
+      "inVault": false,
+      "vaultActive": false,
+      "loadoutIgnore": false,
+      "domainTouched": null
+    },
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "sourceId": "the-void.2026-07-09.domain_card.blood-bind",
+        "sourcePath": "data/playtest/blood-hunter-2026-07-09/domains/blood/cards/06-blood-bind.json",
+        "source": {
+          "corpus": "the-void",
+          "product": "blood-hunter",
+          "version": "2026-07-09",
+          "status": "playtest"
+        },
+        "mappingVersion": "BH-2026-07-09-active",
+        "mappingGaps": [
+          "img.domain"
+        ],
+        "contentLocale": "fr",
+        "canonicalSourceId": "the-void.2026-07-09.domain_card.blood-bind",
+        "localeFallback": false,
+        "localizedPaths": [
+          "name",
+          "system.description"
+        ],
+        "managed": true,
+        "kind": "domain_card",
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "contentOrigin": "playtest",
+        "sourceNamespace": "the-void/blood-hunter-2026-07-09"
+      }
+    },
+    "effects": [],
+    "_id": "2CgmQ1JjoeBfid4I"
+  },
+  {
+    "name": "Lien vital",
+    "img": "systems/daggerheart/assets/icons/domains/domain-card/sage.png",
+    "type": "domainCard",
+    "system": {
+      "description": "Effectuez un jet d’incantation (14). Une fois par repos, en cas de réussite, vous invoquez un lien magique entre vous et une cible consentante à portée Proche qui dure jusqu’à la fin de la scène. Lorsque l’une des créatures liées devrait marquer 1 PV, l’autre créature liée peut marquer 1 PV à sa place.",
+      "domain": "blood",
+      "recallCost": 0,
+      "level": 6,
+      "type": "spell",
+      "actions": {},
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null,
+        "artist": ""
+      },
+      "gmNotes": "",
+      "resource": null,
+      "inVault": false,
+      "vaultActive": false,
+      "loadoutIgnore": false,
+      "domainTouched": null
+    },
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "sourceId": "the-void.2026-07-09.domain_card.life-link",
+        "sourcePath": "data/playtest/blood-hunter-2026-07-09/domains/blood/cards/06-life-link.json",
+        "source": {
+          "corpus": "the-void",
+          "product": "blood-hunter",
+          "version": "2026-07-09",
+          "status": "playtest"
+        },
+        "mappingVersion": "BH-2026-07-09-active",
+        "mappingGaps": [
+          "img.domain"
+        ],
+        "contentLocale": "fr",
+        "canonicalSourceId": "the-void.2026-07-09.domain_card.life-link",
+        "localeFallback": false,
+        "localizedPaths": [
+          "name",
+          "system.description"
+        ],
+        "managed": true,
+        "kind": "domain_card",
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "contentOrigin": "playtest",
+        "sourceNamespace": "the-void/blood-hunter-2026-07-09"
+      }
+    },
+    "effects": [],
+    "_id": "2lUNpHtjx3iDnLQ5"
+  },
+  {
+    "name": "Arbre sanglant",
+    "img": "systems/daggerheart/assets/icons/domains/domain-card/sage.png",
+    "type": "domainCard",
+    "system": {
+      "description": "Une fois par repos long, lorsqu’un adversaire à portée Proche est vaincu, vous pouvez faire jaillir de son corps un arbre tortueux et veiné qui exsude de la force vitale. Placez sur cette carte un nombre de jetons égal à votre trait d’Incantation. Un PJ à portée de Mêlée de l’arbre peut dépenser 1 jeton de cette carte pour siphonner la force vitale de l’arbre et effacer 1 PV.",
+      "domain": "blood",
+      "recallCost": 2,
+      "level": 8,
+      "type": "spell",
+      "actions": {},
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null,
+        "artist": ""
+      },
+      "gmNotes": "",
+      "resource": null,
+      "inVault": false,
+      "vaultActive": false,
+      "loadoutIgnore": false,
+      "domainTouched": null
+    },
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "sourceId": "the-void.2026-07-09.domain_card.bleeding-tree",
+        "sourcePath": "data/playtest/blood-hunter-2026-07-09/domains/blood/cards/08-bleeding-tree.json",
+        "source": {
+          "corpus": "the-void",
+          "product": "blood-hunter",
+          "version": "2026-07-09",
+          "status": "playtest"
+        },
+        "mappingVersion": "BH-2026-07-09-active",
+        "mappingGaps": [
+          "img.domain"
+        ],
+        "contentLocale": "fr",
+        "canonicalSourceId": "the-void.2026-07-09.domain_card.bleeding-tree",
+        "localeFallback": false,
+        "localizedPaths": [
+          "name",
+          "system.description"
+        ],
+        "managed": true,
+        "kind": "domain_card",
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "contentOrigin": "playtest",
+        "sourceNamespace": "the-void/blood-hunter-2026-07-09"
+      }
+    },
+    "effects": [],
+    "_id": "3oPbAHGHTv1bRrU5"
+  },
+  {
+    "name": "Adamance scabreuse",
+    "img": "systems/daggerheart/assets/icons/domains/domain-card/sage.png",
+    "type": "domainCard",
+    "system": {
+      "description": "Vos blessures se referment en croûtes cuirassées. Lorsque vous marquez 2 PV ou plus à cause d’une attaque, effacez 1 emplacement d’armure.",
+      "domain": "blood",
+      "recallCost": 1,
+      "level": 10,
+      "type": "ability",
+      "actions": {},
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null,
+        "artist": ""
+      },
+      "gmNotes": "",
+      "resource": null,
+      "inVault": false,
+      "vaultActive": false,
+      "loadoutIgnore": false,
+      "domainTouched": null
+    },
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "sourceId": "the-void.2026-07-09.domain_card.scabrous-adamance",
+        "sourcePath": "data/playtest/blood-hunter-2026-07-09/domains/blood/cards/10-scabrous-adamance.json",
+        "source": {
+          "corpus": "the-void",
+          "product": "blood-hunter",
+          "version": "2026-07-09",
+          "status": "playtest"
+        },
+        "mappingVersion": "BH-2026-07-09-active",
+        "mappingGaps": [
+          "img.domain"
+        ],
+        "contentLocale": "fr",
+        "canonicalSourceId": "the-void.2026-07-09.domain_card.scabrous-adamance",
+        "localeFallback": false,
+        "localizedPaths": [
+          "name",
+          "system.description"
+        ],
+        "managed": true,
+        "kind": "domain_card",
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "contentOrigin": "playtest",
+        "sourceNamespace": "the-void/blood-hunter-2026-07-09"
+      }
+    },
+    "effects": [],
+    "_id": "43261jsa13fXond6"
+  },
+  {
+    "name": "Parasite de la volonté",
+    "img": "systems/daggerheart/assets/icons/domains/domain-card/sage.png",
+    "type": "domainCard",
+    "system": {
+      "description": "Effectuez un jet d’incantation contre un adversaire à portée Proche. Une fois par repos, en cas de réussite, marquez 1 PV pour Infecter la cible avec un minuscule ver de sang magique. Les jets de Présence contre la cible Infectée ont l’Avantage. Lorsque la cible Infectée effectue un jet d’attaque, vous pouvez dépenser 1 Espoir pour lui donner le Désavantage. L’état Infecté dure jusqu’à ce que vous preniez un repos ou sacrifiiez le ver de sang pour faire marquer 1 PV à la cible Infectée.",
+      "domain": "blood",
+      "recallCost": 2,
+      "level": 5,
+      "type": "spell",
+      "actions": {},
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null,
+        "artist": ""
+      },
+      "gmNotes": "",
+      "resource": null,
+      "inVault": false,
+      "vaultActive": false,
+      "loadoutIgnore": false,
+      "domainTouched": null
+    },
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "sourceId": "the-void.2026-07-09.domain_card.parasite-of-the-will",
+        "sourcePath": "data/playtest/blood-hunter-2026-07-09/domains/blood/cards/05-parasite-of-the-will.json",
+        "source": {
+          "corpus": "the-void",
+          "product": "blood-hunter",
+          "version": "2026-07-09",
+          "status": "playtest"
+        },
+        "mappingVersion": "BH-2026-07-09-active",
+        "mappingGaps": [
+          "img.domain"
+        ],
+        "contentLocale": "fr",
+        "canonicalSourceId": "the-void.2026-07-09.domain_card.parasite-of-the-will",
+        "localeFallback": false,
+        "localizedPaths": [
+          "name",
+          "system.description"
+        ],
+        "managed": true,
+        "kind": "domain_card",
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "contentOrigin": "playtest",
+        "sourceNamespace": "the-void/blood-hunter-2026-07-09"
+      }
+    },
+    "effects": [],
+    "_id": "65vSkeNVLX2Ik1N7"
+  },
+  {
+    "name": "Festin sanguin",
+    "img": "systems/daggerheart/assets/icons/domains/domain-card/sage.png",
+    "type": "domainCard",
+    "system": {
+      "description": "Effectuez un jet d’incantation contre un adversaire à portée Proche. Une fois par repos, en cas de réussite, lancez un nombre de d6 égal au nombre de PV que vous avez marqués, et vous pouvez marquer 1 PV supplémentaire pour relancer autant de ces dés que vous le souhaitez. La cible marque 1 PV pour chaque résultat de 4 ou plus.",
+      "domain": "blood",
+      "recallCost": 2,
+      "level": 10,
+      "type": "spell",
+      "actions": {},
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null,
+        "artist": ""
+      },
+      "gmNotes": "",
+      "resource": null,
+      "inVault": false,
+      "vaultActive": false,
+      "loadoutIgnore": false,
+      "domainTouched": null
+    },
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "sourceId": "the-void.2026-07-09.domain_card.sanguine-feast",
+        "sourcePath": "data/playtest/blood-hunter-2026-07-09/domains/blood/cards/10-sanguine-feast.json",
+        "source": {
+          "corpus": "the-void",
+          "product": "blood-hunter",
+          "version": "2026-07-09",
+          "status": "playtest"
+        },
+        "mappingVersion": "BH-2026-07-09-active",
+        "mappingGaps": [
+          "img.domain"
+        ],
+        "contentLocale": "fr",
+        "canonicalSourceId": "the-void.2026-07-09.domain_card.sanguine-feast",
+        "localeFallback": false,
+        "localizedPaths": [
+          "name",
+          "system.description"
+        ],
+        "managed": true,
+        "kind": "domain_card",
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "contentOrigin": "playtest",
+        "sourceNamespace": "the-void/blood-hunter-2026-07-09"
+      }
+    },
+    "effects": [],
+    "_id": "AasFi2t3GcO6NBFY"
+  },
+  {
+    "name": "Talisman de sang vital",
+    "img": "systems/daggerheart/assets/icons/domains/domain-card/sage.png",
+    "type": "domainCard",
+    "system": {
+      "description": "Marquez 1 PV pour invoquer un talisman imprégné de votre essence vitale. Lorsque le porteur du talisman devrait subir des dégâts Sévères ou supérieurs, il peut détruire le talisman pour réduire les dégâts de deux seuils. Sinon, le talisman disparaît lorsque vous prenez un repos ou lancez de nouveau ce sort.",
+      "domain": "blood",
+      "recallCost": 0,
+      "level": 1,
+      "type": "spell",
+      "actions": {},
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null,
+        "artist": ""
+      },
+      "gmNotes": "",
+      "resource": null,
+      "inVault": false,
+      "vaultActive": false,
+      "loadoutIgnore": false,
+      "domainTouched": null
+    },
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "sourceId": "the-void.2026-07-09.domain_card.lifeblood-talisman",
+        "sourcePath": "data/playtest/blood-hunter-2026-07-09/domains/blood/cards/01-lifeblood-talisman.json",
+        "source": {
+          "corpus": "the-void",
+          "product": "blood-hunter",
+          "version": "2026-07-09",
+          "status": "playtest"
+        },
+        "mappingVersion": "BH-2026-07-09-active",
+        "mappingGaps": [
+          "img.domain"
+        ],
+        "contentLocale": "fr",
+        "canonicalSourceId": "the-void.2026-07-09.domain_card.lifeblood-talisman",
+        "localeFallback": false,
+        "localizedPaths": [
+          "name",
+          "system.description"
+        ],
+        "managed": true,
+        "kind": "domain_card",
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "contentOrigin": "playtest",
+        "sourceNamespace": "the-void/blood-hunter-2026-07-09"
+      }
+    },
+    "effects": [],
+    "_id": "CW4OZFs3Ku41Px6V"
+  },
+  {
+    "name": "Palpitations",
+    "img": "systems/daggerheart/assets/icons/domains/domain-card/sage.png",
+    "type": "domainCard",
+    "system": {
+      "description": "Lorsque vous ou un allié effectuez un jet d’action pour effrayer ou intimider une créature à portée Proche, vous pouvez dépenser 1 Espoir pour donner l’Avantage au jet. En cas de réussite, la cible marque 1 Stress. De plus, une fois par repos long, vous pouvez dépenser 1 Espoir pour vous calmer ou calmer une créature consentante à portée Proche, permettant à la cible d’effacer 2 Stress.",
+      "domain": "blood",
+      "recallCost": 2,
+      "level": 2,
+      "type": "spell",
+      "actions": {},
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null,
+        "artist": ""
+      },
+      "gmNotes": "",
+      "resource": null,
+      "inVault": false,
+      "vaultActive": false,
+      "loadoutIgnore": false,
+      "domainTouched": null
+    },
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "sourceId": "the-void.2026-07-09.domain_card.palpitations",
+        "sourcePath": "data/playtest/blood-hunter-2026-07-09/domains/blood/cards/02-palpitations.json",
+        "source": {
+          "corpus": "the-void",
+          "product": "blood-hunter",
+          "version": "2026-07-09",
+          "status": "playtest"
+        },
+        "mappingVersion": "BH-2026-07-09-active",
+        "mappingGaps": [
+          "img.domain"
+        ],
+        "contentLocale": "fr",
+        "canonicalSourceId": "the-void.2026-07-09.domain_card.palpitations",
+        "localeFallback": false,
+        "localizedPaths": [
+          "name",
+          "system.description"
+        ],
+        "managed": true,
+        "kind": "domain_card",
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "contentOrigin": "playtest",
+        "sourceNamespace": "the-void/blood-hunter-2026-07-09"
+      }
+    },
+    "effects": [],
+    "_id": "EpZ6HA799AsJFNoJ"
+  },
+  {
+    "name": "Glyphe d’hémorragie",
+    "img": "systems/daggerheart/assets/icons/domains/domain-card/sage.png",
+    "type": "domainCard",
+    "system": {
+      "description": "Effectuez un jet d’incantation contre une cible à portée Proche. En cas de réussite, dépensez 1 Espoir pour marquer la cible d’un glyphe magique qui la fait saigner abondamment. Jusqu’à ce que le glyphe s’efface, les dégâts subis par la cible sont augmentés d’un seuil. Le glyphe s’efface lorsque vous prenez un repos, lancez de nouveau ce sort ou lorsque la cible subit des dégâts Sévères ou supérieurs.",
+      "domain": "blood",
+      "recallCost": 3,
+      "level": 9,
+      "type": "spell",
+      "actions": {},
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null,
+        "artist": ""
+      },
+      "gmNotes": "",
+      "resource": null,
+      "inVault": false,
+      "vaultActive": false,
+      "loadoutIgnore": false,
+      "domainTouched": null
+    },
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "sourceId": "the-void.2026-07-09.domain_card.glyph-of-hemorrhaging",
+        "sourcePath": "data/playtest/blood-hunter-2026-07-09/domains/blood/cards/09-glyph-of-hemorrhaging.json",
+        "source": {
+          "corpus": "the-void",
+          "product": "blood-hunter",
+          "version": "2026-07-09",
+          "status": "playtest"
+        },
+        "mappingVersion": "BH-2026-07-09-active",
+        "mappingGaps": [
+          "img.domain"
+        ],
+        "contentLocale": "fr",
+        "canonicalSourceId": "the-void.2026-07-09.domain_card.glyph-of-hemorrhaging",
+        "localeFallback": false,
+        "localizedPaths": [
+          "name",
+          "system.description"
+        ],
+        "managed": true,
+        "kind": "domain_card",
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "contentOrigin": "playtest",
+        "sourceNamespace": "the-void/blood-hunter-2026-07-09"
+      }
+    },
+    "effects": [],
+    "_id": "HupKoef8e1QaHZDs"
+  },
+  {
+    "name": "Frappe vampirique",
+    "img": "systems/daggerheart/assets/icons/domains/domain-card/sage.png",
+    "type": "domainCard",
+    "system": {
+      "description": "Lorsque vous infligez des dégâts Majeurs ou supérieurs à un adversaire à portée Proche, vous pouvez marquer 1 Stress pour effacer 1 PV.",
+      "domain": "blood",
+      "recallCost": 2,
+      "level": 7,
+      "type": "ability",
+      "actions": {},
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null,
+        "artist": ""
+      },
+      "gmNotes": "",
+      "resource": null,
+      "inVault": false,
+      "vaultActive": false,
+      "loadoutIgnore": false,
+      "domainTouched": null
+    },
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "sourceId": "the-void.2026-07-09.domain_card.vampiric-strike",
+        "sourcePath": "data/playtest/blood-hunter-2026-07-09/domains/blood/cards/07-vampiric-strike.json",
+        "source": {
+          "corpus": "the-void",
+          "product": "blood-hunter",
+          "version": "2026-07-09",
+          "status": "playtest"
+        },
+        "mappingVersion": "BH-2026-07-09-active",
+        "mappingGaps": [
+          "img.domain"
+        ],
+        "contentLocale": "fr",
+        "canonicalSourceId": "the-void.2026-07-09.domain_card.vampiric-strike",
+        "localeFallback": false,
+        "localizedPaths": [
+          "name",
+          "system.description"
+        ],
+        "managed": true,
+        "kind": "domain_card",
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "contentOrigin": "playtest",
+        "sourceNamespace": "the-void/blood-hunter-2026-07-09"
+      }
+    },
+    "effects": [],
+    "_id": "JWM1FSq7Av352N3l"
+  },
+  {
+    "name": "Harpon macabre",
+    "img": "systems/daggerheart/assets/icons/domains/domain-card/sage.png",
+    "type": "domainCard",
+    "system": {
+      "description": "Effectuez un jet d’incantation contre une créature à portée Lointaine. En cas de réussite, marquez 1 Stress pour lancer sur la cible un harpon de sang magique invoqué, infligeant d10 dégâts magiques en utilisant votre Maîtrise. Vous pouvez ensuite vous attirer jusqu’à portée de Mêlée de la cible, ou attirer la cible jusqu’à portée de Mêlée de vous. Sinon, si vous ciblez un objet non tenu ou un élément du terrain à portée Lointaine, effectuez un jet d’incantation (13). En cas de réussite, vous attirez l’objet jusqu’à vous ou vous vous attirez jusqu’au terrain.",
+      "domain": "blood",
+      "recallCost": 1,
+      "level": 4,
+      "type": "spell",
+      "actions": {},
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null,
+        "artist": ""
+      },
+      "gmNotes": "",
+      "resource": null,
+      "inVault": false,
+      "vaultActive": false,
+      "loadoutIgnore": false,
+      "domainTouched": null
+    },
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "sourceId": "the-void.2026-07-09.domain_card.grisly-harpoon",
+        "sourcePath": "data/playtest/blood-hunter-2026-07-09/domains/blood/cards/04-grisly-harpoon.json",
+        "source": {
+          "corpus": "the-void",
+          "product": "blood-hunter",
+          "version": "2026-07-09",
+          "status": "playtest"
+        },
+        "mappingVersion": "BH-2026-07-09-active",
+        "mappingGaps": [
+          "img.domain"
+        ],
+        "contentLocale": "fr",
+        "canonicalSourceId": "the-void.2026-07-09.domain_card.grisly-harpoon",
+        "localeFallback": false,
+        "localizedPaths": [
+          "name",
+          "system.description"
+        ],
+        "managed": true,
+        "kind": "domain_card",
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "contentOrigin": "playtest",
+        "sourceNamespace": "the-void/blood-hunter-2026-07-09"
+      }
+    },
+    "effects": [],
+    "_id": "O9oSNIeLLRttk5Pl"
+  },
+  {
+    "name": "Marionnette de sang",
+    "img": "systems/daggerheart/assets/icons/domains/domain-card/sage.png",
+    "type": "domainCard",
+    "system": {
+      "description": "Effectuez un jet d’incantation contre un adversaire à portée Proche. En cas de réussite, dépensez 1 Espoir pour accomplir n’importe lesquelles des actions suivantes, dans l’ordre de votre choix :\n• Déplacez la cible jusqu’à une portée Proche de sa position actuelle. Pour déplacer la cible sur un terrain dangereux, vous devez dépenser 1 Espoir supplémentaire.\n• La cible effectue une attaque standard contre une autre cible de votre choix à portée de cette attaque.",
+      "domain": "blood",
+      "recallCost": 2,
+      "level": 3,
+      "type": "spell",
+      "actions": {},
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null,
+        "artist": ""
+      },
+      "gmNotes": "",
+      "resource": null,
+      "inVault": false,
+      "vaultActive": false,
+      "loadoutIgnore": false,
+      "domainTouched": null
+    },
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "sourceId": "the-void.2026-07-09.domain_card.blood-puppet",
+        "sourcePath": "data/playtest/blood-hunter-2026-07-09/domains/blood/cards/03-blood-puppet.json",
+        "source": {
+          "corpus": "the-void",
+          "product": "blood-hunter",
+          "version": "2026-07-09",
+          "status": "playtest"
+        },
+        "mappingVersion": "BH-2026-07-09-active",
+        "mappingGaps": [
+          "img.domain"
+        ],
+        "contentLocale": "fr",
+        "canonicalSourceId": "the-void.2026-07-09.domain_card.blood-puppet",
+        "localeFallback": false,
+        "localizedPaths": [
+          "name",
+          "system.description"
+        ],
+        "managed": true,
+        "kind": "domain_card",
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "contentOrigin": "playtest",
+        "sourceNamespace": "the-void/blood-hunter-2026-07-09"
+      }
+    },
+    "effects": [],
+    "_id": "Pq1NwTUA6Aeyv9Tr"
+  },
+  {
+    "name": "Sang brûlant",
+    "img": "systems/daggerheart/assets/icons/domains/domain-card/sage.png",
+    "type": "domainCard",
+    "system": {
+      "description": "Effectuez un jet d’incantation (13). En cas de réussite, marquez 1 PV pour enflammer le sang d’un groupe à portée Lointaine, faisant marquer 1 PV à chaque cible. Si vous avez marqué au moins 3 PV, chaque cible marque 2 PV à la place.",
+      "domain": "blood",
+      "recallCost": 3,
+      "level": 3,
+      "type": "spell",
+      "actions": {},
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null,
+        "artist": ""
+      },
+      "gmNotes": "",
+      "resource": null,
+      "inVault": false,
+      "vaultActive": false,
+      "loadoutIgnore": false,
+      "domainTouched": null
+    },
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "sourceId": "the-void.2026-07-09.domain_card.burning-gore",
+        "sourcePath": "data/playtest/blood-hunter-2026-07-09/domains/blood/cards/03-burning-gore.json",
+        "source": {
+          "corpus": "the-void",
+          "product": "blood-hunter",
+          "version": "2026-07-09",
+          "status": "playtest"
+        },
+        "mappingVersion": "BH-2026-07-09-active",
+        "mappingGaps": [
+          "img.domain"
+        ],
+        "contentLocale": "fr",
+        "canonicalSourceId": "the-void.2026-07-09.domain_card.burning-gore",
+        "localeFallback": false,
+        "localizedPaths": [
+          "name",
+          "system.description"
+        ],
+        "managed": true,
+        "kind": "domain_card",
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "contentOrigin": "playtest",
+        "sourceNamespace": "the-void/blood-hunter-2026-07-09"
+      }
+    },
+    "effects": [],
+    "_id": "Q40K6t70VJ8DGezy"
+  },
+  {
+    "name": "Puiser dans la douleur",
+    "img": "systems/daggerheart/assets/icons/domains/domain-card/sage.png",
+    "type": "domainCard",
+    "system": {
+      "description": "Lorsque vous marquez 1 PV, placez 1 jeton sur cette carte. Lors d’une attaque réussie, vous pouvez dépenser autant de jetons que vous le souhaitez depuis cette carte pour gagner un bonus de 1d6 aux dégâts de l’attaque pour chaque jeton dépensé. Cette carte peut contenir un nombre maximal de jetons égal à votre trait d’Incantation. Retirez tous les jetons de cette carte lorsque vous prenez un repos long.",
+      "domain": "blood",
+      "recallCost": 1,
+      "level": 1,
+      "type": "ability",
+      "actions": {},
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null,
+        "artist": ""
+      },
+      "gmNotes": "",
+      "resource": null,
+      "inVault": false,
+      "vaultActive": false,
+      "loadoutIgnore": false,
+      "domainTouched": null
+    },
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "sourceId": "the-void.2026-07-09.domain_card.power-through-pain",
+        "sourcePath": "data/playtest/blood-hunter-2026-07-09/domains/blood/cards/01-power-through-pain.json",
+        "source": {
+          "corpus": "the-void",
+          "product": "blood-hunter",
+          "version": "2026-07-09",
+          "status": "playtest"
+        },
+        "mappingVersion": "BH-2026-07-09-active",
+        "mappingGaps": [
+          "img.domain"
+        ],
+        "contentLocale": "fr",
+        "canonicalSourceId": "the-void.2026-07-09.domain_card.power-through-pain",
+        "localeFallback": false,
+        "localizedPaths": [
+          "name",
+          "system.description"
+        ],
+        "managed": true,
+        "kind": "domain_card",
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "contentOrigin": "playtest",
+        "sourceNamespace": "the-void/blood-hunter-2026-07-09"
+      }
+    },
+    "effects": [],
+    "_id": "fZ3HBSV1cLOePlU9"
+  },
+  {
+    "name": "Tisser la chair",
+    "img": "systems/daggerheart/assets/icons/domains/domain-card/sage.png",
+    "type": "domainCard",
+    "system": {
+      "description": "Une fois par repos long, vous pouvez marquer 1 PV pour coaguler, suturer et fortifier les autres avec votre propre sang vital. Chaque cible consentante à portée Très Proche efface 1 PV et 1 emplacement d’armure.",
+      "domain": "blood",
+      "recallCost": 1,
+      "level": 4,
+      "type": "spell",
+      "actions": {},
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null,
+        "artist": ""
+      },
+      "gmNotes": "",
+      "resource": null,
+      "inVault": false,
+      "vaultActive": false,
+      "loadoutIgnore": false,
+      "domainTouched": null
+    },
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "sourceId": "the-void.2026-07-09.domain_card.weave-the-flesh",
+        "sourcePath": "data/playtest/blood-hunter-2026-07-09/domains/blood/cards/04-weave-the-flesh.json",
+        "source": {
+          "corpus": "the-void",
+          "product": "blood-hunter",
+          "version": "2026-07-09",
+          "status": "playtest"
+        },
+        "mappingVersion": "BH-2026-07-09-active",
+        "mappingGaps": [
+          "img.domain"
+        ],
+        "contentLocale": "fr",
+        "canonicalSourceId": "the-void.2026-07-09.domain_card.weave-the-flesh",
+        "localeFallback": false,
+        "localizedPaths": [
+          "name",
+          "system.description"
+        ],
+        "managed": true,
+        "kind": "domain_card",
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "contentOrigin": "playtest",
+        "sourceNamespace": "the-void/blood-hunter-2026-07-09"
+      }
+    },
+    "effects": [],
+    "_id": "i2HGcp8LOu6JzIDb"
+  },
+  {
+    "name": "Pointe de sang",
+    "img": "systems/daggerheart/assets/icons/domains/domain-card/sage.png",
+    "type": "domainCard",
+    "system": {
+      "description": "Effectuez un jet d’incantation contre une cible à portée Proche. En cas de réussite, dépensez 1 Espoir pour infliger à la cible d8+2 dégâts magiques en utilisant votre Maîtrise, et la cible marque 1 Stress. Si vous avez marqué au moins 3 PV, le dé de dégâts devient un d10 à la place.",
+      "domain": "blood",
+      "recallCost": 1,
+      "level": 1,
+      "type": "spell",
+      "actions": {},
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null,
+        "artist": ""
+      },
+      "gmNotes": "",
+      "resource": null,
+      "inVault": false,
+      "vaultActive": false,
+      "loadoutIgnore": false,
+      "domainTouched": null
+    },
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "sourceId": "the-void.2026-07-09.domain_card.blood-spike",
+        "sourcePath": "data/playtest/blood-hunter-2026-07-09/domains/blood/cards/01-blood-spike.json",
+        "source": {
+          "corpus": "the-void",
+          "product": "blood-hunter",
+          "version": "2026-07-09",
+          "status": "playtest"
+        },
+        "mappingVersion": "BH-2026-07-09-active",
+        "mappingGaps": [
+          "img.domain"
+        ],
+        "contentLocale": "fr",
+        "canonicalSourceId": "the-void.2026-07-09.domain_card.blood-spike",
+        "localeFallback": false,
+        "localizedPaths": [
+          "name",
+          "system.description"
+        ],
+        "managed": true,
+        "kind": "domain_card",
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "contentOrigin": "playtest",
+        "sourceNamespace": "the-void/blood-hunter-2026-07-09"
+      }
+    },
+    "effects": [],
+    "_id": "iUTTsLx5yH7Kwkxi"
+  },
+  {
+    "name": "Garde vitale",
+    "img": "systems/daggerheart/assets/icons/domains/domain-card/sage.png",
+    "type": "domainCard",
+    "system": {
+      "description": "Choisissez le type de dégâts physiques ou magiques, puis effectuez un jet d’incantation (15). En cas de réussite, vous tracez au sol autour de vous un cercle de sang de portée Très Proche qui accorde aux créatures de votre choix à l’intérieur une résistance à ce type de dégâts. Le cercle dure jusqu’à ce que vous subissiez des dégâts Majeurs ou supérieurs, quittiez le cercle ou lanciez de nouveau ce sort.",
+      "domain": "blood",
+      "recallCost": 1,
+      "level": 8,
+      "type": "spell",
+      "actions": {},
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null,
+        "artist": ""
+      },
+      "gmNotes": "",
+      "resource": null,
+      "inVault": false,
+      "vaultActive": false,
+      "loadoutIgnore": false,
+      "domainTouched": null
+    },
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "sourceId": "the-void.2026-07-09.domain_card.vital-ward",
+        "sourcePath": "data/playtest/blood-hunter-2026-07-09/domains/blood/cards/08-vital-ward.json",
+        "source": {
+          "corpus": "the-void",
+          "product": "blood-hunter",
+          "version": "2026-07-09",
+          "status": "playtest"
+        },
+        "mappingVersion": "BH-2026-07-09-active",
+        "mappingGaps": [
+          "img.domain"
+        ],
+        "contentLocale": "fr",
+        "canonicalSourceId": "the-void.2026-07-09.domain_card.vital-ward",
+        "localeFallback": false,
+        "localizedPaths": [
+          "name",
+          "system.description"
+        ],
+        "managed": true,
+        "kind": "domain_card",
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "contentOrigin": "playtest",
+        "sourceNamespace": "the-void/blood-hunter-2026-07-09"
+      }
+    },
+    "effects": [],
+    "_id": "jogZevrcetdRfpHn"
+  },
+  {
+    "name": "Touché par le Sang",
+    "img": "systems/daggerheart/assets/icons/domains/domain-card/sage.png",
+    "type": "domainCard",
+    "system": {
+      "description": "Tant qu’au moins 4 cartes de domaine de votre équipement appartiennent au domaine du Sang, vous gagnez les bénéfices suivants :\n• Vous gagnez 1 Espoir lorsque vous subissez des dégâts Majeurs ou supérieurs.\n• Lorsque vous effectuez un jet d’incantation, vous pouvez dépenser 1 Espoir pour gagner un bonus égal au nombre de PV que vous avez marqués.",
+      "domain": "blood",
+      "recallCost": 2,
+      "level": 7,
+      "type": "ability",
+      "actions": {},
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null,
+        "artist": ""
+      },
+      "gmNotes": "",
+      "resource": null,
+      "inVault": false,
+      "vaultActive": false,
+      "loadoutIgnore": false,
+      "domainTouched": null
+    },
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "sourceId": "the-void.2026-07-09.domain_card.blood-touched",
+        "sourcePath": "data/playtest/blood-hunter-2026-07-09/domains/blood/cards/07-blood-touched.json",
+        "source": {
+          "corpus": "the-void",
+          "product": "blood-hunter",
+          "version": "2026-07-09",
+          "status": "playtest"
+        },
+        "mappingVersion": "BH-2026-07-09-active",
+        "mappingGaps": [
+          "img.domain"
+        ],
+        "contentLocale": "fr",
+        "canonicalSourceId": "the-void.2026-07-09.domain_card.blood-touched",
+        "localeFallback": false,
+        "localizedPaths": [
+          "name",
+          "system.description"
+        ],
+        "managed": true,
+        "kind": "domain_card",
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "contentOrigin": "playtest",
+        "sourceNamespace": "the-void/blood-hunter-2026-07-09"
+      }
+    },
+    "effects": [],
+    "_id": "t0nUXC2Ses1zjlLY"
+  },
+  {
+    "name": "Forme visqueuse",
+    "img": "systems/daggerheart/assets/icons/domains/domain-card/sage.png",
+    "type": "domainCard",
+    "system": {
+      "description": "Marquez 1 Stress pour placer sur cette carte un nombre de jetons égal à votre trait d’Incantation et vous transformer en une flaque de sang. Retirez 1 jeton chaque fois que vous effectuez un jet d’action ou subissez des dégâts. Vous quittez cette forme lorsque vous retirez le dernier jeton de cette carte. Sous forme de sang, vous gagnez une résistance aux dégâts physiques et pouvez vous glisser dans tout espace qu’un liquide peut traverser.",
+      "domain": "blood",
+      "recallCost": 1,
+      "level": 5,
+      "type": "spell",
+      "actions": {},
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null,
+        "artist": ""
+      },
+      "gmNotes": "",
+      "resource": null,
+      "inVault": false,
+      "vaultActive": false,
+      "loadoutIgnore": false,
+      "domainTouched": null
+    },
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "sourceId": "the-void.2026-07-09.domain_card.viscous-form",
+        "sourcePath": "data/playtest/blood-hunter-2026-07-09/domains/blood/cards/05-viscous-form.json",
+        "source": {
+          "corpus": "the-void",
+          "product": "blood-hunter",
+          "version": "2026-07-09",
+          "status": "playtest"
+        },
+        "mappingVersion": "BH-2026-07-09-active",
+        "mappingGaps": [
+          "img.domain"
+        ],
+        "contentLocale": "fr",
+        "canonicalSourceId": "the-void.2026-07-09.domain_card.viscous-form",
+        "localeFallback": false,
+        "localizedPaths": [
+          "name",
+          "system.description"
+        ],
+        "managed": true,
+        "kind": "domain_card",
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "contentOrigin": "playtest",
+        "sourceNamespace": "the-void/blood-hunter-2026-07-09"
+      }
+    },
+    "effects": [],
+    "_id": "uisqjLgNgHCNC0ws"
+  },
+  {
+    "name": "Marque de châtiment",
+    "img": "systems/daggerheart/assets/icons/domains/domain-card/sage.png",
+    "type": "domainCard",
+    "system": {
+      "description": "Lorsque vous réussissez un jet d’attaque contre une cible, vous pouvez marquer 1 Stress pour lui apposer une Marque jusqu’à ce que vous preniez un repos long ou lanciez de nouveau ce sort. Vous connaissez toujours la direction de la cible Marquée. Si la cible Marquée vous inflige des dégâts, vous pouvez retirer l’état Marqué pour lui faire marquer 2 Stress.",
+      "domain": "blood",
+      "recallCost": 1,
+      "level": 2,
+      "type": "spell",
+      "actions": {},
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null,
+        "artist": ""
+      },
+      "gmNotes": "",
+      "resource": null,
+      "inVault": false,
+      "vaultActive": false,
+      "loadoutIgnore": false,
+      "domainTouched": null
+    },
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "sourceId": "the-void.2026-07-09.domain_card.brand-of-castigation",
+        "sourcePath": "data/playtest/blood-hunter-2026-07-09/domains/blood/cards/02-brand-of-castigation.json",
+        "source": {
+          "corpus": "the-void",
+          "product": "blood-hunter",
+          "version": "2026-07-09",
+          "status": "playtest"
+        },
+        "mappingVersion": "BH-2026-07-09-active",
+        "mappingGaps": [
+          "img.domain"
+        ],
+        "contentLocale": "fr",
+        "canonicalSourceId": "the-void.2026-07-09.domain_card.brand-of-castigation",
+        "localeFallback": false,
+        "localizedPaths": [
+          "name",
+          "system.description"
+        ],
+        "managed": true,
+        "kind": "domain_card",
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "contentOrigin": "playtest",
+        "sourceNamespace": "the-void/blood-hunter-2026-07-09"
+      }
+    },
+    "effects": [],
+    "_id": "wY5HJCAJQfcTiCo2"
+  },
+  {
+    "name": "Vague d’ichor",
+    "img": "systems/daggerheart/assets/icons/domains/domain-card/sage.png",
+    "type": "domainCard",
+    "system": {
+      "description": "Marquez 1 PV pour effectuer un jet d’incantation contre toutes les cibles devant vous à portée Proche. En cas de réussite, infligez d10 dégâts magiques en utilisant le nombre de PV que vous avez marqués à la place de votre Maîtrise. En cas d’échec, infligez la moitié des dégâts.",
+      "domain": "blood",
+      "recallCost": 3,
+      "level": 9,
+      "type": "spell",
+      "actions": {},
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null,
+        "artist": ""
+      },
+      "gmNotes": "",
+      "resource": null,
+      "inVault": false,
+      "vaultActive": false,
+      "loadoutIgnore": false,
+      "domainTouched": null
+    },
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "sourceId": "the-void.2026-07-09.domain_card.ichor-wave",
+        "sourcePath": "data/playtest/blood-hunter-2026-07-09/domains/blood/cards/09-ichor-wave.json",
+        "source": {
+          "corpus": "the-void",
+          "product": "blood-hunter",
+          "version": "2026-07-09",
+          "status": "playtest"
+        },
+        "mappingVersion": "BH-2026-07-09-active",
+        "mappingGaps": [
+          "img.domain"
+        ],
+        "contentLocale": "fr",
+        "canonicalSourceId": "the-void.2026-07-09.domain_card.ichor-wave",
+        "localeFallback": false,
+        "localizedPaths": [
+          "name",
+          "system.description"
+        ],
+        "managed": true,
+        "kind": "domain_card",
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "contentOrigin": "playtest",
+        "sourceNamespace": "the-void/blood-hunter-2026-07-09"
+      }
+    },
+    "effects": [],
+    "_id": "zAVQM11B76d8mXHv"
+  }
+]

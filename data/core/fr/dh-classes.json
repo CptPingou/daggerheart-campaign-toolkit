@@ -1,0 +1,1282 @@
+[
+  {
+    "name": "Assassin",
+    "type": "class",
+    "img": "icons/weapons/daggers/dagger-glowing-white.webp",
+    "system": {
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null
+      },
+      "description": "<p>Les assassins excellent dans l’art d’infliger des blessures mortelles par des frappes précises. Contrairement à ceux qui n’emploient la violence que comme un moyen, ils font de la mort une profession. Beaucoup considèrent leur métier comme honorable, voire sacré, et certains rejoignent des guildes pour perfectionner leur art, définir leurs principes et gagner leur vie. Des commanditaires de tous horizons louent leurs services : souverains souhaitant éviter une guerre ouverte, dirigeants cherchant à éliminer la concurrence ou simples particuliers désireux de régler une dette. L’assassin est souvent le dernier recours contre une cible que l’on croyait impossible à tuer. Certains éliminent quiconque se dresse sur leur route pour une juste cause ou le juste prix ; d’autres suivent un code moral strict qui détermine leurs cibles. Quiconque devient la cible d’un assassin devrait déjà se compter parmi les morts.</p>",
+      "gmNotes": "",
+      "domains": [
+        "blade",
+        "midnight"
+      ],
+      "classItems": [],
+      "hitPoints": 5,
+      "evasion": 12,
+      "features": [
+        {
+          "type": "hope",
+          "item": "Compendium.daggerheart-campaign-toolkit.dh-features.Item.8YdxWjMS3qy5grGy"
+        },
+        {
+          "type": "class",
+          "item": "Compendium.daggerheart-campaign-toolkit.dh-features.Item.l0alMPCCKQVxco5A"
+        },
+        {
+          "type": "class",
+          "item": "Compendium.daggerheart-campaign-toolkit.dh-features.Item.WxwsvHvQxWvCFI3R"
+        }
+      ],
+      "inventory": {
+        "take": [],
+        "choiceA": [],
+        "choiceB": []
+      },
+      "characterGuide": {
+        "suggestedTraits": {
+          "agility": 2,
+          "strength": -1,
+          "finesse": 1,
+          "instinct": 0,
+          "presence": 0,
+          "knowledge": 1
+        },
+        "suggestedPrimaryWeapon": null,
+        "suggestedSecondaryWeapon": null,
+        "suggestedArmor": null
+      },
+      "backgroundQuestions": [
+        "Vous avez autrefois tué quelqu’un qui vous était proche. Que s’est-il passé, et en quoi cela vous a-t-il changé ?",
+        "Quelle organisation vous a formé à l’art de tuer, et comment en êtes-vous devenu membre ?",
+        "Tout au long de votre carrière, une cible vous a toujours échappé. Qui est-elle, et comment a-t-elle réussi à vous filer entre les doigts ?"
+      ],
+      "connections": [
+        "J’ai tué quelqu’un pour vous. Qui était-ce ?",
+        "Comment m’avez-vous sauvé alors que j’étais au seuil de la mort ? Que vous ai-je promis en retour ?",
+        "Quel secret sur moi-même vous ai-je confié, et en quoi cela a-t-il changé votre regard sur moi ?"
+      ],
+      "isMulticlass": false,
+      "levelupOptionTiers": {
+        "2": {},
+        "3": {},
+        "4": {}
+      }
+    },
+    "effects": [],
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "sourceId": "srd-2.0.class.assassin",
+        "sourcePath": "data/srd-2.0/indexes/classes.json",
+        "source": {
+          "corpus": "daggerheart-srd",
+          "version": "2.0",
+          "status": "srd"
+        },
+        "mappingVersion": "BH-2026-07-09-active",
+        "mappingGaps": [
+          "system.characterGuide.suggestedPrimaryWeapon",
+          "system.characterGuide.suggestedArmor"
+        ],
+        "contentLocale": "fr",
+        "canonicalSourceId": "srd-2.0.class.assassin",
+        "localeFallback": false,
+        "localizedPaths": [
+          "description",
+          "name"
+        ],
+        "managed": true,
+        "kind": "class",
+        "sourceFeatureCount": 3,
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "contentOrigin": "core",
+        "sourceNamespace": "daggerheart-srd-2.0"
+      }
+    },
+    "_id": "7sK9WSzaLj9Hk5i0"
+  },
+  {
+    "name": "Guerrier",
+    "type": "class",
+    "img": "icons/weapons/swords/sword-broad-crystal-paired.webp",
+    "system": {
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null
+      },
+      "description": "<p>Devenir guerrier exige des années, parfois toute une vie, d’entraînement et de dévouement à la maîtrise des armes et de la violence. Là où beaucoup ne développent que leur force, les guerriers comprennent l’importance d’un corps et d’un esprit agiles, ce qui en fait des combattants très recherchés dans tous les royaumes. Ils servent souvent dans une armée, une compagnie de mercenaires ou une garde royale, mais toute fonction qui les empêche d’améliorer et d’élargir leurs compétences gaspille leur potentiel. Les guerriers sont connus pour avoir une arme favorite ; se placer entre eux et leur lame serait une grave erreur.</p>",
+      "gmNotes": "",
+      "domains": [
+        "blade",
+        "bone"
+      ],
+      "classItems": [],
+      "hitPoints": 6,
+      "evasion": 11,
+      "features": [
+        {
+          "type": "hope",
+          "item": "Compendium.daggerheart-campaign-toolkit.dh-features.Item.PwrflrbVOq133maM"
+        },
+        {
+          "type": "class",
+          "item": "Compendium.daggerheart-campaign-toolkit.dh-features.Item.3fWEhH9wwsAkVol9"
+        },
+        {
+          "type": "class",
+          "item": "Compendium.daggerheart-campaign-toolkit.dh-features.Item.LaTkSnXBKhQIL2XL"
+        }
+      ],
+      "inventory": {
+        "take": [],
+        "choiceA": [],
+        "choiceB": []
+      },
+      "characterGuide": {
+        "suggestedTraits": {
+          "agility": 2,
+          "strength": 1,
+          "finesse": 0,
+          "instinct": 1,
+          "presence": -1,
+          "knowledge": 0
+        },
+        "suggestedPrimaryWeapon": null,
+        "suggestedSecondaryWeapon": null,
+        "suggestedArmor": null
+      },
+      "backgroundQuestions": [
+        "Qui vous a appris à vous battre, et pourquoi cette personne est-elle restée derrière vous lorsque vous avez quitté votre foyer ?",
+        "Quelqu’un vous a vaincu au combat il y a des années et vous a laissé pour mort. Qui était-ce, et comment vous a-t-il trahi ?",
+        "Quel lieu légendaire avez-vous toujours rêvé de visiter, et pourquoi est-il si spécial à vos yeux ?"
+      ],
+      "connections": [
+        "Nous nous connaissions bien avant que ce groupe ne se forme. Comment ?",
+        "Pour quelle tâche ordinaire m’aidez-vous généralement en dehors des combats ?",
+        "Quelle peur m’aidez-vous à surmonter ?"
+      ],
+      "isMulticlass": false,
+      "levelupOptionTiers": {
+        "2": {},
+        "3": {},
+        "4": {}
+      }
+    },
+    "effects": [],
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "sourceId": "srd-2.0.class.warrior",
+        "sourcePath": "data/srd-2.0/indexes/classes.json",
+        "source": {
+          "corpus": "daggerheart-srd",
+          "version": "2.0",
+          "status": "srd"
+        },
+        "mappingVersion": "BH-2026-07-09-active",
+        "mappingGaps": [
+          "system.characterGuide.suggestedPrimaryWeapon",
+          "system.characterGuide.suggestedArmor"
+        ],
+        "contentLocale": "fr",
+        "canonicalSourceId": "srd-2.0.class.warrior",
+        "localeFallback": false,
+        "localizedPaths": [
+          "description",
+          "name"
+        ],
+        "managed": true,
+        "kind": "class",
+        "sourceFeatureCount": 3,
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "contentOrigin": "core",
+        "sourceNamespace": "daggerheart-srd-2.0"
+      }
+    },
+    "_id": "7vgJpixepbYSo21v"
+  },
+  {
+    "name": "Magicien",
+    "type": "class",
+    "img": "icons/magic/symbols/circled-gem-pink.webp",
+    "system": {
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null
+      },
+      "description": "<p>Qu’ils étudient dans une institution ou en solitaire, les magiciens acquièrent et perfectionnent une immense puissance magique au fil de longues années d’apprentissage, à l’aide de livres, de pierres, de potions, d’herbes et de nombreux autres outils. Certains consacrent leur vie à une école de magie particulière, tandis que d’autres puisent dans de multiples disciplines. Beaucoup deviennent des figures sages et influentes de leur communauté : ils conseillent les dirigeants, préparent remèdes et soins, ou dirigent même des conseils de guerre. Tous poursuivent l’objectif commun de recueillir le savoir magique, mais leurs plus violents conflits les opposent souvent entre eux, car l’acquisition, la conservation et le partage des secrets de pouvoir nourrissent des débats qui ont déjà causé d’innombrables morts.</p>",
+      "gmNotes": "",
+      "domains": [
+        "codex",
+        "splendor"
+      ],
+      "classItems": [],
+      "hitPoints": 5,
+      "evasion": 11,
+      "features": [
+        {
+          "type": "hope",
+          "item": "Compendium.daggerheart-campaign-toolkit.dh-features.Item.HsHidVZXp3sZMHsw"
+        },
+        {
+          "type": "class",
+          "item": "Compendium.daggerheart-campaign-toolkit.dh-features.Item.B96O58BM2otZbckp"
+        },
+        {
+          "type": "class",
+          "item": "Compendium.daggerheart-campaign-toolkit.dh-features.Item.hnXCIJTplbyXt0Aw"
+        }
+      ],
+      "inventory": {
+        "take": [],
+        "choiceA": [],
+        "choiceB": []
+      },
+      "characterGuide": {
+        "suggestedTraits": {
+          "agility": -1,
+          "strength": 0,
+          "finesse": 0,
+          "instinct": 1,
+          "presence": 1,
+          "knowledge": 2
+        },
+        "suggestedPrimaryWeapon": null,
+        "suggestedSecondaryWeapon": null,
+        "suggestedArmor": null
+      },
+      "backgroundQuestions": [
+        "Quelles responsabilités votre communauté vous confiait-elle autrefois ? Comment l’avez-vous déçue ?",
+        "Vous avez passé votre vie à rechercher un livre ou un objet d’une grande importance. De quoi s’agit-il, et pourquoi compte-t-il tant pour vous ?",
+        "Vous avez un puissant rival. Qui est-ce, et pourquoi êtes-vous si déterminé à le vaincre ?"
+      ],
+      "connections": [
+        "Quel service vous ai-je demandé sans que vous soyez certain de pouvoir me le rendre ?",
+        "Quelle étrange passion ou fascination partageons-nous tous les deux ?",
+        "Quel secret à votre sujet n’avez-vous confié qu’à moi ?"
+      ],
+      "isMulticlass": false,
+      "levelupOptionTiers": {
+        "2": {},
+        "3": {},
+        "4": {}
+      }
+    },
+    "effects": [],
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "sourceId": "srd-2.0.class.wizard",
+        "sourcePath": "data/srd-2.0/indexes/classes.json",
+        "source": {
+          "corpus": "daggerheart-srd",
+          "version": "2.0",
+          "status": "srd"
+        },
+        "mappingVersion": "BH-2026-07-09-active",
+        "mappingGaps": [
+          "system.characterGuide.suggestedPrimaryWeapon",
+          "system.characterGuide.suggestedArmor"
+        ],
+        "contentLocale": "fr",
+        "canonicalSourceId": "srd-2.0.class.wizard",
+        "localeFallback": false,
+        "localizedPaths": [
+          "description",
+          "name"
+        ],
+        "managed": true,
+        "kind": "class",
+        "sourceFeatureCount": 3,
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "contentOrigin": "core",
+        "sourceNamespace": "daggerheart-srd-2.0"
+      }
+    },
+    "_id": "CQDkKBQe0NkN0f8y"
+  },
+  {
+    "name": "Sorcière",
+    "type": "class",
+    "img": "icons/magic/light/hand-sparks-smoke-teal.webp",
+    "system": {
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null
+      },
+      "description": "<p>Les sorcières sont des praticiennes de la magie qui communient avec les forces de la nature et les entités des royaumes lointains. Leur art mêle le tangible et l’éphémère : sorts, incantations murmurées, talismans, illusions et rituels personnels. Elles protègent leurs alliés et nuisent à leurs ennemis en invoquant des puissances qui les dépassent, tels des ancêtres, des divinités ou des aspects de la nature. Leur savoir magique leur est souvent transmis par ces entités ou par des générations de praticiens réunis en petits groupes appelés covens. Leurs méthodes mystérieuses, étranges, voire macabres aux yeux des profanes, leur valent crainte et incompréhension. Quelle que soit la voie choisie, une sorcière avance sans peur sur la frontière entre lumière et ombre.</p>",
+      "gmNotes": "",
+      "domains": [
+        "dread",
+        "sage"
+      ],
+      "classItems": [],
+      "hitPoints": 6,
+      "evasion": 10,
+      "features": [
+        {
+          "type": "hope",
+          "item": "Compendium.daggerheart-campaign-toolkit.dh-features.Item.U0y7aDeAYpM5FJwW"
+        },
+        {
+          "type": "class",
+          "item": "Compendium.daggerheart-campaign-toolkit.dh-features.Item.4rCroLTy8KYY8LDW"
+        },
+        {
+          "type": "class",
+          "item": "Compendium.daggerheart-campaign-toolkit.dh-features.Item.v2T5TZItWCUblKpR"
+        }
+      ],
+      "inventory": {
+        "take": [],
+        "choiceA": [],
+        "choiceB": []
+      },
+      "characterGuide": {
+        "suggestedTraits": {
+          "agility": 0,
+          "strength": -1,
+          "finesse": 0,
+          "instinct": 2,
+          "presence": 1,
+          "knowledge": 1
+        },
+        "suggestedPrimaryWeapon": null,
+        "suggestedSecondaryWeapon": null,
+        "suggestedArmor": null
+      },
+      "backgroundQuestions": [
+        "Qui, dans votre communauté, craignait vos pratiques magiques ? Quelle rumeur cette personne a-t-elle répandue à votre sujet, et quelle part de vérité contenait-elle ?",
+        "Vous avez autrefois utilisé votre pouvoir pour aider quelqu’un dans une situation désespérée. Qui était cette personne, et pourquoi est-elle venue vous trouver ?",
+        "Votre magie a autrefois ouvert une porte qu’il aurait mieux valu laisser fermée. Qui ou quoi se trouvait de l’autre côté ?"
+      ],
+      "connections": [
+        "Quel rituel ou quelle pratique unique vous ai-je enseigné et que nous accomplissons désormais ensemble ?",
+        "Je vous suis autrefois apparu en rêve et vous ai révélé une vision de l’avenir. Que vous ai-je dit ?",
+        "À quel sujet venez-vous généralement me demander conseil ?"
+      ],
+      "isMulticlass": false,
+      "levelupOptionTiers": {
+        "2": {},
+        "3": {},
+        "4": {}
+      }
+    },
+    "effects": [],
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "sourceId": "srd-2.0.class.witch",
+        "sourcePath": "data/srd-2.0/indexes/classes.json",
+        "source": {
+          "corpus": "daggerheart-srd",
+          "version": "2.0",
+          "status": "srd"
+        },
+        "mappingVersion": "BH-2026-07-09-active",
+        "mappingGaps": [
+          "system.characterGuide.suggestedPrimaryWeapon",
+          "system.characterGuide.suggestedSecondaryWeapon",
+          "system.characterGuide.suggestedArmor"
+        ],
+        "contentLocale": "fr",
+        "canonicalSourceId": "srd-2.0.class.witch",
+        "localeFallback": false,
+        "localizedPaths": [
+          "description",
+          "name"
+        ],
+        "managed": true,
+        "kind": "class",
+        "sourceFeatureCount": 3,
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "contentOrigin": "core",
+        "sourceNamespace": "daggerheart-srd-2.0"
+      }
+    },
+    "_id": "H7HOBsfhZ2JEnROi"
+  },
+  {
+    "name": "Roublard",
+    "type": "class",
+    "img": "icons/magic/defensive/shield-barrier-blades-teal.webp",
+    "system": {
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null
+      },
+      "description": "<p>Les roublards sont des canailles, tant par leur attitude que par leurs méthodes. Réputés menteurs et voleurs, les meilleurs d’entre eux traversent le monde sans laisser de nom derrière eux. Grâce à leur esprit affûté autant qu’à leurs lames, ils trompent leurs adversaires par la manipulation sociale aussi facilement qu’ils forcent une serrure, passent par une fenêtre ou frappent en traître. Ces maîtres d’un art magique jouent avec les ombres et le mouvement pour ajouter à leur arsenal des outils aussi utiles que mortels. Les roublards fondent souvent des guildes afin de rencontrer de futurs complices, décrocher des contrats et perfectionner des techniques secrètes : preuve qu’il existe bien un honneur parmi les voleurs, pour qui sait où le chercher.</p>",
+      "gmNotes": "",
+      "domains": [
+        "grace",
+        "midnight"
+      ],
+      "classItems": [],
+      "hitPoints": 6,
+      "evasion": 12,
+      "features": [
+        {
+          "type": "hope",
+          "item": "Compendium.daggerheart-campaign-toolkit.dh-features.Item.ZNHIWoo2D1jo3OKH"
+        },
+        {
+          "type": "class",
+          "item": "Compendium.daggerheart-campaign-toolkit.dh-features.Item.yzlcpNlDVxKJ4dYh"
+        },
+        {
+          "type": "class",
+          "item": "Compendium.daggerheart-campaign-toolkit.dh-features.Item.tEyMJHbZ4h7OmQvt"
+        }
+      ],
+      "inventory": {
+        "take": [],
+        "choiceA": [],
+        "choiceB": []
+      },
+      "characterGuide": {
+        "suggestedTraits": {
+          "agility": 1,
+          "strength": -1,
+          "finesse": 2,
+          "instinct": 0,
+          "presence": 1,
+          "knowledge": 0
+        },
+        "suggestedPrimaryWeapon": null,
+        "suggestedSecondaryWeapon": null,
+        "suggestedArmor": null
+      },
+      "backgroundQuestions": [
+        "Qu’avez-vous été surpris en train de faire pour être banni de votre communauté d’origine ?",
+        "Vous aviez autrefois une autre vie, mais vous avez tenté de la laisser derrière vous. Qui, dans votre passé, est encore à vos trousses ?",
+        "À qui de votre passé avez-vous eu le plus de mal à dire adieu ?"
+      ],
+      "connections": [
+        "Qu’est-ce que je vous ai récemment convaincu de faire et qui nous a attiré des ennuis à tous les deux ?",
+        "Qu’ai-je découvert sur votre passé que je garde secret aux yeux des autres ?",
+        "Qui connaissez-vous dans mon passé, et comment cette personne a-t-elle influencé ce que vous ressentez à mon égard ?"
+      ],
+      "isMulticlass": false,
+      "levelupOptionTiers": {
+        "2": {},
+        "3": {},
+        "4": {}
+      }
+    },
+    "effects": [],
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "sourceId": "srd-2.0.class.rogue",
+        "sourcePath": "data/srd-2.0/indexes/classes.json",
+        "source": {
+          "corpus": "daggerheart-srd",
+          "version": "2.0",
+          "status": "srd"
+        },
+        "mappingVersion": "BH-2026-07-09-active",
+        "mappingGaps": [
+          "system.characterGuide.suggestedPrimaryWeapon",
+          "system.characterGuide.suggestedSecondaryWeapon",
+          "system.characterGuide.suggestedArmor"
+        ],
+        "contentLocale": "fr",
+        "canonicalSourceId": "srd-2.0.class.rogue",
+        "localeFallback": false,
+        "localizedPaths": [
+          "description",
+          "name"
+        ],
+        "managed": true,
+        "kind": "class",
+        "sourceFeatureCount": 3,
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "contentOrigin": "core",
+        "sourceNamespace": "daggerheart-srd-2.0"
+      }
+    },
+    "_id": "LMnEwg29foy6y9tO"
+  },
+  {
+    "name": "Occultiste",
+    "type": "class",
+    "img": "icons/magic/unholy/orb-hands-pink.webp",
+    "system": {
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null
+      },
+      "description": "<p>Ceux qui ont offert leur vie — voire leur âme — à un patron venu d’un autre monde en échange d’un pouvoir extraordinaire sont appelés occultistes. Souvent poussés au sacrifice par le désespoir, ils cherchent à se protéger, sauver un proche, aider leur communauté, se venger, améliorer leur condition ou satisfaire quelque autre ambition. Leurs puissants interlocuteurs sont aussi variés qu’eux : dieux, esprits, démons ou entités que même le signataire du pacte ne comprend pas. Chacun possède une sphère d’influence qui définit son pouvoir surnaturel, et ceux qui collectionnent les âmes sont rarement connus pour leur bonté. Le pouvoir d’un occultiste dépend donc de la relation qu’il entretient avec son bienfaiteur. Malgré sa magie terrifiante, il peut découvrir que quelqu’un — ou quelque chose — tire encore les ficelles.</p>",
+      "gmNotes": "",
+      "domains": [
+        "dread",
+        "grace"
+      ],
+      "classItems": [],
+      "hitPoints": 5,
+      "evasion": 11,
+      "features": [
+        {
+          "type": "hope",
+          "item": "Compendium.daggerheart-campaign-toolkit.dh-features.Item.wVZfurezKUk08HRh"
+        },
+        {
+          "type": "class",
+          "item": "Compendium.daggerheart-campaign-toolkit.dh-features.Item.CjvmNzZb1mWdQS60"
+        },
+        {
+          "type": "class",
+          "item": "Compendium.daggerheart-campaign-toolkit.dh-features.Item.f1WgyPc6BT2pRNYy"
+        }
+      ],
+      "inventory": {
+        "take": [],
+        "choiceA": [],
+        "choiceB": []
+      },
+      "characterGuide": {
+        "suggestedTraits": {
+          "agility": 1,
+          "strength": -1,
+          "finesse": 0,
+          "instinct": 1,
+          "presence": 2,
+          "knowledge": 0
+        },
+        "suggestedPrimaryWeapon": null,
+        "suggestedSecondaryWeapon": null,
+        "suggestedArmor": null
+      },
+      "backgroundQuestions": [
+        "Qui, dans votre communauté, vous a rejeté après que vous avez conclu un pacte avec votre patron ?",
+        "Quelle situation désespérée vous a conduit à vouer votre vie à votre patron ?",
+        "Votre patron vous a confié une tâche que vous devez accomplir par-dessus tout. Laquelle, et pourquoi vous inquiète-t-elle ?"
+      ],
+      "connections": [
+        "Pourquoi pensez-vous que je me confie à vous au sujet de ce que dit et fait mon patron ?",
+        "Notre relation a changé depuis que vous m’avez vu rendre hommage à mon patron. Qu’avez-vous vu, et comment cela vous a-t-il affecté ?",
+        "J’ai autrefois fait quelque chose de particulièrement stupide, et vous ne m’avez jamais laissé l’oublier. Qu’était-ce ?"
+      ],
+      "isMulticlass": false,
+      "levelupOptionTiers": {
+        "2": {},
+        "3": {},
+        "4": {}
+      }
+    },
+    "effects": [],
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "sourceId": "srd-2.0.class.warlock",
+        "sourcePath": "data/srd-2.0/indexes/classes.json",
+        "source": {
+          "corpus": "daggerheart-srd",
+          "version": "2.0",
+          "status": "srd"
+        },
+        "mappingVersion": "BH-2026-07-09-active",
+        "mappingGaps": [
+          "system.characterGuide.suggestedPrimaryWeapon",
+          "system.characterGuide.suggestedSecondaryWeapon",
+          "system.characterGuide.suggestedArmor"
+        ],
+        "contentLocale": "fr",
+        "canonicalSourceId": "srd-2.0.class.warlock",
+        "localeFallback": false,
+        "localizedPaths": [
+          "description",
+          "name"
+        ],
+        "managed": true,
+        "kind": "class",
+        "sourceFeatureCount": 3,
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "contentOrigin": "core",
+        "sourceNamespace": "daggerheart-srd-2.0"
+      }
+    },
+    "_id": "LZ4jJsMOMFSvQbtw"
+  },
+  {
+    "name": "Ensorceleur",
+    "type": "class",
+    "img": "icons/magic/symbols/rune-sigil-horned-white-purple.webp",
+    "system": {
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null
+      },
+      "description": "<p>Toutes les personnes dotées d’une magie innée ne choisissent pas de la cultiver, mais celles qui s’y consacrent peuvent devenir de puissants ensorceleurs. Leurs dons se transmettent au sein des familles, même lorsque celles-ci les ignorent ou refusent de les pratiquer. Leurs talents vont de la maîtrise des éléments aux illusions et bien au-delà ; beaucoup se regroupent en cercles fondés sur leurs affinités. Devenir un ensorceleur redoutable ne consiste pas à acquérir davantage de pouvoir, mais à nourrir et contrôler celui que l’on possède déjà. La magie d’un ensorceleur égaré ou indiscipliné constitue une force dangereuse.</p>",
+      "gmNotes": "",
+      "domains": [
+        "arcana",
+        "midnight"
+      ],
+      "classItems": [],
+      "hitPoints": 6,
+      "evasion": 10,
+      "features": [
+        {
+          "type": "hope",
+          "item": "Compendium.daggerheart-campaign-toolkit.dh-features.Item.VizyWZ0AM1KIMgS0"
+        },
+        {
+          "type": "class",
+          "item": "Compendium.daggerheart-campaign-toolkit.dh-features.Item.zFu14Ab5X9BMcJnz"
+        },
+        {
+          "type": "class",
+          "item": "Compendium.daggerheart-campaign-toolkit.dh-features.Item.C5VbbPSaSXC8HgOZ"
+        },
+        {
+          "type": "class",
+          "item": "Compendium.daggerheart-campaign-toolkit.dh-features.Item.15veA8HjLKdUc1C5"
+        }
+      ],
+      "inventory": {
+        "take": [],
+        "choiceA": [],
+        "choiceB": []
+      },
+      "characterGuide": {
+        "suggestedTraits": {
+          "agility": 0,
+          "strength": -1,
+          "finesse": 1,
+          "instinct": 2,
+          "presence": 1,
+          "knowledge": 0
+        },
+        "suggestedPrimaryWeapon": null,
+        "suggestedSecondaryWeapon": null,
+        "suggestedArmor": null
+      },
+      "backgroundQuestions": [
+        "Qu’avez-vous fait pour que les membres de votre communauté se méfient de vous ?",
+        "Quel mentor vous a appris à maîtriser votre magie indomptée, et pourquoi ne peut-il plus vous guider aujourd’hui ?",
+        "Vous cachez à tous une peur profonde. Laquelle, et pourquoi vous effraie-t-elle autant ?"
+      ],
+      "connections": [
+        "Pourquoi me faites-vous si profondément confiance ?",
+        "Qu’ai-je fait pour que vous restiez sur vos gardes en ma présence ?",
+        "Pourquoi gardons-nous secret notre passé commun ?"
+      ],
+      "isMulticlass": false,
+      "levelupOptionTiers": {
+        "2": {},
+        "3": {},
+        "4": {}
+      }
+    },
+    "effects": [],
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "sourceId": "srd-2.0.class.sorcerer",
+        "sourcePath": "data/srd-2.0/indexes/classes.json",
+        "source": {
+          "corpus": "daggerheart-srd",
+          "version": "2.0",
+          "status": "srd"
+        },
+        "mappingVersion": "BH-2026-07-09-active",
+        "mappingGaps": [
+          "system.characterGuide.suggestedPrimaryWeapon",
+          "system.characterGuide.suggestedArmor"
+        ],
+        "contentLocale": "fr",
+        "canonicalSourceId": "srd-2.0.class.sorcerer",
+        "localeFallback": false,
+        "localizedPaths": [
+          "description",
+          "name"
+        ],
+        "managed": true,
+        "kind": "class",
+        "sourceFeatureCount": 4,
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "contentOrigin": "core",
+        "sourceNamespace": "daggerheart-srd-2.0"
+      }
+    },
+    "_id": "MbbKUpRKNfc7cqOL"
+  },
+  {
+    "name": "Barde",
+    "type": "class",
+    "img": "icons/tools/instruments/harp-red.webp",
+    "system": {
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null
+      },
+      "description": "<p>Les bardes comptent parmi les personnes les plus charismatiques de tous les royaumes. Maîtres dans l’art de captiver, ils se spécialisent dans diverses formes de spectacle : chant, musique, récit ou comédie. Qu’ils se produisent devant une foule ou s’adressent à une seule personne, les bardes s’épanouissent dans les situations sociales. Ils se rencontrent et s’entraînent au sein d’écoles ou de guildes, mais l’ego n’est jamais très loin chez ceux qui suivent cette voie. S’ils sont souvent les mieux placés pour rassembler un groupe, les bardes au tempérament difficile peuvent tout aussi aisément le déchirer.</p>",
+      "gmNotes": "",
+      "domains": [
+        "codex",
+        "grace"
+      ],
+      "classItems": [],
+      "hitPoints": 5,
+      "evasion": 10,
+      "features": [
+        {
+          "type": "hope",
+          "item": "Compendium.daggerheart-campaign-toolkit.dh-features.Item.lY53AgjcgMjN1fc8"
+        },
+        {
+          "type": "class",
+          "item": "Compendium.daggerheart-campaign-toolkit.dh-features.Item.SQUT3u5jtksLFh2v"
+        }
+      ],
+      "inventory": {
+        "take": [],
+        "choiceA": [],
+        "choiceB": []
+      },
+      "characterGuide": {
+        "suggestedTraits": {
+          "agility": 0,
+          "strength": -1,
+          "finesse": 1,
+          "instinct": 0,
+          "presence": 2,
+          "knowledge": 1
+        },
+        "suggestedPrimaryWeapon": null,
+        "suggestedSecondaryWeapon": null,
+        "suggestedArmor": null
+      },
+      "backgroundQuestions": [
+        "Qui, dans votre communauté, vous a appris à avoir autant confiance en vous ?",
+        "Vous avez autrefois été amoureux. Qui aimiez-vous, et comment cette personne vous a-t-elle blessé ?",
+        "Vous avez toujours admiré un autre barde. Qui est-ce, et pourquoi l’idolâtrez-vous ?"
+      ],
+      "connections": [
+        "Qu’est-ce qui vous a fait comprendre que nous allions devenir de si bons amis ?",
+        "Qu’est-ce que je fais qui vous agace ?",
+        "Pourquoi me prenez-vous la main la nuit ?"
+      ],
+      "isMulticlass": false,
+      "levelupOptionTiers": {
+        "2": {},
+        "3": {},
+        "4": {}
+      }
+    },
+    "effects": [],
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "sourceId": "srd-2.0.class.bard",
+        "sourcePath": "data/srd-2.0/indexes/classes.json",
+        "source": {
+          "corpus": "daggerheart-srd",
+          "version": "2.0",
+          "status": "srd"
+        },
+        "mappingVersion": "BH-2026-07-09-active",
+        "mappingGaps": [
+          "system.characterGuide.suggestedPrimaryWeapon",
+          "system.characterGuide.suggestedSecondaryWeapon",
+          "system.characterGuide.suggestedArmor"
+        ],
+        "contentLocale": "fr",
+        "canonicalSourceId": "srd-2.0.class.bard",
+        "localeFallback": false,
+        "localizedPaths": [
+          "description",
+          "name"
+        ],
+        "managed": true,
+        "kind": "class",
+        "sourceFeatureCount": 2,
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "contentOrigin": "core",
+        "sourceNamespace": "daggerheart-srd-2.0"
+      }
+    },
+    "_id": "XLnt2B6sv2PRep5n"
+  },
+  {
+    "name": "Bagarreur",
+    "type": "class",
+    "img": "icons/skills/melee/unarmed-punch-fist-yellow-red.webp",
+    "system": {
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null
+      },
+      "description": "<p>Experts du combat à mains nues, les bagarreurs façonnent leur corps pour en faire une arme mortelle. Qu’ils aient reçu un entraînement formel, étudié auprès d’un mentor ou appris combat après combat, leur discipline reste exigeante : le corps et l’esprit doivent agir comme un seul. Leur puissance et leur polyvalence sont appréciées, et ils rejoignent généralement un groupe ou une cause lorsque le besoin ou l’envie s’en fait sentir. Leur corps étant leur meilleure arme, ils recherchent de nouveaux défis et des partenaires d’entraînement réguliers afin d’entretenir leurs talents et d’enrichir leur répertoire. Ils peuvent sembler inoffensifs à ceux qui ne craignent que les adversaires lourdement armés, mais leurs poings accomplissent souvent davantage que l’épée d’un soldat ordinaire.</p>",
+      "gmNotes": "",
+      "domains": [
+        "valor",
+        "bone"
+      ],
+      "classItems": [],
+      "hitPoints": 6,
+      "evasion": 10,
+      "features": [
+        {
+          "type": "hope",
+          "item": "Compendium.daggerheart-campaign-toolkit.dh-features.Item.ELxG5o42hUnXdrli"
+        },
+        {
+          "type": "class",
+          "item": "Compendium.daggerheart-campaign-toolkit.dh-features.Item.U6vwManyrAvOGSot"
+        },
+        {
+          "type": "class",
+          "item": "Compendium.daggerheart-campaign-toolkit.dh-features.Item.9TAhf3PORr78b2ap"
+        }
+      ],
+      "inventory": {
+        "take": [],
+        "choiceA": [],
+        "choiceB": []
+      },
+      "characterGuide": {
+        "suggestedTraits": {
+          "agility": 1,
+          "strength": 1,
+          "finesse": 0,
+          "instinct": 2,
+          "presence": 0,
+          "knowledge": -1
+        },
+        "suggestedPrimaryWeapon": null,
+        "suggestedSecondaryWeapon": null,
+        "suggestedArmor": null
+      },
+      "backgroundQuestions": [
+        "Dans quel endroit avez-vous passé vos années de formation, et comment vous a-t-il appris, directement ou indirectement, à vous battre dans le style que vous pratiquez ?",
+        "Quelle organisation a juré de vous tuer à vue, et qu’avez-vous fait pour provoquer sa colère ?",
+        "Contre qui avez-vous récemment perdu un combat et brûlez-vous d’obtenir une revanche ?"
+      ],
+      "connections": [
+        "Quelle est la chose dont nous avons tous les deux peur ?",
+        "Pour quoi compte-je sur vous au cours de nos voyages ? Qu’en pensez-vous ?",
+        "Je ne vous ai toujours pas pardonné quelque chose que vous m’avez dit. Qu’était-ce, et pourquoi l’avez-vous dit ?"
+      ],
+      "isMulticlass": false,
+      "levelupOptionTiers": {
+        "2": {},
+        "3": {},
+        "4": {}
+      }
+    },
+    "effects": [],
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "sourceId": "srd-2.0.class.brawler",
+        "sourcePath": "data/srd-2.0/indexes/classes.json",
+        "source": {
+          "corpus": "daggerheart-srd",
+          "version": "2.0",
+          "status": "srd"
+        },
+        "mappingVersion": "BH-2026-07-09-active",
+        "mappingGaps": [
+          "system.characterGuide.suggestedArmor"
+        ],
+        "contentLocale": "fr",
+        "canonicalSourceId": "srd-2.0.class.brawler",
+        "localeFallback": false,
+        "localizedPaths": [
+          "description",
+          "name"
+        ],
+        "managed": true,
+        "kind": "class",
+        "sourceFeatureCount": 3,
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "contentOrigin": "core",
+        "sourceNamespace": "daggerheart-srd-2.0"
+      }
+    },
+    "_id": "iUOlInkVIIKPk0Aa"
+  },
+  {
+    "name": "Gardien",
+    "type": "class",
+    "img": "icons/equipment/shield/heater-wooden-sword-green.webp",
+    "system": {
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null
+      },
+      "description": "<p>Le titre de gardien recouvre de nombreuses professions martiales et décrit davantage une boussole morale et une détermination inébranlable qu’une manière précise de combattre. Beaucoup servent des forces armées au nom d’un pays ou d’une cause, mais ils suivent plus volontiers les rares personnes auxquelles ils tiennent vraiment, quelle que soit l’opinion de la majorité. Les gardiens sont réputés pour leur férocité face aux forces les plus écrasantes et placent la défense de leurs compagnons au-dessus de tout. Malheur à quiconque blesse l’allié d’un gardien : celui-ci rendra coup pour coup.</p>",
+      "gmNotes": "",
+      "domains": [
+        "blade",
+        "valor"
+      ],
+      "classItems": [],
+      "hitPoints": 7,
+      "evasion": 9,
+      "features": [
+        {
+          "type": "hope",
+          "item": "Compendium.daggerheart-campaign-toolkit.dh-features.Item.yediUkxJIRKNd8VU"
+        },
+        {
+          "type": "class",
+          "item": "Compendium.daggerheart-campaign-toolkit.dh-features.Item.RkERLU9OhStMOszX"
+        }
+      ],
+      "inventory": {
+        "take": [],
+        "choiceA": [],
+        "choiceB": []
+      },
+      "characterGuide": {
+        "suggestedTraits": {
+          "agility": 1,
+          "strength": 2,
+          "finesse": -1,
+          "instinct": 0,
+          "presence": 1,
+          "knowledge": 0
+        },
+        "suggestedPrimaryWeapon": null,
+        "suggestedSecondaryWeapon": null,
+        "suggestedArmor": null
+      },
+      "backgroundQuestions": [
+        "Qui, dans votre communauté, n’avez-vous pas réussi à protéger, et pourquoi pensez-vous encore à cette personne ?",
+        "On vous a chargé de protéger quelque chose d’important et de le livrer dans un endroit dangereux. De quoi s’agit-il, et où devez-vous l’apporter ?",
+        "Vous considérez un aspect de vous-même comme une faiblesse. Lequel, et comment cela vous a-t-il affecté ?"
+      ],
+      "connections": [
+        "Comment ai-je sauvé votre vie la première fois que nous nous sommes rencontrés ?",
+        "Quel petit cadeau m’avez-vous offert et que vous remarquez que je porte toujours sur moi ?",
+        "Quel mensonge m’avez-vous raconté à votre sujet et auquel je crois totalement ?"
+      ],
+      "isMulticlass": false,
+      "levelupOptionTiers": {
+        "2": {},
+        "3": {},
+        "4": {}
+      }
+    },
+    "effects": [],
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "sourceId": "srd-2.0.class.guardian",
+        "sourcePath": "data/srd-2.0/indexes/classes.json",
+        "source": {
+          "corpus": "daggerheart-srd",
+          "version": "2.0",
+          "status": "srd"
+        },
+        "mappingVersion": "BH-2026-07-09-active",
+        "mappingGaps": [
+          "system.characterGuide.suggestedPrimaryWeapon",
+          "system.characterGuide.suggestedArmor"
+        ],
+        "contentLocale": "fr",
+        "canonicalSourceId": "srd-2.0.class.guardian",
+        "localeFallback": false,
+        "localizedPaths": [
+          "description",
+          "name"
+        ],
+        "managed": true,
+        "kind": "class",
+        "sourceFeatureCount": 2,
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "contentOrigin": "core",
+        "sourceNamespace": "daggerheart-srd-2.0"
+      }
+    },
+    "_id": "nzkduMEUFKSCIXe2"
+  },
+  {
+    "name": "Druide",
+    "type": "class",
+    "img": "icons/creatures/mammals/wolf-howl-moon-black.webp",
+    "system": {
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null
+      },
+      "description": "<p>Être druide ne consiste pas simplement à exercer un métier : c’est répondre à l’appel de celles et ceux qui souhaitent comprendre et préserver la magie des terres sauvages. Un druide paisible occupé à faire prospérer la flore peut sembler inoffensif, mais ceux qui déchaînent les forces indomptées de la nature inspirent la terreur. Les druides développent généralement leurs talents au sein de petits cercles réunis par une même philosophie ou attachés à un territoire particulier, même si certains suivent cette voie en solitaire. Au terme de longues années d’étude et de pratique, ils apprennent à prendre la forme de bêtes et à modeler la nature elle-même.</p>",
+      "gmNotes": "",
+      "domains": [
+        "arcana",
+        "sage"
+      ],
+      "classItems": [],
+      "hitPoints": 6,
+      "evasion": 10,
+      "features": [
+        {
+          "type": "hope",
+          "item": "Compendium.daggerheart-campaign-toolkit.dh-features.Item.nKes7Py1gyS0U2a4"
+        },
+        {
+          "type": "class",
+          "item": "Compendium.daggerheart-campaign-toolkit.dh-features.Item.3AoGcyO1mkswibcF"
+        },
+        {
+          "type": "class",
+          "item": "Compendium.daggerheart-campaign-toolkit.dh-features.Item.QFNpZFBPMIBULUAY"
+        }
+      ],
+      "inventory": {
+        "take": [],
+        "choiceA": [],
+        "choiceB": []
+      },
+      "characterGuide": {
+        "suggestedTraits": {
+          "agility": 1,
+          "strength": 0,
+          "finesse": 1,
+          "instinct": 2,
+          "presence": -1,
+          "knowledge": 0
+        },
+        "suggestedPrimaryWeapon": null,
+        "suggestedSecondaryWeapon": null,
+        "suggestedArmor": null
+      },
+      "backgroundQuestions": [
+        "Pourquoi la communauté dans laquelle vous avez grandi dépendait-elle autant de la nature et de ses créatures ?",
+        "Quel fut le premier animal sauvage avec lequel vous avez noué un lien ? Pourquoi ce lien a-t-il pris fin ?",
+        "Qui cherche à vous traquer ? Que veut cette personne de vous ?"
+      ],
+      "connections": [
+        "Que m’avez-vous confié qui me pousse à me jeter dans le danger pour vous à chaque fois ?",
+        "À quel animal est-ce que je dis que vous me faites penser ?",
+        "Quel surnom affectueux m’avez-vous donné ?"
+      ],
+      "isMulticlass": false,
+      "levelupOptionTiers": {
+        "2": {},
+        "3": {},
+        "4": {}
+      }
+    },
+    "effects": [],
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "sourceId": "srd-2.0.class.druid",
+        "sourcePath": "data/srd-2.0/indexes/classes.json",
+        "source": {
+          "corpus": "daggerheart-srd",
+          "version": "2.0",
+          "status": "srd"
+        },
+        "mappingVersion": "BH-2026-07-09-active",
+        "mappingGaps": [
+          "system.characterGuide.suggestedPrimaryWeapon",
+          "system.characterGuide.suggestedSecondaryWeapon",
+          "system.characterGuide.suggestedArmor"
+        ],
+        "contentLocale": "fr",
+        "canonicalSourceId": "srd-2.0.class.druid",
+        "localeFallback": false,
+        "localizedPaths": [
+          "description",
+          "name"
+        ],
+        "managed": true,
+        "kind": "class",
+        "sourceFeatureCount": 3,
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "contentOrigin": "core",
+        "sourceNamespace": "daggerheart-srd-2.0"
+      }
+    },
+    "_id": "pBze94pWMkN43fSU"
+  },
+  {
+    "name": "Séraphin",
+    "type": "class",
+    "img": "icons/magic/holy/barrier-shield-winged-cross.webp",
+    "system": {
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null
+      },
+      "description": "<p>Les séraphins sont des combattants et des guérisseurs divins investis d’une mission sacrée. Les royaumes abritent d’innombrables divinités, qui choisissent chacune leurs propres séraphins. Leur conduite s’accorde généralement au domaine ou aux objectifs de leur dieu : défendre les faibles, exercer une vengeance, protéger un territoire ou un artefact, ou faire respecter une foi particulière. Certains s’allient à une armée ou à une communauté, pour la plus grande satisfaction de ses dirigeants ; d’autres croisent le fer contre les folies du Royaume mortel. Mieux vaut être l’allié d’un séraphin que son ennemi, car ceux qui s’opposent à sa mission affrontent un adversaire terrifiant.</p>",
+      "gmNotes": "",
+      "domains": [
+        "splendor",
+        "valor"
+      ],
+      "classItems": [],
+      "hitPoints": 7,
+      "evasion": 9,
+      "features": [
+        {
+          "type": "hope",
+          "item": "Compendium.daggerheart-campaign-toolkit.dh-features.Item.BaIbYIVVv0PGb8Ac"
+        },
+        {
+          "type": "class",
+          "item": "Compendium.daggerheart-campaign-toolkit.dh-features.Item.DK5hH4QisxRVjufH"
+        }
+      ],
+      "inventory": {
+        "take": [],
+        "choiceA": [],
+        "choiceB": []
+      },
+      "characterGuide": {
+        "suggestedTraits": {
+          "agility": 0,
+          "strength": 2,
+          "finesse": 0,
+          "instinct": 1,
+          "presence": 1,
+          "knowledge": -1
+        },
+        "suggestedPrimaryWeapon": null,
+        "suggestedSecondaryWeapon": null,
+        "suggestedArmor": null
+      },
+      "backgroundQuestions": [
+        "À quel dieu vous êtes-vous voué ? Quel exploit incroyable a-t-il accompli pour vous dans un moment de désespoir ?",
+        "Comment votre apparence a-t-elle changé après avoir prêté serment ?",
+        "De quelle manière étrange ou singulière communiquez-vous avec votre dieu ?"
+      ],
+      "connections": [
+        "Quelle promesse m’avez-vous fait accepter au cas où vous mourriez sur le champ de bataille ?",
+        "Pourquoi me posez-vous autant de questions au sujet de mon dieu ?",
+        "Vous m’avez demandé de protéger un membre de notre groupe par-dessus tous les autres, y compris vous-même. De qui s’agit-il, et pourquoi ?"
+      ],
+      "isMulticlass": false,
+      "levelupOptionTiers": {
+        "2": {},
+        "3": {},
+        "4": {}
+      }
+    },
+    "effects": [],
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "sourceId": "srd-2.0.class.seraph",
+        "sourcePath": "data/srd-2.0/indexes/classes.json",
+        "source": {
+          "corpus": "daggerheart-srd",
+          "version": "2.0",
+          "status": "srd"
+        },
+        "mappingVersion": "BH-2026-07-09-active",
+        "mappingGaps": [
+          "system.characterGuide.suggestedPrimaryWeapon",
+          "system.characterGuide.suggestedSecondaryWeapon",
+          "system.characterGuide.suggestedArmor"
+        ],
+        "contentLocale": "fr",
+        "canonicalSourceId": "srd-2.0.class.seraph",
+        "localeFallback": false,
+        "localizedPaths": [
+          "description",
+          "name"
+        ],
+        "managed": true,
+        "kind": "class",
+        "sourceFeatureCount": 2,
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "contentOrigin": "core",
+        "sourceNamespace": "daggerheart-srd-2.0"
+      }
+    },
+    "_id": "pxnSUw9ikPFlvTfY"
+  },
+  {
+    "name": "Rôdeur",
+    "type": "class",
+    "img": "icons/weapons/bows/shortbow-recurve-yellow-blue.webp",
+    "system": {
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null
+      },
+      "description": "<p>Les rôdeurs sont des chasseurs accomplis qui, malgré leurs talents martiaux, mettent rarement leurs compétences au service d’une armée. En maîtrisant leur corps et en comprenant profondément les terres sauvages, ils deviennent de subtils tacticiens qui poursuivent leur proie avec ruse et patience. Beaucoup traquent et combattent aux côtés d’un compagnon animal avec lequel ils ont noué un puissant lien spirituel. À force de perfectionner leur art dans la nature, les rôdeurs deviennent des pisteurs experts, aussi susceptibles de prendre leurs ennemis au piège que de les affronter de front.</p>",
+      "gmNotes": "",
+      "domains": [
+        "bone",
+        "sage"
+      ],
+      "classItems": [],
+      "hitPoints": 6,
+      "evasion": 12,
+      "features": [
+        {
+          "type": "hope",
+          "item": "Compendium.daggerheart-campaign-toolkit.dh-features.Item.qzO6sBkb9GQA7zfA"
+        },
+        {
+          "type": "class",
+          "item": "Compendium.daggerheart-campaign-toolkit.dh-features.Item.UXbSJf9NzH1LRvJU"
+        }
+      ],
+      "inventory": {
+        "take": [],
+        "choiceA": [],
+        "choiceB": []
+      },
+      "characterGuide": {
+        "suggestedTraits": {
+          "agility": 2,
+          "strength": 0,
+          "finesse": 1,
+          "instinct": 1,
+          "presence": -1,
+          "knowledge": 0
+        },
+        "suggestedPrimaryWeapon": null,
+        "suggestedSecondaryWeapon": null,
+        "suggestedArmor": null
+      },
+      "backgroundQuestions": [
+        "Une terrible créature a fait du mal à votre communauté, et vous avez juré de la traquer. De quelle créature s’agit-il, et quelle piste ou quel signe unique laisse-t-elle derrière elle ?",
+        "Votre première proie a bien failli vous tuer elle aussi. Qu’était-ce, et quelle part de vous n’a plus jamais été la même après cet événement ?",
+        "Vous avez parcouru de nombreuses contrées dangereuses, mais quel est l’unique endroit où vous refusez d’aller ?"
+      ],
+      "connections": [
+        "Quelle compétition amicale entretenons-nous ?",
+        "Pourquoi vous comportez-vous différemment lorsque nous sommes seuls et lorsque d’autres personnes sont présentes ?",
+        "Quelle menace m’avez-vous demandé de surveiller, et pourquoi vous inquiète-t-elle ?"
+      ],
+      "isMulticlass": false,
+      "levelupOptionTiers": {
+        "2": {},
+        "3": {},
+        "4": {}
+      }
+    },
+    "effects": [],
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "sourceId": "srd-2.0.class.ranger",
+        "sourcePath": "data/srd-2.0/indexes/classes.json",
+        "source": {
+          "corpus": "daggerheart-srd",
+          "version": "2.0",
+          "status": "srd"
+        },
+        "mappingVersion": "BH-2026-07-09-active",
+        "mappingGaps": [
+          "system.characterGuide.suggestedPrimaryWeapon",
+          "system.characterGuide.suggestedArmor"
+        ],
+        "contentLocale": "fr",
+        "canonicalSourceId": "srd-2.0.class.ranger",
+        "localeFallback": false,
+        "localizedPaths": [
+          "description",
+          "name"
+        ],
+        "managed": true,
+        "kind": "class",
+        "sourceFeatureCount": 2,
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "contentOrigin": "core",
+        "sourceNamespace": "daggerheart-srd-2.0"
+      }
+    },
+    "_id": "q8ar5XS4C1j3WngF"
+  }
+]

@@ -8,6 +8,7 @@ const SUPPORTED_LOCALES = new Set(["en", "fr"]);
 // writable from a translation overlay.
 const TRANSLATABLE_PATHS = new Set([
   "name",
+  "description",
   "system.description",
   "system.motivesAndTactics",
   "system.notes",
@@ -66,7 +67,10 @@ function applyAllowedOverlay(target, overlay) {
   for (const path of inspection.allowedPaths) {
     const value = foundry.utils.getProperty(overlay, path);
     if (value === undefined || value === null) continue;
-    foundry.utils.setProperty(target, path, foundry.utils.deepClone(value));
+    // DH-DATA locale sources expose prose as a presentation-level
+    // `description`, while Foundry stores it in `system.description`.
+    const targetPath = path === "description" ? "system.description" : path;
+    foundry.utils.setProperty(target, targetPath, foundry.utils.deepClone(value));
   }
   return inspection;
 }

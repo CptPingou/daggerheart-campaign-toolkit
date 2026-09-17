@@ -1,0 +1,98 @@
+[
+  {
+    "name": "Chasseur de sang",
+    "type": "class",
+    "img": "icons/svg/blood.svg",
+    "system": {
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null
+      },
+      "description": "",
+      "gmNotes": "",
+      "domains": [
+        "blood",
+        "bone"
+      ],
+      "classItems": [],
+      "hitPoints": 5,
+      "evasion": 11,
+      "features": [
+        {
+          "type": "hope",
+          "item": "Compendium.daggerheart-campaign-toolkit.dh-features.Item.j9XNW8n2VRxZKjT4"
+        },
+        {
+          "type": "class",
+          "item": "Compendium.daggerheart-campaign-toolkit.dh-features.Item.PqA80YQ9nFq0CabE"
+        },
+        {
+          "type": "class",
+          "item": "Compendium.daggerheart-campaign-toolkit.dh-features.Item.jquIg8OfUJN6sTMf"
+        }
+      ],
+      "inventory": {
+        "take": [],
+        "choiceA": [],
+        "choiceB": []
+      },
+      "characterGuide": {
+        "suggestedTraits": {
+          "agility": 0,
+          "strength": 0,
+          "finesse": 0,
+          "instinct": 0,
+          "presence": 0,
+          "knowledge": 0
+        },
+        "suggestedPrimaryWeapon": null,
+        "suggestedSecondaryWeapon": null,
+        "suggestedArmor": null
+      },
+      "backgroundQuestions": [
+        "",
+        "",
+        ""
+      ],
+      "connections": [
+        "",
+        "",
+        ""
+      ],
+      "isMulticlass": false,
+      "levelupOptionTiers": {
+        "2": {},
+        "3": {},
+        "4": {}
+      }
+    },
+    "effects": [],
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "sourceId": "the-void.2026-07-09.class.blood-hunter",
+        "sourcePath": "data/playtest/blood-hunter-2026-07-09/classes/blood-hunter.json",
+        "source": {
+          "corpus": "the-void",
+          "product": "blood-hunter",
+          "version": "2026-07-09",
+          "status": "playtest"
+        },
+        "mappingVersion": "BH-2026-07-09-active",
+        "mappingGaps": [],
+        "contentLocale": "fr",
+        "canonicalSourceId": "the-void.2026-07-09.class.blood-hunter",
+        "localeFallback": false,
+        "localizedPaths": [
+          "name"
+        ],
+        "managed": true,
+        "kind": "class",
+        "sourceFeatureCount": 3,
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "contentOrigin": "playtest",
+        "sourceNamespace": "the-void/blood-hunter-2026-07-09"
+      }
+    },
+    "_id": "ijTUVcIbL0CjtfSE"
+  }
+]

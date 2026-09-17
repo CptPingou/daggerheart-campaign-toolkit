@@ -1,0 +1,80 @@
+{
+  "DAGGERHEART": {
+    "CONFIG": {
+      "Traits": {
+        "agility": {
+          "name": "Agilité",
+          "short": "AGI"
+        },
+        "strength": {
+          "name": "Force",
+          "short": "FOR"
+        },
+        "finesse": {
+          "name": "Finesse",
+          "short": "FIN"
+        },
+        "instinct": {
+          "name": "Instinct",
+          "short": "INS"
+        },
+        "presence": {
+          "name": "Présence",
+          "short": "PRÉ"
+        },
+        "knowledge": {
+          "name": "Savoir",
+          "short": "SAV"
+        }
+      }
+    },
+    "GENERAL": {
+      "Domain": {
+        "single": "Domaine",
+        "plural": "Domaines",
+        "arcana": {
+          "label": "Arcane"
+        },
+        "blade": {
+          "label": "Lame"
+        },
+        "bone": {
+          "label": "Os"
+        },
+        "codex": {
+          "label": "Codex"
+        },
+        "dread": {
+          "label": "Effroi"
+        },
+        "grace": {
+          "label": "Grâce"
+        },
+        "midnight": {
+          "label": "Minuit"
+        },
+        "sage": {
+          "label": "Sagesse"
+        },
+        "splendor": {
+          "label": "Splendeur"
+        },
+        "valor": {
+          "label": "Vaillance"
+        }
+      },
+      "thingsAndThing": "{things} et {thing}"
+    },
+    "UI": {
+      "Class": {
+        "startingEvasionScore": "Score d’Évasion de départ",
+        "startingHitPoints": "Points de vie de départ",
+        "classItems": "Objets de classe",
+        "hopeFeatureLabel": "Spécificité d’Espoir de la classe {class}",
+        "hopeFeatures": "Spécificités d’Espoir",
+        "classFeature": "Spécificité de classe",
+        "classFeatures": "Spécificités de classe"
+      }
+    }
+  }
+}

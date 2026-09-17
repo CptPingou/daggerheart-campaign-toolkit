@@ -1,16 +1,57 @@
 import { localizeNativeEquipmentConfigLabels } from "./equipment-native-fr.mjs";
-import { localizeNativeCharacterOptions } from "./character-options-native-fr.mjs";
+import { localizeNativeCharacterOptions, registerNativeCharacterOptionPresentation } from "./character-options-native-fr.mjs";
+import { preferOwnedCharacterOptionPacks } from "./owned-character-options.mjs";
+import { migrateOwnedContentFlags, globalContentOwnershipStatus } from "./content-ownership.mjs";
+import { ownedHeritageRuntimeStatus } from "./owned-heritage-runtime.mjs";
+import { ownedSrdBootstrapStatus } from "./owned-srd-bootstrap-status.mjs";
+import { frenchSourceDebtAudit, frenchSourceDebtSummary } from "./source-fr-debt-audit.mjs";
+import { autonomousSourceStatus, autonomousSourceDiff, autonomousSourceDiffSummary, syncAutonomousSources, rebuildAutonomousSources } from "./autonomous-source-loader.mjs";
 import "./content-locale-settings.mjs";
-import { importFullMapped, fullStatus } from "./full-import.mjs";
+import { importFullMapped as importFullMappedData, fullStatus } from "./full-import.mjs";
 import { importCampaignFrames, importCampaignFramePilot, campaignFrameStatus } from "./campaign-frame-import.mjs";
 import { semanticAudit } from "./semantic-audit.mjs";
 import { localizationAudit } from "./localization-audit.mjs";
 import { weaponProgressionApi } from "./weapon-progression.mjs";
+import { auditNativeDomainCardMechanics } from "./domain-card-native-mechanics-audit.mjs";
+import { reconstructNativeDomainCardMechanics } from "./domain-card-native-mechanics-reconstruction.mjs";
 import { engagementOpportunityApi } from "./engagement-opportunity.mjs";
 import { createEngagementOpenerApi, registerEngagementOpenerChatHook } from "./engagement-opener.mjs";
 import { createEngagementFinisherApi, registerEngagementFinisherChatHook } from "./engagement-finisher.mjs";
 import { createEngagementSupportApi, registerEngagementSupportActionHook } from "./engagement-support.mjs";
 import { createEngagementApi } from "./engagement.mjs";
+import { MONSTER_HUNTER_ENGAGEMENT_CONTRACT, monsterHunterEngagementStatus } from "./monster-hunter-engagement-contract.mjs";
+import {
+  MONSTER_HUNTER_OPPORTUNITY_RULES,
+  opportunityEffectCost,
+  validateOpportunitySpend,
+  resolveOpportunitySpend,
+  monsterHunterOpportunityStatus,
+} from "./monster-hunter-opportunity.mjs";
+import {
+  HUNT_CARD_ROLES,
+  HUNT_CARD_MECHANIC_SCHEMA,
+  defineHuntCardMechanic,
+  validateHuntCardLoadout,
+  huntCardMechanicStatus,
+} from "./monster-hunter-hunt-card.mjs";
+import { huntCardMechanicFromDocument, monsterHunterHuntCardCorpusStatus } from "./monster-hunter-hunt-card-corpus.mjs";
+import {
+  actorHuntCardLoadout,
+  actorEngagementCapabilities,
+  monsterHunterActorLoadoutStatus,
+} from "./monster-hunter-actor-loadout.mjs";
+import {
+  registerToolkitCardFamily,
+  toolkitCardFamilyDefinition,
+  toolkitCardMetadata,
+  isToolkitCard,
+  actorToolkitCards,
+  validateToolkitCardFamilyLoadout,
+  importToolkitCard,
+  removeToolkitCard,
+  toolkitCardFamiliesStatus,
+} from "./toolkit-card-families.mjs";
+import { registerToolkitCardSheetIntegration, toolkitCardSheetApi } from "./toolkit-card-sheet.mjs";
 import { huntingCardsApi } from "./hunting-cards.mjs";
 import { registerHuntingDomain, registerContextualDomainCardBypass } from "./hunting-domain-card-bridge.mjs";
 import { motherboardAugmentCatalogApi } from "./weapon-augment-catalog.mjs";
@@ -19,6 +60,10 @@ import { registerWeaponAugmentSheetIntegration } from "./weapon-augment-sheet.mj
 import {
   registerWeaponAugmentNativeFeatures,
 } from "./weapon-augment-native.mjs";
+import {
+  exportAutonomousCoreSources,
+  autonomousSourceExpectedCounts,
+} from "./autonomous-source-export.mjs";
 
 const MODULE_ID = "daggerheart-campaign-toolkit";
 const SMOKE_MACRO_NAME = "Campaign Toolkit - Smoke Test";
@@ -32,6 +77,17 @@ const DATA_PACKS = [
   "dh-environments",
   "dh-campaign-frames",
 ];
+
+async function importFullMapped() {
+  const result = await importFullMappedData();
+  const locale = game.settings.get(MODULE_ID, "contentLocale") ?? game.i18n?.lang ?? "en";
+
+  // Rebuilding the owned compendiums invalidates the Compendium Browser cache.
+  // Native ancestry/community documents must therefore receive their runtime
+  // French overlay again before the browser is reopened.
+  result.nativeCharacterOptions = await localizeNativeCharacterOptions(locale);
+  return result;
+}
 
 function registerBloodDomain() {
   const domainConfig = CONFIG?.DH?.DOMAIN;
@@ -68,7 +124,7 @@ Hooks.once("init", () => {
   registerContextualDomainCardBypass();
 
   game.modules.get(MODULE_ID).api = {
-    version: "0.5.47",
+    version: "0.5.50",
     async smokeTest() {
       const systemOk = game.system?.id === "daggerheart";
       const packs = Object.fromEntries([
@@ -89,16 +145,73 @@ Hooks.once("init", () => {
       return result;
     },
     importFullMapped,
+    async localizeNativeCharacterOptions() {
+      const locale = game.settings.get(MODULE_ID, "contentLocale") ?? game.i18n?.lang ?? "en";
+      return localizeNativeCharacterOptions(locale);
+    },
     fullStatus,
     importCampaignFrames,
     importCampaignFramePilot,
     campaignFrameStatus,
     semanticAudit,
     localizationAudit,
+    preferOwnedCharacterOptionPacks,
+    migrateOwnedContentFlags,
+    globalContentOwnershipStatus,
+    ownedHeritageRuntimeStatus,
+    ownedSrdBootstrapStatus,
+    frenchSourceDebtAudit,
+    frenchSourceDebtSummary,
+    autonomousSourceStatus,
+    autonomousSourceDiff,
+    autonomousSourceDiffSummary,
+    syncAutonomousSources,
+    rebuildAutonomousSources,
+    exportAutonomousCoreSources,
+    autonomousSourceExpectedCounts,
+    auditNativeDomainCardMechanics,
+    reconstructNativeDomainCardMechanics,
     engagementOpportunity: engagementOpportunityApi,
     engagementOpener: createEngagementOpenerApi(engagementOpportunityApi),
     engagementFinisher: createEngagementFinisherApi(engagementOpportunityApi),
     engagementSupport: createEngagementSupportApi(),
+    monsterHunterEngagement: Object.freeze({
+      contract: MONSTER_HUNTER_ENGAGEMENT_CONTRACT,
+      status: () => monsterHunterEngagementStatus(game.modules.get(MODULE_ID).api),
+    }),
+    monsterHunterOpportunity: Object.freeze({
+      rules: MONSTER_HUNTER_OPPORTUNITY_RULES,
+      effectCost: opportunityEffectCost,
+      validate: validateOpportunitySpend,
+      resolve: resolveOpportunitySpend,
+      status: monsterHunterOpportunityStatus,
+    }),
+    monsterHunterHuntCard: Object.freeze({
+      roles: HUNT_CARD_ROLES,
+      schema: HUNT_CARD_MECHANIC_SCHEMA,
+      define: defineHuntCardMechanic,
+      validateLoadout: validateHuntCardLoadout,
+      fromDocument: (document) => huntCardMechanicFromDocument(document, game.modules.get(MODULE_ID).api.monsterHunterHuntCard),
+      corpusStatus: monsterHunterHuntCardCorpusStatus,
+      status: huntCardMechanicStatus,
+    }),
+    monsterHunterActorLoadout: Object.freeze({
+      inspect: actorHuntCardLoadout,
+      capabilities: actorEngagementCapabilities,
+      status: monsterHunterActorLoadoutStatus,
+    }),
+    toolkitCardFamilies: Object.freeze({
+      register: registerToolkitCardFamily,
+      definition: toolkitCardFamilyDefinition,
+      metadata: toolkitCardMetadata,
+      isToolkitCard,
+      actorCards: actorToolkitCards,
+      validateLoadout: validateToolkitCardFamilyLoadout,
+      importCard: importToolkitCard,
+      removeCard: removeToolkitCard,
+      status: toolkitCardFamiliesStatus,
+    }),
+    toolkitCardSheet: toolkitCardSheetApi,
     huntingCards: huntingCardsApi,
     weaponProgression: weaponProgressionApi,
     weaponAugments: motherboardAugmentCatalogApi,
@@ -139,6 +252,7 @@ Hooks.once("init", () => {
   registerEngagementFinisherChatHook(toolkitApi.engagementFinisher);
   registerEngagementSupportActionHook(toolkitApi.engagementSupport);
   registerWeaponAugmentSheetIntegration();
+  registerToolkitCardSheetIntegration();
 });
 
 Hooks.once("ready", async () => {
@@ -152,21 +266,41 @@ Hooks.once("ready", async () => {
   } catch (error) {
     console.error(`${MODULE_ID} | unable to register native Weapon Augments`, error);
   }
+
+  try {
+    const ownershipMigration = await migrateOwnedContentFlags();
+    console.info(`${MODULE_ID} | owned content flags ready`, ownershipMigration);
+  } catch (error) {
+    console.error(`${MODULE_ID} | unable to migrate owned content flags`, error);
+  }
+
+  try {
+    const ownedOptions = await preferOwnedCharacterOptionPacks();
+    console.info(`${MODULE_ID} | owned character option packs ready`, ownedOptions);
+  } catch (error) {
+    console.error(`${MODULE_ID} | unable to prefer owned character option packs`, error);
+  }
+
   const locale = game.settings.get(MODULE_ID, "contentLocale") ?? "en";
 
-const nativeLabels = localizeNativeEquipmentConfigLabels(locale);
-if (nativeLabels) {
-  console.info(`${MODULE_ID} | localized native equipment labels`, nativeLabels);
-}
+  const nativeLabels = localizeNativeEquipmentConfigLabels(locale);
+  if (nativeLabels) {
+    console.info(`${MODULE_ID} | localized native equipment labels`, nativeLabels);
+  }
 
-try {
-  const characterOptions = await localizeNativeCharacterOptions(locale);
-  console.info(`${MODULE_ID} | localized native character options`, characterOptions);
-} catch (error) {
-  console.error(`${MODULE_ID} | unable to localize native character options`, error);
-}
+  const presentationHooks = registerNativeCharacterOptionPresentation(locale);
+  if (presentationHooks) {
+    console.info(`${MODULE_ID} | native character option presentation hooks`, presentationHooks);
+  }
 
-if (!game.user?.isGM) return;
+  try {
+    const characterOptions = await localizeNativeCharacterOptions(locale);
+    console.info(`${MODULE_ID} | localized native character options`, characterOptions);
+  } catch (error) {
+    console.error(`${MODULE_ID} | unable to localize native character options`, error);
+  }
+
+  if (!game.user?.isGM) return;
   const pack = game.packs.get(`${MODULE_ID}.toolkit-macros`);
   if (!pack) return;
   try {

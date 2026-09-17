@@ -1,0 +1,381 @@
+[
+  {
+    "name": "Naturaliste",
+    "img": "icons/svg/book.svg",
+    "type": "domainCard",
+    "system": {
+      "description": "<p><strong>Lecture du terrain.</strong> Une fois par chasse, sans effectuer de jet, obtenez une information sûre sur le comportement du monstre ou son biome.</p><p>Les autres informations obtenues par observation ou étude sont résolues normalement par le MJ.</p>",
+      "domain": "valor",
+      "recallCost": 1,
+      "level": 1,
+      "type": "ability",
+      "actions": {},
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null,
+        "artist": ""
+      },
+      "gmNotes": "",
+      "resource": null,
+      "inVault": false,
+      "vaultActive": false,
+      "loadoutIgnore": false,
+      "domainTouched": null
+    },
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "contentOrigin": "homebrew",
+        "sourceNamespace": "monster-hunter",
+        "canonicalSourceId": "monster-hunter.hunt.MHNATURALIST0001",
+        "toolkitCard": {
+          "family": "hunt",
+          "familyLabel": "Chasse",
+          "eligibility": "toolkit",
+          "loadoutGroup": "hunt"
+        }
+      }
+    },
+    "effects": [],
+    "_id": "MHNATURALIST0001"
+  },
+  {
+    "name": "Traqueur",
+    "img": "icons/svg/book.svg",
+    "type": "domainCard",
+    "system": {
+      "description": "<p><strong>Maîtrise de la piste.</strong> Vous savez identifier le trajet probable d’un monstre et l’emplacement de sa tanière à partir de traces suffisantes.</p><p>Lorsque vous préparez un piège sur un passage identifié avant la confrontation, les PJ ont l’initiative lorsque le monstre entre dans la zone préparée.</p>",
+      "domain": "valor",
+      "recallCost": 1,
+      "level": 1,
+      "type": "ability",
+      "actions": {},
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null,
+        "artist": ""
+      },
+      "gmNotes": "",
+      "resource": null,
+      "inVault": false,
+      "vaultActive": false,
+      "loadoutIgnore": false,
+      "domainTouched": null
+    },
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "contentOrigin": "homebrew",
+        "sourceNamespace": "monster-hunter",
+        "canonicalSourceId": "monster-hunter.hunt.MHTRAQUEUR000001",
+        "toolkitCard": {
+          "family": "hunt",
+          "familyLabel": "Chasse",
+          "eligibility": "toolkit",
+          "loadoutGroup": "hunt"
+        }
+      }
+    },
+    "effects": [],
+    "_id": "MHTRAQUEUR000001"
+  },
+  {
+    "name": "Tacticien",
+    "img": "icons/svg/book.svg",
+    "type": "domainCard",
+    "system": {
+      "description": "<p><strong>Réorientation.</strong> Pendant un Engagement, vous pouvez changer le Finisher désigné par l’Opener avant que l’Opportunité ne soit convertie.</p><p>Vous êtes également le référent logistique du groupe pour l’organisation et la capacité des objets de chasse.</p>",
+      "domain": "valor",
+      "recallCost": 1,
+      "level": 1,
+      "type": "ability",
+      "actions": {},
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null,
+        "artist": ""
+      },
+      "gmNotes": "",
+      "resource": null,
+      "inVault": false,
+      "vaultActive": false,
+      "loadoutIgnore": false,
+      "domainTouched": null
+    },
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "contentOrigin": "homebrew",
+        "sourceNamespace": "monster-hunter",
+        "canonicalSourceId": "monster-hunter.hunt.MHTACTICIEN00001",
+        "toolkitCard": {
+          "family": "hunt",
+          "familyLabel": "Chasse",
+          "eligibility": "toolkit",
+          "loadoutGroup": "hunt"
+        }
+      }
+    },
+    "effects": [],
+    "_id": "MHTACTICIEN00001"
+  },
+  {
+    "name": "Cuistot",
+    "img": "icons/svg/book.svg",
+    "type": "domainCard",
+    "system": {
+      "description": "<p><strong>Préparation de chasse.</strong> Vous pouvez préparer des appâts adaptés aux habitudes alimentaires du monstre afin de provoquer des désavantages ou créer une ouverture appropriée.</p><p>Vous pouvez également cuisiner pour favoriser la récupération et réaliser les préparations locales nécessaires au craft de chasse.</p>",
+      "domain": "valor",
+      "recallCost": 1,
+      "level": 1,
+      "type": "ability",
+      "actions": {},
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null,
+        "artist": ""
+      },
+      "gmNotes": "",
+      "resource": null,
+      "inVault": false,
+      "vaultActive": false,
+      "loadoutIgnore": false,
+      "domainTouched": null
+    },
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "contentOrigin": "homebrew",
+        "sourceNamespace": "monster-hunter",
+        "canonicalSourceId": "monster-hunter.hunt.MHCUISINIER00001",
+        "toolkitCard": {
+          "family": "hunt",
+          "familyLabel": "Chasse",
+          "eligibility": "toolkit",
+          "loadoutGroup": "hunt"
+        }
+      }
+    },
+    "effects": [],
+    "_id": "MHCUISINIER00001"
+  },
+  {
+    "name": "Extracteur",
+    "img": "icons/svg/book.svg",
+    "type": "domainCard",
+    "system": {
+      "description": "<p><strong>Préservation.</strong> Une fois par chasse, vous pouvez désigner une partie du monstre comme <em>préservée</em> afin d’éviter qu’elle soit perdue lors de l’extraction.</p><p>Le dépeçage final reste résolu par un jet de Dualité ; la partie préservée est sécurisée indépendamment de ce résultat.</p>",
+      "domain": "valor",
+      "recallCost": 1,
+      "level": 1,
+      "type": "ability",
+      "actions": {},
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null,
+        "artist": ""
+      },
+      "gmNotes": "",
+      "resource": null,
+      "inVault": false,
+      "vaultActive": false,
+      "loadoutIgnore": false,
+      "domainTouched": null
+    },
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "contentOrigin": "homebrew",
+        "sourceNamespace": "monster-hunter",
+        "canonicalSourceId": "monster-hunter.hunt.MHEXTRACTEUR0001",
+        "toolkitCard": {
+          "family": "hunt",
+          "familyLabel": "Chasse",
+          "eligibility": "toolkit",
+          "loadoutGroup": "hunt"
+        }
+      }
+    },
+    "effects": [],
+    "_id": "MHEXTRACTEUR0001"
+  },
+  {
+    "name": "Ouverture",
+    "img": "icons/svg/book.svg",
+    "type": "domainCard",
+    "system": {
+      "description": "<p><strong>Opener.</strong> Dépensez 2 Espoir lorsque vous engagez le monstre. Sur une ouverture réussie, créez 2 Opportunités et désignez le Finisher.</p>",
+      "domain": "valor",
+      "recallCost": 1,
+      "level": 1,
+      "type": "ability",
+      "actions": {},
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null,
+        "artist": ""
+      },
+      "gmNotes": "",
+      "resource": null,
+      "inVault": false,
+      "vaultActive": false,
+      "loadoutIgnore": false,
+      "domainTouched": null
+    },
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "contentOrigin": "homebrew",
+        "sourceNamespace": "monster-hunter",
+        "canonicalSourceId": "monster-hunter.hunt-card.MHOPENINGSTRIKE1",
+        "huntCardMechanic": {
+          "id": "opening",
+          "role": "opener",
+          "hopeCost": 2,
+          "opportunity": {
+            "generate": 2,
+            "spend": [],
+            "effectCosts": {
+              "standard": 2,
+              "rare": 3
+            }
+          },
+          "conditions": [],
+          "tags": [
+            "engagement"
+          ]
+        },
+        "toolkitCard": {
+          "family": "hunt",
+          "familyLabel": "Chasse",
+          "eligibility": "toolkit",
+          "loadoutGroup": "hunt"
+        }
+      }
+    },
+    "effects": [],
+    "_id": "MHOPENINGSTRIKE1"
+  },
+  {
+    "name": "Conversion",
+    "img": "icons/svg/book.svg",
+    "type": "domainCard",
+    "system": {
+      "description": "<p><strong>Finisher.</strong> Lorsque vous convertissez une Opportunité, chaque OP dépensée en dégâts ajoute 1 dé de dégâts de l’arme. Vous pouvez à la place déclencher un Effet disponible. Sur un critique du Finisher, vous pouvez appliquer les dégâts et l’Effet.</p>",
+      "domain": "valor",
+      "recallCost": 1,
+      "level": 1,
+      "type": "ability",
+      "actions": {},
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null,
+        "artist": ""
+      },
+      "gmNotes": "",
+      "resource": null,
+      "inVault": false,
+      "vaultActive": false,
+      "loadoutIgnore": false,
+      "domainTouched": null
+    },
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "contentOrigin": "homebrew",
+        "sourceNamespace": "monster-hunter",
+        "canonicalSourceId": "monster-hunter.hunt-card.MHFINISHERBASE01",
+        "huntCardMechanic": {
+          "id": "conversion",
+          "role": "finisher",
+          "hopeCost": 0,
+          "opportunity": {
+            "generate": 0,
+            "spend": [
+              "damage",
+              "effect"
+            ],
+            "effectCosts": {
+              "standard": 2,
+              "rare": 3
+            }
+          },
+          "conditions": [],
+          "tags": [
+            "engagement",
+            "opportunity"
+          ]
+        },
+        "toolkitCard": {
+          "family": "hunt",
+          "familyLabel": "Chasse",
+          "eligibility": "toolkit",
+          "loadoutGroup": "hunt"
+        }
+      }
+    },
+    "effects": [],
+    "_id": "MHFINISHERBASE01"
+  },
+  {
+    "name": "Appui défensif",
+    "img": "icons/svg/book.svg",
+    "type": "domainCard",
+    "system": {
+      "description": "<p><strong>Support.</strong> Une fois par combat pour cet engagement, dépensez 1 Espoir pour imposer -1d4 au jet d’attaque du monstre contre un personnage engagé.</p>",
+      "domain": "valor",
+      "recallCost": 1,
+      "level": 1,
+      "type": "ability",
+      "actions": {},
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null,
+        "artist": ""
+      },
+      "gmNotes": "",
+      "resource": null,
+      "inVault": false,
+      "vaultActive": false,
+      "loadoutIgnore": false,
+      "domainTouched": null
+    },
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "contentOrigin": "homebrew",
+        "sourceNamespace": "monster-hunter",
+        "canonicalSourceId": "monster-hunter.hunt-card.MHSUPPORTGUARD01",
+        "huntCardMechanic": {
+          "id": "defensive-support",
+          "role": "support",
+          "hopeCost": 1,
+          "opportunity": {
+            "generate": 0,
+            "spend": [],
+            "effectCosts": {
+              "standard": 2,
+              "rare": 3
+            }
+          },
+          "conditions": [
+            "target-engaged"
+          ],
+          "tags": [
+            "engagement",
+            "support",
+            "defense"
+          ]
+        },
+        "toolkitCard": {
+          "family": "hunt",
+          "familyLabel": "Chasse",
+          "eligibility": "toolkit",
+          "loadoutGroup": "hunt"
+        }
+      }
+    },
+    "effects": [],
+    "_id": "MHSUPPORTGUARD01"
+  }
+]

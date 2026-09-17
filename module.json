@@ -2,7 +2,7 @@
   "id": "daggerheart-campaign-toolkit",
   "title": "Daggerheart — Campaign Toolkit",
   "description": "Module unique pour les compendiums, macros, automatisations et extensions Daggerheart de campagne.",
-  "version": "0.4.1",
+  "version": "0.4.2",
   "authors": [
     {
       "name": "Campaign Toolkit"
@@ -27,6 +27,13 @@
   "esmodules": [
     "scripts/main.mjs"
   ],
+  "languages": [
+    {
+      "lang": "fr",
+      "name": "Français",
+      "path": "lang/fr.json"
+    }
+  ],
   "packs": [
     {
       "name": "toolkit-macros",
@@ -50,6 +57,18 @@
       "name": "dh-features",
       "label": "Campaign Toolkit — Features",
       "path": "packs/dh-features",
+      "type": "Item"
+    },
+    {
+      "name": "dh-communities",
+      "label": "Campaign Toolkit — Communities FR",
+      "path": "packs/dh-communities",
+      "type": "Item"
+    },
+    {
+      "name": "dh-ancestries",
+      "label": "Campaign Toolkit — Ancestries FR",
+      "path": "packs/dh-ancestries",
       "type": "Item"
     },
     {
@@ -98,6 +117,8 @@
         "dh-classes",
         "dh-subclasses",
         "dh-features",
+        "dh-communities",
+        "dh-ancestries",
         "dh-domain-cards",
         "dh-weapons",
         "dh-armor",

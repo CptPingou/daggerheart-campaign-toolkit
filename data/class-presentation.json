@@ -1,0 +1,47 @@
+{
+  "schemaVersion": 1,
+  "entries": {
+    "srd-2.0.class.assassin": {
+      "img": "icons/weapons/daggers/dagger-glowing-white.webp"
+    },
+    "srd-2.0.class.bard": {
+      "img": "icons/tools/instruments/harp-red.webp"
+    },
+    "srd-2.0.class.brawler": {
+      "img": "icons/skills/melee/unarmed-punch-fist-yellow-red.webp"
+    },
+    "srd-2.0.class.druid": {
+      "img": "icons/creatures/mammals/wolf-howl-moon-black.webp"
+    },
+    "srd-2.0.class.guardian": {
+      "img": "icons/equipment/shield/heater-wooden-sword-green.webp"
+    },
+    "srd-2.0.class.ranger": {
+      "img": "icons/weapons/bows/shortbow-recurve-yellow-blue.webp"
+    },
+    "srd-2.0.class.rogue": {
+      "img": "icons/magic/defensive/shield-barrier-blades-teal.webp"
+    },
+    "srd-2.0.class.seraph": {
+      "img": "icons/magic/holy/barrier-shield-winged-cross.webp"
+    },
+    "srd-2.0.class.sorcerer": {
+      "img": "icons/magic/symbols/rune-sigil-horned-white-purple.webp"
+    },
+    "srd-2.0.class.warlock": {
+      "img": "icons/magic/unholy/orb-hands-pink.webp"
+    },
+    "srd-2.0.class.warrior": {
+      "img": "icons/weapons/swords/sword-broad-crystal-paired.webp"
+    },
+    "srd-2.0.class.witch": {
+      "img": "icons/magic/light/hand-sparks-smoke-teal.webp"
+    },
+    "srd-2.0.class.wizard": {
+      "img": "icons/magic/symbols/circled-gem-pink.webp"
+    },
+    "the-void.2026-07-09.class.blood-hunter": {
+      "img": "icons/svg/blood.svg"
+    }
+  }
+}

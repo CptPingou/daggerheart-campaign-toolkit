@@ -1,0 +1,1632 @@
+[
+  {
+    "name": "Connaître la marée",
+    "type": "feature",
+    "_id": "07x6Qe6qMzDw2xN4",
+    "img": "icons/environment/wilderness/cave-entrance-island.webp",
+    "system": {
+      "description": "<p>Vous pouvez ressentir le flux et le reflux de la vie. Lorsque vous obtenez un jet avec Peur, placez un jeton sur votre carte de Communauté. Vous pouvez conserver un nombre de jetons égal à votre niveau. Avant d’effectuer un jet d’action, vous pouvez dépenser autant de ces jetons que vous le souhaitez pour gagner un bonus de +1 au jet par jeton dépensé. À la fin de chaque session, retirez tous les jetons non dépensés.</p>",
+      "resource": {
+        "type": "simple",
+        "value": 0,
+        "max": "@system.levelData.level.current",
+        "icon": "fa-solid fa-water",
+        "recovery": "session",
+        "diceStates": {},
+        "dieFaces": "d4",
+        "progression": "increasing"
+      },
+      "actions": {
+        "tFlus34KotJjHfTe": {
+          "type": "effect",
+          "_id": "tFlus34KotJjHfTe",
+          "systemPath": "actions",
+          "baseAction": false,
+          "description": "",
+          "chatDisplay": true,
+          "originItem": {
+            "type": "itemCollection"
+          },
+          "actionType": "action",
+          "triggers": [
+            {
+              "trigger": "fearRoll",
+              "triggeringActorType": "self",
+              "command": "const { max, value } = this.item.system.resource;\nconst maxValue = actor.system.levelData.level.current;\nconst afterUpdate = value+1;\nif (afterUpdate > maxValue) return;\n\nui.notifications.info(game.i18n.localize('DAGGERHEART.UI.Notifications.knowTheTide'));\nreturn { updates: [{\n  key: 'resource',\n  itemId: this.item.id,\n  target: this.item,\n  value: 1,\n}]};"
+            }
+          ],
+          "cost": [],
+          "uses": {
+            "value": null,
+            "max": "",
+            "recovery": null,
+            "consumeOnSuccess": false
+          },
+          "effects": [],
+          "target": {
+            "type": "any",
+            "amount": null
+          },
+          "name": "Connaître la marée",
+          "range": "",
+          "areas": []
+        }
+      },
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null,
+        "artist": ""
+      },
+      "gmNotes": "",
+      "granter": null,
+      "featureForm": "passive",
+      "actorResources": []
+    },
+    "effects": [],
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "canonicalId": "srd-2.0.community.seaborne.feature.know-the-tide",
+        "contentOrigin": "core",
+        "contentLocale": "fr",
+        "owned": true,
+        "family": "community",
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "sourceNamespace": "daggerheart-srd-2.0"
+      }
+    }
+  },
+  {
+    "name": "Paquetage nomade",
+    "type": "feature",
+    "_id": "2RSrQouA2zEJ5Xee",
+    "img": "icons/containers/bags/pack-leather-brown.webp",
+    "system": {
+      "description": "<p>Ajoutez un Paquetage nomade à votre inventaire. Une fois par session, vous pouvez <strong>dépenser 1 Espoir</strong> pour fouiller dans ce paquetage et en sortir un objet ordinaire utile à la situation. Déterminez avec le MJ quel objet vous en retirez.</p>",
+      "resource": null,
+      "actions": {
+        "Jd9uVincqkIMAXgU": {
+          "type": "effect",
+          "_id": "Jd9uVincqkIMAXgU",
+          "systemPath": "actions",
+          "description": "",
+          "chatDisplay": true,
+          "actionType": "action",
+          "cost": [
+            {
+              "key": "hope",
+              "value": 1,
+              "scalable": false,
+              "step": null,
+              "itemId": null,
+              "consumeOnSuccess": false
+            }
+          ],
+          "uses": {
+            "value": null,
+            "max": "1",
+            "recovery": "session",
+            "consumeOnSuccess": false
+          },
+          "effects": [],
+          "target": {
+            "type": "any",
+            "amount": null
+          },
+          "name": "Sortir un objet",
+          "img": "icons/containers/bags/pack-leather-brown.webp",
+          "range": "",
+          "baseAction": false,
+          "originItem": {
+            "type": "itemCollection"
+          },
+          "triggers": [],
+          "areas": []
+        }
+      },
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null,
+        "artist": ""
+      },
+      "gmNotes": "",
+      "granter": null,
+      "featureForm": "passive",
+      "actorResources": []
+    },
+    "effects": [],
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "canonicalId": "srd-2.0.community.wanderborne.feature.nomadic-pack",
+        "contentOrigin": "core",
+        "contentLocale": "fr",
+        "owned": true,
+        "family": "community",
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "sourceNamespace": "daggerheart-srd-2.0"
+      }
+    }
+  },
+  {
+    "type": "feature",
+    "name": "Famille choisie",
+    "_id": "3Q6bQ73PdGz2Bmcz",
+    "img": "icons/magic/life/heart-pink.webp",
+    "system": {
+      "attribution": {},
+      "description": "<p>Une fois par repos, vous pouvez <strong>dépenser 1 Espoir</strong> pour utiliser l’Expérience d’un allié comme si c’était la vôtre. Lorsque vous le faites, décrivez comment le temps passé avec cet allié vous a préparé à cet instant.</p><p>Lorsque vous rejoignez une nouvelle communauté ou retrouvez votre ancienne communauté, vous pouvez échanger définitivement cette carte contre celle de cette communauté.</p>",
+      "gmNotes": "",
+      "resource": null,
+      "actions": {
+        "jt9gOu3FQLcW1TFC": {
+          "type": "effect",
+          "_id": "jt9gOu3FQLcW1TFC",
+          "systemPath": "actions",
+          "baseAction": false,
+          "description": "",
+          "chatDisplay": true,
+          "originItem": {
+            "type": "itemCollection"
+          },
+          "actionType": "action",
+          "triggers": [],
+          "areas": [],
+          "cost": [
+            {
+              "itemId": null,
+              "key": "hope",
+              "value": 1,
+              "scalable": false,
+              "step": null,
+              "consumeOnSuccess": false
+            }
+          ],
+          "uses": {
+            "value": null,
+            "max": "",
+            "recovery": null,
+            "consumeOnSuccess": false
+          },
+          "effects": [],
+          "target": {
+            "type": "any",
+            "amount": null
+          },
+          "name": "Dépenser de l’Espoir",
+          "range": ""
+        }
+      },
+      "featureForm": "passive",
+      "granter": null,
+      "actorResources": []
+    },
+    "effects": [],
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "canonicalId": "srd-2.0.community.reborne.feature.found-family",
+        "contentOrigin": "core",
+        "contentLocale": "fr",
+        "owned": true,
+        "family": "community",
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "sourceNamespace": "daggerheart-srd-2.0"
+      }
+    }
+  },
+  {
+    "name": "Dévoué",
+    "type": "feature",
+    "_id": "7aXWdH3gzaYREK0X",
+    "img": "icons/environment/people/cleric-orange.webp",
+    "system": {
+      "description": "<p>Notez trois maximes ou valeurs que votre éducation vous a inculquées. Une fois par repos, lorsque vous décrivez comment votre action actuelle incarne l’un de ces principes, vous pouvez lancer un d20 comme dé d’Espoir.</p>",
+      "resource": null,
+      "actions": {
+        "ZBVqSlsDUKf8uGrI": {
+          "type": "effect",
+          "_id": "ZBVqSlsDUKf8uGrI",
+          "systemPath": "actions",
+          "description": "",
+          "chatDisplay": true,
+          "actionType": "action",
+          "cost": [],
+          "uses": {
+            "value": null,
+            "max": "1",
+            "recovery": "shortRest",
+            "consumeOnSuccess": false
+          },
+          "effects": [],
+          "target": {
+            "type": "any",
+            "amount": null
+          },
+          "name": "Utiliser",
+          "img": "icons/environment/people/cleric-orange.webp",
+          "range": "",
+          "baseAction": false,
+          "originItem": {
+            "type": "itemCollection"
+          },
+          "triggers": [],
+          "areas": []
+        }
+      },
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null,
+        "artist": ""
+      },
+      "gmNotes": "",
+      "granter": null,
+      "featureForm": "passive",
+      "actorResources": []
+    },
+    "effects": [],
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "canonicalId": "srd-2.0.community.orderborne.feature.dedicated",
+        "contentOrigin": "core",
+        "contentLocale": "fr",
+        "owned": true,
+        "family": "community",
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "sourceNamespace": "daggerheart-srd-2.0"
+      }
+    }
+  },
+  {
+    "type": "community",
+    "name": "Né des dunes",
+    "system": {
+      "loreReference": "duneborne",
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null
+      },
+      "description": "<p>Faire partie d’une communauté née des dunes signifie que vous avez établi votre foyer parmi les sables mouvants et le climat aride du désert.</p>",
+      "gmNotes": "",
+      "features": [
+        "Compendium.daggerheart-campaign-toolkit.dh-communities.Item.DOrvaVrES1HYhG2u"
+      ]
+    },
+    "_id": "7hCkORII05slZW3c",
+    "img": "icons/environment/settlement/tent.webp",
+    "effects": [],
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "canonicalId": "srd-2.0.community.duneborne",
+        "contentOrigin": "core",
+        "contentLocale": "fr",
+        "owned": true,
+        "family": "community",
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "sourceNamespace": "daggerheart-srd-2.0"
+      }
+    }
+  },
+  {
+    "name": "Né de l’errance",
+    "img": "icons/environment/settlement/wagon.webp",
+    "type": "community",
+    "system": {
+      "description": "<p>Faire partie d’une communauté nomade signifie que vous avez vécu en nomade, renonçant à un foyer permanent et découvrant une grande variété de cultures.</p>",
+      "features": [
+        "Compendium.daggerheart-campaign-toolkit.dh-communities.Item.2RSrQouA2zEJ5Xee"
+      ],
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null,
+        "artist": ""
+      },
+      "loreReference": "wanderborne",
+      "gmNotes": ""
+    },
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "canonicalId": "srd-2.0.community.wanderborne",
+        "contentOrigin": "core",
+        "contentLocale": "fr",
+        "owned": true,
+        "family": "community",
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "sourceNamespace": "daggerheart-srd-2.0"
+      }
+    },
+    "_id": "82mDY2EIBfLkNwQj",
+    "effects": []
+  },
+  {
+    "name": "Privilège",
+    "type": "feature",
+    "_id": "C7NR6qRatawZusmg",
+    "img": "icons/commodities/currency/coins-plain-stack-gold.webp",
+    "system": {
+      "description": "<p>Vous avez un avantage aux jets visant à fréquenter la noblesse, négocier des prix ou tirer parti de votre réputation pour obtenir ce que vous voulez.</p>",
+      "resource": null,
+      "actions": {},
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null,
+        "artist": ""
+      },
+      "gmNotes": "",
+      "granter": null,
+      "featureForm": "passive",
+      "actorResources": []
+    },
+    "effects": [
+      {
+        "name": "Privilège",
+        "type": "base",
+        "_id": "xgtjykfgvg142urA",
+        "img": "icons/commodities/currency/coins-plain-stack-gold.webp",
+        "system": {
+          "changes": [
+            {
+              "key": "system.advantageSources",
+              "type": "add",
+              "value": "Fréquenter la noblesse",
+              "priority": null,
+              "phase": "initial"
+            },
+            {
+              "key": "system.advantageSources",
+              "type": "add",
+              "value": "Négocier des prix",
+              "priority": null,
+              "phase": "initial"
+            },
+            {
+              "key": "system.advantageSources",
+              "type": "add",
+              "value": "Tirer parti de votre réputation pour obtenir ce que vous voulez",
+              "priority": null,
+              "phase": "initial"
+            }
+          ],
+          "duration": {
+            "type": "",
+            "description": ""
+          },
+          "rangeDependence": null,
+          "stacking": null,
+          "targetDispositions": []
+        },
+        "disabled": false,
+        "duration": {
+          "value": null,
+          "units": "seconds",
+          "expiry": null,
+          "expired": false
+        },
+        "description": "<p>Vous avez un avantage aux jets visant à fréquenter la noblesse, négocier des prix ou tirer parti de votre réputation pour obtenir ce que vous voulez.</p>",
+        "tint": "#ffffff",
+        "transfer": true,
+        "statuses": [],
+        "sort": 0,
+        "flags": {},
+        "start": {
+          "time": 0,
+          "combat": null,
+          "combatant": null,
+          "initiative": null,
+          "round": null,
+          "turn": null
+        },
+        "showIcon": 1,
+        "folder": null,
+        "origin": null
+      }
+    ],
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "canonicalId": "srd-2.0.community.highborne.feature.privilege",
+        "contentOrigin": "core",
+        "contentLocale": "fr",
+        "owned": true,
+        "family": "community",
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "sourceNamespace": "daggerheart-srd-2.0"
+      }
+    }
+  },
+  {
+    "name": "Né des terres sauvages",
+    "img": "icons/environment/wilderness/tree-oak.webp",
+    "type": "community",
+    "system": {
+      "description": "<p>Faire partie d’une communauté née des bois signifie que vous avez vécu au cœur de la forêt.</p>",
+      "features": [
+        "Compendium.daggerheart-campaign-toolkit.dh-communities.Item.TQ1AIQjndC4mYmmU"
+      ],
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null,
+        "artist": ""
+      },
+      "loreReference": "wildborne",
+      "gmNotes": ""
+    },
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "canonicalId": "srd-2.0.community.wildborne",
+        "contentOrigin": "core",
+        "contentLocale": "fr",
+        "owned": true,
+        "family": "community",
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "sourceNamespace": "daggerheart-srd-2.0"
+      }
+    },
+    "_id": "CRJ5pzJj4FjCtIlx",
+    "effects": []
+  },
+  {
+    "type": "feature",
+    "name": "Oasis",
+    "_id": "DOrvaVrES1HYhG2u",
+    "img": "icons/magic/water/water-hand.webp",
+    "system": {
+      "attribution": {},
+      "description": "<p>Pendant un repos court, vous ou un allié pouvez relancer un dé utilisé pour une action de temps libre et conserver le résultat le plus élevé.</p>",
+      "gmNotes": "",
+      "resource": null,
+      "actions": {},
+      "featureForm": "passive",
+      "granter": null,
+      "actorResources": []
+    },
+    "effects": [],
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "canonicalId": "srd-2.0.community.duneborne.feature.oasis",
+        "contentOrigin": "core",
+        "contentLocale": "fr",
+        "owned": true,
+        "family": "community",
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "sourceNamespace": "daggerheart-srd-2.0"
+      }
+    }
+  },
+  {
+    "name": "Né des hauteurs",
+    "img": "icons/environment/settlement/palast.webp",
+    "type": "community",
+    "system": {
+      "description": "<p>Faire partie d’une communauté de haute naissance signifie que vous êtes habitué à une vie d’élégance, d’opulence et de prestige au sein des plus hautes sphères de la société.</p>",
+      "features": [
+        "Compendium.daggerheart-campaign-toolkit.dh-communities.Item.C7NR6qRatawZusmg"
+      ],
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null,
+        "artist": ""
+      },
+      "loreReference": "highborne",
+      "gmNotes": ""
+    },
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "canonicalId": "srd-2.0.community.highborne",
+        "contentOrigin": "core",
+        "contentLocale": "fr",
+        "owned": true,
+        "family": "community",
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "sourceNamespace": "daggerheart-srd-2.0"
+      }
+    },
+    "_id": "DVw2mOCHB8i0XeBz",
+    "effects": []
+  },
+  {
+    "name": "Assuré",
+    "type": "feature",
+    "_id": "DYmmr5CknLtHnwuj",
+    "img": "icons/equipment/feet/boots-collared-simple-leather.webp",
+    "system": {
+      "description": "<p>Vous avez un avantage aux jets visant à franchir des falaises et corniches dangereuses, vous orienter dans des environnements hostiles ou utiliser vos connaissances de survie.</p>",
+      "resource": null,
+      "actions": {},
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null,
+        "artist": ""
+      },
+      "gmNotes": "",
+      "granter": null,
+      "featureForm": "passive",
+      "actorResources": []
+    },
+    "effects": [
+      {
+        "name": "Assuré",
+        "type": "base",
+        "_id": "QDf9LD8Mhd0Cw0CB",
+        "img": "icons/equipment/feet/boots-collared-simple-leather.webp",
+        "system": {
+          "changes": [
+            {
+              "key": "system.advantageSources",
+              "type": "add",
+              "value": "Franchir des falaises et corniches dangereuses",
+              "priority": null,
+              "phase": "initial"
+            },
+            {
+              "key": "system.advantageSources",
+              "type": "add",
+              "value": "S’orienter dans un environnement hostile",
+              "priority": null,
+              "phase": "initial"
+            },
+            {
+              "key": "system.advantageSources",
+              "type": "add",
+              "value": "Utiliser vos connaissances de survie",
+              "priority": null,
+              "phase": "initial"
+            }
+          ],
+          "duration": {
+            "type": "",
+            "description": ""
+          },
+          "rangeDependence": null,
+          "stacking": null,
+          "targetDispositions": []
+        },
+        "disabled": false,
+        "duration": {
+          "value": null,
+          "units": "seconds",
+          "expiry": null,
+          "expired": false
+        },
+        "description": "<p>Vous avez un avantage aux jets visant à franchir des falaises et corniches dangereuses, vous orienter dans des environnements hostiles ou utiliser vos connaissances de survie.</p>",
+        "tint": "#ffffff",
+        "transfer": true,
+        "statuses": [],
+        "sort": 0,
+        "flags": {},
+        "start": {
+          "time": 0,
+          "combat": null,
+          "combatant": null,
+          "initiative": null,
+          "round": null,
+          "turn": null
+        },
+        "showIcon": 1,
+        "folder": null,
+        "origin": null
+      }
+    ],
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "canonicalId": "srd-2.0.community.ridgeborne.feature.steady",
+        "contentOrigin": "core",
+        "contentLocale": "fr",
+        "owned": true,
+        "family": "community",
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "sourceNamespace": "daggerheart-srd-2.0"
+      }
+    }
+  },
+  {
+    "type": "feature",
+    "name": "Faire bonne figure",
+    "_id": "E7QiHAoOxQIZEVR1",
+    "img": "icons/magic/control/control-influence-rally-purple.webp",
+    "system": {
+      "attribution": {},
+      "description": "<p>Une fois par session, lorsque vous devriez être forcé de marquer 1 Stress, vous pouvez <strong>dépenser 1 Espoir</strong> à la place.</p>",
+      "gmNotes": "",
+      "resource": null,
+      "actions": {
+        "sguCcIhnp8FjwVZd": {
+          "type": "effect",
+          "_id": "sguCcIhnp8FjwVZd",
+          "systemPath": "actions",
+          "baseAction": false,
+          "description": "",
+          "chatDisplay": true,
+          "originItem": {
+            "type": "itemCollection"
+          },
+          "actionType": "action",
+          "triggers": [],
+          "areas": [],
+          "cost": [
+            {
+              "itemId": null,
+              "key": "hope",
+              "value": 1,
+              "scalable": false,
+              "step": null,
+              "consumeOnSuccess": false
+            }
+          ],
+          "uses": {
+            "value": null,
+            "max": "1",
+            "recovery": "session",
+            "consumeOnSuccess": false
+          },
+          "effects": [],
+          "target": {
+            "type": "any",
+            "amount": null
+          },
+          "name": "Dépenser de l’Espoir",
+          "range": ""
+        }
+      },
+      "featureForm": "passive",
+      "granter": null,
+      "actorResources": []
+    },
+    "effects": [],
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "canonicalId": "srd-2.0.community.warborne.feature.brave-face",
+        "contentOrigin": "core",
+        "contentLocale": "fr",
+        "owned": true,
+        "family": "community",
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "sourceNamespace": "daggerheart-srd-2.0"
+      }
+    }
+  },
+  {
+    "name": "Érudit",
+    "type": "feature",
+    "_id": "JBZJmywisJg5X3tH",
+    "img": "icons/sundries/books/book-open-brown.webp",
+    "system": {
+      "description": "<p>Vous avez un avantage aux jets impliquant l’histoire, la culture ou la politique d’une personne ou d’un lieu important.</p>",
+      "resource": null,
+      "actions": {},
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null,
+        "artist": ""
+      },
+      "gmNotes": "",
+      "granter": null,
+      "featureForm": "passive",
+      "actorResources": []
+    },
+    "effects": [
+      {
+        "name": "Érudit",
+        "type": "base",
+        "_id": "RwhxYOAAKKlYZiz0",
+        "img": "icons/sundries/books/book-open-brown.webp",
+        "system": {
+          "changes": [
+            {
+              "key": "system.advantageSources",
+              "type": "add",
+              "value": "Histoire, culture ou politique d’une personne ou d’un lieu important",
+              "priority": null,
+              "phase": "initial"
+            }
+          ],
+          "duration": {
+            "type": "",
+            "description": ""
+          },
+          "rangeDependence": null,
+          "stacking": null,
+          "targetDispositions": []
+        },
+        "disabled": false,
+        "duration": {
+          "value": null,
+          "units": "seconds",
+          "expiry": null,
+          "expired": false
+        },
+        "description": "<p>Vous avez un avantage aux jets impliquant l’histoire, la culture ou la politique d’une personne ou d’un lieu important.</p>",
+        "tint": "#ffffff",
+        "transfer": true,
+        "statuses": [],
+        "sort": 0,
+        "flags": {},
+        "start": {
+          "time": 0,
+          "combat": null,
+          "combatant": null,
+          "initiative": null,
+          "round": null,
+          "turn": null
+        },
+        "showIcon": 1,
+        "folder": null,
+        "origin": null
+      }
+    ],
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "canonicalId": "srd-2.0.community.loreborne.feature.well-read",
+        "contentOrigin": "core",
+        "contentLocale": "fr",
+        "owned": true,
+        "family": "community",
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "sourceNamespace": "daggerheart-srd-2.0"
+      }
+    }
+  },
+  {
+    "type": "community",
+    "name": "Renaissant",
+    "system": {
+      "loreReference": "reborne",
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null
+      },
+      "description": "<p>Vous avez autrefois appartenu à une autre communauté dont vous ne faites désormais plus partie.</p>",
+      "gmNotes": "",
+      "features": [
+        "Compendium.daggerheart-campaign-toolkit.dh-communities.Item.3Q6bQ73PdGz2Bmcz"
+      ]
+    },
+    "_id": "Mv4TfmbbgKyOj1rt",
+    "img": "icons/environment/settlement/hut.webp",
+    "effects": [],
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "canonicalId": "srd-2.0.community.reborne",
+        "contentOrigin": "core",
+        "contentLocale": "fr",
+        "owned": true,
+        "family": "community",
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "sourceNamespace": "daggerheart-srd-2.0"
+      }
+    }
+  },
+  {
+    "type": "feature",
+    "name": "Affranchi",
+    "_id": "OyzEkHdHYwmoofQx",
+    "img": "icons/magic/control/buff-flight-wings-runes-blue-white.webp",
+    "system": {
+      "attribution": {},
+      "description": "<p>Une fois par session, lorsque vous obtenez un jet avec Peur, vous pouvez le transformer en jet avec Espoir.</p>",
+      "gmNotes": "",
+      "resource": null,
+      "actions": {
+        "L03g0jA9msxRiuXL": {
+          "type": "effect",
+          "_id": "L03g0jA9msxRiuXL",
+          "systemPath": "actions",
+          "baseAction": false,
+          "description": "",
+          "chatDisplay": true,
+          "originItem": {
+            "type": "itemCollection"
+          },
+          "actionType": "action",
+          "triggers": [],
+          "areas": [],
+          "cost": [],
+          "uses": {
+            "value": null,
+            "max": "1",
+            "recovery": "session",
+            "consumeOnSuccess": false
+          },
+          "effects": [],
+          "target": {
+            "type": "any",
+            "amount": null
+          },
+          "name": "Peur en Espoir",
+          "range": ""
+        }
+      },
+      "featureForm": "passive",
+      "granter": null,
+      "actorResources": []
+    },
+    "effects": [],
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "canonicalId": "srd-2.0.community.freeborne.feature.unbound",
+        "contentOrigin": "core",
+        "contentLocale": "fr",
+        "owned": true,
+        "family": "community",
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "sourceNamespace": "daggerheart-srd-2.0"
+      }
+    }
+  },
+  {
+    "name": "Pas léger",
+    "type": "feature",
+    "_id": "TQ1AIQjndC4mYmmU",
+    "img": "icons/magic/control/debuff-energy-snare-blue.webp",
+    "system": {
+      "description": "<p>Vos déplacements sont naturellement silencieux. Vous avez un avantage aux jets visant à vous déplacer sans être entendu.</p>",
+      "resource": null,
+      "actions": {},
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null,
+        "artist": ""
+      },
+      "gmNotes": "",
+      "granter": null,
+      "featureForm": "passive",
+      "actorResources": []
+    },
+    "effects": [
+      {
+        "name": "Pas léger",
+        "type": "base",
+        "_id": "4my9X5XC3uwDSx7B",
+        "img": "icons/magic/control/debuff-energy-snare-blue.webp",
+        "system": {
+          "changes": [
+            {
+              "key": "system.advantageSources",
+              "type": "add",
+              "value": "Se déplacer sans être entendu.",
+              "priority": null,
+              "phase": "initial"
+            }
+          ],
+          "duration": {
+            "type": "",
+            "description": ""
+          },
+          "rangeDependence": null,
+          "stacking": null,
+          "targetDispositions": []
+        },
+        "disabled": false,
+        "duration": {
+          "value": null,
+          "units": "seconds",
+          "expiry": null,
+          "expired": false
+        },
+        "description": "<p>Vos déplacements sont naturellement silencieux. Vous avez un avantage aux jets visant à vous déplacer sans être entendu.</p>",
+        "tint": "#ffffff",
+        "transfer": true,
+        "statuses": [],
+        "sort": 0,
+        "flags": {},
+        "start": {
+          "time": 0,
+          "combat": null,
+          "combatant": null,
+          "initiative": null,
+          "round": null,
+          "turn": null
+        },
+        "showIcon": 1,
+        "folder": null,
+        "origin": null
+      }
+    ],
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "canonicalId": "srd-2.0.community.wildborne.feature.lightfoot",
+        "contentOrigin": "core",
+        "contentLocale": "fr",
+        "owned": true,
+        "family": "community",
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "sourceNamespace": "daggerheart-srd-2.0"
+      }
+    }
+  },
+  {
+    "name": "Né de l’ordre",
+    "img": "icons/environment/people/infantry-army.webp",
+    "type": "community",
+    "system": {
+      "description": "<p>Faire partie d’une communauté née d’un ordre signifie que vous venez d’un collectif centré sur la discipline ou la foi et que vous suivez un ensemble de principes issus de cette expérience.</p>",
+      "features": [
+        "Compendium.daggerheart-campaign-toolkit.dh-communities.Item.7aXWdH3gzaYREK0X"
+      ],
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null,
+        "artist": ""
+      },
+      "loreReference": "orderborne",
+      "gmNotes": ""
+    },
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "canonicalId": "srd-2.0.community.orderborne",
+        "contentOrigin": "core",
+        "contentLocale": "fr",
+        "owned": true,
+        "family": "community",
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "sourceNamespace": "daggerheart-srd-2.0"
+      }
+    },
+    "_id": "TY2TejenASXtS484",
+    "effects": []
+  },
+  {
+    "name": "Né des crêtes",
+    "img": "icons/environment/wilderness/terrain-rocks-brown.webp",
+    "type": "community",
+    "system": {
+      "description": "<p>Faire partie d’une communauté née des crêtes signifie que les pics rocheux et les falaises abruptes des montagnes ont été votre foyer.</p>",
+      "features": [
+        "Compendium.daggerheart-campaign-toolkit.dh-communities.Item.DYmmr5CknLtHnwuj"
+      ],
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null,
+        "artist": ""
+      },
+      "loreReference": "ridgeborne",
+      "gmNotes": ""
+    },
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "canonicalId": "srd-2.0.community.ridgeborne",
+        "contentOrigin": "core",
+        "contentLocale": "fr",
+        "owned": true,
+        "family": "community",
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "sourceNamespace": "daggerheart-srd-2.0"
+      }
+    },
+    "_id": "WHLA4qrdszXQHOuo",
+    "effects": []
+  },
+  {
+    "type": "community",
+    "name": "Né libre",
+    "system": {
+      "loreReference": "freeborne",
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null
+      },
+      "description": "<p>Faire partie d’une communauté affranchie signifie que vous venez d’un collectif autrefois soumis à un régime tyrannique, mais désormais libéré.</p>",
+      "gmNotes": "",
+      "features": [
+        "Compendium.daggerheart-campaign-toolkit.dh-communities.Item.OyzEkHdHYwmoofQx"
+      ]
+    },
+    "_id": "XLaNJvrahs9rRraZ",
+    "img": "icons/environment/settlement/gazebo.webp",
+    "effects": [],
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "canonicalId": "srd-2.0.community.freeborne",
+        "contentOrigin": "core",
+        "contentLocale": "fr",
+        "owned": true,
+        "family": "community",
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "sourceNamespace": "daggerheart-srd-2.0"
+      }
+    }
+  },
+  {
+    "type": "community",
+    "name": "Né du givre",
+    "system": {
+      "loreReference": "frostborne",
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null
+      },
+      "description": "<p>Faire partie d’une communauté née du givre signifie que vous venez d’une région de neige et de glace.</p>",
+      "gmNotes": "",
+      "features": [
+        "Compendium.daggerheart-campaign-toolkit.dh-communities.Item.z8HhzWZUZCSrbzTc"
+      ]
+    },
+    "_id": "YHfNavuBRxvyqeNO",
+    "img": "icons/magic/water/barrier-ice-crystal-wall-jagged-blue.webp",
+    "effects": [],
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "canonicalId": "srd-2.0.community.frostborne",
+        "contentOrigin": "core",
+        "contentLocale": "fr",
+        "owned": true,
+        "family": "community",
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "sourceNamespace": "daggerheart-srd-2.0"
+      }
+    }
+  },
+  {
+    "name": "Né du savoir",
+    "img": "icons/sundries/scrolls/scroll-writing-brown-gold.webp",
+    "type": "community",
+    "system": {
+      "description": "<p>Faire partie d’une communauté érudite signifie que vous venez d’une société qui valorise particulièrement les compétences académiques ou politiques.</p>",
+      "features": [
+        "Compendium.daggerheart-campaign-toolkit.dh-communities.Item.JBZJmywisJg5X3tH"
+      ],
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null,
+        "artist": ""
+      },
+      "loreReference": "loreborne",
+      "gmNotes": ""
+    },
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "canonicalId": "srd-2.0.community.loreborne",
+        "contentOrigin": "core",
+        "contentLocale": "fr",
+        "owned": true,
+        "family": "community",
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "sourceNamespace": "daggerheart-srd-2.0"
+      }
+    },
+    "_id": "YsvlyqYoi8QQ8kwm",
+    "effects": []
+  },
+  {
+    "name": "Canaille",
+    "type": "feature",
+    "_id": "ZmEuBdL0JrvuA8le",
+    "img": "icons/equipment/head/hood-cloth-teal-gold.webp",
+    "system": {
+      "description": "<p>Vous avez un avantage aux jets visant à négocier avec des criminels, détecter les mensonges ou trouver un endroit sûr où vous cacher.</p>",
+      "resource": null,
+      "actions": {},
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null,
+        "artist": ""
+      },
+      "gmNotes": "",
+      "granter": null,
+      "featureForm": "passive",
+      "actorResources": []
+    },
+    "effects": [
+      {
+        "name": "Canaille",
+        "type": "base",
+        "_id": "snkYmZ22Q8HHLY9M",
+        "img": "icons/equipment/head/hood-cloth-teal-gold.webp",
+        "system": {
+          "changes": [
+            {
+              "key": "system.advantageSources",
+              "type": "add",
+              "value": "Négocier avec des criminels",
+              "priority": null,
+              "phase": "initial"
+            },
+            {
+              "key": "system.advantageSources",
+              "type": "add",
+              "value": "Détecter les mensonges",
+              "priority": null,
+              "phase": "initial"
+            },
+            {
+              "key": "system.advantageSources",
+              "type": "add",
+              "value": "Trouver un endroit sûr où se cacher",
+              "priority": null,
+              "phase": "initial"
+            }
+          ],
+          "duration": {
+            "type": "",
+            "description": ""
+          },
+          "rangeDependence": null,
+          "stacking": null,
+          "targetDispositions": []
+        },
+        "disabled": false,
+        "duration": {
+          "value": null,
+          "units": "seconds",
+          "expiry": null,
+          "expired": false
+        },
+        "description": "<p>Vous avez un avantage aux jets visant à négocier avec des criminels, détecter les mensonges ou trouver un endroit sûr où vous cacher.</p>",
+        "tint": "#ffffff",
+        "transfer": true,
+        "statuses": [],
+        "sort": 0,
+        "flags": {},
+        "start": {
+          "time": 0,
+          "combat": null,
+          "combatant": null,
+          "initiative": null,
+          "round": null,
+          "turn": null
+        },
+        "showIcon": 1,
+        "folder": null,
+        "origin": null
+      }
+    ],
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "canonicalId": "srd-2.0.community.slyborne.feature.scoundrel",
+        "contentOrigin": "core",
+        "contentLocale": "fr",
+        "owned": true,
+        "family": "community",
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "sourceNamespace": "daggerheart-srd-2.0"
+      }
+    }
+  },
+  {
+    "name": "Vie dans la pénombre",
+    "type": "feature",
+    "_id": "aMla3xQuCHEwORGD",
+    "img": "icons/environment/settlement/temple-night.webp",
+    "system": {
+      "description": "<p>Lorsque vous vous trouvez dans une zone faiblement éclairée ou plongée dans de profondes ombres, vous avez un avantage aux jets visant à vous cacher, enquêter ou percevoir des détails dans cette zone.</p>",
+      "resource": null,
+      "actions": {},
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null,
+        "artist": ""
+      },
+      "gmNotes": "",
+      "granter": null,
+      "featureForm": "passive",
+      "actorResources": []
+    },
+    "effects": [
+      {
+        "name": "Vie dans la pénombre",
+        "type": "base",
+        "_id": "pCp32u7UwqxCI4WW",
+        "img": "icons/environment/settlement/temple-night.webp",
+        "system": {
+          "changes": [
+            {
+              "key": "system.advantageSources",
+              "type": "add",
+              "value": "Jets pour se cacher, enquêter ou percevoir des détails dans la pénombre",
+              "priority": null,
+              "phase": "initial"
+            }
+          ],
+          "duration": {
+            "type": "",
+            "description": ""
+          },
+          "rangeDependence": null,
+          "stacking": null,
+          "targetDispositions": []
+        },
+        "disabled": false,
+        "duration": {
+          "value": null,
+          "units": "seconds",
+          "expiry": null,
+          "expired": false
+        },
+        "description": "<p>Lorsque vous vous trouvez dans une zone faiblement éclairée ou plongée dans de profondes ombres, vous avez un avantage aux jets visant à vous cacher, enquêter ou percevoir des détails dans cette zone.</p>",
+        "tint": "#ffffff",
+        "transfer": true,
+        "statuses": [],
+        "sort": 0,
+        "flags": {},
+        "start": {
+          "time": 0,
+          "combat": null,
+          "combatant": null,
+          "initiative": null,
+          "round": null,
+          "turn": null
+        },
+        "showIcon": 1,
+        "folder": null,
+        "origin": null
+      }
+    ],
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "canonicalId": "srd-2.0.community.underborne.feature.low-light-living",
+        "contentOrigin": "core",
+        "contentLocale": "fr",
+        "owned": true,
+        "family": "community",
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "sourceNamespace": "daggerheart-srd-2.0"
+      }
+    }
+  },
+  {
+    "name": "Né des profondeurs",
+    "img": "icons/environment/wilderness/cave-entrance-dwarven-hill.webp",
+    "type": "community",
+    "system": {
+      "description": "<p>Faire partie d’une communauté souterraine signifie que vous venez d’une société vivant sous terre.</p>",
+      "features": [
+        "Compendium.daggerheart-campaign-toolkit.dh-communities.Item.aMla3xQuCHEwORGD"
+      ],
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null,
+        "artist": ""
+      },
+      "loreReference": "underborne",
+      "gmNotes": ""
+    },
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "canonicalId": "srd-2.0.community.underborne",
+        "contentOrigin": "core",
+        "contentLocale": "fr",
+        "owned": true,
+        "family": "community",
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "sourceNamespace": "daggerheart-srd-2.0"
+      }
+    },
+    "_id": "eX0I1ZNMyD3nfaL1",
+    "effects": []
+  },
+  {
+    "type": "community",
+    "name": "Né de la guerre",
+    "system": {
+      "loreReference": "warborne",
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null
+      },
+      "description": "<p>Faire partie d’une communauté née de la guerre signifie que vous venez d’un lieu ravagé, aujourd’hui ou autrefois, par la guerre.</p>",
+      "gmNotes": "",
+      "features": [
+        "Compendium.daggerheart-campaign-toolkit.dh-communities.Item.E7QiHAoOxQIZEVR1"
+      ]
+    },
+    "_id": "fB2lEkodBCuyyMs1",
+    "img": "icons/environment/settlement/watchtower-lit-orange.webp",
+    "effects": [],
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "canonicalId": "srd-2.0.community.warborne",
+        "contentOrigin": "core",
+        "contentLocale": "fr",
+        "owned": true,
+        "family": "community",
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "sourceNamespace": "daggerheart-srd-2.0"
+      }
+    }
+  },
+  {
+    "name": "Né de la mer",
+    "img": "icons/environment/settlement/ship.webp",
+    "type": "community",
+    "system": {
+      "description": "<p>Faire partie d’une communauté née de la mer signifie que vous avez vécu sur ou près d’une vaste étendue d’eau.</p>",
+      "features": [
+        "Compendium.daggerheart-campaign-toolkit.dh-communities.Item.07x6Qe6qMzDw2xN4"
+      ],
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null,
+        "artist": ""
+      },
+      "loreReference": "seaborne",
+      "gmNotes": ""
+    },
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "canonicalId": "srd-2.0.community.seaborne",
+        "contentOrigin": "core",
+        "contentLocale": "fr",
+        "owned": true,
+        "family": "community",
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "sourceNamespace": "daggerheart-srd-2.0"
+      }
+    },
+    "_id": "o5AA5J05N7EvH1rN",
+    "effects": []
+  },
+  {
+    "name": "Né de la ruse",
+    "img": "icons/environment/settlement/city-night-spire.webp",
+    "type": "community",
+    "system": {
+      "description": "<p>Faire partie d’une communauté interlope signifie que vous venez d’un groupe opérant hors-la-loi, qu’il s’agisse de criminels, d’escrocs ou d’arnaqueurs en tout genre.</p>",
+      "features": [
+        "Compendium.daggerheart-campaign-toolkit.dh-communities.Item.ZmEuBdL0JrvuA8le"
+      ],
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null,
+        "artist": ""
+      },
+      "loreReference": "slyborne",
+      "gmNotes": ""
+    },
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "canonicalId": "srd-2.0.community.slyborne",
+        "contentOrigin": "core",
+        "contentLocale": "fr",
+        "owned": true,
+        "family": "community",
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "sourceNamespace": "daggerheart-srd-2.0"
+      }
+    },
+    "_id": "rGwCPMqZtky7SE6d",
+    "effects": []
+  },
+  {
+    "type": "feature",
+    "name": "Soudés",
+    "_id": "u5OSsvjcD8tvf5Gc",
+    "img": "icons/magic/life/heart-hand-gold-green-light.webp",
+    "system": {
+      "attribution": {},
+      "description": "<p>Une fois par repos long, vous pouvez <strong>dépenser autant d’Espoir que vous le souhaitez</strong> pour accorder à un allié à portée Loin un nombre égal d’Espoir.</p>",
+      "gmNotes": "",
+      "resource": null,
+      "actions": {
+        "OmflNw0H1vsGAQVp": {
+          "type": "healing",
+          "_id": "OmflNw0H1vsGAQVp",
+          "systemPath": "actions",
+          "baseAction": false,
+          "description": "",
+          "chatDisplay": true,
+          "originItem": {
+            "type": "itemCollection"
+          },
+          "actionType": "action",
+          "triggers": [],
+          "areas": [],
+          "cost": [
+            {
+              "scalable": true,
+              "key": "hope",
+              "value": 1,
+              "step": 1,
+              "itemId": null,
+              "consumeOnSuccess": false
+            }
+          ],
+          "uses": {
+            "value": null,
+            "max": "1",
+            "recovery": "longRest",
+            "consumeOnSuccess": false
+          },
+          "damage": {
+            "main": null,
+            "resources": {
+              "hope": {
+                "base": false,
+                "applyTo": "hope",
+                "resultBased": false,
+                "fullRestore": false,
+                "value": {
+                  "multiplier": "flat",
+                  "flatMultiplier": 1,
+                  "dice": "d6",
+                  "bonus": null,
+                  "custom": {
+                    "enabled": true,
+                    "formula": "@scale"
+                  }
+                },
+                "valueAlt": {
+                  "multiplier": "flat",
+                  "flatMultiplier": 1,
+                  "dice": "d6",
+                  "bonus": null,
+                  "custom": {
+                    "enabled": false,
+                    "formula": ""
+                  }
+                },
+                "itemId": null
+              }
+            }
+          },
+          "target": {
+            "type": "any",
+            "amount": 1
+          },
+          "effects": [],
+          "roll": {
+            "type": null,
+            "trait": null,
+            "difficulty": null,
+            "bonus": null,
+            "advState": "neutral",
+            "diceRolling": {
+              "multiplier": "prof",
+              "flatMultiplier": 1,
+              "dice": "d6",
+              "compare": null,
+              "treshold": null
+            },
+            "useDefault": false
+          },
+          "name": "Donner de l’Espoir",
+          "range": "far"
+        }
+      },
+      "featureForm": "passive",
+      "granter": null,
+      "actorResources": []
+    },
+    "effects": [],
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "canonicalId": "srd-2.0.community.hearthborne.feature.close-knit",
+        "contentOrigin": "core",
+        "contentLocale": "fr",
+        "owned": true,
+        "family": "community",
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "sourceNamespace": "daggerheart-srd-2.0"
+      }
+    }
+  },
+  {
+    "type": "community",
+    "name": "Né du foyer",
+    "system": {
+      "loreReference": "hearthborne",
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null
+      },
+      "description": "<p>Faire partie d’une communauté née du foyer signifie que vous êtes d’origine modeste, ayant vécu dans un village simple ou une paisible campagne.</p>",
+      "gmNotes": "",
+      "features": [
+        "Compendium.daggerheart-campaign-toolkit.dh-communities.Item.u5OSsvjcD8tvf5Gc"
+      ]
+    },
+    "_id": "wbI1Im48QmZA1UIE",
+    "img": "icons/environment/settlement/house-farmland-small.webp",
+    "effects": [],
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "canonicalId": "srd-2.0.community.hearthborne",
+        "contentOrigin": "core",
+        "contentLocale": "fr",
+        "owned": true,
+        "family": "community",
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "sourceNamespace": "daggerheart-srd-2.0"
+      }
+    }
+  },
+  {
+    "type": "feature",
+    "name": "Endurci",
+    "_id": "z8HhzWZUZCSrbzTc",
+    "img": "icons/magic/life/cross-worn-green.webp",
+    "system": {
+      "attribution": {},
+      "description": "<p>Lorsque vous prenez un repos, effacez 1 PV.</p>",
+      "gmNotes": "",
+      "resource": null,
+      "actions": {
+        "kMZnJpFvVJlloXGO": {
+          "type": "healing",
+          "_id": "kMZnJpFvVJlloXGO",
+          "systemPath": "actions",
+          "baseAction": false,
+          "description": "",
+          "chatDisplay": true,
+          "originItem": {
+            "type": "itemCollection"
+          },
+          "actionType": "action",
+          "triggers": [],
+          "areas": [],
+          "cost": [],
+          "uses": {
+            "value": null,
+            "max": "",
+            "recovery": null,
+            "consumeOnSuccess": false
+          },
+          "damage": {
+            "main": null,
+            "resources": {
+              "hitPoints": {
+                "base": false,
+                "applyTo": "hitPoints",
+                "resultBased": false,
+                "fullRestore": false,
+                "value": {
+                  "multiplier": "flat",
+                  "flatMultiplier": 0,
+                  "dice": "d6",
+                  "bonus": 1,
+                  "custom": {
+                    "enabled": false,
+                    "formula": ""
+                  }
+                },
+                "valueAlt": {
+                  "multiplier": "flat",
+                  "flatMultiplier": 1,
+                  "dice": "d6",
+                  "bonus": null,
+                  "custom": {
+                    "enabled": false,
+                    "formula": ""
+                  }
+                },
+                "itemId": null
+              }
+            }
+          },
+          "target": {
+            "type": "self",
+            "amount": null
+          },
+          "effects": [],
+          "roll": {
+            "type": null,
+            "trait": null,
+            "difficulty": null,
+            "bonus": null,
+            "advState": "neutral",
+            "diceRolling": {
+              "multiplier": "prof",
+              "flatMultiplier": 1,
+              "dice": "d6",
+              "compare": null,
+              "treshold": null
+            },
+            "useDefault": false
+          },
+          "name": "",
+          "range": "self"
+        }
+      },
+      "featureForm": "passive",
+      "granter": null,
+      "actorResources": []
+    },
+    "effects": [],
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "canonicalId": "srd-2.0.community.frostborne.feature.hardy",
+        "contentOrigin": "core",
+        "contentLocale": "fr",
+        "owned": true,
+        "family": "community",
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "sourceNamespace": "daggerheart-srd-2.0"
+      }
+    }
+  }
+]

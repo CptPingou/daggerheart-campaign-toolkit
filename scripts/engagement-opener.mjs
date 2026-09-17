@@ -5,7 +5,7 @@ const ROLE = "opener";
 const ROLE_LABEL = "Opener";
 const FLAG_KEY = "engagementActions";
 
-export const OPENER_REMINDER = "Coût automatique : 2 Hope. Désignez oralement un Finisher distinct. Réussite : +2 Opportunity. Échec : +1 Opportunity.";
+export const OPENER_REMINDER = "Coût automatique : 2 Hope. Désignez oralement un Finisher distinct. Critique : +3 Opportunity. Réussite avec Hope : +2. Réussite avec Fear : +2 + réaction. Échec avec Hope : +2 + réaction. Échec avec Fear : +1 + réaction.";
 
 function actionIdOf(actionOrId) {
   if (typeof actionOrId === "string" && actionOrId) return actionOrId;
@@ -62,6 +62,114 @@ function openerContextFromMessage(message) {
   };
 }
 
+function firstDefined(...values) {
+  return values.find((value) => value !== undefined && value !== null);
+}
+
+function normalizedOutcomeToken(value) {
+  if (typeof value !== "string") return null;
+  return value.trim().toLowerCase().replace(/[ _]+/g, "-");
+}
+
+function dualityOutcomeFromMessage(message, context) {
+  const system = message?.system ?? {};
+  const roll = system?.roll ?? system?.dualityRoll ?? system?.result ?? {};
+  const result = system?.result ?? roll?.result ?? {};
+
+  const critical = Boolean(firstDefined(
+    system?.isCritical,
+    system?.critical,
+    roll?.isCritical,
+    roll?.critical,
+    result?.isCritical,
+    result?.critical,
+    false,
+  ));
+
+  const successValue = firstDefined(
+    system?.success,
+    system?.isSuccess,
+    roll?.success,
+    roll?.isSuccess,
+    result?.success,
+    result?.isSuccess,
+  );
+
+  // Preserve the already validated Foundryborne hit-target behavior as a
+  // compatibility fallback until every Duality message shape is normalized.
+  const success = typeof successValue === "boolean"
+    ? successValue
+    : context.hitTargets.length > 0;
+
+  const token = normalizedOutcomeToken(firstDefined(
+    system?.outcome,
+    system?.duality,
+    system?.resultType,
+    roll?.outcome,
+    roll?.duality,
+    roll?.resultType,
+    result?.outcome,
+    result?.duality,
+    result?.type,
+  ));
+
+  const hopeFlag = firstDefined(
+    system?.isHope,
+    system?.withHope,
+    roll?.isHope,
+    roll?.withHope,
+    result?.isHope,
+    result?.withHope,
+  );
+  const fearFlag = firstDefined(
+    system?.isFear,
+    system?.withFear,
+    roll?.isFear,
+    roll?.withFear,
+    result?.isFear,
+    result?.withFear,
+  );
+
+  let duality = null;
+  if (typeof hopeFlag === "boolean" && hopeFlag) duality = "hope";
+  if (typeof fearFlag === "boolean" && fearFlag) duality = "fear";
+
+  if (!duality && token) {
+    if (token.includes("hope")) duality = "hope";
+    if (token.includes("fear")) duality = "fear";
+    if (token.includes("critical") || token === "crit") {
+      return { critical: true, success: true, duality: "critical", token };
+    }
+  }
+
+  if (critical) return { critical: true, success: true, duality: "critical", token };
+  return { critical: false, success, duality, token };
+}
+
+function openerResolution(outcome) {
+  if (outcome.critical) {
+    return { gained: 3, reactionRequired: false, outcome: "critical" };
+  }
+
+  if (outcome.success && outcome.duality === "hope") {
+    return { gained: 2, reactionRequired: false, outcome: "success-hope" };
+  }
+
+  if (outcome.success && outcome.duality === "fear") {
+    return { gained: 2, reactionRequired: true, outcome: "success-fear" };
+  }
+
+  if (!outcome.success && outcome.duality === "hope") {
+    return { gained: 2, reactionRequired: true, outcome: "failure-hope" };
+  }
+
+  if (!outcome.success && outcome.duality === "fear") {
+    return { gained: 1, reactionRequired: true, outcome: "failure-fear" };
+  }
+
+  return null;
+}
+
 export function createEngagementOpenerApi(opportunityApi) {
   if (!opportunityApi?.increaseOpportunity || !opportunityApi?.getOpportunityValue) {
     throw new TypeError("Campaign Toolkit | Opener requires the Opportunity API");
@@ -84,18 +192,41 @@ export function createEngagementOpenerApi(opportunityApi) {
       });
     }
 
-    const success = context.hitTargets.length > 0;
-    const gained = success ? 2 : 1;
+    const duality = dualityOutcomeFromMessage(message, context);
+    const resolution = openerResolution(duality);
+
+    if (!resolution) {
+      const result = Object.freeze({
+        role: ROLE_LABEL,
+        applied: false,
+        reason: "duality-outcome-unresolved",
+        hope,
+        duality,
+        hitTargetCount: context.hitTargets.length,
+        itemId: context.item.id,
+        actionId: context.actionId,
+        messageId: message.id,
+      });
+      console.warn("Campaign Toolkit | Opener Duality outcome unresolved; Opportunity unchanged", result, message);
+      globalThis.ui?.notifications?.warn?.(
+        "Opener : résultat Duality non reconnu — Opportunity inchangée.",
+      );
+      return result;
+    }
+
     const before = opportunityApi.getOpportunityValue();
-    const after = await opportunityApi.increaseOpportunity(gained);
+    const after = await opportunityApi.increaseOpportunity(resolution.gained);
 
     const result = Object.freeze({
       role: ROLE_LABEL,
       applied: true,
       hope,
-      success,
+      success: duality.success,
+      duality: duality.duality,
+      outcome: resolution.outcome,
+      reactionRequired: resolution.reactionRequired,
       hitTargetCount: context.hitTargets.length,
-      opportunityGained: gained,
+      opportunityGained: resolution.gained,
       before,
       after,
       itemId: context.item.id,
@@ -104,11 +235,11 @@ export function createEngagementOpenerApi(opportunityApi) {
     });
 
     console.info(
-      `Campaign Toolkit | ${ROLE_LABEL} — ${success ? "success" : "failure"}: +${gained} Opportunity (${before} → ${after})`,
+      `Campaign Toolkit | ${ROLE_LABEL} — ${resolution.outcome}: +${resolution.gained} Opportunity (${before} → ${after})${resolution.reactionRequired ? " + monster reaction" : ""}`,
       result,
     );
     globalThis.ui?.notifications?.info?.(
-      `Opener : ${success ? "réussite" : "échec"} — +${gained} Opportunity.`,
+      `Opener : +${resolution.gained} Opportunity${resolution.reactionRequired ? " — réaction du monstre." : "."}`,
     );
     return result;
   }
@@ -138,6 +269,16 @@ export function createEngagementOpenerApi(opportunityApi) {
     getActionRole: getEngagementActionRole,
     markAction,
     clearAction,
+    inspectOutcome(message) {
+      const context = openerContextFromMessage(message);
+      if (!context) return null;
+      const duality = dualityOutcomeFromMessage(message, context);
+      return Object.freeze({
+        duality,
+        resolution: openerResolution(duality),
+        hitTargetCount: context.hitTargets.length,
+      });
+    },
     resolveMessage,
   });
 }

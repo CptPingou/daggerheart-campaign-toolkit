@@ -2,8 +2,37 @@ import { localizeNativeEquipmentEmbedded } from "./equipment-native-fr.mjs";
 import { applyContentLocale, getImportLocale } from "./content-locale.mjs";
 const MODULE_ID = "daggerheart-campaign-toolkit";
 const PILOT_URL = `modules/${MODULE_ID}/data/pilot.json`;
+const CLASS_PRESENTATION_URL = `modules/${MODULE_ID}/data/class-presentation.json`;
 const FLAG_SCOPE = MODULE_ID;
 const PILOT_MAPPING_VERSION = "P2.3.4e-fix2c";
+const FALLBACK_CLASS_IMAGE = "icons/svg/mystery-man.svg";
+
+let classPresentationPromise = null;
+
+async function classPresentation() {
+  classPresentationPromise ??= fetch(CLASS_PRESENTATION_URL, { cache: "no-store" })
+    .then(response => {
+      if (!response.ok) throw new Error(`class-presentation.json introuvable (${response.status})`);
+      return response.json();
+    })
+    .catch(error => {
+      console.error(`${MODULE_ID} | unable to load owned class presentation`, error);
+      return { entries: {} };
+    });
+  return classPresentationPromise;
+}
+
+async function ownedClassImage(raw) {
+  const explicit = raw?.presentation?.img ?? raw?.img;
+  if (typeof explicit === "string" && explicit.trim()) return explicit.trim();
+
+  const sourceId = raw?.id;
+  const catalog = await classPresentation();
+  const mapped = sourceId ? catalog?.entries?.[sourceId]?.img : null;
+  return typeof mapped === "string" && mapped.trim()
+    ? mapped.trim()
+    : FALLBACK_CLASS_IMAGE;
+}
 
 function textValue(v) {
   if (typeof v === "string") return v;
@@ -168,17 +197,19 @@ function featureFieldName(kind) {
   return kind === "weapon" ? "weaponFeatures" : "armorFeatures";
 }
 
-function nativeEquipmentPackId(kind) {
-  return kind === "weapon" ? "daggerheart.weapons" : "daggerheart.armors";
+function ownedEquipmentPackId(kind) {
+  return kind === "weapon"
+    ? `${MODULE_ID}.dh-weapons`
+    : `${MODULE_ID}.dh-armor`;
 }
 
 async function ensureNativeEquipmentFeatureSpecimens() {
   if (nativeEquipmentFeatureSpecimensReady) return nativeEquipmentFeatureSpecimens;
 
   for (const kind of ["weapon", "armor"]) {
-    const pack = game.packs.get(nativeEquipmentPackId(kind));
+    const pack = game.packs.get(ownedEquipmentPackId(kind));
     if (!pack) {
-      console.warn(`${MODULE_ID} | native equipment pack absent`, nativeEquipmentPackId(kind));
+      console.warn(`${MODULE_ID} | owned equipment pack absent`, ownedEquipmentPackId(kind));
       continue;
     }
 
@@ -216,7 +247,7 @@ async function ensureNativeEquipmentFeatureSpecimens() {
   }
 
   nativeEquipmentFeatureSpecimensReady = true;
-  console.info(`${MODULE_ID} | P2.3.4a native equipment specimens`, {
+  console.info(`${MODULE_ID} | P2.7.5f owned equipment specimens`, {
     weapon: nativeEquipmentFeatureSpecimens.weapon.size,
     armor: nativeEquipmentFeatureSpecimens.armor.size,
   });
@@ -434,14 +465,24 @@ async function buildEmbeddedSourceFeature(feature, parentRaw, sourcePath, index)
 
 export async function buildLinkedSourceFeature(feature, parentRaw, sourcePath, index, linkType) {
   const data = await nativeTemplate("Item", "feature");
+  const featureSlug = String(feature?.name ?? `feature-${index + 1}`)
+    .normalize("NFKD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/^-+|-+$/g, "");
+  const sourceFeatureId = parentRaw?.id
+    ? `${parentRaw.id}.feature.${featureSlug}`
+    : null;
   data._id = foundry.utils.randomID();
   data.name = typeof feature?.name === "string" && feature.name.trim()
     ? feature.name.trim()
     : `Feature ${index + 1}`;
   data.flags = foundry.utils.mergeObject(data.flags ?? {}, {
-    [FLAG_SCOPE]: {
-      supportManaged: true,
-      sourceFeature: true,
+      [FLAG_SCOPE]: {
+        supportManaged: true,
+        sourceFeature: true,
+        sourceId: sourceFeatureId,
       parentSourceId: parentRaw?.id ?? null,
       parentSourcePath: sourcePath,
       sourceFeatureIndex: index,
@@ -462,6 +503,7 @@ export async function buildLinkedSourceFeature(feature, parentRaw, sourcePath, i
     if ("actorResources" in data.system) data.system.actorResources = [];
     if ("featureForm" in data.system) data.system.featureForm = "passive";
   }
+  await applyContentLocale(data, sourceFeatureId, getImportLocale());
   return data;
 }
 
@@ -588,15 +630,41 @@ function mapWeaponBurden(value) {
 }
 
 /*
- * P2.3.1 fix1 doctrine:
- * Never hand-build a Foundryborne document schema.
- * Start from a valid native SRD document of the same type, then overlay only
- * fields that we have explicitly mapped from DH-DATA.
+ * P2.7.5f doctrine:
+ * Owned Item imports must never bootstrap their schema from a native SRD
+ * compendium. Foundryborne's configured Item document class is the schema
+ * authority; constructing an in-memory Item applies the current defaults
+ * without reading any daggerheart.* content pack.
  *
- * This automatically preserves required ActionField members and other
- * system defaults which changed between Foundryborne 2.7.x and 2.8.2.
+ * Actor imports remain on the legacy specimen path for now because adversary /
+ * environment autonomy is outside the seven owned content families cut over in
+ * P2.7.5.
  */
 async function nativeTemplate(documentName, type) {
+  if (documentName === "Item") {
+    const DocumentClass = CONFIG?.Item?.documentClass;
+    if (!DocumentClass) {
+      throw new Error(`CONFIG.Item.documentClass indisponible pour Item:${type}`);
+    }
+
+    const doc = new DocumentClass({
+      name: `Toolkit schema ${type}`,
+      type,
+    });
+    const source = doc.toObject();
+
+    delete source._id;
+    delete source.folder;
+    delete source.sort;
+    delete source.ownership;
+    delete source._stats;
+
+    return source;
+  }
+
+  // Legacy Actor-only fallback. It is intentionally isolated from owned Item
+  // families and will be removed when adversaries/environments get their own
+  // autonomous source cutover.
   for (const pack of game.packs) {
     if (pack.metadata?.packageName !== "daggerheart") continue;
     if (pack.documentName !== documentName) continue;
@@ -614,11 +682,10 @@ async function nativeTemplate(documentName, type) {
     delete source.sort;
     delete source.ownership;
     delete source._stats;
-
     return source;
   }
 
-  throw new Error(`Aucun template SRD Foundryborne trouvé pour ${documentName}:${type}`);
+  throw new Error(`Aucun template Foundryborne trouvé pour ${documentName}:${type}`);
 }
 
 
@@ -674,7 +741,7 @@ export async function buildItem(entry) {
     { inplace: false }
   );
 
-  // P2.3.4e-fix3: nativeTemplate() is a schema specimen, never a semantic
+  // P2.3.4e-fix3: nativeTemplate() is a schema/default specimen, never a semantic
   // source. Always discard its prose before applying canonical DH-DATA.
   // This prevents the first native Item of a type (for example Assassin)
   // from leaking its description into every imported document of that type.
@@ -685,8 +752,13 @@ export async function buildItem(entry) {
   const gaps = [];
 
   if (entry.kind === "class") {
+    // The schema Item is a structure/default specimen only. Class artwork belongs to our
+    // presentation source and must never leak from the first native specimen
+    // (currently Assassin).
+    data.img = await ownedClassImage(raw);
+
     // Sanitize every source-specific relation carried by the SRD template.
-    // The native document is used only to obtain a valid Foundryborne schema.
+    // The in-memory document is used only to obtain a valid Foundryborne schema.
     // No specimen-specific prose, effects, links or recommendations may leak.
     data.effects = [];
     data.system.domains = [];
@@ -772,7 +844,7 @@ export async function buildItem(entry) {
   }
 
   if (entry.kind === "subclass") {
-    // As with classes, the native subclass is a schema specimen only.
+    // As with classes, the schema subclass is a structure/default specimen only.
     data.effects = [];
     data.system.features = clearItemLinks(data.system.features);
     data.system.featureState = 1; // native schema default, not template semantics

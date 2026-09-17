@@ -1,0 +1,206 @@
+[
+  {
+    "type": "subclass",
+    "name": "Ordre du Lycan",
+    "img": "icons/skills/toxins/cup-goblet-poisoned-spilled.webp",
+    "system": {
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null
+      },
+      "description": "",
+      "gmNotes": "",
+      "spellcastingTrait": "strength",
+      "features": [
+        {
+          "type": "foundation",
+          "item": "Compendium.daggerheart-campaign-toolkit.dh-features.Item.XiBj6eSOdPEVwLBS"
+        },
+        {
+          "type": "foundation",
+          "item": "Compendium.daggerheart-campaign-toolkit.dh-features.Item.xpWW479XKUAIfHnf"
+        },
+        {
+          "type": "specialization",
+          "item": "Compendium.daggerheart-campaign-toolkit.dh-features.Item.Ikj1d4lPDU2r2mNI"
+        },
+        {
+          "type": "specialization",
+          "item": "Compendium.daggerheart-campaign-toolkit.dh-features.Item.P0AhxYErHcpu55hN"
+        },
+        {
+          "type": "mastery",
+          "item": "Compendium.daggerheart-campaign-toolkit.dh-features.Item.Yc5RQOBwsL1Z1vnu"
+        },
+        {
+          "type": "mastery",
+          "item": "Compendium.daggerheart-campaign-toolkit.dh-features.Item.1nys5vwJPOG6VQ8x"
+        }
+      ],
+      "featureState": 1,
+      "isMulticlass": false,
+      "linkedClass": "Compendium.daggerheart-campaign-toolkit.dh-classes.Item.ijTUVcIbL0CjtfSE"
+    },
+    "effects": [],
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "sourceId": "the-void.2026-07-09.subclass.order-of-the-lycan",
+        "sourcePath": "data/playtest/blood-hunter-2026-07-09/subclasses/order-of-the-lycan.json",
+        "source": {
+          "corpus": "the-void",
+          "product": "blood-hunter",
+          "version": "2026-07-09",
+          "status": "playtest"
+        },
+        "mappingVersion": "BH-2026-07-09-active",
+        "linkedClassSourceId": "the-void.2026-07-09.class.blood-hunter",
+        "mappingGaps": [],
+        "contentLocale": "fr",
+        "canonicalSourceId": "the-void.2026-07-09.subclass.order-of-the-lycan",
+        "localeFallback": false,
+        "localizedPaths": [
+          "name"
+        ],
+        "managed": true,
+        "kind": "subclass",
+        "sourceFeatureCount": 6,
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "contentOrigin": "playtest",
+        "sourceNamespace": "the-void/blood-hunter-2026-07-09"
+      }
+    },
+    "_id": "LidQymWUwBlEcCii"
+  },
+  {
+    "type": "subclass",
+    "name": "Ordre du Spectre",
+    "img": "icons/skills/toxins/cup-goblet-poisoned-spilled.webp",
+    "system": {
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null
+      },
+      "description": "",
+      "gmNotes": "",
+      "spellcastingTrait": "agility",
+      "features": [
+        {
+          "type": "foundation",
+          "item": "Compendium.daggerheart-campaign-toolkit.dh-features.Item.0jUDepPljhR0K8tV"
+        },
+        {
+          "type": "foundation",
+          "item": "Compendium.daggerheart-campaign-toolkit.dh-features.Item.2HD5iVYNKjKvuLP3"
+        },
+        {
+          "type": "specialization",
+          "item": "Compendium.daggerheart-campaign-toolkit.dh-features.Item.Av2MB6Rzfs5S05Mk"
+        },
+        {
+          "type": "mastery",
+          "item": "Compendium.daggerheart-campaign-toolkit.dh-features.Item.juVCPAHp4cEODfwJ"
+        },
+        {
+          "type": "mastery",
+          "item": "Compendium.daggerheart-campaign-toolkit.dh-features.Item.JZz9FfqoLBMKvnrA"
+        }
+      ],
+      "featureState": 1,
+      "isMulticlass": false,
+      "linkedClass": "Compendium.daggerheart-campaign-toolkit.dh-classes.Item.ijTUVcIbL0CjtfSE"
+    },
+    "effects": [],
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "sourceId": "the-void.2026-07-09.subclass.order-of-the-specter",
+        "sourcePath": "data/playtest/blood-hunter-2026-07-09/subclasses/order-of-the-specter.json",
+        "source": {
+          "corpus": "the-void",
+          "product": "blood-hunter",
+          "version": "2026-07-09",
+          "status": "playtest"
+        },
+        "mappingVersion": "BH-2026-07-09-active",
+        "linkedClassSourceId": "the-void.2026-07-09.class.blood-hunter",
+        "mappingGaps": [],
+        "contentLocale": "fr",
+        "canonicalSourceId": "the-void.2026-07-09.subclass.order-of-the-specter",
+        "localeFallback": false,
+        "localizedPaths": [
+          "name"
+        ],
+        "managed": true,
+        "kind": "subclass",
+        "sourceFeatureCount": 5,
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "contentOrigin": "playtest",
+        "sourceNamespace": "the-void/blood-hunter-2026-07-09"
+      }
+    },
+    "_id": "WOHzptrTL6EWHfbM"
+  },
+  {
+    "type": "subclass",
+    "name": "Ordre du Mutant",
+    "img": "icons/skills/toxins/cup-goblet-poisoned-spilled.webp",
+    "system": {
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null
+      },
+      "description": "",
+      "gmNotes": "",
+      "spellcastingTrait": "agility",
+      "features": [
+        {
+          "type": "foundation",
+          "item": "Compendium.daggerheart-campaign-toolkit.dh-features.Item.vOgPa5BvgD7Fcicw"
+        },
+        {
+          "type": "specialization",
+          "item": "Compendium.daggerheart-campaign-toolkit.dh-features.Item.hBcgUhwpDrrHvDGT"
+        },
+        {
+          "type": "specialization",
+          "item": "Compendium.daggerheart-campaign-toolkit.dh-features.Item.TUcsJODc2ieOWcr4"
+        },
+        {
+          "type": "mastery",
+          "item": "Compendium.daggerheart-campaign-toolkit.dh-features.Item.240k7EUfnhGSmXpC"
+        }
+      ],
+      "featureState": 1,
+      "isMulticlass": false,
+      "linkedClass": "Compendium.daggerheart-campaign-toolkit.dh-classes.Item.ijTUVcIbL0CjtfSE"
+    },
+    "effects": [],
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "sourceId": "the-void.2026-07-09.subclass.order-of-the-mutant",
+        "sourcePath": "data/playtest/blood-hunter-2026-07-09/subclasses/order-of-the-mutant.json",
+        "source": {
+          "corpus": "the-void",
+          "product": "blood-hunter",
+          "version": "2026-07-09",
+          "status": "playtest"
+        },
+        "mappingVersion": "BH-2026-07-09-active",
+        "linkedClassSourceId": "the-void.2026-07-09.class.blood-hunter",
+        "mappingGaps": [],
+        "contentLocale": "fr",
+        "canonicalSourceId": "the-void.2026-07-09.subclass.order-of-the-mutant",
+        "localeFallback": false,
+        "localizedPaths": [
+          "name"
+        ],
+        "managed": true,
+        "kind": "subclass",
+        "sourceFeatureCount": 4,
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "contentOrigin": "playtest",
+        "sourceNamespace": "the-void/blood-hunter-2026-07-09"
+      }
+    },
+    "_id": "pGHOfMCIv1XOYC7n"
+  }
+]
