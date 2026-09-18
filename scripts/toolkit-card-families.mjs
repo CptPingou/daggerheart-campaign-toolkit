@@ -95,8 +95,27 @@ export async function importToolkitCard(actor, sourceDocument, { family = null }
   // tied to the character's two class domains.
   const data = sourceDocument.toObject();
   delete data._id;
+  // Daggerheart ActionField actions are materialized reliably through
+  // Document#update. Preserve Toolkit-authored actions across embedded Item
+  // creation just as the autonomous compendium synchronizer does.
+  const sourceActions = data?.type === "domainCard"
+    ? foundry.utils.deepClone(data?.system?.actions ?? {})
+    : {};
+  if (data?.type === "domainCard" && data?.system) {
+    data.system.actions = {};
+  }
+
   const created = await actor.createEmbeddedDocuments("Item", [data]);
   const item = created?.[0] ?? null;
+
+  if (
+    item &&
+    Object.keys(sourceActions).length > 0
+  ) {
+    await item.update({
+      "system.actions": sourceActions,
+    });
+  }
 
   if (!item) {
     return {

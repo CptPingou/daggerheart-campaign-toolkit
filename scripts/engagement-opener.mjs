@@ -241,6 +241,30 @@ export function createEngagementOpenerApi(opportunityApi) {
     globalThis.ui?.notifications?.info?.(
       `Opener : +${resolution.gained} Opportunity${resolution.reactionRequired ? " — réaction du monstre." : "."}`,
     );
+
+    if (resolution.reactionRequired) {
+      await ChatMessage.create({
+        content: [
+          '<div class="daggerheart-campaign-toolkit monster-hunter-reaction">',
+          '<h3><i class="fa-solid fa-paw"></i> Réaction du monstre — Ouverture</h3>',
+          "<p>Le monstre peut effectuer une attaque appropriée contre l’Opener.</p>",
+          "<p><em>La réaction peut être modifiée par les effets de la carte Chasse utilisée.</em></p>",
+          "</div>",
+        ].join(""),
+        flags: {
+          [MODULE_ID]: {
+            monsterHunterReaction: {
+              version: 1,
+              sourceMessageId: message.id,
+              outcome: resolution.outcome,
+              openerActorId: message?.speaker?.actor ?? null,
+              openerTokenId: message?.speaker?.token ?? null,
+            },
+          },
+        },
+      });
+    }
+
     return result;
   }
 

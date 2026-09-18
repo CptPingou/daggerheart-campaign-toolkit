@@ -7,6 +7,7 @@ export const MONSTER_HUNTER_ENGAGEMENT_CONTRACT = Object.freeze({
   rules: Object.freeze({
     tier1Opportunity: 2,
     openerHopeCost: 2,
+    finisherHopeCost: 1,
     supportHopeCost: 1,
     supportAttackPenalty: "-1d4",
     opportunityDamageDicePerPoint: 1,

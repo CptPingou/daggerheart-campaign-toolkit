@@ -5,7 +5,7 @@ const ROLE = "finisher";
 const ROLE_LABEL = "Finisher";
 const FLAG_KEY = "engagementActions";
 
-export const FINISHER_REMINDER = "Coût automatique : 1 Hope. Convertissez toute l\'Opportunity disponible avec le Finisher. Réussite : X Opportunity est converti. Échec : X Opportunity est perdu. Dans les deux cas, Opportunity revient à 0.";
+export const FINISHER_REMINDER = "Coût automatique : 1 Hope. Engagez toute l\'Opportunity disponible avec le Finisher (maximum 4 au Tier 1). Réussite : X Opportunity est converti. Échec : X Opportunity est perdu. Dans les deux cas, Opportunity revient à 0.";
 
 function actionIdOf(actionOrId) {
   if (typeof actionOrId === "string" && actionOrId) return actionOrId;
@@ -85,7 +85,7 @@ export function createEngagementFinisherApi(opportunityApi) {
     }
 
     const success = context.hitTargets.length > 0;
-    const opportunity = opportunityApi.getOpportunityValue();
+    const opportunity = Math.min(4, opportunityApi.getOpportunityValue());
     const after = await opportunityApi.clearOpportunity();
 
     const result = Object.freeze({
@@ -111,6 +111,39 @@ export function createEngagementFinisherApi(opportunityApi) {
     globalThis.ui?.notifications?.info?.(
       `Finisher : ${success ? "réussite" : "échec"} — ${opportunity} Opportunity ${success ? "converti" : "perdu"}.`,
     );
+
+    const conversionContent = success
+      ? [
+          '<div class="daggerheart-campaign-toolkit monster-hunter-conversion">',
+          `<h3><i class="fa-solid fa-burst"></i> Conversion — ${opportunity} Opportunité${opportunity > 1 ? "s" : ""}</h3>`,
+          `<p>Ajoutez <strong>${opportunity} dé${opportunity > 1 ? "s" : ""} de dégâts de l’arme</strong> à cette attaque, <strong>ou</strong> dépensez ces Opportunités pour déclencher un Effet disponible.</p>`,
+          '<p>Effet standard : <strong>2 OP</strong> · Effet rare : <strong>3 OP</strong>.</p>',
+          '<p><strong>Critique :</strong> vous pouvez appliquer les dégâts <strong>et</strong> l’Effet.</p>',
+          '</div>',
+        ].join("")
+      : [
+          '<div class="daggerheart-campaign-toolkit monster-hunter-conversion">',
+          `<h3><i class="fa-solid fa-xmark"></i> Conversion échouée — ${opportunity} Opportunité${opportunity > 1 ? "s" : ""} perdue${opportunity > 1 ? "s" : ""}</h3>`,
+          '<p>L’Opportunité engagée est perdue. Aucun bonus de dégâts ni Effet n’est converti.</p>',
+          '</div>',
+        ].join("");
+
+    await ChatMessage.create({
+      content: conversionContent,
+      flags: {
+        [MODULE_ID]: {
+          monsterHunterConversion: {
+            version: 1,
+            sourceMessageId: message.id,
+            success,
+            opportunityConsumed: opportunity,
+            converted: success ? opportunity : 0,
+            lost: success ? 0 : opportunity,
+          },
+        },
+      },
+    });
+
     return result;
   }
 

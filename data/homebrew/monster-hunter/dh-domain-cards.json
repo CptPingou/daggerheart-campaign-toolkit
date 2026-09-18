@@ -209,7 +209,61 @@
       "recallCost": 1,
       "level": 1,
       "type": "ability",
-      "actions": {},
+      "actions": {
+        "MHOPENACTION0001": {
+          "_id": "MHOPENACTION0001",
+          "systemPath": "actions",
+          "type": "attack",
+          "baseAction": false,
+          "name": "Ouverture",
+          "description": "<p>Effectuez une attaque d’Ouverture contre le monstre engagé. Le coût de 2 Espoir et la génération d’Opportunité sont résolus par le sous-système Chasse.</p>",
+          "chatDisplay": true,
+          "actionType": "action",
+          "originItem": {
+            "type": "itemCollection"
+          },
+          "triggers": [],
+          "areas": [],
+          "cost": [],
+          "uses": {
+            "value": null,
+            "max": "",
+            "recovery": null,
+            "consumeOnSuccess": false
+          },
+          "target": {
+            "type": "any",
+            "amount": 1
+          },
+          "effects": [],
+          "damage": {
+            "resources": {},
+            "main": null
+          },
+          "roll": {
+            "type": "attack",
+            "trait": null,
+            "difficulty": null,
+            "bonus": null,
+            "advState": "neutral",
+            "diceRolling": {
+              "multiplier": "prof",
+              "flatMultiplier": 1,
+              "dice": "d6",
+              "compare": null,
+              "treshold": null
+            },
+            "useDefault": false
+          },
+          "save": {
+            "trait": null,
+            "difficulty": null,
+            "damageMod": "none"
+          },
+          "range": "",
+          "img": "icons/svg/target.svg"
+        }
+      },
       "attribution": {
         "source": "Daggerheart SRD",
         "page": null,
@@ -250,6 +304,11 @@
           "familyLabel": "Chasse",
           "eligibility": "toolkit",
           "loadoutGroup": "hunt"
+        },
+        "engagementActions": {
+          "MHOPENACTION0001": {
+            "role": "opener"
+          }
         }
       }
     },
@@ -261,12 +320,66 @@
     "img": "icons/svg/book.svg",
     "type": "domainCard",
     "system": {
-      "description": "<p><strong>Finisher.</strong> Lorsque vous convertissez une Opportunité, chaque OP dépensée en dégâts ajoute 1 dé de dégâts de l’arme. Vous pouvez à la place déclencher un Effet disponible. Sur un critique du Finisher, vous pouvez appliquer les dégâts et l’Effet.</p>",
+      "description": "<p><strong>Finisher.</strong> Dépensez 1 Espoir pour engager toute l’Opportunité disponible (maximum 4 au Tier 1). Sur une réussite, chaque OP convertie en dégâts ajoute 1 dé de dégâts de l’arme, ou vous pouvez à la place déclencher un Effet disponible. Sur un critique du Finisher, vous pouvez appliquer les dégâts et l’Effet. Sur un échec, l’Opportunité engagée est perdue. Dans tous les cas, l’Opportunité revient à 0.</p>",
       "domain": "valor",
       "recallCost": 1,
       "level": 1,
       "type": "ability",
-      "actions": {},
+      "actions": {
+        "MHFINACTION00001": {
+          "_id": "MHFINACTION00001",
+          "systemPath": "actions",
+          "type": "attack",
+          "baseAction": false,
+          "name": "Conversion",
+          "description": "<p>Dépensez 1 Espoir et effectuez l’attaque du Finisher. Toute l’Opportunité disponible (maximum 4 au Tier 1) est engagée par cette tentative et retombe à 0 après sa résolution.</p>",
+          "chatDisplay": true,
+          "actionType": "action",
+          "originItem": {
+            "type": "itemCollection"
+          },
+          "triggers": [],
+          "areas": [],
+          "cost": [],
+          "uses": {
+            "value": null,
+            "max": "",
+            "recovery": null,
+            "consumeOnSuccess": false
+          },
+          "target": {
+            "type": "any",
+            "amount": 1
+          },
+          "effects": [],
+          "damage": {
+            "resources": {},
+            "main": null
+          },
+          "roll": {
+            "type": "attack",
+            "trait": null,
+            "difficulty": null,
+            "bonus": null,
+            "advState": "neutral",
+            "diceRolling": {
+              "multiplier": "prof",
+              "flatMultiplier": 1,
+              "dice": "d6",
+              "compare": null,
+              "treshold": null
+            },
+            "useDefault": false
+          },
+          "save": {
+            "trait": null,
+            "difficulty": null,
+            "damageMod": "none"
+          },
+          "range": "",
+          "img": "icons/svg/target.svg"
+        }
+      },
       "attribution": {
         "source": "Daggerheart SRD",
         "page": null,
@@ -288,7 +401,7 @@
         "huntCardMechanic": {
           "id": "conversion",
           "role": "finisher",
-          "hopeCost": 0,
+          "hopeCost": 1,
           "opportunity": {
             "generate": 0,
             "spend": [
@@ -311,6 +424,11 @@
           "familyLabel": "Chasse",
           "eligibility": "toolkit",
           "loadoutGroup": "hunt"
+        },
+        "engagementActions": {
+          "MHFINACTION00001": {
+            "role": "finisher"
+          }
         }
       }
     },
