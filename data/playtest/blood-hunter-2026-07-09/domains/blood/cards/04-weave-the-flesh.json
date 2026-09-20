@@ -1,0 +1,37 @@
+{
+  "id": "the-void.2026-07-09.domain_card.weave-the-flesh",
+  "kind": "domain_card",
+  "identity": {
+    "name": "Weave the Flesh",
+    "slug": "weave-the-flesh"
+  },
+  "source": {
+    "corpus": "the-void",
+    "product": "blood-hunter",
+    "version": "2026-07-09",
+    "status": "playtest"
+  },
+  "provenance": {
+    "source_file": "Blood_Hunter_Void_2026_07_09.pdf",
+    "page": 4
+  },
+  "availability": {
+    "in_srd": false,
+    "private_only": true,
+    "deprecated": false
+  },
+  "migration": {
+    "previous_id": "the-void.v1.5.domain_card.weave-the-flesh",
+    "relation": "revised"
+  },
+  "rules": {
+    "domain": "blood",
+    "level": 4,
+    "card_type": "spell",
+    "recall_cost": 1
+  },
+  "content": {
+    "rules_text": "Once per long rest, you can mark a Hit Point to clot, suture, and fortify others with your own lifeblood. Each willing target within Very Close range clears a Hit Point and an Armor Slot.",
+    "validation": "checked_against_pdf_2026-07-09"
+  }
+}

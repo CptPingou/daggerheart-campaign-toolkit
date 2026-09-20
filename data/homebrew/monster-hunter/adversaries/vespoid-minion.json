@@ -1,0 +1,59 @@
+{
+  "id": "homebrew.monster-hunter.adversary.vespoid-minion",
+  "kind": "adversary",
+  "tier": 1,
+  "role": "Minion",
+  "name": "Vespoid Minion",
+  "motives_tactics": "Voler, encercler, harceler, protéger la Reine",
+  "difficulty": 10,
+  "thresholds": null,
+  "hp": 1,
+  "stress": 1,
+  "stress_none": false,
+  "attack": {
+    "modifier": -2,
+    "name": "Piqûre",
+    "range": "Melee",
+    "damage": "2",
+    "damage_type": "phy"
+  },
+  "experience_text": "Vol +2",
+  "features_text": "Minion (3) - Passive: Le Vespoid est vaincu dès qu'il subit des dégâts. Pour chaque tranche de 3 dégâts qu'un PJ inflige au Vespoid, il vainc un Minion supplémentaire à portée contre lequel l'attaque aurait réussi. Vol - Passive: Tant que le Vespoid vole, il gagne +2 à sa Difficulty. Group Attack - Action: Dépensez 1 Fear pour choisir une cible et mettre en Spotlight tous les Vespoid Minions à portée Close d'elle. Ils se déplacent à portée Melee de la cible et font un seul jet d'attaque partagé. Sur un succès, ils infligent chacun 2 dégâts physiques. Combinez ces dégâts.",
+  "source": {
+    "corpus": "monster-hunter-homebrew",
+    "version": "0.1",
+    "status": "homebrew"
+  },
+  "canonical": true,
+  "features": [
+    {
+      "name": "Minion (3)",
+      "type": "Passive",
+      "text": "Le Vespoid est vaincu dès qu'il subit des dégâts. Pour chaque tranche de 3 dégâts qu'un PJ inflige au Vespoid, il vainc un Minion supplémentaire à portée contre lequel l'attaque aurait réussi."
+    },
+    {
+      "name": "Vol",
+      "type": "Passive",
+      "text": "Tant que le Vespoid vole, il gagne +2 à sa Difficulty."
+    },
+    {
+      "name": "Group Attack",
+      "type": "Action",
+      "text": "Dépensez 1 Fear pour choisir une cible et mettre en Spotlight tous les Vespoid Minions à portée Close d'elle. Ils se déplacent à portée Melee de la cible et font un seul jet d'attaque partagé. Sur un succès, ils infligent chacun 2 dégâts physiques. Combinez ces dégâts."
+    }
+  ],
+  "hunting": {
+    "schemaVersion": 1,
+    "footprint": {
+      "width": 1,
+      "height": 1
+    },
+    "tags": [
+      "flying"
+    ],
+    "mobility": {
+      "mode": "flying",
+      "state": "elevated"
+    }
+  }
+}

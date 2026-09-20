@@ -1,0 +1,232 @@
+{
+  "phase": "P1.1f-b2-fix1",
+  "targets": [
+    "everyday-hero-starting-equipment",
+    "grimdark-campaigns",
+    "tech-based-campaigns",
+    "western-campaigns",
+    "floating-magic-school-campaigns",
+    "fairy-tale-campaigns"
+  ],
+  "normalized": [
+    "everyday-hero-starting-equipment",
+    "grimdark-campaigns",
+    "tech-based-campaigns",
+    "western-campaigns",
+    "floating-magic-school-campaigns",
+    "fairy-tale-campaigns"
+  ],
+  "missing": [],
+  "checks": {
+    "targets_present": true,
+    "everyday_subsections_present": true,
+    "everyday_primary_weapons_present": true,
+    "grimdark_shadow_touched_present": true,
+    "grimdark_crit_19_20": true,
+    "grimdark_bonfire_present": true,
+    "grimdark_bonfire_hope_3": true,
+    "tech_damage_replacement": true,
+    "tech_iconic_two_handed": true,
+    "tech_bonded_level_bonus": true,
+    "tech_tier1_upgrade_slots_2": true,
+    "western_five_weapon_names": true,
+    "western_dynamite_present": true,
+    "floating_school_flight_artifact": true,
+    "floating_school_any_trait": true,
+    "fairy_tale_subsections_present": true
+  },
+  "validation": "GREEN",
+  "debug": {
+    "everyday_subsections": [
+      "Introduction"
+    ],
+    "grimdark": {
+      "mechanic_type": "grimdark_campaign",
+      "subsections": [
+        {
+          "name": "Introduction",
+          "rules_text": "You can use the following mechanics when the party explores a\nvast and grim world of magical corrupting Shadow punctuated\nby scattered sanctuaries built around Sacred Bonfires that emit\na halo of safety-providing light.",
+          "id": "introduction"
+        },
+        {
+          "name": "Shadow-Touched",
+          "raw_heading": "SHADOW-TOUCHED",
+          "rules_text": "Adversaries in this campaign can have a feature called\nShadow-T ouched:\nShadow-Touched – Passive. This Adversary critically\nsucceeds on attack rolls of 19–20.\nWhen you introduce a Shadow-T ouched adversary, describe\nhow magic has warped their essence and form.\nPCs can also become Shadow-T ouched when corrupted by\ndark magic. A Shadow-T ouched PC gains a damage bonus\nequal to the number of scars they have marked. When a\nShadow-T ouched PC marks their last Hope slot with a scar,\nthey succumb to corruption and charge into the darkness\ninstead of making a death move.",
+          "id": "shadow-touched"
+        },
+        {
+          "name": "Sacred Bonfires & Torches",
+          "raw_heading": "SACRED BONFIRES & TORCHES",
+          "rules_text": "Sacred Bonfires are vibrant magical pyres lit by the flames\nof rare and magical Sacred T orches, each of which carries a\nfragment of divine power. Sacred Bonfires burn out unless\ncontinuously provided with a bit of kindling, and can’t be\nreignited without a Sacred T orch. When a Sacred Bonfire is\nrelit, each PC present gains 3 Hope. A Sacred Bonfire’s light\nrepels all but the most powerful monsters from its immediate\nvicinity.",
+          "id": "sacred-bonfires-torches"
+        }
+      ],
+      "shadow_touched": {
+        "adversary_feature_present": true,
+        "critical_success_range": {
+          "min": 19,
+          "max": 20
+        },
+        "pc_damage_bonus_basis": "marked_scars",
+        "last_hope_scar_corruption": true
+      },
+      "sacred_bonfires": {
+        "present": true,
+        "requires_sacred_torch_to_relight": false,
+        "hope_on_relight": 3
+      },
+      "normalization_level": "mechanical"
+    },
+    "tech_based": {
+      "mechanic_type": "tech_campaign",
+      "subsections": [
+        {
+          "name": "Introduction",
+          "rules_text": "You can use the following mechanics for a campaign in which\nmagic has been supplanted by technology.",
+          "id": "introduction"
+        },
+        {
+          "name": "Tech Damage",
+          "raw_heading": "TECH DAMAGE",
+          "rules_text": "T ech damage is a replacement for magic damage in campaigns\nwhere damage is caused by technomancy. You can reflavor\nmagic attacks as sonic blasts, blinding flashes of light,\nswarming nanobots, plasma beams, or any other product of\nadvanced technology.",
+          "id": "tech-damage"
+        },
+        {
+          "name": "Tools",
+          "raw_heading": "TOOLS",
+          "rules_text": "The following sections detail how weapons, armor, and other\nitems might work in a tech-based campaign.",
+          "id": "tools"
+        },
+        {
+          "name": "Iconic Weapons",
+          "raw_heading": "ICONIC WEAPONS",
+          "rules_text": "Characters don’t have access to Daggerheart’s normal\nselection of primary and secondary weapons during a tech-\nbased campaign. Instead, each character receives an Iconic\nWeapon that begins as a simple rod of metal but can be\nincrementally modified to suit the wielder’s needs.\nA player designs their character’s Iconic Weapon using an\nIconic Weapon Sheet. For inspiration, see the Motherboard\nModule sheet in Daggerheart Core or available online at\ndaggerheart.com/downloads. Each player should take a copy\nof the module and complete the following steps:\n1. Slide the Iconic Weapon Sheet under the right side of their\ncharacter sheet so only the fillable section is visible\n2. Make selections about trait, range, and damage\n3. Make up a name and description\n4. Record the weapon’s details in the Primary Weapon slot of\ntheir character sheet\nIconic Weapons are considered two-handed weapons and start\nwith the Bonded feature:\nBonded: Gain a bonus to your damage rolls equal to your\nlevel.",
+          "id": "iconic-weapons"
+        },
+        {
+          "name": "Upgrades",
+          "raw_heading": "UPGRADES",
+          "rules_text": "A character’s Iconic Weapon starts with two Upgrade slots at\nTier 1 to indicate that it has evolved from its most basic form.\nAn Iconic Weapon gains an additional Upgrade slot at each\nsubsequent tier. An Upgrade can be crafted as a downtime\nmove when a PC has the Parts to do so. See the upcoming\n“Crafting & Trading” section for more information.\nEach Iconic Weapon begins without any installed Upgrades.\nA character can build as many Upgrades as they wish but\ncan’t install more Upgrades than the number of Upgrade slots\ntheir Iconic Weapon has. An installed Upgrade is treated as\na weapon feature. During downtime, a PC can freely swap\nUpgrades they’ve already crafted or otherwise acquired.\n195\nDaggerheart SRD\nThe Iconic Weapon Sheet includes a selection of basic\nUpgrades. GMs are encouraged to make more, using the\nprovided options as a template, and offer them to the players\nas appropriate.",
+          "id": "upgrades"
+        },
+        {
+          "name": "Tech Link",
+          "raw_heading": "TECH LINK",
+          "rules_text": "Each tech-based campaign setting includes a worldwide data\nand energy network that a PC must connect to in order to\nperform downtime moves. The primary way most PCs connect\nto this network is via a T ech Link, which looks like a data\ncable with a hook on one end, that each PC gains at character\ncreation.",
+          "id": "tech-link"
+        },
+        {
+          "name": "Crafting & Trading",
+          "raw_heading": "CRAFTING & TRADING",
+          "rules_text": "Gold is not used as a currency in tech-based campaign frames.\nInstead, PCs gather Scrap to trade for a currency known as\nCredits. The Iconic Weapon Sheet includes areas for tracking\nboth Scrap and Credits. All PCs start with 5 Credits.",
+          "id": "crafting-trading"
+        },
+        {
+          "name": "Converting Gold To Credits",
+          "raw_heading": "CONVERTING GOLD TO CREDITS",
+          "rules_text": "Use the following conversion for Daggerheart when pricing\nother goods and services using quantum:\n• 10 Credits = 1 handful of gold\n• 100 Credits = 1 bag of gold\n• 1000 Credits = 1 chest of gold",
+          "id": "converting-gold-to-credits"
+        },
+        {
+          "name": "Gathering Scrap",
+          "raw_heading": "GATHERING SCRAP",
+          "rules_text": "PCs can collect Scrap from defeated tech-based adversaries\noutside of combat. Each category of Scrap is represented by a\ndie size. When the PCs collect Scrap, the GM determines how\nmany of each category they find, which in turn determines the\ntotal dice pool each player rolls. Compare the results of each\nplayer’s roll against your campaign’s Scrap table to determine\nthe number of each type they acquire. PCs can also obtain\nspecific pieces of Scrap by completing NPC contracts, hunting\nparticular adversaries, exploring certain areas, or purchasing\nthem from special merchants.\nScrap Table\nThe table below lists generic outcomes you can replace as needed to suit your campaign.\nresul t 1 2 3 4 5 6 7 8 9 10\nShards\n(d6)\nGear Coil Wire Trigger Lens Crystal n/a n/a n/a n/a\nMetals\n(d8)\nAluminum Copper Cobalt Silver Platinum Gold n/a n/a\nComponents\n(d10)\nFuse Circuit Disc Relay Capacitor Battery\nParts Reward Table\nUse the following table as general guidance for Scrap rewards after encounters:",
+          "id": "gathering-scrap"
+        },
+        {
+          "name": "Adversaries Easy Fight Standard Fight Difficul T Fight Very Difficul T Fight",
+          "raw_heading": "ADVERSARIES EASY FIGHT STANDARD FIGHT DIFFICUL T FIGHT VERY DIFFICUL T FIGHT",
+          "rules_text": "Mostly non-tech-based 2 Shards 2 Shards, 1 Metal 2 Shards, 1 Metal, 1\nComponent\n2 Shard, 2 Metals, 1 Component\nMostly tech-based 2 Shards, 1 Metal 2 Shards, 2 Metals, 1\nComponent\n3 Shards, 2 Metals, 1\nComponent\n3 Shards, 3 Metals, 2\nComponents\nAll tech-based 2 Shards, 1 Metal,\n1 Component\n3 Shards, 2 Metals, 2\nComponents\n3 Shards, 3 Metals, 2\nComponents\n4 Shards, 3 Metals, 3\nComponents",
+          "id": "adversaries-easy-fight-standard-fight-difficul-t-fight-very-difficul-t-fight"
+        },
+        {
+          "name": "Relics",
+          "raw_heading": "RELICS",
+          "rules_text": "Relics are unique pieces of Scrap only found on specific\ntech-based adversaries. When the PCs defeat a particularly\nimportant or powerful tech-based adversary, the GM can\ngrant them each a Relic in addition to Scrap from the table\nabove. Relics should be customized to reflect the adversary\nfrom which they were obtained. Relics are worth 20 Credits\nand can be used to craft powerful Upgrades.",
+          "id": "relics"
+        },
+        {
+          "name": "Crafting With Scrap",
+          "raw_heading": "CRAFTING WITH SCRAP",
+          "rules_text": "PCs can use a downtime move and spend the appropriate\nScrap or Relics to craft Upgrades for their Iconic Weapons or\nother items. A PC can’t craft an Upgrade until they satisfy its\nPrerequisites. An Upgrade can always be broken back into its\nconstituents to reacquire the Scrap used in its creation.",
+          "id": "crafting-with-scrap"
+        },
+        {
+          "name": "Buying And Selling Scrap",
+          "raw_heading": "BUYING AND SELLING SCRAP",
+          "rules_text": "By default, a piece of Scrap is worth a number of Credits equal\nto the value rolled to acquire it on the table above. This value is\nunaffected by whether the party intends to buy or sell it.\nMerchants have a limited amount and variety of Scrap for\nsale, usually 1d10 of each Shard, 1d8 of each Metal, and\n1d6 of each Component. When a PC wants to buy a specific\npiece of Scrap from a particular merchant, the GM can roll\nto determine how many are in stock, subject to the GM’s\ndiscretion.\n196\nDaggerheart SRD",
+          "id": "buying-and-selling-scrap"
+        }
+      ],
+      "tech_damage_replaces_magic": true,
+      "iconic_weapon": {
+        "replaces_standard_weapons": false,
+        "two_handed": true,
+        "bonded_damage_bonus_basis": "level",
+        "tier1_upgrade_slots": 2,
+        "additional_slots_per_later_tier": 1
+      },
+      "crafting_and_trading_present": true,
+      "normalization_level": "mechanical"
+    },
+    "western_weapon_names": [
+      "Revolver",
+      "Rifle",
+      "Shotgun",
+      "Lasso",
+      "Small Revolver"
+    ],
+    "floating_school": {
+      "mechanic_type": "floating_magic_school_campaign",
+      "subsections": [
+        {
+          "name": "Introduction",
+          "rules_text": "You can use the following mechanics for a campaign set at a\nfloating magic school.",
+          "id": "introduction"
+        },
+        {
+          "name": "Flight",
+          "raw_heading": "FLIGHT",
+          "rules_text": "During character creation, each player creates a magic artifact\nthey can use to fly. Flying PCs use the normal movement\nrules and can fly within Close range as part of an action roll,\nbut they must make an appropriate trait roll to move beyond\nClose range or if movement is their primary action. At the\nGM’s discretion, some threats, such as gaining the Restrained\nor Vulnerable conditions, losing their magic artifact, or taking\nSevere damage, can temporarily interrupt a PC’s ability to fly.",
+          "id": "flight"
+        },
+        {
+          "name": "Using Traits For Flight",
+          "raw_heading": "USING TRAITS FOR FLIGHT",
+          "rules_text": "A PC can use any appropriate trait (not just Agility) to move\nwhile flying. The following are some examples of how each\ntrait might be used:\nAgility: Swift acrobatics, speed-boosting off an adversary’s\nwake, maintaining an aerodynamic posture, or angling past a\nwinged threat\nFinesse: Focused, subtle, and well-timed adjustments,\nthreading the needle, precision flying, operating finely tuned\ncontrols, or deftly weaving between obstacles\nStrength: Blasting through floating debris, holding fast in\nshifting weather, or slamming into a racing rival\nInstinct: Navigating by sheer intuition, keenly spotting a\nshortcut, following a migratory current, or sensing hidden\ndanger in the clouds.\nPresence: Flying with natural grace and effortless style,\ncommanding attention, causing a distraction, creating a\nspectacle\nKnowledge: Charting efficient flight plans, plotting rotational\nmomentum, or deducing the exact timing of a foe’s wingbeats",
+          "id": "using-traits-for-flight"
+        },
+        {
+          "name": "Less Lethal Campaigns",
+          "raw_heading": "LESS LETHAL CAMPAIGNS",
+          "rules_text": "In a less lethal campaign, any death move that would normally\nlead to a character’s demise instead puts them in the infirmary\nfor a few weeks or sends them home for an extended period of\ntime. While they recover, the PC is unplayable but not dead.\n199\nDaggerheart SRD",
+          "id": "less-lethal-campaigns"
+        }
+      ],
+      "flight": {
+        "artifact_created_at_character_creation": true,
+        "close_range_uses_normal_movement": true,
+        "beyond_close_requires_trait_roll": true,
+        "any_appropriate_trait": true
+      },
+      "less_lethal_death_moves": {
+        "present": true,
+        "death_replaced_by_recovery": true
+      },
+      "normalization_level": "mechanical"
+    },
+    "fairy_tale_subsections": [
+      "Introduction",
+      "Curses",
+      "Transforming Adversaries",
+      "Collaboratively"
+    ]
+  },
+  "notes": [
+    "P1.1f-b2 normalizes the six remaining supplemental mechanics without changing P1.1f-a canonical IDs.",
+    "P1.1f-b2-fix1 tolerates the SRD PDF extraction artifact `T ech damage` when validating Tech Damage.",
+    "Everyday Hero and Fairy Tale remain structurally conservative where the SRD section is primarily variant content rather than a single deterministic subsystem.",
+    "Western weapon entities are not duplicated; the mechanic links to the supplemental weapon collection produced in P1.1d.",
+    "Raw SRD rules_text remains preserved beside normalized mechanics."
+  ]
+}

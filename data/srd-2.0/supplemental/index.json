@@ -1,0 +1,178 @@
+[
+  {
+    "id": "srd-2.0.supplemental_mechanic.faction-tracking",
+    "kind": "supplemental_mechanic",
+    "name": "Faction Tracking",
+    "slug": "faction-tracking",
+    "source": {
+      "corpus": "daggerheart-srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    }
+  },
+  {
+    "id": "srd-2.0.supplemental_mechanic.everyday-hero-starting-equipment",
+    "kind": "supplemental_mechanic",
+    "name": "Everyday Hero Starting Equipment",
+    "slug": "everyday-hero-starting-equipment",
+    "source": {
+      "corpus": "daggerheart-srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    }
+  },
+  {
+    "id": "srd-2.0.supplemental_mechanic.feasts",
+    "kind": "supplemental_mechanic",
+    "name": "Feasts",
+    "slug": "feasts",
+    "source": {
+      "corpus": "daggerheart-srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    }
+  },
+  {
+    "id": "srd-2.0.supplemental_mechanic.grimdark-campaigns",
+    "kind": "supplemental_mechanic",
+    "name": "Grimdark Campaigns",
+    "slug": "grimdark-campaigns",
+    "source": {
+      "corpus": "daggerheart-srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    }
+  },
+  {
+    "id": "srd-2.0.supplemental_mechanic.tech-based-campaigns",
+    "kind": "supplemental_mechanic",
+    "name": "Tech-Based Campaigns",
+    "slug": "tech-based-campaigns",
+    "source": {
+      "corpus": "daggerheart-srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    }
+  },
+  {
+    "id": "srd-2.0.supplemental_mechanic.western-campaigns",
+    "kind": "supplemental_mechanic",
+    "name": "Western Campaigns",
+    "slug": "western-campaigns",
+    "source": {
+      "corpus": "daggerheart-srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    }
+  },
+  {
+    "id": "srd-2.0.supplemental_mechanic.colossal-adversaries",
+    "kind": "supplemental_mechanic",
+    "name": "Colossal Adversaries",
+    "slug": "colossal-adversaries",
+    "source": {
+      "corpus": "daggerheart-srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    }
+  },
+  {
+    "id": "srd-2.0.supplemental_mechanic.floating-magic-school-campaigns",
+    "kind": "supplemental_mechanic",
+    "name": "Floating Magic School Campaigns",
+    "slug": "floating-magic-school-campaigns",
+    "source": {
+      "corpus": "daggerheart-srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    }
+  },
+  {
+    "id": "srd-2.0.supplemental_mechanic.fairy-tale-campaigns",
+    "kind": "supplemental_mechanic",
+    "name": "Fairy Tale Campaigns",
+    "slug": "fairy-tale-campaigns",
+    "source": {
+      "corpus": "daggerheart-srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    }
+  },
+  {
+    "id": "srd-2.0.supplemental_mechanic.monster-hunting-campaigns",
+    "kind": "supplemental_mechanic",
+    "name": "Monster Hunting Campaigns",
+    "slug": "monster-hunting-campaigns",
+    "source": {
+      "corpus": "daggerheart-srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    }
+  },
+  {
+    "id": "srd-2.0.supplemental_mechanic.hex-crawl-campaigns",
+    "kind": "supplemental_mechanic",
+    "name": "Hex Crawl Campaigns",
+    "slug": "hex-crawl-campaigns",
+    "source": {
+      "corpus": "daggerheart-srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    }
+  }
+]

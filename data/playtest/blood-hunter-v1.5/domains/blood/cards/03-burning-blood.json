@@ -1,0 +1,33 @@
+{
+  "id": "the-void.v1.5.domain_card.burning-blood",
+  "kind": "domain_card",
+  "identity": {
+    "name": "Burning Blood",
+    "slug": "burning-blood"
+  },
+  "source": {
+    "corpus": "the-void",
+    "product": "blood-hunter",
+    "version": "1.5",
+    "status": "playtest"
+  },
+  "provenance": {
+    "source_file": "Bloodhunter-v1.5-The-Void.pdf",
+    "page": 4
+  },
+  "availability": {
+    "in_srd": false,
+    "private_only": true,
+    "deprecated": false
+  },
+  "rules": {
+    "domain": "blood",
+    "level": 3,
+    "card_type": "spell",
+    "recall_cost": 2
+  },
+  "content": {
+    "rules_text": "Make a Spellcast Roll (12). On a success, mark a Hit Point as you conjure a bead of blood, which you lob at a point within Far range. Each target within Very Close range of that point marks 1 Hit Point. On a success with Hope, each target instead marks 2 Hit Points.",
+    "validation": "checked_against_pdf_v1.5"
+  }
+}

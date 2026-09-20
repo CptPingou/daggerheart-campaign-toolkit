@@ -1,0 +1,64 @@
+{
+  "id": "the-void.v1.5.class.blood-hunter",
+  "kind": "class",
+  "identity": {
+    "name": "Blood Hunter",
+    "slug": "blood-hunter"
+  },
+  "source": {
+    "corpus": "the-void",
+    "product": "blood-hunter",
+    "version": "1.5",
+    "status": "playtest"
+  },
+  "provenance": {
+    "source_file": "Bloodhunter-v1.5-The-Void.pdf",
+    "page": 1
+  },
+  "availability": {
+    "in_srd": false,
+    "private_only": true,
+    "deprecated": false
+  },
+  "rules": {
+    "domains": [
+      "blade",
+      "blood"
+    ],
+    "starting_evasion": 9,
+    "suggested_traits": {
+      "instinct": 1,
+      "presence": 0,
+      "knowledge": 0
+    },
+    "features": [
+      {
+        "name": "Blood Maledict",
+        "category": "hope_feature",
+        "cost": {
+          "hope": 3
+        },
+        "range": "far",
+        "text": "Spend 3 Hope to target a creature within Far range or in a vision from your Grim Psychometry. Until you finish a rest, take Severe damage, or use this feature again, you have advantage on all action rolls against the target."
+      },
+      {
+        "name": "Crimson Rite",
+        "category": "class_feature",
+        "cost": {
+          "hp": 1
+        },
+        "text": "You can enchant your strikes with bloodthirsty power at the cost of your vitality. Mark a Hit Point to enchant one of your active weapons. Until you finish your next rest, that weapon deals physical or magic damage (choose when you use this feature) and an extra 1d6 damage when you hit with it. This extra damage increases to 2d6 at level 5 and 3d6 at level 8."
+      },
+      {
+        "name": "Grim Psychometry",
+        "category": "class_feature",
+        "roll": {
+          "type": "spellcast",
+          "difficulty": 12
+        },
+        "range": "very_close",
+        "text": "While inspecting a creature, a location, or an object within Very Close range, make a Spellcast Roll (12). On a success, mark a Stress to have a vision of the most recent violence involving the target, and until you finish a rest, you have advantage on any action roll to recall lore about things in the vision."
+      }
+    ]
+  }
+}

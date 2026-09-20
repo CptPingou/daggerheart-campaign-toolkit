@@ -1,0 +1,33 @@
+{
+  "id": "the-void.v1.5.domain_card.blood-bind",
+  "kind": "domain_card",
+  "identity": {
+    "name": "Blood Bind",
+    "slug": "blood-bind"
+  },
+  "source": {
+    "corpus": "the-void",
+    "product": "blood-hunter",
+    "version": "1.5",
+    "status": "playtest"
+  },
+  "provenance": {
+    "source_file": "Bloodhunter-v1.5-The-Void.pdf",
+    "page": 5
+  },
+  "availability": {
+    "in_srd": false,
+    "private_only": true,
+    "deprecated": false
+  },
+  "rules": {
+    "domain": "blood",
+    "level": 6,
+    "card_type": "spell",
+    "recall_cost": 2
+  },
+  "content": {
+    "rules_text": "Make a Spellcast Roll against a target within Far range. On a success, mark a Stress. The target is temporarily Restrained and temporarily Vulnerable. Each time the target is spotlighted while either condition persists, the target takes d10 magic damage using your Proficiency. The spell ends early if you use it again.",
+    "validation": "checked_against_pdf_v1.5"
+  }
+}

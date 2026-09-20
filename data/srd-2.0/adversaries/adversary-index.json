@@ -1,0 +1,1058 @@
+[
+  {
+    "tier": 1,
+    "name": "Acid Burrower"
+  },
+  {
+    "tier": 1,
+    "name": "Ahuizotl"
+  },
+  {
+    "tier": 1,
+    "name": "Atototl"
+  },
+  {
+    "tier": 1,
+    "name": "Bear"
+  },
+  {
+    "tier": 1,
+    "name": "Bugboar"
+  },
+  {
+    "tier": 1,
+    "name": "Cave Ogre"
+  },
+  {
+    "tier": 1,
+    "name": "Common Ruffian"
+  },
+  {
+    "tier": 1,
+    "name": "Construct"
+  },
+  {
+    "tier": 1,
+    "name": "Courtier"
+  },
+  {
+    "tier": 1,
+    "name": "Darkweave Crawler"
+  },
+  {
+    "tier": 1,
+    "name": "Darkweave Queen"
+  },
+  {
+    "tier": 1,
+    "name": "Darkweave Spinner"
+  },
+  {
+    "tier": 1,
+    "name": "Darkweave Swarmlings"
+  },
+  {
+    "tier": 1,
+    "name": "Deeproot Defender"
+  },
+  {
+    "tier": 1,
+    "name": "Dire Wolf"
+  },
+  {
+    "tier": 1,
+    "name": "Elk"
+  },
+  {
+    "tier": 1,
+    "name": "Falcon"
+  },
+  {
+    "tier": 1,
+    "name": "Giant Mosquitoes"
+  },
+  {
+    "tier": 1,
+    "name": "Giant Rat"
+  },
+  {
+    "tier": 1,
+    "name": "Giant Scorpion"
+  },
+  {
+    "tier": 1,
+    "name": "Glass Snake"
+  },
+  {
+    "tier": 1,
+    "name": "Grimmling Warband"
+  },
+  {
+    "tier": 1,
+    "name": "Archer Guard"
+  },
+  {
+    "tier": 1,
+    "name": "Bladed Guard"
+  },
+  {
+    "tier": 1,
+    "name": "Head Guard"
+  },
+  {
+    "tier": 1,
+    "name": "Harpy"
+  },
+  {
+    "tier": 1,
+    "name": "Harrier"
+  },
+  {
+    "tier": 1,
+    "name": "Jagged Knife Bandit"
+  },
+  {
+    "tier": 1,
+    "name": "Jagged Knife Hexer"
+  },
+  {
+    "tier": 1,
+    "name": "Jagged Knife Kneebreaker"
+  },
+  {
+    "tier": 1,
+    "name": "Jagged Knife Lackey"
+  },
+  {
+    "tier": 1,
+    "name": "Jagged Knife Lieutenant"
+  },
+  {
+    "tier": 1,
+    "name": "Jagged Knife Shadow"
+  },
+  {
+    "tier": 1,
+    "name": "Jagged Knife Sniper"
+  },
+  {
+    "tier": 1,
+    "name": "Kelpie"
+  },
+  {
+    "tier": 1,
+    "name": "Masque Muerte"
+  },
+  {
+    "tier": 1,
+    "name": "Mechanorb"
+  },
+  {
+    "tier": 1,
+    "name": "Merchant"
+  },
+  {
+    "tier": 1,
+    "name": "Minor Chaos Elemental"
+  },
+  {
+    "tier": 1,
+    "name": "Minor Fire Elemental"
+  },
+  {
+    "tier": 1,
+    "name": "Minor Demon"
+  },
+  {
+    "tier": 1,
+    "name": "Minor Treant"
+  },
+  {
+    "tier": 1,
+    "name": "Mountain Troll"
+  },
+  {
+    "tier": 1,
+    "name": "Octopus"
+  },
+  {
+    "tier": 1,
+    "name": "Green Ooze"
+  },
+  {
+    "tier": 1,
+    "name": "Tiny Green Ooze"
+  },
+  {
+    "tier": 1,
+    "name": "Red Ooze"
+  },
+  {
+    "tier": 1,
+    "name": "Tiny Red Ooze"
+  },
+  {
+    "tier": 1,
+    "name": "Panther"
+  },
+  {
+    "tier": 1,
+    "name": "Petty Noble"
+  },
+  {
+    "tier": 1,
+    "name": "Phantom"
+  },
+  {
+    "tier": 1,
+    "name": "Pirate Captain"
+  },
+  {
+    "tier": 1,
+    "name": "Pirate Raiders"
+  },
+  {
+    "tier": 1,
+    "name": "Pirate T ough"
+  },
+  {
+    "tier": 1,
+    "name": "Poltergeist"
+  },
+  {
+    "tier": 1,
+    "name": "Rabble Mawb"
+  },
+  {
+    "tier": 1,
+    "name": "Redcap Biters"
+  },
+  {
+    "tier": 1,
+    "name": "Redcap Breaker"
+  },
+  {
+    "tier": 1,
+    "name": "Redcap Butcher"
+  },
+  {
+    "tier": 1,
+    "name": "Redcap Candlemaker"
+  },
+  {
+    "tier": 1,
+    "name": "Redcap Skinner"
+  },
+  {
+    "tier": 1,
+    "name": "Rugaru"
+  },
+  {
+    "tier": 1,
+    "name": "Sawtoothed Gillbeast"
+  },
+  {
+    "tier": 1,
+    "name": "Sellsword"
+  },
+  {
+    "tier": 1,
+    "name": "Skeleton Archer"
+  },
+  {
+    "tier": 1,
+    "name": "Skeleton Dredge"
+  },
+  {
+    "tier": 1,
+    "name": "Skeleton Knight"
+  },
+  {
+    "tier": 1,
+    "name": "Skeleton Warrior"
+  },
+  {
+    "tier": 1,
+    "name": "Soul-Shattered Mage"
+  },
+  {
+    "tier": 1,
+    "name": "Spellblade"
+  },
+  {
+    "tier": 1,
+    "name": "Spellbound Armor"
+  },
+  {
+    "tier": 1,
+    "name": "Swarm of Rats"
+  },
+  {
+    "tier": 1,
+    "name": "Sylvan Soldier"
+  },
+  {
+    "tier": 1,
+    "name": "T angle Bramble Swarm"
+  },
+  {
+    "tier": 1,
+    "name": "T angle Bramble"
+  },
+  {
+    "tier": 1,
+    "name": "Viper"
+  },
+  {
+    "tier": 1,
+    "name": "Waxwork Creation"
+  },
+  {
+    "tier": 1,
+    "name": "Weaponmaster"
+  },
+  {
+    "tier": 1,
+    "name": "Will-o’-the-Wisps"
+  },
+  {
+    "tier": 1,
+    "name": "Young Dryad"
+  },
+  {
+    "tier": 1,
+    "name": "Yufo"
+  },
+  {
+    "tier": 1,
+    "name": "Brawny Zombie"
+  },
+  {
+    "tier": 1,
+    "name": "Patchwork Zombie Hulk"
+  },
+  {
+    "tier": 1,
+    "name": "Rotted Zombie"
+  },
+  {
+    "tier": 1,
+    "name": "Shambling Zombie"
+  },
+  {
+    "tier": 1,
+    "name": "Zombie Pack"
+  },
+  {
+    "tier": 2,
+    "name": "Archer Squadron"
+  },
+  {
+    "tier": 2,
+    "name": "Apprentice Assassin"
+  },
+  {
+    "tier": 2,
+    "name": "Assassin Poisoner"
+  },
+  {
+    "tier": 2,
+    "name": "Master Assassin"
+  },
+  {
+    "tier": 2,
+    "name": "Banshee"
+  },
+  {
+    "tier": 2,
+    "name": "Basilisk"
+  },
+  {
+    "tier": 2,
+    "name": "Battle Box"
+  },
+  {
+    "tier": 2,
+    "name": "Berserker Alpha"
+  },
+  {
+    "tier": 2,
+    "name": "Berserker Initiate"
+  },
+  {
+    "tier": 2,
+    "name": "Centaur Warden"
+  },
+  {
+    "tier": 2,
+    "name": "Chaos Skull"
+  },
+  {
+    "tier": 2,
+    "name": "Chicken-Foot Hut"
+  },
+  {
+    "tier": 2,
+    "name": "Conscript"
+  },
+  {
+    "tier": 2,
+    "name": "Courtesan"
+  },
+  {
+    "tier": 2,
+    "name": "Cult Adept"
+  },
+  {
+    "tier": 2,
+    "name": "Cult Fang"
+  },
+  {
+    "tier": 2,
+    "name": "Cult Initiate"
+  },
+  {
+    "tier": 2,
+    "name": "Demonic Hound Pack"
+  },
+  {
+    "tier": 2,
+    "name": "Dire Pangolati"
+  },
+  {
+    "tier": 2,
+    "name": "Doppelhound"
+  },
+  {
+    "tier": 2,
+    "name": "Dragon Knight"
+  },
+  {
+    "tier": 2,
+    "name": "Electric Eels"
+  },
+  {
+    "tier": 2,
+    "name": "Elephant"
+  },
+  {
+    "tier": 2,
+    "name": "Elite Soldier"
+  },
+  {
+    "tier": 2,
+    "name": "Entombed Cat Beast"
+  },
+  {
+    "tier": 2,
+    "name": "Entombed Elite Guard"
+  },
+  {
+    "tier": 2,
+    "name": "Entombed Empress"
+  },
+  {
+    "tier": 2,
+    "name": "Entombed Necropriest"
+  },
+  {
+    "tier": 2,
+    "name": "Entombed Skin Beetles"
+  },
+  {
+    "tier": 2,
+    "name": "Entombed Stonemason"
+  },
+  {
+    "tier": 2,
+    "name": "Failed Experiment"
+  },
+  {
+    "tier": 2,
+    "name": "Flock of Feather Fiends"
+  },
+  {
+    "tier": 2,
+    "name": "Fowlbear"
+  },
+  {
+    "tier": 2,
+    "name": "Fungispunj Sporeling"
+  },
+  {
+    "tier": 2,
+    "name": "Fungispunj Sporophore"
+  },
+  {
+    "tier": 2,
+    "name": "Gargoyle"
+  },
+  {
+    "tier": 2,
+    "name": "Giant Beastmaster"
+  },
+  {
+    "tier": 2,
+    "name": "Giant Brawler"
+  },
+  {
+    "tier": 2,
+    "name": "Giant Eagle"
+  },
+  {
+    "tier": 2,
+    "name": "Giant Octopus"
+  },
+  {
+    "tier": 2,
+    "name": "Giant Recruit"
+  },
+  {
+    "tier": 2,
+    "name": "Gobstalker"
+  },
+  {
+    "tier": 2,
+    "name": "Gorgon"
+  },
+  {
+    "tier": 2,
+    "name": "Guahalan Alebrujo"
+  },
+  {
+    "tier": 2,
+    "name": "Guahalan Fang Lord"
+  },
+  {
+    "tier": 2,
+    "name": "Guahalan Shifter"
+  },
+  {
+    "tier": 2,
+    "name": "Guahalan Spirit Beast"
+  },
+  {
+    "tier": 2,
+    "name": "Guahalan Spirit Singer"
+  },
+  {
+    "tier": 2,
+    "name": "Hill Titan"
+  },
+  {
+    "tier": 2,
+    "name": "Hive Walker"
+  },
+  {
+    "tier": 2,
+    "name": "Jack-o’-Lantern"
+  },
+  {
+    "tier": 2,
+    "name": "Juvenile Flickerfly"
+  },
+  {
+    "tier": 2,
+    "name": "Knight of the Realm"
+  },
+  {
+    "tier": 2,
+    "name": "Landshark"
+  },
+  {
+    "tier": 2,
+    "name": "Landshark Behemoth"
+  },
+  {
+    "tier": 2,
+    "name": "Masked Thief"
+  },
+  {
+    "tier": 2,
+    "name": "Merchant Baron"
+  },
+  {
+    "tier": 2,
+    "name": "Minotaur Wrecker"
+  },
+  {
+    "tier": 2,
+    "name": "Mortal Hunter"
+  },
+  {
+    "tier": 2,
+    "name": "Ravenous Mockery"
+  },
+  {
+    "tier": 2,
+    "name": "Royal Advisor"
+  },
+  {
+    "tier": 2,
+    "name": "Rust Eater"
+  },
+  {
+    "tier": 2,
+    "name": "Scarecrow"
+  },
+  {
+    "tier": 2,
+    "name": "Secret-Keeper"
+  },
+  {
+    "tier": 2,
+    "name": "Shark"
+  },
+  {
+    "tier": 2,
+    "name": "Siren"
+  },
+  {
+    "tier": 2,
+    "name": "Spectral Archer"
+  },
+  {
+    "tier": 2,
+    "name": "Spectral Captain"
+  },
+  {
+    "tier": 2,
+    "name": "Spectral Guardian"
+  },
+  {
+    "tier": 2,
+    "name": "Sprite"
+  },
+  {
+    "tier": 2,
+    "name": "Spy"
+  },
+  {
+    "tier": 2,
+    "name": "Stone Titan"
+  },
+  {
+    "tier": 2,
+    "name": "Stonewraith"
+  },
+  {
+    "tier": 2,
+    "name": "Triceratops"
+  },
+  {
+    "tier": 2,
+    "name": "Tyrannosaurus"
+  },
+  {
+    "tier": 2,
+    "name": "Urco"
+  },
+  {
+    "tier": 2,
+    "name": "Valdenhax"
+  },
+  {
+    "tier": 2,
+    "name": "War Wizard"
+  },
+  {
+    "tier": 3,
+    "name": "Adult Flickerfly"
+  },
+  {
+    "tier": 3,
+    "name": "Archmage"
+  },
+  {
+    "tier": 3,
+    "name": "Catrin"
+  },
+  {
+    "tier": 3,
+    "name": "Chimera"
+  },
+  {
+    "tier": 3,
+    "name": "Crimson Lepus"
+  },
+  {
+    "tier": 3,
+    "name": "Cryptimoth"
+  },
+  {
+    "tier": 3,
+    "name": "Cursed Merfolk"
+  },
+  {
+    "tier": 3,
+    "name": "Deep Dweller"
+  },
+  {
+    "tier": 3,
+    "name": "Demon of Avarice"
+  },
+  {
+    "tier": 3,
+    "name": "Demon of Despair"
+  },
+  {
+    "tier": 3,
+    "name": "Demon of Hubris"
+  },
+  {
+    "tier": 3,
+    "name": "Demon of Jealousy"
+  },
+  {
+    "tier": 3,
+    "name": "Demon of Wrath"
+  },
+  {
+    "tier": 3,
+    "name": "Dire Bat"
+  },
+  {
+    "tier": 3,
+    "name": "Drake"
+  },
+  {
+    "tier": 3,
+    "name": "Dryad"
+  },
+  {
+    "tier": 3,
+    "name": "Dullahan"
+  },
+  {
+    "tier": 3,
+    "name": "Elemental Spark"
+  },
+  {
+    "tier": 3,
+    "name": "Fellmounted Shadow King"
+  },
+  {
+    "tier": 3,
+    "name": "Fire Titan"
+  },
+  {
+    "tier": 3,
+    "name": "Frost Titan"
+  },
+  {
+    "tier": 3,
+    "name": "Gargantuan Sea Turtle"
+  },
+  {
+    "tier": 3,
+    "name": "Greater Earth Elemental"
+  },
+  {
+    "tier": 3,
+    "name": "Greater Water Elemental"
+  },
+  {
+    "tier": 3,
+    "name": "Huge Green Ooze"
+  },
+  {
+    "tier": 3,
+    "name": "Hydra"
+  },
+  {
+    "tier": 3,
+    "name": "Lamia"
+  },
+  {
+    "tier": 3,
+    "name": "Lamplight Beguiler"
+  },
+  {
+    "tier": 3,
+    "name": "Manticore"
+  },
+  {
+    "tier": 3,
+    "name": "Monarch"
+  },
+  {
+    "tier": 3,
+    "name": "Night Children"
+  },
+  {
+    "tier": 3,
+    "name": "Pain Priest"
+  },
+  {
+    "tier": 3,
+    "name": "Phoenix"
+  },
+  {
+    "tier": 3,
+    "name": "Plesiosaurus"
+  },
+  {
+    "tier": 3,
+    "name": "Roc"
+  },
+  {
+    "tier": 3,
+    "name": "Sandwyrm"
+  },
+  {
+    "tier": 3,
+    "name": "Shapeshifting Fiend"
+  },
+  {
+    "tier": 3,
+    "name": "Shapeshifting Fiend Revealed"
+  },
+  {
+    "tier": 3,
+    "name": "Stag Knight"
+  },
+  {
+    "tier": 3,
+    "name": "Storm Titan"
+  },
+  {
+    "tier": 3,
+    "name": "Oak Treant"
+  },
+  {
+    "tier": 3,
+    "name": "Treant Sapling"
+  },
+  {
+    "tier": 3,
+    "name": "Unicorn"
+  },
+  {
+    "tier": 3,
+    "name": "Head Vampire"
+  },
+  {
+    "tier": 3,
+    "name": "Vampire"
+  },
+  {
+    "tier": 3,
+    "name": "Vampire Bat Swarm"
+  },
+  {
+    "tier": 3,
+    "name": "Vampire Lord"
+  },
+  {
+    "tier": 3,
+    "name": "Vault Guardian Gaoler"
+  },
+  {
+    "tier": 3,
+    "name": "Vault Guardian Sentinel"
+  },
+  {
+    "tier": 3,
+    "name": "Vault Guardian Turret"
+  },
+  {
+    "tier": 3,
+    "name": "Viscera Sucker"
+  },
+  {
+    "tier": 3,
+    "name": "Whisper Wraith"
+  },
+  {
+    "tier": 3,
+    "name": "Wyvern"
+  },
+  {
+    "tier": 3,
+    "name": "Young Fire Dragon"
+  },
+  {
+    "tier": 3,
+    "name": "Young Ice Dragon"
+  },
+  {
+    "tier": 4,
+    "name": "Arch-Necromancer"
+  },
+  {
+    "tier": 4,
+    "name": "Cephilith Abomination"
+  },
+  {
+    "tier": 4,
+    "name": "Cephilith Hatchling"
+  },
+  {
+    "tier": 4,
+    "name": "Cephilith Novitiate"
+  },
+  {
+    "tier": 4,
+    "name": "Cephilith Priest"
+  },
+  {
+    "tier": 4,
+    "name": "Cephilith Titan"
+  },
+  {
+    "tier": 4,
+    "name": "Cipactli"
+  },
+  {
+    "tier": 4,
+    "name": "Cloud Titan"
+  },
+  {
+    "tier": 4,
+    "name": "Demon Lord Berzug"
+  },
+  {
+    "tier": 4,
+    "name": "Dragon Mother Mitera"
+  },
+  {
+    "tier": 4,
+    "name": "Fallen Shock Troop"
+  },
+  {
+    "tier": 4,
+    "name": "Fallen Sorcerer"
+  },
+  {
+    "tier": 4,
+    "name": "Fallen Warlord: Realm-Breaker"
+  },
+  {
+    "tier": 4,
+    "name": "Fallen Warlord: Undefeated Champion"
+  },
+  {
+    "tier": 4,
+    "name": "Fire Titan Warlord"
+  },
+  {
+    "tier": 4,
+    "name": "Gargantuan War Machine"
+  },
+  {
+    "tier": 4,
+    "name": "Ghastly Legion"
+  },
+  {
+    "tier": 4,
+    "name": "Griffin"
+  },
+  {
+    "tier": 4,
+    "name": "Hallowed Archer"
+  },
+  {
+    "tier": 4,
+    "name": "Hallowed Choir"
+  },
+  {
+    "tier": 4,
+    "name": "Hallowed Soldier"
+  },
+  {
+    "tier": 4,
+    "name": "Harbinger of Death"
+  },
+  {
+    "tier": 4,
+    "name": "Harbinger of Famine"
+  },
+  {
+    "tier": 4,
+    "name": "Harbinger of Pestilence"
+  },
+  {
+    "tier": 4,
+    "name": "Harbinger of War"
+  },
+  {
+    "tier": 4,
+    "name": "High Seraph"
+  },
+  {
+    "tier": 4,
+    "name": "Kraken"
+  },
+  {
+    "tier": 4,
+    "name": "Oracle of Doom"
+  },
+  {
+    "tier": 4,
+    "name": "Outer Realms Abomination"
+  },
+  {
+    "tier": 4,
+    "name": "Outer Realms Corruptor"
+  },
+  {
+    "tier": 4,
+    "name": "Outer Realms Thrall"
+  },
+  {
+    "tier": 4,
+    "name": "Owl Witch"
+  },
+  {
+    "tier": 4,
+    "name": "Ruby Dragon"
+  },
+  {
+    "tier": 4,
+    "name": "Severed Shadow"
+  },
+  {
+    "tier": 4,
+    "name": "Supreme Demiurge Adonix"
+  },
+  {
+    "tier": 4,
+    "name": "T emporal Enforcer"
+  },
+  {
+    "tier": 4,
+    "name": "Volcanic Dragon: Obsidian Predator"
+  },
+  {
+    "tier": 4,
+    "name": "Volcanic Dragon: Molten Scourge"
+  },
+  {
+    "tier": 4,
+    "name": "Volcanic Dragon: Ashen Tyrant"
+  },
+  {
+    "tier": 4,
+    "name": "Water Mother"
+  },
+  {
+    "tier": 4,
+    "name": "Wyrmfiend"
+  },
+  {
+    "tier": 4,
+    "name": "Wyrmlings"
+  },
+  {
+    "tier": 4,
+    "name": "Xero the Castle Killer"
+  },
+  {
+    "tier": 4,
+    "name": "Perfected Zombie"
+  },
+  {
+    "tier": 4,
+    "name": "Zombie Legion"
+  }
+]

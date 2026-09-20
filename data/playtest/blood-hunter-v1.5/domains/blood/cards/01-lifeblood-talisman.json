@@ -1,0 +1,33 @@
+{
+  "id": "the-void.v1.5.domain_card.lifeblood-talisman",
+  "kind": "domain_card",
+  "identity": {
+    "name": "Lifeblood Talisman",
+    "slug": "lifeblood-talisman"
+  },
+  "source": {
+    "corpus": "the-void",
+    "product": "blood-hunter",
+    "version": "1.5",
+    "status": "playtest"
+  },
+  "provenance": {
+    "source_file": "Bloodhunter-v1.5-The-Void.pdf",
+    "page": 4
+  },
+  "availability": {
+    "in_srd": false,
+    "private_only": true,
+    "deprecated": false
+  },
+  "rules": {
+    "domain": "blood",
+    "level": 1,
+    "card_type": "spell",
+    "recall_cost": 0
+  },
+  "content": {
+    "rules_text": "Mark a Hit Point to conjure a talisman infused with your life essence. The talisman appears in your hand, and whoever carries the talisman gains its benefit: Whenever the talisman’s bearer marks 2 or more Hit Points, they can spend a Hope to reduce the number of Hit Points marked by 1. The talisman disappears if you have no Hit Points marked or you use this spell again.",
+    "validation": "checked_against_pdf_v1.5"
+  }
+}

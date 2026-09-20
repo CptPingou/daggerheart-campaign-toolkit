@@ -1,0 +1,12 @@
+{
+  "phase": "P1.1c",
+  "status": "EXTRACTOR_READY",
+  "canonical_targets": {
+    "armor": 68,
+    "items": 120,
+    "consumables": 120,
+    "beastforms": 24
+  },
+  "weapons": "candidate extraction only; canonical gate deferred to P1.1d",
+  "tool": "tools/extract_srd2_equipment.py"
+}

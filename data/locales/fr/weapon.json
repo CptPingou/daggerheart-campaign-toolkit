@@ -1,0 +1,1081 @@
+{
+  "locale": "fr",
+  "version": "1",
+  "scope": "P2.3.4e-lot1-weapon-identities",
+  "entries": {
+    "srd-2.0.weapon.primary.1.broadsword": {
+      "name": "Épée large"
+    },
+    "srd-2.0.weapon.primary.1.katana": {
+      "name": "Katana"
+    },
+    "srd-2.0.weapon.primary.1.longsword": {
+      "name": "Épée longue"
+    },
+    "srd-2.0.weapon.primary.1.battleaxe": {
+      "name": "Hache de bataille"
+    },
+    "srd-2.0.weapon.primary.1.brass-knuckles": {
+      "name": "Poings américains"
+    },
+    "srd-2.0.weapon.primary.1.greatsword": {
+      "name": "Espadon"
+    },
+    "srd-2.0.weapon.primary.1.mace": {
+      "name": "Masse"
+    },
+    "srd-2.0.weapon.primary.1.warhammer": {
+      "name": "Marteau de guerre"
+    },
+    "srd-2.0.weapon.primary.1.dagger": {
+      "name": "Dague"
+    },
+    "srd-2.0.weapon.primary.1.quarterstaff": {
+      "name": "Bâton de combat"
+    },
+    "srd-2.0.weapon.primary.1.cutlass": {
+      "name": "Sabre"
+    },
+    "srd-2.0.weapon.primary.1.rapier": {
+      "name": "Rapière"
+    },
+    "srd-2.0.weapon.primary.1.scimitar": {
+      "name": "Cimeterre"
+    },
+    "srd-2.0.weapon.primary.1.twisted-dagger": {
+      "name": "Dague torsadée"
+    },
+    "srd-2.0.weapon.primary.1.halberd": {
+      "name": "Hallebarde"
+    },
+    "srd-2.0.weapon.primary.1.spear": {
+      "name": "Lance"
+    },
+    "srd-2.0.weapon.primary.1.whipsword": {
+      "name": "Épée-fouet"
+    },
+    "srd-2.0.weapon.primary.1.rope-dart": {
+      "name": "Dard à corde"
+    },
+    "srd-2.0.weapon.primary.1.shortbow": {
+      "name": "Arc court"
+    },
+    "srd-2.0.weapon.primary.1.crossbow": {
+      "name": "Arbalète"
+    },
+    "srd-2.0.weapon.primary.1.longbow": {
+      "name": "Arc long"
+    },
+    "srd-2.0.weapon.primary.1.arcane-gauntlets": {
+      "name": "Gantelets arcaniques"
+    },
+    "srd-2.0.weapon.primary.1.brightsword": {
+      "name": "Épée lumineuse"
+    },
+    "srd-2.0.weapon.primary.1.hallowed-axe": {
+      "name": "Hache consacrée"
+    },
+    "srd-2.0.weapon.primary.1.shadowblade": {
+      "name": "Lame d’ombre"
+    },
+    "srd-2.0.weapon.primary.1.glowing-rings": {
+      "name": "Anneaux lumineux"
+    },
+    "srd-2.0.weapon.primary.1.hand-runes": {
+      "name": "Runes de main"
+    },
+    "srd-2.0.weapon.primary.1.enchanted-chakram": {
+      "name": "Chakram enchanté"
+    },
+    "srd-2.0.weapon.primary.1.returning-blade": {
+      "name": "Lame de retour"
+    },
+    "srd-2.0.weapon.primary.1.casting-dagger": {
+      "name": "Dague d’incantation"
+    },
+    "srd-2.0.weapon.primary.1.shortstaff": {
+      "name": "Bâton court"
+    },
+    "srd-2.0.weapon.primary.1.dualstaff": {
+      "name": "Bâton double"
+    },
+    "srd-2.0.weapon.primary.1.scepter": {
+      "name": "Sceptre"
+    },
+    "srd-2.0.weapon.primary.1.runelock-pistol": {
+      "name": "Pistolet à verrou runique"
+    },
+    "srd-2.0.weapon.primary.1.wand": {
+      "name": "Baguette"
+    },
+    "srd-2.0.weapon.primary.1.arcane-rifle": {
+      "name": "Fusil arcanique"
+    },
+    "srd-2.0.weapon.primary.1.greatstaff": {
+      "name": "Grand bâton"
+    },
+    "srd-2.0.weapon.primary.2.improved-broadsword": {
+      "name": "Amélioré : Épée large"
+    },
+    "srd-2.0.weapon.primary.2.improved-katana": {
+      "name": "Amélioré : Katana"
+    },
+    "srd-2.0.weapon.primary.2.improved-longsword": {
+      "name": "Amélioré : Épée longue"
+    },
+    "srd-2.0.weapon.primary.2.improved-battleaxe": {
+      "name": "Amélioré : Hache de bataille"
+    },
+    "srd-2.0.weapon.primary.2.improved-brass-knuckles": {
+      "name": "Amélioré : Poings américains"
+    },
+    "srd-2.0.weapon.primary.2.improved-greatsword": {
+      "name": "Amélioré : Espadon"
+    },
+    "srd-2.0.weapon.primary.2.improved-mace": {
+      "name": "Amélioré : Masse"
+    },
+    "srd-2.0.weapon.primary.2.improved-warhammer": {
+      "name": "Amélioré : Marteau de guerre"
+    },
+    "srd-2.0.weapon.primary.2.improved-dagger": {
+      "name": "Amélioré : Dague"
+    },
+    "srd-2.0.weapon.primary.2.improved-quarterstaff": {
+      "name": "Amélioré : Bâton de combat"
+    },
+    "srd-2.0.weapon.primary.2.improved-cutlass": {
+      "name": "Amélioré : Sabre"
+    },
+    "srd-2.0.weapon.primary.2.improved-rapier": {
+      "name": "Amélioré : Rapière"
+    },
+    "srd-2.0.weapon.primary.2.improved-scimitar": {
+      "name": "Amélioré : Cimeterre"
+    },
+    "srd-2.0.weapon.primary.2.improved-twisted-dagger": {
+      "name": "Amélioré : Dague torsadée"
+    },
+    "srd-2.0.weapon.primary.2.improved-halberd": {
+      "name": "Amélioré : Hallebarde"
+    },
+    "srd-2.0.weapon.primary.2.improved-spear": {
+      "name": "Amélioré : Lance"
+    },
+    "srd-2.0.weapon.primary.2.improved-whipsword": {
+      "name": "Amélioré : Épée-fouet"
+    },
+    "srd-2.0.weapon.primary.2.improved-rope-dart": {
+      "name": "Amélioré : Dard à corde"
+    },
+    "srd-2.0.weapon.primary.2.improved-shortbow": {
+      "name": "Amélioré : Arc court"
+    },
+    "srd-2.0.weapon.primary.2.improved-crossbow": {
+      "name": "Amélioré : Arbalète"
+    },
+    "srd-2.0.weapon.primary.2.improved-longbow": {
+      "name": "Amélioré : Arc long"
+    },
+    "srd-2.0.weapon.primary.2.gilded-falchion": {
+      "name": "Fauchon doré"
+    },
+    "srd-2.0.weapon.primary.2.knuckle-blades": {
+      "name": "Lames de poing"
+    },
+    "srd-2.0.weapon.primary.2.war-pick": {
+      "name": "Bec de guerre"
+    },
+    "srd-2.0.weapon.primary.2.cane-sword": {
+      "name": "Canne-épée"
+    },
+    "srd-2.0.weapon.primary.2.urok-broadsword": {
+      "name": "Épée large urok"
+    },
+    "srd-2.0.weapon.primary.2.bladed-fan": {
+      "name": "Éventail à lames"
+    },
+    "srd-2.0.weapon.primary.2.cyrurgiens-scalpel": {
+      "name": "Scalpel de Cyrurgien"
+    },
+    "srd-2.0.weapon.primary.2.bladed-whip": {
+      "name": "Fouet à lames"
+    },
+    "srd-2.0.weapon.primary.2.javelins": {
+      "name": "Javelots"
+    },
+    "srd-2.0.weapon.primary.2.steelforged-halberd": {
+      "name": "Hallebarde forgée d’acier"
+    },
+    "srd-2.0.weapon.primary.2.war-scythe": {
+      "name": "Faux de guerre"
+    },
+    "srd-2.0.weapon.primary.2.lance": {
+      "name": "Lance de cavalerie"
+    },
+    "srd-2.0.weapon.primary.2.blunderbuss": {
+      "name": "Tromblon"
+    },
+    "srd-2.0.weapon.primary.2.greatbow": {
+      "name": "Grand arc"
+    },
+    "srd-2.0.weapon.primary.2.finehair-bow": {
+      "name": "Arc de crin fin"
+    },
+    "srd-2.0.weapon.primary.2.improved-arcane-gauntlets": {
+      "name": "Amélioré : Gantelets arcaniques"
+    },
+    "srd-2.0.weapon.primary.2.improved-brightsword": {
+      "name": "Amélioré : Épée lumineuse"
+    },
+    "srd-2.0.weapon.primary.2.improved-hallowed-axe": {
+      "name": "Amélioré : Hache consacrée"
+    },
+    "srd-2.0.weapon.primary.2.improved-shadowblade": {
+      "name": "Amélioré : Lame d’ombre"
+    },
+    "srd-2.0.weapon.primary.2.improved-glowing-rings": {
+      "name": "Amélioré : Anneaux lumineux"
+    },
+    "srd-2.0.weapon.primary.2.improved-hand-runes": {
+      "name": "Amélioré : Runes de main"
+    },
+    "srd-2.0.weapon.primary.2.improved-enchanted-chakram": {
+      "name": "Amélioré : Chakram enchanté"
+    },
+    "srd-2.0.weapon.primary.2.improved-returning-blade": {
+      "name": "Amélioré : Lame de retour"
+    },
+    "srd-2.0.weapon.primary.2.improved-casting-dagger": {
+      "name": "Amélioré : Dague d’incantation"
+    },
+    "srd-2.0.weapon.primary.2.improved-shortstaff": {
+      "name": "Amélioré : Bâton court"
+    },
+    "srd-2.0.weapon.primary.2.improved-dualstaff": {
+      "name": "Amélioré : Bâton double"
+    },
+    "srd-2.0.weapon.primary.2.improved-scepter": {
+      "name": "Amélioré : Sceptre"
+    },
+    "srd-2.0.weapon.primary.2.improved-runelock-pistol": {
+      "name": "Amélioré : Pistolet à verrou runique"
+    },
+    "srd-2.0.weapon.primary.2.improved-wand": {
+      "name": "Amélioré : Baguette"
+    },
+    "srd-2.0.weapon.primary.2.improved-arcane-rifle": {
+      "name": "Amélioré : Fusil arcanique"
+    },
+    "srd-2.0.weapon.primary.2.improved-greatstaff": {
+      "name": "Amélioré : Grand bâton"
+    },
+    "srd-2.0.weapon.primary.2.ego-blade": {
+      "name": "Lame d’ego"
+    },
+    "srd-2.0.weapon.primary.2.casting-sword": {
+      "name": "Épée d’incantation"
+    },
+    "srd-2.0.weapon.primary.2.enchanted-shillelagh": {
+      "name": "Shillelagh enchanté"
+    },
+    "srd-2.0.weapon.primary.2.devouring-dagger": {
+      "name": "Dague dévorante"
+    },
+    "srd-2.0.weapon.primary.2.displacement-razor": {
+      "name": "Rasoir de déplacement"
+    },
+    "srd-2.0.weapon.primary.2.hammer-of-exota": {
+      "name": "Marteau d’Exota"
+    },
+    "srd-2.0.weapon.primary.2.spellbound-bangles": {
+      "name": "Bracelets ensorcelés"
+    },
+    "srd-2.0.weapon.primary.2.fury-gem": {
+      "name": "Gemme de fureur"
+    },
+    "srd-2.0.weapon.primary.2.enchanted-lute": {
+      "name": "Luth enchanté"
+    },
+    "srd-2.0.weapon.primary.2.splintershaft-bow": {
+      "name": "Arc à hampe éclatée"
+    },
+    "srd-2.0.weapon.primary.2.yutari-bloodbow": {
+      "name": "Arc de sang yutari"
+    },
+    "srd-2.0.weapon.primary.2.elder-bow": {
+      "name": "Arc ancien"
+    },
+    "srd-2.0.weapon.primary.2.scepter-of-elias": {
+      "name": "Sceptre d’Elias"
+    },
+    "srd-2.0.weapon.primary.2.wand-of-enthrallment": {
+      "name": "Baguette d’envoûtement"
+    },
+    "srd-2.0.weapon.primary.2.keeper-s-staff": {
+      "name": "Bâton du Gardien"
+    },
+    "srd-2.0.weapon.primary.3.advanced-broadsword": {
+      "name": "Avancé : Épée large"
+    },
+    "srd-2.0.weapon.primary.3.advanced-katana": {
+      "name": "Avancé : Katana"
+    },
+    "srd-2.0.weapon.primary.3.advanced-longsword": {
+      "name": "Avancé : Épée longue"
+    },
+    "srd-2.0.weapon.primary.3.advanced-battleaxe": {
+      "name": "Avancé : Hache de bataille"
+    },
+    "srd-2.0.weapon.primary.3.advanced-brass-knuckles": {
+      "name": "Avancé : Poings américains"
+    },
+    "srd-2.0.weapon.primary.3.advanced-greatsword": {
+      "name": "Avancé : Espadon"
+    },
+    "srd-2.0.weapon.primary.3.advanced-mace": {
+      "name": "Avancé : Masse"
+    },
+    "srd-2.0.weapon.primary.3.advanced-warhammer": {
+      "name": "Avancé : Marteau de guerre"
+    },
+    "srd-2.0.weapon.primary.3.advanced-dagger": {
+      "name": "Avancé : Dague"
+    },
+    "srd-2.0.weapon.primary.3.advanced-quarterstaff": {
+      "name": "Avancé : Bâton de combat"
+    },
+    "srd-2.0.weapon.primary.3.advanced-cutlass": {
+      "name": "Avancé : Sabre"
+    },
+    "srd-2.0.weapon.primary.3.advanced-rapier": {
+      "name": "Avancé : Rapière"
+    },
+    "srd-2.0.weapon.primary.3.advanced-scimitar": {
+      "name": "Avancé : Cimeterre"
+    },
+    "srd-2.0.weapon.primary.3.advanced-twisted-dagger": {
+      "name": "Avancé : Dague torsadée"
+    },
+    "srd-2.0.weapon.primary.3.advanced-halberd": {
+      "name": "Avancé : Hallebarde"
+    },
+    "srd-2.0.weapon.primary.3.advanced-spear": {
+      "name": "Avancé : Lance"
+    },
+    "srd-2.0.weapon.primary.3.advanced-whipsword": {
+      "name": "Avancé : Épée-fouet"
+    },
+    "srd-2.0.weapon.primary.3.advanced-rope-dart": {
+      "name": "Avancé : Dard à corde"
+    },
+    "srd-2.0.weapon.primary.3.advanced-shortbow": {
+      "name": "Avancé : Arc court"
+    },
+    "srd-2.0.weapon.primary.3.advanced-crossbow": {
+      "name": "Avancé : Arbalète"
+    },
+    "srd-2.0.weapon.primary.3.advanced-longbow": {
+      "name": "Avancé : Arc long"
+    },
+    "srd-2.0.weapon.primary.3.flickerfly-blade": {
+      "name": "Lame de luciole"
+    },
+    "srd-2.0.weapon.primary.3.blitz-hammer": {
+      "name": "Marteau-éclair"
+    },
+    "srd-2.0.weapon.primary.3.bravesword": {
+      "name": "Épée vaillante"
+    },
+    "srd-2.0.weapon.primary.3.hammer-of-wrath": {
+      "name": "Marteau du courroux"
+    },
+    "srd-2.0.weapon.primary.3.labrys-axe": {
+      "name": "Hache labrys"
+    },
+    "srd-2.0.weapon.primary.3.platinum-estoc": {
+      "name": "Estoc de platine"
+    },
+    "srd-2.0.weapon.primary.3.meridian-cutlass": {
+      "name": "Sabre méridien"
+    },
+    "srd-2.0.weapon.primary.3.retractable-saber": {
+      "name": "Sabre rétractable"
+    },
+    "srd-2.0.weapon.primary.3.double-flail": {
+      "name": "Fléau double"
+    },
+    "srd-2.0.weapon.primary.3.soldiers-pike": {
+      "name": "Pique de soldat"
+    },
+    "srd-2.0.weapon.primary.3.chained-scythe": {
+      "name": "Faux enchaînée"
+    },
+    "srd-2.0.weapon.primary.3.singing-sword": {
+      "name": "Épée chantante"
+    },
+    "srd-2.0.weapon.primary.3.talon-blades": {
+      "name": "Lames-serres"
+    },
+    "srd-2.0.weapon.primary.3.bladed-star": {
+      "name": "Étoile à lames"
+    },
+    "srd-2.0.weapon.primary.3.black-powder-revolver": {
+      "name": "Revolver à poudre noire"
+    },
+    "srd-2.0.weapon.primary.3.spiked-bow": {
+      "name": "Arc à pointes"
+    },
+    "srd-2.0.weapon.primary.3.advanced-arcane-gauntlets": {
+      "name": "Avancé : Gantelets arcaniques"
+    },
+    "srd-2.0.weapon.primary.3.advanced-brightsword": {
+      "name": "Avancé : Épée lumineuse"
+    },
+    "srd-2.0.weapon.primary.3.advanced-hallowed-axe": {
+      "name": "Avancé : Hache consacrée"
+    },
+    "srd-2.0.weapon.primary.3.advanced-shadowblade": {
+      "name": "Avancé : Lame d’ombre"
+    },
+    "srd-2.0.weapon.primary.3.advanced-glowing-rings": {
+      "name": "Avancé : Anneaux lumineux"
+    },
+    "srd-2.0.weapon.primary.3.advanced-hand-runes": {
+      "name": "Avancé : Runes de main"
+    },
+    "srd-2.0.weapon.primary.3.advanced-enchanted-chakram": {
+      "name": "Avancé : Chakram enchanté"
+    },
+    "srd-2.0.weapon.primary.3.advanced-returning-blade": {
+      "name": "Avancé : Lame de retour"
+    },
+    "srd-2.0.weapon.primary.3.advanced-casting-dagger": {
+      "name": "Avancé : Dague d’incantation"
+    },
+    "srd-2.0.weapon.primary.3.advanced-shortstaff": {
+      "name": "Avancé : Bâton court"
+    },
+    "srd-2.0.weapon.primary.3.advanced-dualstaff": {
+      "name": "Avancé : Bâton double"
+    },
+    "srd-2.0.weapon.primary.3.advanced-scepter": {
+      "name": "Avancé : Sceptre"
+    },
+    "srd-2.0.weapon.primary.3.advanced-runelock-pistol": {
+      "name": "Avancé : Pistolet à verrou runique"
+    },
+    "srd-2.0.weapon.primary.3.advanced-wand": {
+      "name": "Avancé : Baguette"
+    },
+    "srd-2.0.weapon.primary.3.advanced-arcane-rifle": {
+      "name": "Avancé : Fusil arcanique"
+    },
+    "srd-2.0.weapon.primary.3.advanced-greatstaff": {
+      "name": "Avancé : Grand bâton"
+    },
+    "srd-2.0.weapon.primary.3.rocket-maul": {
+      "name": "Maillet-fusée"
+    },
+    "srd-2.0.weapon.primary.3.crystal-spear": {
+      "name": "Lance de cristal"
+    },
+    "srd-2.0.weapon.primary.3.arc-wand": {
+      "name": "Baguette d’arc"
+    },
+    "srd-2.0.weapon.primary.3.rime-scepter": {
+      "name": "Sceptre de givre"
+    },
+    "srd-2.0.weapon.primary.3.gunblade": {
+      "name": "Lame-pistolet"
+    },
+    "srd-2.0.weapon.primary.3.staff-of-augma": {
+      "name": "Bâton d’Augma"
+    },
+    "srd-2.0.weapon.primary.4.legendary-broadsword": {
+      "name": "Légendaire : Épée large"
+    },
+    "srd-2.0.weapon.primary.4.legendary-katana": {
+      "name": "Légendaire : Katana"
+    },
+    "srd-2.0.weapon.primary.4.legendary-longsword": {
+      "name": "Légendaire : Épée longue"
+    },
+    "srd-2.0.weapon.primary.4.legendary-battleaxe": {
+      "name": "Légendaire : Hache de bataille"
+    },
+    "srd-2.0.weapon.primary.4.legendary-brass-knuckles": {
+      "name": "Légendaire : Poings américains"
+    },
+    "srd-2.0.weapon.primary.4.legendary-greatsword": {
+      "name": "Légendaire : Espadon"
+    },
+    "srd-2.0.weapon.primary.4.legendary-mace": {
+      "name": "Légendaire : Masse"
+    },
+    "srd-2.0.weapon.primary.4.legendary-warhammer": {
+      "name": "Légendaire : Marteau de guerre"
+    },
+    "srd-2.0.weapon.primary.4.legendary-dagger": {
+      "name": "Légendaire : Dague"
+    },
+    "srd-2.0.weapon.primary.4.legendary-quarterstaff": {
+      "name": "Légendaire : Bâton de combat"
+    },
+    "srd-2.0.weapon.primary.4.legendary-cutlass": {
+      "name": "Légendaire : Sabre"
+    },
+    "srd-2.0.weapon.primary.4.legendary-rapier": {
+      "name": "Légendaire : Rapière"
+    },
+    "srd-2.0.weapon.primary.4.legendary-scimitar": {
+      "name": "Légendaire : Cimeterre"
+    },
+    "srd-2.0.weapon.primary.4.legendary-twisted-dagger": {
+      "name": "Légendaire : Dague torsadée"
+    },
+    "srd-2.0.weapon.primary.4.legendary-halberd": {
+      "name": "Légendaire : Hallebarde"
+    },
+    "srd-2.0.weapon.primary.4.legendary-spear": {
+      "name": "Légendaire : Lance"
+    },
+    "srd-2.0.weapon.primary.4.legendary-whipsword": {
+      "name": "Légendaire : Épée-fouet"
+    },
+    "srd-2.0.weapon.primary.4.legendary-rope-dart": {
+      "name": "Légendaire : Dard à corde"
+    },
+    "srd-2.0.weapon.primary.4.legendary-shortbow": {
+      "name": "Légendaire : Arc court"
+    },
+    "srd-2.0.weapon.primary.4.legendary-crossbow": {
+      "name": "Légendaire : Arbalète"
+    },
+    "srd-2.0.weapon.primary.4.legendary-longbow": {
+      "name": "Légendaire : Arc long"
+    },
+    "srd-2.0.weapon.primary.4.dual-ended-sword": {
+      "name": "Épée à double extrémité"
+    },
+    "srd-2.0.weapon.primary.4.impact-gauntlet": {
+      "name": "Gantelet d’impact"
+    },
+    "srd-2.0.weapon.primary.4.sledge-axe": {
+      "name": "Hache-masse"
+    },
+    "srd-2.0.weapon.primary.4.curved-dagger": {
+      "name": "Dague courbe"
+    },
+    "srd-2.0.weapon.primary.4.severed-dragon-claw": {
+      "name": "Griffe de dragon tranchée"
+    },
+    "srd-2.0.weapon.primary.4.infinite-staff": {
+      "name": "Bâton infini"
+    },
+    "srd-2.0.weapon.primary.4.bec-de-corbin": {
+      "name": "Bec de corbin"
+    },
+    "srd-2.0.weapon.primary.4.extended-polearm": {
+      "name": "Arme d’hast allongée"
+    },
+    "srd-2.0.weapon.primary.4.swinging-ropeblade": {
+      "name": "Lame à corde oscillante"
+    },
+    "srd-2.0.weapon.primary.4.black-powder-serpentine": {
+      "name": "Serpentine à poudre noire"
+    },
+    "srd-2.0.weapon.primary.4.ricochet-axes": {
+      "name": "Haches à ricochet"
+    },
+    "srd-2.0.weapon.primary.4.aantari-bow": {
+      "name": "Arc aantari"
+    },
+    "srd-2.0.weapon.primary.4.clockwork-crossbow": {
+      "name": "Arbalète mécanique"
+    },
+    "srd-2.0.weapon.primary.4.arquebus": {
+      "name": "Arquebuse"
+    },
+    "srd-2.0.weapon.primary.4.hand-cannon": {
+      "name": "Canon à main"
+    },
+    "srd-2.0.weapon.primary.4.legendary-arcane-gauntlets": {
+      "name": "Légendaire : Gantelets arcaniques"
+    },
+    "srd-2.0.weapon.primary.4.legendary-brightsword": {
+      "name": "Légendaire : Épée lumineuse"
+    },
+    "srd-2.0.weapon.primary.4.legendary-hallowed-axe": {
+      "name": "Légendaire : Hache consacrée"
+    },
+    "srd-2.0.weapon.primary.4.legendary-shadowblade": {
+      "name": "Légendaire : Lame d’ombre"
+    },
+    "srd-2.0.weapon.primary.4.legendary-glowing-rings": {
+      "name": "Légendaire : Anneaux lumineux"
+    },
+    "srd-2.0.weapon.primary.4.legendary-hand-runes": {
+      "name": "Légendaire : Runes de main"
+    },
+    "srd-2.0.weapon.primary.4.legendary-enchanted-chakram": {
+      "name": "Légendaire : Chakram enchanté"
+    },
+    "srd-2.0.weapon.primary.4.legendary-returning-blade": {
+      "name": "Légendaire : Lame de retour"
+    },
+    "srd-2.0.weapon.primary.4.legendary-casting-dagger": {
+      "name": "Légendaire : Dague d’incantation"
+    },
+    "srd-2.0.weapon.primary.4.legendary-shortstaff": {
+      "name": "Légendaire : Bâton court"
+    },
+    "srd-2.0.weapon.primary.4.legendary-dualstaff": {
+      "name": "Légendaire : Bâton double"
+    },
+    "srd-2.0.weapon.primary.4.legendary-scepter": {
+      "name": "Légendaire : Sceptre"
+    },
+    "srd-2.0.weapon.primary.4.legendary-runelock-pistol": {
+      "name": "Légendaire : Pistolet à verrou runique"
+    },
+    "srd-2.0.weapon.primary.4.legendary-wand": {
+      "name": "Légendaire : Baguette"
+    },
+    "srd-2.0.weapon.primary.4.legendary-arcane-rifle": {
+      "name": "Légendaire : Fusil arcanique"
+    },
+    "srd-2.0.weapon.primary.4.legendary-greatstaff": {
+      "name": "Légendaire : Grand bâton"
+    },
+    "srd-2.0.weapon.primary.4.starmetal-blade": {
+      "name": "Lame de métal stellaire"
+    },
+    "srd-2.0.weapon.primary.4.sword-of-light-flame": {
+      "name": "Épée de lumière et de flamme"
+    },
+    "srd-2.0.weapon.primary.4.adders-fang": {
+      "name": "Croc de vipère"
+    },
+    "srd-2.0.weapon.primary.4.demons-edge": {
+      "name": "Tranchant du démon"
+    },
+    "srd-2.0.weapon.primary.4.siphoning-gauntlets": {
+      "name": "Gantelets siphonneurs"
+    },
+    "srd-2.0.weapon.primary.4.midas-scythe": {
+      "name": "Faux de Midas"
+    },
+    "srd-2.0.weapon.primary.4.storm-gods-greataxe": {
+      "name": "Grande hache du dieu des tempêtes"
+    },
+    "srd-2.0.weapon.primary.4.floating-bladeshards": {
+      "name": "Éclats de lame flottants"
+    },
+    "srd-2.0.weapon.primary.4.bloodstaff": {
+      "name": "Bâton de sang"
+    },
+    "srd-2.0.weapon.primary.4.thistlebow": {
+      "name": "Arc de chardon"
+    },
+    "srd-2.0.weapon.primary.4.gravity-arbalest": {
+      "name": "Arbalète gravitationnelle"
+    },
+    "srd-2.0.weapon.primary.4.wand-of-essek": {
+      "name": "Baguette d’Essek"
+    },
+    "srd-2.0.weapon.primary.4.magus-revolver": {
+      "name": "Revolver du mage"
+    },
+    "srd-2.0.weapon.primary.4.fusion-gloves": {
+      "name": "Gants de fusion"
+    },
+    "srd-2.0.weapon.secondary.1.hatchet": {
+      "name": "Hachette"
+    },
+    "srd-2.0.weapon.secondary.1.shortsword": {
+      "name": "Épée courte"
+    },
+    "srd-2.0.weapon.secondary.1.offhand-brass-knuckles": {
+      "name": "Poings américains de main secondaire"
+    },
+    "srd-2.0.weapon.secondary.1.round-shield": {
+      "name": "Bouclier rond"
+    },
+    "srd-2.0.weapon.secondary.1.tower-shield": {
+      "name": "Pavois"
+    },
+    "srd-2.0.weapon.secondary.1.small-dagger": {
+      "name": "Petite dague"
+    },
+    "srd-2.0.weapon.secondary.1.throwing-knives": {
+      "name": "Couteaux de lancer"
+    },
+    "srd-2.0.weapon.secondary.1.fighting-cloak": {
+      "name": "Cape de combat"
+    },
+    "srd-2.0.weapon.secondary.1.rune-shield": {
+      "name": "Bouclier runique"
+    },
+    "srd-2.0.weapon.secondary.1.focus-runes": {
+      "name": "Runes de focalisation"
+    },
+    "srd-2.0.weapon.secondary.1.whip": {
+      "name": "Fouet"
+    },
+    "srd-2.0.weapon.secondary.1.grappler": {
+      "name": "Grappin"
+    },
+    "srd-2.0.weapon.secondary.1.hand-crossbow": {
+      "name": "Arbalète de poing"
+    },
+    "srd-2.0.weapon.secondary.2.improved-hatchet": {
+      "name": "Amélioré : Hachette"
+    },
+    "srd-2.0.weapon.secondary.2.improved-shortsword": {
+      "name": "Amélioré : Épée courte"
+    },
+    "srd-2.0.weapon.secondary.2.improved-offhand-brass-knuckles": {
+      "name": "Amélioré : Poings américains de main secondaire"
+    },
+    "srd-2.0.weapon.secondary.2.improved-round-shield": {
+      "name": "Amélioré : Bouclier rond"
+    },
+    "srd-2.0.weapon.secondary.2.improved-tower-shield": {
+      "name": "Amélioré : Pavois"
+    },
+    "srd-2.0.weapon.secondary.2.improved-small-dagger": {
+      "name": "Amélioré : Petite dague"
+    },
+    "srd-2.0.weapon.secondary.2.improved-throwing-knives": {
+      "name": "Amélioré : Couteaux de lancer"
+    },
+    "srd-2.0.weapon.secondary.2.improved-fighting-cloak": {
+      "name": "Amélioré : Cape de combat"
+    },
+    "srd-2.0.weapon.secondary.2.improved-rune-shield": {
+      "name": "Amélioré : Bouclier runique"
+    },
+    "srd-2.0.weapon.secondary.2.improved-focus-runes": {
+      "name": "Amélioré : Runes de focalisation"
+    },
+    "srd-2.0.weapon.secondary.2.improved-whip": {
+      "name": "Amélioré : Fouet"
+    },
+    "srd-2.0.weapon.secondary.2.improved-grappler": {
+      "name": "Amélioré : Grappin"
+    },
+    "srd-2.0.weapon.secondary.2.improved-hand-crossbow": {
+      "name": "Amélioré : Arbalète de poing"
+    },
+    "srd-2.0.weapon.secondary.2.collapsible-baton": {
+      "name": "Matraque télescopique"
+    },
+    "srd-2.0.weapon.secondary.2.spiked-shield": {
+      "name": "Bouclier à pointes"
+    },
+    "srd-2.0.weapon.secondary.2.parrying-dagger": {
+      "name": "Dague de parade"
+    },
+    "srd-2.0.weapon.secondary.2.eldritch-vambrace": {
+      "name": "Brassard occulte"
+    },
+    "srd-2.0.weapon.secondary.2.segmented-staff": {
+      "name": "Bâton segmenté"
+    },
+    "srd-2.0.weapon.secondary.2.razor-wire": {
+      "name": "Fil barbelé"
+    },
+    "srd-2.0.weapon.secondary.2.returning-axe": {
+      "name": "Hache de retour"
+    },
+    "srd-2.0.weapon.secondary.3.advanced-hatchet": {
+      "name": "Avancé : Hachette"
+    },
+    "srd-2.0.weapon.secondary.3.advanced-shortsword": {
+      "name": "Avancé : Épée courte"
+    },
+    "srd-2.0.weapon.secondary.3.advanced-offhand-brass-knuckles": {
+      "name": "Avancé : Poings américains de main secondaire"
+    },
+    "srd-2.0.weapon.secondary.3.advanced-round-shield": {
+      "name": "Avancé : Bouclier rond"
+    },
+    "srd-2.0.weapon.secondary.3.advanced-tower-shield": {
+      "name": "Avancé : Pavois"
+    },
+    "srd-2.0.weapon.secondary.3.advanced-small-dagger": {
+      "name": "Avancé : Petite dague"
+    },
+    "srd-2.0.weapon.secondary.3.advanced-throwing-knives": {
+      "name": "Avancé : Couteaux de lancer"
+    },
+    "srd-2.0.weapon.secondary.3.advanced-fighting-cloak": {
+      "name": "Avancé : Cape de combat"
+    },
+    "srd-2.0.weapon.secondary.3.advanced-rune-shield": {
+      "name": "Avancé : Bouclier runique"
+    },
+    "srd-2.0.weapon.secondary.3.advanced-focus-runes": {
+      "name": "Avancé : Runes de focalisation"
+    },
+    "srd-2.0.weapon.secondary.3.advanced-whip": {
+      "name": "Avancé : Fouet"
+    },
+    "srd-2.0.weapon.secondary.3.advanced-grappler": {
+      "name": "Avancé : Grappin"
+    },
+    "srd-2.0.weapon.secondary.3.advanced-hand-crossbow": {
+      "name": "Avancé : Arbalète de poing"
+    },
+    "srd-2.0.weapon.secondary.3.buckler": {
+      "name": "Rondache"
+    },
+    "srd-2.0.weapon.secondary.3.tinkers-hammer": {
+      "name": "Marteau de bricoleur"
+    },
+    "srd-2.0.weapon.secondary.3.vorpal-shard": {
+      "name": "Éclat vorpal"
+    },
+    "srd-2.0.weapon.secondary.3.soul-chain": {
+      "name": "Chaîne d’âme"
+    },
+    "srd-2.0.weapon.secondary.3.powered-gauntlet": {
+      "name": "Gantelet motorisé"
+    },
+    "srd-2.0.weapon.secondary.3.war-dart": {
+      "name": "Dard de guerre"
+    },
+    "srd-2.0.weapon.secondary.3.hand-sling": {
+      "name": "Fronde"
+    },
+    "srd-2.0.weapon.secondary.4.legendary-hatchet": {
+      "name": "Légendaire : Hachette"
+    },
+    "srd-2.0.weapon.secondary.4.legendary-shortsword": {
+      "name": "Légendaire : Épée courte"
+    },
+    "srd-2.0.weapon.secondary.4.legendary-offhand-brass-knuckles": {
+      "name": "Légendaire : Poings américains de main secondaire"
+    },
+    "srd-2.0.weapon.secondary.4.legendary-round-shield": {
+      "name": "Légendaire : Bouclier rond"
+    },
+    "srd-2.0.weapon.secondary.4.legendary-tower-shield": {
+      "name": "Légendaire : Pavois"
+    },
+    "srd-2.0.weapon.secondary.4.legendary-small-dagger": {
+      "name": "Légendaire : Petite dague"
+    },
+    "srd-2.0.weapon.secondary.4.legendary-throwing-knives": {
+      "name": "Légendaire : Couteaux de lancer"
+    },
+    "srd-2.0.weapon.secondary.4.legendary-fighting-cloak": {
+      "name": "Légendaire : Cape de combat"
+    },
+    "srd-2.0.weapon.secondary.4.legendary-rune-shield": {
+      "name": "Légendaire : Bouclier runique"
+    },
+    "srd-2.0.weapon.secondary.4.legendary-focus-runes": {
+      "name": "Légendaire : Runes de focalisation"
+    },
+    "srd-2.0.weapon.secondary.4.legendary-whip": {
+      "name": "Légendaire : Fouet"
+    },
+    "srd-2.0.weapon.secondary.4.legendary-grappler": {
+      "name": "Légendaire : Grappin"
+    },
+    "srd-2.0.weapon.secondary.4.legendary-hand-crossbow": {
+      "name": "Légendaire : Arbalète de poing"
+    },
+    "srd-2.0.weapon.secondary.4.braveshield": {
+      "name": "Bouclier vaillant"
+    },
+    "srd-2.0.weapon.secondary.4.knuckle-claws": {
+      "name": "Griffes de poing"
+    },
+    "srd-2.0.weapon.secondary.4.void-needle": {
+      "name": "Aiguille du Vide"
+    },
+    "srd-2.0.weapon.secondary.4.echo-blade": {
+      "name": "Lame d’écho"
+    },
+    "srd-2.0.weapon.secondary.4.orb": {
+      "name": "Orbe"
+    },
+    "srd-2.0.weapon.secondary.4.primer-shard": {
+      "name": "Éclat d’amorce"
+    },
+    "srd-2.0.weapon.secondary.4.blackblood-tendril": {
+      "name": "Vrille de sang noir"
+    },
+    "srd-2.0.weapon.supplemental-western.primary.1.revolver": {
+      "name": "Revolver"
+    },
+    "srd-2.0.weapon.supplemental-western.primary.2.revolver": {
+      "name": "Revolver"
+    },
+    "srd-2.0.weapon.supplemental-western.primary.3.revolver": {
+      "name": "Revolver"
+    },
+    "srd-2.0.weapon.supplemental-western.primary.4.revolver": {
+      "name": "Revolver"
+    },
+    "srd-2.0.weapon.supplemental-western.primary.1.rifle": {
+      "name": "Fusil"
+    },
+    "srd-2.0.weapon.supplemental-western.primary.2.rifle": {
+      "name": "Fusil"
+    },
+    "srd-2.0.weapon.supplemental-western.primary.3.rifle": {
+      "name": "Fusil"
+    },
+    "srd-2.0.weapon.supplemental-western.primary.4.rifle": {
+      "name": "Fusil"
+    },
+    "srd-2.0.weapon.supplemental-western.primary.1.shotgun": {
+      "name": "Fusil à pompe"
+    },
+    "srd-2.0.weapon.supplemental-western.primary.2.shotgun": {
+      "name": "Fusil à pompe"
+    },
+    "srd-2.0.weapon.supplemental-western.primary.3.shotgun": {
+      "name": "Fusil à pompe"
+    },
+    "srd-2.0.weapon.supplemental-western.primary.4.shotgun": {
+      "name": "Fusil à pompe"
+    },
+    "srd-2.0.weapon.supplemental-western.secondary.1.lasso": {
+      "name": "Lasso"
+    },
+    "srd-2.0.weapon.supplemental-western.secondary.2.lasso": {
+      "name": "Lasso"
+    },
+    "srd-2.0.weapon.supplemental-western.secondary.3.lasso": {
+      "name": "Lasso"
+    },
+    "srd-2.0.weapon.supplemental-western.secondary.4.lasso": {
+      "name": "Lasso"
+    },
+    "srd-2.0.weapon.supplemental-western.secondary.1.small-revolver": {
+      "name": "Petit revolver"
+    },
+    "srd-2.0.weapon.supplemental-western.secondary.2.small-revolver": {
+      "name": "Petit revolver"
+    },
+    "srd-2.0.weapon.supplemental-western.secondary.3.small-revolver": {
+      "name": "Petit revolver"
+    },
+    "srd-2.0.weapon.supplemental-western.secondary.4.small-revolver": {
+      "name": "Petit revolver"
+    },
+    "srd-2.0.weapon.supplemental-monster-hunting.primary.1.blessed-brass-knuckles": {
+      "name": "Poings américains bénis"
+    },
+    "srd-2.0.weapon.supplemental-monster-hunting.primary.2.blessed-brass-knuckles": {
+      "name": "Poings américains bénis"
+    },
+    "srd-2.0.weapon.supplemental-monster-hunting.primary.3.blessed-brass-knuckles": {
+      "name": "Poings américains bénis"
+    },
+    "srd-2.0.weapon.supplemental-monster-hunting.primary.4.blessed-brass-knuckles": {
+      "name": "Poings américains bénis"
+    },
+    "srd-2.0.weapon.supplemental-monster-hunting.primary.1.holy-shotgun": {
+      "name": "Fusil à pompe sacré"
+    },
+    "srd-2.0.weapon.supplemental-monster-hunting.primary.2.holy-shotgun": {
+      "name": "Fusil à pompe sacré"
+    },
+    "srd-2.0.weapon.supplemental-monster-hunting.primary.3.holy-shotgun": {
+      "name": "Fusil à pompe sacré"
+    },
+    "srd-2.0.weapon.supplemental-monster-hunting.primary.4.holy-shotgun": {
+      "name": "Fusil à pompe sacré"
+    },
+    "srd-2.0.weapon.supplemental-monster-hunting.primary.1.repeating-crossbow": {
+      "name": "Arbalète à répétition"
+    },
+    "srd-2.0.weapon.supplemental-monster-hunting.primary.2.repeating-crossbow": {
+      "name": "Arbalète à répétition"
+    },
+    "srd-2.0.weapon.supplemental-monster-hunting.primary.3.repeating-crossbow": {
+      "name": "Arbalète à répétition"
+    },
+    "srd-2.0.weapon.supplemental-monster-hunting.primary.4.repeating-crossbow": {
+      "name": "Arbalète à répétition"
+    },
+    "srd-2.0.weapon.supplemental-monster-hunting.secondary.1.wooden-stake": {
+      "name": "Pieu de bois"
+    },
+    "srd-2.0.weapon.supplemental-monster-hunting.secondary.2.wooden-stake": {
+      "name": "Pieu de bois"
+    },
+    "srd-2.0.weapon.supplemental-monster-hunting.secondary.3.wooden-stake": {
+      "name": "Pieu de bois"
+    },
+    "srd-2.0.weapon.supplemental-monster-hunting.secondary.4.wooden-stake": {
+      "name": "Pieu de bois"
+    },
+    "srd-2.0.weapon.supplemental-monster-hunting.secondary.1.hallowed-shield": {
+      "name": "Bouclier consacré"
+    },
+    "srd-2.0.weapon.supplemental-monster-hunting.secondary.2.hallowed-shield": {
+      "name": "Bouclier consacré"
+    },
+    "srd-2.0.weapon.supplemental-monster-hunting.secondary.3.hallowed-shield": {
+      "name": "Bouclier consacré"
+    },
+    "srd-2.0.weapon.supplemental-monster-hunting.secondary.4.hallowed-shield": {
+      "name": "Bouclier consacré"
+    },
+    "srd-2.0.weapon.supplemental-monster-hunting.secondary.1.chain-whip": {
+      "name": "Fouet-chaîne"
+    },
+    "srd-2.0.weapon.supplemental-monster-hunting.secondary.2.chain-whip": {
+      "name": "Fouet-chaîne"
+    },
+    "srd-2.0.weapon.supplemental-monster-hunting.secondary.3.chain-whip": {
+      "name": "Fouet-chaîne"
+    },
+    "srd-2.0.weapon.supplemental-monster-hunting.secondary.4.chain-whip": {
+      "name": "Fouet-chaîne"
+    },
+    "srd-2.0.weapon.combat-wheelchair.1.light-frame-wheelchair": {
+      "name": "Fauteuil de combat à châssis léger"
+    },
+    "srd-2.0.weapon.combat-wheelchair.2.improved-light-frame-wheelchair": {
+      "name": "Amélioré : Fauteuil de combat à châssis léger"
+    },
+    "srd-2.0.weapon.combat-wheelchair.3.advanced-light-frame-wheelchair": {
+      "name": "Avancé : Fauteuil de combat à châssis léger"
+    },
+    "srd-2.0.weapon.combat-wheelchair.4.legendary-light-frame-wheelchair": {
+      "name": "Légendaire : Fauteuil de combat à châssis léger"
+    },
+    "srd-2.0.weapon.combat-wheelchair.1.heavy-frame-wheelchair": {
+      "name": "Fauteuil de combat à châssis lourd"
+    },
+    "srd-2.0.weapon.combat-wheelchair.2.improved-heavy-frame-wheelchair": {
+      "name": "Amélioré : Fauteuil de combat à châssis lourd"
+    },
+    "srd-2.0.weapon.combat-wheelchair.3.advanced-heavy-frame-wheelchair": {
+      "name": "Avancé : Fauteuil de combat à châssis lourd"
+    },
+    "srd-2.0.weapon.combat-wheelchair.4.legendary-heavy-frame-wheelchair": {
+      "name": "Légendaire : Fauteuil de combat à châssis lourd"
+    },
+    "srd-2.0.weapon.combat-wheelchair.1.arcane-frame-wheelchair": {
+      "name": "Fauteuil de combat à châssis arcanique"
+    },
+    "srd-2.0.weapon.combat-wheelchair.2.improved-arcane-frame-wheelchair": {
+      "name": "Amélioré : Fauteuil de combat à châssis arcanique"
+    },
+    "srd-2.0.weapon.combat-wheelchair.3.advanced-arcane-frame-wheelchair": {
+      "name": "Avancé : Fauteuil de combat à châssis arcanique"
+    },
+    "srd-2.0.weapon.combat-wheelchair.4.legendary-arcane-frame-wheelchair": {
+      "name": "Légendaire : Fauteuil de combat à châssis arcanique"
+    }
+  }
+}

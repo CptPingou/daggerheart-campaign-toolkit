@@ -1,0 +1,611 @@
+[
+  {
+    "id": "srd-2.0.domain-card.midnight.pick-and-pull",
+    "kind": "domain_card",
+    "identity": {
+      "name": "Pick And Pull",
+      "slug": "pick-and-pull"
+    },
+    "source": {
+      "corpus": "daggerheart-srd",
+      "product": "srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    },
+    "rules": {
+      "domain": "midnight",
+      "level": 1,
+      "card_type": "ability",
+      "recall_cost": 0
+    },
+    "content": {
+      "rules_text": "You have advantage on action rolls to pick nonmagical locks, \ndisarm nonmagical traps, or steal items from a target (either \nthrough stealth or by force).",
+      "notes": null
+    }
+  },
+  {
+    "id": "srd-2.0.domain-card.midnight.rain-of-blades",
+    "kind": "domain_card",
+    "identity": {
+      "name": "Rain Of Blades",
+      "slug": "rain-of-blades"
+    },
+    "source": {
+      "corpus": "daggerheart-srd",
+      "product": "srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    },
+    "rules": {
+      "domain": "midnight",
+      "level": 1,
+      "card_type": "spell",
+      "recall_cost": 1
+    },
+    "content": {
+      "rules_text": "Spend a Hope to make a Spellcast Roll and conjure throwing \nblades that strike out at all targets within Very Close range. \nT argets you succeed against take d8+2 magic damage using \nyour Proficiency. \nIf a target you hit is Vulnerable, they take an extra 1d8 damage.",
+      "notes": null
+    }
+  },
+  {
+    "id": "srd-2.0.domain-card.midnight.uncanny-disguise",
+    "kind": "domain_card",
+    "identity": {
+      "name": "Uncanny Disguise",
+      "slug": "uncanny-disguise"
+    },
+    "source": {
+      "corpus": "daggerheart-srd",
+      "product": "srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    },
+    "rules": {
+      "domain": "midnight",
+      "level": 1,
+      "card_type": "spell",
+      "recall_cost": 0
+    },
+    "content": {
+      "rules_text": "When you have a few minutes to prepare, you can mark a \nStress to don the facade of any humanoid you can picture \nclearly in your mind. While disguised, you have advantage on \nPresence Rolls to avoid scrutiny.\nPlace a number of tokens equal to your Spellcast trait on this \ncard. When you take an action while disguised, spend a token \nfrom this card. After the action that spends the last token is \nresolved, the disguise drops.\n216\nDaggerheart SRD",
+      "notes": null
+    }
+  },
+  {
+    "id": "srd-2.0.domain-card.midnight.midnight-spirit",
+    "kind": "domain_card",
+    "identity": {
+      "name": "Midnight Spirit",
+      "slug": "midnight-spirit"
+    },
+    "source": {
+      "corpus": "daggerheart-srd",
+      "product": "srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    },
+    "rules": {
+      "domain": "midnight",
+      "level": 2,
+      "card_type": "spell",
+      "recall_cost": 1
+    },
+    "content": {
+      "rules_text": "Spend a Hope to summon a humanoid-sized spirit that can \nmove or carry things for you until your next rest.\nYou can also send it to attack an adversary. When you do, \nmake a Spellcast Roll against a target within Very Far range. \nOn a success, the spirit moves into Melee range with that \ntarget. Roll a number of d6s equal to your Spellcast trait and \ndeal that much magic damage to the target. The spirit then \ndissipates. You can only have one spirit at a time.",
+      "notes": null
+    }
+  },
+  {
+    "id": "srd-2.0.domain-card.midnight.shadowbind",
+    "kind": "domain_card",
+    "identity": {
+      "name": "Shadowbind",
+      "slug": "shadowbind"
+    },
+    "source": {
+      "corpus": "daggerheart-srd",
+      "product": "srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    },
+    "rules": {
+      "domain": "midnight",
+      "level": 2,
+      "card_type": "spell",
+      "recall_cost": 0
+    },
+    "content": {
+      "rules_text": "Make a Spellcast Roll against all adversaries within Very Close \nrange. T argets you succeed against are temporarily Restrained \nas their shadow binds them in place.",
+      "notes": null
+    }
+  },
+  {
+    "id": "srd-2.0.domain-card.midnight.chokehold",
+    "kind": "domain_card",
+    "identity": {
+      "name": "Chokehold",
+      "slug": "chokehold"
+    },
+    "source": {
+      "corpus": "daggerheart-srd",
+      "product": "srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    },
+    "rules": {
+      "domain": "midnight",
+      "level": 3,
+      "card_type": "ability",
+      "recall_cost": 1
+    },
+    "content": {
+      "rules_text": "When you position yourself behind a creature who’s about \nyour size, you can mark a Stress to pull them into a chokehold, \nmaking them temporarily Vulnerable. \nWhen a creature attacks a target who is Vulnerable in this way, \nthey deal an extra 2d6 damage.",
+      "notes": null
+    }
+  },
+  {
+    "id": "srd-2.0.domain-card.midnight.veil-of-night",
+    "kind": "domain_card",
+    "identity": {
+      "name": "Veil Of Night",
+      "slug": "veil-of-night"
+    },
+    "source": {
+      "corpus": "daggerheart-srd",
+      "product": "srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    },
+    "rules": {
+      "domain": "midnight",
+      "level": 3,
+      "card_type": "spell",
+      "recall_cost": 1
+    },
+    "content": {
+      "rules_text": "Make a Spellcast Roll (13). On a success, you can create a \ntemporary curtain of darkness between two points within \nFar range. Only you can see through this darkness. You’re \nconsidered Hidden to adversaries on the other side of the veil, \nand you have advantage on attacks you make through the \ndarkness. The veil remains until you cast another spell.",
+      "notes": null
+    }
+  },
+  {
+    "id": "srd-2.0.domain-card.midnight.stealth-expertise",
+    "kind": "domain_card",
+    "identity": {
+      "name": "Stealth Expertise",
+      "slug": "stealth-expertise"
+    },
+    "source": {
+      "corpus": "daggerheart-srd",
+      "product": "srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    },
+    "rules": {
+      "domain": "midnight",
+      "level": 4,
+      "card_type": "ability",
+      "recall_cost": 0
+    },
+    "content": {
+      "rules_text": "When you roll with Fear while attempting to move unnoticed \nthrough a dangerous area, you can mark a Stress to roll with \nHope instead.\nIf an ally within Close range is also attempting to move \nunnoticed and rolls with Fear, you can mark a Stress to change \ntheir result to a roll with Hope.",
+      "notes": null
+    }
+  },
+  {
+    "id": "srd-2.0.domain-card.midnight.glyph-of-nightfall",
+    "kind": "domain_card",
+    "identity": {
+      "name": "Glyph Of Nightfall",
+      "slug": "glyph-of-nightfall"
+    },
+    "source": {
+      "corpus": "daggerheart-srd",
+      "product": "srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    },
+    "rules": {
+      "domain": "midnight",
+      "level": 4,
+      "card_type": "spell",
+      "recall_cost": 1
+    },
+    "content": {
+      "rules_text": "Make a Spellcast Roll against a target within Very Close range. \nOn a success, spend a Hope to conjure a dark glyph upon their \nbody that exposes their weak points, temporarily reducing \nthe target’s Difficulty by a value equal to your Knowledge \n(minimum 1).",
+      "notes": null
+    }
+  },
+  {
+    "id": "srd-2.0.domain-card.midnight.hush",
+    "kind": "domain_card",
+    "identity": {
+      "name": "Hush",
+      "slug": "hush"
+    },
+    "source": {
+      "corpus": "daggerheart-srd",
+      "product": "srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    },
+    "rules": {
+      "domain": "midnight",
+      "level": 5,
+      "card_type": "spell",
+      "recall_cost": 1
+    },
+    "content": {
+      "rules_text": "Make a Spellcast Roll against a target within Close range. On \na success, spend a Hope to conjure suppressive magic around \nthe target that encompasses everything within Very Close \nrange of them and follows them as they move. \nThe target and anything within the area is Silenced until the \nGM spends a Fear on their turn to clear this condition, you cast \nHush again, or you take Major damage. While Silenced, they \ncan’t make noise and can’t cast spells.",
+      "notes": null
+    }
+  },
+  {
+    "id": "srd-2.0.domain-card.midnight.phantom-retreat",
+    "kind": "domain_card",
+    "identity": {
+      "name": "Phantom Retreat",
+      "slug": "phantom-retreat"
+    },
+    "source": {
+      "corpus": "daggerheart-srd",
+      "product": "srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    },
+    "rules": {
+      "domain": "midnight",
+      "level": 5,
+      "card_type": "spell",
+      "recall_cost": 2
+    },
+    "content": {
+      "rules_text": "Spend a Hope to activate Phantom Retreat where you’re \ncurrently standing. Spend another Hope at any time before \nyour next rest to disappear from where you are and reappear \nwhere you were standing when you activated Phantom Retreat. \nThis spell ends after you reappear.",
+      "notes": null
+    }
+  },
+  {
+    "id": "srd-2.0.domain-card.midnight.dark-whispers",
+    "kind": "domain_card",
+    "identity": {
+      "name": "Dark Whispers",
+      "slug": "dark-whispers"
+    },
+    "source": {
+      "corpus": "daggerheart-srd",
+      "product": "srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    },
+    "rules": {
+      "domain": "midnight",
+      "level": 6,
+      "card_type": "spell",
+      "recall_cost": 0
+    },
+    "content": {
+      "rules_text": "You can speak into the mind of any person with whom you’ve \nmade physical contact. Once you’ve opened a channel with \nthem, they can speak back into your mind. Additionally, you \ncan mark a Stress to make a Spellcast Roll against them. On \na success, you can ask the GM one of the following questions \nand receive an answer:\n ◦ Where are they?\n ◦ What are they doing?\n ◦ What are they afraid of?\n ◦ What do they cherish most in the world?",
+      "notes": null
+    }
+  },
+  {
+    "id": "srd-2.0.domain-card.midnight.mass-disguise",
+    "kind": "domain_card",
+    "identity": {
+      "name": "Mass Disguise",
+      "slug": "mass-disguise"
+    },
+    "source": {
+      "corpus": "daggerheart-srd",
+      "product": "srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    },
+    "rules": {
+      "domain": "midnight",
+      "level": 6,
+      "card_type": "spell",
+      "recall_cost": 0
+    },
+    "content": {
+      "rules_text": "When you have a few minutes of silence to focus, you can \nmark a Stress to change the appearance of all willing creatures \nwithin Close range. Their new forms must share a general body \nstructure and size, and can be somebody or something you’ve \nseen before or entirely fabricated. A disguised creature has \nadvantage on Presence Rolls to avoid scrutiny.\nActivate a Countdown (8). It ticks down as a consequence the \nGM chooses. When it triggers, the disguise drops.",
+      "notes": null
+    }
+  },
+  {
+    "id": "srd-2.0.domain-card.midnight.midnight-touched",
+    "kind": "domain_card",
+    "identity": {
+      "name": "Midnight-Touched",
+      "slug": "midnight-touched"
+    },
+    "source": {
+      "corpus": "daggerheart-srd",
+      "product": "srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    },
+    "rules": {
+      "domain": "midnight",
+      "level": 7,
+      "card_type": "ability",
+      "recall_cost": 2
+    },
+    "content": {
+      "rules_text": "When 4 or more of the domain cards in your loadout are from \nthe Midnight domain, gain the following benefits:\n ◦ Once per rest, when you have 0 Hope and the GM would \ngain a Fear, you can gain a Hope instead.\n ◦ When you make a successful attack, you can mark a \nStress to add the result of your Fear Die to your damage \nroll.\n217\nDaggerheart SRD",
+      "notes": null
+    }
+  },
+  {
+    "id": "srd-2.0.domain-card.midnight.vanishing-dodge",
+    "kind": "domain_card",
+    "identity": {
+      "name": "Vanishing Dodge",
+      "slug": "vanishing-dodge"
+    },
+    "source": {
+      "corpus": "daggerheart-srd",
+      "product": "srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    },
+    "rules": {
+      "domain": "midnight",
+      "level": 7,
+      "card_type": "spell",
+      "recall_cost": 1
+    },
+    "content": {
+      "rules_text": "When an attack made against you that would deal physical \ndamage fails, you can spend a Hope to envelop yourself in \nshadow, becoming Hidden and teleporting to a point within \nClose range of the attacker. You remain Hidden until the next \ntime you make an action roll.",
+      "notes": null
+    }
+  },
+  {
+    "id": "srd-2.0.domain-card.midnight.shadowhunter",
+    "kind": "domain_card",
+    "identity": {
+      "name": "Shadowhunter",
+      "slug": "shadowhunter"
+    },
+    "source": {
+      "corpus": "daggerheart-srd",
+      "product": "srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    },
+    "rules": {
+      "domain": "midnight",
+      "level": 8,
+      "card_type": "ability",
+      "recall_cost": 2
+    },
+    "content": {
+      "rules_text": "Your prowess is enhanced under the cover of shadow. While \nyou’re shrouded in low light or darkness, you gain a +1 bonus \nto your Evasion and make attack rolls with advantage.",
+      "notes": null
+    }
+  },
+  {
+    "id": "srd-2.0.domain-card.midnight.spellcharge",
+    "kind": "domain_card",
+    "identity": {
+      "name": "Spellcharge",
+      "slug": "spellcharge"
+    },
+    "source": {
+      "corpus": "daggerheart-srd",
+      "product": "srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    },
+    "rules": {
+      "domain": "midnight",
+      "level": 8,
+      "card_type": "spell",
+      "recall_cost": 1
+    },
+    "content": {
+      "rules_text": "When you take magic damage, place tokens equal to the \nnumber of Hit Points you marked on this card. You can store a \nnumber of tokens equal to your Spellcast trait.\nWhen you make a successful attack against a target, you can \nspend any number of tokens to add a d6 for each token spent \nto your damage roll.",
+      "notes": null
+    }
+  },
+  {
+    "id": "srd-2.0.domain-card.midnight.night-terror",
+    "kind": "domain_card",
+    "identity": {
+      "name": "Night Terror",
+      "slug": "night-terror"
+    },
+    "source": {
+      "corpus": "daggerheart-srd",
+      "product": "srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    },
+    "rules": {
+      "domain": "midnight",
+      "level": 9,
+      "card_type": "spell",
+      "recall_cost": 2
+    },
+    "content": {
+      "rules_text": "Once per long rest, choose any targets within Very Close \nrange to perceive you as a nightmarish horror. The targets \nmust succeed on a Reaction Roll (16) or become temporarily \nHorrified. While Horrified, they’re Vulnerable. Steal a number \nof Fear from the GM equal to the number of targets that are \nHorrified (up to the number of Fear in the GM’s pool). Roll a \nnumber of d6s equal to the number of stolen Fear and deal the \ntotal damage to each Horrified target. Discard the stolen Fear.",
+      "notes": null
+    }
+  },
+  {
+    "id": "srd-2.0.domain-card.midnight.twilight-toll",
+    "kind": "domain_card",
+    "identity": {
+      "name": "Twilight Toll",
+      "slug": "twilight-toll"
+    },
+    "source": {
+      "corpus": "daggerheart-srd",
+      "product": "srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    },
+    "rules": {
+      "domain": "midnight",
+      "level": 9,
+      "card_type": "ability",
+      "recall_cost": 1
+    },
+    "content": {
+      "rules_text": "Choose a target within Far range. When you succeed on an \naction roll against them that doesn’t result in making a damage \nroll, place a token on this card. When you deal damage to this \ntarget, spend any number of tokens to add a d12 for each \ntoken spent to your damage roll. You can only hold Twilight T oll \non one creature at a time.\nWhen you choose a new target or take a rest, clear all unspent \ntokens.",
+      "notes": null
+    }
+  },
+  {
+    "id": "srd-2.0.domain-card.midnight.eclipse",
+    "kind": "domain_card",
+    "identity": {
+      "name": "Eclipse",
+      "slug": "eclipse"
+    },
+    "source": {
+      "corpus": "daggerheart-srd",
+      "product": "srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    },
+    "rules": {
+      "domain": "midnight",
+      "level": 10,
+      "card_type": "spell",
+      "recall_cost": 2
+    },
+    "content": {
+      "rules_text": "Make a Spellcast Roll (16). Once per long rest on a success, \nplunge the entire area within Far range into complete darkness \nonly you and your allies can see through. Attack rolls have \ndisadvantage when targeting you or an ally within this shadow.\nAdditionally, when you or an ally succeeds with Hope against \nan adversary within this shadow, the target must mark a \nStress.\nThis spell lasts until the GM spends a Fear on their turn to \nclear this effect or you take Severe damage.",
+      "notes": null
+    }
+  },
+  {
+    "id": "srd-2.0.domain-card.midnight.specter-of-the-dark",
+    "kind": "domain_card",
+    "identity": {
+      "name": "Specter Of The Dark",
+      "slug": "specter-of-the-dark"
+    },
+    "source": {
+      "corpus": "daggerheart-srd",
+      "product": "srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    },
+    "rules": {
+      "domain": "midnight",
+      "level": 10,
+      "card_type": "spell",
+      "recall_cost": 1
+    },
+    "content": {
+      "rules_text": "Mark a Stress to become Spectral until you make an action roll \ntargeting another creature. While Spectral, you’re immune to \nphysical damage and can float and pass through solid objects. \nOther creatures can still see you while you’re in this form.",
+      "notes": null
+    }
+  }
+]

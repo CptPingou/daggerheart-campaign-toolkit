@@ -1,0 +1,63 @@
+{
+  "id": "srd-2.0.supplemental-campaign-mechanic.floating-magic-school-campaigns",
+  "kind": "supplemental_campaign_mechanic",
+  "identity": {
+    "name": "Floating Magic School Campaigns",
+    "slug": "floating-magic-school-campaigns"
+  },
+  "source": {
+    "corpus": "daggerheart-srd",
+    "version": "2.0",
+    "status": "srd"
+  },
+  "provenance": {
+    "start_printed_page": 199,
+    "end_printed_page": 199
+  },
+  "rules_text": "You can use the following mechanics for a campaign set at a \nfloating magic school.\nFLIGHT\nDuring character creation, each player creates a magic artifact \nthey can use to fly. Flying PCs use the normal movement \nrules and can fly within Close range as part of an action roll, \nbut they must make an appropriate trait roll to move beyond \nClose range or if movement is their primary action. At the \nGM’s discretion, some threats, such as gaining the Restrained \nor Vulnerable conditions, losing their magic artifact, or taking \nSevere damage, can temporarily interrupt a PC’s ability to fly.\nUSING TRAITS FOR FLIGHT\nA PC can use any appropriate trait (not just Agility) to move \nwhile flying. The following are some examples of how each \ntrait might be used:\nAgility: Swift acrobatics, speed-boosting off an adversary’s \nwake, maintaining an aerodynamic posture, or angling past a \nwinged threat\nFinesse: Focused, subtle, and well-timed adjustments, \nthreading the needle, precision flying, operating finely tuned \ncontrols, or deftly weaving between obstacles\nStrength: Blasting through floating debris, holding fast in \nshifting weather, or slamming into a racing rival\nInstinct: Navigating by sheer intuition, keenly spotting a \nshortcut, following a migratory current, or sensing hidden \ndanger in the clouds.\nPresence: Flying with natural grace and effortless style, \ncommanding attention, causing a distraction, creating a \nspectacle\nKnowledge: Charting efficient flight plans, plotting rotational \nmomentum, or deducing the exact timing of a foe’s wingbeats\nLESS LETHAL CAMPAIGNS\nIn a less lethal campaign, any death move that would normally \nlead to a character’s demise instead puts them in the infirmary \nfor a few weeks or sends them home for an extended period of \ntime. While they recover, the PC is unplayable but not dead.\n199\nDaggerheart SRD",
+  "raw_heading": "FLOATING MAGIC SCHOOL CAMPAIGNS",
+  "mechanics": {
+    "mechanic_type": "floating_magic_school_campaign",
+    "subsections": [
+      {
+        "name": "Introduction",
+        "rules_text": "You can use the following mechanics for a campaign set at a\nfloating magic school.",
+        "id": "introduction"
+      },
+      {
+        "name": "Flight",
+        "raw_heading": "FLIGHT",
+        "rules_text": "During character creation, each player creates a magic artifact\nthey can use to fly. Flying PCs use the normal movement\nrules and can fly within Close range as part of an action roll,\nbut they must make an appropriate trait roll to move beyond\nClose range or if movement is their primary action. At the\nGM’s discretion, some threats, such as gaining the Restrained\nor Vulnerable conditions, losing their magic artifact, or taking\nSevere damage, can temporarily interrupt a PC’s ability to fly.",
+        "id": "flight"
+      },
+      {
+        "name": "Using Traits For Flight",
+        "raw_heading": "USING TRAITS FOR FLIGHT",
+        "rules_text": "A PC can use any appropriate trait (not just Agility) to move\nwhile flying. The following are some examples of how each\ntrait might be used:\nAgility: Swift acrobatics, speed-boosting off an adversary’s\nwake, maintaining an aerodynamic posture, or angling past a\nwinged threat\nFinesse: Focused, subtle, and well-timed adjustments,\nthreading the needle, precision flying, operating finely tuned\ncontrols, or deftly weaving between obstacles\nStrength: Blasting through floating debris, holding fast in\nshifting weather, or slamming into a racing rival\nInstinct: Navigating by sheer intuition, keenly spotting a\nshortcut, following a migratory current, or sensing hidden\ndanger in the clouds.\nPresence: Flying with natural grace and effortless style,\ncommanding attention, causing a distraction, creating a\nspectacle\nKnowledge: Charting efficient flight plans, plotting rotational\nmomentum, or deducing the exact timing of a foe’s wingbeats",
+        "id": "using-traits-for-flight"
+      },
+      {
+        "name": "Less Lethal Campaigns",
+        "raw_heading": "LESS LETHAL CAMPAIGNS",
+        "rules_text": "In a less lethal campaign, any death move that would normally\nlead to a character’s demise instead puts them in the infirmary\nfor a few weeks or sends them home for an extended period of\ntime. While they recover, the PC is unplayable but not dead.\n199\nDaggerheart SRD",
+        "id": "less-lethal-campaigns"
+      }
+    ],
+    "flight": {
+      "artifact_created_at_character_creation": true,
+      "close_range_uses_normal_movement": true,
+      "beyond_close_requires_trait_roll": true,
+      "any_appropriate_trait": true
+    },
+    "less_lethal_death_moves": {
+      "present": true,
+      "death_replaced_by_recovery": true
+    },
+    "normalization_level": "mechanical"
+  },
+  "normalization": {
+    "phase": "P1.1f-b2-fix1",
+    "status": "normalized",
+    "source_field": "rules_text"
+  }
+}

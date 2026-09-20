@@ -1,0 +1,33 @@
+{
+  "id": "the-void.v1.5.domain_card.vital-ward",
+  "kind": "domain_card",
+  "identity": {
+    "name": "Vital Ward",
+    "slug": "vital-ward"
+  },
+  "source": {
+    "corpus": "the-void",
+    "product": "blood-hunter",
+    "version": "1.5",
+    "status": "playtest"
+  },
+  "provenance": {
+    "source_file": "Bloodhunter-v1.5-The-Void.pdf",
+    "page": 5
+  },
+  "availability": {
+    "in_srd": false,
+    "private_only": true,
+    "deprecated": false
+  },
+  "rules": {
+    "domain": "blood",
+    "level": 6,
+    "card_type": "spell",
+    "recall_cost": 1
+  },
+  "content": {
+    "rules_text": "Mark a Hit Point to trace a circle of blood around yourself at Very Close range. While in the circle, you and allies have resistance to your choice of physical or magic damage. The circle disappears if you move out of it, mark 2 or more Hit Points, or cast this spell again.",
+    "validation": "checked_against_pdf_v1.5"
+  }
+}

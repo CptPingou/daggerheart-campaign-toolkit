@@ -1,0 +1,58 @@
+{
+  "id": "the-void.2026-07-09.subclass.order-of-the-specter",
+  "kind": "subclass",
+  "identity": {
+    "name": "Order of the Specter",
+    "slug": "order-of-the-specter"
+  },
+  "source": {
+    "corpus": "the-void",
+    "product": "blood-hunter",
+    "version": "2026-07-09",
+    "status": "playtest"
+  },
+  "provenance": {
+    "source_file": "Blood_Hunter_Void_2026_07_09.pdf",
+    "page": 3
+  },
+  "availability": {
+    "in_srd": false,
+    "private_only": true,
+    "deprecated": false
+  },
+  "migration": {
+    "previous_id": "the-void.v1.5.subclass.order-of-the-ghost-slayer",
+    "relation": "replaces"
+  },
+  "class_id": "the-void.2026-07-09.class.blood-hunter",
+  "rules": {
+    "spellcast_trait": "agility",
+    "features": [
+      {
+        "tier": "foundation",
+        "name": "Shadowed Grit",
+        "text": "When you succeed on an Action Roll with Fear, you can spend a Hope to clear a Stress."
+      },
+      {
+        "tier": "foundation",
+        "name": "Veilwalker",
+        "text": "You can briefly slip into the realm between the living and the dead. Mark a Stress to move up to Close range through creatures and objects."
+      },
+      {
+        "tier": "specialization",
+        "name": "Veilstalker",
+        "text": "When you use your Veilwalker feature, you can now move to a location within Far range, and you have advantage on the next action roll you make in this scene."
+      },
+      {
+        "tier": "mastery",
+        "name": "Horror Honed",
+        "text": "You cannot be made Vulnerable unless all your Stress is marked."
+      },
+      {
+        "tier": "mastery",
+        "name": "Spectral Form",
+        "text": "Once per long rest, when you would mark your last Hit Point, you can mark a Stress and enter your Spectral Form instead. While in this form, you can move through physical matter and have resistance to physical damage. Additionally, when you would mark a Hit Point, you mark a Stress instead. You drop out of this form if your last Stress is marked or you clear a Hit Point."
+      }
+    ]
+  }
+}

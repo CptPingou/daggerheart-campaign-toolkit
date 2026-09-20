@@ -1,0 +1,1002 @@
+[
+  {
+    "id": "srd-2.0.weapon.supplemental-western.primary.1.revolver",
+    "kind": "weapon",
+    "slot": "primary",
+    "tier": 1,
+    "name": "Revolver",
+    "trait": "Finesse",
+    "range": "Far",
+    "damage": "d8+1",
+    "damage_type": "phy",
+    "burden": "One-Handed",
+    "feature": {
+      "name": "Six Shot",
+      "text": "Place 6 Ammo tokens on your character sheet. Spend 1 Ammo token to make an attack. You can mark a Stress to regain spent Ammo tokens."
+    },
+    "source_subset": "supplemental-western",
+    "source": {
+      "corpus": "daggerheart-srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "canonical": true
+  },
+  {
+    "id": "srd-2.0.weapon.supplemental-western.primary.2.revolver",
+    "kind": "weapon",
+    "slot": "primary",
+    "tier": 2,
+    "name": "Revolver",
+    "trait": "Finesse",
+    "range": "Far",
+    "damage": "d8+4",
+    "damage_type": "phy",
+    "burden": "One-Handed",
+    "feature": {
+      "name": "Six Shot",
+      "text": "Place 6 Ammo tokens on your character sheet. Spend 1 Ammo token to make an attack. You can mark a Stress to regain spent Ammo tokens."
+    },
+    "source_subset": "supplemental-western",
+    "source": {
+      "corpus": "daggerheart-srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "canonical": true
+  },
+  {
+    "id": "srd-2.0.weapon.supplemental-western.primary.3.revolver",
+    "kind": "weapon",
+    "slot": "primary",
+    "tier": 3,
+    "name": "Revolver",
+    "trait": "Finesse",
+    "range": "Far",
+    "damage": "d8+7",
+    "damage_type": "phy",
+    "burden": "One-Handed",
+    "feature": {
+      "name": "Six Shot",
+      "text": "Place 6 Ammo tokens on your character sheet. Spend 1 Ammo token to make an attack. You can mark a Stress to regain spent Ammo tokens."
+    },
+    "source_subset": "supplemental-western",
+    "source": {
+      "corpus": "daggerheart-srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "canonical": true
+  },
+  {
+    "id": "srd-2.0.weapon.supplemental-western.primary.4.revolver",
+    "kind": "weapon",
+    "slot": "primary",
+    "tier": 4,
+    "name": "Revolver",
+    "trait": "Finesse",
+    "range": "Far",
+    "damage": "d8+10",
+    "damage_type": "phy",
+    "burden": "One-Handed",
+    "feature": {
+      "name": "Six Shot",
+      "text": "Place 6 Ammo tokens on your character sheet. Spend 1 Ammo token to make an attack. You can mark a Stress to regain spent Ammo tokens."
+    },
+    "source_subset": "supplemental-western",
+    "source": {
+      "corpus": "daggerheart-srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "canonical": true
+  },
+  {
+    "id": "srd-2.0.weapon.supplemental-western.primary.1.rifle",
+    "kind": "weapon",
+    "slot": "primary",
+    "tier": 1,
+    "name": "Rifle",
+    "trait": "Agility",
+    "range": "Very Far",
+    "damage": "d8+2",
+    "damage_type": "phy",
+    "burden": "Two-Handed",
+    "feature": {
+      "name": "Sightline",
+      "text": "Spend 2 Hope to gain advantage on an attack roll."
+    },
+    "source_subset": "supplemental-western",
+    "source": {
+      "corpus": "daggerheart-srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "canonical": true
+  },
+  {
+    "id": "srd-2.0.weapon.supplemental-western.primary.2.rifle",
+    "kind": "weapon",
+    "slot": "primary",
+    "tier": 2,
+    "name": "Rifle",
+    "trait": "Agility",
+    "range": "Very Far",
+    "damage": "d8+5",
+    "damage_type": "phy",
+    "burden": "Two-Handed",
+    "feature": {
+      "name": "Sightline",
+      "text": "Spend 2 Hope to gain advantage on an attack roll."
+    },
+    "source_subset": "supplemental-western",
+    "source": {
+      "corpus": "daggerheart-srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "canonical": true
+  },
+  {
+    "id": "srd-2.0.weapon.supplemental-western.primary.3.rifle",
+    "kind": "weapon",
+    "slot": "primary",
+    "tier": 3,
+    "name": "Rifle",
+    "trait": "Agility",
+    "range": "Very Far",
+    "damage": "d8+8",
+    "damage_type": "phy",
+    "burden": "Two-Handed",
+    "feature": {
+      "name": "Sightline",
+      "text": "Spend 2 Hope to gain advantage on an attack roll."
+    },
+    "source_subset": "supplemental-western",
+    "source": {
+      "corpus": "daggerheart-srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "canonical": true
+  },
+  {
+    "id": "srd-2.0.weapon.supplemental-western.primary.4.rifle",
+    "kind": "weapon",
+    "slot": "primary",
+    "tier": 4,
+    "name": "Rifle",
+    "trait": "Agility",
+    "range": "Very Far",
+    "damage": "d8+11",
+    "damage_type": "phy",
+    "burden": "Two-Handed",
+    "feature": {
+      "name": "Sightline",
+      "text": "Spend 2 Hope to gain advantage on an attack roll."
+    },
+    "source_subset": "supplemental-western",
+    "source": {
+      "corpus": "daggerheart-srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "canonical": true
+  },
+  {
+    "id": "srd-2.0.weapon.supplemental-western.primary.1.shotgun",
+    "kind": "weapon",
+    "slot": "primary",
+    "tier": 1,
+    "name": "Shotgun",
+    "trait": "Strength",
+    "range": "Very Close",
+    "damage": "d6+2",
+    "damage_type": "phy",
+    "burden": "Two-Handed",
+    "feature": {
+      "name": "Scattershot",
+      "text": "When you make an attack, target all creatures in front of you within range."
+    },
+    "source_subset": "supplemental-western",
+    "source": {
+      "corpus": "daggerheart-srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "canonical": true
+  },
+  {
+    "id": "srd-2.0.weapon.supplemental-western.primary.2.shotgun",
+    "kind": "weapon",
+    "slot": "primary",
+    "tier": 2,
+    "name": "Shotgun",
+    "trait": "Strength",
+    "range": "Very Close",
+    "damage": "d6+5",
+    "damage_type": "phy",
+    "burden": "Two-Handed",
+    "feature": {
+      "name": "Scattershot",
+      "text": "When you make an attack, target all creatures in front of you within range."
+    },
+    "source_subset": "supplemental-western",
+    "source": {
+      "corpus": "daggerheart-srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "canonical": true
+  },
+  {
+    "id": "srd-2.0.weapon.supplemental-western.primary.3.shotgun",
+    "kind": "weapon",
+    "slot": "primary",
+    "tier": 3,
+    "name": "Shotgun",
+    "trait": "Strength",
+    "range": "Very Close",
+    "damage": "d6+8",
+    "damage_type": "phy",
+    "burden": "Two-Handed",
+    "feature": {
+      "name": "Scattershot",
+      "text": "When you make an attack, target all creatures in front of you within range."
+    },
+    "source_subset": "supplemental-western",
+    "source": {
+      "corpus": "daggerheart-srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "canonical": true
+  },
+  {
+    "id": "srd-2.0.weapon.supplemental-western.primary.4.shotgun",
+    "kind": "weapon",
+    "slot": "primary",
+    "tier": 4,
+    "name": "Shotgun",
+    "trait": "Strength",
+    "range": "Very Close",
+    "damage": "d6+11",
+    "damage_type": "phy",
+    "burden": "Two-Handed",
+    "feature": {
+      "name": "Scattershot",
+      "text": "When you make an attack, target all creatures in front of you within range."
+    },
+    "source_subset": "supplemental-western",
+    "source": {
+      "corpus": "daggerheart-srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "canonical": true
+  },
+  {
+    "id": "srd-2.0.weapon.supplemental-western.secondary.1.lasso",
+    "kind": "weapon",
+    "slot": "secondary",
+    "tier": 1,
+    "name": "Lasso",
+    "trait": "Agility",
+    "range": "Very Close",
+    "damage": "d4",
+    "damage_type": "phy",
+    "burden": "One-Handed",
+    "feature": {
+      "name": "Roped",
+      "text": "On a successful attack, you can temporarily Rope the target instead of dealing damage. While Roped, the target is Restrained and Vulnerable, but you must remain within Very Close range of the target. When the target would clear this condition, you can make a Strength Reaction Roll. On a success, they remain Roped."
+    },
+    "source_subset": "supplemental-western",
+    "source": {
+      "corpus": "daggerheart-srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "canonical": true
+  },
+  {
+    "id": "srd-2.0.weapon.supplemental-western.secondary.2.lasso",
+    "kind": "weapon",
+    "slot": "secondary",
+    "tier": 2,
+    "name": "Lasso",
+    "trait": "Agility",
+    "range": "Very Close",
+    "damage": "d4+3",
+    "damage_type": "phy",
+    "burden": "One-Handed",
+    "feature": {
+      "name": "Roped",
+      "text": "On a successful attack, you can temporarily Rope the target instead of dealing damage. While Roped, the target is Restrained and Vulnerable, but you must remain within Very Close range of the target. When the target would clear this condition, you can make a Strength Reaction Roll. On a success, they remain Roped."
+    },
+    "source_subset": "supplemental-western",
+    "source": {
+      "corpus": "daggerheart-srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "canonical": true
+  },
+  {
+    "id": "srd-2.0.weapon.supplemental-western.secondary.3.lasso",
+    "kind": "weapon",
+    "slot": "secondary",
+    "tier": 3,
+    "name": "Lasso",
+    "trait": "Agility",
+    "range": "Very Close",
+    "damage": "d4+6",
+    "damage_type": "phy",
+    "burden": "One-Handed",
+    "feature": {
+      "name": "Roped",
+      "text": "On a successful attack, you can temporarily Rope the target instead of dealing damage. While Roped, the target is Restrained and Vulnerable, but you must remain within Very Close range of the target. When the target would clear this condition, you can make a Strength Reaction Roll. On a success, they remain Roped."
+    },
+    "source_subset": "supplemental-western",
+    "source": {
+      "corpus": "daggerheart-srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "canonical": true
+  },
+  {
+    "id": "srd-2.0.weapon.supplemental-western.secondary.4.lasso",
+    "kind": "weapon",
+    "slot": "secondary",
+    "tier": 4,
+    "name": "Lasso",
+    "trait": "Agility",
+    "range": "Very Close",
+    "damage": "d4+9",
+    "damage_type": "phy",
+    "burden": "One-Handed",
+    "feature": {
+      "name": "Roped",
+      "text": "On a successful attack, you can temporarily Rope the target instead of dealing damage. While Roped, the target is Restrained and Vulnerable, but you must remain within Very Close range of the target. When the target would clear this condition, you can make a Strength Reaction Roll. On a success, they remain Roped."
+    },
+    "source_subset": "supplemental-western",
+    "source": {
+      "corpus": "daggerheart-srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "canonical": true
+  },
+  {
+    "id": "srd-2.0.weapon.supplemental-western.secondary.1.small-revolver",
+    "kind": "weapon",
+    "slot": "secondary",
+    "tier": 1,
+    "name": "Small Revolver",
+    "trait": "Finesse",
+    "range": "Far",
+    "damage": "d6",
+    "damage_type": "phy",
+    "burden": "One-Handed",
+    "feature": {
+      "name": "Quick Shot",
+      "text": "Spend 2 Hope to gain a +4 bonus to primary weapon damage."
+    },
+    "source_subset": "supplemental-western",
+    "source": {
+      "corpus": "daggerheart-srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "canonical": true
+  },
+  {
+    "id": "srd-2.0.weapon.supplemental-western.secondary.2.small-revolver",
+    "kind": "weapon",
+    "slot": "secondary",
+    "tier": 2,
+    "name": "Small Revolver",
+    "trait": "Finesse",
+    "range": "Far",
+    "damage": "d6+3",
+    "damage_type": "phy",
+    "burden": "One-Handed",
+    "feature": {
+      "name": "Quick Shot",
+      "text": "Spend 2 Hope to gain a +4 bonus to primary weapon damage."
+    },
+    "source_subset": "supplemental-western",
+    "source": {
+      "corpus": "daggerheart-srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "canonical": true
+  },
+  {
+    "id": "srd-2.0.weapon.supplemental-western.secondary.3.small-revolver",
+    "kind": "weapon",
+    "slot": "secondary",
+    "tier": 3,
+    "name": "Small Revolver",
+    "trait": "Finesse",
+    "range": "Far",
+    "damage": "d6+6",
+    "damage_type": "phy",
+    "burden": "One-Handed",
+    "feature": {
+      "name": "Quick Shot",
+      "text": "Spend 2 Hope to gain a +4 bonus to primary weapon damage."
+    },
+    "source_subset": "supplemental-western",
+    "source": {
+      "corpus": "daggerheart-srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "canonical": true
+  },
+  {
+    "id": "srd-2.0.weapon.supplemental-western.secondary.4.small-revolver",
+    "kind": "weapon",
+    "slot": "secondary",
+    "tier": 4,
+    "name": "Small Revolver",
+    "trait": "Finesse",
+    "range": "Far",
+    "damage": "d6+9",
+    "damage_type": "phy",
+    "burden": "One-Handed",
+    "feature": {
+      "name": "Quick Shot",
+      "text": "Spend 2 Hope to gain a +4 bonus to primary weapon damage."
+    },
+    "source_subset": "supplemental-western",
+    "source": {
+      "corpus": "daggerheart-srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "canonical": true
+  },
+  {
+    "id": "srd-2.0.weapon.supplemental-monster-hunting.primary.1.blessed-brass-knuckles",
+    "kind": "weapon",
+    "slot": "primary",
+    "tier": 1,
+    "name": "Blessed Brass Knuckles",
+    "trait": "Strength",
+    "range": "Melee",
+    "damage": "d8+1",
+    "damage_type": "mag",
+    "burden": "One-Handed",
+    "feature": null,
+    "source_subset": "supplemental-monster-hunting",
+    "source": {
+      "corpus": "daggerheart-srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "canonical": true
+  },
+  {
+    "id": "srd-2.0.weapon.supplemental-monster-hunting.primary.2.blessed-brass-knuckles",
+    "kind": "weapon",
+    "slot": "primary",
+    "tier": 2,
+    "name": "Blessed Brass Knuckles",
+    "trait": "Strength",
+    "range": "Melee",
+    "damage": "d8+4",
+    "damage_type": "mag",
+    "burden": "One-Handed",
+    "feature": null,
+    "source_subset": "supplemental-monster-hunting",
+    "source": {
+      "corpus": "daggerheart-srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "canonical": true
+  },
+  {
+    "id": "srd-2.0.weapon.supplemental-monster-hunting.primary.3.blessed-brass-knuckles",
+    "kind": "weapon",
+    "slot": "primary",
+    "tier": 3,
+    "name": "Blessed Brass Knuckles",
+    "trait": "Strength",
+    "range": "Melee",
+    "damage": "d8+7",
+    "damage_type": "mag",
+    "burden": "One-Handed",
+    "feature": null,
+    "source_subset": "supplemental-monster-hunting",
+    "source": {
+      "corpus": "daggerheart-srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "canonical": true
+  },
+  {
+    "id": "srd-2.0.weapon.supplemental-monster-hunting.primary.4.blessed-brass-knuckles",
+    "kind": "weapon",
+    "slot": "primary",
+    "tier": 4,
+    "name": "Blessed Brass Knuckles",
+    "trait": "Strength",
+    "range": "Melee",
+    "damage": "d8+10",
+    "damage_type": "mag",
+    "burden": "One-Handed",
+    "feature": null,
+    "source_subset": "supplemental-monster-hunting",
+    "source": {
+      "corpus": "daggerheart-srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "canonical": true
+  },
+  {
+    "id": "srd-2.0.weapon.supplemental-monster-hunting.primary.1.holy-shotgun",
+    "kind": "weapon",
+    "slot": "primary",
+    "tier": 1,
+    "name": "Holy Shotgun",
+    "trait": "Agility",
+    "range": "Very Close",
+    "damage": "d6+2",
+    "damage_type": "mag",
+    "burden": "Two-Handed",
+    "feature": {
+      "name": "Scattershot",
+      "text": "When you make an attack, target all creatures in front of you within range."
+    },
+    "source_subset": "supplemental-monster-hunting",
+    "source": {
+      "corpus": "daggerheart-srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "canonical": true
+  },
+  {
+    "id": "srd-2.0.weapon.supplemental-monster-hunting.primary.2.holy-shotgun",
+    "kind": "weapon",
+    "slot": "primary",
+    "tier": 2,
+    "name": "Holy Shotgun",
+    "trait": "Agility",
+    "range": "Very Close",
+    "damage": "d6+5",
+    "damage_type": "mag",
+    "burden": "Two-Handed",
+    "feature": {
+      "name": "Scattershot",
+      "text": "When you make an attack, target all creatures in front of you within range."
+    },
+    "source_subset": "supplemental-monster-hunting",
+    "source": {
+      "corpus": "daggerheart-srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "canonical": true
+  },
+  {
+    "id": "srd-2.0.weapon.supplemental-monster-hunting.primary.3.holy-shotgun",
+    "kind": "weapon",
+    "slot": "primary",
+    "tier": 3,
+    "name": "Holy Shotgun",
+    "trait": "Agility",
+    "range": "Very Close",
+    "damage": "d6+8",
+    "damage_type": "mag",
+    "burden": "Two-Handed",
+    "feature": {
+      "name": "Scattershot",
+      "text": "When you make an attack, target all creatures in front of you within range."
+    },
+    "source_subset": "supplemental-monster-hunting",
+    "source": {
+      "corpus": "daggerheart-srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "canonical": true
+  },
+  {
+    "id": "srd-2.0.weapon.supplemental-monster-hunting.primary.4.holy-shotgun",
+    "kind": "weapon",
+    "slot": "primary",
+    "tier": 4,
+    "name": "Holy Shotgun",
+    "trait": "Agility",
+    "range": "Very Close",
+    "damage": "d6+11",
+    "damage_type": "mag",
+    "burden": "Two-Handed",
+    "feature": {
+      "name": "Scattershot",
+      "text": "When you make an attack, target all creatures in front of you within range."
+    },
+    "source_subset": "supplemental-monster-hunting",
+    "source": {
+      "corpus": "daggerheart-srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "canonical": true
+  },
+  {
+    "id": "srd-2.0.weapon.supplemental-monster-hunting.primary.1.repeating-crossbow",
+    "kind": "weapon",
+    "slot": "primary",
+    "tier": 1,
+    "name": "Repeating Crossbow",
+    "trait": "Finesse",
+    "range": "Far",
+    "damage": "d6+2",
+    "damage_type": "phy",
+    "burden": "Two-Handed",
+    "feature": {
+      "name": "Quick",
+      "text": "When you make an attack, you can mark a Stress to target another creature within range."
+    },
+    "source_subset": "supplemental-monster-hunting",
+    "source": {
+      "corpus": "daggerheart-srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "canonical": true
+  },
+  {
+    "id": "srd-2.0.weapon.supplemental-monster-hunting.primary.2.repeating-crossbow",
+    "kind": "weapon",
+    "slot": "primary",
+    "tier": 2,
+    "name": "Repeating Crossbow",
+    "trait": "Finesse",
+    "range": "Far",
+    "damage": "d6+5",
+    "damage_type": "phy",
+    "burden": "Two-Handed",
+    "feature": {
+      "name": "Quick",
+      "text": "When you make an attack, you can mark a Stress to target another creature within range."
+    },
+    "source_subset": "supplemental-monster-hunting",
+    "source": {
+      "corpus": "daggerheart-srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "canonical": true
+  },
+  {
+    "id": "srd-2.0.weapon.supplemental-monster-hunting.primary.3.repeating-crossbow",
+    "kind": "weapon",
+    "slot": "primary",
+    "tier": 3,
+    "name": "Repeating Crossbow",
+    "trait": "Finesse",
+    "range": "Far",
+    "damage": "d6+8",
+    "damage_type": "phy",
+    "burden": "Two-Handed",
+    "feature": {
+      "name": "Quick",
+      "text": "When you make an attack, you can mark a Stress to target another creature within range."
+    },
+    "source_subset": "supplemental-monster-hunting",
+    "source": {
+      "corpus": "daggerheart-srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "canonical": true
+  },
+  {
+    "id": "srd-2.0.weapon.supplemental-monster-hunting.primary.4.repeating-crossbow",
+    "kind": "weapon",
+    "slot": "primary",
+    "tier": 4,
+    "name": "Repeating Crossbow",
+    "trait": "Finesse",
+    "range": "Far",
+    "damage": "d6+11",
+    "damage_type": "phy",
+    "burden": "Two-Handed",
+    "feature": {
+      "name": "Quick",
+      "text": "When you make an attack, you can mark a Stress to target another creature within range."
+    },
+    "source_subset": "supplemental-monster-hunting",
+    "source": {
+      "corpus": "daggerheart-srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "canonical": true
+  },
+  {
+    "id": "srd-2.0.weapon.supplemental-monster-hunting.secondary.1.wooden-stake",
+    "kind": "weapon",
+    "slot": "secondary",
+    "tier": 1,
+    "name": "Wooden Stake",
+    "trait": "Strength",
+    "range": "Melee",
+    "damage": "d8",
+    "damage_type": "phy",
+    "burden": "One-Handed",
+    "feature": {
+      "name": "Paired",
+      "text": "Gain a bonus equal to 1 + your tier to primary weapon damage to targets within Melee range."
+    },
+    "source_subset": "supplemental-monster-hunting",
+    "source": {
+      "corpus": "daggerheart-srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "canonical": true
+  },
+  {
+    "id": "srd-2.0.weapon.supplemental-monster-hunting.secondary.2.wooden-stake",
+    "kind": "weapon",
+    "slot": "secondary",
+    "tier": 2,
+    "name": "Wooden Stake",
+    "trait": "Strength",
+    "range": "Melee",
+    "damage": "d8+2",
+    "damage_type": "phy",
+    "burden": "One-Handed",
+    "feature": {
+      "name": "Paired",
+      "text": "Gain a bonus equal to 1 + your tier to primary weapon damage to targets within Melee range."
+    },
+    "source_subset": "supplemental-monster-hunting",
+    "source": {
+      "corpus": "daggerheart-srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "canonical": true
+  },
+  {
+    "id": "srd-2.0.weapon.supplemental-monster-hunting.secondary.3.wooden-stake",
+    "kind": "weapon",
+    "slot": "secondary",
+    "tier": 3,
+    "name": "Wooden Stake",
+    "trait": "Strength",
+    "range": "Melee",
+    "damage": "d8+4",
+    "damage_type": "phy",
+    "burden": "One-Handed",
+    "feature": {
+      "name": "Paired",
+      "text": "Gain a bonus equal to 1 + your tier to primary weapon damage to targets within Melee range."
+    },
+    "source_subset": "supplemental-monster-hunting",
+    "source": {
+      "corpus": "daggerheart-srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "canonical": true
+  },
+  {
+    "id": "srd-2.0.weapon.supplemental-monster-hunting.secondary.4.wooden-stake",
+    "kind": "weapon",
+    "slot": "secondary",
+    "tier": 4,
+    "name": "Wooden Stake",
+    "trait": "Strength",
+    "range": "Melee",
+    "damage": "d8+6",
+    "damage_type": "phy",
+    "burden": "One-Handed",
+    "feature": {
+      "name": "Paired",
+      "text": "Gain a bonus equal to 1 + your tier to primary weapon damage to targets within Melee range."
+    },
+    "source_subset": "supplemental-monster-hunting",
+    "source": {
+      "corpus": "daggerheart-srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "canonical": true
+  },
+  {
+    "id": "srd-2.0.weapon.supplemental-monster-hunting.secondary.1.hallowed-shield",
+    "kind": "weapon",
+    "slot": "secondary",
+    "tier": 1,
+    "name": "Hallowed Shield",
+    "trait": "Instinct",
+    "range": "Melee",
+    "damage": "d4",
+    "damage_type": "mag",
+    "burden": "One-Handed",
+    "feature": {
+      "name": "Resonant",
+      "text": "When you critically succeed on a primary weapon attack, you gain an additional Hope."
+    },
+    "source_subset": "supplemental-monster-hunting",
+    "source": {
+      "corpus": "daggerheart-srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "canonical": true
+  },
+  {
+    "id": "srd-2.0.weapon.supplemental-monster-hunting.secondary.2.hallowed-shield",
+    "kind": "weapon",
+    "slot": "secondary",
+    "tier": 2,
+    "name": "Hallowed Shield",
+    "trait": "Instinct",
+    "range": "Melee",
+    "damage": "d4+2",
+    "damage_type": "mag",
+    "burden": "One-Handed",
+    "feature": {
+      "name": "Resonant",
+      "text": "When you critically succeed on a primary weapon attack, you gain an additional Hope."
+    },
+    "source_subset": "supplemental-monster-hunting",
+    "source": {
+      "corpus": "daggerheart-srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "canonical": true
+  },
+  {
+    "id": "srd-2.0.weapon.supplemental-monster-hunting.secondary.3.hallowed-shield",
+    "kind": "weapon",
+    "slot": "secondary",
+    "tier": 3,
+    "name": "Hallowed Shield",
+    "trait": "Instinct",
+    "range": "Melee",
+    "damage": "d4+4",
+    "damage_type": "mag",
+    "burden": "One-Handed",
+    "feature": {
+      "name": "Resonant",
+      "text": "When you critically succeed on a primary weapon attack, you gain an additional Hope."
+    },
+    "source_subset": "supplemental-monster-hunting",
+    "source": {
+      "corpus": "daggerheart-srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "canonical": true
+  },
+  {
+    "id": "srd-2.0.weapon.supplemental-monster-hunting.secondary.4.hallowed-shield",
+    "kind": "weapon",
+    "slot": "secondary",
+    "tier": 4,
+    "name": "Hallowed Shield",
+    "trait": "Instinct",
+    "range": "Melee",
+    "damage": "d4+6",
+    "damage_type": "mag",
+    "burden": "One-Handed",
+    "feature": {
+      "name": "Resonant",
+      "text": "When you critically succeed on a primary weapon attack, you gain an additional Hope."
+    },
+    "source_subset": "supplemental-monster-hunting",
+    "source": {
+      "corpus": "daggerheart-srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "canonical": true
+  },
+  {
+    "id": "srd-2.0.weapon.supplemental-monster-hunting.secondary.1.chain-whip",
+    "kind": "weapon",
+    "slot": "secondary",
+    "tier": 1,
+    "name": "Chain Whip",
+    "trait": "Presence",
+    "range": "Very Close",
+    "damage": "d6+1",
+    "damage_type": "phy",
+    "burden": "One-Handed",
+    "feature": {
+      "name": "Hooked",
+      "text": "On a successful attack, you can pull the target into Melee range."
+    },
+    "source_subset": "supplemental-monster-hunting",
+    "source": {
+      "corpus": "daggerheart-srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "canonical": true
+  },
+  {
+    "id": "srd-2.0.weapon.supplemental-monster-hunting.secondary.2.chain-whip",
+    "kind": "weapon",
+    "slot": "secondary",
+    "tier": 2,
+    "name": "Chain Whip",
+    "trait": "Presence",
+    "range": "Very Close",
+    "damage": "d6+3",
+    "damage_type": "phy",
+    "burden": "One-Handed",
+    "feature": {
+      "name": "Hooked",
+      "text": "On a successful attack, you can pull the target into Melee range."
+    },
+    "source_subset": "supplemental-monster-hunting",
+    "source": {
+      "corpus": "daggerheart-srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "canonical": true
+  },
+  {
+    "id": "srd-2.0.weapon.supplemental-monster-hunting.secondary.3.chain-whip",
+    "kind": "weapon",
+    "slot": "secondary",
+    "tier": 3,
+    "name": "Chain Whip",
+    "trait": "Presence",
+    "range": "Very Close",
+    "damage": "d6+5",
+    "damage_type": "phy",
+    "burden": "One-Handed",
+    "feature": {
+      "name": "Hooked",
+      "text": "On a successful attack, you can pull the target into Melee range."
+    },
+    "source_subset": "supplemental-monster-hunting",
+    "source": {
+      "corpus": "daggerheart-srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "canonical": true
+  },
+  {
+    "id": "srd-2.0.weapon.supplemental-monster-hunting.secondary.4.chain-whip",
+    "kind": "weapon",
+    "slot": "secondary",
+    "tier": 4,
+    "name": "Chain Whip",
+    "trait": "Presence",
+    "range": "Very Close",
+    "damage": "d6+7",
+    "damage_type": "phy",
+    "burden": "One-Handed",
+    "feature": {
+      "name": "Hooked",
+      "text": "On a successful attack, you can pull the target into Melee range."
+    },
+    "source_subset": "supplemental-monster-hunting",
+    "source": {
+      "corpus": "daggerheart-srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "canonical": true
+  }
+]

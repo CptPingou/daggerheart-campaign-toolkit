@@ -1,0 +1,140 @@
+{
+  "phase": "P2.1.2",
+  "scope": "Audit ciblé des modules déjà installés et réellement pertinents pour la roadmap P2.",
+  "installed_visible_from_user_capture": [
+    "About Face",
+    "Asset Preview",
+    "Baileywiki Mass Edit",
+    "BLFX Assets & Animation Editor Free",
+    "Daggerheart - Homebrew",
+    "Daggerheart — Blood Hunter v1.5",
+    "Daggerheart Hotbar Card View",
+    "Daggerheart: Colossus",
+    "Daggerheart: Compact Sheets",
+    "Daggerheart: Containers",
+    "Daggerheart: Custom Stat Tracker",
+    "Daggerheart: Distances",
+    "Daggerheart: Resource Macros",
+    "Dice So Nice!",
+    "Dice Tray",
+    "Eskie's Effects Free",
+    "Gambit's FXMaster",
+    "Hotpot!",
+    "JB2A - Patreon Complete Collection",
+    "libWrapper",
+    "Monk's Active Tile Triggers",
+    "Monk's Scene Navigation",
+    "Moulinette Media Search",
+    "Move That for You",
+    "PSFX - Peri's Sound Effects",
+    "Sequencer",
+    "Soundbrett"
+  ],
+  "decisions": [
+    {
+      "module": "Daggerheart - Homebrew",
+      "decision": "MERGE_INTO_NEW_MODULE",
+      "priority": "HIGH",
+      "reason": "Notre module maison. Son contenu et ses macros doivent être absorbés par le futur module unique."
+    },
+    {
+      "module": "Daggerheart — Blood Hunter v1.5",
+      "decision": "MERGE_INTO_NEW_MODULE",
+      "priority": "HIGH",
+      "reason": "Notre adapter déjà validé en compendiums. À intégrer dans le module unique sans changer le statut playtest/version."
+    },
+    {
+      "module": "Daggerheart: Colossus",
+      "decision": "KEEP_AND_REUSE",
+      "priority": "HIGH",
+      "reason": "Candidat naturel pour les boss multipart. Ne pas recoder ce sous-système avant d'avoir vérifié l'intégration réelle."
+    },
+    {
+      "module": "Daggerheart: Compact Sheets",
+      "decision": "KEEP_COMPATIBLE",
+      "priority": "MEDIUM",
+      "reason": "Sheets alternatives pour adversaires/environments. Notre import doit rester natif Foundryborne afin qu'elles continuent de fonctionner."
+    },
+    {
+      "module": "Daggerheart: Containers",
+      "decision": "KEEP_FOR_UI_ONLY",
+      "priority": "LOW",
+      "reason": "Utile pour l'organisation visuelle de l'inventaire mais insuffisant comme moteur de capacité/transfert/logistique."
+    },
+    {
+      "module": "Daggerheart: Custom Stat Tracker",
+      "decision": "REFERENCE_NOT_FOUNDATION",
+      "priority": "LOW",
+      "reason": "Peut éviter de coder un petit tracker ponctuel, mais sa limite de deux trackers le rend impropre à un système général d'armes/craft."
+    },
+    {
+      "module": "Daggerheart: Resource Macros",
+      "decision": "KEEP_AND_REUSE",
+      "priority": "MEDIUM",
+      "reason": "Réutilisable pour déclencher nos macros sur changements de ressources Daggerheart au lieu de recopier ces hooks."
+    },
+    {
+      "module": "Monk's Active Tile Triggers",
+      "decision": "KEEP_AND_REUSE",
+      "priority": "MEDIUM",
+      "reason": "Moteur de triggers de scène déjà mature et compatible v14. À réutiliser si une mécanique de campagne devient spatiale/interactive."
+    },
+    {
+      "module": "Sequencer",
+      "decision": "KEEP_AND_REUSE",
+      "priority": "MEDIUM",
+      "reason": "Déjà présent et adapté aux animations/sons. Les automatisations maison doivent l'appeler plutôt que gérer elles-mêmes le média."
+    },
+    {
+      "module": "Baileywiki Mass Edit",
+      "decision": "KEEP_AS_AUTHORING_TOOL",
+      "priority": "LOW",
+      "reason": "Outil d'édition/scène, utile pour préparer des assets/prefabs, sans rôle dans le modèle de données du module."
+    },
+    {
+      "module": "Daggerheart Hotbar Card View",
+      "decision": "KEEP_COMPATIBLE",
+      "priority": "LOW",
+      "reason": "UI de cartes/hotbar. Nos Domain Cards Chasse doivent rester de vraies Domain Cards pour bénéficier de ce type d'outil."
+    },
+    {
+      "module": "Daggerheart: Distances",
+      "decision": "KEEP_COMPATIBLE",
+      "priority": "LOW",
+      "reason": "QoL Daggerheart ; aucune raison de dupliquer les distances dans notre module."
+    },
+    {
+      "module": "Dice So Nice! / Dice Tray / FX / audio / Moulinette",
+      "decision": "OUT_OF_SCOPE_BUT_PRESERVE_COMPATIBILITY",
+      "priority": "LOW",
+      "reason": "Écosystème de présentation/outillage, pas une dépendance de nos données ou extensions."
+    }
+  ],
+  "roadmap_impact": {
+    "P2.2_module_skeleton": [
+      "Absorber Homebrew et Blood Hunter dans le module unique.",
+      "Ne déclarer aucune dépendance obligatoire supplémentaire au départ.",
+      "Prévoir compatibilité avec Compact Sheets et Hotbar Card View via documents natifs."
+    ],
+    "P2.5_evolving_weapons": [
+      "Aucun module installé visible ne couvre directement les arbres d'Augments + déblocage narratif + points MJ/PJ.",
+      "Développement maison ciblé probable, stocké sur la Weapon native."
+    ],
+    "P2.6_hunt_domain": [
+      "Conserver de vraies Domain Cards ; cela maximise la compatibilité avec Hotbar Card View et Foundryborne."
+    ],
+    "P2.7_harvest_craft_logistics": [
+      "Containers peut aider visuellement mais ne suffit pas pour les capacités/transferts.",
+      "Ne choisir aucun moteur logistique maintenant ; attendre le prototype de boucle chasse."
+    ],
+    "P2.8_optional_extensions": [
+      "Colossus pour boss multipart.",
+      "Monk's Active Tile Triggers pour triggers de scène.",
+      "Resource Macros pour changements de ressources.",
+      "Sequencer pour audiovisuel."
+    ]
+  },
+  "external_search_decision": "Aucun nouveau module n'est requis avant P2.5. Les recherches complémentaires seront déclenchées seulement par un trou concret.",
+  "validation": "GREEN",
+  "next_phase": "P2.2 — squelette du module unique"
+}

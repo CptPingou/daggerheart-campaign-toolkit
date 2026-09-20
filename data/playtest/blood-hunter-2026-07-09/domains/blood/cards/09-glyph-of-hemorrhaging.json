@@ -1,0 +1,37 @@
+{
+  "id": "the-void.2026-07-09.domain_card.glyph-of-hemorrhaging",
+  "kind": "domain_card",
+  "identity": {
+    "name": "Glyph of Hemorrhaging",
+    "slug": "glyph-of-hemorrhaging"
+  },
+  "source": {
+    "corpus": "the-void",
+    "product": "blood-hunter",
+    "version": "2026-07-09",
+    "status": "playtest"
+  },
+  "provenance": {
+    "source_file": "Blood_Hunter_Void_2026_07_09.pdf",
+    "page": 6
+  },
+  "availability": {
+    "in_srd": false,
+    "private_only": true,
+    "deprecated": false
+  },
+  "migration": {
+    "previous_id": "the-void.v1.5.domain_card.glyph-of-hemorrhaging",
+    "relation": "revised"
+  },
+  "rules": {
+    "domain": "blood",
+    "level": 9,
+    "card_type": "spell",
+    "recall_cost": 3
+  },
+  "content": {
+    "rules_text": "Make a Spellcast Roll against a target within Close range. On a success, spend a Hope to mark the target with a magical glyph that causes them to bleed profusely. Until the glyph fades, damage the target takes is increased by one threshold. The glyph fades when you take a rest, you cast this spell again, or the target takes Severe or greater damage.",
+    "validation": "checked_against_pdf_2026-07-09"
+  }
+}

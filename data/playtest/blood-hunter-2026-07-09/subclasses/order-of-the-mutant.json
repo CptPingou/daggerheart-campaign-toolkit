@@ -1,0 +1,53 @@
+{
+  "id": "the-void.2026-07-09.subclass.order-of-the-mutant",
+  "kind": "subclass",
+  "identity": {
+    "name": "Order of the Mutant",
+    "slug": "order-of-the-mutant"
+  },
+  "source": {
+    "corpus": "the-void",
+    "product": "blood-hunter",
+    "version": "2026-07-09",
+    "status": "playtest"
+  },
+  "provenance": {
+    "source_file": "Blood_Hunter_Void_2026_07_09.pdf",
+    "page": 3
+  },
+  "availability": {
+    "in_srd": false,
+    "private_only": true,
+    "deprecated": false
+  },
+  "migration": {
+    "previous_id": "the-void.v1.5.subclass.order-of-the-mutant",
+    "relation": "revised"
+  },
+  "class_id": "the-void.2026-07-09.class.blood-hunter",
+  "rules": {
+    "spellcast_trait": "agility",
+    "features": [
+      {
+        "tier": "foundation",
+        "name": "Mutagens",
+        "text": "You employ mutagenic toxins created to enhance your abilities. When you finish a rest, you can drink one such toxin to gain its effects, which last until you finish your next rest. These effects include a +1 bonus to one trait of your choice, a −1 penalty to a different trait of your choice, and your choice of one of the following benefits:\n• Celerity. If you are Restrained or Vulnerable, you can mark a Stress to end the condition on yourself.\n• Durable. Your Armor Score increases by 2.\n• Hunter’s Senses. You have advantage on any action roll you make to track a creature, and you can see in complete darkness."
+      },
+      {
+        "tier": "specialization",
+        "name": "Improved Mutagens",
+        "text": "When you choose a mutagen benefit, your options also include the following:\n• Nerves of Steel. Whenever you must mark a Stress, you can spend 2 Hope instead.\n• Rapidity. Your Evasion increases by 1.\n• Ironskin. Your Severe damage threshold increases by a number equal to your Proficiency."
+      },
+      {
+        "tier": "specialization",
+        "name": "Volatile Toxins",
+        "text": "You can choose two mutagen benefits instead of one. If you do, mark a Hit Point that can’t be cleared until you finish your next rest."
+      },
+      {
+        "tier": "mastery",
+        "name": "Mastered Mutagens",
+        "text": "The trait bonus and penalty you get from your Mutagens feature changes to +2 and −2, respectively. When you choose a mutagen benefit, your options also include the following:\n• Aetherblood. Within your line of sight, you can see creatures and objects that are invisible, and visual illusions appear transparent to you. If a creature or an object within your line of sight has been transformed by magic, you can see its true form.\n• Fury. When you make an attack roll, you can mark a Stress to gain a bonus to the roll equal to your Proficiency.\n• Steelflesh. Your Major damage threshold gains a bonus equal to your Proficiency."
+      }
+    ]
+  }
+}

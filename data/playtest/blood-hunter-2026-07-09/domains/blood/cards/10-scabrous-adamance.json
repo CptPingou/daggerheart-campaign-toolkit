@@ -1,0 +1,37 @@
+{
+  "id": "the-void.2026-07-09.domain_card.scabrous-adamance",
+  "kind": "domain_card",
+  "identity": {
+    "name": "Scabrous Adamance",
+    "slug": "scabrous-adamance"
+  },
+  "source": {
+    "corpus": "the-void",
+    "product": "blood-hunter",
+    "version": "2026-07-09",
+    "status": "playtest"
+  },
+  "provenance": {
+    "source_file": "Blood_Hunter_Void_2026_07_09.pdf",
+    "page": 6
+  },
+  "availability": {
+    "in_srd": false,
+    "private_only": true,
+    "deprecated": false
+  },
+  "migration": {
+    "previous_id": "the-void.v1.5.domain_card.crimson-adamance",
+    "relation": "replaces"
+  },
+  "rules": {
+    "domain": "blood",
+    "level": 10,
+    "card_type": "ability",
+    "recall_cost": 1
+  },
+  "content": {
+    "rules_text": "Your wounds seal into armored scabs. When you mark 2 or more Hit Points from an attack, clear an Armor Slot.",
+    "validation": "checked_against_pdf_2026-07-09"
+  }
+}

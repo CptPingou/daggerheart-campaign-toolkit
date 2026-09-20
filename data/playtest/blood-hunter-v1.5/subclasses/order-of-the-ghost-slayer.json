@@ -1,0 +1,49 @@
+{
+  "id": "the-void.v1.5.subclass.order-of-the-ghost-slayer",
+  "kind": "subclass",
+  "identity": {
+    "name": "Order of the Ghost Slayer",
+    "slug": "order-of-the-ghost-slayer"
+  },
+  "source": {
+    "corpus": "the-void",
+    "product": "blood-hunter",
+    "version": "1.5",
+    "status": "playtest"
+  },
+  "provenance": {
+    "source_file": "Bloodhunter-v1.5-The-Void.pdf",
+    "page": 3
+  },
+  "availability": {
+    "in_srd": false,
+    "private_only": true,
+    "deprecated": false
+  },
+  "class_id": "the-void.v1.5.class.blood-hunter",
+  "rules": {
+    "spellcast_trait": "agility",
+    "features": [
+      {
+        "tier": "foundation",
+        "name": "Chasing Death",
+        "text": "While you have 1–3 unmarked Hit Points, you can use your Crimson Rite feature without paying the Hit Point cost. If you have only 1 unmarked Hit Point, you roll d8s instead of d6s for the extra damage of your Crimson Rite."
+      },
+      {
+        "tier": "foundation",
+        "name": "Shadowed Grit",
+        "text": "When the GM gains a Fear from a Duality Dice roll, you can mark a Stress to gain a Hope."
+      },
+      {
+        "tier": "specialization",
+        "name": "Veilwalker",
+        "text": "You can briefly slip into the realm between the living and the dead. Spend 2 Hope to disappear and then reappear next to a creature or a corpse within Far range. You then have advantage on the next attack roll you make in this scene."
+      },
+      {
+        "tier": "mastery",
+        "name": "Spectral Form",
+        "text": "You have another death move option: Spectral Form. When you choose this option, you clear a Hit Point, your body becomes spectral, you have resistance to physical damage, and you can pass through objects. This form ends if you clear any more Hit Points. It also ends if you mark your last Hit Point, which forces you to take a different death move. You’re shunted to the nearest open space if you’re inside an object when the form ends."
+      }
+    ]
+  }
+}

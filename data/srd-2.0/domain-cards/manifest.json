@@ -1,0 +1,19 @@
+{
+  "source_file": "DH_SRD_2_2026_08_25.pdf",
+  "expected_total": 210,
+  "parsed_total": 210,
+  "counts_by_domain": {
+    "arcana": 21,
+    "blade": 21,
+    "bone": 21,
+    "codex": 21,
+    "dread": 21,
+    "grace": 21,
+    "midnight": 21,
+    "sage": 21,
+    "splendor": 21,
+    "valor": 21
+  },
+  "validation": "GREEN",
+  "errors": []
+}

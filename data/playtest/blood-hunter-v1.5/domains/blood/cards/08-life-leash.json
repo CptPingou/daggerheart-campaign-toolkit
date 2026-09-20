@@ -1,0 +1,33 @@
+{
+  "id": "the-void.v1.5.domain_card.life-leash",
+  "kind": "domain_card",
+  "identity": {
+    "name": "Life Leash",
+    "slug": "life-leash"
+  },
+  "source": {
+    "corpus": "the-void",
+    "product": "blood-hunter",
+    "version": "1.5",
+    "status": "playtest"
+  },
+  "provenance": {
+    "source_file": "Bloodhunter-v1.5-The-Void.pdf",
+    "page": 5
+  },
+  "availability": {
+    "in_srd": false,
+    "private_only": true,
+    "deprecated": false
+  },
+  "rules": {
+    "domain": "blood",
+    "level": 8,
+    "card_type": "spell",
+    "recall_cost": 2
+  },
+  "content": {
+    "rules_text": "Spend a Hope to allow yourself and a willing ally within Far range to redistribute marked Hit Points between the two of you. You then can’t target that ally again with Life Leash until you finish a rest.",
+    "validation": "checked_against_pdf_v1.5"
+  }
+}

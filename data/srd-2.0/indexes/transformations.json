@@ -1,0 +1,98 @@
+[
+  {
+    "id": "srd-2.0.transformation.demigod",
+    "kind": "transformation",
+    "name": "Demigod",
+    "slug": "demigod",
+    "source": {
+      "corpus": "daggerheart-srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    }
+  },
+  {
+    "id": "srd-2.0.transformation.ghost",
+    "kind": "transformation",
+    "name": "Ghost",
+    "slug": "ghost",
+    "source": {
+      "corpus": "daggerheart-srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    }
+  },
+  {
+    "id": "srd-2.0.transformation.reanimated",
+    "kind": "transformation",
+    "name": "Reanimated",
+    "slug": "reanimated",
+    "source": {
+      "corpus": "daggerheart-srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    }
+  },
+  {
+    "id": "srd-2.0.transformation.shapeshifter",
+    "kind": "transformation",
+    "name": "Shapeshifter",
+    "slug": "shapeshifter",
+    "source": {
+      "corpus": "daggerheart-srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    }
+  },
+  {
+    "id": "srd-2.0.transformation.vampire",
+    "kind": "transformation",
+    "name": "Vampire",
+    "slug": "vampire",
+    "source": {
+      "corpus": "daggerheart-srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    }
+  },
+  {
+    "id": "srd-2.0.transformation.werewolf",
+    "kind": "transformation",
+    "name": "Werewolf",
+    "slug": "werewolf",
+    "source": {
+      "corpus": "daggerheart-srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    }
+  }
+]

@@ -1,0 +1,129 @@
+{
+  "phase": "P1.3c",
+  "purpose": "Inventory local campaign-setting sources before extraction; no proprietary campaign text is copied.",
+  "pdf_directory": "pdf",
+  "pdf_count": 5,
+  "sources": [
+    {
+      "filename": "Bloodhunter-v1.5-The-Void.pdf",
+      "relative_path": "pdf\\Bloodhunter-v1.5-The-Void.pdf",
+      "sha256": "0a52527fe041fbbb60c21ee5fd6ab605164a626874001700044e715fd394df75",
+      "corpus_id": "blood-hunter-v1.5",
+      "product": "Blood Hunter / The Void v1.5",
+      "publication_status": "playtest",
+      "campaign_setting_role": "class_playtest",
+      "expected_campaign_frames": [],
+      "expected_setting_mechanics": [],
+      "next_action": "primitive_coverage_input_P1.5",
+      "probe": {
+        "readable": true,
+        "page_count": 6,
+        "campaign_frame_signal": false,
+        "campaign_mechanics_signal": false,
+        "probe_error": null
+      }
+    },
+    {
+      "filename": "Daggerheart-Homebrew-Kit-v1.0-July-31-2025.pdf",
+      "relative_path": "pdf\\Daggerheart-Homebrew-Kit-v1.0-July-31-2025.pdf",
+      "sha256": "eb4befce8bd3ce2904c92b4196cd0bcbb62e963365695d5f55550339c41faa84",
+      "corpus_id": "homebrew-kit-v1.0",
+      "product": "Daggerheart Homebrew Kit v1.0",
+      "publication_status": "published_private",
+      "campaign_setting_role": "design_guidance",
+      "expected_campaign_frames": [],
+      "expected_setting_mechanics": [],
+      "next_action": "primitive_design_reference_P1.4",
+      "probe": {
+        "readable": true,
+        "page_count": 26,
+        "campaign_frame_signal": true,
+        "campaign_mechanics_signal": true,
+        "probe_error": null
+      }
+    },
+    {
+      "filename": "Daggerheart_HF.pdf",
+      "relative_path": "pdf\\Daggerheart_HF.pdf",
+      "sha256": "6f0d7667d648a4c73a06b61de993cfc76674c698a3c00cb447c2c027f38399de",
+      "corpus_id": "hope-fear",
+      "product": "Daggerheart: Hope & Fear",
+      "publication_status": "published_private",
+      "campaign_setting_role": "private_delta",
+      "expected_campaign_frames": [
+        "Castle High",
+        "Reign of the Weredragon",
+        "Dark Heart of Andaluria",
+        "Journey to Horizon"
+      ],
+      "expected_setting_mechanics": [],
+      "next_action": "already_extracted_P1.3b",
+      "probe": {
+        "readable": true,
+        "page_count": 211,
+        "campaign_frame_signal": true,
+        "campaign_mechanics_signal": false,
+        "probe_error": null
+      }
+    },
+    {
+      "filename": "Daggerheart_HF_Full_Art_and_Printer_Friendly_Cards_-_8-14-26.pdf",
+      "relative_path": "pdf\\Daggerheart_HF_Full_Art_and_Printer_Friendly_Cards_-_8-14-26.pdf",
+      "sha256": "6f0d7667d648a4c73a06b61de993cfc76674c698a3c00cb447c2c027f38399de",
+      "corpus_id": "hope-fear-cards",
+      "product": "Hope & Fear Full Art / Printer Friendly Cards",
+      "publication_status": "published_private",
+      "campaign_setting_role": "reference_asset",
+      "expected_campaign_frames": [],
+      "expected_setting_mechanics": [],
+      "next_action": "reference_only",
+      "probe": {
+        "readable": true,
+        "page_count": 211,
+        "campaign_frame_signal": true,
+        "campaign_mechanics_signal": false,
+        "probe_error": null
+      }
+    },
+    {
+      "filename": "DH_SRD_2_2026_08_25.pdf",
+      "relative_path": "pdf\\DH_SRD_2_2026_08_25.pdf",
+      "sha256": "55d8b92b7e58aa1da99a4a59aa77352483ef4fbda71baddb9af9bfc1f333bd2a",
+      "corpus_id": "srd-2.0",
+      "product": "Daggerheart SRD 2.0",
+      "publication_status": "srd",
+      "campaign_setting_role": "baseline",
+      "expected_campaign_frames": [
+        "The Witherwild"
+      ],
+      "expected_setting_mechanics": [
+        "Supplemental Campaign Mechanics"
+      ],
+      "next_action": "already_extracted",
+      "probe": {
+        "readable": true,
+        "page_count": 224,
+        "campaign_frame_signal": true,
+        "campaign_mechanics_signal": true,
+        "probe_error": null
+      }
+    }
+  ],
+  "known_setting_source_count": 2,
+  "additional_campaign_setting_candidate_count": 0,
+  "additional_campaign_setting_candidates": [],
+  "checks": {
+    "pdf_directory_found": true,
+    "at_least_one_pdf_found": true,
+    "all_pdfs_readable": true,
+    "srd2_present": true,
+    "hope_fear_present": true,
+    "known_setting_sources_registered": true,
+    "all_additional_candidates_have_next_action": true
+  },
+  "validation": "GREEN",
+  "errors": [],
+  "interpretation": "GREEN with zero additional candidates means the current local PDF corpus contains no new campaign-setting source beyond SRD 2.0 and Hope & Fear. P1.3d should only begin after additional setting PDFs are added, or may be recorded as NO-OP for the current corpus.",
+  "next_phase_if_candidates": "P1.3d — extract additional campaign-setting sources",
+  "next_phase_if_zero_candidates": "P1.4 — Primitive Census"
+}

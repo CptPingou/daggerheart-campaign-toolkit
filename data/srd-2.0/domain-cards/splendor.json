@@ -1,0 +1,611 @@
+[
+  {
+    "id": "srd-2.0.domain-card.splendor.bolt-beacon",
+    "kind": "domain_card",
+    "identity": {
+      "name": "Bolt Beacon",
+      "slug": "bolt-beacon"
+    },
+    "source": {
+      "corpus": "daggerheart-srd",
+      "product": "srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    },
+    "rules": {
+      "domain": "splendor",
+      "level": 1,
+      "card_type": "spell",
+      "recall_cost": 1
+    },
+    "content": {
+      "rules_text": "Make a Spellcast Roll against a target within Far range. \nOn a success, spend a Hope to send a bolt of shimmering \nlight toward them, dealing d8+2 magic damage using your \nProficiency. The target becomes temporarily Vulnerable and \nglows brightly until this condition is cleared.",
+      "notes": null
+    }
+  },
+  {
+    "id": "srd-2.0.domain-card.splendor.mending-touch",
+    "kind": "domain_card",
+    "identity": {
+      "name": "Mending Touch",
+      "slug": "mending-touch"
+    },
+    "source": {
+      "corpus": "daggerheart-srd",
+      "product": "srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    },
+    "rules": {
+      "domain": "splendor",
+      "level": 1,
+      "card_type": "spell",
+      "recall_cost": 1
+    },
+    "content": {
+      "rules_text": "You lay your hands upon a creature and channel healing magic \nto close their wounds. When you can take a few minutes to \nfocus on the target you’re helping, you can spend 2 Hope to \nclear a Hit Point or a Stress on them. \nOnce per long rest, when you spend this healing time learning \nsomething new about them or revealing something about \nyourself, you can clear 2 Hit Points or 2 Stress on them \ninstead.",
+      "notes": null
+    }
+  },
+  {
+    "id": "srd-2.0.domain-card.splendor.reassurance",
+    "kind": "domain_card",
+    "identity": {
+      "name": "Reassurance",
+      "slug": "reassurance"
+    },
+    "source": {
+      "corpus": "daggerheart-srd",
+      "product": "srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    },
+    "rules": {
+      "domain": "splendor",
+      "level": 1,
+      "card_type": "ability",
+      "recall_cost": 0
+    },
+    "content": {
+      "rules_text": "Once per rest, after an ally attempts an action roll but before \nthe consequences take place, you can offer assistance or \nwords of support. When you do, your ally can reroll their dice.",
+      "notes": null
+    }
+  },
+  {
+    "id": "srd-2.0.domain-card.splendor.final-words",
+    "kind": "domain_card",
+    "identity": {
+      "name": "Final Words",
+      "slug": "final-words"
+    },
+    "source": {
+      "corpus": "daggerheart-srd",
+      "product": "srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    },
+    "rules": {
+      "domain": "splendor",
+      "level": 2,
+      "card_type": "spell",
+      "recall_cost": 1
+    },
+    "content": {
+      "rules_text": "You can infuse a corpse with a moment of life to speak with \nit. Make a Spellcast Roll (13). On a success with Hope, the \ncorpse answers up to three questions. On a success with \nFear, the corpse answers one question. The corpse answers \ntruthfully, but it can’t impart information it didn’t know in life. \nOn a failure, or once the corpse has finished answering your \nquestions, the body turns to dust.",
+      "notes": null
+    }
+  },
+  {
+    "id": "srd-2.0.domain-card.splendor.healing-hands",
+    "kind": "domain_card",
+    "identity": {
+      "name": "Healing Hands",
+      "slug": "healing-hands"
+    },
+    "source": {
+      "corpus": "daggerheart-srd",
+      "product": "srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    },
+    "rules": {
+      "domain": "splendor",
+      "level": 2,
+      "card_type": "spell",
+      "recall_cost": 1
+    },
+    "content": {
+      "rules_text": "Make a Spellcast Roll (13) and target a creature other than \nyourself within Melee range. On a success, mark a Stress to \nclear 2 Hit Points or 2 Stress on the target. On a failure, mark \na Stress to clear a Hit Point or a Stress on the target. You can’t \nheal the same target again until your next long rest.",
+      "notes": null
+    }
+  },
+  {
+    "id": "srd-2.0.domain-card.splendor.second-wind",
+    "kind": "domain_card",
+    "identity": {
+      "name": "Second Wind",
+      "slug": "second-wind"
+    },
+    "source": {
+      "corpus": "daggerheart-srd",
+      "product": "srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    },
+    "rules": {
+      "domain": "splendor",
+      "level": 3,
+      "card_type": "ability",
+      "recall_cost": 2
+    },
+    "content": {
+      "rules_text": "Once per rest, when you succeed on an attack against an \nadversary, you can clear 3 Stress or a Hit Point. On a success \nwith Hope, you also clear 3 Stress or a Hit Point on an ally \nwithin Close range of you.",
+      "notes": null
+    }
+  },
+  {
+    "id": "srd-2.0.domain-card.splendor.voice-of-reason",
+    "kind": "domain_card",
+    "identity": {
+      "name": "Voice Of Reason",
+      "slug": "voice-of-reason"
+    },
+    "source": {
+      "corpus": "daggerheart-srd",
+      "product": "srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    },
+    "rules": {
+      "domain": "splendor",
+      "level": 3,
+      "card_type": "ability",
+      "recall_cost": 1
+    },
+    "content": {
+      "rules_text": "You speak with an unmatched power and authority. You have \nadvantage on action rolls to de-escalate violent situations or \nconvince someone to follow your lead.\nAdditionally, you’re emboldened in moments of duress. When \nall of your Stress slots are marked, you gain a +1 bonus to your \nProficiency for damage rolls.",
+      "notes": null
+    }
+  },
+  {
+    "id": "srd-2.0.domain-card.splendor.divination",
+    "kind": "domain_card",
+    "identity": {
+      "name": "Divination",
+      "slug": "divination"
+    },
+    "source": {
+      "corpus": "daggerheart-srd",
+      "product": "srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    },
+    "rules": {
+      "domain": "splendor",
+      "level": 4,
+      "card_type": "spell",
+      "recall_cost": 1
+    },
+    "content": {
+      "rules_text": "Once per long rest, spend 3 Hope to reach out to the forces \nbeyond and ask one “yes or no” question about an event, \nperson, place, or situation in the near future. For a moment, \nthe present falls away and you see the answer before you.",
+      "notes": null
+    }
+  },
+  {
+    "id": "srd-2.0.domain-card.splendor.life-ward",
+    "kind": "domain_card",
+    "identity": {
+      "name": "Life Ward",
+      "slug": "life-ward"
+    },
+    "source": {
+      "corpus": "daggerheart-srd",
+      "product": "srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    },
+    "rules": {
+      "domain": "splendor",
+      "level": 4,
+      "card_type": "spell",
+      "recall_cost": 1
+    },
+    "content": {
+      "rules_text": "Spend 3 Hope and choose an ally within Close range. They are \nmarked with a glowing sigil of protection. When this ally would \nmake a death move, they clear a Hit Point instead.\nThis effect ends when it saves the target from a death move, \nyou cast Life Ward on another target, or you take a long rest.",
+      "notes": null
+    }
+  },
+  {
+    "id": "srd-2.0.domain-card.splendor.shape-material",
+    "kind": "domain_card",
+    "identity": {
+      "name": "Shape Material",
+      "slug": "shape-material"
+    },
+    "source": {
+      "corpus": "daggerheart-srd",
+      "product": "srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    },
+    "rules": {
+      "domain": "splendor",
+      "level": 5,
+      "card_type": "spell",
+      "recall_cost": 1
+    },
+    "content": {
+      "rules_text": "Spend a Hope to shape a section of natural material you’re \ntouching (such as stone, ice, or wood) to suit your purpose. \nThe area of the material can be no larger than you. For \nexample, you can form a rudimentary tool or create a door.\nYou can only affect the material within Close range of where \nyou’re touching it.",
+      "notes": null
+    }
+  },
+  {
+    "id": "srd-2.0.domain-card.splendor.smite",
+    "kind": "domain_card",
+    "identity": {
+      "name": "Smite",
+      "slug": "smite"
+    },
+    "source": {
+      "corpus": "daggerheart-srd",
+      "product": "srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    },
+    "rules": {
+      "domain": "splendor",
+      "level": 5,
+      "card_type": "spell",
+      "recall_cost": 2
+    },
+    "content": {
+      "rules_text": "Once per rest, spend 3 Hope to charge your powerful smite. \nWhen you next successfully attack with a weapon, double the \nresult of your damage roll. This attack deals magic damage \nregardless of the weapon’s damage type.",
+      "notes": null
+    }
+  },
+  {
+    "id": "srd-2.0.domain-card.splendor.restoration",
+    "kind": "domain_card",
+    "identity": {
+      "name": "Restoration",
+      "slug": "restoration"
+    },
+    "source": {
+      "corpus": "daggerheart-srd",
+      "product": "srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    },
+    "rules": {
+      "domain": "splendor",
+      "level": 6,
+      "card_type": "spell",
+      "recall_cost": 2
+    },
+    "content": {
+      "rules_text": "After a long rest, place a number of tokens equal to your \nSpellcast trait on this card. T ouch a creature and spend any \nnumber of tokens to clear 2 Hit Points or 2 Stress for each \ntoken spent. \nYou can also spend a token from this card when touching a \ncreature to clear the Vulnerable condition or heal a physical \nor magical ailment (the GM might require additional tokens \ndepending on the strength of the ailment). \nWhen you take a long rest, clear all unspent tokens.\n221\nDaggerheart SRD",
+      "notes": null
+    }
+  },
+  {
+    "id": "srd-2.0.domain-card.splendor.zone-of-protection",
+    "kind": "domain_card",
+    "identity": {
+      "name": "Zone Of Protection",
+      "slug": "zone-of-protection"
+    },
+    "source": {
+      "corpus": "daggerheart-srd",
+      "product": "srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    },
+    "rules": {
+      "domain": "splendor",
+      "level": 6,
+      "card_type": "spell",
+      "recall_cost": 2
+    },
+    "content": {
+      "rules_text": "Make a Spellcast Roll (16). Once per long rest on a success, \nchoose a point within Far range and create a visible zone of \nprotection there for all allies within Very Close range of that \npoint. When you do, place a d6 on this card with the 1 value \nfacing up. When an ally in this zone takes damage, they reduce \nit by the die’s value. You then increase the die’s value by one. \nWhen the die’s value would exceed 6, this effect ends.",
+      "notes": null
+    }
+  },
+  {
+    "id": "srd-2.0.domain-card.splendor.healing-strike",
+    "kind": "domain_card",
+    "identity": {
+      "name": "Healing Strike",
+      "slug": "healing-strike"
+    },
+    "source": {
+      "corpus": "daggerheart-srd",
+      "product": "srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    },
+    "rules": {
+      "domain": "splendor",
+      "level": 7,
+      "card_type": "spell",
+      "recall_cost": 1
+    },
+    "content": {
+      "rules_text": "When you deal damage to an adversary, you can spend 2 Hope \nto clear a Hit Point on an ally within Close range.",
+      "notes": null
+    }
+  },
+  {
+    "id": "srd-2.0.domain-card.splendor.splendor-touched",
+    "kind": "domain_card",
+    "identity": {
+      "name": "Splendor-Touched",
+      "slug": "splendor-touched"
+    },
+    "source": {
+      "corpus": "daggerheart-srd",
+      "product": "srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    },
+    "rules": {
+      "domain": "splendor",
+      "level": 7,
+      "card_type": "ability",
+      "recall_cost": 2
+    },
+    "content": {
+      "rules_text": "When 4 or more of the domain cards in your loadout are from \nthe Splendor domain, gain the following benefits:\n ◦ +3 bonus to your Severe damage threshold\n ◦ Once per long rest, when incoming damage would require \nyou to mark a number of Hit Points, you can choose to \nmark that much Stress or spend that much Hope instead.",
+      "notes": null
+    }
+  },
+  {
+    "id": "srd-2.0.domain-card.splendor.shield-aura",
+    "kind": "domain_card",
+    "identity": {
+      "name": "Shield Aura",
+      "slug": "shield-aura"
+    },
+    "source": {
+      "corpus": "daggerheart-srd",
+      "product": "srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    },
+    "rules": {
+      "domain": "splendor",
+      "level": 8,
+      "card_type": "spell",
+      "recall_cost": 2
+    },
+    "content": {
+      "rules_text": "Mark a Stress to cast a protective aura on a target within \nVery Close range. When the target marks an Armor Slot, they \nreduce the severity of the attack by an additional threshold. If \nthis spell causes a creature who would be damaged to instead \nmark no Hit Points, the effect ends. \nYou can only hold Shield Aura on one creature at a time.",
+      "notes": null
+    }
+  },
+  {
+    "id": "srd-2.0.domain-card.splendor.stunning-sunlight",
+    "kind": "domain_card",
+    "identity": {
+      "name": "Stunning Sunlight",
+      "slug": "stunning-sunlight"
+    },
+    "source": {
+      "corpus": "daggerheart-srd",
+      "product": "srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    },
+    "rules": {
+      "domain": "splendor",
+      "level": 8,
+      "card_type": "spell",
+      "recall_cost": 2
+    },
+    "content": {
+      "rules_text": "Make a Spellcast Roll to unleash powerful rays of burning \nsunlight against all adversaries in front of you within Far range. \nOn a success, spend any number of Hope and force that many \ntargets you succeeded against to make a Reaction Roll (14). \nT argets who succeed take 3d20+3 magic damage. T argets who \nfail take 4d20+5 magic damage and are temporarily Stunned. \nWhile Stunned, they can’t use reactions and can’t take any \nother actions until they clear this condition.",
+      "notes": null
+    }
+  },
+  {
+    "id": "srd-2.0.domain-card.splendor.overwhelming-aura",
+    "kind": "domain_card",
+    "identity": {
+      "name": "Overwhelming Aura",
+      "slug": "overwhelming-aura"
+    },
+    "source": {
+      "corpus": "daggerheart-srd",
+      "product": "srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    },
+    "rules": {
+      "domain": "splendor",
+      "level": 9,
+      "card_type": "spell",
+      "recall_cost": 2
+    },
+    "content": {
+      "rules_text": "Make a Spellcast Roll (15) to magically empower your aura. On \na success, spend 2 Hope to make your Presence equal to your \nSpellcast trait until your next long rest. \nWhile this spell is active, an adversary must mark a Stress \nwhen they target you with an attack.",
+      "notes": null
+    }
+  },
+  {
+    "id": "srd-2.0.domain-card.splendor.salvation-beam",
+    "kind": "domain_card",
+    "identity": {
+      "name": "Salvation Beam",
+      "slug": "salvation-beam"
+    },
+    "source": {
+      "corpus": "daggerheart-srd",
+      "product": "srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    },
+    "rules": {
+      "domain": "splendor",
+      "level": 9,
+      "card_type": "spell",
+      "recall_cost": 2
+    },
+    "content": {
+      "rules_text": "Make a Spellcast Roll (16). On a success, mark any number \nof Stress to target a line of allies within Far range. You can \nclear Hit Points on the targets equal to the number of Stress \nmarked, divided among them however you’d like.",
+      "notes": null
+    }
+  },
+  {
+    "id": "srd-2.0.domain-card.splendor.invigoration",
+    "kind": "domain_card",
+    "identity": {
+      "name": "Invigoration",
+      "slug": "invigoration"
+    },
+    "source": {
+      "corpus": "daggerheart-srd",
+      "product": "srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    },
+    "rules": {
+      "domain": "splendor",
+      "level": 10,
+      "card_type": "spell",
+      "recall_cost": 3
+    },
+    "content": {
+      "rules_text": "When you or an ally within Close range has used a feature \nthat has an exhaustion limit (such as once per rest or once \nper session), you can spend any number of Hope and roll that \nmany d6s. If any roll a 6, the feature can be used again.",
+      "notes": null
+    }
+  },
+  {
+    "id": "srd-2.0.domain-card.splendor.resurrection",
+    "kind": "domain_card",
+    "identity": {
+      "name": "Resurrection",
+      "slug": "resurrection"
+    },
+    "source": {
+      "corpus": "daggerheart-srd",
+      "product": "srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    },
+    "rules": {
+      "domain": "splendor",
+      "level": 10,
+      "card_type": "spell",
+      "recall_cost": 2
+    },
+    "content": {
+      "rules_text": "Make a Spellcast Roll (20). On a success, restore one creature \nwho has been dead no longer than 100 years to full strength. \nThen roll a d6. On a result of 5 or lower, place this card in your \nvault permanently.\nOn a failure, you can’t cast Resurrection again for a week.\nV",
+      "notes": null
+    }
+  }
+]

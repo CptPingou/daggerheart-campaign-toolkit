@@ -1,0 +1,611 @@
+[
+  {
+    "id": "srd-2.0.domain-card.blade.get-back-up",
+    "kind": "domain_card",
+    "identity": {
+      "name": "Get Back Up",
+      "slug": "get-back-up"
+    },
+    "source": {
+      "corpus": "daggerheart-srd",
+      "product": "srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    },
+    "rules": {
+      "domain": "blade",
+      "level": 1,
+      "card_type": "ability",
+      "recall_cost": 1
+    },
+    "content": {
+      "rules_text": "When you take Severe damage, you can mark a Stress to \nreduce the severity by one threshold.",
+      "notes": null
+    }
+  },
+  {
+    "id": "srd-2.0.domain-card.blade.not-good-enough",
+    "kind": "domain_card",
+    "identity": {
+      "name": "Not Good Enough",
+      "slug": "not-good-enough"
+    },
+    "source": {
+      "corpus": "daggerheart-srd",
+      "product": "srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    },
+    "rules": {
+      "domain": "blade",
+      "level": 1,
+      "card_type": "ability",
+      "recall_cost": 1
+    },
+    "content": {
+      "rules_text": "When you roll your damage dice, you can reroll any 1s or 2s.",
+      "notes": null
+    }
+  },
+  {
+    "id": "srd-2.0.domain-card.blade.whirlwind",
+    "kind": "domain_card",
+    "identity": {
+      "name": "Whirlwind",
+      "slug": "whirlwind"
+    },
+    "source": {
+      "corpus": "daggerheart-srd",
+      "product": "srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    },
+    "rules": {
+      "domain": "blade",
+      "level": 1,
+      "card_type": "ability",
+      "recall_cost": 0
+    },
+    "content": {
+      "rules_text": "When you make a successful attack against a target within \nVery Close range, you can spend a Hope to use the attack \nagainst all other targets within Very Close range. All additional \nadversaries you succeed against with this ability take half \ndamage.",
+      "notes": null
+    }
+  },
+  {
+    "id": "srd-2.0.domain-card.blade.a-soldiers-bond",
+    "kind": "domain_card",
+    "identity": {
+      "name": "A Soldier’S Bond",
+      "slug": "a-soldiers-bond"
+    },
+    "source": {
+      "corpus": "daggerheart-srd",
+      "product": "srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    },
+    "rules": {
+      "domain": "blade",
+      "level": 2,
+      "card_type": "ability",
+      "recall_cost": 1
+    },
+    "content": {
+      "rules_text": "Once per long rest, when you compliment someone or ask \nthem about something they’re good at,  \nyou can both gain 3 Hope.",
+      "notes": null
+    }
+  },
+  {
+    "id": "srd-2.0.domain-card.blade.reckless",
+    "kind": "domain_card",
+    "identity": {
+      "name": "Reckless",
+      "slug": "reckless"
+    },
+    "source": {
+      "corpus": "daggerheart-srd",
+      "product": "srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    },
+    "rules": {
+      "domain": "blade",
+      "level": 2,
+      "card_type": "ability",
+      "recall_cost": 1
+    },
+    "content": {
+      "rules_text": "Mark a Stress to gain advantage on  \nan attack.",
+      "notes": null
+    }
+  },
+  {
+    "id": "srd-2.0.domain-card.blade.scramble",
+    "kind": "domain_card",
+    "identity": {
+      "name": "Scramble",
+      "slug": "scramble"
+    },
+    "source": {
+      "corpus": "daggerheart-srd",
+      "product": "srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    },
+    "rules": {
+      "domain": "blade",
+      "level": 3,
+      "card_type": "ability",
+      "recall_cost": 1
+    },
+    "content": {
+      "rules_text": "Once per rest, when a creature within Melee range would deal \ndamage to you, you can avoid the attack and safely move out \nof Melee range of the enemy.",
+      "notes": null
+    }
+  },
+  {
+    "id": "srd-2.0.domain-card.blade.versatile-fighter",
+    "kind": "domain_card",
+    "identity": {
+      "name": "Versatile Fighter",
+      "slug": "versatile-fighter"
+    },
+    "source": {
+      "corpus": "daggerheart-srd",
+      "product": "srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    },
+    "rules": {
+      "domain": "blade",
+      "level": 3,
+      "card_type": "ability",
+      "recall_cost": 1
+    },
+    "content": {
+      "rules_text": "You can use a different character trait for an equipped weapon, \nrather than the trait the weapon calls for. \nWhen you deal damage, you can mark a Stress to use the \nmaximum result of one of your damage dice instead of rolling \nit.",
+      "notes": null
+    }
+  },
+  {
+    "id": "srd-2.0.domain-card.blade.deadly-focus",
+    "kind": "domain_card",
+    "identity": {
+      "name": "Deadly Focus",
+      "slug": "deadly-focus"
+    },
+    "source": {
+      "corpus": "daggerheart-srd",
+      "product": "srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    },
+    "rules": {
+      "domain": "blade",
+      "level": 4,
+      "card_type": "ability",
+      "recall_cost": 2
+    },
+    "content": {
+      "rules_text": "Once per rest, you can apply all your focus toward a target of \nyour choice. Until you attack another creature, you defeat the \ntarget, or the battle ends, gain a +1 bonus to your Proficiency.",
+      "notes": null
+    }
+  },
+  {
+    "id": "srd-2.0.domain-card.blade.fortified-armor",
+    "kind": "domain_card",
+    "identity": {
+      "name": "Fortified Armor",
+      "slug": "fortified-armor"
+    },
+    "source": {
+      "corpus": "daggerheart-srd",
+      "product": "srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    },
+    "rules": {
+      "domain": "blade",
+      "level": 4,
+      "card_type": "ability",
+      "recall_cost": 0
+    },
+    "content": {
+      "rules_text": "While you are wearing armor, gain a +2 bonus to your damage \nthresholds.",
+      "notes": null
+    }
+  },
+  {
+    "id": "srd-2.0.domain-card.blade.champions-edge",
+    "kind": "domain_card",
+    "identity": {
+      "name": "Champion’S Edge",
+      "slug": "champions-edge"
+    },
+    "source": {
+      "corpus": "daggerheart-srd",
+      "product": "srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    },
+    "rules": {
+      "domain": "blade",
+      "level": 5,
+      "card_type": "ability",
+      "recall_cost": 1
+    },
+    "content": {
+      "rules_text": "When you critically succeed on an attack, you can spend up to \n3 Hope and choose one of the following options for each Hope \nspent:\n ◦ You clear a Hit Point.\n ◦ You clear an Armor Slot.\n ◦ The target must mark an additional Hit Point.\nYou can’t choose the same option more than once.",
+      "notes": null
+    }
+  },
+  {
+    "id": "srd-2.0.domain-card.blade.vitality",
+    "kind": "domain_card",
+    "identity": {
+      "name": "Vitality",
+      "slug": "vitality"
+    },
+    "source": {
+      "corpus": "daggerheart-srd",
+      "product": "srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    },
+    "rules": {
+      "domain": "blade",
+      "level": 5,
+      "card_type": "ability",
+      "recall_cost": 0
+    },
+    "content": {
+      "rules_text": "When you choose this card, permanently gain two of the \nfollowing benefits:\n ◦ One Stress slot\n ◦ One Hit Point slot\n ◦ +2 bonus to your damage thresholds\nThen place this card in your vault permanently.",
+      "notes": null
+    }
+  },
+  {
+    "id": "srd-2.0.domain-card.blade.battle-hardened",
+    "kind": "domain_card",
+    "identity": {
+      "name": "Battle-Hardened",
+      "slug": "battle-hardened"
+    },
+    "source": {
+      "corpus": "daggerheart-srd",
+      "product": "srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    },
+    "rules": {
+      "domain": "blade",
+      "level": 6,
+      "card_type": "ability",
+      "recall_cost": 2
+    },
+    "content": {
+      "rules_text": "Once per long rest when you would make a Death Move, you \ncan spend a Hope to clear a Hit Point instead.",
+      "notes": null
+    }
+  },
+  {
+    "id": "srd-2.0.domain-card.blade.rage-up",
+    "kind": "domain_card",
+    "identity": {
+      "name": "Rage Up",
+      "slug": "rage-up"
+    },
+    "source": {
+      "corpus": "daggerheart-srd",
+      "product": "srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    },
+    "rules": {
+      "domain": "blade",
+      "level": 6,
+      "card_type": "ability",
+      "recall_cost": 1
+    },
+    "content": {
+      "rules_text": "Before you make an attack, you can mark a Stress to gain a \nbonus to your damage roll equal to twice your Strength.\nYou can Rage Up twice per attack.",
+      "notes": null
+    }
+  },
+  {
+    "id": "srd-2.0.domain-card.blade.blade-touched",
+    "kind": "domain_card",
+    "identity": {
+      "name": "Blade-Touched",
+      "slug": "blade-touched"
+    },
+    "source": {
+      "corpus": "daggerheart-srd",
+      "product": "srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    },
+    "rules": {
+      "domain": "blade",
+      "level": 7,
+      "card_type": "ability",
+      "recall_cost": 1
+    },
+    "content": {
+      "rules_text": "When 4 or more of the domain cards in your loadout are from \nthe Blade domain, gain the following benefits:\n ◦ +2 bonus to your attack rolls\n ◦ +4 bonus to your Severe damage threshold",
+      "notes": null
+    }
+  },
+  {
+    "id": "srd-2.0.domain-card.blade.glancing-blow",
+    "kind": "domain_card",
+    "identity": {
+      "name": "Glancing Blow",
+      "slug": "glancing-blow"
+    },
+    "source": {
+      "corpus": "daggerheart-srd",
+      "product": "srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    },
+    "rules": {
+      "domain": "blade",
+      "level": 7,
+      "card_type": "ability",
+      "recall_cost": 1
+    },
+    "content": {
+      "rules_text": "When you fail an attack, you can mark a Stress to deal weapon \ndamage using half your Proficiency.",
+      "notes": null
+    }
+  },
+  {
+    "id": "srd-2.0.domain-card.blade.battle-cry",
+    "kind": "domain_card",
+    "identity": {
+      "name": "Battle Cry",
+      "slug": "battle-cry"
+    },
+    "source": {
+      "corpus": "daggerheart-srd",
+      "product": "srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    },
+    "rules": {
+      "domain": "blade",
+      "level": 8,
+      "card_type": "ability",
+      "recall_cost": 2
+    },
+    "content": {
+      "rules_text": "Once per long rest, while you’re charging into danger, you can \nmuster a rousing call that inspires your allies. All allies who \ncan hear you each clear a Stress and gain a Hope. Additionally, \nyour allies gain advantage on attack rolls until you or an ally \nrolls a failure with Fear.\n208\nDaggerheart SRD",
+      "notes": null
+    }
+  },
+  {
+    "id": "srd-2.0.domain-card.blade.frenzy",
+    "kind": "domain_card",
+    "identity": {
+      "name": "Frenzy",
+      "slug": "frenzy"
+    },
+    "source": {
+      "corpus": "daggerheart-srd",
+      "product": "srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    },
+    "rules": {
+      "domain": "blade",
+      "level": 8,
+      "card_type": "ability",
+      "recall_cost": 3
+    },
+    "content": {
+      "rules_text": "Once per long rest, you can go into a Frenzy until there are no \nmore adversaries within sight. \nWhile Frenzied, you can’t use Armor Slots, and you gain a +10 \nbonus to your damage rolls and a +8 bonus to your Severe \ndamage threshold.",
+      "notes": null
+    }
+  },
+  {
+    "id": "srd-2.0.domain-card.blade.gore-and-glory",
+    "kind": "domain_card",
+    "identity": {
+      "name": "Gore And Glory",
+      "slug": "gore-and-glory"
+    },
+    "source": {
+      "corpus": "daggerheart-srd",
+      "product": "srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    },
+    "rules": {
+      "domain": "blade",
+      "level": 9,
+      "card_type": "ability",
+      "recall_cost": 2
+    },
+    "content": {
+      "rules_text": "When you critically succeed on a weapon attack, gain an \nadditional Hope or clear an additional Stress. \nAdditionally, when you deal enough damage to defeat an \nenemy, gain a Hope or clear a Stress.",
+      "notes": null
+    }
+  },
+  {
+    "id": "srd-2.0.domain-card.blade.reapers-strike",
+    "kind": "domain_card",
+    "identity": {
+      "name": "Reaper’S Strike",
+      "slug": "reapers-strike"
+    },
+    "source": {
+      "corpus": "daggerheart-srd",
+      "product": "srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    },
+    "rules": {
+      "domain": "blade",
+      "level": 9,
+      "card_type": "ability",
+      "recall_cost": 3
+    },
+    "content": {
+      "rules_text": "Once per long rest, spend a Hope to make an attack roll. The \nGM tells you which targets within range it would succeed \nagainst. Choose one of these targets and force them to mark 5 \nHit Points.",
+      "notes": null
+    }
+  },
+  {
+    "id": "srd-2.0.domain-card.blade.battle-monster",
+    "kind": "domain_card",
+    "identity": {
+      "name": "Battle Monster",
+      "slug": "battle-monster"
+    },
+    "source": {
+      "corpus": "daggerheart-srd",
+      "product": "srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    },
+    "rules": {
+      "domain": "blade",
+      "level": 10,
+      "card_type": "ability",
+      "recall_cost": 0
+    },
+    "content": {
+      "rules_text": "When you make a successful attack against an adversary, you \ncan mark 4 Stress to force the target to mark a number of Hit \nPoints equal to the number of Hit Points you currently have \nmarked instead of rolling for damage.",
+      "notes": null
+    }
+  },
+  {
+    "id": "srd-2.0.domain-card.blade.onslaught",
+    "kind": "domain_card",
+    "identity": {
+      "name": "Onslaught",
+      "slug": "onslaught"
+    },
+    "source": {
+      "corpus": "daggerheart-srd",
+      "product": "srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    },
+    "rules": {
+      "domain": "blade",
+      "level": 10,
+      "card_type": "ability",
+      "recall_cost": 3
+    },
+    "content": {
+      "rules_text": "When you successfully make an attack with your weapon, you \nnever deal damage beneath a target’s Major damage threshold \n(the target always marks a minimum of 2 Hit Points).\nAdditionally, when a creature within your weapon’s range deals \ndamage to an ally with an attack that doesn’t include you, you \ncan mark a Stress to force them to make a Reaction Roll (15). \nOn a failure, the target must mark a Hit Point.",
+      "notes": null
+    }
+  }
+]

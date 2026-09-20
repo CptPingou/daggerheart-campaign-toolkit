@@ -1,0 +1,132 @@
+{
+  "id": "srd-2.0.supplemental-campaign-mechanic.feasts",
+  "kind": "supplemental_campaign_mechanic",
+  "identity": {
+    "name": "Feasts",
+    "slug": "feasts"
+  },
+  "source": {
+    "corpus": "daggerheart-srd",
+    "version": "2.0",
+    "status": "srd"
+  },
+  "provenance": {
+    "start_printed_page": 192,
+    "end_printed_page": 194
+  },
+  "rules_text": "You can use the following mechanics for campaigns in which the \nPCs harvest ingredients throughout play and use them to cook \nmeals during downtime.\nINGREDIENTS & FLAVORS\nEvery ingredient is denoted by a name and a flavor profile \ncomprising 1–3 flavors with their relative strengths. For \nexample, “Mushroom caps: Bitter (1), Savory (2).” \nThere are six flavors, each of which is represented by an \nassociated die size: Sweet (d4), Salty (d6), Bitter (d8), Sour \n(d10), Savory (d12), and Weird (d20). A flavor’s strength is \nrepresented by a value between 1 and 3. The following list \nprovides examples of ingredients and their flavor profiles:\n• Mushroom caps: Bitter (1), Savory (2)\n• Wyvern tongue: Sour (1), Savory (1), Weird (1)\n• Ooze marrow: Sweet (1), Bitter (2)\n• Direbear meat: Savory (3)\n• Acid dragon saliva: Sour (2)\n• Cave boar milk: Salty (1), Savory (1)\n• Rileroot: Bitter (1)\n• Ogre kidney stone: Sweet (1), Weird (1)\nWhen a PC acquires an ingredient, they add it to their \ninventory. The maximum number of ingredients a PC can hold \nin their inventory is equal to their highest trait.\nWhen the PCs cook with an ingredient, they roll a number of \ndice (of the flavor’s associated die size) equal to the strength \nof the flavor.\nHARVESTING INGREDIENTS\nIngredients can be acquired from defeated adversaries or the \nparty’s surroundings.\nWhen an edible animal is defeated, the PCs can harvest \ningredients from it. The number of ingredients that can be \nharvested is determined by the defeated animal’s maximum \nHit Points, according to the following table:\nHit Points to Ingredients Guide\nmaximum hit points number of ingredients\n1–4 1\n5–7 2\n8–10 3\n12+ 4\n192\nDaggerheart SRD\nThe GM determines the ingredients gained based on the \ndetails of the narrative. Usually, less powerful adversaries \nhave predominantly Sweet, Salty, and Bitter flavor profiles, \nwhereas more powerful adversaries tend to be more Sour, \nSavory, and Weird.\nThe PCs can also obtain ingredients by harvesting edible \nplants and fungi. Once per rest, each PC can spend a Hope \nto gather ingredients from their environment. The GM \ndetermines what ingredients they acquire based on the fiction \nor by having them roll their Hope Die, then, based on the \nresult, gain an ingredient with the following flavor profile:\nEnvironmental Ingredients Guide\nhope die resul t fla vor profiles\n1–2 Sweet (1)\n3–4 Salty (1)\n5–6 Bitter (1)\n7–8 Sour (1)\n9–10 Savory (1)\n11–12 Weird (1)\nMAKE A FEAST\nIn a feast-based campaign, players can’t choose downtime \nmoves to clear Stress, clear Hit Points, or gain Hope. Instead, \nthey have a new downtime move: Make a Feast. Each PC \nwho chooses this move can remove ingredients from their \ninventory and contribute them to the party’s collective meal to \ngain the benefits of the resulting feast. \nPREPARING THE DISH\nT o begin cooking, the party designates one PC to be the chef. \nThe chef combines each contributed ingredient’s flavor dice \ninto a flavor pool. For example, a party might decide to make \na steak dinner with the following recipe: 1 serving of direbear \nmeat (3d12), 1 serving of mushroom caps (2d12 and 1d8), \nand 1 serving of ooze marrow (2d8 and 1d4). This gives the \nparty 5d12, 3d8, and 1d4 altogether. \nThe chef makes a Prep Roll by rolling all the dice in the flavor \npool and setting aside any matching values. If there are no \nmatching values, the chef instead discards a die of their \nchoice. The chef continues making Cooking Rolls until only one \ndie remains in the flavor pool or all dice have been discarded \nor set aside. \nDETERMINING A MEAL’S RATING\nOnce preparation is complete, the chef calculates the resulting \nMeal Rating. Each matching set of dice is worth a number of \npoints equal to its matched value. For example, a d6 and a d8 \nthat rolled matching 3s would be worth 3 points, a d10 and a \nd12 that rolled matching 4s would be worth 4 points, and a d8 \nand a d20 that rolled matching 4s on a different roll would also \nbe worth 4 points. The chef adds the point totals together to \ndetermine the meal’s Rating. In this example, the party’s meal \nwould have a Rating of 11 (3 + 4 + 4 = 11).\nEATING THE MEAL\nEach PC who partakes in the meal can clear a number of Hit \nPoints, clear a number of Stress, and gain a number of Hope \nsuch that the total of all three numbers is equal to or less than \nthe Meal Rating. For example, if the dish has a Meal Rating of \n11, a PC could choose to clear 6 Hit Points, clear 3 Stress, and \ngain 2 Hope, and a different PC could choose to clear 5 Hit \nPoints, clear 2 Stress, and gain 4 Hope.\nRECORDING THE RECIPE\nFor a feast-based campaign, the players should choose a small \nshared notebook, decorated however they like, to be their \ncookbook and record the recipe for each dish they make in it. A \nrecipe includes the following details:\n• The dish’s name name, description, and preparation \nmethod as invented by the players\n• The ingredients used to make it\n• The resulting Meal Rating\nWhen the party cooks a dish with the same flavor profile as a \nrecipe in their cookbook, add a number of tokens equal to the \nparty’s tier to the dish’s flavor pool. When the chef would be \nforced to discard a die from the Flavor Pool, they can choose \nto remove a token instead.\nAs a result, the more practice the characters get making \nmeals with the same flavor profile, the easier that combination \nis to prepare.\nQUICK INGREDIENT GENERATOR\nWhen the PCs harvest an ingredient, roll a d20 for each of the \nfollowing tables and use the combination to inspire what they \ngather. If one of the options doesn’t fit the scenario, choose \nanother that does.\nWhat kind of ingredient is it?\nresul t animal PLANT/FUNGI\n1 Feet Flower\n2 Powder Roots\n3 Limb Stems\n4 Belly Leaves\n5 Fat Bulbs\n6 Eggs Nuts\n193\nDaggerheart SRD\nresul t animal PLANT/FUNGI\n7 Marrow Seeds\n8 T ongue Bark\n9 Brain Berries\n10 Ribs Fruit\n11 Organ Sap\n12 Flesh Pollen\n13 Stones Fungi\n14 Eyes Nectar\n15 Jelly Pods\n16 Horn Herbs\n17 Meat Algae\n18 Scales Moss\n19 Wings Grain\n20 Secretion Rind\nWhat’s interesting about it?\nresul t Detail\n1 It’s particularly tender.\n2 It’s still wriggling.\n3 It looks like something it isn’t\n4 It has a pungent smell.\n5 It’s brightly colored.\n6 It’s completely translucent.\n7 It’s an odd size or shape.\n8 It has unique markings.\n9 It recoils from the light.\n10 It withers in the dark.\n11 It smells unbelievably good.\n12 It has an unexpected texture.\n13 It’s encased in something.\n14 It’s filled with something.\n15 It’s emitting a colorful gas.\n16 It comes apart in layers.\n17 It must be prepared in a strange way.\n18 It’s leathery or cartilaginous.\n19 It’s brittle.\n20 It’s deadly when consumed raw.\nADVANCED FEASTING\nOnce your table is comfortable with basic feasting mechanics, \nyou can give the PCs opportunities to locate and acquire \nspecific ingredients based on what they’ve learned about the \nworld. You might also create special ingredients that have \nfeatures. These are rarer than typical ingredients, and can only \nharvested from Leader or Solo adversaries.\nExample Special Ingredients\nNAME FLA VOR \nPROFILE\nFEATURE\nDiregazelle Skull \nMarrow\nSweet (1),  \nSalty (1),  \nSour (1)\nBuilt for Speed: +1 bonus to \nAgility until your next rest\nHoly Cow’s Milk Weird (1) Last Drop: When you prepare \na dish with this ingredient and \nthere’s only one remaining die \nin the flavor pool, roll it and add \nthe result to the dish’s Meal \nRating.\nGhost Scorpion \nVenom\nSour (1),  \nSavory (1)\nSpicy: If any matching sets \nfrom a dish prepared with this \ningredient are worth 8 or more \npoints, you can’t clear Stress \nfrom consuming the resulting \ndish.\nDeathflower Bitter (2) Risky: If you finish preparing \na dish with this ingredient and \nhave no matching sets of flavor \ndice, you clear all Hit Points \nand Stress and gain 3 Hope. \nOtherwise, the dish’s Meal \nRating is 0 and you must make \na death move.\nRESTAURANTS\nA PC can spend up to 2 handfuls of gold during downtime to \norder food from a nearby restaurant and choose one of the \nfollowing downtime moves for each handful of gold spent: \nclear Stress, clear Hit Points, or gain Hope.\n194\nDaggerheart SRD",
+  "raw_heading": "Feasts",
+  "mechanics": {
+    "mechanic_type": "feast",
+    "subsections": [
+      {
+        "name": "Introduction",
+        "rules_text": "You can use the following mechanics for campaigns in which the\nPCs harvest ingredients throughout play and use them to cook\nmeals during downtime.",
+        "id": "introduction"
+      },
+      {
+        "name": "Ingredients & Flavors",
+        "raw_heading": "INGREDIENTS & FLAVORS",
+        "rules_text": "Every ingredient is denoted by a name and a flavor profile\ncomprising 1–3 flavors with their relative strengths. For\nexample, “Mushroom caps: Bitter (1), Savory (2).”\nThere are six flavors, each of which is represented by an\nassociated die size: Sweet (d4), Salty (d6), Bitter (d8), Sour\n(d10), Savory (d12), and Weird (d20). A flavor’s strength is\nrepresented by a value between 1 and 3. The following list\nprovides examples of ingredients and their flavor profiles:\n• Mushroom caps: Bitter (1), Savory (2)\n• Wyvern tongue: Sour (1), Savory (1), Weird (1)\n• Ooze marrow: Sweet (1), Bitter (2)\n• Direbear meat: Savory (3)\n• Acid dragon saliva: Sour (2)\n• Cave boar milk: Salty (1), Savory (1)\n• Rileroot: Bitter (1)\n• Ogre kidney stone: Sweet (1), Weird (1)\nWhen a PC acquires an ingredient, they add it to their\ninventory. The maximum number of ingredients a PC can hold\nin their inventory is equal to their highest trait.\nWhen the PCs cook with an ingredient, they roll a number of\ndice (of the flavor’s associated die size) equal to the strength\nof the flavor.",
+        "id": "ingredients-flavors"
+      },
+      {
+        "name": "Harvesting Ingredients",
+        "raw_heading": "HARVESTING INGREDIENTS",
+        "rules_text": "Ingredients can be acquired from defeated adversaries or the\nparty’s surroundings.\nWhen an edible animal is defeated, the PCs can harvest\ningredients from it. The number of ingredients that can be\nharvested is determined by the defeated animal’s maximum\nHit Points, according to the following table:\nHit Points to Ingredients Guide\nmaximum hit points number of ingredients\n1–4 1\n5–7 2\n8–10 3\n12+ 4\n192\nDaggerheart SRD\nThe GM determines the ingredients gained based on the\ndetails of the narrative. Usually, less powerful adversaries\nhave predominantly Sweet, Salty, and Bitter flavor profiles,\nwhereas more powerful adversaries tend to be more Sour,\nSavory, and Weird.\nThe PCs can also obtain ingredients by harvesting edible\nplants and fungi. Once per rest, each PC can spend a Hope\nto gather ingredients from their environment. The GM\ndetermines what ingredients they acquire based on the fiction\nor by having them roll their Hope Die, then, based on the\nresult, gain an ingredient with the following flavor profile:\nEnvironmental Ingredients Guide\nhope die resul t fla vor profiles\n1–2 Sweet (1)\n3–4 Salty (1)\n5–6 Bitter (1)\n7–8 Sour (1)\n9–10 Savory (1)\n11–12 Weird (1)",
+        "id": "harvesting-ingredients"
+      },
+      {
+        "name": "Make A Feast",
+        "raw_heading": "MAKE A FEAST",
+        "rules_text": "In a feast-based campaign, players can’t choose downtime\nmoves to clear Stress, clear Hit Points, or gain Hope. Instead,\nthey have a new downtime move: Make a Feast. Each PC\nwho chooses this move can remove ingredients from their\ninventory and contribute them to the party’s collective meal to\ngain the benefits of the resulting feast.",
+        "id": "make-a-feast"
+      },
+      {
+        "name": "Preparing The Dish",
+        "raw_heading": "PREPARING THE DISH",
+        "rules_text": "T o begin cooking, the party designates one PC to be the chef.\nThe chef combines each contributed ingredient’s flavor dice\ninto a flavor pool. For example, a party might decide to make\na steak dinner with the following recipe: 1 serving of direbear\nmeat (3d12), 1 serving of mushroom caps (2d12 and 1d8),\nand 1 serving of ooze marrow (2d8 and 1d4). This gives the\nparty 5d12, 3d8, and 1d4 altogether.\nThe chef makes a Prep Roll by rolling all the dice in the flavor\npool and setting aside any matching values. If there are no\nmatching values, the chef instead discards a die of their\nchoice. The chef continues making Cooking Rolls until only one\ndie remains in the flavor pool or all dice have been discarded\nor set aside.",
+        "id": "preparing-the-dish"
+      },
+      {
+        "name": "Determining A Meal’S Rating",
+        "raw_heading": "DETERMINING A MEAL’S RATING",
+        "rules_text": "Once preparation is complete, the chef calculates the resulting\nMeal Rating. Each matching set of dice is worth a number of\npoints equal to its matched value. For example, a d6 and a d8\nthat rolled matching 3s would be worth 3 points, a d10 and a\nd12 that rolled matching 4s would be worth 4 points, and a d8\nand a d20 that rolled matching 4s on a different roll would also\nbe worth 4 points. The chef adds the point totals together to\ndetermine the meal’s Rating. In this example, the party’s meal\nwould have a Rating of 11 (3 + 4 + 4 = 11).",
+        "id": "determining-a-meals-rating"
+      },
+      {
+        "name": "Eating The Meal",
+        "raw_heading": "EATING THE MEAL",
+        "rules_text": "Each PC who partakes in the meal can clear a number of Hit\nPoints, clear a number of Stress, and gain a number of Hope\nsuch that the total of all three numbers is equal to or less than\nthe Meal Rating. For example, if the dish has a Meal Rating of\n11, a PC could choose to clear 6 Hit Points, clear 3 Stress, and\ngain 2 Hope, and a different PC could choose to clear 5 Hit\nPoints, clear 2 Stress, and gain 4 Hope.",
+        "id": "eating-the-meal"
+      },
+      {
+        "name": "Recording The Recipe",
+        "raw_heading": "RECORDING THE RECIPE",
+        "rules_text": "For a feast-based campaign, the players should choose a small\nshared notebook, decorated however they like, to be their\ncookbook and record the recipe for each dish they make in it. A\nrecipe includes the following details:\n• The dish’s name name, description, and preparation\nmethod as invented by the players\n• The ingredients used to make it\n• The resulting Meal Rating\nWhen the party cooks a dish with the same flavor profile as a\nrecipe in their cookbook, add a number of tokens equal to the\nparty’s tier to the dish’s flavor pool. When the chef would be\nforced to discard a die from the Flavor Pool, they can choose\nto remove a token instead.\nAs a result, the more practice the characters get making\nmeals with the same flavor profile, the easier that combination\nis to prepare.",
+        "id": "recording-the-recipe"
+      },
+      {
+        "name": "Quick Ingredient Generator",
+        "raw_heading": "QUICK INGREDIENT GENERATOR",
+        "rules_text": "When the PCs harvest an ingredient, roll a d20 for each of the\nfollowing tables and use the combination to inspire what they\ngather. If one of the options doesn’t fit the scenario, choose\nanother that does.\nWhat kind of ingredient is it?\nresul t animal PLANT/FUNGI\n1 Feet Flower\n2 Powder Roots\n3 Limb Stems\n4 Belly Leaves\n5 Fat Bulbs\n6 Eggs Nuts\n193\nDaggerheart SRD\nresul t animal PLANT/FUNGI\n7 Marrow Seeds\n8 T ongue Bark\n9 Brain Berries\n10 Ribs Fruit\n11 Organ Sap\n12 Flesh Pollen\n13 Stones Fungi\n14 Eyes Nectar\n15 Jelly Pods\n16 Horn Herbs\n17 Meat Algae\n18 Scales Moss\n19 Wings Grain\n20 Secretion Rind\nWhat’s interesting about it?\nresul t Detail\n1 It’s particularly tender.\n2 It’s still wriggling.\n3 It looks like something it isn’t\n4 It has a pungent smell.\n5 It’s brightly colored.\n6 It’s completely translucent.\n7 It’s an odd size or shape.\n8 It has unique markings.\n9 It recoils from the light.\n10 It withers in the dark.\n11 It smells unbelievably good.\n12 It has an unexpected texture.\n13 It’s encased in something.\n14 It’s filled with something.\n15 It’s emitting a colorful gas.\n16 It comes apart in layers.\n17 It must be prepared in a strange way.\n18 It’s leathery or cartilaginous.\n19 It’s brittle.\n20 It’s deadly when consumed raw.",
+        "id": "quick-ingredient-generator"
+      },
+      {
+        "name": "Advanced Feasting",
+        "raw_heading": "ADVANCED FEASTING",
+        "rules_text": "Once your table is comfortable with basic feasting mechanics,\nyou can give the PCs opportunities to locate and acquire\nspecific ingredients based on what they’ve learned about the\nworld. You might also create special ingredients that have\nfeatures. These are rarer than typical ingredients, and can only\nharvested from Leader or Solo adversaries.\nExample Special Ingredients",
+        "id": "advanced-feasting"
+      },
+      {
+        "name": "Feature",
+        "raw_heading": "FEATURE",
+        "rules_text": "Diregazelle Skull\nMarrow\nSweet (1),\nSalty (1),\nSour (1)\nBuilt for Speed: +1 bonus to\nAgility until your next rest\nHoly Cow’s Milk Weird (1) Last Drop: When you prepare\na dish with this ingredient and\nthere’s only one remaining die\nin the flavor pool, roll it and add\nthe result to the dish’s Meal\nRating.\nGhost Scorpion\nVenom\nSour (1),\nSavory (1)\nSpicy: If any matching sets\nfrom a dish prepared with this\ningredient are worth 8 or more\npoints, you can’t clear Stress\nfrom consuming the resulting\ndish.\nDeathflower Bitter (2) Risky: If you finish preparing\na dish with this ingredient and\nhave no matching sets of flavor\ndice, you clear all Hit Points\nand Stress and gain 3 Hope.\nOtherwise, the dish’s Meal\nRating is 0 and you must make\na death move.",
+        "id": "feature"
+      },
+      {
+        "name": "Restaurants",
+        "raw_heading": "RESTAURANTS",
+        "rules_text": "A PC can spend up to 2 handfuls of gold during downtime to\norder food from a nearby restaurant and choose one of the\nfollowing downtime moves for each handful of gold spent:\nclear Stress, clear Hit Points, or gain Hope.\n194\nDaggerheart SRD",
+        "id": "restaurants"
+      }
+    ],
+    "flavors": {
+      "Sweet": "d4",
+      "Salty": "d6",
+      "Bitter": "d8",
+      "Sour": "d10",
+      "Savory": "d12",
+      "Weird": "d20"
+    },
+    "ingredient_strength": {
+      "min": 1,
+      "max": 3
+    },
+    "inventory_capacity_basis": "highest_trait",
+    "harvest_hp_to_ingredients": [
+      {
+        "max_hp_band": "1–4",
+        "ingredients": 1
+      },
+      {
+        "max_hp_band": "5–7",
+        "ingredients": 2
+      },
+      {
+        "max_hp_band": "8–10",
+        "ingredients": 3
+      },
+      {
+        "max_hp_band": "12+",
+        "ingredients": 4
+      }
+    ],
+    "normalization_level": "mechanical"
+  },
+  "normalization": {
+    "phase": "P1.1f-b1-fix1",
+    "status": "normalized",
+    "source_field": "rules_text"
+  }
+}

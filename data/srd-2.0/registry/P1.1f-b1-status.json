@@ -1,0 +1,104 @@
+{
+  "phase": "P1.1f-b1-fix1",
+  "targets": [
+    "faction-tracking",
+    "feasts",
+    "colossal-adversaries",
+    "monster-hunting-campaigns",
+    "hex-crawl-campaigns"
+  ],
+  "normalized": [
+    "faction-tracking",
+    "feasts",
+    "colossal-adversaries",
+    "monster-hunting-campaigns",
+    "hex-crawl-campaigns"
+  ],
+  "missing": [],
+  "checks": {
+    "targets_present": true,
+    "faction_subsections_present": true,
+    "feast_six_flavors": true,
+    "feast_strength_range": true,
+    "feast_inventory_capacity": true,
+    "colossal_segment_blocks": true,
+    "colossal_broken_present": true,
+    "colossal_destroyed_present": true,
+    "monster_hunt_five_beats": true,
+    "monster_hunt_four_core_questions": true,
+    "hex_scale_present": true,
+    "hex_short_rest_limit_present": true,
+    "hex_long_rest_rule_present": true
+  },
+  "validation": "GREEN",
+  "debug": {
+    "faction_subsections": [
+      "Introduction",
+      "Relationships",
+      "Faction Cards",
+      "Campaign Mechanics",
+      "Objective Countdowns"
+    ],
+    "feast_flavors": {
+      "Sweet": "d4",
+      "Salty": "d6",
+      "Bitter": "d8",
+      "Sour": "d10",
+      "Savory": "d12",
+      "Weird": "d20"
+    },
+    "feast_harvest_guide": [
+      {
+        "max_hp_band": "1–4",
+        "ingredients": 1
+      },
+      {
+        "max_hp_band": "5–7",
+        "ingredients": 2
+      },
+      {
+        "max_hp_band": "8–10",
+        "ingredients": 3
+      },
+      {
+        "max_hp_band": "12+",
+        "ingredients": 4
+      }
+    ],
+    "monster_hunt_beats": [
+      {
+        "order": 1,
+        "name": "Arrival"
+      },
+      {
+        "order": 2,
+        "name": "Investigation"
+      },
+      {
+        "order": 3,
+        "name": "Escalation"
+      },
+      {
+        "order": 4,
+        "name": "Confrontation"
+      },
+      {
+        "order": 5,
+        "name": "Epilogue"
+      }
+    ],
+    "hex_ocean_travel_days_by_d4": {
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4
+    }
+  },
+  "notes": [
+    "Faction Tracking is intentionally structural in b1: no numeric semantics are inferred from incidental PDF numbers.",
+    "P1.1f-b1-fix1 accepts spelled-out short-rest limits such as the SRD wording `three short rests`.",
+    "Feasts, Colossal Adversaries, Monster Hunting, and Hex Crawl receive deterministic mechanical fields in addition to preserved SRD rules_text.",
+    "Monster Hunting equipment remains linked to the existing equipment extraction instead of being duplicated.",
+    "Canonical supplemental IDs from P1.1f-a are unchanged."
+  ]
+}

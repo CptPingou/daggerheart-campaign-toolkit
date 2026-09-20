@@ -1,0 +1,33 @@
+{
+  "id": "the-void.v1.5.domain_card.mutual-suffering",
+  "kind": "domain_card",
+  "identity": {
+    "name": "Mutual Suffering",
+    "slug": "mutual-suffering"
+  },
+  "source": {
+    "corpus": "the-void",
+    "product": "blood-hunter",
+    "version": "1.5",
+    "status": "playtest"
+  },
+  "provenance": {
+    "source_file": "Bloodhunter-v1.5-The-Void.pdf",
+    "page": 5
+  },
+  "availability": {
+    "in_srd": false,
+    "private_only": true,
+    "deprecated": false
+  },
+  "rules": {
+    "domain": "blood",
+    "level": 5,
+    "card_type": "spell",
+    "recall_cost": 1
+  },
+  "content": {
+    "rules_text": "When an attack from a creature causes you to mark one or more Hit Points, you can make a Reaction Roll using your Spellcast trait against the creature. On a success, the creature marks the same number of Hit Points as you did, and you can’t use this spell again until you finish a rest.",
+    "validation": "checked_against_pdf_v1.5"
+  }
+}

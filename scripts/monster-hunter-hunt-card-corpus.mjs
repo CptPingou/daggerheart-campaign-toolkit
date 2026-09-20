@@ -20,7 +20,10 @@ export async function monsterHunterHuntCardCorpusStatus({
     .map((d) => ({ document: d, mechanic: huntCardMechanicFromDocument(d, huntApi) }))
     .filter((row) => row.mechanic);
 
-  const expected = ["opening", "conversion", "defensive-support"];
+  const expected = [
+    "opening", "conversion", "defensive-support",
+    "feinte-approche", "frappe-rupture", "guidage-finisher",
+  ];
   const ids = mechanical.map((row) => row.mechanic.id);
 
   return {
@@ -35,8 +38,8 @@ export async function monsterHunterHuntCardCorpusStatus({
       mechanic,
     })),
     green:
-      mh.length === 8 &&
-      mechanical.length === 3 &&
+      mh.length === 11 &&
+      mechanical.length === 6 &&
       expected.every((id) => ids.includes(id)),
   };
 }

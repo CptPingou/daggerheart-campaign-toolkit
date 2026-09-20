@@ -647,10 +647,18 @@ async function nativeTemplate(documentName, type) {
       throw new Error(`CONFIG.Item.documentClass indisponible pour Item:${type}`);
     }
 
-    const doc = new DocumentClass({
+    // Daggerheart 2.9.4 runs legacy migration as soon as a DHItem is
+    // constructed. Armor migration expects the legacy system.armor container
+    // even for this neutral schema specimen.
+    const seed = {
       name: `Toolkit schema ${type}`,
       type,
-    });
+    };
+    if (type === "armor") {
+      seed.system = { armor: {} };
+    }
+
+    const doc = new DocumentClass(seed);
     const source = doc.toObject();
 
     delete source._id;

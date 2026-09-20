@@ -1,0 +1,33 @@
+{
+  "id": "the-void.v1.5.domain_card.vampiric-strike",
+  "kind": "domain_card",
+  "identity": {
+    "name": "Vampiric Strike",
+    "slug": "vampiric-strike"
+  },
+  "source": {
+    "corpus": "the-void",
+    "product": "blood-hunter",
+    "version": "1.5",
+    "status": "playtest"
+  },
+  "provenance": {
+    "source_file": "Bloodhunter-v1.5-The-Void.pdf",
+    "page": 5
+  },
+  "availability": {
+    "in_srd": false,
+    "private_only": true,
+    "deprecated": false
+  },
+  "rules": {
+    "domain": "blood",
+    "level": 7,
+    "card_type": "spell",
+    "recall_cost": 2
+  },
+  "content": {
+    "rules_text": "When you make a successful attack roll against an adversary and cause them to mark 2 or more Hit Points, you can spend a Hope to clear a Hit Point or Stress.",
+    "validation": "checked_against_pdf_v1.5"
+  }
+}

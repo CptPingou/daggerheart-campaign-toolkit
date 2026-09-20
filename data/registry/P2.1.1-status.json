@@ -1,0 +1,12 @@
+{
+  "phase": "P2.1.1",
+  "validation": "GREEN",
+  "target": "Foundryborne 2.7.2 / Foundry v14",
+  "mapping_complete": true,
+  "custom_document_required_for_initial_import": false,
+  "open_items": [
+    "Transformation representation deferred until a concrete pilot.",
+    "Narrative eligibility for Hunt Domain Cards requires a later targeted extension."
+  ],
+  "next_phase": "P2.1.2 — targeted module audit"
+}

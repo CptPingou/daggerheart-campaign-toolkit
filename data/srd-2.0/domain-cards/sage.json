@@ -1,0 +1,611 @@
+[
+  {
+    "id": "srd-2.0.domain-card.sage.gifted-tracker",
+    "kind": "domain_card",
+    "identity": {
+      "name": "Gifted Tracker",
+      "slug": "gifted-tracker"
+    },
+    "source": {
+      "corpus": "daggerheart-srd",
+      "product": "srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    },
+    "rules": {
+      "domain": "sage",
+      "level": 1,
+      "card_type": "ability",
+      "recall_cost": 0
+    },
+    "content": {
+      "rules_text": "When you’re tracking a specific creature or group of creatures \nbased  \non signs of their passage, you can spend any number of Hope \nand ask the GM that many questions from the following list. \n ◦ What direction did they go? \n ◦ How long ago did they pass through? \n ◦ What were they doing in this location?\n ◦ How many of them were here?\nWhen you encounter creatures you’ve tracked in this way, gain \na +1 bonus to your Evasion against them.",
+      "notes": null
+    }
+  },
+  {
+    "id": "srd-2.0.domain-card.sage.natures-tongue",
+    "kind": "domain_card",
+    "identity": {
+      "name": "Nature’S Tongue",
+      "slug": "natures-tongue"
+    },
+    "source": {
+      "corpus": "daggerheart-srd",
+      "product": "srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    },
+    "rules": {
+      "domain": "sage",
+      "level": 1,
+      "card_type": "ability",
+      "recall_cost": 0
+    },
+    "content": {
+      "rules_text": "You can speak the language of the natural world. When you \nwant to speak to the plants and animals around you, make \nan Instinct Roll (12). On a success, they’ll give you the \ninformation they know. On a roll with Fear, their knowledge \nmight be limited or come at a cost.\nAdditionally, before you make a Spellcast Roll while within a \nnatural environment, you can spend a Hope to gain a +2 bonus \nto the roll.",
+      "notes": null
+    }
+  },
+  {
+    "id": "srd-2.0.domain-card.sage.vicious-entangle",
+    "kind": "domain_card",
+    "identity": {
+      "name": "Vicious Entangle",
+      "slug": "vicious-entangle"
+    },
+    "source": {
+      "corpus": "daggerheart-srd",
+      "product": "srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    },
+    "rules": {
+      "domain": "sage",
+      "level": 1,
+      "card_type": "spell",
+      "recall_cost": 1
+    },
+    "content": {
+      "rules_text": "Make a Spellcast Roll against a target within Far range. On a \nsuccess, roots and vines reach out from the ground, dealing \n1d8+1 physical damage and temporarily Restraining the target.\nAdditionally on a success, you can spend a Hope to \ntemporarily Restrain another adversary within Very Close range \nof your target.\n218\nDaggerheart SRD",
+      "notes": null
+    }
+  },
+  {
+    "id": "srd-2.0.domain-card.sage.conjure-swarm",
+    "kind": "domain_card",
+    "identity": {
+      "name": "Conjure Swarm",
+      "slug": "conjure-swarm"
+    },
+    "source": {
+      "corpus": "daggerheart-srd",
+      "product": "srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    },
+    "rules": {
+      "domain": "sage",
+      "level": 2,
+      "card_type": "spell",
+      "recall_cost": 1
+    },
+    "content": {
+      "rules_text": "Tekaira Armored Beetles: Mark a Stress to conjure armored \nbeetles that encircle you. When you next take damage, reduce \nthe severity by one threshold. You can spend a Hope to keep \nthe beetles conjured after taking damage.\nFire Flies: Make a Spellcast Roll against all adversaries within \nClose range. Spend a Hope to deal 2d8+3 magic damage to \ntargets you succeeded against.",
+      "notes": null
+    }
+  },
+  {
+    "id": "srd-2.0.domain-card.sage.natural-familiar",
+    "kind": "domain_card",
+    "identity": {
+      "name": "Natural Familiar",
+      "slug": "natural-familiar"
+    },
+    "source": {
+      "corpus": "daggerheart-srd",
+      "product": "srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    },
+    "rules": {
+      "domain": "sage",
+      "level": 2,
+      "card_type": "spell",
+      "recall_cost": 1
+    },
+    "content": {
+      "rules_text": "Spend a Hope to summon a small nature spirit or forest critter \nto your side until your next rest, you cast Natural Familiar \nagain, or the familiar is targeted by an attack. If you spend an \nadditional Hope, you can summon a familiar that flies. You can \ncommunicate with them, make a Spellcast Roll to command \nthem to perform simple tasks, and mark a Stress to see \nthrough their eyes.\nWhen you deal damage to an adversary within Melee range of \nyour familiar, you add a d6 to your damage roll.",
+      "notes": null
+    }
+  },
+  {
+    "id": "srd-2.0.domain-card.sage.corrosive-projectile",
+    "kind": "domain_card",
+    "identity": {
+      "name": "Corrosive Projectile",
+      "slug": "corrosive-projectile"
+    },
+    "source": {
+      "corpus": "daggerheart-srd",
+      "product": "srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    },
+    "rules": {
+      "domain": "sage",
+      "level": 3,
+      "card_type": "spell",
+      "recall_cost": 1
+    },
+    "content": {
+      "rules_text": "Make a Spellcast Roll against a target within Far range. On \na success, deal d6+4 magic damage using your Proficiency. \nAdditionally, mark 2 or more Stress to make them \npermanently Corroded. While a target is Corroded, they gain a \n−1 penalty to their Difficulty for every 2 Stress you spent. This \ncondition can stack.",
+      "notes": null
+    }
+  },
+  {
+    "id": "srd-2.0.domain-card.sage.towering-stalk",
+    "kind": "domain_card",
+    "identity": {
+      "name": "Towering Stalk",
+      "slug": "towering-stalk"
+    },
+    "source": {
+      "corpus": "daggerheart-srd",
+      "product": "srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    },
+    "rules": {
+      "domain": "sage",
+      "level": 3,
+      "card_type": "spell",
+      "recall_cost": 1
+    },
+    "content": {
+      "rules_text": "Once per rest, you can conjure a thick, twisting stalk within \nClose range that can be easily climbed. Its height can grow up \nto Far range.\nMark a Stress to use this spell as an attack. Make a Spellcast \nRoll against an adversary or group of adversaries within Close \nrange. The erupting stalk lifts targets you succeed against into \nthe air and drops them, dealing d8 physical damage using your \nProficiency.",
+      "notes": null
+    }
+  },
+  {
+    "id": "srd-2.0.domain-card.sage.death-grip",
+    "kind": "domain_card",
+    "identity": {
+      "name": "Death Grip",
+      "slug": "death-grip"
+    },
+    "source": {
+      "corpus": "daggerheart-srd",
+      "product": "srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    },
+    "rules": {
+      "domain": "sage",
+      "level": 4,
+      "card_type": "spell",
+      "recall_cost": 1
+    },
+    "content": {
+      "rules_text": "Make a Spellcast Roll against a target within Close range and \nchoose one of the following options:\n ◦ You pull the target into Melee range or pull yourself into \nMelee range of them. \n ◦ You constrict the target and force them to mark 2 Stress.\n ◦ All adversaries between you and the target must succeed \non a Reaction Roll (13) or be hit by vines, taking 3d6+2 \nphysical damage.\nOn a success, vines reach out from your hands, causing the \nchosen effect and temporarily Restraining the target.",
+      "notes": null
+    }
+  },
+  {
+    "id": "srd-2.0.domain-card.sage.healing-field",
+    "kind": "domain_card",
+    "identity": {
+      "name": "Healing Field",
+      "slug": "healing-field"
+    },
+    "source": {
+      "corpus": "daggerheart-srd",
+      "product": "srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    },
+    "rules": {
+      "domain": "sage",
+      "level": 4,
+      "card_type": "spell",
+      "recall_cost": 2
+    },
+    "content": {
+      "rules_text": "Once per long rest, you can conjure a field of healing plants \naround you. Everywhere within Close range of you bursts to \nlife with vibrant nature, allowing you and all allies in the area to \nclear a Hit Point. \nSpend 2 Hope to allow you and all allies to clear 2 Hit Points \ninstead.",
+      "notes": null
+    }
+  },
+  {
+    "id": "srd-2.0.domain-card.sage.thorn-skin",
+    "kind": "domain_card",
+    "identity": {
+      "name": "Thorn Skin",
+      "slug": "thorn-skin"
+    },
+    "source": {
+      "corpus": "daggerheart-srd",
+      "product": "srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    },
+    "rules": {
+      "domain": "sage",
+      "level": 5,
+      "card_type": "spell",
+      "recall_cost": 1
+    },
+    "content": {
+      "rules_text": "Once per rest, spend a Hope to sprout thorns all over your \nbody. When you do, place a number of tokens equal to your \nSpellcast trait on this card. When you take damage, you can \nspend any number of tokens to roll that number of d6s. Add \nthe results together and reduce the incoming damage by that \namount. If you’re within Melee range of the attacker, deal that \namount of damage back to them.\nWhen you take a rest, clear all unspent tokens.",
+      "notes": null
+    }
+  },
+  {
+    "id": "srd-2.0.domain-card.sage.wild-fortress",
+    "kind": "domain_card",
+    "identity": {
+      "name": "Wild Fortress",
+      "slug": "wild-fortress"
+    },
+    "source": {
+      "corpus": "daggerheart-srd",
+      "product": "srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    },
+    "rules": {
+      "domain": "sage",
+      "level": 5,
+      "card_type": "spell",
+      "recall_cost": 1
+    },
+    "content": {
+      "rules_text": "Make a Spellcast Roll (13). On a success, spend 2 Hope to \ngrow a natural barricade in the shape of a dome that you \nand one ally can take cover within. While inside the dome, a \ncreature can’t be targeted by attacks and can’t make attacks. \nAttacks made against the dome automatically succeed. The \ndome has the following damage thresholds and lasts until it \nmarks 3 Hit Points. Place tokens on this card to represent \nmarking Hit Points.\nThresholds: 15/30",
+      "notes": null
+    }
+  },
+  {
+    "id": "srd-2.0.domain-card.sage.conjured-steeds",
+    "kind": "domain_card",
+    "identity": {
+      "name": "Conjured Steeds",
+      "slug": "conjured-steeds"
+    },
+    "source": {
+      "corpus": "daggerheart-srd",
+      "product": "srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    },
+    "rules": {
+      "domain": "sage",
+      "level": 6,
+      "card_type": "spell",
+      "recall_cost": 0
+    },
+    "content": {
+      "rules_text": "Spend any number of Hope to conjure that many magical \nsteeds (such as horses, camels, or elephants) that you and \nyour allies can ride until your next long rest or the steeds \ntake any damage. The steeds double your land speed while \ntraveling and, when in danger, allow you to move within Far \nrange without having to roll. Creatures riding a steed gain a −2 \npenalty to attack rolls and a +2 bonus to damage rolls.",
+      "notes": null
+    }
+  },
+  {
+    "id": "srd-2.0.domain-card.sage.forager",
+    "kind": "domain_card",
+    "identity": {
+      "name": "Forager",
+      "slug": "forager"
+    },
+    "source": {
+      "corpus": "daggerheart-srd",
+      "product": "srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    },
+    "rules": {
+      "domain": "sage",
+      "level": 6,
+      "card_type": "ability",
+      "recall_cost": 1
+    },
+    "content": {
+      "rules_text": "As an additional downtime move you can choose, roll a d6 to \nsee what you forage. Work with the GM to describe it and add \nit to your inventory as a consumable. Your party can carry up to \nfive foraged consumables at a time. \n1. A unique food (Clear 2 Stress) \n2. A beautiful relic (Gain 2 Hope) \n3. An arcane rune (+2 to a Spellcast         Roll) \n4. A healing vial (Clear 2 Hit Points) \n5. A luck charm (Reroll any die) \n6. Choose one of the options above.\n219\nDaggerheart SRD",
+      "notes": null
+    }
+  },
+  {
+    "id": "srd-2.0.domain-card.sage.sage-touched",
+    "kind": "domain_card",
+    "identity": {
+      "name": "Sage-Touched",
+      "slug": "sage-touched"
+    },
+    "source": {
+      "corpus": "daggerheart-srd",
+      "product": "srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    },
+    "rules": {
+      "domain": "sage",
+      "level": 7,
+      "card_type": "ability",
+      "recall_cost": 2
+    },
+    "content": {
+      "rules_text": "When 4 or more of the domain cards in your loadout are from \nthe Sage domain, gain the following benefits:\n ◦ While you’re in a natural environment, you gain a +2 bonus \nto your Spellcast Rolls.\n ◦ Once per rest, you can double your Agility or Instinct when \nmaking a roll that uses that trait. You must choose to do \nthis before you roll.",
+      "notes": null
+    }
+  },
+  {
+    "id": "srd-2.0.domain-card.sage.wild-surge",
+    "kind": "domain_card",
+    "identity": {
+      "name": "Wild Surge",
+      "slug": "wild-surge"
+    },
+    "source": {
+      "corpus": "daggerheart-srd",
+      "product": "srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    },
+    "rules": {
+      "domain": "sage",
+      "level": 7,
+      "card_type": "spell",
+      "recall_cost": 2
+    },
+    "content": {
+      "rules_text": "Once per long rest, mark a Stress to channel the natural \nworld around you and enhance yourself. Describe how your \nappearance changes, then place a d6 on this card with the 1 \nvalue facing up.\nWhile the Wild Surge Die is active, you add its value to every \naction roll you make. After you add its value to a roll, increase \nthe Wild Surge Die’s value by one. When the die’s value would \nexceed 6 or you take a rest, this form drops and you must \nmark an additional Stress.\n --",
+      "notes": null
+    }
+  },
+  {
+    "id": "srd-2.0.domain-card.sage.forest-sprites",
+    "kind": "domain_card",
+    "identity": {
+      "name": "Forest Sprites",
+      "slug": "forest-sprites"
+    },
+    "source": {
+      "corpus": "daggerheart-srd",
+      "product": "srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    },
+    "rules": {
+      "domain": "sage",
+      "level": 8,
+      "card_type": "spell",
+      "recall_cost": 2
+    },
+    "content": {
+      "rules_text": "Make a Spellcast Roll (13). On a success, spend any number \nof Hope to create an equal number of small forest sprites who \nappear at points you choose within Far range, providing the \nfollowing benefits:\n ◦ Your allies gain a +3 bonus to attack rolls against \nadversaries within Melee range of a sprite. \n ◦ An ally who marks an Armor Slot while within Melee range \nof a sprite can mark an additional Armor Slot. \nA sprite vanishes after granting a benefit or taking any \ndamage.",
+      "notes": null
+    }
+  },
+  {
+    "id": "srd-2.0.domain-card.sage.rejuvenation-barrier",
+    "kind": "domain_card",
+    "identity": {
+      "name": "Rejuvenation Barrier",
+      "slug": "rejuvenation-barrier"
+    },
+    "source": {
+      "corpus": "daggerheart-srd",
+      "product": "srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    },
+    "rules": {
+      "domain": "sage",
+      "level": 8,
+      "card_type": "spell",
+      "recall_cost": 1
+    },
+    "content": {
+      "rules_text": "Make a Spellcast Roll (15). Once per rest on a success, create \na temporary barrier of protective energy around you at Very \nClose range. You and all allies within the barrier when this spell \nis cast clear 1d4 Hit Points. While the barrier is up, you and all \nallies within have resistance to physical damage from outside \nthe barrier. \nWhen you move, the barrier follows you.",
+      "notes": null
+    }
+  },
+  {
+    "id": "srd-2.0.domain-card.sage.fane-of-the-wilds",
+    "kind": "domain_card",
+    "identity": {
+      "name": "Fane Of The Wilds",
+      "slug": "fane-of-the-wilds"
+    },
+    "source": {
+      "corpus": "daggerheart-srd",
+      "product": "srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    },
+    "rules": {
+      "domain": "sage",
+      "level": 9,
+      "card_type": "ability",
+      "recall_cost": 2
+    },
+    "content": {
+      "rules_text": "After a long rest, place a number of tokens equal to the \nnumber of Sage domain cards in your loadout and vault on this \ncard. \nWhen you would make a Spellcast Roll, you can spend any \nnumber of tokens after the roll to gain a +1 bonus for each \ntoken spent.\nWhen you critically succeed on a Spellcast Roll for a Sage \ndomain spell, gain a token.\nWhen you take a long rest, clear all unspent tokens.",
+      "notes": null
+    }
+  },
+  {
+    "id": "srd-2.0.domain-card.sage.plant-dominion",
+    "kind": "domain_card",
+    "identity": {
+      "name": "Plant Dominion",
+      "slug": "plant-dominion"
+    },
+    "source": {
+      "corpus": "daggerheart-srd",
+      "product": "srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    },
+    "rules": {
+      "domain": "sage",
+      "level": 9,
+      "card_type": "spell",
+      "recall_cost": 1
+    },
+    "content": {
+      "rules_text": "Make a Spellcast Roll (18). Once per long rest on a success, \nyou reshape the natural world, changing the surrounding \nplant life anywhere within Far range of you. For example, you \ncan grow trees instantly, clear a path through dense vines, or \ncreate a wall of roots.",
+      "notes": null
+    }
+  },
+  {
+    "id": "srd-2.0.domain-card.sage.force-of-nature",
+    "kind": "domain_card",
+    "identity": {
+      "name": "Force Of Nature",
+      "slug": "force-of-nature"
+    },
+    "source": {
+      "corpus": "daggerheart-srd",
+      "product": "srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    },
+    "rules": {
+      "domain": "sage",
+      "level": 10,
+      "card_type": "spell",
+      "recall_cost": 2
+    },
+    "content": {
+      "rules_text": "Mark a Stress to transform into a hulking nature spirit, gaining \nthe following benefits:\n ◦ When you succeed on an attack or Spellcast Roll, gain a +10 \nbonus to the damage roll.\n ◦ When you deal enough damage to defeat a creature within \nClose range, you absorb them and clear an Armor Slot.\n ◦ You can’t be Restrained.\nBefore you make an action roll, you must spend a Hope. If you \ncan’t, you revert to your normal form.",
+      "notes": null
+    }
+  },
+  {
+    "id": "srd-2.0.domain-card.sage.tempest",
+    "kind": "domain_card",
+    "identity": {
+      "name": "Tempest",
+      "slug": "tempest"
+    },
+    "source": {
+      "corpus": "daggerheart-srd",
+      "product": "srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    },
+    "rules": {
+      "domain": "sage",
+      "level": 10,
+      "card_type": "spell",
+      "recall_cost": 2
+    },
+    "content": {
+      "rules_text": "Choose one of the following tempests and make a Spellcast \nRoll against all targets within Far range. T argets you succeed \nagainst experience its effects until the GM spends a Fear on \ntheir turn to end this spell.\n ◦ Blizzard: Deal 2d20+8 magic damage and targets are \ntemporararily Vulnerable.\n ◦ Hurricane: Deal 3d10+10 magic damage and choose a \ndirection the wind is blowing. T argets can’t move against \nthe wind.\n ◦ Sandstorm: Deal 5d6+9 magic damage. Attacks made \nfrom beyond Melee range have disadvantage.\n220\nDaggerheart SRD",
+      "notes": null
+    }
+  }
+]

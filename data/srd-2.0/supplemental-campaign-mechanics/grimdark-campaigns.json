@@ -1,0 +1,61 @@
+{
+  "id": "srd-2.0.supplemental-campaign-mechanic.grimdark-campaigns",
+  "kind": "supplemental_campaign_mechanic",
+  "identity": {
+    "name": "Grimdark Campaigns",
+    "slug": "grimdark-campaigns"
+  },
+  "source": {
+    "corpus": "daggerheart-srd",
+    "version": "2.0",
+    "status": "srd"
+  },
+  "provenance": {
+    "start_printed_page": 195,
+    "end_printed_page": 195
+  },
+  "rules_text": "You can use the following mechanics when the party explores a \nvast and grim world of magical corrupting Shadow punctuated \nby scattered sanctuaries built around Sacred Bonfires that emit \na halo of safety-providing light.\nSHADOW-TOUCHED\nAdversaries in this campaign can have a feature called \nShadow-T ouched:\nShadow-Touched – Passive. This Adversary critically \nsucceeds on attack rolls of 19–20.\nWhen you introduce a Shadow-T ouched adversary, describe \nhow magic has warped their essence and form.\nPCs can also become Shadow-T ouched when corrupted by \ndark magic. A Shadow-T ouched PC gains a damage bonus \nequal to the number of scars they have marked. When a \nShadow-T ouched PC marks their last Hope slot with a scar, \nthey succumb to corruption and charge into the darkness \ninstead of making a death move.\nSACRED BONFIRES & TORCHES\nSacred Bonfires are vibrant magical pyres lit by the flames \nof rare and magical Sacred T orches, each of which carries a \nfragment of divine power. Sacred Bonfires burn out unless \ncontinuously provided with a bit of kindling, and can’t be \nreignited without a Sacred T orch. When a Sacred Bonfire is \nrelit, each PC present gains 3 Hope. A Sacred Bonfire’s light \nrepels all but the most powerful monsters from its immediate \nvicinity.",
+  "raw_heading": "Grimdark CampaignS",
+  "mechanics": {
+    "mechanic_type": "grimdark_campaign",
+    "subsections": [
+      {
+        "name": "Introduction",
+        "rules_text": "You can use the following mechanics when the party explores a\nvast and grim world of magical corrupting Shadow punctuated\nby scattered sanctuaries built around Sacred Bonfires that emit\na halo of safety-providing light.",
+        "id": "introduction"
+      },
+      {
+        "name": "Shadow-Touched",
+        "raw_heading": "SHADOW-TOUCHED",
+        "rules_text": "Adversaries in this campaign can have a feature called\nShadow-T ouched:\nShadow-Touched – Passive. This Adversary critically\nsucceeds on attack rolls of 19–20.\nWhen you introduce a Shadow-T ouched adversary, describe\nhow magic has warped their essence and form.\nPCs can also become Shadow-T ouched when corrupted by\ndark magic. A Shadow-T ouched PC gains a damage bonus\nequal to the number of scars they have marked. When a\nShadow-T ouched PC marks their last Hope slot with a scar,\nthey succumb to corruption and charge into the darkness\ninstead of making a death move.",
+        "id": "shadow-touched"
+      },
+      {
+        "name": "Sacred Bonfires & Torches",
+        "raw_heading": "SACRED BONFIRES & TORCHES",
+        "rules_text": "Sacred Bonfires are vibrant magical pyres lit by the flames\nof rare and magical Sacred T orches, each of which carries a\nfragment of divine power. Sacred Bonfires burn out unless\ncontinuously provided with a bit of kindling, and can’t be\nreignited without a Sacred T orch. When a Sacred Bonfire is\nrelit, each PC present gains 3 Hope. A Sacred Bonfire’s light\nrepels all but the most powerful monsters from its immediate\nvicinity.",
+        "id": "sacred-bonfires-torches"
+      }
+    ],
+    "shadow_touched": {
+      "adversary_feature_present": true,
+      "critical_success_range": {
+        "min": 19,
+        "max": 20
+      },
+      "pc_damage_bonus_basis": "marked_scars",
+      "last_hope_scar_corruption": true
+    },
+    "sacred_bonfires": {
+      "present": true,
+      "requires_sacred_torch_to_relight": false,
+      "hope_on_relight": 3
+    },
+    "normalization_level": "mechanical"
+  },
+  "normalization": {
+    "phase": "P1.1f-b2-fix1",
+    "status": "normalized",
+    "source_field": "rules_text"
+  }
+}

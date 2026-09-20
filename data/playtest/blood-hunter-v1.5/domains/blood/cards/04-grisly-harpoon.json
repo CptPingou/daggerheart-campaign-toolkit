@@ -1,0 +1,33 @@
+{
+  "id": "the-void.v1.5.domain_card.grisly-harpoon",
+  "kind": "domain_card",
+  "identity": {
+    "name": "Grisly Harpoon",
+    "slug": "grisly-harpoon"
+  },
+  "source": {
+    "corpus": "the-void",
+    "product": "blood-hunter",
+    "version": "1.5",
+    "status": "playtest"
+  },
+  "provenance": {
+    "source_file": "Bloodhunter-v1.5-The-Void.pdf",
+    "page": 4
+  },
+  "availability": {
+    "in_srd": false,
+    "private_only": true,
+    "deprecated": false
+  },
+  "rules": {
+    "domain": "blood",
+    "level": 4,
+    "card_type": "spell",
+    "recall_cost": 1
+  },
+  "content": {
+    "rules_text": "You launch a harpoon of blood at a location or creature within Far range. If the target is a location, make a Spellcast Roll (13). On a success, mark a Stress to pull yourself to a position within Melee range of it. If the target is a creature, make a Spellcast Roll against it. On a success, mark a Stress to deal 3d8 magic damage. You then pull the target toward yourself or yourself toward the target, ending within Melee range.",
+    "validation": "checked_against_pdf_v1.5"
+  }
+}

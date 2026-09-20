@@ -1,0 +1,16 @@
+{
+  "locale": "fr",
+  "version": "P2.3.4b",
+  "scope": "pilot-world",
+  "entries": {
+    "srd-2.0.adversary.bear": {
+      "name": "Ours",
+      "system": {
+        "motivesAndTactics": "Grimper, défendre son territoire, rouer de coups, traquer"
+      }
+    },
+    "srd-2.0.environment.abandoned-grove": {
+      "name": "Bosquet abandonné"
+    }
+  }
+}

@@ -1,0 +1,289 @@
+{
+  "source": {
+    "corpus": "hope-fear",
+    "product": "Daggerheart: Hope & Fear",
+    "status": "published_private",
+    "source_file": "Daggerheart_HF.pdf",
+    "pdf_pages": 211
+  },
+  "sections": [
+    {
+      "id": "hope-fear.character.classes",
+      "section": "character.classes",
+      "printed_pages": {
+        "start": 7,
+        "end": 17
+      },
+      "kind": "mechanical_entities",
+      "classification": "SRD_COVERED",
+      "text_present": true,
+      "text_length": 26609,
+      "next_action": "identity/mechanics diff only; do not duplicate by default"
+    },
+    {
+      "id": "hope-fear.character.ancestries",
+      "section": "character.ancestries",
+      "printed_pages": {
+        "start": 18,
+        "end": 25
+      },
+      "kind": "mechanical_entities",
+      "classification": "SRD_COVERED",
+      "text_present": true,
+      "text_length": 14966,
+      "next_action": "identity/mechanics diff only; do not duplicate by default"
+    },
+    {
+      "id": "hope-fear.character.communities",
+      "section": "character.communities",
+      "printed_pages": {
+        "start": 26,
+        "end": 33
+      },
+      "kind": "mechanical_entities",
+      "classification": "SRD_COVERED",
+      "text_present": true,
+      "text_length": 14406,
+      "next_action": "identity/mechanics diff only; do not duplicate by default"
+    },
+    {
+      "id": "hope-fear.character.transformations",
+      "section": "character.transformations",
+      "printed_pages": {
+        "start": 34,
+        "end": 42
+      },
+      "kind": "mechanical_entities",
+      "classification": "SRD_COVERED",
+      "text_present": true,
+      "text_length": 19204,
+      "next_action": "identity/mechanics diff only; do not duplicate by default"
+    },
+    {
+      "id": "hope-fear.equipment.primary_weapons",
+      "section": "equipment.primary_weapons",
+      "printed_pages": {
+        "start": 43,
+        "end": 49
+      },
+      "kind": "mechanical_entities",
+      "classification": "SRD_COVERED",
+      "text_present": true,
+      "text_length": 11533,
+      "next_action": "identity/mechanics diff only; do not duplicate by default"
+    },
+    {
+      "id": "hope-fear.equipment.secondary_weapons",
+      "section": "equipment.secondary_weapons",
+      "printed_pages": {
+        "start": 50,
+        "end": 51
+      },
+      "kind": "mechanical_entities",
+      "classification": "SRD_COVERED",
+      "text_present": true,
+      "text_length": 5041,
+      "next_action": "identity/mechanics diff only; do not duplicate by default"
+    },
+    {
+      "id": "hope-fear.equipment.armor",
+      "section": "equipment.armor",
+      "printed_pages": {
+        "start": 52,
+        "end": 53
+      },
+      "kind": "mechanical_entities",
+      "classification": "SRD_COVERED",
+      "text_present": true,
+      "text_length": 4811,
+      "next_action": "identity/mechanics diff only; do not duplicate by default"
+    },
+    {
+      "id": "hope-fear.equipment.items",
+      "section": "equipment.items",
+      "printed_pages": {
+        "start": 54,
+        "end": 56
+      },
+      "kind": "mechanical_entities",
+      "classification": "SRD_COVERED",
+      "text_present": true,
+      "text_length": 10276,
+      "next_action": "identity/mechanics diff only; do not duplicate by default"
+    },
+    {
+      "id": "hope-fear.equipment.consumables",
+      "section": "equipment.consumables",
+      "printed_pages": {
+        "start": 57,
+        "end": 60
+      },
+      "kind": "mechanical_entities",
+      "classification": "SRD_COVERED",
+      "text_present": true,
+      "text_length": 13666,
+      "next_action": "identity/mechanics diff only; do not duplicate by default"
+    },
+    {
+      "id": "hope-fear.adversaries",
+      "section": "adversaries",
+      "printed_pages": {
+        "start": 61,
+        "end": 97
+      },
+      "kind": "mechanical_entities",
+      "classification": "SRD_COVERED",
+      "text_present": true,
+      "text_length": 170309,
+      "next_action": "identity/mechanics diff only; do not duplicate by default"
+    },
+    {
+      "id": "hope-fear.environments",
+      "section": "environments",
+      "printed_pages": {
+        "start": 98,
+        "end": 114
+      },
+      "kind": "mechanical_entities",
+      "classification": "SRD_COVERED",
+      "text_present": true,
+      "text_length": 75778,
+      "next_action": "identity/mechanics diff only; do not duplicate by default"
+    },
+    {
+      "id": "hope-fear.campaign.castle_high",
+      "section": "campaign.castle_high",
+      "printed_pages": {
+        "start": 116,
+        "end": 127
+      },
+      "kind": "campaign_frame",
+      "classification": "DEEP_DIFF",
+      "text_present": true,
+      "text_length": 46686,
+      "next_action": "compare SRD mechanics against full private campaign-frame content"
+    },
+    {
+      "id": "hope-fear.campaign.reign_of_the_weredragon",
+      "section": "campaign.reign_of_the_weredragon",
+      "printed_pages": {
+        "start": 128,
+        "end": 143
+      },
+      "kind": "campaign_frame",
+      "classification": "DEEP_DIFF",
+      "text_present": true,
+      "text_length": 63145,
+      "next_action": "compare SRD mechanics against full private campaign-frame content"
+    },
+    {
+      "id": "hope-fear.campaign.dark_heart_of_andaluria",
+      "section": "campaign.dark_heart_of_andaluria",
+      "printed_pages": {
+        "start": 144,
+        "end": 157
+      },
+      "kind": "campaign_frame",
+      "classification": "DEEP_DIFF",
+      "text_present": true,
+      "text_length": 58153,
+      "next_action": "compare SRD mechanics against full private campaign-frame content"
+    },
+    {
+      "id": "hope-fear.campaign.journey_to_horizon",
+      "section": "campaign.journey_to_horizon",
+      "printed_pages": {
+        "start": 158,
+        "end": 179
+      },
+      "kind": "campaign_frame",
+      "classification": "DEEP_DIFF",
+      "text_present": true,
+      "text_length": 86401,
+      "next_action": "compare SRD mechanics against full private campaign-frame content"
+    },
+    {
+      "id": "hope-fear.appendix.domain_cards",
+      "section": "appendix.domain_cards",
+      "printed_pages": {
+        "start": 180,
+        "end": 181
+      },
+      "kind": "mechanical_entities",
+      "classification": "SRD_COVERED",
+      "text_present": true,
+      "text_length": 7955,
+      "next_action": "identity/mechanics diff only; do not duplicate by default"
+    },
+    {
+      "id": "hope-fear.appendix.additional_sheets",
+      "section": "appendix.additional_sheets",
+      "printed_pages": {
+        "start": 182,
+        "end": 186
+      },
+      "kind": "play_aid",
+      "classification": "PRIVATE_CANDIDATE",
+      "text_present": true,
+      "text_length": 13100,
+      "next_action": "index privately; determine whether it is data, UI primitive, or reference asset"
+    },
+    {
+      "id": "hope-fear.appendix.campaign_frame_maps",
+      "section": "appendix.campaign_frame_maps",
+      "printed_pages": {
+        "start": 187,
+        "end": 191
+      },
+      "kind": "map_handout",
+      "classification": "PRIVATE_CANDIDATE",
+      "text_present": true,
+      "text_length": 4564,
+      "next_action": "index privately; determine whether it is data, UI primitive, or reference asset"
+    }
+  ],
+  "primitive_hypotheses": [
+    {
+      "primitive": "campaign_frame",
+      "evidence": [
+        "four H&F campaign frames"
+      ],
+      "status": "candidate"
+    },
+    {
+      "primitive": "campaign_mechanic",
+      "evidence": [
+        "specialized mechanics inside campaign frames"
+      ],
+      "status": "candidate"
+    },
+    {
+      "primitive": "play_aid",
+      "evidence": [
+        "Additional Sheets"
+      ],
+      "status": "candidate"
+    },
+    {
+      "primitive": "map_or_handout",
+      "evidence": [
+        "Campaign Frame Maps"
+      ],
+      "status": "candidate"
+    },
+    {
+      "primitive": "transformation",
+      "evidence": [
+        "H&F transformations"
+      ],
+      "status": "already_observed"
+    },
+    {
+      "primitive": "evolution_or_state_transition",
+      "evidence": [
+        "H&F adversary Evolution features"
+      ],
+      "status": "candidate"
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "weapons": {
+    "srd_section_page": 55,
+    "target_fields": [
+      "name",
+      "tier",
+      "primary_secondary",
+      "trait",
+      "range",
+      "damage",
+      "damage_type",
+      "burden",
+      "feature_name",
+      "feature_text"
+    ],
+    "kind": "weapons",
+    "status": "EXTRACTION_PENDING",
+    "source": "SRD 2.0"
+  },
+  "armor": {
+    "srd_section_page": 72,
+    "target_fields": [
+      "name",
+      "tier",
+      "base_thresholds",
+      "base_score",
+      "feature_name",
+      "feature_text"
+    ],
+    "kind": "armor",
+    "status": "EXTRACTION_PENDING",
+    "source": "SRD 2.0"
+  },
+  "loot": {
+    "srd_section_page": 75,
+    "target_fields": [
+      "number",
+      "name",
+      "description",
+      "mechanics"
+    ],
+    "kind": "loot",
+    "status": "EXTRACTION_PENDING",
+    "source": "SRD 2.0"
+  },
+  "consumables": {
+    "srd_section_page": 80,
+    "target_fields": [
+      "number",
+      "name",
+      "description",
+      "mechanics"
+    ],
+    "kind": "consumables",
+    "status": "EXTRACTION_PENDING",
+    "source": "SRD 2.0"
+  },
+  "beastforms": {
+    "target_fields": [
+      "name",
+      "tier",
+      "trait_bonus",
+      "evasion_bonus",
+      "attack",
+      "advantages",
+      "features"
+    ],
+    "kind": "beastforms",
+    "status": "EXTRACTION_PENDING",
+    "source": "SRD 2.0"
+  }
+}

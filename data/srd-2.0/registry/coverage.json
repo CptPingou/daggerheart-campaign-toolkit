@@ -1,0 +1,23 @@
+{
+  "phase": "P1.0",
+  "status": "GREEN_PARTIAL",
+  "goal": "Canonical SRD 2.0 identity registry",
+  "complete": [
+    "source registry",
+    "10 domain identities",
+    "13 class identities",
+    "24 ancestry identities",
+    "15 community identities",
+    "6 transformation identities",
+    "18 Core subclass identities",
+    "4 H&F subclass identities (Assassin/Brawler)",
+    "11 supplemental campaign-mechanic section identities"
+  ],
+  "next": [
+    "Resolve Warlock/Witch subclass identity mapping",
+    "Extract all 210 domain cards (10 domains × 21 cards) where applicable",
+    "Extract weapons, armor, loot, consumables and beastforms",
+    "Extract adversary/environment identity indexes",
+    "Build Core/H&F ↔ SRD 2.0 diff matrix"
+  ]
+}

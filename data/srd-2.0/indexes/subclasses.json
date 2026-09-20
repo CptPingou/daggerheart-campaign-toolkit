@@ -1,0 +1,442 @@
+[
+  {
+    "id": "srd-2.0.subclass.troubadour",
+    "kind": "subclass",
+    "name": "Troubadour",
+    "slug": "troubadour",
+    "class": "Bard",
+    "source": {
+      "corpus": "daggerheart-srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    },
+    "validation": "confirmed_srd2_pdf",
+    "spellcast_trait": "presence",
+    "spellcast_trait_status": "explicit"
+  },
+  {
+    "id": "srd-2.0.subclass.wordsmith",
+    "kind": "subclass",
+    "name": "Wordsmith",
+    "slug": "wordsmith",
+    "class": "Bard",
+    "source": {
+      "corpus": "daggerheart-srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    },
+    "validation": "confirmed_srd2_pdf",
+    "spellcast_trait": "presence",
+    "spellcast_trait_status": "explicit"
+  },
+  {
+    "id": "srd-2.0.subclass.warden-of-the-elements",
+    "kind": "subclass",
+    "name": "Warden of the Elements",
+    "slug": "warden-of-the-elements",
+    "class": "Druid",
+    "source": {
+      "corpus": "daggerheart-srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    },
+    "validation": "confirmed_srd2_pdf",
+    "spellcast_trait": "instinct",
+    "spellcast_trait_status": "explicit"
+  },
+  {
+    "id": "srd-2.0.subclass.warden-of-renewal",
+    "kind": "subclass",
+    "name": "Warden of Renewal",
+    "slug": "warden-of-renewal",
+    "class": "Druid",
+    "source": {
+      "corpus": "daggerheart-srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    },
+    "validation": "confirmed_srd2_pdf",
+    "spellcast_trait": "instinct",
+    "spellcast_trait_status": "explicit"
+  },
+  {
+    "id": "srd-2.0.subclass.stalwart",
+    "kind": "subclass",
+    "name": "Stalwart",
+    "slug": "stalwart",
+    "class": "Guardian",
+    "source": {
+      "corpus": "daggerheart-srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    },
+    "validation": "confirmed_srd2_pdf",
+    "spellcast_trait": null,
+    "spellcast_trait_status": "not_applicable"
+  },
+  {
+    "id": "srd-2.0.subclass.vengeance",
+    "kind": "subclass",
+    "name": "Vengeance",
+    "slug": "vengeance",
+    "class": "Guardian",
+    "source": {
+      "corpus": "daggerheart-srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    },
+    "validation": "confirmed_srd2_pdf",
+    "spellcast_trait": null,
+    "spellcast_trait_status": "not_applicable"
+  },
+  {
+    "id": "srd-2.0.subclass.beastbound",
+    "kind": "subclass",
+    "name": "Beastbound",
+    "slug": "beastbound",
+    "class": "Ranger",
+    "source": {
+      "corpus": "daggerheart-srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    },
+    "validation": "confirmed_srd2_pdf",
+    "spellcast_trait": "agility",
+    "spellcast_trait_status": "explicit"
+  },
+  {
+    "id": "srd-2.0.subclass.wayfinder",
+    "kind": "subclass",
+    "name": "Wayfinder",
+    "slug": "wayfinder",
+    "class": "Ranger",
+    "source": {
+      "corpus": "daggerheart-srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    },
+    "validation": "confirmed_srd2_pdf",
+    "spellcast_trait": "agility",
+    "spellcast_trait_status": "explicit"
+  },
+  {
+    "id": "srd-2.0.subclass.nightwalker",
+    "kind": "subclass",
+    "name": "Nightwalker",
+    "slug": "nightwalker",
+    "class": "Rogue",
+    "source": {
+      "corpus": "daggerheart-srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    },
+    "validation": "confirmed_srd2_pdf",
+    "spellcast_trait": "finesse",
+    "spellcast_trait_status": "explicit"
+  },
+  {
+    "id": "srd-2.0.subclass.syndicate",
+    "kind": "subclass",
+    "name": "Syndicate",
+    "slug": "syndicate",
+    "class": "Rogue",
+    "source": {
+      "corpus": "daggerheart-srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    },
+    "validation": "confirmed_srd2_pdf",
+    "spellcast_trait": "finesse",
+    "spellcast_trait_status": "explicit"
+  },
+  {
+    "id": "srd-2.0.subclass.divine-wielder",
+    "kind": "subclass",
+    "name": "Divine Wielder",
+    "slug": "divine-wielder",
+    "class": "Seraph",
+    "source": {
+      "corpus": "daggerheart-srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    },
+    "validation": "confirmed_srd2_pdf",
+    "spellcast_trait": "strength",
+    "spellcast_trait_status": "explicit"
+  },
+  {
+    "id": "srd-2.0.subclass.winged-sentinel",
+    "kind": "subclass",
+    "name": "Winged Sentinel",
+    "slug": "winged-sentinel",
+    "class": "Seraph",
+    "source": {
+      "corpus": "daggerheart-srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    },
+    "validation": "confirmed_srd2_pdf",
+    "spellcast_trait": "strength",
+    "spellcast_trait_status": "explicit"
+  },
+  {
+    "id": "srd-2.0.subclass.elemental-origin",
+    "kind": "subclass",
+    "name": "Elemental Origin",
+    "slug": "elemental-origin",
+    "class": "Sorcerer",
+    "source": {
+      "corpus": "daggerheart-srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    },
+    "validation": "confirmed_srd2_pdf",
+    "spellcast_trait": "instinct",
+    "spellcast_trait_status": "explicit"
+  },
+  {
+    "id": "srd-2.0.subclass.primal-origin",
+    "kind": "subclass",
+    "name": "Primal Origin",
+    "slug": "primal-origin",
+    "class": "Sorcerer",
+    "source": {
+      "corpus": "daggerheart-srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    },
+    "validation": "confirmed_srd2_pdf",
+    "spellcast_trait": "instinct",
+    "spellcast_trait_status": "explicit"
+  },
+  {
+    "id": "srd-2.0.subclass.call-of-the-brave",
+    "kind": "subclass",
+    "name": "Call of the Brave",
+    "slug": "call-of-the-brave",
+    "class": "Warrior",
+    "source": {
+      "corpus": "daggerheart-srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    },
+    "validation": "confirmed_srd2_pdf",
+    "spellcast_trait": null,
+    "spellcast_trait_status": "not_applicable"
+  },
+  {
+    "id": "srd-2.0.subclass.call-of-the-slayer",
+    "kind": "subclass",
+    "name": "Call of the Slayer",
+    "slug": "call-of-the-slayer",
+    "class": "Warrior",
+    "source": {
+      "corpus": "daggerheart-srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    },
+    "validation": "confirmed_srd2_pdf",
+    "spellcast_trait": null,
+    "spellcast_trait_status": "not_applicable"
+  },
+  {
+    "id": "srd-2.0.subclass.school-of-knowledge",
+    "kind": "subclass",
+    "name": "School of Knowledge",
+    "slug": "school-of-knowledge",
+    "class": "Wizard",
+    "source": {
+      "corpus": "daggerheart-srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    },
+    "validation": "confirmed_srd2_pdf",
+    "spellcast_trait": "knowledge",
+    "spellcast_trait_status": "explicit"
+  },
+  {
+    "id": "srd-2.0.subclass.school-of-war",
+    "kind": "subclass",
+    "name": "School of War",
+    "slug": "school-of-war",
+    "class": "Wizard",
+    "source": {
+      "corpus": "daggerheart-srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    },
+    "validation": "confirmed_srd2_pdf",
+    "spellcast_trait": "knowledge",
+    "spellcast_trait_status": "explicit"
+  },
+  {
+    "id": "srd-2.0.subclass.executioners-guild",
+    "kind": "subclass",
+    "name": "Executioners Guild",
+    "slug": "executioners-guild",
+    "class": "Assassin",
+    "source": {
+      "corpus": "daggerheart-srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    },
+    "validation": "confirmed_srd2_pdf",
+    "spellcast_trait": "agility",
+    "spellcast_trait_status": "explicit"
+  },
+  {
+    "id": "srd-2.0.subclass.poisoners-guild",
+    "kind": "subclass",
+    "name": "Poisoners Guild",
+    "slug": "poisoners-guild",
+    "class": "Assassin",
+    "source": {
+      "corpus": "daggerheart-srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    },
+    "validation": "confirmed_srd2_pdf",
+    "spellcast_trait": "knowledge",
+    "spellcast_trait_status": "explicit"
+  },
+  {
+    "id": "srd-2.0.subclass.juggernaut",
+    "kind": "subclass",
+    "name": "Juggernaut",
+    "slug": "juggernaut",
+    "class": "Brawler",
+    "source": {
+      "corpus": "daggerheart-srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    },
+    "validation": "confirmed_srd2_pdf",
+    "spellcast_trait": null,
+    "spellcast_trait_status": "not_applicable"
+  },
+  {
+    "id": "srd-2.0.subclass.martial-artist",
+    "kind": "subclass",
+    "name": "Martial Artist",
+    "slug": "martial-artist",
+    "class": "Brawler",
+    "source": {
+      "corpus": "daggerheart-srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    },
+    "validation": "confirmed_srd2_pdf",
+    "spellcast_trait": null,
+    "spellcast_trait_status": "not_applicable"
+  }
+]

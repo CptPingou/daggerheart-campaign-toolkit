@@ -1,0 +1,611 @@
+[
+  {
+    "id": "srd-2.0.domain-card.grace.deft-deceiver",
+    "kind": "domain_card",
+    "identity": {
+      "name": "Deft Deceiver",
+      "slug": "deft-deceiver"
+    },
+    "source": {
+      "corpus": "daggerheart-srd",
+      "product": "srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    },
+    "rules": {
+      "domain": "grace",
+      "level": 1,
+      "card_type": "ability",
+      "recall_cost": 0
+    },
+    "content": {
+      "rules_text": "Spend a Hope to gain advantage on a roll to deceive or trick \nsomeone into believing a lie you tell them.",
+      "notes": null
+    }
+  },
+  {
+    "id": "srd-2.0.domain-card.grace.enrapture",
+    "kind": "domain_card",
+    "identity": {
+      "name": "Enrapture",
+      "slug": "enrapture"
+    },
+    "source": {
+      "corpus": "daggerheart-srd",
+      "product": "srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    },
+    "rules": {
+      "domain": "grace",
+      "level": 1,
+      "card_type": "spell",
+      "recall_cost": 0
+    },
+    "content": {
+      "rules_text": "Make a Spellcast Roll against a target within Close range. \nOn a success, they become temporarily Enraptured. While \nEnraptured, a target’s attention is fixed on you, narrowing \ntheir field of view and drowning out any sound but your voice. \nOnce per rest on a success, you can mark a Stress to force the \nEnraptured target to mark a Stress as well.",
+      "notes": null
+    }
+  },
+  {
+    "id": "srd-2.0.domain-card.grace.inspirational-words",
+    "kind": "domain_card",
+    "identity": {
+      "name": "Inspirational Words",
+      "slug": "inspirational-words"
+    },
+    "source": {
+      "corpus": "daggerheart-srd",
+      "product": "srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    },
+    "rules": {
+      "domain": "grace",
+      "level": 1,
+      "card_type": "ability",
+      "recall_cost": 1
+    },
+    "content": {
+      "rules_text": "Your speech is imbued with power. After a long rest, place a \nnumber of tokens on this card equal to your Presence. When \nyou speak with an ally, you can spend a token from this card to \ngive them one benefit from the following options:\n ◦ Your ally clears a Stress.\n ◦ Your ally clears a Hit Point.\n ◦ Your ally gains a Hope.\nWhen you take a long rest, clear all unspent tokens.",
+      "notes": null
+    }
+  },
+  {
+    "id": "srd-2.0.domain-card.grace.tell-no-lies",
+    "kind": "domain_card",
+    "identity": {
+      "name": "Tell No Lies",
+      "slug": "tell-no-lies"
+    },
+    "source": {
+      "corpus": "daggerheart-srd",
+      "product": "srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    },
+    "rules": {
+      "domain": "grace",
+      "level": 2,
+      "card_type": "spell",
+      "recall_cost": 1
+    },
+    "content": {
+      "rules_text": "Make a Spellcast Roll against a target within Very Close range. \nOn a success, they can’t lie to you while they remain within \nClose range, but they are not compelled to speak. If you ask \nthem a question and they refuse to answer, they must mark a \nStress and the effect ends. The target is typically unaware this \nspell has been cast on them until it causes them to utter the \ntruth.",
+      "notes": null
+    }
+  },
+  {
+    "id": "srd-2.0.domain-card.grace.troublemaker",
+    "kind": "domain_card",
+    "identity": {
+      "name": "Troublemaker",
+      "slug": "troublemaker"
+    },
+    "source": {
+      "corpus": "daggerheart-srd",
+      "product": "srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    },
+    "rules": {
+      "domain": "grace",
+      "level": 2,
+      "card_type": "ability",
+      "recall_cost": 2
+    },
+    "content": {
+      "rules_text": "When you taunt or provoke a target within Far range, make a \nPresence Roll against them. Once per rest on a success, roll a \nnumber of d4s equal to your Proficiency. The target must mark \nStress equal to the highest result rolled.",
+      "notes": null
+    }
+  },
+  {
+    "id": "srd-2.0.domain-card.grace.hypnotic-shimmer",
+    "kind": "domain_card",
+    "identity": {
+      "name": "Hypnotic Shimmer",
+      "slug": "hypnotic-shimmer"
+    },
+    "source": {
+      "corpus": "daggerheart-srd",
+      "product": "srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    },
+    "rules": {
+      "domain": "grace",
+      "level": 3,
+      "card_type": "spell",
+      "recall_cost": 1
+    },
+    "content": {
+      "rules_text": "Make a Spellcast Roll against all adversaries in front of you \nwithin Close range. Once per rest on a success, create an \nillusion of flashing colors and lights that temporarily Stuns \ntargets you succeed against and forces them to mark a Stress. \nWhile Stunned, they can’t use reactions and can’t take any \nother actions until they clear this condition.",
+      "notes": null
+    }
+  },
+  {
+    "id": "srd-2.0.domain-card.grace.invisibility",
+    "kind": "domain_card",
+    "identity": {
+      "name": "Invisibility",
+      "slug": "invisibility"
+    },
+    "source": {
+      "corpus": "daggerheart-srd",
+      "product": "srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    },
+    "rules": {
+      "domain": "grace",
+      "level": 3,
+      "card_type": "spell",
+      "recall_cost": 1
+    },
+    "content": {
+      "rules_text": "Make a Spellcast Roll (10). On a success, mark a Stress \nand choose yourself or an ally within Melee range to become \nInvisible. An Invisible creature can’t be seen except through \nmagical means and attack rolls against them are made with \ndisadvantage. Place a number of tokens on this card equal \nto your Spellcast trait. When the Invisible creature takes an \naction, spend a token from this card. After the action that \nspends the last token is resolved, the effect ends. \nYou can only hold Invisibility on one creature at a time.",
+      "notes": null
+    }
+  },
+  {
+    "id": "srd-2.0.domain-card.grace.soothing-speech",
+    "kind": "domain_card",
+    "identity": {
+      "name": "Soothing Speech",
+      "slug": "soothing-speech"
+    },
+    "source": {
+      "corpus": "daggerheart-srd",
+      "product": "srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    },
+    "rules": {
+      "domain": "grace",
+      "level": 4,
+      "card_type": "ability",
+      "recall_cost": 1
+    },
+    "content": {
+      "rules_text": "During a short rest, when you take the time to comfort another \ncharacter while using the T end to Wounds downtime move on \nthem, clear an additional Hit Point on that character. When \nyou do, you also clear 2 Hit Points.",
+      "notes": null
+    }
+  },
+  {
+    "id": "srd-2.0.domain-card.grace.through-your-eyes",
+    "kind": "domain_card",
+    "identity": {
+      "name": "Through Your Eyes",
+      "slug": "through-your-eyes"
+    },
+    "source": {
+      "corpus": "daggerheart-srd",
+      "product": "srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    },
+    "rules": {
+      "domain": "grace",
+      "level": 4,
+      "card_type": "spell",
+      "recall_cost": 1
+    },
+    "content": {
+      "rules_text": "Choose a target within Very Far range. You can see through \ntheir eyes and hear through their ears. You can transition \nbetween using your own senses or the target’s freely until you \ncast another spell or until your next rest.",
+      "notes": null
+    }
+  },
+  {
+    "id": "srd-2.0.domain-card.grace.thought-delver",
+    "kind": "domain_card",
+    "identity": {
+      "name": "Thought Delver",
+      "slug": "thought-delver"
+    },
+    "source": {
+      "corpus": "daggerheart-srd",
+      "product": "srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    },
+    "rules": {
+      "domain": "grace",
+      "level": 5,
+      "card_type": "spell",
+      "recall_cost": 2
+    },
+    "content": {
+      "rules_text": "You can peek into the minds of others. Spend a Hope to read \nthe vague surface thoughts of a target within Far range. Make \na Spellcast Roll against the target to delve for deeper, more \nhidden thoughts.\nOn a roll with Fear, the target might, at the GM’s discretion, \nbecome aware that you’re reading their thoughts.",
+      "notes": null
+    }
+  },
+  {
+    "id": "srd-2.0.domain-card.grace.words-of-discord",
+    "kind": "domain_card",
+    "identity": {
+      "name": "Words Of Discord",
+      "slug": "words-of-discord"
+    },
+    "source": {
+      "corpus": "daggerheart-srd",
+      "product": "srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    },
+    "rules": {
+      "domain": "grace",
+      "level": 5,
+      "card_type": "spell",
+      "recall_cost": 1
+    },
+    "content": {
+      "rules_text": "Whisper words of discord to an adversary within Melee range \nand make a Spellcast Roll (13). On a success, the target must \nmark a Stress and make an attack against another adversary \ninstead of against you or your allies. \nOnce this attack is over, the target realizes what happened. \nThe next time you cast Words of Discord on them, gain a −5 \npenalty to the Spellcast Roll.",
+      "notes": null
+    }
+  },
+  {
+    "id": "srd-2.0.domain-card.grace.never-upstaged",
+    "kind": "domain_card",
+    "identity": {
+      "name": "Never Upstaged",
+      "slug": "never-upstaged"
+    },
+    "source": {
+      "corpus": "daggerheart-srd",
+      "product": "srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    },
+    "rules": {
+      "domain": "grace",
+      "level": 6,
+      "card_type": "ability",
+      "recall_cost": 2
+    },
+    "content": {
+      "rules_text": "When you mark 1 or more Hit Points from an attack, you \ncan mark a Stress to place a number of tokens equal to the \nnumber of Hit Points you marked on this card. On your next \nsuccessful attack, gain a +5 bonus to your damage roll for each \ntoken on this card, then clear all tokens. \n215\nDaggerheart SRD",
+      "notes": null
+    }
+  },
+  {
+    "id": "srd-2.0.domain-card.grace.share-the-burden",
+    "kind": "domain_card",
+    "identity": {
+      "name": "Share The Burden",
+      "slug": "share-the-burden"
+    },
+    "source": {
+      "corpus": "daggerheart-srd",
+      "product": "srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    },
+    "rules": {
+      "domain": "grace",
+      "level": 6,
+      "card_type": "spell",
+      "recall_cost": 0
+    },
+    "content": {
+      "rules_text": "Once per rest, take on the Stress from a willing creature within \nMelee range. The target describes what intimate knowledge \nor emotions telepathically leak from their mind in this moment \nbetween you. Transfer any number of their marked Stress to \nyou, then gain a Hope for each Stress transferred.",
+      "notes": null
+    }
+  },
+  {
+    "id": "srd-2.0.domain-card.grace.endless-charisma",
+    "kind": "domain_card",
+    "identity": {
+      "name": "Endless Charisma",
+      "slug": "endless-charisma"
+    },
+    "source": {
+      "corpus": "daggerheart-srd",
+      "product": "srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    },
+    "rules": {
+      "domain": "grace",
+      "level": 7,
+      "card_type": "ability",
+      "recall_cost": 1
+    },
+    "content": {
+      "rules_text": "After you make an action roll to persuade, lie, or garner favor, \nyou can spend a Hope to reroll the Hope or  \nFear Die.",
+      "notes": null
+    }
+  },
+  {
+    "id": "srd-2.0.domain-card.grace.grace-touched",
+    "kind": "domain_card",
+    "identity": {
+      "name": "Grace-Touched",
+      "slug": "grace-touched"
+    },
+    "source": {
+      "corpus": "daggerheart-srd",
+      "product": "srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    },
+    "rules": {
+      "domain": "grace",
+      "level": 7,
+      "card_type": "ability",
+      "recall_cost": 2
+    },
+    "content": {
+      "rules_text": "When 4 or more of the domain cards in your loadout are from \nthe Grace domain, gain the following benefits:\n ◦ You can mark an Armor Slot instead of marking a Stress. \n ◦ When you would force a target to mark a number of Hit \nPoints, you can choose instead to force them to mark that \nnumber of Stress.",
+      "notes": null
+    }
+  },
+  {
+    "id": "srd-2.0.domain-card.grace.astral-projection",
+    "kind": "domain_card",
+    "identity": {
+      "name": "Astral Projection",
+      "slug": "astral-projection"
+    },
+    "source": {
+      "corpus": "daggerheart-srd",
+      "product": "srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    },
+    "rules": {
+      "domain": "grace",
+      "level": 8,
+      "card_type": "spell",
+      "recall_cost": 0
+    },
+    "content": {
+      "rules_text": "Once per long rest, mark a Stress to create a projected copy of \nyourself that can appear anywhere you’ve been before. \nYou can see and hear through the projection as though it were \nyou and affect the world as though you were there. A creature \ninvestigating the projection can tell it’s of magical origin. This \neffect lasts until your next rest or your projection takes any \ndamage.",
+      "notes": null
+    }
+  },
+  {
+    "id": "srd-2.0.domain-card.grace.mass-enrapture",
+    "kind": "domain_card",
+    "identity": {
+      "name": "Mass Enrapture",
+      "slug": "mass-enrapture"
+    },
+    "source": {
+      "corpus": "daggerheart-srd",
+      "product": "srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    },
+    "rules": {
+      "domain": "grace",
+      "level": 8,
+      "card_type": "spell",
+      "recall_cost": 3
+    },
+    "content": {
+      "rules_text": "Make a Spellcast Roll against all targets within Far range. \nT argets you succeed against become temporarily Enraptured. \nWhile Enraptured, a target’s attention is fixed on you, \nnarrowing their field of view and drowning out any sound but \nyour voice. Mark a Stress to force all Enraptured targets to \nmark a Stress, ending this spell.",
+      "notes": null
+    }
+  },
+  {
+    "id": "srd-2.0.domain-card.grace.copycat",
+    "kind": "domain_card",
+    "identity": {
+      "name": "Copycat",
+      "slug": "copycat"
+    },
+    "source": {
+      "corpus": "daggerheart-srd",
+      "product": "srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    },
+    "rules": {
+      "domain": "grace",
+      "level": 9,
+      "card_type": "spell",
+      "recall_cost": 3
+    },
+    "content": {
+      "rules_text": "Once per long rest, this card can mimic the features of another \ndomain card of level 8 or lower in another player’s loadout. \nSpend Hope equal to half the card’s level to gain access to the \nfeature. It lasts until your next rest or they place the card in \ntheir vault.",
+      "notes": null
+    }
+  },
+  {
+    "id": "srd-2.0.domain-card.grace.master-of-the-craft",
+    "kind": "domain_card",
+    "identity": {
+      "name": "Master Of The Craft",
+      "slug": "master-of-the-craft"
+    },
+    "source": {
+      "corpus": "daggerheart-srd",
+      "product": "srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    },
+    "rules": {
+      "domain": "grace",
+      "level": 9,
+      "card_type": "ability",
+      "recall_cost": 0
+    },
+    "content": {
+      "rules_text": "Gain a permanent +2 bonus to two of your Experiences or a \npermanent +3 bonus to one of your Experiences. Then place \nthis card in your vault permanently.",
+      "notes": null
+    }
+  },
+  {
+    "id": "srd-2.0.domain-card.grace.encore",
+    "kind": "domain_card",
+    "identity": {
+      "name": "Encore",
+      "slug": "encore"
+    },
+    "source": {
+      "corpus": "daggerheart-srd",
+      "product": "srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    },
+    "rules": {
+      "domain": "grace",
+      "level": 10,
+      "card_type": "spell",
+      "recall_cost": 1
+    },
+    "content": {
+      "rules_text": "When an ally within Close range deals damage to an adversary, \nyou can make a Spellcast Roll against that same target. On a \nsuccess, you deal the same damage to the target that your ally \ndealt. If your Spellcast Roll succeeds with Fear, place this card \nin your vault.",
+      "notes": null
+    }
+  },
+  {
+    "id": "srd-2.0.domain-card.grace.notorious",
+    "kind": "domain_card",
+    "identity": {
+      "name": "Notorious",
+      "slug": "notorious"
+    },
+    "source": {
+      "corpus": "daggerheart-srd",
+      "product": "srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    },
+    "rules": {
+      "domain": "grace",
+      "level": 10,
+      "card_type": "ability",
+      "recall_cost": 0
+    },
+    "content": {
+      "rules_text": "People know who you are and what you’ve done, and they treat \nyou differently because of it. When you leverage your notoriety \nto get what you want, you can mark a Stress before you roll to \ngain a +10 bonus to the result. Your food and drinks are always \nfree wherever you go, and everything else you buy is reduced \nin price by one bag of gold (to a minimum of one handful).",
+      "notes": null
+    }
+  }
+]

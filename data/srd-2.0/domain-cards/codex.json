@@ -1,0 +1,611 @@
+[
+  {
+    "id": "srd-2.0.domain-card.codex.book-of-ava",
+    "kind": "domain_card",
+    "identity": {
+      "name": "Book Of Ava",
+      "slug": "book-of-ava"
+    },
+    "source": {
+      "corpus": "daggerheart-srd",
+      "product": "srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    },
+    "rules": {
+      "domain": "codex",
+      "level": 1,
+      "card_type": "grimoire",
+      "recall_cost": 2
+    },
+    "content": {
+      "rules_text": "Power Push: Make a Spellcast Roll against a target within \nMelee range.  \nOn a success, they’re knocked back to Far range and take \nd10+2 magic damage using your Proficiency.\nTava’s Armor: Spend a Hope to give a target you can touch a \n+1 bonus to their Armor Score until their next rest or you cast \nT ava’s Armor again.\nIce Spike: Make a Spellcast Roll (12) to summon a large ice \nspike within Far range. If you use it as a weapon, make the \nSpellcast Roll against the target’s Difficulty instead. On a \nsuccess, deal d6 physical damage using your Proficiency.",
+      "notes": null
+    }
+  },
+  {
+    "id": "srd-2.0.domain-card.codex.book-of-illiat",
+    "kind": "domain_card",
+    "identity": {
+      "name": "Book Of Illiat",
+      "slug": "book-of-illiat"
+    },
+    "source": {
+      "corpus": "daggerheart-srd",
+      "product": "srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    },
+    "rules": {
+      "domain": "codex",
+      "level": 1,
+      "card_type": "grimoire",
+      "recall_cost": 2
+    },
+    "content": {
+      "rules_text": "Slumber: Make a Spellcast Roll against a target within Very \nClose range. On a success, they’re Asleep until they take \ndamage or the GM spends a Fear on their turn to clear this \ncondition.\nArcane Barrage: Once per rest, spend any number of Hope \nand shoot magical projectiles that strike a target of your choice \nwithin Close range. Roll a number of d6s equal to the Hope \nspent and deal that much magic damage to the target.\nTelepathy: Spend a Hope to open a line of mental \ncommunication with one target you can see. This connection \nlasts until your next rest or you cast T elepathy again.",
+      "notes": null
+    }
+  },
+  {
+    "id": "srd-2.0.domain-card.codex.book-of-tyfar",
+    "kind": "domain_card",
+    "identity": {
+      "name": "Book Of Tyfar",
+      "slug": "book-of-tyfar"
+    },
+    "source": {
+      "corpus": "daggerheart-srd",
+      "product": "srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    },
+    "rules": {
+      "domain": "codex",
+      "level": 1,
+      "card_type": "grimoire",
+      "recall_cost": 2
+    },
+    "content": {
+      "rules_text": "Wild Flame: Make a Spellcast Roll against up to three \nadversaries within Melee range. T argets you succeed against \ntake 2d6 magic damage and must mark a Stress as flames \nerupt from your hand. \nMagic Hand: You conjure a magical hand with the same size \nand strength as your own within Far range.\nMysterious Mist: Make a Spellcast Roll (13) to cast a \ntemporary thick fog that gathers in a stationary area within \nVery Close range. The fog heavily obscures this area and \neverything in it.",
+      "notes": null
+    }
+  },
+  {
+    "id": "srd-2.0.domain-card.codex.book-of-sitil",
+    "kind": "domain_card",
+    "identity": {
+      "name": "Book Of Sitil",
+      "slug": "book-of-sitil"
+    },
+    "source": {
+      "corpus": "daggerheart-srd",
+      "product": "srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    },
+    "rules": {
+      "domain": "codex",
+      "level": 2,
+      "card_type": "grimoire",
+      "recall_cost": 2
+    },
+    "content": {
+      "rules_text": "Adjust Appearance: You magically shift your appearance and \nclothing to avoid recognition.\nParallela: Spend 2 Hope to cast this spell on yourself or an ally \nwithin Close range. The next time the target makes an attack, \nthey can hit an additional target within range that their attack \nroll would succeed against. You can only hold this spell on one \ncreature at a time.\nIllusion: Make a Spellcast Roll (14).  \nOn a success, create a temporary visual illusion no larger than \nyou within Close range that lasts for as long as you look at it. It \nholds up to scrutiny until an observer is within Melee range.",
+      "notes": null
+    }
+  },
+  {
+    "id": "srd-2.0.domain-card.codex.book-of-vagras",
+    "kind": "domain_card",
+    "identity": {
+      "name": "Book Of Vagras",
+      "slug": "book-of-vagras"
+    },
+    "source": {
+      "corpus": "daggerheart-srd",
+      "product": "srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    },
+    "rules": {
+      "domain": "codex",
+      "level": 2,
+      "card_type": "grimoire",
+      "recall_cost": 2
+    },
+    "content": {
+      "rules_text": "Runic Lock: Make a Spellcast Roll (15) on an object you’re \ntouching that can close (such as a lock, chest, or box). Once \nper rest on a success, you can lock the object so it can only be \nopened by creatures of your choice. Someone with access to \nmagic and an hour of time to study the spell can break it.\nArcane Door: When you have no adversaries within Melee \nrange, make a Spellcast Roll (13). On a success, spend a \nHope to create a portal from where you are to a point within \nFar range you can see. It closes once a creature has passed \nthrough it. \nReveal: Make a Spellcast Roll. If there is anything magically \nhidden within Close range, it is revealed.",
+      "notes": null
+    }
+  },
+  {
+    "id": "srd-2.0.domain-card.codex.book-of-korvax",
+    "kind": "domain_card",
+    "identity": {
+      "name": "Book Of Korvax",
+      "slug": "book-of-korvax"
+    },
+    "source": {
+      "corpus": "daggerheart-srd",
+      "product": "srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    },
+    "rules": {
+      "domain": "codex",
+      "level": 3,
+      "card_type": "grimoire",
+      "recall_cost": 2
+    },
+    "content": {
+      "rules_text": "Levitation: Make a Spellcast Roll to temporarily lift a target \nyou can see up into the air and move them within Close range \nof their original position.\nRecant: Spend a Hope to force a target within Melee range \nto make a Reaction Roll (15). On a failure, they forget the last \nminute of your conversation.\nRune Circle: Mark a Stress to create a temporary magical \ncircle on the ground where you stand. All adversaries within \nMelee range, or who enter Melee range, take 2d12+4 magic \ndamage and are knocked back to Very Close range.",
+      "notes": null
+    }
+  },
+  {
+    "id": "srd-2.0.domain-card.codex.book-of-norai",
+    "kind": "domain_card",
+    "identity": {
+      "name": "Book Of Norai",
+      "slug": "book-of-norai"
+    },
+    "source": {
+      "corpus": "daggerheart-srd",
+      "product": "srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    },
+    "rules": {
+      "domain": "codex",
+      "level": 3,
+      "card_type": "grimoire",
+      "recall_cost": 2
+    },
+    "content": {
+      "rules_text": "Mystic Tether: Make a Spellcast Roll against a target within Far \nrange. On a success, they’re temporarily Restrained and must \nmark a Stress. If you target a flying creature, this spell grounds \nand temporarily Restrains them.\nFireball: Make a Spellcast Roll against a target within Very Far \nrange. On a success, hurl a sphere of fire toward them that \nexplodes on impact. The target and all creatures within Very \nClose range of them must make a Reaction Roll (13). T argets \nwho fail take d20+5 magic damage using your Proficiency. \nT argets who succeed take half damage.",
+      "notes": null
+    }
+  },
+  {
+    "id": "srd-2.0.domain-card.codex.book-of-exota",
+    "kind": "domain_card",
+    "identity": {
+      "name": "Book Of Exota",
+      "slug": "book-of-exota"
+    },
+    "source": {
+      "corpus": "daggerheart-srd",
+      "product": "srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    },
+    "rules": {
+      "domain": "codex",
+      "level": 4,
+      "card_type": "grimoire",
+      "recall_cost": 3
+    },
+    "content": {
+      "rules_text": "Repudiate: You can interrupt a magical effect taking place. \nMake a reaction roll using your Spellcast trait. Once per rest on \na success, the effect stops and any consequences are avoided. \nCreate Construct: Spend a Hope to choose a group of objects \naround you and create an animated construct from them that \nobeys basic commands. Make a Spellcast Roll to command \nthem to take action. When necessary, they share your Evasion \nand traits and their attacks deal 2d10+3 physical damage. You \ncan only maintain one construct at a time, and they fall apart \nwhen they take any amount of damage.\n211\nDaggerheart SRD",
+      "notes": null
+    }
+  },
+  {
+    "id": "srd-2.0.domain-card.codex.book-of-grynn",
+    "kind": "domain_card",
+    "identity": {
+      "name": "Book Of Grynn",
+      "slug": "book-of-grynn"
+    },
+    "source": {
+      "corpus": "daggerheart-srd",
+      "product": "srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    },
+    "rules": {
+      "domain": "codex",
+      "level": 4,
+      "card_type": "grimoire",
+      "recall_cost": 2
+    },
+    "content": {
+      "rules_text": "Arcane Deflection: Once per long rest, spend a Hope to negate \nthe damage of an attack targeting you or an ally within Very \nClose range.\nTime Lock: T arget an object within Far range. That object stops \nin time and space exactly where it is until your next rest. If a \ncreature tries to move it, make a Spellcast Roll against them to \nmaintain this spell.\nWall of Flame: Make a Spellcast Roll (15). On a success, \ncreate a temporary wall of magical flame between two points \nwithin Far range. All creatures in its path must choose a side to \nbe on, and anything that subsequently passes through the wall \ntakes 4d10+3 magic damage.",
+      "notes": null
+    }
+  },
+  {
+    "id": "srd-2.0.domain-card.codex.manifest-wall",
+    "kind": "domain_card",
+    "identity": {
+      "name": "Manifest Wall",
+      "slug": "manifest-wall"
+    },
+    "source": {
+      "corpus": "daggerheart-srd",
+      "product": "srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    },
+    "rules": {
+      "domain": "codex",
+      "level": 5,
+      "card_type": "spell",
+      "recall_cost": 2
+    },
+    "content": {
+      "rules_text": "Make a Spellcast Roll (15). Once per rest on a success, spend \na Hope to create a temporary magical wall between two points \nwithin Far range. It can be up to 50 feet high and form at any \nangle. Creatures or objects in its path are shunted to a side of \nyour choice. The wall stays up until your next rest or you cast \nManifest Wall again.",
+      "notes": null
+    }
+  },
+  {
+    "id": "srd-2.0.domain-card.codex.teleport",
+    "kind": "domain_card",
+    "identity": {
+      "name": "Teleport",
+      "slug": "teleport"
+    },
+    "source": {
+      "corpus": "daggerheart-srd",
+      "product": "srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    },
+    "rules": {
+      "domain": "codex",
+      "level": 5,
+      "card_type": "spell",
+      "recall_cost": 2
+    },
+    "content": {
+      "rules_text": "Once per long rest, you can instantly teleport yourself and any \nnumber of willing targets within Close range to a place you’ve \nbeen before. Choose one of the following options, then make a \nSpellcast Roll (16):\n ◦ If you know the place very well, gain a +3 bonus. \n ◦ If you’ve visited the place frequently, gain a +1 bonus. \n ◦ If you’ve visited the place infrequently, gain no modifier. \n ◦ If you’ve only been there once, gain a −2 penalty.\nOn a success, you appear where you were intending to go. \nOn a failure, you appear off course, with the range of failure \ndetermining how far off course.",
+      "notes": null
+    }
+  },
+  {
+    "id": "srd-2.0.domain-card.codex.banish",
+    "kind": "domain_card",
+    "identity": {
+      "name": "Banish",
+      "slug": "banish"
+    },
+    "source": {
+      "corpus": "daggerheart-srd",
+      "product": "srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    },
+    "rules": {
+      "domain": "codex",
+      "level": 6,
+      "card_type": "spell",
+      "recall_cost": 0
+    },
+    "content": {
+      "rules_text": "Make a Spellcast Roll against a target within Close range. On \na success, roll a number of d20s equal to your Spellcast trait. \nThe target must make a reaction roll with a Difficulty equal \nto your highest result. On a success, the target must mark a \nStress but isn’t banished. Once per rest on a failure, they are \nbanished from this realm. \nWhen the PCs roll with Fear, the Difficulty gains a −1 penalty \nand the target makes another reaction roll. On a success, they \nreturn from banishment.",
+      "notes": null
+    }
+  },
+  {
+    "id": "srd-2.0.domain-card.codex.sigil-of-retribution",
+    "kind": "domain_card",
+    "identity": {
+      "name": "Sigil Of Retribution",
+      "slug": "sigil-of-retribution"
+    },
+    "source": {
+      "corpus": "daggerheart-srd",
+      "product": "srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    },
+    "rules": {
+      "domain": "codex",
+      "level": 6,
+      "card_type": "spell",
+      "recall_cost": 2
+    },
+    "content": {
+      "rules_text": "Mark an adversary within Close range with a sigil of \nretribution. The GM gains a Fear. When the marked adversary \ndeals damage to you or your allies, place a d8 on this card. \nYou can hold a number of d8s equal to your level. When you \nsuccessfully attack the marked adversary, roll the dice on this \ncard and add the total to your damage roll, then clear the dice. \nThis effect ends when the marked adversary is defeated or you \ncast Sigil of Retribution again.",
+      "notes": null
+    }
+  },
+  {
+    "id": "srd-2.0.domain-card.codex.book-of-homet",
+    "kind": "domain_card",
+    "identity": {
+      "name": "Book Of Homet",
+      "slug": "book-of-homet"
+    },
+    "source": {
+      "corpus": "daggerheart-srd",
+      "product": "srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    },
+    "rules": {
+      "domain": "codex",
+      "level": 7,
+      "card_type": "grimoire",
+      "recall_cost": 0
+    },
+    "content": {
+      "rules_text": "Pass Through: Make a Spellcast Roll (13). Once per rest on a \nsuccess, you and all creatures touching you can pass through a \nwall or door within Close range. The effect ends once everyone \nis on the other side.\nPlane Gate: Make a Spellcast Roll (14). Once per long rest on \na success, open a gateway to a location in another dimension \nor plane of existence you’ve been to before. This gateway lasts \nuntil your next rest.",
+      "notes": null
+    }
+  },
+  {
+    "id": "srd-2.0.domain-card.codex.codex-touched",
+    "kind": "domain_card",
+    "identity": {
+      "name": "Codex-Touched",
+      "slug": "codex-touched"
+    },
+    "source": {
+      "corpus": "daggerheart-srd",
+      "product": "srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    },
+    "rules": {
+      "domain": "codex",
+      "level": 7,
+      "card_type": "ability",
+      "recall_cost": 2
+    },
+    "content": {
+      "rules_text": "When 4 or more of the domain cards in your loadout are from \nthe Codex domain, gain the following benefits:\n ◦ You can mark a Stress to add your Proficiency to a \nSpellcast Roll.\n ◦ Once per rest, replace this card with any card from your \nvault without paying its Recall Cost.",
+      "notes": null
+    }
+  },
+  {
+    "id": "srd-2.0.domain-card.codex.book-of-vyola",
+    "kind": "domain_card",
+    "identity": {
+      "name": "Book Of Vyola",
+      "slug": "book-of-vyola"
+    },
+    "source": {
+      "corpus": "daggerheart-srd",
+      "product": "srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    },
+    "rules": {
+      "domain": "codex",
+      "level": 8,
+      "card_type": "grimoire",
+      "recall_cost": 2
+    },
+    "content": {
+      "rules_text": "Memory Delve: Make a Spellcast Roll against a target within \nFar range. On a success, peer into the target’s mind and ask \nthe GM a question. The GM describes any memories the target \nhas pertaining to the answer.\nShared Clarity: Once per long rest, spend a Hope to choose \ntwo willing creatures. When one of them would mark Stress, \nthey can choose between the two of them who marks it. This \nspell lasts until their next rest.",
+      "notes": null
+    }
+  },
+  {
+    "id": "srd-2.0.domain-card.codex.safe-haven",
+    "kind": "domain_card",
+    "identity": {
+      "name": "Safe Haven",
+      "slug": "safe-haven"
+    },
+    "source": {
+      "corpus": "daggerheart-srd",
+      "product": "srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    },
+    "rules": {
+      "domain": "codex",
+      "level": 8,
+      "card_type": "spell",
+      "recall_cost": 3
+    },
+    "content": {
+      "rules_text": "When you have a few minutes of calm to focus, you can spend \n2 Hope to summon your Safe Haven, a large interdimensional \nhome where you and your allies can take shelter. When you do, \na magical door appears somewhere within Close range. Only \ncreatures of your choice can enter. Once inside, you can make \nthe entrance invisible. You and anyone else inside can always \nexit. Once you leave, the doorway must be summoned again.\nWhen you take a rest within your own Safe Haven, you can \nchoose an additional downtime move.\n212\nDaggerheart SRD",
+      "notes": null
+    }
+  },
+  {
+    "id": "srd-2.0.domain-card.codex.book-of-ronin",
+    "kind": "domain_card",
+    "identity": {
+      "name": "Book Of Ronin",
+      "slug": "book-of-ronin"
+    },
+    "source": {
+      "corpus": "daggerheart-srd",
+      "product": "srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    },
+    "rules": {
+      "domain": "codex",
+      "level": 9,
+      "card_type": "grimoire",
+      "recall_cost": 4
+    },
+    "content": {
+      "rules_text": "Transform: Make a Spellcast Roll (15). On a success, \ntransform into an inanimate object no larger than twice \nyour normal size. You can remain in this shape until you take \ndamage.\nEternal Enervation: Once per long rest, make a Spellcast Roll \nagainst a target within Close range. On a success, they become \npermanently Vulnerable. They can’t clear this condition by any \nmeans.",
+      "notes": null
+    }
+  },
+  {
+    "id": "srd-2.0.domain-card.codex.disintegration-wave",
+    "kind": "domain_card",
+    "identity": {
+      "name": "Disintegration Wave",
+      "slug": "disintegration-wave"
+    },
+    "source": {
+      "corpus": "daggerheart-srd",
+      "product": "srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    },
+    "rules": {
+      "domain": "codex",
+      "level": 9,
+      "card_type": "spell",
+      "recall_cost": 4
+    },
+    "content": {
+      "rules_text": "Make a Spellcast Roll (18). Once per long rest on a success, \nthe GM tells you which adversaries within Far range have a \nDifficulty of 18 or lower. Mark a Stress for each one you wish \nto hit with this spell. They are killed and can’t come back to life \nby any means.",
+      "notes": null
+    }
+  },
+  {
+    "id": "srd-2.0.domain-card.codex.book-of-yarrow",
+    "kind": "domain_card",
+    "identity": {
+      "name": "Book Of Yarrow",
+      "slug": "book-of-yarrow"
+    },
+    "source": {
+      "corpus": "daggerheart-srd",
+      "product": "srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    },
+    "rules": {
+      "domain": "codex",
+      "level": 10,
+      "card_type": "grimoire",
+      "recall_cost": 2
+    },
+    "content": {
+      "rules_text": "Timejammer: Make a Spellcast Roll (18). On a success, time \ntemporarily slows to a halt for everyone within Far range \nexcept for you. It resumes the next time you make an action \nroll that targets another creature.\nMagic Immunity: Spend 5 Hope to become immune to magic \ndamage until your next rest.",
+      "notes": null
+    }
+  },
+  {
+    "id": "srd-2.0.domain-card.codex.transcendent-union",
+    "kind": "domain_card",
+    "identity": {
+      "name": "Transcendent Union",
+      "slug": "transcendent-union"
+    },
+    "source": {
+      "corpus": "daggerheart-srd",
+      "product": "srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    },
+    "rules": {
+      "domain": "codex",
+      "level": 10,
+      "card_type": "spell",
+      "recall_cost": 1
+    },
+    "content": {
+      "rules_text": "Once per long rest, spend 5 Hope to cast this spell on two or \nmore willing creatures. Until your next rest, when a creature \nconnected by this union would mark Stress or Hit Points, the \nconnected creatures can choose who marks it.",
+      "notes": null
+    }
+  }
+]

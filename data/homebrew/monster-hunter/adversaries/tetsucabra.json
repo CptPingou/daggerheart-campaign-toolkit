@@ -1,0 +1,100 @@
+{
+  "id": "homebrew.monster-hunter.adversary.tetsucabra",
+  "kind": "adversary",
+  "tier": 1,
+  "role": "Bruiser",
+  "name": "Tetsucabra",
+  "motives_tactics": "Défendre son territoire, charger, projeter, creuser, utiliser les rochers",
+  "difficulty": 13,
+  "thresholds": {
+    "major": 9,
+    "severe": 17
+  },
+  "hp": 7,
+  "stress": 3,
+  "stress_none": false,
+  "attack": {
+    "modifier": 1,
+    "name": "Morsure massive",
+    "range": "Melee",
+    "damage": "1d10+3",
+    "damage_type": "phy"
+  },
+  "experience_text": "Territorial +3, Fouisseur +2",
+  "features_text": "Mâchoire de pierre - Passive: Quand une cible marque des PV à cause de l'attaque standard du Tetsucabra, elle est repoussée jusqu'à Very Close. Soulèvement de rocher - Action: Marquez 1 Stress pour que le Tetsucabra arrache ou soulève un rocher à portée Very Close et le projette sur une cible à portée Close. Faites une attaque contre cette cible. Sur un succès, infligez 1d10+3 dégâts physiques et placez le rocher dans une position cohérente avec l'impact. Percée souterraine - Action: Dépensez 1 Fear pour que le Tetsucabra s'enfouisse puis ressorte à un point à portée Close. Il peut immédiatement se repositionner au contact d'une cible ou derrière un élément de terrain cohérent avec sa sortie.",
+  "source": {
+    "corpus": "monster-hunter-homebrew",
+    "version": "0.1",
+    "status": "homebrew"
+  },
+  "canonical": true,
+  "features": [
+    {
+      "name": "Mâchoire de pierre",
+      "type": "Passive",
+      "text": "Quand une cible marque des PV à cause de l'attaque standard du Tetsucabra, elle est repoussée jusqu'à Very Close."
+    },
+    {
+      "name": "Soulèvement de rocher",
+      "type": "Action",
+      "text": "Marquez 1 Stress pour que le Tetsucabra arrache ou soulève un rocher à portée Very Close et le projette sur une cible à portée Close. Faites une attaque contre cette cible. Sur un succès, infligez 1d10+3 dégâts physiques et placez le rocher dans une position cohérente avec l'impact."
+    },
+    {
+      "name": "Percée souterraine",
+      "type": "Action",
+      "text": "Dépensez 1 Fear pour que le Tetsucabra s'enfouisse puis ressorte à un point à portée Close. Il peut immédiatement se repositionner au contact d'une cible ou derrière un élément de terrain cohérent avec sa sortie."
+    }
+  ],
+  "hunting": {
+    "schemaVersion": 1,
+    "footprint": {
+      "width": 2,
+      "height": 2
+    },
+    "tags": [
+      "herbivore",
+      "burrower"
+    ],
+    "reactions": {
+      "normal": {
+        "name": "Coup de boutoir",
+        "trigger": [
+          "success-fear",
+          "failure-hope"
+        ],
+        "target": "opener",
+        "supportWindow": true,
+        "resolution": {
+          "kind": "attack",
+          "attack": {
+            "modifier": 1,
+            "name": "Coup de boutoir",
+            "range": "Melee",
+            "damage": "1d10+3",
+            "damage_type": "phy"
+          }
+        }
+      },
+      "fear": {
+        "name": "Charge tectonique",
+        "trigger": [
+          "failure-fear"
+        ],
+        "baseReaction": "normal",
+        "resolution": {
+          "kind": "forcedMovement",
+          "steps": 2,
+          "pathExample": [
+            "Melee",
+            "Very Close",
+            "Close"
+          ],
+          "collision": {
+            "damagePerUnspentStep": "1d6",
+            "damage_type": "phy"
+          }
+        }
+      }
+    }
+  }
+}

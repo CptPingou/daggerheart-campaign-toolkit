@@ -1,0 +1,374 @@
+{
+  "phase": "P1.5",
+  "coverage_model": "composition of P1.4 primitives",
+  "observed_primitive_count": 23,
+  "monster_hunter": {
+    "requirements_total": 16,
+    "requirements_full": 16,
+    "requirements_gap": 0,
+    "missing_primitives": [],
+    "requirements": [
+      {
+        "id": "mh.action-budget",
+        "label": "Action Monster Hunter per combat",
+        "needs": [
+          "resource",
+          "spend_gain",
+          "triggered_rule"
+        ],
+        "missing": [],
+        "coverage": "FULL"
+      },
+      {
+        "id": "mh.card-family",
+        "label": "Opener / Finisher / Support cards",
+        "needs": [
+          "tag",
+          "linked_entity"
+        ],
+        "missing": [],
+        "coverage": "FULL"
+      },
+      {
+        "id": "mh.opportunity",
+        "label": "Shared capped Opportunity countdown",
+        "needs": [
+          "resource",
+          "counter_or_track",
+          "threshold",
+          "spend_gain"
+        ],
+        "missing": [],
+        "coverage": "FULL"
+      },
+      {
+        "id": "mh.engagement-resolution",
+        "label": "Duality result matrix and monster reaction",
+        "needs": [
+          "result_table",
+          "triggered_rule",
+          "linked_entity",
+          "phase_or_procedure"
+        ],
+        "missing": [],
+        "coverage": "FULL"
+      },
+      {
+        "id": "mh.anatomy",
+        "label": "Targeted monster parts and fracture threshold",
+        "needs": [
+          "segmented_entity",
+          "threshold",
+          "state_or_condition",
+          "form_or_state_transition"
+        ],
+        "missing": [],
+        "coverage": "FULL"
+      },
+      {
+        "id": "mh.harvest",
+        "label": "Ordered harvest yield by Duality result",
+        "needs": [
+          "result_table",
+          "linked_entity",
+          "phase_or_procedure"
+        ],
+        "missing": [],
+        "coverage": "FULL"
+      },
+      {
+        "id": "mh.materials",
+        "label": "Harvest materials with tags/flavors",
+        "needs": [
+          "tag",
+          "linked_entity"
+        ],
+        "missing": [],
+        "coverage": "FULL"
+      },
+      {
+        "id": "mh.craft",
+        "label": "Materials converted into augments",
+        "needs": [
+          "recipe_or_craft",
+          "upgrade_slot",
+          "linked_entity",
+          "tier_progression"
+        ],
+        "missing": [],
+        "coverage": "FULL"
+      },
+      {
+        "id": "mh.inventory",
+        "label": "Hunter/caravan capacity and bulky objects",
+        "needs": [
+          "slot_capacity",
+          "linked_entity",
+          "resource"
+        ],
+        "missing": [],
+        "coverage": "FULL"
+      },
+      {
+        "id": "mh.provisions",
+        "label": "Expedition autonomy / provisions",
+        "needs": [
+          "resource",
+          "spend_gain",
+          "triggered_rule"
+        ],
+        "missing": [],
+        "coverage": "FULL"
+      },
+      {
+        "id": "mh.territory",
+        "label": "Nodes, links and travel constraints",
+        "needs": [
+          "graph_or_hex_travel",
+          "linked_entity",
+          "state_or_condition"
+        ],
+        "missing": [],
+        "coverage": "FULL"
+      },
+      {
+        "id": "mh.fob",
+        "label": "FOB deployed on a territory node with modules",
+        "needs": [
+          "linked_entity",
+          "slot_capacity",
+          "state_or_condition"
+        ],
+        "missing": [],
+        "coverage": "FULL"
+      },
+      {
+        "id": "mh.preparations",
+        "label": "Traps/baits/states attached to nodes or paths",
+        "needs": [
+          "linked_entity",
+          "tag",
+          "triggered_rule",
+          "state_or_condition"
+        ],
+        "missing": [],
+        "coverage": "FULL"
+      },
+      {
+        "id": "mh.hunt-flow",
+        "label": "Ordered hunt procedure",
+        "needs": [
+          "phase_or_procedure",
+          "state_or_condition"
+        ],
+        "missing": [],
+        "coverage": "FULL"
+      },
+      {
+        "id": "mh.rest-hooks",
+        "label": "Long-rest bounded effects",
+        "needs": [
+          "rest_rule",
+          "triggered_rule"
+        ],
+        "missing": [],
+        "coverage": "FULL"
+      },
+      {
+        "id": "mh.dice-modifiers",
+        "label": "Die-sized tactical modifiers",
+        "needs": [
+          "die_or_dice_pool",
+          "triggered_rule"
+        ],
+        "missing": [],
+        "coverage": "FULL"
+      }
+    ]
+  },
+  "normalized_corpus_primitive_usage": {
+    "blood_hunter": [
+      "campaign_rule_modifier",
+      "die_or_dice_pool",
+      "form_or_state_transition",
+      "graph_or_hex_travel",
+      "linked_entity",
+      "resource",
+      "rest_rule",
+      "result_table",
+      "spend_gain",
+      "state_or_condition",
+      "tag",
+      "threshold",
+      "triggered_rule"
+    ],
+    "hope_fear_assets": [
+      "campaign_rule_modifier",
+      "graph_or_hex_travel",
+      "map_or_handout",
+      "play_aid",
+      "resource"
+    ],
+    "hope_fear_frames": [
+      "campaign_rule_modifier",
+      "counter_or_track",
+      "die_or_dice_pool",
+      "form_or_state_transition",
+      "graph_or_hex_travel",
+      "linked_entity",
+      "map_or_handout",
+      "phase_or_procedure",
+      "play_aid",
+      "recipe_or_craft",
+      "relation_or_faction",
+      "resource",
+      "rest_rule",
+      "result_table",
+      "segmented_entity",
+      "slot_capacity",
+      "spend_gain",
+      "state_or_condition",
+      "tag",
+      "threshold",
+      "tier_progression",
+      "triggered_rule"
+    ],
+    "srd2_adversaries": [
+      "campaign_rule_modifier",
+      "counter_or_track",
+      "die_or_dice_pool",
+      "form_or_state_transition",
+      "graph_or_hex_travel",
+      "linked_entity",
+      "phase_or_procedure",
+      "play_aid",
+      "recipe_or_craft",
+      "resource",
+      "rest_rule",
+      "result_table",
+      "segmented_entity",
+      "slot_capacity",
+      "spend_gain",
+      "state_or_condition",
+      "tag",
+      "threshold",
+      "tier_progression",
+      "triggered_rule"
+    ],
+    "srd2_campaign_frame": [
+      "campaign_rule_modifier",
+      "counter_or_track",
+      "die_or_dice_pool",
+      "form_or_state_transition",
+      "graph_or_hex_travel",
+      "linked_entity",
+      "play_aid",
+      "relation_or_faction",
+      "resource",
+      "rest_rule",
+      "result_table",
+      "segmented_entity",
+      "spend_gain",
+      "state_or_condition",
+      "tag",
+      "threshold",
+      "triggered_rule"
+    ],
+    "srd2_environments": [
+      "campaign_rule_modifier",
+      "counter_or_track",
+      "die_or_dice_pool",
+      "form_or_state_transition",
+      "graph_or_hex_travel",
+      "linked_entity",
+      "map_or_handout",
+      "phase_or_procedure",
+      "play_aid",
+      "recipe_or_craft",
+      "relation_or_faction",
+      "resource",
+      "rest_rule",
+      "result_table",
+      "segmented_entity",
+      "slot_capacity",
+      "spend_gain",
+      "state_or_condition",
+      "tag",
+      "threshold",
+      "tier_progression",
+      "triggered_rule"
+    ],
+    "srd2_equipment": [
+      "campaign_rule_modifier",
+      "counter_or_track",
+      "die_or_dice_pool",
+      "form_or_state_transition",
+      "graph_or_hex_travel",
+      "linked_entity",
+      "map_or_handout",
+      "phase_or_procedure",
+      "play_aid",
+      "recipe_or_craft",
+      "resource",
+      "rest_rule",
+      "result_table",
+      "segmented_entity",
+      "slot_capacity",
+      "spend_gain",
+      "state_or_condition",
+      "tag",
+      "threshold",
+      "triggered_rule"
+    ],
+    "srd2_supplemental": [
+      "campaign_rule_modifier",
+      "counter_or_track",
+      "die_or_dice_pool",
+      "form_or_state_transition",
+      "graph_or_hex_travel",
+      "linked_entity",
+      "map_or_handout",
+      "phase_or_procedure",
+      "play_aid",
+      "recipe_or_craft",
+      "relation_or_faction",
+      "resource",
+      "rest_rule",
+      "result_table",
+      "segmented_entity",
+      "slot_capacity",
+      "spend_gain",
+      "state_or_condition",
+      "tag",
+      "threshold",
+      "tier_progression",
+      "triggered_rule",
+      "upgrade_slot"
+    ],
+    "srd2_transformations": [
+      "form_or_state_transition"
+    ]
+  },
+  "single_corpus_review_targets": [
+    {
+      "primitive_id": "upgrade_slot",
+      "corpora": [
+        "srd2_supplemental"
+      ],
+      "evidence_count": 2
+    }
+  ],
+  "checks": {
+    "census_loaded": true,
+    "monster_hunter_fixture_loaded": true,
+    "all_fixture_primitives_exist": true,
+    "monster_hunter_requirements_fully_covered": true,
+    "no_runtime_special_case_declared": true
+  },
+  "validation": "GREEN",
+  "decision_rule": {
+    "GREEN": "Proceed to P1.6 multi-corpus integrity audit. Do not add a primitive merely because a mechanic is novel if it composes from existing primitives.",
+    "RED": "Review each missing primitive. Prefer composition or splitting an existing primitive before adding a new primitive."
+  },
+  "next_phase": "P1.6 — Multi-corpus integrity audit"
+}

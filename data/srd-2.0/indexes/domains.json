@@ -1,0 +1,162 @@
+[
+  {
+    "id": "srd-2.0.domain.arcana",
+    "kind": "domain",
+    "name": "Arcana",
+    "slug": "arcana",
+    "source": {
+      "corpus": "daggerheart-srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    }
+  },
+  {
+    "id": "srd-2.0.domain.blade",
+    "kind": "domain",
+    "name": "Blade",
+    "slug": "blade",
+    "source": {
+      "corpus": "daggerheart-srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    }
+  },
+  {
+    "id": "srd-2.0.domain.bone",
+    "kind": "domain",
+    "name": "Bone",
+    "slug": "bone",
+    "source": {
+      "corpus": "daggerheart-srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    }
+  },
+  {
+    "id": "srd-2.0.domain.codex",
+    "kind": "domain",
+    "name": "Codex",
+    "slug": "codex",
+    "source": {
+      "corpus": "daggerheart-srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    }
+  },
+  {
+    "id": "srd-2.0.domain.dread",
+    "kind": "domain",
+    "name": "Dread",
+    "slug": "dread",
+    "source": {
+      "corpus": "daggerheart-srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    }
+  },
+  {
+    "id": "srd-2.0.domain.grace",
+    "kind": "domain",
+    "name": "Grace",
+    "slug": "grace",
+    "source": {
+      "corpus": "daggerheart-srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    }
+  },
+  {
+    "id": "srd-2.0.domain.midnight",
+    "kind": "domain",
+    "name": "Midnight",
+    "slug": "midnight",
+    "source": {
+      "corpus": "daggerheart-srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    }
+  },
+  {
+    "id": "srd-2.0.domain.sage",
+    "kind": "domain",
+    "name": "Sage",
+    "slug": "sage",
+    "source": {
+      "corpus": "daggerheart-srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    }
+  },
+  {
+    "id": "srd-2.0.domain.splendor",
+    "kind": "domain",
+    "name": "Splendor",
+    "slug": "splendor",
+    "source": {
+      "corpus": "daggerheart-srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    }
+  },
+  {
+    "id": "srd-2.0.domain.valor",
+    "kind": "domain",
+    "name": "Valor",
+    "slug": "valor",
+    "source": {
+      "corpus": "daggerheart-srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    }
+  }
+]

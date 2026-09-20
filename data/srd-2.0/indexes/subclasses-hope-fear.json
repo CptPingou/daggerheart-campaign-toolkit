@@ -1,0 +1,162 @@
+[
+  {
+    "id": "srd-2.0.subclass.executioners-guild",
+    "kind": "subclass",
+    "name": "Executioners Guild",
+    "slug": "executioners-guild",
+    "class": "Assassin",
+    "source": {
+      "corpus": "daggerheart-srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    },
+    "validation": "confirmed_srd2_pdf",
+    "spellcast_trait": "agility",
+    "spellcast_trait_status": "explicit"
+  },
+  {
+    "id": "srd-2.0.subclass.poisoners-guild",
+    "kind": "subclass",
+    "name": "Poisoners Guild",
+    "slug": "poisoners-guild",
+    "class": "Assassin",
+    "source": {
+      "corpus": "daggerheart-srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    },
+    "validation": "confirmed_srd2_pdf",
+    "spellcast_trait": "knowledge",
+    "spellcast_trait_status": "explicit"
+  },
+  {
+    "id": "srd-2.0.subclass.juggernaut",
+    "kind": "subclass",
+    "name": "Juggernaut",
+    "slug": "juggernaut",
+    "class": "Brawler",
+    "source": {
+      "corpus": "daggerheart-srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    },
+    "validation": "confirmed_srd2_pdf",
+    "spellcast_trait": null,
+    "spellcast_trait_status": "not_applicable"
+  },
+  {
+    "id": "srd-2.0.subclass.martial-artist",
+    "kind": "subclass",
+    "name": "Martial Artist",
+    "slug": "martial-artist",
+    "class": "Brawler",
+    "source": {
+      "corpus": "daggerheart-srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    },
+    "validation": "confirmed_srd2_pdf",
+    "spellcast_trait": null,
+    "spellcast_trait_status": "not_applicable"
+  },
+  {
+    "id": "srd-2.0.subclass.pact-of-the-endless",
+    "kind": "subclass",
+    "name": "Pact of the Endless",
+    "slug": "pact-of-the-endless",
+    "class": "Warlock",
+    "source": {
+      "corpus": "daggerheart-srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    },
+    "validation": "confirmed_srd2_pdf",
+    "spellcast_trait": "presence",
+    "spellcast_trait_status": "explicit"
+  },
+  {
+    "id": "srd-2.0.subclass.pact-of-the-wrathful",
+    "kind": "subclass",
+    "name": "Pact of the Wrathful",
+    "slug": "pact-of-the-wrathful",
+    "class": "Warlock",
+    "source": {
+      "corpus": "daggerheart-srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    },
+    "validation": "confirmed_srd2_pdf",
+    "spellcast_trait": "presence",
+    "spellcast_trait_status": "explicit"
+  },
+  {
+    "id": "srd-2.0.subclass.hedge",
+    "kind": "subclass",
+    "name": "Hedge",
+    "slug": "hedge",
+    "class": "Witch",
+    "source": {
+      "corpus": "daggerheart-srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    },
+    "validation": "confirmed_srd2_pdf",
+    "spellcast_trait": "knowledge",
+    "spellcast_trait_status": "explicit"
+  },
+  {
+    "id": "srd-2.0.subclass.moon",
+    "kind": "subclass",
+    "name": "Moon",
+    "slug": "moon",
+    "class": "Witch",
+    "source": {
+      "corpus": "daggerheart-srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    },
+    "validation": "confirmed_srd2_pdf",
+    "spellcast_trait": "instinct",
+    "spellcast_trait_status": "explicit"
+  }
+]

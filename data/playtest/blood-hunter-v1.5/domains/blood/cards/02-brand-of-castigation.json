@@ -1,0 +1,33 @@
+{
+  "id": "the-void.v1.5.domain_card.brand-of-castigation",
+  "kind": "domain_card",
+  "identity": {
+    "name": "Brand of Castigation",
+    "slug": "brand-of-castigation"
+  },
+  "source": {
+    "corpus": "the-void",
+    "product": "blood-hunter",
+    "version": "1.5",
+    "status": "playtest"
+  },
+  "provenance": {
+    "source_file": "Bloodhunter-v1.5-The-Void.pdf",
+    "page": 4
+  },
+  "availability": {
+    "in_srd": false,
+    "private_only": true,
+    "deprecated": false
+  },
+  "rules": {
+    "domain": "blood",
+    "level": 2,
+    "card_type": "spell",
+    "recall_cost": 1
+  },
+  "content": {
+    "rules_text": "When you deal damage to a creature, mark a Stress to sear a red, magical mark on them. Until this mark disappears, you always know the direction of the marked creature relative to you, and that creature marks a Stress each time it deals damage to you or an ally of yours within Very Close range of you. The mark disappears when you use this spell again.",
+    "validation": "checked_against_pdf_v1.5"
+  }
+}

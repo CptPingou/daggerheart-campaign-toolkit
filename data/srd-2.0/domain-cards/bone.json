@@ -1,0 +1,611 @@
+[
+  {
+    "id": "srd-2.0.domain-card.bone.deft-maneuvers",
+    "kind": "domain_card",
+    "identity": {
+      "name": "Deft Maneuvers",
+      "slug": "deft-maneuvers"
+    },
+    "source": {
+      "corpus": "daggerheart-srd",
+      "product": "srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    },
+    "rules": {
+      "domain": "bone",
+      "level": 1,
+      "card_type": "ability",
+      "recall_cost": 0
+    },
+    "content": {
+      "rules_text": "Once per rest, mark a Stress to sprint anywhere within Far \nrange without making an Agility Roll to get there. \nIf you end this movement within Melee range of an adversary \nand immediately make an attack against them, gain a +1 bonus \nto the attack roll.",
+      "notes": null
+    }
+  },
+  {
+    "id": "srd-2.0.domain-card.bone.i-see-it-coming",
+    "kind": "domain_card",
+    "identity": {
+      "name": "I See It Coming",
+      "slug": "i-see-it-coming"
+    },
+    "source": {
+      "corpus": "daggerheart-srd",
+      "product": "srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    },
+    "rules": {
+      "domain": "bone",
+      "level": 1,
+      "card_type": "ability",
+      "recall_cost": 1
+    },
+    "content": {
+      "rules_text": "When you’re targeted by an attack made from beyond Melee \nrange, you can mark a Stress to roll a d4 and gain a bonus to \nyour Evasion equal to the result against the attack.",
+      "notes": null
+    }
+  },
+  {
+    "id": "srd-2.0.domain-card.bone.untouchable",
+    "kind": "domain_card",
+    "identity": {
+      "name": "Untouchable",
+      "slug": "untouchable"
+    },
+    "source": {
+      "corpus": "daggerheart-srd",
+      "product": "srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    },
+    "rules": {
+      "domain": "bone",
+      "level": 1,
+      "card_type": "ability",
+      "recall_cost": 1
+    },
+    "content": {
+      "rules_text": "Gain a bonus to your Evasion equal to half your Agility.",
+      "notes": null
+    }
+  },
+  {
+    "id": "srd-2.0.domain-card.bone.ferocity",
+    "kind": "domain_card",
+    "identity": {
+      "name": "Ferocity",
+      "slug": "ferocity"
+    },
+    "source": {
+      "corpus": "daggerheart-srd",
+      "product": "srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    },
+    "rules": {
+      "domain": "bone",
+      "level": 2,
+      "card_type": "ability",
+      "recall_cost": 2
+    },
+    "content": {
+      "rules_text": "When you cause an adversary to mark 1 or more Hit Points, \nyou can spend 2 Hope to increase your Evasion by the number \nof Hit Points they marked. This bonus lasts until after the next \nattack made against you.",
+      "notes": null
+    }
+  },
+  {
+    "id": "srd-2.0.domain-card.bone.strategic-approach",
+    "kind": "domain_card",
+    "identity": {
+      "name": "Strategic Approach",
+      "slug": "strategic-approach"
+    },
+    "source": {
+      "corpus": "daggerheart-srd",
+      "product": "srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    },
+    "rules": {
+      "domain": "bone",
+      "level": 2,
+      "card_type": "ability",
+      "recall_cost": 1
+    },
+    "content": {
+      "rules_text": "After a long rest, place a number of tokens equal to your \nKnowledge on this card (minimum 1). The first time you move \nwithin Close range of an adversary and make an attack against \nthem, you can spend one token to choose one of the following \noptions:\n ◦ You make the attack with advantage.\n ◦ You clear a Stress on an ally within Melee range of the \nadversary.\n ◦ You add a d8 to your damage roll.\nWhen you take a long rest, clear all unspent tokens.",
+      "notes": null
+    }
+  },
+  {
+    "id": "srd-2.0.domain-card.bone.brace",
+    "kind": "domain_card",
+    "identity": {
+      "name": "Brace",
+      "slug": "brace"
+    },
+    "source": {
+      "corpus": "daggerheart-srd",
+      "product": "srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    },
+    "rules": {
+      "domain": "bone",
+      "level": 3,
+      "card_type": "ability",
+      "recall_cost": 1
+    },
+    "content": {
+      "rules_text": "When you mark an Armor Slot to reduce incoming damage, \nyou can mark a Stress to mark an additional Armor Slot.",
+      "notes": null
+    }
+  },
+  {
+    "id": "srd-2.0.domain-card.bone.tactician",
+    "kind": "domain_card",
+    "identity": {
+      "name": "Tactician",
+      "slug": "tactician"
+    },
+    "source": {
+      "corpus": "daggerheart-srd",
+      "product": "srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    },
+    "rules": {
+      "domain": "bone",
+      "level": 3,
+      "card_type": "ability",
+      "recall_cost": 1
+    },
+    "content": {
+      "rules_text": "When you Help an Ally, they can spend a Hope to add one of \nyour Experiences to their roll alongside your advantage die. \nWhen making a T ag T eam Roll, you can roll a d20 as your Hope \nDie.\n209\nDaggerheart SRD",
+      "notes": null
+    }
+  },
+  {
+    "id": "srd-2.0.domain-card.bone.boost",
+    "kind": "domain_card",
+    "identity": {
+      "name": "Boost",
+      "slug": "boost"
+    },
+    "source": {
+      "corpus": "daggerheart-srd",
+      "product": "srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    },
+    "rules": {
+      "domain": "bone",
+      "level": 4,
+      "card_type": "ability",
+      "recall_cost": 1
+    },
+    "content": {
+      "rules_text": "Mark a Stress to boost off a willing ally within Close range, \nfling yourself into the air, and perform an aerial attack against \na target within Far range. You have advantage on the attack, \nadd a d10 to the damage roll, and end your move within Melee \nrange of the target.",
+      "notes": null
+    }
+  },
+  {
+    "id": "srd-2.0.domain-card.bone.redirect",
+    "kind": "domain_card",
+    "identity": {
+      "name": "Redirect",
+      "slug": "redirect"
+    },
+    "source": {
+      "corpus": "daggerheart-srd",
+      "product": "srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    },
+    "rules": {
+      "domain": "bone",
+      "level": 4,
+      "card_type": "ability",
+      "recall_cost": 1
+    },
+    "content": {
+      "rules_text": "When an attack made against you from beyond Melee range \nfails, roll a number of d6s equal to your Proficiency. If any roll \na 6, you can mark a Stress to redirect the attack to damage an \nadversary within Very Close range instead.",
+      "notes": null
+    }
+  },
+  {
+    "id": "srd-2.0.domain-card.bone.know-thy-enemy",
+    "kind": "domain_card",
+    "identity": {
+      "name": "Know Thy Enemy",
+      "slug": "know-thy-enemy"
+    },
+    "source": {
+      "corpus": "daggerheart-srd",
+      "product": "srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    },
+    "rules": {
+      "domain": "bone",
+      "level": 5,
+      "card_type": "ability",
+      "recall_cost": 1
+    },
+    "content": {
+      "rules_text": "When observing a creature, you can make an Instinct Roll \nagainst them. On a success, spend a Hope and ask the GM \nfor one set of information about the target from the following \noptions:\n ◦ Their unmarked Hit Points and Stress.\n ◦ Their Difficulty and damage thresholds.\n ◦ Their tactics and standard attack damage dice.\n ◦ Their features and Experiences.\nAdditionally on a success, you can mark a Stress to remove a \nFear from the GM’s Fear Pool.",
+      "notes": null
+    }
+  },
+  {
+    "id": "srd-2.0.domain-card.bone.signature-move",
+    "kind": "domain_card",
+    "identity": {
+      "name": "Signature Move",
+      "slug": "signature-move"
+    },
+    "source": {
+      "corpus": "daggerheart-srd",
+      "product": "srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    },
+    "rules": {
+      "domain": "bone",
+      "level": 5,
+      "card_type": "ability",
+      "recall_cost": 1
+    },
+    "content": {
+      "rules_text": "Name and describe your signature combat move. Once per \nrest, when you perform this signature move as part of an \naction you’re taking, you can roll a d20 as your Hope Die. On a \nsuccess, clear a Stress.",
+      "notes": null
+    }
+  },
+  {
+    "id": "srd-2.0.domain-card.bone.rapid-riposte",
+    "kind": "domain_card",
+    "identity": {
+      "name": "Rapid Riposte",
+      "slug": "rapid-riposte"
+    },
+    "source": {
+      "corpus": "daggerheart-srd",
+      "product": "srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    },
+    "rules": {
+      "domain": "bone",
+      "level": 6,
+      "card_type": "ability",
+      "recall_cost": 0
+    },
+    "content": {
+      "rules_text": "When an attack made against you from within Melee range \nfails, you can mark a Stress and seize the opportunity to deal \nthe weapon damage of one of your active weapons to the \nattacker.",
+      "notes": null
+    }
+  },
+  {
+    "id": "srd-2.0.domain-card.bone.recovery",
+    "kind": "domain_card",
+    "identity": {
+      "name": "Recovery",
+      "slug": "recovery"
+    },
+    "source": {
+      "corpus": "daggerheart-srd",
+      "product": "srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    },
+    "rules": {
+      "domain": "bone",
+      "level": 6,
+      "card_type": "ability",
+      "recall_cost": 1
+    },
+    "content": {
+      "rules_text": "During a short rest, you can choose a long rest downtime \nmove instead. You can spend a Hope to let an ally do the same.",
+      "notes": null
+    }
+  },
+  {
+    "id": "srd-2.0.domain-card.bone.bone-touched",
+    "kind": "domain_card",
+    "identity": {
+      "name": "Bone-Touched",
+      "slug": "bone-touched"
+    },
+    "source": {
+      "corpus": "daggerheart-srd",
+      "product": "srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    },
+    "rules": {
+      "domain": "bone",
+      "level": 7,
+      "card_type": "ability",
+      "recall_cost": 2
+    },
+    "content": {
+      "rules_text": "When 4 or more of the domain cards in your loadout are from \nthe Bone domain, gain the following benefits:\n ◦ +1 bonus to Agility\n ◦ Once per rest, you can spend 3 Hope to cause an attack \nthat succeeded against you to fail instead.",
+      "notes": null
+    }
+  },
+  {
+    "id": "srd-2.0.domain-card.bone.cruel-precision",
+    "kind": "domain_card",
+    "identity": {
+      "name": "Cruel Precision",
+      "slug": "cruel-precision"
+    },
+    "source": {
+      "corpus": "daggerheart-srd",
+      "product": "srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    },
+    "rules": {
+      "domain": "bone",
+      "level": 7,
+      "card_type": "ability",
+      "recall_cost": 1
+    },
+    "content": {
+      "rules_text": "When you make a successful attack with a weapon, gain a \nbonus to your damage roll equal to either your Finesse or \nAgility.",
+      "notes": null
+    }
+  },
+  {
+    "id": "srd-2.0.domain-card.bone.breaking-blow",
+    "kind": "domain_card",
+    "identity": {
+      "name": "Breaking Blow",
+      "slug": "breaking-blow"
+    },
+    "source": {
+      "corpus": "daggerheart-srd",
+      "product": "srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    },
+    "rules": {
+      "domain": "bone",
+      "level": 8,
+      "card_type": "ability",
+      "recall_cost": 3
+    },
+    "content": {
+      "rules_text": "When you make a successful attack, you can mark a Stress to \nmake the next successful attack against that same target deal \nan extra 2d12 damage.",
+      "notes": null
+    }
+  },
+  {
+    "id": "srd-2.0.domain-card.bone.wrangle",
+    "kind": "domain_card",
+    "identity": {
+      "name": "Wrangle",
+      "slug": "wrangle"
+    },
+    "source": {
+      "corpus": "daggerheart-srd",
+      "product": "srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    },
+    "rules": {
+      "domain": "bone",
+      "level": 8,
+      "card_type": "ability",
+      "recall_cost": 1
+    },
+    "content": {
+      "rules_text": "Make an Agility Roll against all targets within Close range. \nSpend a Hope to move targets you succeed against, and any \nwilling allies within Close range, to another point within Close \nrange.",
+      "notes": null
+    }
+  },
+  {
+    "id": "srd-2.0.domain-card.bone.on-the-brink",
+    "kind": "domain_card",
+    "identity": {
+      "name": "On The Brink",
+      "slug": "on-the-brink"
+    },
+    "source": {
+      "corpus": "daggerheart-srd",
+      "product": "srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    },
+    "rules": {
+      "domain": "bone",
+      "level": 9,
+      "card_type": "ability",
+      "recall_cost": 1
+    },
+    "content": {
+      "rules_text": "When you have 2 or fewer Hit Points unmarked, you don’t take \nMinor damage.",
+      "notes": null
+    }
+  },
+  {
+    "id": "srd-2.0.domain-card.bone.splintering-strike",
+    "kind": "domain_card",
+    "identity": {
+      "name": "Splintering Strike",
+      "slug": "splintering-strike"
+    },
+    "source": {
+      "corpus": "daggerheart-srd",
+      "product": "srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    },
+    "rules": {
+      "domain": "bone",
+      "level": 9,
+      "card_type": "ability",
+      "recall_cost": 3
+    },
+    "content": {
+      "rules_text": "Spend a Hope and make an attack against all adversaries \nwithin your weapon’s range. Once per long rest, on a success \nagainst any targets, roll your weapon's damage and distribute \nthat damage however you wish between the targets you \nsucceeded against. Before you deal damage to each target, roll \nan additional damage die and add its result to the damage you \ndeal to them.",
+      "notes": null
+    }
+  },
+  {
+    "id": "srd-2.0.domain-card.bone.deathrun",
+    "kind": "domain_card",
+    "identity": {
+      "name": "Deathrun",
+      "slug": "deathrun"
+    },
+    "source": {
+      "corpus": "daggerheart-srd",
+      "product": "srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    },
+    "rules": {
+      "domain": "bone",
+      "level": 10,
+      "card_type": "ability",
+      "recall_cost": 1
+    },
+    "content": {
+      "rules_text": "Spend 3 Hope to run a straight path through the battlefield \nto a point within Far range, making an attack against all \nadversaries within your weapon’s range along that path. \nChoose the order in which you deal damage to the targets you \nsucceeded against. For the first, roll your weapon damage with \na +1 bonus to your Proficiency. Then remove a die from your \ndamage roll and deal the remaining damage to the next target. \nContinue to remove a die for each subsequent target until you \nhave no more damage dice or adversaries. \nYou can’t target the same adversary more than once per \nattack.",
+      "notes": null
+    }
+  },
+  {
+    "id": "srd-2.0.domain-card.bone.swift-step",
+    "kind": "domain_card",
+    "identity": {
+      "name": "Swift Step",
+      "slug": "swift-step"
+    },
+    "source": {
+      "corpus": "daggerheart-srd",
+      "product": "srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    },
+    "rules": {
+      "domain": "bone",
+      "level": 10,
+      "card_type": "ability",
+      "recall_cost": 2
+    },
+    "content": {
+      "rules_text": "When an attack made against you fails, clear a Stress. If you \ncan’t clear a Stress, gain a Hope.\n210\nDaggerheart SRD",
+      "notes": null
+    }
+  }
+]

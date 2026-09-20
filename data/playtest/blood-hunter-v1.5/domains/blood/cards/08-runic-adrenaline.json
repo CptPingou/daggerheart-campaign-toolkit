@@ -1,0 +1,33 @@
+{
+  "id": "the-void.v1.5.domain_card.runic-adrenaline",
+  "kind": "domain_card",
+  "identity": {
+    "name": "Runic Adrenaline",
+    "slug": "runic-adrenaline"
+  },
+  "source": {
+    "corpus": "the-void",
+    "product": "blood-hunter",
+    "version": "1.5",
+    "status": "playtest"
+  },
+  "provenance": {
+    "source_file": "Bloodhunter-v1.5-The-Void.pdf",
+    "page": 5
+  },
+  "availability": {
+    "in_srd": false,
+    "private_only": true,
+    "deprecated": false
+  },
+  "rules": {
+    "domain": "blood",
+    "level": 8,
+    "card_type": "ability",
+    "recall_cost": 1
+  },
+  "content": {
+    "rules_text": "When you roll with advantage, use a d8 instead of a d6 as your advantage die if you have 1 or more Hit Points marked. After a Strength, Agility, or Finesse roll, you can mark a Hit Point to roll 1d8 and add it to the result.",
+    "validation": "checked_against_pdf_v1.5"
+  }
+}

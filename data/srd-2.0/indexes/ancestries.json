@@ -1,0 +1,386 @@
+[
+  {
+    "id": "srd-2.0.ancestry.aetheris",
+    "kind": "ancestry",
+    "name": "Aetheris",
+    "slug": "aetheris",
+    "source": {
+      "corpus": "daggerheart-srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    }
+  },
+  {
+    "id": "srd-2.0.ancestry.clank",
+    "kind": "ancestry",
+    "name": "Clank",
+    "slug": "clank",
+    "source": {
+      "corpus": "daggerheart-srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    }
+  },
+  {
+    "id": "srd-2.0.ancestry.drakona",
+    "kind": "ancestry",
+    "name": "Drakona",
+    "slug": "drakona",
+    "source": {
+      "corpus": "daggerheart-srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    }
+  },
+  {
+    "id": "srd-2.0.ancestry.dwarf",
+    "kind": "ancestry",
+    "name": "Dwarf",
+    "slug": "dwarf",
+    "source": {
+      "corpus": "daggerheart-srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    }
+  },
+  {
+    "id": "srd-2.0.ancestry.earthkin",
+    "kind": "ancestry",
+    "name": "Earthkin",
+    "slug": "earthkin",
+    "source": {
+      "corpus": "daggerheart-srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    }
+  },
+  {
+    "id": "srd-2.0.ancestry.elf",
+    "kind": "ancestry",
+    "name": "Elf",
+    "slug": "elf",
+    "source": {
+      "corpus": "daggerheart-srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    }
+  },
+  {
+    "id": "srd-2.0.ancestry.emberkin",
+    "kind": "ancestry",
+    "name": "Emberkin",
+    "slug": "emberkin",
+    "source": {
+      "corpus": "daggerheart-srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    }
+  },
+  {
+    "id": "srd-2.0.ancestry.faerie",
+    "kind": "ancestry",
+    "name": "Faerie",
+    "slug": "faerie",
+    "source": {
+      "corpus": "daggerheart-srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    }
+  },
+  {
+    "id": "srd-2.0.ancestry.faun",
+    "kind": "ancestry",
+    "name": "Faun",
+    "slug": "faun",
+    "source": {
+      "corpus": "daggerheart-srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    }
+  },
+  {
+    "id": "srd-2.0.ancestry.firbolg",
+    "kind": "ancestry",
+    "name": "Firbolg",
+    "slug": "firbolg",
+    "source": {
+      "corpus": "daggerheart-srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    }
+  },
+  {
+    "id": "srd-2.0.ancestry.fungril",
+    "kind": "ancestry",
+    "name": "Fungril",
+    "slug": "fungril",
+    "source": {
+      "corpus": "daggerheart-srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    }
+  },
+  {
+    "id": "srd-2.0.ancestry.galapa",
+    "kind": "ancestry",
+    "name": "Galapa",
+    "slug": "galapa",
+    "source": {
+      "corpus": "daggerheart-srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    }
+  },
+  {
+    "id": "srd-2.0.ancestry.giant",
+    "kind": "ancestry",
+    "name": "Giant",
+    "slug": "giant",
+    "source": {
+      "corpus": "daggerheart-srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    }
+  },
+  {
+    "id": "srd-2.0.ancestry.gnome",
+    "kind": "ancestry",
+    "name": "Gnome",
+    "slug": "gnome",
+    "source": {
+      "corpus": "daggerheart-srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    }
+  },
+  {
+    "id": "srd-2.0.ancestry.goblin",
+    "kind": "ancestry",
+    "name": "Goblin",
+    "slug": "goblin",
+    "source": {
+      "corpus": "daggerheart-srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    }
+  },
+  {
+    "id": "srd-2.0.ancestry.halfling",
+    "kind": "ancestry",
+    "name": "Halfling",
+    "slug": "halfling",
+    "source": {
+      "corpus": "daggerheart-srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    }
+  },
+  {
+    "id": "srd-2.0.ancestry.human",
+    "kind": "ancestry",
+    "name": "Human",
+    "slug": "human",
+    "source": {
+      "corpus": "daggerheart-srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    }
+  },
+  {
+    "id": "srd-2.0.ancestry.infernis",
+    "kind": "ancestry",
+    "name": "Infernis",
+    "slug": "infernis",
+    "source": {
+      "corpus": "daggerheart-srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    }
+  },
+  {
+    "id": "srd-2.0.ancestry.katari",
+    "kind": "ancestry",
+    "name": "Katari",
+    "slug": "katari",
+    "source": {
+      "corpus": "daggerheart-srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    }
+  },
+  {
+    "id": "srd-2.0.ancestry.orc",
+    "kind": "ancestry",
+    "name": "Orc",
+    "slug": "orc",
+    "source": {
+      "corpus": "daggerheart-srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    }
+  },
+  {
+    "id": "srd-2.0.ancestry.ribbet",
+    "kind": "ancestry",
+    "name": "Ribbet",
+    "slug": "ribbet",
+    "source": {
+      "corpus": "daggerheart-srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    }
+  },
+  {
+    "id": "srd-2.0.ancestry.simiah",
+    "kind": "ancestry",
+    "name": "Simiah",
+    "slug": "simiah",
+    "source": {
+      "corpus": "daggerheart-srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    }
+  },
+  {
+    "id": "srd-2.0.ancestry.skykin",
+    "kind": "ancestry",
+    "name": "Skykin",
+    "slug": "skykin",
+    "source": {
+      "corpus": "daggerheart-srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    }
+  },
+  {
+    "id": "srd-2.0.ancestry.tidekin",
+    "kind": "ancestry",
+    "name": "Tidekin",
+    "slug": "tidekin",
+    "source": {
+      "corpus": "daggerheart-srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    }
+  }
+]

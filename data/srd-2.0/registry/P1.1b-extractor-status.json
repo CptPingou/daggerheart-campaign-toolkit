@@ -1,0 +1,9 @@
+{
+  "phase": "P1.1b",
+  "status": "TOOLING_READY",
+  "official_srd_appendix_pages": "206-224",
+  "expected_domain_cards": 210,
+  "expected_per_domain": 21,
+  "tool": "tools/extract_srd2_domain_cards.py",
+  "next_gate": "manifest.validation == GREEN"
+}

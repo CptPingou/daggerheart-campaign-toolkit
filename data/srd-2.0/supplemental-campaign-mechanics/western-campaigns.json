@@ -1,0 +1,53 @@
+{
+  "id": "srd-2.0.supplemental-campaign-mechanic.western-campaigns",
+  "kind": "supplemental_campaign_mechanic",
+  "identity": {
+    "name": "Western Campaigns",
+    "slug": "western-campaigns"
+  },
+  "source": {
+    "corpus": "daggerheart-srd",
+    "version": "2.0",
+    "status": "srd"
+  },
+  "provenance": {
+    "start_printed_page": 197,
+    "end_printed_page": 197
+  },
+  "rules_text": "You can use the following mechanics in a western-themed campaign.\nWEAPONS & LOOT\nPrimary Weapons\nName Trait Range Damage Burden Feature\nRevolver Finesse Far Tier 1: d8+1 phy \nTier 2: d8+4 phy \nTier 3: d8+7 phy \nTier 4: d8+10 phy\nOne-Handed Six Shot: Place 6 Ammo tokens on your character \nsheet. Spend 1 Ammo token to make an attack. You \ncan mark a Stress to regain spent Ammo tokens.\nRifle Agility Very Far Tier 1: d8+2 phy \nTier 2: d8+5 phy \nTier 3: d8+8 phy \nTier 4: d8+11 phy\nTwo-Handed Sightline: Spend 2 Hope to gain advantage on an \nattack roll.\nShotgun Strength Very Close Tier 1: d6+2 phy \nTier 2: d6+5 phy \nTier 3: d6+8 phy \nTier 4: d6+11 phy\nTwo-Handed Scattershot: When you make an attack, target all \ncreatures in front of you within range.\nSecondary Weapons\nName Trait Range Damage Burden Feature\nLasso Agility Very Close Tier 1: d4 phy \nTier 2: d4+3 phy \nTier 3: d4+6 phy \nTier 4: d4+9 phy\nOne-Handed Roped: On a successful attack, you can temporarily \nRope the target instead of dealing damage. While \nRoped, the target is Restrained and Vulnerable, but \nyou must remain within Very Close range of the \ntarget. When the target would clear this condition, \nyou can make a Strength Reaction Roll. On a \nsuccess, they remain Roped.\nSmall Revolver Finesse Far Tier 1: d6 phy \nTier 2: d6+3 phy \nTier 3: d6+6 phy \nTier 4: d6+9 phy\nOne-Handed Quick Shot: Spend 2 Hope to gain a +4 bonus to \nprimary weapon damage.\nYou can also make the following consumable available in a western-themed campaign: \nDynamite: (Consumable) You can light this dynamite and toss it within Close range. All creatures within Very Close range \nof where the dynamite lands must make a Reaction Roll (14). T argets who fail take 1d20+5 physical damage. T argets who \nsucceed must mark a Stress. Dynamite deals double damage to inanimate objects or structures.\n197\nDaggerheart SRD",
+  "raw_heading": "WESTERN CAMPAIGNS",
+  "mechanics": {
+    "mechanic_type": "western_campaign",
+    "subsections": [
+      {
+        "name": "Introduction",
+        "rules_text": "You can use the following mechanics in a western-themed campaign.",
+        "id": "introduction"
+      },
+      {
+        "name": "Weapons & Loot",
+        "raw_heading": "WEAPONS & LOOT",
+        "rules_text": "Primary Weapons\nName Trait Range Damage Burden Feature\nRevolver Finesse Far Tier 1: d8+1 phy\nTier 2: d8+4 phy\nTier 3: d8+7 phy\nTier 4: d8+10 phy\nOne-Handed Six Shot: Place 6 Ammo tokens on your character\nsheet. Spend 1 Ammo token to make an attack. You\ncan mark a Stress to regain spent Ammo tokens.\nRifle Agility Very Far Tier 1: d8+2 phy\nTier 2: d8+5 phy\nTier 3: d8+8 phy\nTier 4: d8+11 phy\nTwo-Handed Sightline: Spend 2 Hope to gain advantage on an\nattack roll.\nShotgun Strength Very Close Tier 1: d6+2 phy\nTier 2: d6+5 phy\nTier 3: d6+8 phy\nTier 4: d6+11 phy\nTwo-Handed Scattershot: When you make an attack, target all\ncreatures in front of you within range.\nSecondary Weapons\nName Trait Range Damage Burden Feature\nLasso Agility Very Close Tier 1: d4 phy\nTier 2: d4+3 phy\nTier 3: d4+6 phy\nTier 4: d4+9 phy\nOne-Handed Roped: On a successful attack, you can temporarily\nRope the target instead of dealing damage. While\nRoped, the target is Restrained and Vulnerable, but\nyou must remain within Very Close range of the\ntarget. When the target would clear this condition,\nyou can make a Strength Reaction Roll. On a\nsuccess, they remain Roped.\nSmall Revolver Finesse Far Tier 1: d6 phy\nTier 2: d6+3 phy\nTier 3: d6+6 phy\nTier 4: d6+9 phy\nOne-Handed Quick Shot: Spend 2 Hope to gain a +4 bonus to\nprimary weapon damage.\nYou can also make the following consumable available in a western-themed campaign:\nDynamite: (Consumable) You can light this dynamite and toss it within Close range. All creatures within Very Close range\nof where the dynamite lands must make a Reaction Roll (14). T argets who fail take 1d20+5 physical damage. T argets who\nsucceed must mark a Stress. Dynamite deals double damage to inanimate objects or structures.\n197\nDaggerheart SRD",
+        "id": "weapons-loot"
+      }
+    ],
+    "weapon_names": [
+      "Revolver",
+      "Rifle",
+      "Shotgun",
+      "Lasso",
+      "Small Revolver"
+    ],
+    "tiered_weapon_variants": true,
+    "dynamite_consumable_present": true,
+    "related_collections": {
+      "weapons": "data/srd-2.0/equipment/supplemental-weapons.json"
+    },
+    "normalization_level": "mechanical"
+  },
+  "normalization": {
+    "phase": "P1.1f-b2-fix1",
+    "status": "normalized",
+    "source_field": "rules_text"
+  }
+}

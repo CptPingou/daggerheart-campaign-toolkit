@@ -1,0 +1,611 @@
+[
+  {
+    "id": "srd-2.0.domain-card.valor.bare-bones",
+    "kind": "domain_card",
+    "identity": {
+      "name": "Bare Bones",
+      "slug": "bare-bones"
+    },
+    "source": {
+      "corpus": "daggerheart-srd",
+      "product": "srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    },
+    "rules": {
+      "domain": "valor",
+      "level": 1,
+      "card_type": "ability",
+      "recall_cost": 0
+    },
+    "content": {
+      "rules_text": "When you choose not to equip armor, you have a base Armor \nScore of 3 + your Strength and use the following as your base \ndamage thresholds:\n ◦ Tier 1: 9/19 \n ◦ Tier 2: 11/24 \n ◦ Tier 3: 13/31\n ◦ Tier 4: 15/38",
+      "notes": null
+    }
+  },
+  {
+    "id": "srd-2.0.domain-card.valor.forceful-push",
+    "kind": "domain_card",
+    "identity": {
+      "name": "Forceful Push",
+      "slug": "forceful-push"
+    },
+    "source": {
+      "corpus": "daggerheart-srd",
+      "product": "srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    },
+    "rules": {
+      "domain": "valor",
+      "level": 1,
+      "card_type": "ability",
+      "recall_cost": 0
+    },
+    "content": {
+      "rules_text": "Make an attack with your primary weapon against a target \nwithin Melee range. On a success, you deal damage and knock \nthem back to Close range. On a success with Hope, add a d6 \nto your damage roll.\nAdditionally, you can spend a Hope to make them temporarily \nVulnerable.\n222\nDaggerheart SRD",
+      "notes": null
+    }
+  },
+  {
+    "id": "srd-2.0.domain-card.valor.i-am-your-shield",
+    "kind": "domain_card",
+    "identity": {
+      "name": "I Am Your Shield",
+      "slug": "i-am-your-shield"
+    },
+    "source": {
+      "corpus": "daggerheart-srd",
+      "product": "srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    },
+    "rules": {
+      "domain": "valor",
+      "level": 1,
+      "card_type": "ability",
+      "recall_cost": 1
+    },
+    "content": {
+      "rules_text": "When an ally within Very Close range would take damage, you \ncan mark a Stress to stand in the way and make yourself the \ntarget of the attack instead. When you take damage from this \nattack, you can mark any number of Armor Slots.",
+      "notes": null
+    }
+  },
+  {
+    "id": "srd-2.0.domain-card.valor.body-basher",
+    "kind": "domain_card",
+    "identity": {
+      "name": "Body Basher",
+      "slug": "body-basher"
+    },
+    "source": {
+      "corpus": "daggerheart-srd",
+      "product": "srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    },
+    "rules": {
+      "domain": "valor",
+      "level": 2,
+      "card_type": "ability",
+      "recall_cost": 1
+    },
+    "content": {
+      "rules_text": "You use the full force of your body in a fight. On a successful \nattack using a weapon with a Melee range, gain a bonus to \nyour damage roll equal to your Strength.",
+      "notes": null
+    }
+  },
+  {
+    "id": "srd-2.0.domain-card.valor.bold-presence",
+    "kind": "domain_card",
+    "identity": {
+      "name": "Bold Presence",
+      "slug": "bold-presence"
+    },
+    "source": {
+      "corpus": "daggerheart-srd",
+      "product": "srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    },
+    "rules": {
+      "domain": "valor",
+      "level": 2,
+      "card_type": "ability",
+      "recall_cost": 0
+    },
+    "content": {
+      "rules_text": "When you make a Presence Roll, you can spend a Hope to add \nyour Strength to the roll.\nAdditionally, once per rest when you would gain a condition, \nyou can describe how your bold presence aids you in the \nsituation and avoid gaining the condition.",
+      "notes": null
+    }
+  },
+  {
+    "id": "srd-2.0.domain-card.valor.critical-inspiration",
+    "kind": "domain_card",
+    "identity": {
+      "name": "Critical Inspiration",
+      "slug": "critical-inspiration"
+    },
+    "source": {
+      "corpus": "daggerheart-srd",
+      "product": "srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    },
+    "rules": {
+      "domain": "valor",
+      "level": 3,
+      "card_type": "ability",
+      "recall_cost": 1
+    },
+    "content": {
+      "rules_text": "Once per rest, when you critically succeed on an attack, all \nallies within Very Close range can clear a Stress or gain a Hope.",
+      "notes": null
+    }
+  },
+  {
+    "id": "srd-2.0.domain-card.valor.lean-on-me",
+    "kind": "domain_card",
+    "identity": {
+      "name": "Lean On Me",
+      "slug": "lean-on-me"
+    },
+    "source": {
+      "corpus": "daggerheart-srd",
+      "product": "srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    },
+    "rules": {
+      "domain": "valor",
+      "level": 3,
+      "card_type": "ability",
+      "recall_cost": 1
+    },
+    "content": {
+      "rules_text": "Once per long rest, when you console or inspire an ally who \nfailed an action roll, you can both clear 2 Stress.",
+      "notes": null
+    }
+  },
+  {
+    "id": "srd-2.0.domain-card.valor.goad-them-on",
+    "kind": "domain_card",
+    "identity": {
+      "name": "Goad Them On",
+      "slug": "goad-them-on"
+    },
+    "source": {
+      "corpus": "daggerheart-srd",
+      "product": "srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    },
+    "rules": {
+      "domain": "valor",
+      "level": 4,
+      "card_type": "ability",
+      "recall_cost": 1
+    },
+    "content": {
+      "rules_text": "Describe how you taunt a target within Close range, then make \na Presence Roll against them. On a success, the target must \nmark a Stress, and the next time the GM spotlights them, \nthey must target you with an attack, which they make with \ndisadvantage.",
+      "notes": null
+    }
+  },
+  {
+    "id": "srd-2.0.domain-card.valor.support-tank",
+    "kind": "domain_card",
+    "identity": {
+      "name": "Support Tank",
+      "slug": "support-tank"
+    },
+    "source": {
+      "corpus": "daggerheart-srd",
+      "product": "srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    },
+    "rules": {
+      "domain": "valor",
+      "level": 4,
+      "card_type": "ability",
+      "recall_cost": 2
+    },
+    "content": {
+      "rules_text": "When an ally within Close range fails a roll, you can spend 2 \nHope to allow them to reroll either their Hope or  \nFear Die.",
+      "notes": null
+    }
+  },
+  {
+    "id": "srd-2.0.domain-card.valor.armorer",
+    "kind": "domain_card",
+    "identity": {
+      "name": "Armorer",
+      "slug": "armorer"
+    },
+    "source": {
+      "corpus": "daggerheart-srd",
+      "product": "srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    },
+    "rules": {
+      "domain": "valor",
+      "level": 5,
+      "card_type": "ability",
+      "recall_cost": 1
+    },
+    "content": {
+      "rules_text": "While you’re wearing armor, gain a +1 bonus to your Armor \nScore.\nDuring a rest, when you choose to repair your armor as a \ndowntime move, your allies also clear an Armor Slot.",
+      "notes": null
+    }
+  },
+  {
+    "id": "srd-2.0.domain-card.valor.rousing-strike",
+    "kind": "domain_card",
+    "identity": {
+      "name": "Rousing Strike",
+      "slug": "rousing-strike"
+    },
+    "source": {
+      "corpus": "daggerheart-srd",
+      "product": "srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    },
+    "rules": {
+      "domain": "valor",
+      "level": 5,
+      "card_type": "ability",
+      "recall_cost": 1
+    },
+    "content": {
+      "rules_text": "Once per rest, when you critically succeed on an attack, you \nand all allies who can see or hear you can clear a Hit Point or \n1d4 Stress.",
+      "notes": null
+    }
+  },
+  {
+    "id": "srd-2.0.domain-card.valor.inevitable",
+    "kind": "domain_card",
+    "identity": {
+      "name": "Inevitable",
+      "slug": "inevitable"
+    },
+    "source": {
+      "corpus": "daggerheart-srd",
+      "product": "srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    },
+    "rules": {
+      "domain": "valor",
+      "level": 6,
+      "card_type": "ability",
+      "recall_cost": 1
+    },
+    "content": {
+      "rules_text": "When you fail an action roll, your next action roll has \nadvantage.",
+      "notes": null
+    }
+  },
+  {
+    "id": "srd-2.0.domain-card.valor.rise-up",
+    "kind": "domain_card",
+    "identity": {
+      "name": "Rise Up",
+      "slug": "rise-up"
+    },
+    "source": {
+      "corpus": "daggerheart-srd",
+      "product": "srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    },
+    "rules": {
+      "domain": "valor",
+      "level": 6,
+      "card_type": "ability",
+      "recall_cost": 2
+    },
+    "content": {
+      "rules_text": "Gain a bonus to your Severe threshold equal to your \nProficiency.\nWhen you mark 1 or more Hit Points from an attack, clear a \nStress.",
+      "notes": null
+    }
+  },
+  {
+    "id": "srd-2.0.domain-card.valor.shrug-it-off",
+    "kind": "domain_card",
+    "identity": {
+      "name": "Shrug It Off",
+      "slug": "shrug-it-off"
+    },
+    "source": {
+      "corpus": "daggerheart-srd",
+      "product": "srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    },
+    "rules": {
+      "domain": "valor",
+      "level": 7,
+      "card_type": "ability",
+      "recall_cost": 1
+    },
+    "content": {
+      "rules_text": "When you would take damage, you can mark a Stress to \nreduce the severity of the damage by one threshold. When you \ndo, roll a d6. On a result of 3 or lower, place this card in your \nvault.",
+      "notes": null
+    }
+  },
+  {
+    "id": "srd-2.0.domain-card.valor.valor-touched",
+    "kind": "domain_card",
+    "identity": {
+      "name": "Valor-Touched",
+      "slug": "valor-touched"
+    },
+    "source": {
+      "corpus": "daggerheart-srd",
+      "product": "srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    },
+    "rules": {
+      "domain": "valor",
+      "level": 7,
+      "card_type": "ability",
+      "recall_cost": 1
+    },
+    "content": {
+      "rules_text": "When 4 or more of the domain cards in your loadout are from \nthe Valor domain, gain the following benefits:\n ◦ +1 bonus to your Armor Score\n ◦ When you mark 1 or more Hit Points without marking an \nArmor Slot, clear an Armor Slot.",
+      "notes": null
+    }
+  },
+  {
+    "id": "srd-2.0.domain-card.valor.full-surge",
+    "kind": "domain_card",
+    "identity": {
+      "name": "Full Surge",
+      "slug": "full-surge"
+    },
+    "source": {
+      "corpus": "daggerheart-srd",
+      "product": "srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    },
+    "rules": {
+      "domain": "valor",
+      "level": 8,
+      "card_type": "ability",
+      "recall_cost": 1
+    },
+    "content": {
+      "rules_text": "Once per long rest, mark 3 Stress to push your body to its \nlimits. Gain a +2 bonus to all of your character traits until your \nnext rest.",
+      "notes": null
+    }
+  },
+  {
+    "id": "srd-2.0.domain-card.valor.ground-pound",
+    "kind": "domain_card",
+    "identity": {
+      "name": "Ground Pound",
+      "slug": "ground-pound"
+    },
+    "source": {
+      "corpus": "daggerheart-srd",
+      "product": "srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    },
+    "rules": {
+      "domain": "valor",
+      "level": 8,
+      "card_type": "ability",
+      "recall_cost": 2
+    },
+    "content": {
+      "rules_text": "Spend 2 Hope to strike the ground where you stand and make \na Strength Roll against all targets within Very Close range. \nT argets you succeed against are thrown back to Far range and \nmust make a Reaction Roll (17). T argets who fail take 4d10+8 \ndamage. T argets who succeed take half damage.",
+      "notes": null
+    }
+  },
+  {
+    "id": "srd-2.0.domain-card.valor.hold-the-line",
+    "kind": "domain_card",
+    "identity": {
+      "name": "Hold The Line",
+      "slug": "hold-the-line"
+    },
+    "source": {
+      "corpus": "daggerheart-srd",
+      "product": "srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    },
+    "rules": {
+      "domain": "valor",
+      "level": 9,
+      "card_type": "ability",
+      "recall_cost": 1
+    },
+    "content": {
+      "rules_text": "Describe the defensive stance you take and spend a Hope. If \nan adversary moves within Very Close range, they’re pulled \ninto Melee range and Restrained.\nThis condition lasts until you move or fail a roll with Fear, or \nthe GM spends 2 Fear on their turn to clear it.\n223\nDaggerheart SRD",
+      "notes": null
+    }
+  },
+  {
+    "id": "srd-2.0.domain-card.valor.lead-by-example",
+    "kind": "domain_card",
+    "identity": {
+      "name": "Lead By Example",
+      "slug": "lead-by-example"
+    },
+    "source": {
+      "corpus": "daggerheart-srd",
+      "product": "srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    },
+    "rules": {
+      "domain": "valor",
+      "level": 9,
+      "card_type": "ability",
+      "recall_cost": 3
+    },
+    "content": {
+      "rules_text": "When you deal damage to an adversary, you can mark a Stress \nand describe how you encourage your allies. The next PC to \nmake an attack against that adversary can clear a Stress or \ngain a Hope.",
+      "notes": null
+    }
+  },
+  {
+    "id": "srd-2.0.domain-card.valor.unbreakable",
+    "kind": "domain_card",
+    "identity": {
+      "name": "Unbreakable",
+      "slug": "unbreakable"
+    },
+    "source": {
+      "corpus": "daggerheart-srd",
+      "product": "srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    },
+    "rules": {
+      "domain": "valor",
+      "level": 10,
+      "card_type": "ability",
+      "recall_cost": 4
+    },
+    "content": {
+      "rules_text": "When you mark your last Hit Point, instead of making a death \nmove, you can roll a d6 and clear a number of Hit Points equal \nto the result. Then place this card in your vault.",
+      "notes": null
+    }
+  },
+  {
+    "id": "srd-2.0.domain-card.valor.unyielding-armor",
+    "kind": "domain_card",
+    "identity": {
+      "name": "Unyielding Armor",
+      "slug": "unyielding-armor"
+    },
+    "source": {
+      "corpus": "daggerheart-srd",
+      "product": "srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    },
+    "rules": {
+      "domain": "valor",
+      "level": 10,
+      "card_type": "ability",
+      "recall_cost": 1
+    },
+    "content": {
+      "rules_text": "When you would mark an Armor Slot, roll a number of d6s \nequal to your Proficiency. If any roll a 6, reduce the severity by \none threshold without marking an Armor Slot.\n224\nDaggerheart SRD",
+      "notes": null
+    }
+  }
+]

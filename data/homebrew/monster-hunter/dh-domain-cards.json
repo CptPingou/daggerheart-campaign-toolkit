@@ -320,7 +320,7 @@
     "img": "icons/svg/book.svg",
     "type": "domainCard",
     "system": {
-      "description": "<p><strong>Finisher.</strong> Dépensez 1 Espoir pour engager toute l’Opportunité disponible (maximum 4 au Tier 1). Sur une réussite, chaque OP convertie en dégâts ajoute 1 dé de dégâts de l’arme, ou vous pouvez à la place déclencher un Effet disponible. Sur un critique du Finisher, vous pouvez appliquer les dégâts et l’Effet. Sur un échec, l’Opportunité engagée est perdue. Dans tous les cas, l’Opportunité revient à 0.</p>",
+      "description": "<p><strong>Finisher.</strong> Lorsque vous convertissez une Opportunité, chaque OP dépensée en dégâts ajoute 1 dé de dégâts de l’arme. Vous pouvez à la place déclencher un Effet disponible. Sur un critique du Finisher, vous pouvez appliquer les dégâts et l’Effet.</p>",
       "domain": "valor",
       "recallCost": 1,
       "level": 1,
@@ -332,7 +332,7 @@
           "type": "attack",
           "baseAction": false,
           "name": "Conversion",
-          "description": "<p>Dépensez 1 Espoir et effectuez l’attaque du Finisher. Toute l’Opportunité disponible (maximum 4 au Tier 1) est engagée par cette tentative et retombe à 0 après sa résolution.</p>",
+          "description": "<p>Effectuez une attaque de Finisher contre le monstre engagé. Le coût de 1 Espoir et la conversion de l’Opportunité sont résolus par le sous-système Chasse.</p>",
           "chatDisplay": true,
           "actionType": "action",
           "originItem": {
@@ -440,12 +440,42 @@
     "img": "icons/svg/book.svg",
     "type": "domainCard",
     "system": {
-      "description": "<p><strong>Support.</strong> Une fois par combat pour cet engagement, dépensez 1 Espoir pour imposer -1d4 au jet d’attaque du monstre contre un personnage engagé.</p>",
+      "description": "<p><strong>Support.</strong> Une fois par combat pour cet engagement, dépensez 1 Espoir pour imposer <strong>−1d4</strong> au jet d’attaque du monstre contre un personnage engagé.</p>",
       "domain": "valor",
       "recallCost": 1,
       "level": 1,
       "type": "ability",
-      "actions": {},
+      "actions": {
+        "MHSUPACTION00001": {
+          "_id": "MHSUPACTION00001",
+          "systemPath": "actions",
+          "type": "effect",
+          "baseAction": false,
+          "name": "Appui défensif",
+          "description": "<p>Dépensez 1 Espoir. Lors de la prochaine attaque appropriée du monstre contre un personnage engagé, appliquez <strong>−1d4</strong> au jet d’attaque du monstre. L’application du modificateur reste manuelle.</p>",
+          "chatDisplay": true,
+          "actionType": "action",
+          "originItem": {
+            "type": "itemCollection"
+          },
+          "triggers": [],
+          "areas": [],
+          "cost": [],
+          "uses": {
+            "value": null,
+            "max": "",
+            "recovery": null,
+            "consumeOnSuccess": false
+          },
+          "target": {
+            "type": "self",
+            "amount": 1
+          },
+          "effects": [],
+          "range": "",
+          "img": "icons/svg/shield.svg"
+        }
+      },
       "attribution": {
         "source": "Daggerheart SRD",
         "page": null,
@@ -483,17 +513,1122 @@
             "engagement",
             "support",
             "defense"
-          ]
+          ],
+          "effects": {
+            "support": {
+              "id": "defensive-attack-penalty",
+              "timing": "monster-attack-against-engaged",
+              "modifier": "-1d4",
+              "appliesTo": "monster-attack-roll",
+              "automation": "manual",
+              "chat": "<p>Lors de la prochaine attaque appropriée du monstre contre un personnage engagé, appliquez <strong>−1d4</strong> au jet d’attaque du monstre.</p><p><em>Le MJ applique ce modificateur manuellement.</em></p>"
+            }
+          }
         },
         "toolkitCard": {
           "family": "hunt",
           "familyLabel": "Chasse",
           "eligibility": "toolkit",
           "loadoutGroup": "hunt"
+        },
+        "engagementActions": {
+          "MHSUPACTION00001": {
+            "role": "support"
+          }
         }
       }
     },
     "effects": [],
     "_id": "MHSUPPORTGUARD01"
+  },
+  {
+    "name": "Feinte d’approche",
+    "img": "icons/svg/daze.svg",
+    "type": "domainCard",
+    "system": {
+      "description": "<p><strong>Opener.</strong> Résolvez l’Ouverture normalement. Si elle provoque une réaction du monstre, appliquez <strong>−1d4</strong> à son jet d’attaque.</p>",
+      "domain": "valor",
+      "recallCost": 1,
+      "level": 1,
+      "type": "ability",
+      "actions": {
+        "MHFEINTEACTION01": {
+          "_id": "MHFEINTEACTION01",
+          "systemPath": "actions",
+          "type": "attack",
+          "baseAction": false,
+          "name": "Feinte d’approche",
+          "description": "<p>Effectuez une attaque d’Ouverture. Le Core Chasse paie 2 Espoir et résout l’Opportunité.</p>",
+          "chatDisplay": true,
+          "actionType": "action",
+          "originItem": {
+            "type": "itemCollection"
+          },
+          "triggers": [],
+          "areas": [],
+          "cost": [],
+          "uses": {
+            "value": null,
+            "max": "",
+            "recovery": null,
+            "consumeOnSuccess": false
+          },
+          "target": {
+            "type": "any",
+            "amount": 1
+          },
+          "effects": [],
+          "damage": {
+            "resources": {},
+            "main": null
+          },
+          "roll": {
+            "type": "attack",
+            "trait": null,
+            "difficulty": null,
+            "bonus": null,
+            "advState": "neutral",
+            "diceRolling": {
+              "multiplier": "prof",
+              "flatMultiplier": 1,
+              "dice": "d6",
+              "compare": null,
+              "treshold": null
+            },
+            "useDefault": false
+          },
+          "save": {
+            "trait": null,
+            "difficulty": null,
+            "damageMod": "none"
+          },
+          "range": "",
+          "img": "icons/svg/target.svg"
+        }
+      },
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null,
+        "artist": ""
+      },
+      "gmNotes": "",
+      "resource": null,
+      "inVault": false,
+      "vaultActive": false,
+      "loadoutIgnore": false,
+      "domainTouched": null
+    },
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "contentOrigin": "homebrew",
+        "sourceNamespace": "monster-hunter",
+        "canonicalSourceId": "monster-hunter.hunt-card.MHFEINTEAPPROCH1",
+        "huntCardMechanic": {
+          "id": "feinte-approche",
+          "role": "opener",
+          "hopeCost": 2,
+          "opportunity": {
+            "generate": 2,
+            "spend": [],
+            "effectCosts": {
+              "standard": 2,
+              "rare": 3
+            }
+          },
+          "conditions": [],
+          "tags": [
+            "engagement",
+            "reaction",
+            "defense"
+          ],
+          "effects": {
+            "reaction": {
+              "id": "reaction-attack-penalty",
+              "timing": "monster-reaction",
+              "modifier": "-1d4",
+              "appliesTo": "monster-reaction-attack-roll",
+              "automation": "manual",
+              "chat": "<p><strong>Feinte :</strong> appliquez <strong>−1d4</strong> au jet d’attaque de la réaction du monstre.</p><p><em>Application manuelle.</em></p>"
+            }
+          }
+        },
+        "toolkitCard": {
+          "family": "hunt",
+          "familyLabel": "Chasse",
+          "eligibility": "toolkit",
+          "loadoutGroup": "hunt"
+        },
+        "engagementActions": {
+          "MHFEINTEACTION01": {
+            "role": "opener"
+          }
+        }
+      }
+    },
+    "effects": [],
+    "_id": "MHFEINTEAPPROCH1"
+  },
+  {
+    "name": "Frappe de rupture",
+    "img": "icons/svg/explosion.svg",
+    "type": "domainCard",
+    "system": {
+      "description": "<p><strong>Finisher.</strong> <strong>Effet — Rupture (2 OP) :</strong> au lieu des dés bonus, rendez le monstre <strong>Vulnérable</strong> jusqu’à ce qu’il subisse la prochaine attaque. Sur un critique : Effet + dégâts convertis.</p>",
+      "domain": "valor",
+      "recallCost": 1,
+      "level": 1,
+      "type": "ability",
+      "actions": {
+        "MHRUPTURACTION01": {
+          "_id": "MHRUPTURACTION01",
+          "systemPath": "actions",
+          "type": "attack",
+          "baseAction": false,
+          "name": "Frappe de rupture",
+          "description": "<p>Effectuez une attaque de Finisher. Le Core Chasse paie 1 Espoir, engage jusqu’à 4 OP puis remet l’Opportunité à 0.</p>",
+          "chatDisplay": true,
+          "actionType": "action",
+          "originItem": {
+            "type": "itemCollection"
+          },
+          "triggers": [],
+          "areas": [],
+          "cost": [],
+          "uses": {
+            "value": null,
+            "max": "",
+            "recovery": null,
+            "consumeOnSuccess": false
+          },
+          "target": {
+            "type": "any",
+            "amount": 1
+          },
+          "effects": [],
+          "damage": {
+            "resources": {},
+            "main": null
+          },
+          "roll": {
+            "type": "attack",
+            "trait": null,
+            "difficulty": null,
+            "bonus": null,
+            "advState": "neutral",
+            "diceRolling": {
+              "multiplier": "prof",
+              "flatMultiplier": 1,
+              "dice": "d6",
+              "compare": null,
+              "treshold": null
+            },
+            "useDefault": false
+          },
+          "save": {
+            "trait": null,
+            "difficulty": null,
+            "damageMod": "none"
+          },
+          "range": "",
+          "img": "icons/svg/explosion.svg"
+        }
+      },
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null,
+        "artist": ""
+      },
+      "gmNotes": "",
+      "resource": null,
+      "inVault": false,
+      "vaultActive": false,
+      "loadoutIgnore": false,
+      "domainTouched": null
+    },
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "contentOrigin": "homebrew",
+        "sourceNamespace": "monster-hunter",
+        "canonicalSourceId": "monster-hunter.hunt-card.MHRUPTUREFINISH1",
+        "huntCardMechanic": {
+          "id": "frappe-rupture",
+          "role": "finisher",
+          "hopeCost": 1,
+          "opportunity": {
+            "generate": 0,
+            "spend": [
+              "damage",
+              "effect"
+            ],
+            "effectCosts": {
+              "standard": 2,
+              "rare": 3
+            }
+          },
+          "conditions": [],
+          "tags": [
+            "engagement",
+            "opportunity",
+            "control"
+          ],
+          "effects": {
+            "finisher": {
+              "id": "rupture-vulnerable",
+              "timing": "finisher-conversion",
+              "cost": 2,
+              "rarity": "standard",
+              "automation": "manual",
+              "chat": "<p><strong>Effet — Rupture (2 OP) :</strong> au lieu des dés bonus, rendez le monstre <strong>Vulnérable</strong> jusqu’à ce qu’il subisse la prochaine attaque. Sur un critique, appliquez Rupture <strong>et</strong> les dés convertis.</p>"
+            }
+          }
+        },
+        "toolkitCard": {
+          "family": "hunt",
+          "familyLabel": "Chasse",
+          "eligibility": "toolkit",
+          "loadoutGroup": "hunt"
+        },
+        "engagementActions": {
+          "MHRUPTURACTION01": {
+            "role": "finisher"
+          }
+        }
+      }
+    },
+    "effects": [],
+    "_id": "MHRUPTUREFINISH1"
+  },
+  {
+    "name": "Guidage du Finisher",
+    "img": "icons/svg/upgrade.svg",
+    "type": "domainCard",
+    "system": {
+      "description": "<p><strong>Support.</strong> Dépensez 1 Espoir : le prochain jet d’attaque du Finisher de cet Engagement gagne <strong>+1d6</strong>.</p>",
+      "domain": "valor",
+      "recallCost": 1,
+      "level": 1,
+      "type": "ability",
+      "actions": {
+        "MHGUIDEACTION001": {
+          "_id": "MHGUIDEACTION001",
+          "systemPath": "actions",
+          "type": "effect",
+          "baseAction": false,
+          "name": "Guidage du Finisher",
+          "description": "<p>Dépensez 1 Espoir. Le prochain jet d’attaque du Finisher de cet Engagement gagne +1d6. Application manuelle.</p>",
+          "chatDisplay": true,
+          "actionType": "action",
+          "originItem": {
+            "type": "itemCollection"
+          },
+          "triggers": [],
+          "areas": [],
+          "cost": [],
+          "uses": {
+            "value": null,
+            "max": "",
+            "recovery": null,
+            "consumeOnSuccess": false
+          },
+          "target": {
+            "type": "self",
+            "amount": 1
+          },
+          "effects": [],
+          "range": "",
+          "img": "icons/svg/upgrade.svg"
+        }
+      },
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null,
+        "artist": ""
+      },
+      "gmNotes": "",
+      "resource": null,
+      "inVault": false,
+      "vaultActive": false,
+      "loadoutIgnore": false,
+      "domainTouched": null
+    },
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "contentOrigin": "homebrew",
+        "sourceNamespace": "monster-hunter",
+        "canonicalSourceId": "monster-hunter.hunt-card.MHGUIDESUPP00001",
+        "huntCardMechanic": {
+          "id": "guidage-finisher",
+          "role": "support",
+          "hopeCost": 1,
+          "opportunity": {
+            "generate": 0,
+            "spend": [],
+            "effectCosts": {
+              "standard": 2,
+              "rare": 3
+            }
+          },
+          "conditions": [],
+          "tags": [
+            "engagement",
+            "support",
+            "offense"
+          ],
+          "effects": {
+            "support": {
+              "id": "finisher-attack-bonus",
+              "timing": "next-finisher-attack",
+              "modifier": "+1d6",
+              "appliesTo": "finisher-attack-roll",
+              "automation": "manual",
+              "chat": "<p><strong>Guidage :</strong> ajoutez <strong>+1d6</strong> au prochain jet d’attaque du Finisher de cet Engagement.</p><p><em>Application manuelle.</em></p>"
+            }
+          }
+        },
+        "toolkitCard": {
+          "family": "hunt",
+          "familyLabel": "Chasse",
+          "eligibility": "toolkit",
+          "loadoutGroup": "hunt"
+        },
+        "engagementActions": {
+          "MHGUIDEACTION001": {
+            "role": "support"
+          }
+        }
+      }
+    },
+    "effects": [],
+    "_id": "MHGUIDESUPP00001"
+  },
+  {
+    "name": "Ouverture précise",
+    "img": "icons/svg/eye.svg",
+    "type": "domainCard",
+    "system": {
+      "description": "<p><strong>Opener.</strong> Résolvez l’Ouverture normalement. Si elle réussit avec Espoir, le Finisher désigné gagne <strong>+1d6</strong> à son prochain jet d’attaque pendant cet Engagement.</p>",
+      "domain": "valor",
+      "recallCost": 1,
+      "level": 1,
+      "type": "ability",
+      "actions": {
+        "MHPRECISACTION01": {
+          "_id": "MHPRECISACTION01",
+          "systemPath": "actions",
+          "type": "attack",
+          "baseAction": false,
+          "name": "Ouverture précise",
+          "description": "<p>Effectuez une attaque d’Ouverture. Sur une réussite avec Espoir, préparez un guidage de <strong>+1d6</strong> pour le Finisher désigné. Le Core Chasse paie 2 Espoir et résout l’Opportunité.</p>",
+          "chatDisplay": true,
+          "actionType": "action",
+          "originItem": {
+            "type": "itemCollection"
+          },
+          "triggers": [],
+          "areas": [],
+          "cost": [],
+          "uses": {
+            "value": null,
+            "max": "",
+            "recovery": null,
+            "consumeOnSuccess": false
+          },
+          "target": {
+            "type": "any",
+            "amount": 1
+          },
+          "effects": [],
+          "damage": {
+            "resources": {},
+            "main": null
+          },
+          "roll": {
+            "type": "attack",
+            "trait": null,
+            "difficulty": null,
+            "bonus": null,
+            "advState": "neutral",
+            "diceRolling": {
+              "multiplier": "prof",
+              "flatMultiplier": 1,
+              "dice": "d6",
+              "compare": null,
+              "treshold": null
+            },
+            "useDefault": false
+          },
+          "save": {
+            "trait": null,
+            "difficulty": null,
+            "damageMod": "none"
+          },
+          "range": "",
+          "img": "icons/svg/eye.svg"
+        }
+      },
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null,
+        "artist": ""
+      },
+      "gmNotes": "",
+      "resource": null,
+      "inVault": false,
+      "vaultActive": false,
+      "loadoutIgnore": false,
+      "domainTouched": null
+    },
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "contentOrigin": "homebrew",
+        "sourceNamespace": "monster-hunter",
+        "canonicalSourceId": "monster-hunter.hunt-card.MHPRECISIONOPEN1",
+        "huntCardMechanic": {
+          "id": "ouverture-precise",
+          "role": "opener",
+          "hopeCost": 2,
+          "opportunity": {
+            "generate": 2,
+            "spend": [],
+            "effectCosts": {
+              "standard": 2,
+              "rare": 3
+            }
+          },
+          "conditions": [],
+          "tags": [
+            "engagement",
+            "opener",
+            "precision"
+          ],
+          "effects": {
+            "opener": {
+              "id": "precision-finisher-bonus",
+              "timing": "opener-success-hope",
+              "modifier": "+1d6",
+              "appliesTo": "finisher-attack-roll",
+              "automation": "manual",
+              "chat": "<p><strong>Ouverture précise :</strong> si l’Ouverture réussit avec Espoir, le Finisher désigné gagne <strong>+1d6</strong> à son prochain jet d’attaque de cet Engagement.</p><p><em>Application manuelle.</em></p>"
+            }
+          }
+        },
+        "toolkitCard": {
+          "family": "hunt",
+          "familyLabel": "Chasse",
+          "eligibility": "toolkit",
+          "loadoutGroup": "hunt"
+        },
+        "engagementActions": {
+          "MHPRECISACTION01": {
+            "role": "opener"
+          }
+        }
+      }
+    },
+    "effects": [],
+    "_id": "MHPRECISIONOPEN1"
+  },
+  {
+    "name": "Provocation",
+    "img": "icons/svg/combat.svg",
+    "type": "domainCard",
+    "system": {
+      "description": "<p><strong>Opener.</strong> Résolvez l’Ouverture normalement. Si elle provoque une réaction du monstre, celui-ci doit, si possible, diriger cette réaction contre l’Opener.</p>",
+      "domain": "valor",
+      "recallCost": 1,
+      "level": 1,
+      "type": "ability",
+      "actions": {
+        "MHPROVOACTION001": {
+          "_id": "MHPROVOACTION001",
+          "systemPath": "actions",
+          "type": "attack",
+          "baseAction": false,
+          "name": "Provocation",
+          "description": "<p>Effectuez une attaque d’Ouverture. Si une réaction est déclenchée, provoquez le monstre afin qu’il la dirige contre vous si la situation le permet. Le Core Chasse paie 2 Espoir et résout l’Opportunité.</p>",
+          "chatDisplay": true,
+          "actionType": "action",
+          "originItem": {
+            "type": "itemCollection"
+          },
+          "triggers": [],
+          "areas": [],
+          "cost": [],
+          "uses": {
+            "value": null,
+            "max": "",
+            "recovery": null,
+            "consumeOnSuccess": false
+          },
+          "target": {
+            "type": "any",
+            "amount": 1
+          },
+          "effects": [],
+          "damage": {
+            "resources": {},
+            "main": null
+          },
+          "roll": {
+            "type": "attack",
+            "trait": null,
+            "difficulty": null,
+            "bonus": null,
+            "advState": "neutral",
+            "diceRolling": {
+              "multiplier": "prof",
+              "flatMultiplier": 1,
+              "dice": "d6",
+              "compare": null,
+              "treshold": null
+            },
+            "useDefault": false
+          },
+          "save": {
+            "trait": null,
+            "difficulty": null,
+            "damageMod": "none"
+          },
+          "range": "",
+          "img": "icons/svg/combat.svg"
+        }
+      },
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null,
+        "artist": ""
+      },
+      "gmNotes": "",
+      "resource": null,
+      "inVault": false,
+      "vaultActive": false,
+      "loadoutIgnore": false,
+      "domainTouched": null
+    },
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "contentOrigin": "homebrew",
+        "sourceNamespace": "monster-hunter",
+        "canonicalSourceId": "monster-hunter.hunt-card.MHPROVOCATION001",
+        "huntCardMechanic": {
+          "id": "provocation",
+          "role": "opener",
+          "hopeCost": 2,
+          "opportunity": {
+            "generate": 2,
+            "spend": [],
+            "effectCosts": {
+              "standard": 2,
+              "rare": 3
+            }
+          },
+          "conditions": [],
+          "tags": [
+            "engagement",
+            "reaction",
+            "control"
+          ],
+          "effects": {
+            "reaction": {
+              "id": "reaction-target-opener",
+              "timing": "monster-reaction",
+              "appliesTo": "monster-reaction-target",
+              "automation": "manual",
+              "chat": "<p><strong>Provocation :</strong> si possible, la réaction du monstre doit viser l’Opener.</p><p><em>Le MJ conserve le choix de l’attaque appropriée.</em></p>"
+            }
+          }
+        },
+        "toolkitCard": {
+          "family": "hunt",
+          "familyLabel": "Chasse",
+          "eligibility": "toolkit",
+          "loadoutGroup": "hunt"
+        },
+        "engagementActions": {
+          "MHPROVOACTION001": {
+            "role": "opener"
+          }
+        }
+      }
+    },
+    "effects": [],
+    "_id": "MHPROVOCATION001"
+  },
+  {
+    "name": "Frappe mutilante",
+    "img": "icons/svg/bones.svg",
+    "type": "domainCard",
+    "system": {
+      "description": "<p><strong>Finisher.</strong> <strong>Effet — Mutilation (3 OP) :</strong> au lieu des dés bonus, infligez une conséquence fictionnelle durable à une partie exposée du monstre : aile, patte, corne, carapace ou organe approprié. Le MJ traduit cette atteinte dans les actions du monstre. Sur un critique : Effet + dégâts convertis.</p>",
+      "domain": "valor",
+      "recallCost": 1,
+      "level": 1,
+      "type": "ability",
+      "actions": {
+        "MHMUTILACTION001": {
+          "_id": "MHMUTILACTION001",
+          "systemPath": "actions",
+          "type": "attack",
+          "baseAction": false,
+          "name": "Frappe mutilante",
+          "description": "<p>Effectuez une attaque de Finisher. Vous pouvez convertir <strong>3 OP</strong> en Mutilation au lieu des dés bonus. Le Core Chasse paie 1 Espoir, engage jusqu’à 4 OP puis remet l’Opportunité à 0.</p>",
+          "chatDisplay": true,
+          "actionType": "action",
+          "originItem": {
+            "type": "itemCollection"
+          },
+          "triggers": [],
+          "areas": [],
+          "cost": [],
+          "uses": {
+            "value": null,
+            "max": "",
+            "recovery": null,
+            "consumeOnSuccess": false
+          },
+          "target": {
+            "type": "any",
+            "amount": 1
+          },
+          "effects": [],
+          "damage": {
+            "resources": {},
+            "main": null
+          },
+          "roll": {
+            "type": "attack",
+            "trait": null,
+            "difficulty": null,
+            "bonus": null,
+            "advState": "neutral",
+            "diceRolling": {
+              "multiplier": "prof",
+              "flatMultiplier": 1,
+              "dice": "d6",
+              "compare": null,
+              "treshold": null
+            },
+            "useDefault": false
+          },
+          "save": {
+            "trait": null,
+            "difficulty": null,
+            "damageMod": "none"
+          },
+          "range": "",
+          "img": "icons/svg/bones.svg"
+        }
+      },
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null,
+        "artist": ""
+      },
+      "gmNotes": "",
+      "resource": null,
+      "inVault": false,
+      "vaultActive": false,
+      "loadoutIgnore": false,
+      "domainTouched": null
+    },
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "contentOrigin": "homebrew",
+        "sourceNamespace": "monster-hunter",
+        "canonicalSourceId": "monster-hunter.hunt-card.MHMUTILFINISH001",
+        "huntCardMechanic": {
+          "id": "frappe-mutilante",
+          "role": "finisher",
+          "hopeCost": 1,
+          "opportunity": {
+            "generate": 0,
+            "spend": [
+              "damage",
+              "effect"
+            ],
+            "effectCosts": {
+              "standard": 2,
+              "rare": 3
+            }
+          },
+          "conditions": [],
+          "tags": [
+            "engagement",
+            "opportunity",
+            "control",
+            "part-break"
+          ],
+          "effects": {
+            "finisher": {
+              "id": "mutilation-part-break",
+              "timing": "finisher-conversion",
+              "cost": 3,
+              "rarity": "rare",
+              "automation": "manual",
+              "chat": "<p><strong>Effet — Mutilation (3 OP) :</strong> au lieu des dés bonus, infligez une conséquence fictionnelle durable à une partie exposée du monstre. Le MJ adapte ses actions en conséquence.</p><p>Sur un critique, appliquez Mutilation <strong>et</strong> les dés convertis.</p>"
+            }
+          }
+        },
+        "toolkitCard": {
+          "family": "hunt",
+          "familyLabel": "Chasse",
+          "eligibility": "toolkit",
+          "loadoutGroup": "hunt"
+        },
+        "engagementActions": {
+          "MHMUTILACTION001": {
+            "role": "finisher"
+          }
+        }
+      }
+    },
+    "effects": [],
+    "_id": "MHMUTILFINISH001"
+  },
+  {
+    "name": "Frappe d’épuisement",
+    "img": "icons/svg/downgrade.svg",
+    "type": "domainCard",
+    "system": {
+      "description": "<p><strong>Finisher.</strong> <strong>Effet — Épuisement (2 OP) :</strong> au lieu des dés bonus, faites subir <strong>1 Stress</strong> au monstre si sa fiche utilise le Stress. Sur un critique : Effet + dégâts convertis.</p>",
+      "domain": "valor",
+      "recallCost": 1,
+      "level": 1,
+      "type": "ability",
+      "actions": {
+        "MHEXHAUSTACTION1": {
+          "_id": "MHEXHAUSTACTION1",
+          "systemPath": "actions",
+          "type": "attack",
+          "baseAction": false,
+          "name": "Frappe d’épuisement",
+          "description": "<p>Effectuez une attaque de Finisher. Vous pouvez convertir <strong>2 OP</strong> en Épuisement au lieu des dés bonus. Le Core Chasse paie 1 Espoir, engage jusqu’à 4 OP puis remet l’Opportunité à 0.</p>",
+          "chatDisplay": true,
+          "actionType": "action",
+          "originItem": {
+            "type": "itemCollection"
+          },
+          "triggers": [],
+          "areas": [],
+          "cost": [],
+          "uses": {
+            "value": null,
+            "max": "",
+            "recovery": null,
+            "consumeOnSuccess": false
+          },
+          "target": {
+            "type": "any",
+            "amount": 1
+          },
+          "effects": [],
+          "damage": {
+            "resources": {},
+            "main": null
+          },
+          "roll": {
+            "type": "attack",
+            "trait": null,
+            "difficulty": null,
+            "bonus": null,
+            "advState": "neutral",
+            "diceRolling": {
+              "multiplier": "prof",
+              "flatMultiplier": 1,
+              "dice": "d6",
+              "compare": null,
+              "treshold": null
+            },
+            "useDefault": false
+          },
+          "save": {
+            "trait": null,
+            "difficulty": null,
+            "damageMod": "none"
+          },
+          "range": "",
+          "img": "icons/svg/downgrade.svg"
+        }
+      },
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null,
+        "artist": ""
+      },
+      "gmNotes": "",
+      "resource": null,
+      "inVault": false,
+      "vaultActive": false,
+      "loadoutIgnore": false,
+      "domainTouched": null
+    },
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "contentOrigin": "homebrew",
+        "sourceNamespace": "monster-hunter",
+        "canonicalSourceId": "monster-hunter.hunt-card.MHEXHAUSTFINISH1",
+        "huntCardMechanic": {
+          "id": "frappe-epuisement",
+          "role": "finisher",
+          "hopeCost": 1,
+          "opportunity": {
+            "generate": 0,
+            "spend": [
+              "damage",
+              "effect"
+            ],
+            "effectCosts": {
+              "standard": 2,
+              "rare": 3
+            }
+          },
+          "conditions": [],
+          "tags": [
+            "engagement",
+            "opportunity",
+            "attrition"
+          ],
+          "effects": {
+            "finisher": {
+              "id": "exhaustion-stress",
+              "timing": "finisher-conversion",
+              "cost": 2,
+              "rarity": "standard",
+              "automation": "manual",
+              "chat": "<p><strong>Effet — Épuisement (2 OP) :</strong> au lieu des dés bonus, faites subir <strong>1 Stress</strong> au monstre si sa fiche utilise le Stress.</p><p>Sur un critique, appliquez Épuisement <strong>et</strong> les dés convertis.</p>"
+            }
+          }
+        },
+        "toolkitCard": {
+          "family": "hunt",
+          "familyLabel": "Chasse",
+          "eligibility": "toolkit",
+          "loadoutGroup": "hunt"
+        },
+        "engagementActions": {
+          "MHEXHAUSTACTION1": {
+            "role": "finisher"
+          }
+        }
+      }
+    },
+    "effects": [],
+    "_id": "MHEXHAUSTFINISH1"
+  },
+  {
+    "name": "Couverture",
+    "img": "icons/svg/shield.svg",
+    "type": "domainCard",
+    "system": {
+      "description": "<p><strong>Support.</strong> Dépensez 1 Espoir : la prochaine attaque appropriée du monstre contre le Finisher désigné subit <strong>−1d4</strong> pendant cet Engagement.</p>",
+      "domain": "valor",
+      "recallCost": 1,
+      "level": 1,
+      "type": "ability",
+      "actions": {
+        "MHCOVERACTION001": {
+          "_id": "MHCOVERACTION001",
+          "systemPath": "actions",
+          "type": "effect",
+          "baseAction": false,
+          "name": "Couverture",
+          "description": "<p>Dépensez 1 Espoir. La prochaine attaque appropriée du monstre contre le Finisher désigné subit <strong>−1d4</strong>. Application manuelle.</p>",
+          "chatDisplay": true,
+          "actionType": "action",
+          "originItem": {
+            "type": "itemCollection"
+          },
+          "triggers": [],
+          "areas": [],
+          "cost": [],
+          "uses": {
+            "value": null,
+            "max": "",
+            "recovery": null,
+            "consumeOnSuccess": false
+          },
+          "target": {
+            "type": "self",
+            "amount": 1
+          },
+          "effects": [],
+          "range": "",
+          "img": "icons/svg/shield.svg"
+        }
+      },
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null,
+        "artist": ""
+      },
+      "gmNotes": "",
+      "resource": null,
+      "inVault": false,
+      "vaultActive": false,
+      "loadoutIgnore": false,
+      "domainTouched": null
+    },
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "contentOrigin": "homebrew",
+        "sourceNamespace": "monster-hunter",
+        "canonicalSourceId": "monster-hunter.hunt-card.MHCOVERSUPPORT01",
+        "huntCardMechanic": {
+          "id": "couverture",
+          "role": "support",
+          "hopeCost": 1,
+          "opportunity": {
+            "generate": 0,
+            "spend": [],
+            "effectCosts": {
+              "standard": 2,
+              "rare": 3
+            }
+          },
+          "conditions": [],
+          "tags": [
+            "engagement",
+            "support",
+            "defense"
+          ],
+          "effects": {
+            "support": {
+              "id": "finisher-defense-penalty",
+              "timing": "monster-attack-against-finisher",
+              "modifier": "-1d4",
+              "appliesTo": "monster-attack-roll",
+              "automation": "manual",
+              "chat": "<p><strong>Couverture :</strong> appliquez <strong>−1d4</strong> à la prochaine attaque appropriée du monstre contre le Finisher désigné pendant cet Engagement.</p><p><em>Application manuelle.</em></p>"
+            }
+          }
+        },
+        "toolkitCard": {
+          "family": "hunt",
+          "familyLabel": "Chasse",
+          "eligibility": "toolkit",
+          "loadoutGroup": "hunt"
+        },
+        "engagementActions": {
+          "MHCOVERACTION001": {
+            "role": "support"
+          }
+        }
+      }
+    },
+    "effects": [],
+    "_id": "MHCOVERSUPPORT01"
+  },
+  {
+    "name": "Diversion",
+    "img": "icons/svg/daze.svg",
+    "type": "domainCard",
+    "system": {
+      "description": "<p><strong>Support.</strong> Dépensez 1 Espoir : jusqu’au prochain Finisher de cet Engagement, la prochaine réaction du monstre subit <strong>−1d4</strong> à son jet d’attaque.</p>",
+      "domain": "valor",
+      "recallCost": 1,
+      "level": 1,
+      "type": "ability",
+      "actions": {
+        "MHDIVERSACTION01": {
+          "_id": "MHDIVERSACTION01",
+          "systemPath": "actions",
+          "type": "effect",
+          "baseAction": false,
+          "name": "Diversion",
+          "description": "<p>Dépensez 1 Espoir. La prochaine réaction du monstre pendant cet Engagement subit <strong>−1d4</strong> à son jet d’attaque. Application manuelle.</p>",
+          "chatDisplay": true,
+          "actionType": "action",
+          "originItem": {
+            "type": "itemCollection"
+          },
+          "triggers": [],
+          "areas": [],
+          "cost": [],
+          "uses": {
+            "value": null,
+            "max": "",
+            "recovery": null,
+            "consumeOnSuccess": false
+          },
+          "target": {
+            "type": "self",
+            "amount": 1
+          },
+          "effects": [],
+          "range": "",
+          "img": "icons/svg/daze.svg"
+        }
+      },
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null,
+        "artist": ""
+      },
+      "gmNotes": "",
+      "resource": null,
+      "inVault": false,
+      "vaultActive": false,
+      "loadoutIgnore": false,
+      "domainTouched": null
+    },
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "contentOrigin": "homebrew",
+        "sourceNamespace": "monster-hunter",
+        "canonicalSourceId": "monster-hunter.hunt-card.MHDIVERSUPPORT01",
+        "huntCardMechanic": {
+          "id": "diversion",
+          "role": "support",
+          "hopeCost": 1,
+          "opportunity": {
+            "generate": 0,
+            "spend": [],
+            "effectCosts": {
+              "standard": 2,
+              "rare": 3
+            }
+          },
+          "conditions": [],
+          "tags": [
+            "engagement",
+            "support",
+            "reaction",
+            "defense"
+          ],
+          "effects": {
+            "support": {
+              "id": "next-reaction-attack-penalty",
+              "timing": "next-monster-reaction",
+              "modifier": "-1d4",
+              "appliesTo": "monster-reaction-attack-roll",
+              "automation": "manual",
+              "chat": "<p><strong>Diversion :</strong> appliquez <strong>−1d4</strong> au jet d’attaque de la prochaine réaction du monstre pendant cet Engagement.</p><p><em>Application manuelle.</em></p>"
+            }
+          }
+        },
+        "toolkitCard": {
+          "family": "hunt",
+          "familyLabel": "Chasse",
+          "eligibility": "toolkit",
+          "loadoutGroup": "hunt"
+        },
+        "engagementActions": {
+          "MHDIVERSACTION01": {
+            "role": "support"
+          }
+        }
+      }
+    },
+    "effects": [],
+    "_id": "MHDIVERSUPPORT01"
   }
 ]

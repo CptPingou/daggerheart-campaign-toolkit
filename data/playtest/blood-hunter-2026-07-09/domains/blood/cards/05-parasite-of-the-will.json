@@ -1,0 +1,37 @@
+{
+  "id": "the-void.2026-07-09.domain_card.parasite-of-the-will",
+  "kind": "domain_card",
+  "identity": {
+    "name": "Parasite of the Will",
+    "slug": "parasite-of-the-will"
+  },
+  "source": {
+    "corpus": "the-void",
+    "product": "blood-hunter",
+    "version": "2026-07-09",
+    "status": "playtest"
+  },
+  "provenance": {
+    "source_file": "Blood_Hunter_Void_2026_07_09.pdf",
+    "page": 5
+  },
+  "availability": {
+    "in_srd": false,
+    "private_only": true,
+    "deprecated": false
+  },
+  "migration": {
+    "previous_id": "the-void.v1.5.domain_card.parasite-of-the-will",
+    "relation": "revised"
+  },
+  "rules": {
+    "domain": "blood",
+    "level": 5,
+    "card_type": "spell",
+    "recall_cost": 2
+  },
+  "content": {
+    "rules_text": "Make a Spellcast Roll against an adversary within Close range. Once per rest on a success, mark a Hit Point to Infect the target with a tiny magical bloodworm. Presence Rolls against the Infected target have advantage. When the Infected target makes an attack roll, you can spend a Hope to give the roll disadvantage. The Infected condition lasts until you take a rest or you sacrifice the bloodworm to make the Infected target mark a Hit Point.",
+    "validation": "checked_against_pdf_2026-07-09"
+  }
+}

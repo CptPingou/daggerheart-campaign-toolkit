@@ -1,0 +1,33 @@
+{
+  "id": "the-void.2026-07-09.domain_card.ichor-wave",
+  "kind": "domain_card",
+  "identity": {
+    "name": "Ichor Wave",
+    "slug": "ichor-wave"
+  },
+  "source": {
+    "corpus": "the-void",
+    "product": "blood-hunter",
+    "version": "2026-07-09",
+    "status": "playtest"
+  },
+  "provenance": {
+    "source_file": "Blood_Hunter_Void_2026_07_09.pdf",
+    "page": 5
+  },
+  "availability": {
+    "in_srd": false,
+    "private_only": true,
+    "deprecated": false
+  },
+  "rules": {
+    "domain": "blood",
+    "level": 9,
+    "card_type": "spell",
+    "recall_cost": 3
+  },
+  "content": {
+    "rules_text": "Mark a Hit Point to make a Spellcast Roll against all targets within Close range in front of you. On a success, deal d10 magic damage using the number of Hit Points you have marked instead of your Proficiency. On a failure, deal half damage.",
+    "validation": "checked_against_pdf_2026-07-09"
+  }
+}

@@ -1,0 +1,123 @@
+{
+  "id": "srd-2.0.supplemental-campaign-mechanic.monster-hunting-campaigns",
+  "kind": "supplemental_campaign_mechanic",
+  "identity": {
+    "name": "Monster Hunting Campaigns",
+    "slug": "monster-hunting-campaigns"
+  },
+  "source": {
+    "corpus": "daggerheart-srd",
+    "version": "2.0",
+    "status": "srd"
+  },
+  "provenance": {
+    "start_printed_page": 201,
+    "end_printed_page": 202
+  },
+  "rules_text": "You can use the following mechanics for monster hunting campaigns.\nMONSTER HUNTING EQUIPMENT\nYou can make the following weapons and items available to your players.\nPrimary Weapons\nName Trait Range Damage Burden Feature\nBlessed Brass \nKnuckles\nStrength Melee Tier 1: d8+1 mag \nTier 2: d8+4 mag \nTier 3: d8+7 mag \nTier 4: d8+10 mag\nOne-Handed —\nHoly Shotgun Agility Very Close Tier 1: d6+2 mag \nTier 2: d6+5 mag \nTier 3: d6+8 mag \nTier 4: d6+11 mag\nTwo-Handed Scattershot: When you make an attack, target all \ncreatures in front of you within range.\nRepeating \nCrossbow\nFinesse Far Tier 1: d6+2 phy \nTier 2: d6+5 phy \nTier 3: d6+8 phy \nTier 4: d6+11 phy\nTwo-Handed Quick: When you make an attack, you can mark a \nStress to target another creature within range.\nSecondary Weapons\nName Trait Range Damage Burden Feature\nWooden Stake Strength Melee Tier 1: d8 phy \nTier 2: d8+2 phy \nTier 3: d8+4 phy \nTier 4: d8+6 phy\nOne-Handed Paired: Gain a bonus equal to 1 + your tier to \nprimary weapon damage to targets within Melee \nrange.\nHallowed \nShield\nInstinct Melee Tier 1: d4 mag \nTier 2: d4+2 mag \nTier 3: d4+4 mag \nTier 4: d4+6 mag\nOne-Handed Resonant: When you critically succeed on a \nprimary weapon attack, you gain an additional \nHope.\nChain Whip Presence Very Close Tier 1: d6+1 phy \nTier 2: d6+3 phy \nTier 3: d6+5 phy \nTier 4: d6+7 phy\nOne-Handed Hooked: On a successful attack, you can pull the \ntarget into Melee range.\nArmor\nName\nBase \nThresholds\nBase \nScore Feature\nCoffinwood Armor Tier 1: 4/10 \nTier 2: 6/15 \nTier 3: 8/22 \nTier 4: 10/31\nTier 1: 3 \nTier 2: 4 \nTier 3: 5 \nTier 4: 6\nSplintering: Gain a bonus to your damage thresholds equal to your \nunmarked Armor Slots.\nLeather Longcoat Tier 1: 5/12 \nTier 2: 8/18 \nTier 3: 10/25 \nTier 4: 12/34\nTier 1: 3 \nTier 2: 4 \nTier 3: 5 \nTier 4: 6\nQuiet: Gain a +2 bonus to rolls you make to move silently.\nSilverweave Armor Tier 1: 5/11 \nTier 2: 7/16 \nTier 3: 9/23 \nTier 4: 11/32\nTier 1: 3 \nTier 2: 4 \nTier 3: 5 \nTier 4: 6\nWarded: You reduce incoming magic damage by your Armor Score before \napplying it to your damage thresholds.\n201\nDaggerheart SRD\nTRANSFORMATIONS\nYou can use the following mechanics for introducing the \nReanimated, Vampire, and Werewolf transformations to your \ncampaign.\nREANIMATED\nWhen a character gains the Reanimated transformation, their \nmaximum loadout is reduced to one. During a rest, they can \nuse a downtime move to raise their maximum loadout by one \nuntil they reach the normal maximum loadout of five.\nVAMPIRE\nYou can add the following feature to a prominent vampire \nadversary’s stat block:\nVampire’s Curse – Action. Make an attack roll against a \ntarget within Melee range. On a success, you can spend \na Fear to have this adversary sink their teeth into the \ntarget’s neck and try to turn them into a vampire. Roll a \nnumber of d8s equal to this adversary’s tier and deal that \nmuch physical damage to the target. Then roll a d6. If \nthe rolled result matches any of the damage dice results, \nthe target marks all their Stress and gains the Vampire \ntransformation.\nIf the player wishes for their character to become a \nvampire, the attack roll succeeds automatically. The PC \ntakes the damage, marks all their Stress, and gains the \ntransformation.\nWEREWOLF\nYou can add the following feature to a prominent werewolf \nadversary’s stat block:\nWolf’s Curse – Action. Make an attack roll against a target \nwithin Melee range. On a success, you can spend a Fear to \nhave this adversary viciously bite the target. Roll a number \nof d20s equal to this adversary’s tier and deal that much \nphysical damage to the target. If the target takes Major \nor greater damage from this attack, activate a long-term \nLycanthropy Countdown (6). It ticks down each time the PC \ntakes a rest without using a downtime move to halt their \nlycanthropy’s progression. When it triggers, the PC gains \nthe Werewolf transformation.\nIf the player wishes for their character to become a \nwerewolf, the attack roll succeeds automatically. The PC \ntakes the damage and activates a long-term Lycanthropy \nCountdown (6) regardless of how many HP they marked as \na result of the attack. When the countdown triggers, the PC \ngains the transformation.\nTHE HUNT\nThe Hunt is a procedure for preparing and running monsters. \nThe basic structure of the Hunt comprises five beats (although \nyou can deviate from this basic structure as appropriate):\n1. Arrival: The PCs are hooked into the adventure with a \nstrange event that implies monster activity.\n2. Investigation: The PCs follow leads and gather clues to \ndiscover the truth of the monster.\n3. Escalation: The PCs bring together what they’ve \ndiscovered about the monster and develop a plan of action \nfor finding and defeating it.\n4. Confrontation: The PCs attempt to banish, bind, or destroy \nthe monster using what they’ve previously learned.\n5. Epilogue: The PCs wrap up loose ends and move on to \ntheir next mission.\nMAKING A MONSTER\nT o create a creature altered by evil energy and driven to \ndestroy, consume, or corrupt, answer four questions:\n• What is it?\n• What does it want?\n• Where can you find it?\n• How can you defeat it?\nOptionally, you can ask: What else should you worry about? \nThe answer to this question might involve underlings that \nserve the monster, important bystanders the monster might \nendanger, or events and location that might highlight the \nmonster’s strengths, weaknesses, and motivations.\nLIMINAL CLUES\nA Liminal Clue is a piece of evidence or information that exists \nin potential until it manifests through the party’s discovery of \nit. Before a session begins, the GM should devise 4–6 pieces \nof information that each point the party toward answering at \nleast one of the questions asked in “Making a Monster.” \nWrite each Liminal Clue on a notecard and keep them on \nhand during the session. Whenever the PCs delve into danger \nor explore the mystery in a way that could reveal the answer \nto one of the questions, you can refer to your collection of \nLiminal Clues. If a clue fits the tone and place, it manifests in \nthat moment, and you describe how the clue is revealed.\nLiminal Clues indicate what manifests, not how or where; they \nare not bound to a particular place method of discovery. Once \nrevealed, a Liminal Clue solidifies; record it as an undeniable \ndiscovery that’s become part of the world’s reality.\n202\nDaggerheart SRD",
+  "raw_heading": "MONSTER HUNTING CAMPAIGNS",
+  "mechanics": {
+    "mechanic_type": "monster_hunt",
+    "subsections": [
+      {
+        "name": "Introduction",
+        "rules_text": "You can use the following mechanics for monster hunting campaigns.",
+        "id": "introduction"
+      },
+      {
+        "name": "Monster Hunting Equipment",
+        "raw_heading": "MONSTER HUNTING EQUIPMENT",
+        "rules_text": "You can make the following weapons and items available to your players.\nPrimary Weapons\nName Trait Range Damage Burden Feature\nBlessed Brass\nKnuckles\nStrength Melee Tier 1: d8+1 mag\nTier 2: d8+4 mag\nTier 3: d8+7 mag\nTier 4: d8+10 mag\nOne-Handed —\nHoly Shotgun Agility Very Close Tier 1: d6+2 mag\nTier 2: d6+5 mag\nTier 3: d6+8 mag\nTier 4: d6+11 mag\nTwo-Handed Scattershot: When you make an attack, target all\ncreatures in front of you within range.\nRepeating\nCrossbow\nFinesse Far Tier 1: d6+2 phy\nTier 2: d6+5 phy\nTier 3: d6+8 phy\nTier 4: d6+11 phy\nTwo-Handed Quick: When you make an attack, you can mark a\nStress to target another creature within range.\nSecondary Weapons\nName Trait Range Damage Burden Feature\nWooden Stake Strength Melee Tier 1: d8 phy\nTier 2: d8+2 phy\nTier 3: d8+4 phy\nTier 4: d8+6 phy\nOne-Handed Paired: Gain a bonus equal to 1 + your tier to\nprimary weapon damage to targets within Melee\nrange.\nHallowed\nShield\nInstinct Melee Tier 1: d4 mag\nTier 2: d4+2 mag\nTier 3: d4+4 mag\nTier 4: d4+6 mag\nOne-Handed Resonant: When you critically succeed on a\nprimary weapon attack, you gain an additional\nHope.\nChain Whip Presence Very Close Tier 1: d6+1 phy\nTier 2: d6+3 phy\nTier 3: d6+5 phy\nTier 4: d6+7 phy\nOne-Handed Hooked: On a successful attack, you can pull the\ntarget into Melee range.\nArmor\nName\nBase\nThresholds\nBase\nScore Feature\nCoffinwood Armor Tier 1: 4/10\nTier 2: 6/15\nTier 3: 8/22\nTier 4: 10/31\nTier 1: 3\nTier 2: 4\nTier 3: 5\nTier 4: 6\nSplintering: Gain a bonus to your damage thresholds equal to your\nunmarked Armor Slots.\nLeather Longcoat Tier 1: 5/12\nTier 2: 8/18\nTier 3: 10/25\nTier 4: 12/34\nTier 1: 3\nTier 2: 4\nTier 3: 5\nTier 4: 6\nQuiet: Gain a +2 bonus to rolls you make to move silently.\nSilverweave Armor Tier 1: 5/11\nTier 2: 7/16\nTier 3: 9/23\nTier 4: 11/32\nTier 1: 3\nTier 2: 4\nTier 3: 5\nTier 4: 6\nWarded: You reduce incoming magic damage by your Armor Score before\napplying it to your damage thresholds.\n201\nDaggerheart SRD",
+        "id": "monster-hunting-equipment"
+      },
+      {
+        "name": "Transformations",
+        "raw_heading": "TRANSFORMATIONS",
+        "rules_text": "You can use the following mechanics for introducing the\nReanimated, Vampire, and Werewolf transformations to your\ncampaign.",
+        "id": "transformations"
+      },
+      {
+        "name": "Reanimated",
+        "raw_heading": "REANIMATED",
+        "rules_text": "When a character gains the Reanimated transformation, their\nmaximum loadout is reduced to one. During a rest, they can\nuse a downtime move to raise their maximum loadout by one\nuntil they reach the normal maximum loadout of five.",
+        "id": "reanimated"
+      },
+      {
+        "name": "Vampire",
+        "raw_heading": "VAMPIRE",
+        "rules_text": "You can add the following feature to a prominent vampire\nadversary’s stat block:\nVampire’s Curse – Action. Make an attack roll against a\ntarget within Melee range. On a success, you can spend\na Fear to have this adversary sink their teeth into the\ntarget’s neck and try to turn them into a vampire. Roll a\nnumber of d8s equal to this adversary’s tier and deal that\nmuch physical damage to the target. Then roll a d6. If\nthe rolled result matches any of the damage dice results,\nthe target marks all their Stress and gains the Vampire\ntransformation.\nIf the player wishes for their character to become a\nvampire, the attack roll succeeds automatically. The PC\ntakes the damage, marks all their Stress, and gains the\ntransformation.",
+        "id": "vampire"
+      },
+      {
+        "name": "Werewolf",
+        "raw_heading": "WEREWOLF",
+        "rules_text": "You can add the following feature to a prominent werewolf\nadversary’s stat block:\nWolf’s Curse – Action. Make an attack roll against a target\nwithin Melee range. On a success, you can spend a Fear to\nhave this adversary viciously bite the target. Roll a number\nof d20s equal to this adversary’s tier and deal that much\nphysical damage to the target. If the target takes Major\nor greater damage from this attack, activate a long-term\nLycanthropy Countdown (6). It ticks down each time the PC\ntakes a rest without using a downtime move to halt their\nlycanthropy’s progression. When it triggers, the PC gains\nthe Werewolf transformation.\nIf the player wishes for their character to become a\nwerewolf, the attack roll succeeds automatically. The PC\ntakes the damage and activates a long-term Lycanthropy\nCountdown (6) regardless of how many HP they marked as\na result of the attack. When the countdown triggers, the PC\ngains the transformation.",
+        "id": "werewolf"
+      },
+      {
+        "name": "The Hunt",
+        "raw_heading": "THE HUNT",
+        "rules_text": "The Hunt is a procedure for preparing and running monsters.\nThe basic structure of the Hunt comprises five beats (although\nyou can deviate from this basic structure as appropriate):\n1. Arrival: The PCs are hooked into the adventure with a\nstrange event that implies monster activity.\n2. Investigation: The PCs follow leads and gather clues to\ndiscover the truth of the monster.\n3. Escalation: The PCs bring together what they’ve\ndiscovered about the monster and develop a plan of action\nfor finding and defeating it.\n4. Confrontation: The PCs attempt to banish, bind, or destroy\nthe monster using what they’ve previously learned.\n5. Epilogue: The PCs wrap up loose ends and move on to\ntheir next mission.",
+        "id": "the-hunt"
+      },
+      {
+        "name": "Making A Monster",
+        "raw_heading": "MAKING A MONSTER",
+        "rules_text": "T o create a creature altered by evil energy and driven to\ndestroy, consume, or corrupt, answer four questions:\n• What is it?\n• What does it want?\n• Where can you find it?\n• How can you defeat it?\nOptionally, you can ask: What else should you worry about?\nThe answer to this question might involve underlings that\nserve the monster, important bystanders the monster might\nendanger, or events and location that might highlight the\nmonster’s strengths, weaknesses, and motivations.",
+        "id": "making-a-monster"
+      },
+      {
+        "name": "Liminal Clues",
+        "raw_heading": "LIMINAL CLUES",
+        "rules_text": "A Liminal Clue is a piece of evidence or information that exists\nin potential until it manifests through the party’s discovery of\nit. Before a session begins, the GM should devise 4–6 pieces\nof information that each point the party toward answering at\nleast one of the questions asked in “Making a Monster.”\nWrite each Liminal Clue on a notecard and keep them on\nhand during the session. Whenever the PCs delve into danger\nor explore the mystery in a way that could reveal the answer\nto one of the questions, you can refer to your collection of\nLiminal Clues. If a clue fits the tone and place, it manifests in\nthat moment, and you describe how the clue is revealed.\nLiminal Clues indicate what manifests, not how or where; they\nare not bound to a particular place method of discovery. Once\nrevealed, a Liminal Clue solidifies; record it as an undeniable\ndiscovery that’s become part of the world’s reality.\n202\nDaggerheart SRD",
+        "id": "liminal-clues"
+      }
+    ],
+    "hunt_beats": [
+      {
+        "order": 1,
+        "name": "Arrival"
+      },
+      {
+        "order": 2,
+        "name": "Investigation"
+      },
+      {
+        "order": 3,
+        "name": "Escalation"
+      },
+      {
+        "order": 4,
+        "name": "Confrontation"
+      },
+      {
+        "order": 5,
+        "name": "Epilogue"
+      }
+    ],
+    "monster_design_questions": [
+      "What is it?",
+      "What does it want?",
+      "Where can you find it?",
+      "How can you defeat it?",
+      "What else should you worry about?"
+    ],
+    "liminal_clues": {
+      "recommended_count": {
+        "min": 4,
+        "max": 6
+      },
+      "manifest_on_discovery": true,
+      "location_agnostic": true
+    },
+    "related_collections": {
+      "weapons": "data/srd-2.0/equipment/supplemental-weapons.json"
+    },
+    "normalization_level": "mechanical"
+  },
+  "normalization": {
+    "phase": "P1.1f-b1-fix1",
+    "status": "normalized",
+    "source_field": "rules_text"
+  }
+}

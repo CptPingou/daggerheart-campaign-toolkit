@@ -1,9 +1,11 @@
 import { spendActorHope } from "./engagement-resources.mjs";
+import { huntCardEffectsFromDocument, huntRoleRule } from "./monster-hunter-hunt-card.mjs";
 
 const MODULE_ID = "daggerheart-campaign-toolkit";
 const ROLE = "finisher";
 const ROLE_LABEL = "Finisher";
 const FLAG_KEY = "engagementActions";
+const ROLE_RULE = huntRoleRule(ROLE);
 
 export const FINISHER_REMINDER = "Coût automatique : 1 Hope. Engagez toute l\'Opportunity disponible avec le Finisher (maximum 4 au Tier 1). Réussite : X Opportunity est converti. Échec : X Opportunity est perdu. Dans les deux cas, Opportunity revient à 0.";
 
@@ -62,7 +64,7 @@ function finisherContextFromMessage(message) {
   };
 }
 
-export function createEngagementFinisherApi(opportunityApi) {
+export function createEngagementFinisherApi(opportunityApi, stateApi = null) {
   if (!opportunityApi?.clearOpportunity || !opportunityApi?.getOpportunityValue) {
     throw new TypeError("Campaign Toolkit | Finisher requires the Opportunity API");
   }
@@ -71,7 +73,31 @@ export function createEngagementFinisherApi(opportunityApi) {
     const context = finisherContextFromMessage(message);
     if (!context) return null;
 
-    const hope = await spendActorHope(context.actor, 1, { label: ROLE_LABEL });
+    if (stateApi) {
+      const window = stateApi.validateRoleWindow(ROLE);
+      if (!window.green) {
+        globalThis.ui?.notifications?.warn?.("Finisher refusé : aucun Engagement n’est ouvert.");
+        return Object.freeze({ role: ROLE_LABEL, applied: false, reason: window.reason, window });
+      }
+
+      const validation = stateApi.validateFinisher(context.actor);
+      if (!validation.green) {
+        globalThis.ui?.notifications?.warn?.("Finisher refusé : ce personnage n’est pas le Finisher désigné.");
+        return Object.freeze({ role: ROLE_LABEL, applied: false, reason: validation.reason, validation });
+      }
+      const claim = await stateApi.claim(context.actor, {
+        role: ROLE,
+        cardId: context.item.id,
+        actionId: context.actionId,
+      });
+      if (!claim.claimed) {
+        globalThis.ui?.notifications?.warn?.("Action Monster Hunter déjà utilisée par ce personnage pour cet Engagement.");
+        return Object.freeze({ role: ROLE_LABEL, applied: false, reason: claim.reason, claim });
+      }
+    }
+
+    const hope = await spendActorHope(context.actor, ROLE_RULE.hopeCost, { label: ROLE_LABEL });
+    if (!hope.paid && stateApi) await stateApi.release(context.actor);
     if (!hope.paid) {
       return Object.freeze({
         role: ROLE_LABEL,
@@ -85,7 +111,8 @@ export function createEngagementFinisherApi(opportunityApi) {
     }
 
     const success = context.hitTargets.length > 0;
-    const opportunity = Math.min(4, opportunityApi.getOpportunityValue());
+    const pendingFinisherEffects = stateApi?.pendingEffects ? stateApi.pendingEffects({ timing: "next-finisher-attack" }) : [];
+    const opportunity = Math.min(ROLE_RULE.maxOpportunity, opportunityApi.getOpportunityValue());
     const after = await opportunityApi.clearOpportunity();
 
     const result = Object.freeze({
@@ -112,13 +139,28 @@ export function createEngagementFinisherApi(opportunityApi) {
       `Finisher : ${success ? "réussite" : "échec"} — ${opportunity} Opportunity ${success ? "converti" : "perdu"}.`,
     );
 
+    const finisherEffect = huntCardEffectsFromDocument(context.item).finisher ?? null;
+
+    if (pendingFinisherEffects.length) {
+      await ChatMessage.create({
+        content: ['<div class="daggerheart-campaign-toolkit monster-hunter-pending-effects">',
+          '<h3><i class="fa-solid fa-crosshairs"></i> Effets en attente — Finisher</h3>',
+          ...pendingFinisherEffects.map(effect => `<div>${effect.chat ?? foundry.utils.escapeHTML(effect.id)}</div>`),
+          '</div>'].join(""),
+        flags: { [MODULE_ID]: { monsterHunterPendingEffects: { version: 1, timing: "next-finisher-attack",
+          effectIds: pendingFinisherEffects.map(effect => effect.id) } } },
+      });
+      if (stateApi?.consumeEffects) await stateApi.consumeEffects({ timing: "next-finisher-attack" });
+    }
+
     const conversionContent = success
       ? [
           '<div class="daggerheart-campaign-toolkit monster-hunter-conversion">',
           `<h3><i class="fa-solid fa-burst"></i> Conversion — ${opportunity} Opportunité${opportunity > 1 ? "s" : ""}</h3>`,
           `<p>Ajoutez <strong>${opportunity} dé${opportunity > 1 ? "s" : ""} de dégâts de l’arme</strong> à cette attaque, <strong>ou</strong> dépensez ces Opportunités pour déclencher un Effet disponible.</p>`,
-          '<p>Effet standard : <strong>2 OP</strong> · Effet rare : <strong>3 OP</strong>.</p>',
+          `<p>Effet standard : <strong>${ROLE_RULE.effectCosts.standard} OP</strong> · Effet rare : <strong>${ROLE_RULE.effectCosts.rare} OP</strong>.</p>`,
           '<p><strong>Critique :</strong> vous pouvez appliquer les dégâts <strong>et</strong> l’Effet.</p>',
+          finisherEffect?.chat ? `<div>${finisherEffect.chat}</div>` : "",
           '</div>',
         ].join("")
       : [
@@ -139,10 +181,13 @@ export function createEngagementFinisherApi(opportunityApi) {
             opportunityConsumed: opportunity,
             converted: success ? opportunity : 0,
             lost: success ? 0 : opportunity,
+            finisherEffectId: finisherEffect?.id ?? null,
           },
         },
       },
     });
+
+    if (stateApi) await stateApi.close();
 
     return result;
   }

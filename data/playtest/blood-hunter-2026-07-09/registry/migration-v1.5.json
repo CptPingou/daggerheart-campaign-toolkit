@@ -1,0 +1,139 @@
+{
+  "phase": "blood-hunter-2026-07-09-source-ingest",
+  "source_version": "2026-07-09",
+  "previous_version": "1.5",
+  "active_in_foundry_manifest": false,
+  "counts": {
+    "class": 1,
+    "subclass": 3,
+    "domain": 1,
+    "domain_card": 21
+  },
+  "explicit_relations": [
+    {
+      "new_id": "the-void.2026-07-09.domain_card.blood-spike",
+      "previous_id": "the-void.v1.5.domain_card.blood-spike",
+      "relation": "revised"
+    },
+    {
+      "new_id": "the-void.2026-07-09.domain_card.lifeblood-talisman",
+      "previous_id": "the-void.v1.5.domain_card.lifeblood-talisman",
+      "relation": "revised"
+    },
+    {
+      "new_id": "the-void.2026-07-09.domain_card.power-through-pain",
+      "previous_id": "the-void.v1.5.domain_card.power-through-pain",
+      "relation": "revised"
+    },
+    {
+      "new_id": "the-void.2026-07-09.domain_card.brand-of-castigation",
+      "previous_id": "the-void.v1.5.domain_card.brand-of-castigation",
+      "relation": "revised"
+    },
+    {
+      "new_id": "the-void.2026-07-09.domain_card.burning-gore",
+      "previous_id": "the-void.v1.5.domain_card.burning-blood",
+      "relation": "replaces"
+    },
+    {
+      "new_id": "the-void.2026-07-09.domain_card.blood-puppet",
+      "previous_id": "the-void.v1.5.domain_card.blood-puppet",
+      "relation": "revised"
+    },
+    {
+      "new_id": "the-void.2026-07-09.domain_card.grisly-harpoon",
+      "previous_id": "the-void.v1.5.domain_card.grisly-harpoon",
+      "relation": "revised"
+    },
+    {
+      "new_id": "the-void.2026-07-09.domain_card.weave-the-flesh",
+      "previous_id": "the-void.v1.5.domain_card.weave-the-flesh",
+      "relation": "revised"
+    },
+    {
+      "new_id": "the-void.2026-07-09.domain_card.parasite-of-the-will",
+      "previous_id": "the-void.v1.5.domain_card.parasite-of-the-will",
+      "relation": "revised"
+    },
+    {
+      "new_id": "the-void.2026-07-09.domain_card.life-link",
+      "previous_id": "the-void.v1.5.domain_card.life-leash",
+      "relation": "replaces"
+    },
+    {
+      "new_id": "the-void.2026-07-09.domain_card.blood-bind",
+      "previous_id": "the-void.v1.5.domain_card.blood-bind",
+      "relation": "revised"
+    },
+    {
+      "new_id": "the-void.2026-07-09.domain_card.blood-touched",
+      "previous_id": "the-void.v1.5.domain_card.blood-touched",
+      "relation": "revised"
+    },
+    {
+      "new_id": "the-void.2026-07-09.domain_card.vampiric-strike",
+      "previous_id": "the-void.v1.5.domain_card.vampiric-strike",
+      "relation": "revised"
+    },
+    {
+      "new_id": "the-void.2026-07-09.domain_card.vital-ward",
+      "previous_id": "the-void.v1.5.domain_card.vital-ward",
+      "relation": "revised"
+    },
+    {
+      "new_id": "the-void.2026-07-09.domain_card.glyph-of-hemorrhaging",
+      "previous_id": "the-void.v1.5.domain_card.glyph-of-hemorrhaging",
+      "relation": "revised"
+    },
+    {
+      "new_id": "the-void.2026-07-09.domain_card.scabrous-adamance",
+      "previous_id": "the-void.v1.5.domain_card.crimson-adamance",
+      "relation": "replaces"
+    },
+    {
+      "new_id": "the-void.2026-07-09.domain_card.sanguine-feast",
+      "previous_id": "the-void.v1.5.domain_card.sanguine-feast",
+      "relation": "revised"
+    }
+  ],
+  "removed_or_unmatched_v1_5": [
+    {
+      "id": "the-void.v1.5.domain_card.vitality-manipulation",
+      "name": "Vitality Manipulation"
+    },
+    {
+      "id": "the-void.v1.5.domain_card.mutual-suffering",
+      "name": "Mutual Suffering"
+    },
+    {
+      "id": "the-void.v1.5.domain_card.runic-adrenaline",
+      "name": "Runic Adrenaline"
+    },
+    {
+      "id": "the-void.v1.5.domain_card.bloodbath",
+      "name": "Bloodbath"
+    }
+  ],
+  "added_or_unmatched_2026_07_09": [
+    {
+      "id": "the-void.2026-07-09.domain_card.palpitations",
+      "name": "Palpitations"
+    },
+    {
+      "id": "the-void.2026-07-09.domain_card.viscous-form",
+      "name": "Viscous Form"
+    },
+    {
+      "id": "the-void.2026-07-09.domain_card.bleeding-tree",
+      "name": "Bleeding Tree"
+    },
+    {
+      "id": "the-void.2026-07-09.domain_card.ichor-wave",
+      "name": "Ichor Wave"
+    }
+  ],
+  "notes": [
+    "Unmatched entries are intentionally not paired by level/slot alone.",
+    "Foundry active source remains v1.5 until a separate activation patch."
+  ]
+}

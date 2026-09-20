@@ -1,0 +1,25 @@
+{
+  "expected": {
+    "core_domains": 9,
+    "cards_per_core_domain": 21,
+    "core_cards": 189,
+    "dread_cards": 21,
+    "srd2_total_domain_cards": 210
+  },
+  "validated": {
+    "dread_identity_metadata": 21,
+    "core_card_count_from_core": 189
+  },
+  "status": {
+    "arcana": "metadata extraction pending automated/source pass",
+    "blade": "metadata extraction pending automated/source pass",
+    "bone": "metadata extraction pending automated/source pass",
+    "codex": "metadata extraction pending automated/source pass",
+    "grace": "metadata extraction pending automated/source pass",
+    "midnight": "metadata extraction pending automated/source pass",
+    "sage": "metadata extraction pending automated/source pass",
+    "splendor": "metadata extraction pending automated/source pass",
+    "valor": "metadata extraction pending automated/source pass",
+    "dread": "21/21 identity + level + type + recall cost indexed"
+  }
+}

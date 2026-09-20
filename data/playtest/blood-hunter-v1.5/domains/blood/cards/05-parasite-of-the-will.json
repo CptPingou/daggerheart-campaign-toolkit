@@ -1,0 +1,33 @@
+{
+  "id": "the-void.v1.5.domain_card.parasite-of-the-will",
+  "kind": "domain_card",
+  "identity": {
+    "name": "Parasite of the Will",
+    "slug": "parasite-of-the-will"
+  },
+  "source": {
+    "corpus": "the-void",
+    "product": "blood-hunter",
+    "version": "1.5",
+    "status": "playtest"
+  },
+  "provenance": {
+    "source_file": "Bloodhunter-v1.5-The-Void.pdf",
+    "page": 5
+  },
+  "availability": {
+    "in_srd": false,
+    "private_only": true,
+    "deprecated": false
+  },
+  "rules": {
+    "domain": "blood",
+    "level": 5,
+    "card_type": "spell",
+    "recall_cost": 1
+  },
+  "content": {
+    "rules_text": "Make a Spellcast Roll against a creature within Very Far range. On a success, mark a Hit Point to conjure a tiny magical bloodworm that burrows into the target. On a success with Hope, the target isn’t aware of the worm. You have advantage on Presence rolls against the target; when they make a roll, you can spend a Hope to give it disadvantage. You can destroy the bloodworm to cause the target to mark a Hit Point.",
+    "validation": "checked_against_pdf_v1.5"
+  }
+}

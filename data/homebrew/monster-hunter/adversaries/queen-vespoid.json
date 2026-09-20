@@ -1,0 +1,102 @@
+{
+  "id": "homebrew.monster-hunter.adversary.queen-vespoid",
+  "kind": "adversary",
+  "tier": 1,
+  "role": "Leader",
+  "name": "Reine Vespoid",
+  "motives_tactics": "Rester en hauteur, commander l'essaim, encercler, harceler, isoler les proies",
+  "difficulty": 13,
+  "thresholds": {
+    "major": 7,
+    "severe": 13
+  },
+  "hp": 6,
+  "stress": 4,
+  "stress_none": false,
+  "attack": {
+    "modifier": 3,
+    "name": "Dard royal",
+    "range": "Very Close",
+    "damage": "1d8+2",
+    "damage_type": "phy"
+  },
+  "experience_text": "Vol +3, Commandement d'essaim +3",
+  "features_text": "Vol royal - Passive: Tant que la Reine Vespoid vole, elle gagne +2 à sa Difficulty. Appel de l'essaim - Action: Une fois par scène, marquez 1 Stress pour invoquer trois Vespoid Minions, qui apparaissent à portée Far de la Reine. Commandement royal - Action: Quand vous mettez la Reine Vespoid en Spotlight, marquez 1 Stress pour mettre également en Spotlight jusqu'à deux Vespoid Minions à portée Far. Ils agissent l'un après l'autre. Dard paralysant - Reaction: Quand la Reine Vespoid réussit son attaque standard et que la cible marque au moins 1 HP, vous pouvez dépenser 1 Fear pour lui faire marquer 1 Stress supplémentaire.",
+  "source": {
+    "corpus": "monster-hunter-homebrew",
+    "version": "0.1",
+    "status": "homebrew"
+  },
+  "canonical": true,
+  "features": [
+    {
+      "name": "Vol royal",
+      "type": "Passive",
+      "text": "Tant que la Reine Vespoid vole, elle gagne +2 à sa Difficulty."
+    },
+    {
+      "name": "Appel de l'essaim",
+      "type": "Action",
+      "text": "Une fois par scène, marquez 1 Stress pour invoquer trois Vespoid Minions, qui apparaissent à portée Far de la Reine."
+    },
+    {
+      "name": "Commandement royal",
+      "type": "Action",
+      "text": "Quand vous mettez la Reine Vespoid en Spotlight, marquez 1 Stress pour mettre également en Spotlight jusqu'à deux Vespoid Minions à portée Far. Ils agissent l'un après l'autre."
+    },
+    {
+      "name": "Dard paralysant",
+      "type": "Reaction",
+      "text": "Quand la Reine Vespoid réussit son attaque standard et que la cible marque au moins 1 HP, vous pouvez dépenser 1 Fear pour lui faire marquer 1 Stress supplémentaire."
+    }
+  ],
+  "hunting": {
+    "schemaVersion": 1,
+    "footprint": {
+      "width": 2,
+      "height": 2
+    },
+    "tags": [
+      "flying"
+    ],
+    "mobility": {
+      "mode": "flying",
+      "state": "elevated"
+    },
+    "reactions": {
+      "normal": {
+        "name": "Crache-venin",
+        "trigger": [
+          "success-fear",
+          "failure-hope"
+        ],
+        "target": "opener",
+        "supportWindow": true,
+        "resolution": {
+          "kind": "attack",
+          "attack": {
+            "modifier": 3,
+            "name": "Crache-venin",
+            "range": "Far",
+            "damage": "1d8",
+            "damage_type": "phy"
+          },
+          "onHit": {
+            "markStress": 1
+          }
+        }
+      },
+      "fear": {
+        "name": "Nuée paralysante",
+        "trigger": [
+          "failure-fear"
+        ],
+        "baseReaction": "normal",
+        "resolution": {
+          "kind": "consequence",
+          "text": "Après Crache-venin, si l'attaque touche, l'Opener marque 1 Stress supplémentaire et ne peut pas se déplacer avant la fin de sa prochaine action."
+        }
+      }
+    }
+  }
+}

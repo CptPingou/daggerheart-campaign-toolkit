@@ -1,0 +1,195 @@
+{
+  "phase": "P2.1.1",
+  "target": {
+    "system": "Foundryborne Daggerheart",
+    "version_observed": "2.7.2",
+    "foundry": {
+      "minimum": "14.364",
+      "verified": "14.365",
+      "maximum": "14"
+    }
+  },
+  "rule": "Use a native Foundryborne/Foundry document whenever one exists. Do not create a parallel type.",
+  "entities": [
+    {
+      "dh_data": "class",
+      "foundry_document": "Item",
+      "foundryborne_type": "class",
+      "route": "DIRECT",
+      "notes": "Native class Item; domains, linked class Items/features, inventory choices and character guide fields exist."
+    },
+    {
+      "dh_data": "subclass",
+      "foundry_document": "Item",
+      "foundryborne_type": "subclass",
+      "route": "DIRECT",
+      "notes": "Native subclass Item with linkedClass, spellcastingTrait, featureState and linked features."
+    },
+    {
+      "dh_data": "feature",
+      "foundry_document": "Item",
+      "foundryborne_type": "feature",
+      "route": "DIRECT",
+      "notes": "Native generic feature Item exists and is used by classes, subclasses, ancestries, adversaries and environments."
+    },
+    {
+      "dh_data": "domain",
+      "foundry_document": "System configuration",
+      "foundryborne_type": "CONFIG.DH.DOMAIN",
+      "route": "CONFIG",
+      "notes": "Domain itself is not an Item document type. Built-in domains are config entries; homebrew domains are merged from Foundryborne Homebrew settings."
+    },
+    {
+      "dh_data": "domain_card",
+      "foundry_document": "Item",
+      "foundryborne_type": "domainCard",
+      "route": "DIRECT",
+      "notes": "Native Domain Card with domain, level, recallCost, card type, vault/loadout state, actions and resource support."
+    },
+    {
+      "dh_data": "ancestry",
+      "foundry_document": "Item",
+      "foundryborne_type": "ancestry",
+      "route": "DIRECT",
+      "notes": "Native ancestry Item with linked features and optional loreReference."
+    },
+    {
+      "dh_data": "community",
+      "foundry_document": "Item",
+      "foundryborne_type": "community",
+      "route": "DIRECT",
+      "notes": "Native community Item with linked feature UUIDs and optional loreReference."
+    },
+    {
+      "dh_data": "weapon",
+      "foundry_document": "Item",
+      "foundryborne_type": "weapon",
+      "route": "DIRECT",
+      "notes": "Native inventory Item with tier, equip/secondary/burden, attack action, weapon features, actions and item resource."
+    },
+    {
+      "dh_data": "armor",
+      "foundry_document": "Item",
+      "foundryborne_type": "armor",
+      "route": "DIRECT",
+      "notes": "Native inventory Item with tier, armor slots, thresholds, armor features, actions and item resource."
+    },
+    {
+      "dh_data": "consumable",
+      "foundry_document": "Item",
+      "foundryborne_type": "consumable",
+      "route": "DIRECT",
+      "notes": "Native inventory Item, actions supported, consumeOnUse flag."
+    },
+    {
+      "dh_data": "loot",
+      "foundry_document": "Item",
+      "foundryborne_type": "loot",
+      "route": "DIRECT",
+      "notes": "Native inventory Item with description and actions."
+    },
+    {
+      "dh_data": "item_generic",
+      "foundry_document": "Item",
+      "foundryborne_type": "loot",
+      "route": "DIRECT_WITH_CLASSIFICATION",
+      "notes": "Generic SRD items should normally land in loot unless their mechanics make them a consumable/weapon/armor."
+    },
+    {
+      "dh_data": "beastform",
+      "foundry_document": "Item",
+      "foundryborne_type": "beastform",
+      "route": "DIRECT",
+      "notes": "Native Beastform Item with tier, token data, trait, advantages, linked features and evolved/hybrid data."
+    },
+    {
+      "dh_data": "adversary",
+      "foundry_document": "Actor",
+      "foundryborne_type": "adversary",
+      "route": "DIRECT",
+      "notes": "Native adversary Actor with tier, adversary role/type, motives/tactics, difficulty, thresholds, attack, experiences and embedded feature Items."
+    },
+    {
+      "dh_data": "environment",
+      "foundry_document": "Actor",
+      "foundryborne_type": "environment",
+      "route": "DIRECT",
+      "notes": "Native environment Actor with tier, type, impulses, difficulty, potential adversaries, notes and embedded feature Items."
+    },
+    {
+      "dh_data": "transformation",
+      "foundry_document": "—",
+      "foundryborne_type": null,
+      "route": "NO_NATIVE_TYPE",
+      "notes": "Foundryborne 2.7.2 documentTypes expose no transformation Item/Actor type. Keep neutral data; decide later between Journal + native effects/features or a small extension after an empirical pilot."
+    },
+    {
+      "dh_data": "campaign_frame",
+      "foundry_document": "JournalEntry",
+      "foundryborne_type": null,
+      "route": "JOURNAL",
+      "notes": "No dedicated Foundryborne document type; use one JournalEntry per Campaign Frame with pages and @UUID links."
+    },
+    {
+      "dh_data": "campaign_mechanic",
+      "foundry_document": "JournalEntry / RollTable / linked native docs",
+      "foundryborne_type": null,
+      "route": "JOURNAL_FIRST",
+      "notes": "Document the mechanic first. Promote only concrete roll tables/items/macros/actions when the rule benefits from automation."
+    },
+    {
+      "dh_data": "roll_table",
+      "foundry_document": "RollTable",
+      "foundryborne_type": null,
+      "route": "DIRECT_FOUNDRY",
+      "notes": "Foundryborne already declares a RollTable compendium; use Foundry core RollTables."
+    },
+    {
+      "dh_data": "journal_reference",
+      "foundry_document": "JournalEntry",
+      "foundryborne_type": null,
+      "route": "DIRECT_FOUNDRY",
+      "notes": "Foundryborne declares a JournalEntry compendium; ancestry/community already support loreReference links."
+    }
+  ],
+  "existing_packs": [
+    "classes",
+    "subclasses",
+    "domains",
+    "ancestries",
+    "communities",
+    "weapons",
+    "armors",
+    "consumables",
+    "loot",
+    "adversaries",
+    "environments",
+    "journals",
+    "rolltables",
+    "beastforms"
+  ],
+  "important_findings": [
+    "Environment is a native Actor, not a Journal.",
+    "Campaign Frame has no dedicated Foundryborne type and should be a JournalEntry.",
+    "Domain is configuration rather than a document type; Domain Cards are native Items.",
+    "Transformation has no native document type in Foundryborne 2.7.2.",
+    "Weapon already supports actions, features and a resource, which is a useful base for later evolving weapons.",
+    "Domain Card currently enforces character-domain membership on creation, so narrative Hunt cards will require a deliberately small extension later rather than a parallel card system."
+  ],
+  "sources": {
+    "system_json": "https://github.com/Foundryborne/daggerheart/blob/main/system.json",
+    "class": "https://raw.githubusercontent.com/Foundryborne/daggerheart/main/module/data/item/class.mjs",
+    "subclass": "https://raw.githubusercontent.com/Foundryborne/daggerheart/main/module/data/item/subclass.mjs",
+    "domain_card": "https://raw.githubusercontent.com/Foundryborne/daggerheart/main/module/data/item/domainCard.mjs",
+    "domain_config": "https://raw.githubusercontent.com/Foundryborne/daggerheart/main/module/config/domainConfig.mjs",
+    "weapon": "https://raw.githubusercontent.com/Foundryborne/daggerheart/main/module/data/item/weapon.mjs",
+    "armor": "https://raw.githubusercontent.com/Foundryborne/daggerheart/main/module/data/item/armor.mjs",
+    "consumable": "https://raw.githubusercontent.com/Foundryborne/daggerheart/main/module/data/item/consumable.mjs",
+    "loot": "https://raw.githubusercontent.com/Foundryborne/daggerheart/main/module/data/item/loot.mjs",
+    "ancestry": "https://raw.githubusercontent.com/Foundryborne/daggerheart/main/module/data/item/ancestry.mjs",
+    "community": "https://raw.githubusercontent.com/Foundryborne/daggerheart/main/module/data/item/community.mjs",
+    "beastform": "https://raw.githubusercontent.com/Foundryborne/daggerheart/main/module/data/item/beastform.mjs",
+    "adversary": "https://raw.githubusercontent.com/Foundryborne/daggerheart/main/module/data/actor/adversary.mjs",
+    "environment": "https://raw.githubusercontent.com/Foundryborne/daggerheart/main/module/data/actor/environment.mjs"
+  }
+}

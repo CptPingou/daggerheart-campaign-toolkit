@@ -1,0 +1,33 @@
+{
+  "id": "the-void.v1.5.domain_card.blood-touched",
+  "kind": "domain_card",
+  "identity": {
+    "name": "Blood-Touched",
+    "slug": "blood-touched"
+  },
+  "source": {
+    "corpus": "the-void",
+    "product": "blood-hunter",
+    "version": "1.5",
+    "status": "playtest"
+  },
+  "provenance": {
+    "source_file": "Bloodhunter-v1.5-The-Void.pdf",
+    "page": 5
+  },
+  "availability": {
+    "in_srd": false,
+    "private_only": true,
+    "deprecated": false
+  },
+  "rules": {
+    "domain": "blood",
+    "level": 7,
+    "card_type": "ability",
+    "recall_cost": 1
+  },
+  "content": {
+    "rules_text": "While 4 or more domain cards in your loadout are from the Blood domain: when you take enough damage to mark 2 or more Hit Points, gain a Hope; for every 3 Hit Points you have marked, gain +1 Evasion.",
+    "validation": "checked_against_pdf_v1.5"
+  }
+}

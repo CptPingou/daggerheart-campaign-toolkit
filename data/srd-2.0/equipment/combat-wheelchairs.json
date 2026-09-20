@@ -1,0 +1,286 @@
+[
+  {
+    "id": "srd-2.0.weapon.combat-wheelchair.1.light-frame-wheelchair",
+    "kind": "weapon",
+    "slot": "primary",
+    "tier": 1,
+    "name": "Light-Frame Wheelchair",
+    "trait": "Agility",
+    "range": "Melee",
+    "damage": "d8",
+    "damage_type": "phy",
+    "burden": "One-Handed",
+    "feature": {
+      "name": "Quick",
+      "text": "When you make an attack, you can mark a Stress to target another creature within range."
+    },
+    "source_subset": "combat-wheelchair",
+    "source": {
+      "corpus": "daggerheart-srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "canonical": false
+  },
+  {
+    "id": "srd-2.0.weapon.combat-wheelchair.2.improved-light-frame-wheelchair",
+    "kind": "weapon",
+    "slot": "primary",
+    "tier": 2,
+    "name": "Improved Light-Frame Wheelchair",
+    "trait": "Agility",
+    "range": "Melee",
+    "damage": "d8+3",
+    "damage_type": "phy",
+    "burden": "One-Handed",
+    "feature": {
+      "name": "Quick",
+      "text": "When you make an attack, you can mark a Stress to target another creature within range."
+    },
+    "source_subset": "combat-wheelchair",
+    "source": {
+      "corpus": "daggerheart-srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "canonical": false
+  },
+  {
+    "id": "srd-2.0.weapon.combat-wheelchair.3.advanced-light-frame-wheelchair",
+    "kind": "weapon",
+    "slot": "primary",
+    "tier": 3,
+    "name": "Advanced Light-Frame Wheelchair",
+    "trait": "Agility",
+    "range": "Melee",
+    "damage": "d8+6",
+    "damage_type": "phy",
+    "burden": "One-Handed",
+    "feature": {
+      "name": "Quick",
+      "text": "When you make an attack, you can mark a Stress to target another creature within range."
+    },
+    "source_subset": "combat-wheelchair",
+    "source": {
+      "corpus": "daggerheart-srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "canonical": false
+  },
+  {
+    "id": "srd-2.0.weapon.combat-wheelchair.4.legendary-light-frame-wheelchair",
+    "kind": "weapon",
+    "slot": "primary",
+    "tier": 4,
+    "name": "Legendary Light-Frame Wheelchair",
+    "trait": "Agility",
+    "range": "Melee",
+    "damage": "d8+9",
+    "damage_type": "phy",
+    "burden": "One-Handed",
+    "feature": {
+      "name": "Quick",
+      "text": "When you make an attack, you can mark a Stress to target another creature within range."
+    },
+    "source_subset": "combat-wheelchair",
+    "source": {
+      "corpus": "daggerheart-srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "canonical": false,
+    "feature_integrity": {
+      "status": "boundary-repaired",
+      "patch": "P2.3.3o-a-fix1"
+    }
+  },
+  {
+    "id": "srd-2.0.weapon.combat-wheelchair.1.heavy-frame-wheelchair",
+    "kind": "weapon",
+    "slot": "primary",
+    "tier": 1,
+    "name": "Heavy-Frame Wheelchair",
+    "trait": "Strength",
+    "range": "Melee",
+    "damage": "d12+3",
+    "damage_type": "phy",
+    "burden": "Two-Handed",
+    "feature": {
+      "name": "Heavy",
+      "text": "−1 to Evasion"
+    },
+    "source_subset": "combat-wheelchair",
+    "source": {
+      "corpus": "daggerheart-srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "canonical": false
+  },
+  {
+    "id": "srd-2.0.weapon.combat-wheelchair.2.improved-heavy-frame-wheelchair",
+    "kind": "weapon",
+    "slot": "primary",
+    "tier": 2,
+    "name": "Improved Heavy-Frame Wheelchair",
+    "trait": "Strength",
+    "range": "Melee",
+    "damage": "d12+6",
+    "damage_type": "phy",
+    "burden": "Two-Handed",
+    "feature": {
+      "name": "Heavy",
+      "text": "−1 to Evasion"
+    },
+    "source_subset": "combat-wheelchair",
+    "source": {
+      "corpus": "daggerheart-srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "canonical": false
+  },
+  {
+    "id": "srd-2.0.weapon.combat-wheelchair.3.advanced-heavy-frame-wheelchair",
+    "kind": "weapon",
+    "slot": "primary",
+    "tier": 3,
+    "name": "Advanced Heavy-Frame Wheelchair",
+    "trait": "Strength",
+    "range": "Melee",
+    "damage": "d12+9",
+    "damage_type": "phy",
+    "burden": "Two-Handed",
+    "feature": {
+      "name": "Heavy",
+      "text": "−1 to Evasion"
+    },
+    "source_subset": "combat-wheelchair",
+    "source": {
+      "corpus": "daggerheart-srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "canonical": false
+  },
+  {
+    "id": "srd-2.0.weapon.combat-wheelchair.4.legendary-heavy-frame-wheelchair",
+    "kind": "weapon",
+    "slot": "primary",
+    "tier": 4,
+    "name": "Legendary Heavy-Frame Wheelchair",
+    "trait": "Strength",
+    "range": "Melee",
+    "damage": "d12+12",
+    "damage_type": "phy",
+    "burden": "Two-Handed",
+    "feature": {
+      "name": "Heavy",
+      "text": "−1 to Evasion."
+    },
+    "source_subset": "combat-wheelchair",
+    "source": {
+      "corpus": "daggerheart-srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "canonical": false,
+    "feature_integrity": {
+      "status": "boundary-repaired",
+      "patch": "P2.3.3o-a-fix1"
+    }
+  },
+  {
+    "id": "srd-2.0.weapon.combat-wheelchair.1.arcane-frame-wheelchair",
+    "kind": "weapon",
+    "slot": "primary",
+    "tier": 1,
+    "name": "Arcane-Frame Wheelchair",
+    "trait": "Spellcast",
+    "range": "Far",
+    "damage": "d6",
+    "damage_type": "mag",
+    "burden": "One-Handed",
+    "feature": {
+      "name": "Reliable",
+      "text": "+1 to attack rolls"
+    },
+    "source_subset": "combat-wheelchair",
+    "source": {
+      "corpus": "daggerheart-srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "canonical": false
+  },
+  {
+    "id": "srd-2.0.weapon.combat-wheelchair.2.improved-arcane-frame-wheelchair",
+    "kind": "weapon",
+    "slot": "primary",
+    "tier": 2,
+    "name": "Improved Arcane-Frame Wheelchair",
+    "trait": "Spellcast",
+    "range": "Far",
+    "damage": "d6+3",
+    "damage_type": "mag",
+    "burden": "One-Handed",
+    "feature": {
+      "name": "Reliable",
+      "text": "+1 to attack rolls"
+    },
+    "source_subset": "combat-wheelchair",
+    "source": {
+      "corpus": "daggerheart-srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "canonical": false
+  },
+  {
+    "id": "srd-2.0.weapon.combat-wheelchair.3.advanced-arcane-frame-wheelchair",
+    "kind": "weapon",
+    "slot": "primary",
+    "tier": 3,
+    "name": "Advanced Arcane-Frame Wheelchair",
+    "trait": "Spellcast",
+    "range": "Far",
+    "damage": "d6+6",
+    "damage_type": "mag",
+    "burden": "One-Handed",
+    "feature": {
+      "name": "Reliable",
+      "text": "+1 to attack rolls"
+    },
+    "source_subset": "combat-wheelchair",
+    "source": {
+      "corpus": "daggerheart-srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "canonical": false
+  },
+  {
+    "id": "srd-2.0.weapon.combat-wheelchair.4.legendary-arcane-frame-wheelchair",
+    "kind": "weapon",
+    "slot": "primary",
+    "tier": 4,
+    "name": "Legendary Arcane-Frame Wheelchair",
+    "trait": "Spellcast",
+    "range": "Far",
+    "damage": "d6+9",
+    "damage_type": "mag",
+    "burden": "One-Handed",
+    "feature": {
+      "name": "Reliable",
+      "text": "+1 to attack rolls"
+    },
+    "source_subset": "combat-wheelchair",
+    "source": {
+      "corpus": "daggerheart-srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "canonical": false
+  }
+]

@@ -1,0 +1,23 @@
+{
+  "status": "OPEN",
+  "items": [
+    {
+      "kind": "subclass_pair",
+      "classes": [
+        "Warlock",
+        "Witch"
+      ],
+      "known_names_from_HF_search": [
+        "Hedge",
+        "Moon"
+      ],
+      "problem": "The current extraction chunk shows Hedge and Moon adjacent to WARLOCK SUBCLASSES / WITCH SUBCLASSES but does not safely establish which class owns which pair. Do not canonize until a direct page extraction resolves the headings.",
+      "blocking": false
+    },
+    {
+      "kind": "foundryborne_baseline",
+      "problem": "Foundryborne 2.7.2 declares SRD compendiums, but this pass does not assume that every pack entry is already synchronized to SRD 2.0. Compare identities after SRD indexing.",
+      "blocking": false
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "id": "srd-2.0.supplemental-campaign-mechanic.faction-tracking",
+  "kind": "supplemental_campaign_mechanic",
+  "identity": {
+    "name": "Faction Tracking",
+    "slug": "faction-tracking"
+  },
+  "source": {
+    "corpus": "daggerheart-srd",
+    "version": "2.0",
+    "status": "srd"
+  },
+  "provenance": {
+    "start_printed_page": 190,
+    "end_printed_page": 190
+  },
+  "rules_text": "You can use a campaign sheet to track multiple factions, the \nrelationships between them, and their distinguishing assets, \nproblems, or objectives, as well as their major assets and \nproblems. \nRELATIONSHIPS\nThe relationship between two factions is designated by a \nnumber between −3 and +3:\n• −3: Nemeses\n• −2: Opposed\n• −1: Unfriendly\n• 0: Neutral, Ambiguous, or Ambivalent\n• +1: Friendly\n• +2: Allied\n• +3: Close Allies\nThe more intense their relationship, the more willing one \nfaction is to act on behalf of or against the other, even at risk \nto itself. A Friendly (+1) faction might render help if it doesn’t \nrequire much effort or risk, whereas a faction will go to great \neffort and expense to see its Nemeses (−3) suffer.\nFACTION CARDS\nEach Faction Card contains the following information:\n• Name: What the faction is called\n• Relationships: The faction’s relationship rank with other \nfactions\n• Assets: 1–3 advantages the faction has, such as a large \nmilitary or access to superior technology\n• Problems: 1–3 disadvantages the faction has, such as a \nsmall territory or negative reputation\n• Major Objectives: 1–3 goals the faction would expend \nsignificant resources to achieve, such as establishing a \nnew trade route\n• Minor Objectives: 1–3 less critical goals the faction \nwould like to achieve, such as mounting a festival or \nimplementing a civic project\nSUPPLEMENTAL  \nCAMPAIGN MECHANICS \nYou can use following optional mechanics to supplement your campaigns.\nOBJECTIVE COUNTDOWNS\nYou can use long-term countdowns to track a faction’s efforts \nto exploit their assets, address their problems, and pursue \ntheir major and minor objectives.\nEach in-game week, pick one countdown for each faction \nto advance (stepping down the countdown by one tick) as it \nmakes progress toward its goal. These countdowns can also \ntick up (or down extra steps) according to the fiction.\nWhen a countdown triggers, the relevant faction acquires \nan asset, removes a problem, or achieves some other \nobjective. Pick a new goal based on the fiction and start a \nnew countdown. Each nation can have no more than one \nmajor objective countdown and up to two minor objective \ncountdowns active at the same time.\nAchieving a major objective requires the faction to complete \nan Objective Countdown (10), whereas achieving a minor \nobjective requires the faction to complete an Objective \nCountdown (4–6), depending on the scale of the endeavor. \nStagger the progression of your factions’ objective \ncountdowns so that no more than one or two trigger each \nin-game week. Triggering multiple objective countdowns at the \nsame time can cause weeks of inactivity afterward and lessen \nthe tension of the various lingering conflicts.\nThe party may often be dispatched or mobilized to complete \nor block these objectives. Meanwhile, completed countdowns \ngenerate major narrative shifts for the party to respond to.\n190\nDaggerheart SRD",
+  "raw_heading": "FACTION TRACKING",
+  "mechanics": {
+    "mechanic_type": "faction_tracking",
+    "subsections": [
+      {
+        "name": "Introduction",
+        "rules_text": "You can use a campaign sheet to track multiple factions, the\nrelationships between them, and their distinguishing assets,\nproblems, or objectives, as well as their major assets and\nproblems.",
+        "id": "introduction"
+      },
+      {
+        "name": "Relationships",
+        "raw_heading": "RELATIONSHIPS",
+        "rules_text": "The relationship between two factions is designated by a\nnumber between −3 and +3:\n• −3: Nemeses\n• −2: Opposed\n• −1: Unfriendly\n• 0: Neutral, Ambiguous, or Ambivalent\n• +1: Friendly\n• +2: Allied\n• +3: Close Allies\nThe more intense their relationship, the more willing one\nfaction is to act on behalf of or against the other, even at risk\nto itself. A Friendly (+1) faction might render help if it doesn’t\nrequire much effort or risk, whereas a faction will go to great\neffort and expense to see its Nemeses (−3) suffer.",
+        "id": "relationships"
+      },
+      {
+        "name": "Faction Cards",
+        "raw_heading": "FACTION CARDS",
+        "rules_text": "Each Faction Card contains the following information:\n• Name: What the faction is called\n• Relationships: The faction’s relationship rank with other\nfactions\n• Assets: 1–3 advantages the faction has, such as a large\nmilitary or access to superior technology\n• Problems: 1–3 disadvantages the faction has, such as a\nsmall territory or negative reputation\n• Major Objectives: 1–3 goals the faction would expend\nsignificant resources to achieve, such as establishing a\nnew trade route\n• Minor Objectives: 1–3 less critical goals the faction\nwould like to achieve, such as mounting a festival or\nimplementing a civic project",
+        "id": "faction-cards"
+      },
+      {
+        "name": "Campaign Mechanics",
+        "raw_heading": "CAMPAIGN MECHANICS",
+        "rules_text": "You can use following optional mechanics to supplement your campaigns.",
+        "id": "campaign-mechanics"
+      },
+      {
+        "name": "Objective Countdowns",
+        "raw_heading": "OBJECTIVE COUNTDOWNS",
+        "rules_text": "You can use long-term countdowns to track a faction’s efforts\nto exploit their assets, address their problems, and pursue\ntheir major and minor objectives.\nEach in-game week, pick one countdown for each faction\nto advance (stepping down the countdown by one tick) as it\nmakes progress toward its goal. These countdowns can also\ntick up (or down extra steps) according to the fiction.\nWhen a countdown triggers, the relevant faction acquires\nan asset, removes a problem, or achieves some other\nobjective. Pick a new goal based on the fiction and start a\nnew countdown. Each nation can have no more than one\nmajor objective countdown and up to two minor objective\ncountdowns active at the same time.\nAchieving a major objective requires the faction to complete\nan Objective Countdown (10), whereas achieving a minor\nobjective requires the faction to complete an Objective\nCountdown (4–6), depending on the scale of the endeavor.\nStagger the progression of your factions’ objective\ncountdowns so that no more than one or two trigger each\nin-game week. Triggering multiple objective countdowns at the\nsame time can cause weeks of inactivity afterward and lessen\nthe tension of the various lingering conflicts.\nThe party may often be dispatched or mobilized to complete\nor block these objectives. Meanwhile, completed countdowns\ngenerate major narrative shifts for the party to respond to.\n190\nDaggerheart SRD",
+        "id": "objective-countdowns"
+      }
+    ],
+    "normalization_level": "structural"
+  },
+  "normalization": {
+    "phase": "P1.1f-b1-fix1",
+    "status": "normalized",
+    "source_field": "rules_text"
+  }
+}

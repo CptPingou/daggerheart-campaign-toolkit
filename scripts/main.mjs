@@ -1,3 +1,8 @@
+import {
+  installToolkitCardPresentationBridge,
+  toolkitCardPresentation,
+  toolkitCardPresentationStatus,
+} from "./toolkit-card-presentation.mjs";
 import { localizeNativeEquipmentConfigLabels } from "./equipment-native-fr.mjs";
 import { localizeNativeCharacterOptions, registerNativeCharacterOptionPresentation } from "./character-options-native-fr.mjs";
 import { preferOwnedCharacterOptionPacks } from "./owned-character-options.mjs";
@@ -19,6 +24,7 @@ import { createEngagementOpenerApi, registerEngagementOpenerChatHook } from "./e
 import { createEngagementFinisherApi, registerEngagementFinisherChatHook } from "./engagement-finisher.mjs";
 import { createEngagementSupportApi, registerEngagementSupportActionHook } from "./engagement-support.mjs";
 import { createEngagementApi } from "./engagement.mjs";
+import { registerEngagementStateSetting, engagementStateApi } from "./engagement-state.mjs";
 import { MONSTER_HUNTER_ENGAGEMENT_CONTRACT, monsterHunterEngagementStatus } from "./monster-hunter-engagement-contract.mjs";
 import {
   MONSTER_HUNTER_OPPORTUNITY_RULES,
@@ -115,6 +121,7 @@ const huntingDomainBootstrapped = registerHuntingDomain();
 
 Hooks.once("init", () => {
   console.log(`${MODULE_ID} | init`);
+  registerEngagementStateSetting();
   if (!bloodDomainBootstrapped && !CONFIG?.DH?.DOMAIN?.domains?.blood) {
     registerBloodDomain();
   }
@@ -172,9 +179,10 @@ Hooks.once("init", () => {
     auditNativeDomainCardMechanics,
     reconstructNativeDomainCardMechanics,
     engagementOpportunity: engagementOpportunityApi,
-    engagementOpener: createEngagementOpenerApi(engagementOpportunityApi),
-    engagementFinisher: createEngagementFinisherApi(engagementOpportunityApi),
+    engagementOpener: createEngagementOpenerApi(engagementOpportunityApi, engagementStateApi),
+    engagementFinisher: createEngagementFinisherApi(engagementOpportunityApi, engagementStateApi),
     engagementSupport: createEngagementSupportApi(),
+    engagementState: engagementStateApi,
     monsterHunterEngagement: Object.freeze({
       contract: MONSTER_HUNTER_ENGAGEMENT_CONTRACT,
       status: () => monsterHunterEngagementStatus(game.modules.get(MODULE_ID).api),
@@ -224,6 +232,7 @@ Hooks.once("init", () => {
     opener: toolkitApi.engagementOpener,
     finisher: toolkitApi.engagementFinisher,
     support: toolkitApi.engagementSupport,
+    state: toolkitApi.engagementState,
   });
 
   const huntingCardsBaseApi = toolkitApi.huntingCards;
@@ -250,7 +259,7 @@ Hooks.once("init", () => {
 
   registerEngagementOpenerChatHook(toolkitApi.engagementOpener);
   registerEngagementFinisherChatHook(toolkitApi.engagementFinisher);
-  registerEngagementSupportActionHook(toolkitApi.engagementSupport);
+  registerEngagementSupportActionHook(toolkitApi.engagementSupport, toolkitApi.engagementState);
   registerWeaponAugmentSheetIntegration();
   registerToolkitCardSheetIntegration();
 });
@@ -320,4 +329,20 @@ Hooks.once("ready", async () => {
     console.error(`${MODULE_ID} | smoke macro seed failed`, error);
     try { await pack.configure({ locked: true }); } catch {}
   }
+});
+
+
+// P2.8n.1 — presentation-only virtual family label bridge.
+Hooks.once("init", () => {
+  installToolkitCardPresentationBridge();
+});
+
+
+Hooks.once("ready", () => {
+  const module = game.modules.get("daggerheart-campaign-toolkit");
+  if (!module?.api) return;
+  module.api.toolkitCardPresentation = {
+    inspect: toolkitCardPresentation,
+    status: toolkitCardPresentationStatus,
+  };
 });

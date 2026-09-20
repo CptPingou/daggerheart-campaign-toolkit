@@ -1,0 +1,33 @@
+{
+  "id": "the-void.v1.5.domain_card.blood-spike",
+  "kind": "domain_card",
+  "identity": {
+    "name": "Blood Spike",
+    "slug": "blood-spike"
+  },
+  "source": {
+    "corpus": "the-void",
+    "product": "blood-hunter",
+    "version": "1.5",
+    "status": "playtest"
+  },
+  "provenance": {
+    "source_file": "Bloodhunter-v1.5-The-Void.pdf",
+    "page": 4
+  },
+  "availability": {
+    "in_srd": false,
+    "private_only": true,
+    "deprecated": false
+  },
+  "rules": {
+    "domain": "blood",
+    "level": 1,
+    "card_type": "spell",
+    "recall_cost": 1
+  },
+  "content": {
+    "rules_text": "Make a Spellcast Roll against a target within Far range. On a success, mark a Stress to deal d10 magic damage to the target using your Proficiency. On a success with Hope, the target also marks a Stress. On a roll with Fear, mark a Stress.",
+    "validation": "checked_against_pdf_v1.5"
+  }
+}

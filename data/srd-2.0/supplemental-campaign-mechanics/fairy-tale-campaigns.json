@@ -1,0 +1,59 @@
+{
+  "id": "srd-2.0.supplemental-campaign-mechanic.fairy-tale-campaigns",
+  "kind": "supplemental_campaign_mechanic",
+  "identity": {
+    "name": "Fairy Tale Campaigns",
+    "slug": "fairy-tale-campaigns"
+  },
+  "source": {
+    "corpus": "daggerheart-srd",
+    "version": "2.0",
+    "status": "srd"
+  },
+  "provenance": {
+    "start_printed_page": 200,
+    "end_printed_page": 200
+  },
+  "rules_text": "You can use the following mechanics in campaigns that center \non curses, queens, and oracles.\nCURSES\nA creature afflicted with a magical curse gains the Cursed \ncondition. The Cursed condition can only be cleared by \nmagic from a spell, ritual, magic item, location, supernatural \noccurrence, higher power, or some combination of these \noptions. Discovering how to end a curse often requires \nresearch, which might prompt the PCs to undergo a quest for \nadditional information or help from an NPC.\nTRANSFORMING ADVERSARIES\n“Transform” is a special action that enables an adversary to \nshift between multiple stat blocks. By default, the adversary \nhas a primary stat block that includes stats and features \navailable to the adversary regardless of their active form. \nWhile in a particular form, the adversary has access to the \nstats and features contained in that form’s stat block and their \nprimary stat block. Unless noted otherwise, the adversary \ntracks HP and Stress on their primary stat block regardless of \ntheir active form.\nBUILDING VILLAINS \nCOLLABORATIVELY\nYou can build a campaign villain collaboratively using the \nfollowing process.\nPrior to your session zero, write approximately 40 prompts, \neach in the form of a question about the villain. For example, \nyou might ask about the villain’s background, demeanor, \nmotives, or reputation. Write each prompt on an index card or \nslip of paper. For inspiration, see the Reign of the Weredragon \nVillain Builder sheet in Hope & Fear or available online at  \ndaggerheart.com/downloads.\nDuring session zero (and prior to character creation) randomly \nselect about 15 of your prepared prompts and place them in \nthe center of the table so that everyone can reach them but no \none can read them.\nStarting with the person to your left, each player draws one of \nthe pre-selected prompts and reads it aloud, then chooses one \nof the following options:\n• The active player can answer the prompt. Other players \ncan ask follow-up questions, though the active player can \nchoose not to answer them.\n• The active player can remove the prompt from play and \ndraw a new prompt.\n• The active player can pass the prompt to another player, \nwho likewise chooses to answer, remove, or pass it.\nWhen there are no more follow-up questions to a prompt, play \npasses to the left. Continue in this manner until all prompts at \nthe center of the table have been answered or removed. Then \nproceed to character creation.\n200\nDaggerheart SRD",
+  "raw_heading": "FAIRY TALE CAMPAIGNS",
+  "mechanics": {
+    "mechanic_type": "fairy_tale_campaign",
+    "subsections": [
+      {
+        "name": "Introduction",
+        "rules_text": "You can use the following mechanics in campaigns that center\non curses, queens, and oracles.",
+        "id": "introduction"
+      },
+      {
+        "name": "Curses",
+        "raw_heading": "CURSES",
+        "rules_text": "A creature afflicted with a magical curse gains the Cursed\ncondition. The Cursed condition can only be cleared by\nmagic from a spell, ritual, magic item, location, supernatural\noccurrence, higher power, or some combination of these\noptions. Discovering how to end a curse often requires\nresearch, which might prompt the PCs to undergo a quest for\nadditional information or help from an NPC.",
+        "id": "curses"
+      },
+      {
+        "name": "Transforming Adversaries",
+        "raw_heading": "TRANSFORMING ADVERSARIES",
+        "rules_text": "“Transform” is a special action that enables an adversary to\nshift between multiple stat blocks. By default, the adversary\nhas a primary stat block that includes stats and features\navailable to the adversary regardless of their active form.\nWhile in a particular form, the adversary has access to the\nstats and features contained in that form’s stat block and their\nprimary stat block. Unless noted otherwise, the adversary\ntracks HP and Stress on their primary stat block regardless of\ntheir active form.",
+        "id": "transforming-adversaries"
+      },
+      {
+        "name": "Collaboratively",
+        "raw_heading": "COLLABORATIVELY",
+        "rules_text": "You can build a campaign villain collaboratively using the\nfollowing process.\nPrior to your session zero, write approximately 40 prompts,\neach in the form of a question about the villain. For example,\nyou might ask about the villain’s background, demeanor,\nmotives, or reputation. Write each prompt on an index card or\nslip of paper. For inspiration, see the Reign of the Weredragon\nVillain Builder sheet in Hope & Fear or available online at\ndaggerheart.com/downloads.\nDuring session zero (and prior to character creation) randomly\nselect about 15 of your prepared prompts and place them in\nthe center of the table so that everyone can reach them but no\none can read them.\nStarting with the person to your left, each player draws one of\nthe pre-selected prompts and reads it aloud, then chooses one\nof the following options:\n• The active player can answer the prompt. Other players\ncan ask follow-up questions, though the active player can\nchoose not to answer them.\n• The active player can remove the prompt from play and\ndraw a new prompt.\n• The active player can pass the prompt to another player,\nwho likewise chooses to answer, remove, or pass it.\nWhen there are no more follow-up questions to a prompt, play\npasses to the left. Continue in this manner until all prompts at\nthe center of the table have been answered or removed. Then\nproceed to character creation.\n200\nDaggerheart SRD",
+        "id": "collaboratively"
+      }
+    ],
+    "subsection_names": [
+      "Introduction",
+      "Curses",
+      "Transforming Adversaries",
+      "Collaboratively"
+    ],
+    "normalization_level": "structural"
+  },
+  "normalization": {
+    "phase": "P1.1f-b2-fix1",
+    "status": "normalized",
+    "source_field": "rules_text"
+  }
+}

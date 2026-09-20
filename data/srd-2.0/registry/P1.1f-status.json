@@ -1,0 +1,67 @@
+{
+  "source_file": "DH_SRD_2_2026_08_25.pdf",
+  "phase": "P1.1f-a-fix2",
+  "counts": {
+    "campaign_frames": 1,
+    "witherwild_sections": 14,
+    "supplemental_campaign_mechanics": 11
+  },
+  "expected": {
+    "campaign_frames": 1,
+    "witherwild_sections": 14,
+    "supplemental_campaign_mechanics": 11
+  },
+  "checks": {
+    "witherwild_identity": true,
+    "witherwild_complexity_present": true,
+    "witherwild_sections_all_present": true,
+    "witherwild_section_ids_unique": true,
+    "supplemental_total": true,
+    "supplemental_identity": true,
+    "supplemental_ids_unique": true,
+    "supplemental_text_nonempty": true
+  },
+  "campaign_frame_validation": "GREEN",
+  "supplemental_validation": "GREEN",
+  "debug": {
+    "witherwild_sections_found": [
+      "The Pitch",
+      "Tone & Feel",
+      "Themes",
+      "Touchstones",
+      "Overview",
+      "Communities",
+      "Ancestries",
+      "Classes",
+      "Player Principles",
+      "GM Principles",
+      "Distinctions",
+      "Inciting Incident",
+      "Campaign Mechanics",
+      "Session Zero Questions"
+    ],
+    "witherwild_sections_missing": [],
+    "supplemental_sections_found": [
+      "Faction Tracking",
+      "Everyday Hero Starting Equipment",
+      "Feasts",
+      "Grimdark Campaigns",
+      "Tech-Based Campaigns",
+      "Western Campaigns",
+      "Colossal Adversaries",
+      "Floating Magic School Campaigns",
+      "Fairy Tale Campaigns",
+      "Monster Hunting Campaigns",
+      "Hex Crawl Campaigns"
+    ],
+    "supplemental_heading_failures": []
+  },
+  "notes": [
+    "P1.1f-a extracts the SRD 2.0 Witherwild campaign frame as one canonical campaign_frame entity.",
+    "P1.1f-a-fix1 stops relying on PDF line boundaries: Witherwild uses uppercase literal headings, while supplemental sections use authoritative TOC page ranges.",
+    "P1.1f-a-fix2 makes supplemental heading matching case-insensitive and handles multiple subsystems beginning on the same printed page.",
+    "Its fourteen expected structural sections follow the campaign-frame structure documented by Daggerheart.",
+    "Supplemental campaign mechanics are indexed as eleven canonical top-level sections from printed pages 190–205.",
+    "This pass preserves source rules text and locks section identity; deeper subsystem normalization can follow without changing canonical IDs."
+  ]
+}

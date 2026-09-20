@@ -1,0 +1,485 @@
+[
+  {
+    "id": "srd-2.0.domain-card.dread.blighting-strike",
+    "kind": "domain_card",
+    "name": "Blighting Strike",
+    "slug": "blighting-strike",
+    "rules": {
+      "domain": "dread",
+      "level": 1,
+      "card_type": "spell",
+      "recall_cost": 1
+    },
+    "source": {
+      "corpus": "daggerheart-srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    },
+    "validation": "identity_and_metadata_checked_against_hope_fear_appendix"
+  },
+  {
+    "id": "srd-2.0.domain-card.dread.umbral-veil",
+    "kind": "domain_card",
+    "name": "Umbral Veil",
+    "slug": "umbral-veil",
+    "rules": {
+      "domain": "dread",
+      "level": 1,
+      "card_type": "spell",
+      "recall_cost": 1
+    },
+    "source": {
+      "corpus": "daggerheart-srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    },
+    "validation": "identity_and_metadata_checked_against_hope_fear_appendix"
+  },
+  {
+    "id": "srd-2.0.domain-card.dread.voice-of-dread",
+    "kind": "domain_card",
+    "name": "Voice of Dread",
+    "slug": "voice-of-dread",
+    "rules": {
+      "domain": "dread",
+      "level": 1,
+      "card_type": "spell",
+      "recall_cost": 0
+    },
+    "source": {
+      "corpus": "daggerheart-srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    },
+    "validation": "identity_and_metadata_checked_against_hope_fear_appendix"
+  },
+  {
+    "id": "srd-2.0.domain-card.dread.hideous-retribution",
+    "kind": "domain_card",
+    "name": "Hideous Retribution",
+    "slug": "hideous-retribution",
+    "rules": {
+      "domain": "dread",
+      "level": 2,
+      "card_type": "spell",
+      "recall_cost": 2
+    },
+    "source": {
+      "corpus": "daggerheart-srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    },
+    "validation": "identity_and_metadata_checked_against_hope_fear_appendix"
+  },
+  {
+    "id": "srd-2.0.domain-card.dread.siphon-essence",
+    "kind": "domain_card",
+    "name": "Siphon Essence",
+    "slug": "siphon-essence",
+    "rules": {
+      "domain": "dread",
+      "level": 2,
+      "card_type": "spell",
+      "recall_cost": 1
+    },
+    "source": {
+      "corpus": "daggerheart-srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    },
+    "validation": "identity_and_metadata_checked_against_hope_fear_appendix"
+  },
+  {
+    "id": "srd-2.0.domain-card.dread.shared-trauma",
+    "kind": "domain_card",
+    "name": "Shared Trauma",
+    "slug": "shared-trauma",
+    "rules": {
+      "domain": "dread",
+      "level": 3,
+      "card_type": "spell",
+      "recall_cost": 1
+    },
+    "source": {
+      "corpus": "daggerheart-srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    },
+    "validation": "identity_and_metadata_checked_against_hope_fear_appendix"
+  },
+  {
+    "id": "srd-2.0.domain-card.dread.terrify",
+    "kind": "domain_card",
+    "name": "Terrify",
+    "slug": "terrify",
+    "rules": {
+      "domain": "dread",
+      "level": 3,
+      "card_type": "spell",
+      "recall_cost": 1
+    },
+    "source": {
+      "corpus": "daggerheart-srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    },
+    "validation": "identity_and_metadata_checked_against_hope_fear_appendix"
+  },
+  {
+    "id": "srd-2.0.domain-card.dread.chains-of-affliction",
+    "kind": "domain_card",
+    "name": "Chains of Affliction",
+    "slug": "chains-of-affliction",
+    "rules": {
+      "domain": "dread",
+      "level": 4,
+      "card_type": "spell",
+      "recall_cost": 2
+    },
+    "source": {
+      "corpus": "daggerheart-srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    },
+    "validation": "identity_and_metadata_checked_against_hope_fear_appendix"
+  },
+  {
+    "id": "srd-2.0.domain-card.dread.cruelty",
+    "kind": "domain_card",
+    "name": "Cruelty",
+    "slug": "cruelty",
+    "rules": {
+      "domain": "dread",
+      "level": 4,
+      "card_type": "ability",
+      "recall_cost": 1
+    },
+    "source": {
+      "corpus": "daggerheart-srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    },
+    "validation": "identity_and_metadata_checked_against_hope_fear_appendix"
+  },
+  {
+    "id": "srd-2.0.domain-card.dread.feed-on-fear",
+    "kind": "domain_card",
+    "name": "Feed on Fear",
+    "slug": "feed-on-fear",
+    "rules": {
+      "domain": "dread",
+      "level": 5,
+      "card_type": "spell",
+      "recall_cost": 1
+    },
+    "source": {
+      "corpus": "daggerheart-srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    },
+    "validation": "identity_and_metadata_checked_against_hope_fear_appendix"
+  },
+  {
+    "id": "srd-2.0.domain-card.dread.writhing-shadow",
+    "kind": "domain_card",
+    "name": "Writhing Shadow",
+    "slug": "writhing-shadow",
+    "rules": {
+      "domain": "dread",
+      "level": 5,
+      "card_type": "spell",
+      "recall_cost": 2
+    },
+    "source": {
+      "corpus": "daggerheart-srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    },
+    "validation": "identity_and_metadata_checked_against_hope_fear_appendix"
+  },
+  {
+    "id": "srd-2.0.domain-card.dread.dark-whispers",
+    "kind": "domain_card",
+    "name": "Dark Whispers",
+    "slug": "dark-whispers",
+    "rules": {
+      "domain": "dread",
+      "level": 6,
+      "card_type": "spell",
+      "recall_cost": 1
+    },
+    "source": {
+      "corpus": "daggerheart-srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    },
+    "validation": "identity_and_metadata_checked_against_hope_fear_appendix"
+  },
+  {
+    "id": "srd-2.0.domain-card.dread.life-drain",
+    "kind": "domain_card",
+    "name": "Life Drain",
+    "slug": "life-drain",
+    "rules": {
+      "domain": "dread",
+      "level": 6,
+      "card_type": "spell",
+      "recall_cost": 2
+    },
+    "source": {
+      "corpus": "daggerheart-srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    },
+    "validation": "identity_and_metadata_checked_against_hope_fear_appendix"
+  },
+  {
+    "id": "srd-2.0.domain-card.dread.dread-touched",
+    "kind": "domain_card",
+    "name": "Dread-Touched",
+    "slug": "dread-touched",
+    "rules": {
+      "domain": "dread",
+      "level": 7,
+      "card_type": "ability",
+      "recall_cost": 2
+    },
+    "source": {
+      "corpus": "daggerheart-srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    },
+    "validation": "identity_and_metadata_checked_against_hope_fear_appendix"
+  },
+  {
+    "id": "srd-2.0.domain-card.dread.wall-of-hunger",
+    "kind": "domain_card",
+    "name": "Wall of Hunger",
+    "slug": "wall-of-hunger",
+    "rules": {
+      "domain": "dread",
+      "level": 7,
+      "card_type": "spell",
+      "recall_cost": 2
+    },
+    "source": {
+      "corpus": "daggerheart-srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    },
+    "validation": "identity_and_metadata_checked_against_hope_fear_appendix"
+  },
+  {
+    "id": "srd-2.0.domain-card.dread.dark-army",
+    "kind": "domain_card",
+    "name": "Dark Army",
+    "slug": "dark-army",
+    "rules": {
+      "domain": "dread",
+      "level": 8,
+      "card_type": "spell",
+      "recall_cost": 2
+    },
+    "source": {
+      "corpus": "daggerheart-srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    },
+    "validation": "identity_and_metadata_checked_against_hope_fear_appendix"
+  },
+  {
+    "id": "srd-2.0.domain-card.dread.eldritch-flesh",
+    "kind": "domain_card",
+    "name": "Eldritch Flesh",
+    "slug": "eldritch-flesh",
+    "rules": {
+      "domain": "dread",
+      "level": 8,
+      "card_type": "spell",
+      "recall_cost": 1
+    },
+    "source": {
+      "corpus": "daggerheart-srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    },
+    "validation": "identity_and_metadata_checked_against_hope_fear_appendix"
+  },
+  {
+    "id": "srd-2.0.domain-card.dread.damnation",
+    "kind": "domain_card",
+    "name": "Damnation",
+    "slug": "damnation",
+    "rules": {
+      "domain": "dread",
+      "level": 9,
+      "card_type": "spell",
+      "recall_cost": 2
+    },
+    "source": {
+      "corpus": "daggerheart-srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    },
+    "validation": "identity_and_metadata_checked_against_hope_fear_appendix"
+  },
+  {
+    "id": "srd-2.0.domain-card.dread.savor-the-anguish",
+    "kind": "domain_card",
+    "name": "Savor the Anguish",
+    "slug": "savor-the-anguish",
+    "rules": {
+      "domain": "dread",
+      "level": 9,
+      "card_type": "ability",
+      "recall_cost": 1
+    },
+    "source": {
+      "corpus": "daggerheart-srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    },
+    "validation": "identity_and_metadata_checked_against_hope_fear_appendix"
+  },
+  {
+    "id": "srd-2.0.domain-card.dread.avatar-of-terror",
+    "kind": "domain_card",
+    "name": "Avatar of Terror",
+    "slug": "avatar-of-terror",
+    "rules": {
+      "domain": "dread",
+      "level": 10,
+      "card_type": "spell",
+      "recall_cost": 2
+    },
+    "source": {
+      "corpus": "daggerheart-srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    },
+    "validation": "identity_and_metadata_checked_against_hope_fear_appendix"
+  },
+  {
+    "id": "srd-2.0.domain-card.dread.invoke-torment",
+    "kind": "domain_card",
+    "name": "Invoke Torment",
+    "slug": "invoke-torment",
+    "rules": {
+      "domain": "dread",
+      "level": 10,
+      "card_type": "ability",
+      "recall_cost": 2
+    },
+    "source": {
+      "corpus": "daggerheart-srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    },
+    "validation": "identity_and_metadata_checked_against_hope_fear_appendix"
+  }
+]

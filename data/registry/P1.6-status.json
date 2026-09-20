@@ -1,0 +1,70 @@
+{
+  "phase": "P1.6-fix1",
+  "audit_semantics": {
+    "canonical_id": "top-level entity ID from a canonical collection/file",
+    "local_nested_id": "not globally collision-checked",
+    "intermediate_artifact": "excluded from canonical collision census"
+  },
+  "json_file_count_audited": 96,
+  "phase_gates": {
+    "P1.2": "GREEN",
+    "P1.3b": "GREEN",
+    "P1.3c": "GREEN",
+    "P1.4": "GREEN",
+    "P1.5": "GREEN"
+  },
+  "boundary_checks": {
+    "srd_public_layer_exists": true,
+    "hope_fear_private_layer_exists": true,
+    "playtest_layer_exists": true,
+    "homebrew_layer_exists": true
+  },
+  "id_census": {
+    "canonical_id_occurrences": 953,
+    "unique_canonical_ids": 953,
+    "ignored_intermediate_artifact_files": 36,
+    "hard_canonical_collisions": {}
+  },
+  "provenance": {
+    "issue_count": 0,
+    "issues": []
+  },
+  "primitive_integrity": {
+    "observed_primitive_count": 23,
+    "evidence_count_mismatches": [],
+    "monster_hunter_missing_primitives": [],
+    "monster_hunter_requirements_gap": 0,
+    "single_corpus_review_targets": [
+      {
+        "primitive_id": "upgrade_slot",
+        "corpora": [
+          "srd2_supplemental"
+        ],
+        "evidence_count": 2,
+        "used_by_monster_hunter_fixture": true,
+        "review": "SUPPORTED_EXTERNALLY"
+      }
+    ]
+  },
+  "corpus_boundary_violations": [],
+  "parse_errors": [],
+  "checks": {
+    "all_required_artifacts_present": true,
+    "previous_phase_gates_green": true,
+    "corpus_boundaries_present": true,
+    "all_json_parseable": true,
+    "no_hard_canonical_id_collisions": true,
+    "no_public_private_boundary_violations": true,
+    "primitive_evidence_counts_consistent": true,
+    "monster_hunter_coverage_has_no_gap": true,
+    "observed_primitives_nonempty": true
+  },
+  "warnings": [],
+  "errors": [],
+  "validation": "GREEN",
+  "decision": {
+    "GREEN": "P1 is closed. Proceed to P2 — Foundryborne Primitive Module + adapters.",
+    "RED": "Inspect only the remaining canonical collisions/integrity failures before P2."
+  },
+  "next_phase": "P2 — Foundryborne Primitive Module + adapters"
+}

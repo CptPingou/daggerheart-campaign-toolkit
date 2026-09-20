@@ -146,6 +146,54 @@ async function openToolkitCardManager(actor, family = "hunt") {
   return dialog;
 }
 
+function actorFromChooser(app) {
+  const candidates = [
+    app?.actor,
+    app?.document?.parent,
+    app?.object?.parent,
+    app?.parent?.actor,
+    app?.parent?.document,
+    app?.parent?.object,
+    app?.options?.actor,
+    app?.options?.document?.parent,
+    app?.options?.object?.parent,
+    app?.options?.parent?.actor,
+    app?.options?.parent?.document,
+    app?.options?.parent?.object,
+  ];
+
+  return candidates.find(candidate => candidate?.type === "character") ?? null;
+}
+
+async function chooseCharacterActor() {
+  const actors = game.actors.contents.filter(actor => actor.type === "character");
+  if (!actors.length) {
+    ui.notifications.warn("Campaign Toolkit | Aucun personnage disponible.");
+    return null;
+  }
+  if (actors.length === 1) return actors[0];
+
+  const options = actors
+    .map(actor => `<option value="${escapeHtml(actor.id)}">${escapeHtml(actor.name)}</option>`)
+    .join("");
+
+  const result = await foundry.applications.api.DialogV2.prompt({
+    window: { title: "Cartes Chasse — personnage" },
+    content: `
+      <div class="form-group">
+        <label>Personnage</label>
+        <select name="actorId">${options}</select>
+      </div>`,
+    ok: {
+      label: "Ouvrir",
+      callback: (_event, button, dialog) =>
+        dialog.element?.querySelector('select[name="actorId"]')?.value ?? null,
+    },
+  });
+
+  return result ? game.actors.get(result) ?? null : null;
+}
+
 function injectHuntActionIntoCreateDialog(app) {
   const element = app?.element;
   if (!(element instanceof HTMLElement)) return;
@@ -161,14 +209,10 @@ function injectHuntActionIntoCreateDialog(app) {
   // present. Injection is idempotent across ApplicationV2 rerenders.
   if (footer.querySelector('[data-dct-action="hunt"]')) return;
 
-  const actor =
-    app?.actor ??
-    app?.document?.parent ??
-    app?.object?.parent ??
-    canvas.tokens.controlled[0]?.actor ??
-    null;
-
-  if (!actor || actor.type !== "character") return;
+  // Do not use the controlled token as an ownership fallback. The chooser
+  // does not always expose its Actor in Foundryborne 2.9.4; in that case we
+  // keep the Chasse button and ask explicitly which character to manage.
+  const contextualActor = actorFromChooser(app);
 
   const button = document.createElement("button");
   button.type = "button";
@@ -177,6 +221,8 @@ function injectHuntActionIntoCreateDialog(app) {
   button.addEventListener("click", async event => {
     event.preventDefault();
     event.stopPropagation();
+    const actor = contextualActor ?? await chooseCharacterActor();
+    if (!actor) return;
     await app.close?.();
     await openToolkitCardManager(actor, "hunt");
   });

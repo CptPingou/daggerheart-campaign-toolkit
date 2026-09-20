@@ -1,0 +1,37 @@
+{
+  "id": "the-void.2026-07-09.domain_card.grisly-harpoon",
+  "kind": "domain_card",
+  "identity": {
+    "name": "Grisly Harpoon",
+    "slug": "grisly-harpoon"
+  },
+  "source": {
+    "corpus": "the-void",
+    "product": "blood-hunter",
+    "version": "2026-07-09",
+    "status": "playtest"
+  },
+  "provenance": {
+    "source_file": "Blood_Hunter_Void_2026_07_09.pdf",
+    "page": 4
+  },
+  "availability": {
+    "in_srd": false,
+    "private_only": true,
+    "deprecated": false
+  },
+  "migration": {
+    "previous_id": "the-void.v1.5.domain_card.grisly-harpoon",
+    "relation": "revised"
+  },
+  "rules": {
+    "domain": "blood",
+    "level": 4,
+    "card_type": "spell",
+    "recall_cost": 1
+  },
+  "content": {
+    "rules_text": "Make a Spellcast Roll against a creature within Far range. On a success, mark a Stress to throw a conjured harpoon of magic blood at the target, dealing d10 magic damage using your Proficiency. Then you can pull yourself into Melee range with the target or pull the target into Melee range with you. Alternatively, if you target an unheld object or terrain within Far range, make a Spellcast Roll (13). On a success, you pull the object to you, or you pull yourself to the terrain.",
+    "validation": "checked_against_pdf_2026-07-09"
+  }
+}

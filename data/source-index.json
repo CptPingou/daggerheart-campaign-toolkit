@@ -2,7 +2,7 @@
   "schema": "daggerheart-campaign-toolkit/source-index@2",
   "owner": "daggerheart-campaign-toolkit",
   "sourceNamespace": "daggerheart-srd-2.0",
-  "total": 811,
+  "total": 820,
   "origins": {
     "core": {
       "total": 778,
@@ -10,7 +10,7 @@
         "dh-ancestries": {
           "count": 72,
           "file": "data/core/fr/dh-ancestries.json",
-          "sha256": "9ef1a92f3cb5e2210b26af0faaad1b8d84db3a4588152c6f23d151f9af5d2c14"
+          "sha256": "57ebfaaa98e1cf1d3db983eff980a7e14434f620b647530c7de07e143a441860"
         },
         "dh-armor": {
           "count": 69,
@@ -30,7 +30,7 @@
         "dh-domain-cards": {
           "count": 210,
           "file": "data/core/fr/dh-domain-cards.json",
-          "sha256": "c97f87d9e8f256d0fdeebd2a593da2b77d917fb9e6da40dd6744afdd7cfdfdb4"
+          "sha256": "cfa610062dc53b102642a28c2dc38b02341bd63ea8625610111327cc83fb2f5d"
         },
         "dh-subclasses": {
           "count": 26,
@@ -65,15 +65,15 @@
       }
     },
     "homebrew": {
-      "total": 8,
+      "total": 17,
       "namespaces": {
         "monster-hunter": {
-          "total": 8,
+          "total": 17,
           "packs": {
             "dh-domain-cards": {
-              "count": 8,
+              "count": 17,
               "file": "data/homebrew/monster-hunter/dh-domain-cards.json",
-              "sha256": "34d624217b02becbe43fcd5a37e5420a937d284f2b3c84cba2a05411036cec6b"
+              "sha256": "6c440ffd0284594e424e4cd83b16c2d747fa6100c545dd7d47dc947948d88b2c"
             }
           }
         },

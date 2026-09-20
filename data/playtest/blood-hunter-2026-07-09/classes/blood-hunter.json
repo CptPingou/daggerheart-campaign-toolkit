@@ -1,0 +1,68 @@
+{
+  "id": "the-void.2026-07-09.class.blood-hunter",
+  "kind": "class",
+  "identity": {
+    "name": "Blood Hunter",
+    "slug": "blood-hunter"
+  },
+  "source": {
+    "corpus": "the-void",
+    "product": "blood-hunter",
+    "version": "2026-07-09",
+    "status": "playtest"
+  },
+  "provenance": {
+    "source_file": "Blood_Hunter_Void_2026_07_09.pdf",
+    "page": 1
+  },
+  "availability": {
+    "in_srd": false,
+    "private_only": true,
+    "deprecated": false
+  },
+  "migration": {
+    "previous_id": "the-void.v1.5.class.blood-hunter",
+    "relation": "revised"
+  },
+  "rules": {
+    "domains": [
+      "blood",
+      "bone"
+    ],
+    "starting_evasion": 11,
+    "suggested_traits": {
+      "instinct": 1,
+      "presence": 0,
+      "knowledge": 0
+    },
+    "features": [
+      {
+        "name": "Blood Maledict",
+        "category": "hope_feature",
+        "cost": {
+          "hope": 3
+        },
+        "range": "close",
+        "text": "Spend 3 Hope when an adversary succeeds on an attack roll within Close range to make them reroll with disadvantage."
+      },
+      {
+        "name": "Crimson Rite",
+        "category": "class_feature",
+        "cost": {
+          "hp": 1
+        },
+        "text": "Mark a Hit Point to enchant one of your active weapons with bloodthirsty power until the end of your next rest or you use this feature again. When you succeed on an attack with the enchanted weapon, it deals an extra 1d4 magic damage. This extra damage increases to 2d4 at level 2, 3d4 at level 5, and 4d4 at level 8."
+      },
+      {
+        "name": "Grim Psychometry",
+        "category": "class_feature",
+        "roll": {
+          "type": "spellcast",
+          "difficulty": 12
+        },
+        "range": "very_close",
+        "text": "Make a Spellcast Roll (12) to inspect a location within Very Close range. On a success, you have a vision of the last creature that committed violence there. Until you take a long rest or use this feature again, you have advantage on action rolls to track them or recall information about them."
+      }
+    ]
+  }
+}

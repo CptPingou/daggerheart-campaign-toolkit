@@ -1,0 +1,33 @@
+{
+  "id": "the-void.v1.5.domain_card.blood-puppet",
+  "kind": "domain_card",
+  "identity": {
+    "name": "Blood Puppet",
+    "slug": "blood-puppet"
+  },
+  "source": {
+    "corpus": "the-void",
+    "product": "blood-hunter",
+    "version": "1.5",
+    "status": "playtest"
+  },
+  "provenance": {
+    "source_file": "Bloodhunter-v1.5-The-Void.pdf",
+    "page": 4
+  },
+  "availability": {
+    "in_srd": false,
+    "private_only": true,
+    "deprecated": false
+  },
+  "rules": {
+    "domain": "blood",
+    "level": 3,
+    "card_type": "spell",
+    "recall_cost": 2
+  },
+  "content": {
+    "rules_text": "Make a Spellcast Roll against a creature (living or dead) within Far range. On a success, spend a Hope to control the target by causing them to move, attack, or both. If you cause the creature to move, they move to a location you choose within Close range of them. If you cause the creature to attack, make a Spellcast Roll against a target within Melee range of them. On a success, deal d10 physical damage using your Proficiency.",
+    "validation": "checked_against_pdf_v1.5"
+  }
+}

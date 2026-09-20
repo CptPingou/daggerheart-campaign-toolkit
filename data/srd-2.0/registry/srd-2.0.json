@@ -1,0 +1,49 @@
+{
+  "id": "daggerheart-srd-2.0",
+  "title": "Daggerheart System Reference Document v2.0",
+  "version": "2.0",
+  "published": "2026-08-25",
+  "status": "srd",
+  "license_scope": "Public Game Content under DPCGL; consult license before redistribution.",
+  "source_url": "https://www.daggerheart.com/srd/",
+  "pdf": "DH_SRD_2_2026_08_25.pdf",
+  "pages": 224,
+  "sections": {
+    "domains": 7,
+    "classes": 8,
+    "ancestries": 32,
+    "communities": 38,
+    "transformations": 42,
+    "equipment": 55,
+    "armor": 72,
+    "loot_items": 75,
+    "consumables": 80,
+    "adversaries_environments": 93,
+    "campaign_frame_witherwild": 184,
+    "supplemental_campaign_mechanics": 190,
+    "domain_card_reference": 206
+  },
+  "confirmed_counts": {
+    "domains": 10,
+    "classes": 13,
+    "ancestries": 24,
+    "communities": 15,
+    "transformations": 6,
+    "subclasses_total_expected": 26,
+    "subclasses_identity_confirmed_in_this_pass": 22
+  },
+  "large_collections_status": {
+    "domain_cards": "P1.1 pending exhaustive extraction",
+    "weapons": "P1.1 pending exhaustive extraction",
+    "armors": "P1.1 pending exhaustive extraction",
+    "loot": "P1.1 pending exhaustive extraction",
+    "consumables": "P1.1 pending exhaustive extraction",
+    "adversaries": "P1.2 pending exhaustive extraction",
+    "environments": "P1.2 pending exhaustive extraction",
+    "beastforms": "P1.1 pending extraction"
+  },
+  "notes": [
+    "SRD 2.0 includes Hope & Fear Dread Domain, H&F classes, adversaries, environments, ancestries, communities, loot, equipment and six transformations.",
+    "SRD 2.0 is the baseline for diffs; older Core/H&F wording must not override newer SRD errata automatically."
+  ]
+}

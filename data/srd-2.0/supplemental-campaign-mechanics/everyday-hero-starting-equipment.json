@@ -1,0 +1,40 @@
+{
+  "id": "srd-2.0.supplemental-campaign-mechanic.everyday-hero-starting-equipment",
+  "kind": "supplemental_campaign_mechanic",
+  "identity": {
+    "name": "Everyday Hero Starting Equipment",
+    "slug": "everyday-hero-starting-equipment"
+  },
+  "source": {
+    "corpus": "daggerheart-srd",
+    "version": "2.0",
+    "status": "srd"
+  },
+  "provenance": {
+    "start_printed_page": 191,
+    "end_printed_page": 191
+  },
+  "rules_text": "PCs without access to standard weapons and armor can choose from the following tables.\nPrimary Physical Weapons\nName Trait Range Damage Burden Feature\nCleaver Agility Melee d8 phy One-Handed Reliable: +1 to attack rolls\nSharpened \nRake\nAgility Melee d8+3 phy Two-Handed —\nButcher’s Axe Strength Melee d12+3 phy Two-Handed Heavy: −1 to Evasion\nIron Skillet Strength Melee d8+1 phy One-Handed —\nPitchfork Strength Melee d10+3 phy Two-Handed —\nSledgehammer Strength Melee d10+3 phy Two-Handed Massive: −1 to Evasion; on a successful attack, roll an \nadditional damage die and discard the lowest result.\nCooking Knife Finesse Melee d8+1 phy One-Handed —\nWalking Staff Instinct Melee d10+3 phy Two-Handed —\nRolling Pin Presence Melee d8+1 phy One-Handed —\nSickle Presence Melee d8 phy One-Handed Quick: When you make an attack, you can mark a \nStress to target another creature within range.\nForge Poker Strength Very Close d8+2 phy Two-Handed —\nCrop Scythe Finesse Very Close d8+2 phy Two-Handed —\nFishing Rod Agility Far d6+3 phy Two-Handed —\nSlingshot Finesse Far d6+3 phy Two-Handed —\nFirework \nLauncher\nAgility Very Far d6+3 phy Two-Handed Cumbersome: −1 to Finesse\nPrimary Magic Weapons\nAll magic weapons require a Spellcast trait\nName Trait Range Damage Burden Feature\nEnchanted \nHammer\nStrength Melee d10+1 mag One-Handed —\nEnchanted \nMop\nStrength Melee d10+3 mag Two-Handed —\nEnchanted \nScissors\nFinesse Very Close d10 mag One-Handed —\nEnchanted \nBroomstick\nInstinct Very Close d10+2 mag Two-Handed —\nExploding \nPotions\nFinesse Close d8 mag One-Handed\nEnchanted \nForge Lighter\nInstinct Close d8 mag One-Handed —\nEnchanted \nBoomerang\nInstinct Far d6+3 mag Two-Handed —\nEnchanted Kite Presence Far d6 mag Two-Handed Versatile: This weapon can also be used with these \nstatistics—Presence, Melee, d10.\nWhisk Wand Knowledge Far d6+1 mag One-Handed —\nSparkling Staff Knowledge Very Far d6 mag Two-Handed Powerful: On a successful attack, roll an additional \ndamage die and discard the lowest result.\n191\nDaggerheart SRD",
+  "raw_heading": "EVERYDAY HERO STARTING EQUIPMENT",
+  "mechanics": {
+    "mechanic_type": "starting_equipment_variant",
+    "subsections": [
+      {
+        "name": "Introduction",
+        "rules_text": "PCs without access to standard weapons and armor can choose from the following tables.\nPrimary Physical Weapons\nName Trait Range Damage Burden Feature\nCleaver Agility Melee d8 phy One-Handed Reliable: +1 to attack rolls\nSharpened\nRake\nAgility Melee d8+3 phy Two-Handed —\nButcher’s Axe Strength Melee d12+3 phy Two-Handed Heavy: −1 to Evasion\nIron Skillet Strength Melee d8+1 phy One-Handed —\nPitchfork Strength Melee d10+3 phy Two-Handed —\nSledgehammer Strength Melee d10+3 phy Two-Handed Massive: −1 to Evasion; on a successful attack, roll an\nadditional damage die and discard the lowest result.\nCooking Knife Finesse Melee d8+1 phy One-Handed —\nWalking Staff Instinct Melee d10+3 phy Two-Handed —\nRolling Pin Presence Melee d8+1 phy One-Handed —\nSickle Presence Melee d8 phy One-Handed Quick: When you make an attack, you can mark a\nStress to target another creature within range.\nForge Poker Strength Very Close d8+2 phy Two-Handed —\nCrop Scythe Finesse Very Close d8+2 phy Two-Handed —\nFishing Rod Agility Far d6+3 phy Two-Handed —\nSlingshot Finesse Far d6+3 phy Two-Handed —\nFirework\nLauncher\nAgility Very Far d6+3 phy Two-Handed Cumbersome: −1 to Finesse\nPrimary Magic Weapons\nAll magic weapons require a Spellcast trait\nName Trait Range Damage Burden Feature\nEnchanted\nHammer\nStrength Melee d10+1 mag One-Handed —\nEnchanted\nMop\nStrength Melee d10+3 mag Two-Handed —\nEnchanted\nScissors\nFinesse Very Close d10 mag One-Handed —\nEnchanted\nBroomstick\nInstinct Very Close d10+2 mag Two-Handed —\nExploding\nPotions\nFinesse Close d8 mag One-Handed\nEnchanted\nForge Lighter\nInstinct Close d8 mag One-Handed —\nEnchanted\nBoomerang\nInstinct Far d6+3 mag Two-Handed —\nEnchanted Kite Presence Far d6 mag Two-Handed Versatile: This weapon can also be used with these\nstatistics—Presence, Melee, d10.\nWhisk Wand Knowledge Far d6+1 mag One-Handed —\nSparkling Staff Knowledge Very Far d6 mag Two-Handed Powerful: On a successful attack, roll an additional\ndamage die and discard the lowest result.\n191\nDaggerheart SRD",
+        "id": "introduction"
+      }
+    ],
+    "replaces_standard_starting_equipment": false,
+    "tier": null,
+    "contains_primary_weapon_table": true,
+    "contains_secondary_weapon_table": false,
+    "contains_armor_table": true,
+    "normalization_level": "structural"
+  },
+  "normalization": {
+    "phase": "P1.1f-b2-fix1",
+    "status": "normalized",
+    "source_field": "rules_text"
+  }
+}

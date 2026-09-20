@@ -1,0 +1,359 @@
+{
+  "_instructions": {
+    "purpose": "Modèles éditoriaux pour ajouter des cartes Chasse dans dh-domain-cards.json.",
+    "workflow": [
+      "Choisir opener, finisher ou support dans templates.",
+      "Copier UNIQUEMENT l'objet de la carte choisie dans le tableau data/homebrew/monster-hunter/dh-domain-cards.json.",
+      "Créer des identifiants uniques de 16 caractères pour _id et l'action _id, puis reporter l'action ID dans engagementActions.",
+      "Remplacer les champs __...__ et adapter effects si nécessaire.",
+      "Enregistrer le JSON puis lancer syncAutonomousSources({force:true}) dans Foundry.",
+      "Vérifier autonomousSourceStatus().green."
+    ],
+    "safeToEdit": [
+      "name",
+      "img",
+      "system.description",
+      "system.gmNotes",
+      "system.actions.<id>.name",
+      "system.actions.<id>.description",
+      "huntCardMechanic.conditions",
+      "huntCardMechanic.tags",
+      "huntCardMechanic.effects.*.chat"
+    ],
+    "keepStableAfterCreation": [
+      "_id",
+      "system.actions.<id>._id",
+      "canonicalSourceId",
+      "huntCardMechanic.id",
+      "engagementActions"
+    ],
+    "important": [
+      "Ce fichier template n'est PAS référencé par source-index.json et n'est donc jamais importé comme contenu.",
+      "system.domain reste valor pour la compatibilité Foundryborne ; la famille sémantique est toolkitCard.family = hunt.",
+      "Les coûts universels restent Opener 2 Espoir, Finisher 1 Espoir, Support 1 Espoir.",
+      "Le coût de l'action native reste vide : le moteur Chasse dépense l'Espoir afin d'éviter un double paiement.",
+      "effects.reaction est un effet immédiat affiché dans le message de réaction et n'est pas mis en attente.",
+      "effects.support peut être mis en attente lorsqu'il vise un timing futur connu.",
+      "effects.finisher décrit une option de conversion et n'est pas déclenché automatiquement."
+    ]
+  },
+  "templates": {
+    "opener": {
+      "name": "__NOM_CARTE__",
+      "img": "icons/svg/book.svg",
+      "type": "domainCard",
+      "system": {
+        "description": "<p><strong>Opener.</strong> __DESCRIPTION_CARTE__</p>",
+        "domain": "valor",
+        "recallCost": 1,
+        "level": 1,
+        "type": "ability",
+        "actions": {
+          "__ACTION_ID_16CH__": {
+            "_id": "__ACTION_ID_16CH__",
+            "systemPath": "actions",
+            "type": "attack",
+            "baseAction": false,
+            "name": "__NOM_ACTION__",
+            "description": "<p>__DESCRIPTION_ACTION__</p>",
+            "chatDisplay": true,
+            "actionType": "action",
+            "originItem": {
+              "type": "itemCollection"
+            },
+            "triggers": [],
+            "areas": [],
+            "cost": [],
+            "uses": {
+              "value": null,
+              "max": "",
+              "recovery": null,
+              "consumeOnSuccess": false
+            },
+            "target": {
+              "type": "any",
+              "amount": 1
+            },
+            "effects": [],
+            "range": "",
+            "img": "icons/svg/target.svg"
+          }
+        },
+        "attribution": {
+          "source": "Monster Hunter Homebrew",
+          "page": null,
+          "artist": ""
+        },
+        "gmNotes": "__NOTES_MJ_OPTIONNELLES__",
+        "resource": null,
+        "inVault": false,
+        "vaultActive": false,
+        "loadoutIgnore": false,
+        "domainTouched": null
+      },
+      "flags": {
+        "daggerheart-campaign-toolkit": {
+          "contentOwner": "daggerheart-campaign-toolkit",
+          "contentOrigin": "homebrew",
+          "sourceNamespace": "monster-hunter",
+          "canonicalSourceId": "monster-hunter.hunt-card.__ITEM_ID_16CHR__",
+          "huntCardMechanic": {
+            "id": "__mechanic-id__",
+            "role": "opener",
+            "hopeCost": 2,
+            "opportunity": {
+              "generate": 2,
+              "spend": [],
+              "effectCosts": {
+                "standard": 2,
+                "rare": 3
+              }
+            },
+            "conditions": [],
+            "tags": [
+              "engagement",
+              "opener"
+            ],
+            "effects": {}
+          },
+          "toolkitCard": {
+            "family": "hunt",
+            "familyLabel": "Chasse",
+            "eligibility": "toolkit",
+            "loadoutGroup": "hunt"
+          },
+          "engagementActions": {
+            "__ACTION_ID_16CH__": {
+              "role": "opener"
+            }
+          }
+        }
+      },
+      "effects": [],
+      "_id": "__ITEM_ID_16CHR__"
+    },
+    "finisher": {
+      "name": "__NOM_CARTE__",
+      "img": "icons/svg/book.svg",
+      "type": "domainCard",
+      "system": {
+        "description": "<p><strong>Finisher.</strong> __DESCRIPTION_CARTE__</p>",
+        "domain": "valor",
+        "recallCost": 1,
+        "level": 1,
+        "type": "ability",
+        "actions": {
+          "__ACTION_ID_16CH__": {
+            "_id": "__ACTION_ID_16CH__",
+            "systemPath": "actions",
+            "type": "attack",
+            "baseAction": false,
+            "name": "__NOM_ACTION__",
+            "description": "<p>__DESCRIPTION_ACTION__</p>",
+            "chatDisplay": true,
+            "actionType": "action",
+            "originItem": {
+              "type": "itemCollection"
+            },
+            "triggers": [],
+            "areas": [],
+            "cost": [],
+            "uses": {
+              "value": null,
+              "max": "",
+              "recovery": null,
+              "consumeOnSuccess": false
+            },
+            "target": {
+              "type": "any",
+              "amount": 1
+            },
+            "effects": [],
+            "range": "",
+            "img": "icons/svg/target.svg"
+          }
+        },
+        "attribution": {
+          "source": "Monster Hunter Homebrew",
+          "page": null,
+          "artist": ""
+        },
+        "gmNotes": "__NOTES_MJ_OPTIONNELLES__",
+        "resource": null,
+        "inVault": false,
+        "vaultActive": false,
+        "loadoutIgnore": false,
+        "domainTouched": null
+      },
+      "flags": {
+        "daggerheart-campaign-toolkit": {
+          "contentOwner": "daggerheart-campaign-toolkit",
+          "contentOrigin": "homebrew",
+          "sourceNamespace": "monster-hunter",
+          "canonicalSourceId": "monster-hunter.hunt-card.__ITEM_ID_16CHR__",
+          "huntCardMechanic": {
+            "id": "__mechanic-id__",
+            "role": "finisher",
+            "hopeCost": 1,
+            "opportunity": {
+              "generate": 0,
+              "spend": [
+                "damage",
+                "effect"
+              ],
+              "effectCosts": {
+                "standard": 2,
+                "rare": 3
+              }
+            },
+            "conditions": [],
+            "tags": [
+              "engagement",
+              "finisher"
+            ],
+            "effects": {}
+          },
+          "toolkitCard": {
+            "family": "hunt",
+            "familyLabel": "Chasse",
+            "eligibility": "toolkit",
+            "loadoutGroup": "hunt"
+          },
+          "engagementActions": {
+            "__ACTION_ID_16CH__": {
+              "role": "finisher"
+            }
+          }
+        }
+      },
+      "effects": [],
+      "_id": "__ITEM_ID_16CHR__"
+    },
+    "support": {
+      "name": "__NOM_CARTE__",
+      "img": "icons/svg/book.svg",
+      "type": "domainCard",
+      "system": {
+        "description": "<p><strong>Support.</strong> __DESCRIPTION_CARTE__</p>",
+        "domain": "valor",
+        "recallCost": 1,
+        "level": 1,
+        "type": "ability",
+        "actions": {
+          "__ACTION_ID_16CH__": {
+            "_id": "__ACTION_ID_16CH__",
+            "systemPath": "actions",
+            "type": "effect",
+            "baseAction": false,
+            "name": "__NOM_ACTION__",
+            "description": "<p>__DESCRIPTION_ACTION__</p>",
+            "chatDisplay": true,
+            "actionType": "action",
+            "originItem": {
+              "type": "itemCollection"
+            },
+            "triggers": [],
+            "areas": [],
+            "cost": [],
+            "uses": {
+              "value": null,
+              "max": "",
+              "recovery": null,
+              "consumeOnSuccess": false
+            },
+            "target": {
+              "type": "self",
+              "amount": 1
+            },
+            "effects": [],
+            "range": "",
+            "img": "icons/svg/shield.svg"
+          }
+        },
+        "attribution": {
+          "source": "Monster Hunter Homebrew",
+          "page": null,
+          "artist": ""
+        },
+        "gmNotes": "__NOTES_MJ_OPTIONNELLES__",
+        "resource": null,
+        "inVault": false,
+        "vaultActive": false,
+        "loadoutIgnore": false,
+        "domainTouched": null
+      },
+      "flags": {
+        "daggerheart-campaign-toolkit": {
+          "contentOwner": "daggerheart-campaign-toolkit",
+          "contentOrigin": "homebrew",
+          "sourceNamespace": "monster-hunter",
+          "canonicalSourceId": "monster-hunter.hunt-card.__ITEM_ID_16CHR__",
+          "huntCardMechanic": {
+            "id": "__mechanic-id__",
+            "role": "support",
+            "hopeCost": 1,
+            "opportunity": {
+              "generate": 0,
+              "spend": [],
+              "effectCosts": {
+                "standard": 2,
+                "rare": 3
+              }
+            },
+            "conditions": [],
+            "tags": [
+              "engagement",
+              "support"
+            ],
+            "effects": {}
+          },
+          "toolkitCard": {
+            "family": "hunt",
+            "familyLabel": "Chasse",
+            "eligibility": "toolkit",
+            "loadoutGroup": "hunt"
+          },
+          "engagementActions": {
+            "__ACTION_ID_16CH__": {
+              "role": "support"
+            }
+          }
+        }
+      },
+      "effects": [],
+      "_id": "__ITEM_ID_16CHR__"
+    }
+  },
+  "effectExamples": {
+    "openerReactionImmediate": {
+      "reaction": {
+        "id": "__effect-id__",
+        "timing": "monster-reaction",
+        "modifier": "-1d4",
+        "appliesTo": "monster-reaction-attack-roll",
+        "automation": "manual",
+        "chat": "<p>__TEXTE_AFFICHÉ_DANS_LE_CHAT__</p>"
+      }
+    },
+    "supportPendingNextFinisher": {
+      "support": {
+        "id": "__effect-id__",
+        "timing": "next-finisher-attack",
+        "modifier": "+1d6",
+        "appliesTo": "finisher-attack-roll",
+        "automation": "manual",
+        "chat": "<p>__TEXTE_AFFICHÉ_DANS_LE_CHAT__</p>"
+      }
+    },
+    "finisherConversionOption": {
+      "finisher": {
+        "id": "__effect-id__",
+        "timing": "finisher-conversion",
+        "cost": 2,
+        "rarity": "standard",
+        "automation": "manual",
+        "chat": "<p>__TEXTE_OPTION_DE_CONVERSION__</p>"
+      }
+    }
+  }
+}

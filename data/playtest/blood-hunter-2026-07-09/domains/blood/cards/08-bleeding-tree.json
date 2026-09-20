@@ -1,0 +1,33 @@
+{
+  "id": "the-void.2026-07-09.domain_card.bleeding-tree",
+  "kind": "domain_card",
+  "identity": {
+    "name": "Bleeding Tree",
+    "slug": "bleeding-tree"
+  },
+  "source": {
+    "corpus": "the-void",
+    "product": "blood-hunter",
+    "version": "2026-07-09",
+    "status": "playtest"
+  },
+  "provenance": {
+    "source_file": "Blood_Hunter_Void_2026_07_09.pdf",
+    "page": 5
+  },
+  "availability": {
+    "in_srd": false,
+    "private_only": true,
+    "deprecated": false
+  },
+  "rules": {
+    "domain": "blood",
+    "level": 8,
+    "card_type": "spell",
+    "recall_cost": 2
+  },
+  "content": {
+    "rules_text": "Once per long rest, when an adversary within Close range is defeated, you can cause their body to erupt with a twisting, veiny tree that oozes life force. Place a number of tokens on this card equal to your Spellcast trait. A PC within Melee range of the tree can spend a token from this card to siphon life force from the tree and clear a Hit Point.",
+    "validation": "checked_against_pdf_2026-07-09"
+  }
+}

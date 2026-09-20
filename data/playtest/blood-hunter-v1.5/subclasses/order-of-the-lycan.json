@@ -1,0 +1,54 @@
+{
+  "id": "the-void.v1.5.subclass.order-of-the-lycan",
+  "kind": "subclass",
+  "identity": {
+    "name": "Order of the Lycan",
+    "slug": "order-of-the-lycan"
+  },
+  "source": {
+    "corpus": "the-void",
+    "product": "blood-hunter",
+    "version": "1.5",
+    "status": "playtest"
+  },
+  "provenance": {
+    "source_file": "Bloodhunter-v1.5-The-Void.pdf",
+    "page": 3
+  },
+  "availability": {
+    "in_srd": false,
+    "private_only": true,
+    "deprecated": false
+  },
+  "class_id": "the-void.v1.5.class.blood-hunter",
+  "rules": {
+    "spellcast_trait": "strength",
+    "features": [
+      {
+        "tier": "foundation",
+        "name": "Werewolf",
+        "text": "You gain the Werewolf Transformation card. Your rolls to perceive via hearing and scent have advantage."
+      },
+      {
+        "tier": "foundation",
+        "name": "Control the Beast",
+        "text": "While in your Wolf Form, you can apply that form’s bonus die to your Agility and Strength Action Rolls."
+      },
+      {
+        "tier": "specialization",
+        "name": "Feral Hide",
+        "text": "While in your Wolf Form, you gain a bonus to your Damage Thresholds equal to your Tier."
+      },
+      {
+        "tier": "specialization",
+        "name": "Lycan Regeneration",
+        "text": "While in your Wolf Form with all your Hit Points marked, you can mark a Stress to clear a Hit Point. You can do this while unconscious."
+      },
+      {
+        "tier": "mastery",
+        "name": "Master the Beast",
+        "text": "When you are in your Wolf Form and would mark your last Stress, you can instead put one of your Domain cards from your Loadout into your Vault; you can’t Recall that Domain card until you finish a long rest. When you Frenzy from marking your last Stress while in Wolf Form, you gain 2 Hope."
+      }
+    ]
+  }
+}

@@ -1,0 +1,145 @@
+{
+  "phase": "P1.2",
+  "scope": "SRD 2.0 canonical data integrity and completeness",
+  "counts": {
+    "classes": 13,
+    "subclasses_unique": 26,
+    "ancestries": 24,
+    "communities": 15,
+    "domains": 10,
+    "transformations": 6,
+    "domain_cards": 210,
+    "armor": 69,
+    "items": 120,
+    "consumables": 120,
+    "beastforms": 24,
+    "standard_weapons": 302,
+    "combat_wheelchairs": 12,
+    "supplemental_weapons": 44,
+    "fixed_weapon_variants": 358,
+    "adversaries": 264,
+    "environments": 47,
+    "campaign_frames": 1,
+    "supplemental_campaign_mechanics": 11
+  },
+  "expected": {
+    "classes": 13,
+    "subclasses_unique": 26,
+    "ancestries": 24,
+    "communities": 15,
+    "domains": 10,
+    "transformations": 6,
+    "domain_cards": 210,
+    "armor": 69,
+    "items": 120,
+    "consumables": 120,
+    "beastforms": 24,
+    "standard_weapons": 302,
+    "combat_wheelchairs": 12,
+    "supplemental_weapons": 44,
+    "fixed_weapon_variants": 358,
+    "adversaries": 264,
+    "environments": 47,
+    "campaign_frames": 1,
+    "supplemental_campaign_mechanics": 11
+  },
+  "checks": {
+    "count_classes": true,
+    "count_subclasses_unique": true,
+    "count_ancestries": true,
+    "count_communities": true,
+    "count_domains": true,
+    "count_transformations": true,
+    "count_domain_cards": true,
+    "count_armor": true,
+    "count_items": true,
+    "count_consumables": true,
+    "count_beastforms": true,
+    "count_standard_weapons": true,
+    "count_combat_wheelchairs": true,
+    "count_supplemental_weapons": true,
+    "count_fixed_weapon_variants": true,
+    "count_adversaries": true,
+    "count_environments": true,
+    "count_campaign_frames": true,
+    "count_supplemental_campaign_mechanics": true,
+    "required_files_present": true,
+    "domain_card_21_each": true,
+    "domain_card_domains_exact": true,
+    "beastforms_by_tier": true,
+    "adversaries_by_tier": true,
+    "environments_by_tier": true,
+    "standard_weapons_by_tier_role": true,
+    "canonical_collection_ids_unique": true,
+    "global_canonical_ids_unique": true,
+    "subclasses_semantic_unique_26": true,
+    "class_domain_references_resolve": true,
+    "supplemental_all_normalized": true,
+    "witherwild_14_sections": true
+  },
+  "validation": "GREEN",
+  "debug": {
+    "missing_files": [],
+    "domain_cards_by_domain": {
+      "arcana": 21,
+      "blade": 21,
+      "bone": 21,
+      "codex": 21,
+      "dread": 21,
+      "grace": 21,
+      "midnight": 21,
+      "sage": 21,
+      "splendor": 21,
+      "valor": 21
+    },
+    "beastforms_by_tier": {
+      "1": 6,
+      "2": 6,
+      "3": 6,
+      "4": 6
+    },
+    "adversaries_by_tier": {
+      "1": 86,
+      "2": 78,
+      "3": 55,
+      "4": 45
+    },
+    "environments_by_tier": {
+      "1": 16,
+      "2": 12,
+      "3": 11,
+      "4": 8
+    },
+    "standard_weapons_by_tier_role": {
+      "1": {
+        "Primary": 37,
+        "Secondary": 13
+      },
+      "2": {
+        "Primary": 67,
+        "Secondary": 20
+      },
+      "3": {
+        "Primary": 59,
+        "Secondary": 20
+      },
+      "4": {
+        "Primary": 66,
+        "Secondary": 20
+      }
+    },
+    "duplicate_ids_by_collection": {},
+    "global_duplicate_ids": {},
+    "subclass_rows_raw": 30,
+    "subclasses_unique": 26,
+    "unresolved_class_domain_references": [],
+    "supplemental_not_normalized": []
+  },
+  "warnings": [],
+  "notes": [
+    "P1.2 audits the generated canonical data, not historical extractor checkpoint files.",
+    "The subclass audit uses the semantic union of indexes/subclasses.json and indexes/subclasses-hope-fear.json because P1.1a intentionally added a second index view.",
+    "Fixed weapon variants are 302 standard variants + 12 combat wheelchairs + 44 supplemental variants = 358.",
+    "A GREEN P1.2 means the SRD 2.0 canonical layer is structurally safe to feed into adapters; it does not assert that every prose field has undergone manual editorial review."
+  ]
+}

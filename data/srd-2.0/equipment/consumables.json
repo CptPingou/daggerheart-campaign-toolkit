@@ -1,0 +1,1562 @@
+[
+  {
+    "id": "srd-2.0.consumable.core-01-stride-potion",
+    "kind": "consumable",
+    "roll": 1,
+    "name": "Stride Potion",
+    "rules_text": "You gain a +1 bonus to your next Agility Roll.",
+    "source_subset": "core",
+    "source": {
+      "corpus": "daggerheart-srd",
+      "version": "2.0",
+      "status": "srd"
+    }
+  },
+  {
+    "id": "srd-2.0.consumable.core-02-bolster-potion",
+    "kind": "consumable",
+    "roll": 2,
+    "name": "Bolster Potion",
+    "rules_text": "You gain a +1 bonus to your next Strength Roll.",
+    "source_subset": "core",
+    "source": {
+      "corpus": "daggerheart-srd",
+      "version": "2.0",
+      "status": "srd"
+    }
+  },
+  {
+    "id": "srd-2.0.consumable.core-03-control-potion",
+    "kind": "consumable",
+    "roll": 3,
+    "name": "Control Potion",
+    "rules_text": "You gain a +1 bonus to your next Finesse Roll.",
+    "source_subset": "core",
+    "source": {
+      "corpus": "daggerheart-srd",
+      "version": "2.0",
+      "status": "srd"
+    }
+  },
+  {
+    "id": "srd-2.0.consumable.core-04-attune-potion",
+    "kind": "consumable",
+    "roll": 4,
+    "name": "Attune Potion",
+    "rules_text": "You gain a +1 bonus to your next Instinct Roll.",
+    "source_subset": "core",
+    "source": {
+      "corpus": "daggerheart-srd",
+      "version": "2.0",
+      "status": "srd"
+    }
+  },
+  {
+    "id": "srd-2.0.consumable.core-05-charm-potion",
+    "kind": "consumable",
+    "roll": 5,
+    "name": "Charm Potion",
+    "rules_text": "You gain a +1 bonus to your next Presence Roll.",
+    "source_subset": "core",
+    "source": {
+      "corpus": "daggerheart-srd",
+      "version": "2.0",
+      "status": "srd"
+    }
+  },
+  {
+    "id": "srd-2.0.consumable.core-06-enlighten-potion",
+    "kind": "consumable",
+    "roll": 6,
+    "name": "Enlighten Potion",
+    "rules_text": "You gain a +1 bonus to your next Knowledge Roll.",
+    "source_subset": "core",
+    "source": {
+      "corpus": "daggerheart-srd",
+      "version": "2.0",
+      "status": "srd"
+    }
+  },
+  {
+    "id": "srd-2.0.consumable.core-07-minor-health-potion-clear-1d4",
+    "kind": "consumable",
+    "roll": 7,
+    "name": "Minor Health Potion Clear 1d4",
+    "rules_text": "HP.",
+    "source_subset": "core",
+    "source": {
+      "corpus": "daggerheart-srd",
+      "version": "2.0",
+      "status": "srd"
+    }
+  },
+  {
+    "id": "srd-2.0.consumable.core-08-minor-stamina-potion-clear-1d4",
+    "kind": "consumable",
+    "roll": 8,
+    "name": "Minor Stamina Potion Clear 1d4",
+    "rules_text": "Stress.",
+    "source_subset": "core",
+    "source": {
+      "corpus": "daggerheart-srd",
+      "version": "2.0",
+      "status": "srd"
+    }
+  },
+  {
+    "id": "srd-2.0.consumable.core-09-grindletooth-venom",
+    "kind": "consumable",
+    "roll": 9,
+    "name": "Grindletooth Venom",
+    "rules_text": "You can apply this venom to a weapon that deals physical damage to add a d6 to your next damage roll with that weapon.",
+    "source_subset": "core",
+    "source": {
+      "corpus": "daggerheart-srd",
+      "version": "2.0",
+      "status": "srd"
+    }
+  },
+  {
+    "id": "srd-2.0.consumable.core-10-varik-leaves",
+    "kind": "consumable",
+    "roll": 10,
+    "name": "Varik Leaves",
+    "rules_text": "You can eat these paired leaves to immediately gain 2 Hope.",
+    "source_subset": "core",
+    "source": {
+      "corpus": "daggerheart-srd",
+      "version": "2.0",
+      "status": "srd"
+    }
+  },
+  {
+    "id": "srd-2.0.consumable.core-11-vial-of-moondrip",
+    "kind": "consumable",
+    "roll": 11,
+    "name": "Vial of Moondrip",
+    "rules_text": "When you drink the contents of this vial, you can see in total darkness until your next rest.",
+    "source_subset": "core",
+    "source": {
+      "corpus": "daggerheart-srd",
+      "version": "2.0",
+      "status": "srd"
+    }
+  },
+  {
+    "id": "srd-2.0.consumable.core-12-unstable-arcane-shard",
+    "kind": "consumable",
+    "roll": 12,
+    "name": "Unstable Arcane Shard",
+    "rules_text": "You can make a Finesse Roll to throw this shard at a group of adversaries within Far range. T argets you succeed against take 1d20 magic damage.",
+    "source_subset": "core",
+    "source": {
+      "corpus": "daggerheart-srd",
+      "version": "2.0",
+      "status": "srd"
+    }
+  },
+  {
+    "id": "srd-2.0.consumable.core-13-potion-of-stability",
+    "kind": "consumable",
+    "roll": 13,
+    "name": "Potion of Stability",
+    "rules_text": "You can drink this potion to choose one additional downtime move.",
+    "source_subset": "core",
+    "source": {
+      "corpus": "daggerheart-srd",
+      "version": "2.0",
+      "status": "srd"
+    }
+  },
+  {
+    "id": "srd-2.0.consumable.core-14-improved-grindletooth-venom",
+    "kind": "consumable",
+    "roll": 14,
+    "name": "Improved Grindletooth Venom",
+    "rules_text": "You can apply this venom to a weapon that deals physical damage to add a d8 to your next damage roll with that weapon.",
+    "source_subset": "core",
+    "source": {
+      "corpus": "daggerheart-srd",
+      "version": "2.0",
+      "status": "srd"
+    }
+  },
+  {
+    "id": "srd-2.0.consumable.core-15-morphing-clay",
+    "kind": "consumable",
+    "roll": 15,
+    "name": "Morphing Clay",
+    "rules_text": "You can spend a Hope to use this clay, altering your face enough to make you unrecognizable until your next rest.",
+    "source_subset": "core",
+    "source": {
+      "corpus": "daggerheart-srd",
+      "version": "2.0",
+      "status": "srd"
+    }
+  },
+  {
+    "id": "srd-2.0.consumable.core-16-vial-of-darksmoke",
+    "kind": "consumable",
+    "roll": 16,
+    "name": "Vial of Darksmoke",
+    "rules_text": "When an adversary attacks you, use this vial and roll a number of d6s equal to your Agility. Add the highest result to your Evasion against the attack.",
+    "source_subset": "core",
+    "source": {
+      "corpus": "daggerheart-srd",
+      "version": "2.0",
+      "status": "srd"
+    }
+  },
+  {
+    "id": "srd-2.0.consumable.core-17-jumping-root-eat",
+    "kind": "consumable",
+    "roll": 17,
+    "name": "Jumping Root Eat",
+    "rules_text": "this root to leap up to Far range once without needing to roll.",
+    "source_subset": "core",
+    "source": {
+      "corpus": "daggerheart-srd",
+      "version": "2.0",
+      "status": "srd"
+    }
+  },
+  {
+    "id": "srd-2.0.consumable.core-18-snap-powder",
+    "kind": "consumable",
+    "roll": 18,
+    "name": "Snap Powder",
+    "rules_text": "Mark a Stress and clear a HP.",
+    "source_subset": "core",
+    "source": {
+      "corpus": "daggerheart-srd",
+      "version": "2.0",
+      "status": "srd"
+    }
+  },
+  {
+    "id": "srd-2.0.consumable.core-19-health-potion-clear-1d4-1",
+    "kind": "consumable",
+    "roll": 19,
+    "name": "Health Potion Clear 1d4+1",
+    "rules_text": "HP.",
+    "source_subset": "core",
+    "source": {
+      "corpus": "daggerheart-srd",
+      "version": "2.0",
+      "status": "srd"
+    }
+  },
+  {
+    "id": "srd-2.0.consumable.core-20-stamina-potion-clear-1d4-1",
+    "kind": "consumable",
+    "roll": 20,
+    "name": "Stamina Potion Clear 1d4+1",
+    "rules_text": "Stress.",
+    "source_subset": "core",
+    "source": {
+      "corpus": "daggerheart-srd",
+      "version": "2.0",
+      "status": "srd"
+    }
+  },
+  {
+    "id": "srd-2.0.consumable.core-21-armor-stitcher",
+    "kind": "consumable",
+    "roll": 21,
+    "name": "Armor Stitcher",
+    "rules_text": "You can use this stitcher to spend any number of Hope and clear that many Armor Slots.",
+    "source_subset": "core",
+    "source": {
+      "corpus": "daggerheart-srd",
+      "version": "2.0",
+      "status": "srd"
+    }
+  },
+  {
+    "id": "srd-2.0.consumable.core-22-gill-salve",
+    "kind": "consumable",
+    "roll": 22,
+    "name": "Gill Salve",
+    "rules_text": "You can apply this salve to your neck to breathe underwater for a number of minutes equal to your level.",
+    "source_subset": "core",
+    "source": {
+      "corpus": "daggerheart-srd",
+      "version": "2.0",
+      "status": "srd"
+    }
+  },
+  {
+    "id": "srd-2.0.consumable.core-23-replication-parchment-by-touching-this-piece-of-parchment-to-another-you-can-perfectly-copy-the-second-parchments-contents",
+    "kind": "consumable",
+    "roll": 23,
+    "name": "Replication Parchment By touching this piece of parchment to another, you can perfectly copy the second parchment’s contents.",
+    "rules_text": "Once used, this parchment becomes mundane paper.",
+    "source_subset": "core",
+    "source": {
+      "corpus": "daggerheart-srd",
+      "version": "2.0",
+      "status": "srd"
+    }
+  },
+  {
+    "id": "srd-2.0.consumable.core-24-improved-arcane-shard",
+    "kind": "consumable",
+    "roll": 24,
+    "name": "Improved Arcane Shard",
+    "rules_text": "You can make a Finesse Roll to throw this shard at a group of adversaries within Far range. T argets you succeed against take 2d20 magic damage.",
+    "source_subset": "core",
+    "source": {
+      "corpus": "daggerheart-srd",
+      "version": "2.0",
+      "status": "srd"
+    }
+  },
+  {
+    "id": "srd-2.0.consumable.core-25-major-stride-potion",
+    "kind": "consumable",
+    "roll": 25,
+    "name": "Major Stride Potion",
+    "rules_text": "You gain a +1 bonus to your Agility until your next rest.",
+    "source_subset": "core",
+    "source": {
+      "corpus": "daggerheart-srd",
+      "version": "2.0",
+      "status": "srd"
+    }
+  },
+  {
+    "id": "srd-2.0.consumable.core-26-major-bolster-potion",
+    "kind": "consumable",
+    "roll": 26,
+    "name": "Major Bolster Potion",
+    "rules_text": "You gain a +1 bonus to your Strength until your next rest.",
+    "source_subset": "core",
+    "source": {
+      "corpus": "daggerheart-srd",
+      "version": "2.0",
+      "status": "srd"
+    }
+  },
+  {
+    "id": "srd-2.0.consumable.core-27-major-control-potion",
+    "kind": "consumable",
+    "roll": 27,
+    "name": "Major Control Potion",
+    "rules_text": "You gain a +1 bonus to your Finesse until your next rest.",
+    "source_subset": "core",
+    "source": {
+      "corpus": "daggerheart-srd",
+      "version": "2.0",
+      "status": "srd"
+    }
+  },
+  {
+    "id": "srd-2.0.consumable.core-28-major-attune-potion",
+    "kind": "consumable",
+    "roll": 28,
+    "name": "Major Attune Potion",
+    "rules_text": "You gain a +1 bonus to your Instinct until your next rest.",
+    "source_subset": "core",
+    "source": {
+      "corpus": "daggerheart-srd",
+      "version": "2.0",
+      "status": "srd"
+    }
+  },
+  {
+    "id": "srd-2.0.consumable.core-29-major-charm-potion",
+    "kind": "consumable",
+    "roll": 29,
+    "name": "Major Charm Potion",
+    "rules_text": "You gain a +1 bonus to your Presence until your next rest.",
+    "source_subset": "core",
+    "source": {
+      "corpus": "daggerheart-srd",
+      "version": "2.0",
+      "status": "srd"
+    }
+  },
+  {
+    "id": "srd-2.0.consumable.core-30-major-enlighten-potion",
+    "kind": "consumable",
+    "roll": 30,
+    "name": "Major Enlighten Potion",
+    "rules_text": "You gain a +1 bonus to your Knowledge until your next rest.",
+    "source_subset": "core",
+    "source": {
+      "corpus": "daggerheart-srd",
+      "version": "2.0",
+      "status": "srd"
+    }
+  },
+  {
+    "id": "srd-2.0.consumable.core-31-blood-of-the-yorgi",
+    "kind": "consumable",
+    "roll": 31,
+    "name": "Blood of the Yorgi",
+    "rules_text": "You can drink this blood to disappear from where you are and immediately reappear at a point you can see within Very Far range.",
+    "source_subset": "core",
+    "source": {
+      "corpus": "daggerheart-srd",
+      "version": "2.0",
+      "status": "srd"
+    }
+  },
+  {
+    "id": "srd-2.0.consumable.core-32-homets-secret-potion",
+    "kind": "consumable",
+    "roll": 32,
+    "name": "Homet’s Secret Potion",
+    "rules_text": "After drinking this potion, the next successful attack you make critically succeeds.",
+    "source_subset": "core",
+    "source": {
+      "corpus": "daggerheart-srd",
+      "version": "2.0",
+      "status": "srd"
+    }
+  },
+  {
+    "id": "srd-2.0.consumable.core-33-redthorn-saliva",
+    "kind": "consumable",
+    "roll": 33,
+    "name": "Redthorn Saliva",
+    "rules_text": "You can apply this saliva to a weapon that deals physical damage to add a d12 to your next damage roll with that weapon.",
+    "source_subset": "core",
+    "source": {
+      "corpus": "daggerheart-srd",
+      "version": "2.0",
+      "status": "srd"
+    }
+  },
+  {
+    "id": "srd-2.0.consumable.core-34-channelstone",
+    "kind": "consumable",
+    "roll": 34,
+    "name": "Channelstone",
+    "rules_text": "You can use this stone to take a spell or grimoire from your vault, use it once, and return it to your vault.",
+    "source_subset": "core",
+    "source": {
+      "corpus": "daggerheart-srd",
+      "version": "2.0",
+      "status": "srd"
+    }
+  },
+  {
+    "id": "srd-2.0.consumable.core-35-mythic-dust",
+    "kind": "consumable",
+    "roll": 35,
+    "name": "Mythic Dust",
+    "rules_text": "You can apply this dust to a weapon that deals magic damage to add a d12 to your next damage roll with that weapon.",
+    "source_subset": "core",
+    "source": {
+      "corpus": "daggerheart-srd",
+      "version": "2.0",
+      "status": "srd"
+    }
+  },
+  {
+    "id": "srd-2.0.consumable.core-36-acidpaste",
+    "kind": "consumable",
+    "roll": 36,
+    "name": "Acidpaste",
+    "rules_text": "This paste eats away walls and other surfaces in bright flashes.",
+    "source_subset": "core",
+    "source": {
+      "corpus": "daggerheart-srd",
+      "version": "2.0",
+      "status": "srd"
+    }
+  },
+  {
+    "id": "srd-2.0.consumable.core-37-hopehold-flare",
+    "kind": "consumable",
+    "roll": 37,
+    "name": "Hopehold Flare",
+    "rules_text": "When you use this flare, allies within Close range roll a d6 when they spend a Hope. On a result of 6, they gain the effect of that Hope without spending it. The flare lasts until the end of the scene.",
+    "source_subset": "core",
+    "source": {
+      "corpus": "daggerheart-srd",
+      "version": "2.0",
+      "status": "srd"
+    }
+  },
+  {
+    "id": "srd-2.0.consumable.core-38-major-arcane-shard",
+    "kind": "consumable",
+    "roll": 38,
+    "name": "Major Arcane Shard",
+    "rules_text": "You can make a Finesse Roll to throw this shard at a group of adversaries within Far range. T argets you succeed against take 4d20 magic damage.",
+    "source_subset": "core",
+    "source": {
+      "corpus": "daggerheart-srd",
+      "version": "2.0",
+      "status": "srd"
+    }
+  },
+  {
+    "id": "srd-2.0.consumable.core-39-featherbone",
+    "kind": "consumable",
+    "roll": 39,
+    "name": "Featherbone",
+    "rules_text": "You can use this bone to control your falling speed for a number of minutes equal to your level.",
+    "source_subset": "core",
+    "source": {
+      "corpus": "daggerheart-srd",
+      "version": "2.0",
+      "status": "srd"
+    }
+  },
+  {
+    "id": "srd-2.0.consumable.core-40-circle-of-the-void",
+    "kind": "consumable",
+    "roll": 40,
+    "name": "Circle of the Void",
+    "rules_text": "Mark a Stress to create a void that extends up to Far range. No magic can be cast inside the void, and creatures within the void are immune to magic damage.",
+    "source_subset": "core",
+    "source": {
+      "corpus": "daggerheart-srd",
+      "version": "2.0",
+      "status": "srd"
+    }
+  },
+  {
+    "id": "srd-2.0.consumable.core-41-sun-tree-sap-consume",
+    "kind": "consumable",
+    "roll": 41,
+    "name": "Sun Tree Sap Consume",
+    "rules_text": "this sap to roll a d6. On a result of 5–6, clear 2 HP. On a result of 2–4, clear 3 Stress. On a result of 1, see through the veil of death and return changed, gaining one scar.",
+    "source_subset": "core",
+    "source": {
+      "corpus": "daggerheart-srd",
+      "version": "2.0",
+      "status": "srd"
+    }
+  },
+  {
+    "id": "srd-2.0.consumable.core-42-dripfang-poison",
+    "kind": "consumable",
+    "roll": 42,
+    "name": "Dripfang Poison",
+    "rules_text": "A creature who consumes this poison takes 8d10 direct magic damage.",
+    "source_subset": "core",
+    "source": {
+      "corpus": "daggerheart-srd",
+      "version": "2.0",
+      "status": "srd"
+    }
+  },
+  {
+    "id": "srd-2.0.consumable.core-43-major-health-potion-clear-1d4-2",
+    "kind": "consumable",
+    "roll": 43,
+    "name": "Major Health Potion Clear 1d4+2",
+    "rules_text": "HP.",
+    "source_subset": "core",
+    "source": {
+      "corpus": "daggerheart-srd",
+      "version": "2.0",
+      "status": "srd"
+    }
+  },
+  {
+    "id": "srd-2.0.consumable.core-44-major-stamina-potion-clear-1d4-2",
+    "kind": "consumable",
+    "roll": 44,
+    "name": "Major Stamina Potion Clear 1d4+2",
+    "rules_text": "Stress.",
+    "source_subset": "core",
+    "source": {
+      "corpus": "daggerheart-srd",
+      "version": "2.0",
+      "status": "srd"
+    }
+  },
+  {
+    "id": "srd-2.0.consumable.core-45-ogre-musk",
+    "kind": "consumable",
+    "roll": 45,
+    "name": "Ogre Musk",
+    "rules_text": "You can use this musk to prevent anyone from tracking you by mundane or magical means until your next rest.",
+    "source_subset": "core",
+    "source": {
+      "corpus": "daggerheart-srd",
+      "version": "2.0",
+      "status": "srd"
+    }
+  },
+  {
+    "id": "srd-2.0.consumable.core-46-wingsprout",
+    "kind": "consumable",
+    "roll": 46,
+    "name": "Wingsprout",
+    "rules_text": "You gain magic wings that allow you to fly for a number of minutes equal to your level.",
+    "source_subset": "core",
+    "source": {
+      "corpus": "daggerheart-srd",
+      "version": "2.0",
+      "status": "srd"
+    }
+  },
+  {
+    "id": "srd-2.0.consumable.core-47-jar-of-lost-voices",
+    "kind": "consumable",
+    "roll": 47,
+    "name": "Jar of Lost Voices",
+    "rules_text": "You can open this jar to release a deafening echo of voices for a number of minutes equal to your Instinct. Creatures within Far range unprepared for the sound take 6d8 magic damage.",
+    "source_subset": "core",
+    "source": {
+      "corpus": "daggerheart-srd",
+      "version": "2.0",
+      "status": "srd"
+    }
+  },
+  {
+    "id": "srd-2.0.consumable.core-48-dragonbloom-tea",
+    "kind": "consumable",
+    "roll": 48,
+    "name": "Dragonbloom Tea",
+    "rules_text": "You can drink this tea to unleash a fiery breath attack. Make an Instinct Roll against all adversaries in front of you within Close range. T argets you succeed against take d20 physical damage using your Proficiency.",
+    "source_subset": "core",
+    "source": {
+      "corpus": "daggerheart-srd",
+      "version": "2.0",
+      "status": "srd"
+    }
+  },
+  {
+    "id": "srd-2.0.consumable.core-49-bridge-seed-thick-vines-grow-from-your-location-to-a-point-of-your-choice-within-far-range-allowing-you-to-climb-up-or-across-them",
+    "kind": "consumable",
+    "roll": 49,
+    "name": "Bridge Seed Thick vines grow from your location to a point of your choice within Far range, allowing you to climb up or across them.",
+    "rules_text": "The vines dissipate on your next short rest.",
+    "source_subset": "core",
+    "source": {
+      "corpus": "daggerheart-srd",
+      "version": "2.0",
+      "status": "srd"
+    }
+  },
+  {
+    "id": "srd-2.0.consumable.core-50-sleeping-sap",
+    "kind": "consumable",
+    "roll": 50,
+    "name": "Sleeping Sap",
+    "rules_text": "You can drink this potion to fall asleep for a full night’s rest. You clear all Stress upon waking.",
+    "source_subset": "core",
+    "source": {
+      "corpus": "daggerheart-srd",
+      "version": "2.0",
+      "status": "srd"
+    }
+  },
+  {
+    "id": "srd-2.0.consumable.core-51-feast-of-xuria",
+    "kind": "consumable",
+    "roll": 51,
+    "name": "Feast of Xuria",
+    "rules_text": "You can eat this meal to clear all HP and Stress and gain 1d4 Hope.",
+    "source_subset": "core",
+    "source": {
+      "corpus": "daggerheart-srd",
+      "version": "2.0",
+      "status": "srd"
+    }
+  },
+  {
+    "id": "srd-2.0.consumable.core-52-bonding-honey",
+    "kind": "consumable",
+    "roll": 52,
+    "name": "Bonding Honey",
+    "rules_text": "This honey can be used to glue two objects together permanently.",
+    "source_subset": "core",
+    "source": {
+      "corpus": "daggerheart-srd",
+      "version": "2.0",
+      "status": "srd"
+    }
+  },
+  {
+    "id": "srd-2.0.consumable.core-53-shrinking-potion",
+    "kind": "consumable",
+    "roll": 53,
+    "name": "Shrinking Potion",
+    "rules_text": "You can drink this potion to halve your size until you choose to drop this form or your next rest. While in this form, you have a +2 bonus to Agility and a −1 penalty to your Proficiency.",
+    "source_subset": "core",
+    "source": {
+      "corpus": "daggerheart-srd",
+      "version": "2.0",
+      "status": "srd"
+    }
+  },
+  {
+    "id": "srd-2.0.consumable.core-54-growing-potion",
+    "kind": "consumable",
+    "roll": 54,
+    "name": "Growing Potion",
+    "rules_text": "You can drink this potion to double your size until you choose to drop this form or your next rest. While in this form, you have a +2 bonus to Strength and a +1 bonus to your Proficiency.",
+    "source_subset": "core",
+    "source": {
+      "corpus": "daggerheart-srd",
+      "version": "2.0",
+      "status": "srd"
+    }
+  },
+  {
+    "id": "srd-2.0.consumable.core-55-knowledge-stone",
+    "kind": "consumable",
+    "roll": 55,
+    "name": "Knowledge Stone",
+    "rules_text": "If you die while holding this stone, an ally can take a card from your loadout to place in their loadout or vault. After they take this knowledge, the stone crumbles.",
+    "source_subset": "core",
+    "source": {
+      "corpus": "daggerheart-srd",
+      "version": "2.0",
+      "status": "srd"
+    }
+  },
+  {
+    "id": "srd-2.0.consumable.core-56-sweet-moss",
+    "kind": "consumable",
+    "roll": 56,
+    "name": "Sweet Moss",
+    "rules_text": "You can consume this moss during a rest to clear 1d10 HP or 1d10 Stress.",
+    "source_subset": "core",
+    "source": {
+      "corpus": "daggerheart-srd",
+      "version": "2.0",
+      "status": "srd"
+    }
+  },
+  {
+    "id": "srd-2.0.consumable.core-57-blinding-orb",
+    "kind": "consumable",
+    "roll": 57,
+    "name": "Blinding Orb",
+    "rules_text": "You can activate this orb to create a flash of bright light. All targets within Close range become Vulnerable until they mark HP.",
+    "source_subset": "core",
+    "source": {
+      "corpus": "daggerheart-srd",
+      "version": "2.0",
+      "status": "srd"
+    }
+  },
+  {
+    "id": "srd-2.0.consumable.core-58-death-tea",
+    "kind": "consumable",
+    "roll": 58,
+    "name": "Death Tea",
+    "rules_text": "After you drink this tea, you instantly kill your target when you critically succeed on an attack. If you don’t critically succeed on an attack before your next long rest, you die.",
+    "source_subset": "core",
+    "source": {
+      "corpus": "daggerheart-srd",
+      "version": "2.0",
+      "status": "srd"
+    }
+  },
+  {
+    "id": "srd-2.0.consumable.core-59-mirror-of-marigold",
+    "kind": "consumable",
+    "roll": 59,
+    "name": "Mirror of Marigold",
+    "rules_text": "When you take damage, you can spend a Hope to negate that damage, after which the mirror shatters.",
+    "source_subset": "core",
+    "source": {
+      "corpus": "daggerheart-srd",
+      "version": "2.0",
+      "status": "srd"
+    }
+  },
+  {
+    "id": "srd-2.0.consumable.core-60-stardrop",
+    "kind": "consumable",
+    "roll": 60,
+    "name": "Stardrop",
+    "rules_text": "You can use this stardrop to summon a hailstorm of comets that deals 8d20 physical damage to all targets within Very Far range.",
+    "source_subset": "core",
+    "source": {
+      "corpus": "daggerheart-srd",
+      "version": "2.0",
+      "status": "srd"
+    }
+  },
+  {
+    "id": "srd-2.0.consumable.hope-fear-01-warding-candle",
+    "kind": "consumable",
+    "roll": 1,
+    "name": "Warding Candle",
+    "rules_text": "You can light this candle to fill an area within Close range with a halo of light. A creature outside the halo can’t enter it if they have ill intent toward a creature within it. The candle burns for an hour.",
+    "source_subset": "hope-fear",
+    "source": {
+      "corpus": "daggerheart-srd",
+      "version": "2.0",
+      "status": "srd"
+    }
+  },
+  {
+    "id": "srd-2.0.consumable.hope-fear-02-iridian-dust",
+    "kind": "consumable",
+    "roll": 2,
+    "name": "Iridian Dust",
+    "rules_text": "This multicolored powder sticks to everything and prevents creatures covered in it from becoming Hidden.",
+    "source_subset": "hope-fear",
+    "source": {
+      "corpus": "daggerheart-srd",
+      "version": "2.0",
+      "status": "srd"
+    }
+  },
+  {
+    "id": "srd-2.0.consumable.hope-fear-03-verglasian-seed",
+    "kind": "consumable",
+    "roll": 3,
+    "name": "Verglasian Seed",
+    "rules_text": "You can use this ice shard to instantly freeze an area of water up to Close range.",
+    "source_subset": "hope-fear",
+    "source": {
+      "corpus": "daggerheart-srd",
+      "version": "2.0",
+      "status": "srd"
+    }
+  },
+  {
+    "id": "srd-2.0.consumable.hope-fear-04-cupbearers-bezoar",
+    "kind": "consumable",
+    "roll": 4,
+    "name": "Cupbearer’s Bezoar",
+    "rules_text": "You can swallow this bezoar to become immune to poisons until your next long rest.",
+    "source_subset": "hope-fear",
+    "source": {
+      "corpus": "daggerheart-srd",
+      "version": "2.0",
+      "status": "srd"
+    }
+  },
+  {
+    "id": "srd-2.0.consumable.hope-fear-05-mossmantle-potion",
+    "kind": "consumable",
+    "roll": 5,
+    "name": "Mossmantle Potion",
+    "rules_text": "You can drink this tea to perfectly blend into natural environments until your next rest.",
+    "source_subset": "hope-fear",
+    "source": {
+      "corpus": "daggerheart-srd",
+      "version": "2.0",
+      "status": "srd"
+    }
+  },
+  {
+    "id": "srd-2.0.consumable.hope-fear-06-lyrebird-lozenge",
+    "kind": "consumable",
+    "roll": 6,
+    "name": "Lyrebird Lozenge",
+    "rules_text": "You can dissolve this lozenge in your mouth to perfectly mimic any voice you’ve heard until the end of the scene.",
+    "source_subset": "hope-fear",
+    "source": {
+      "corpus": "daggerheart-srd",
+      "version": "2.0",
+      "status": "srd"
+    }
+  },
+  {
+    "id": "srd-2.0.consumable.hope-fear-07-vial-of-featherfall",
+    "kind": "consumable",
+    "roll": 7,
+    "name": "Vial of Featherfall",
+    "rules_text": "You can drink this potion to ignore damage from falling for the next 10 minutes.",
+    "source_subset": "hope-fear",
+    "source": {
+      "corpus": "daggerheart-srd",
+      "version": "2.0",
+      "status": "srd"
+    }
+  },
+  {
+    "id": "srd-2.0.consumable.hope-fear-08-chimeric-saliva",
+    "kind": "consumable",
+    "roll": 8,
+    "name": "Chimeric Saliva",
+    "rules_text": "You can apply this saliva to a weapon that deals physical damage to change its damage type to magic until your next rest.",
+    "source_subset": "hope-fear",
+    "source": {
+      "corpus": "daggerheart-srd",
+      "version": "2.0",
+      "status": "srd"
+    }
+  },
+  {
+    "id": "srd-2.0.consumable.hope-fear-09-packet-of-space-dust",
+    "kind": "consumable",
+    "roll": 9,
+    "name": "Packet of Space Dust",
+    "rules_text": "This dust causes anything it covers to become lighter than air. One packet contains enough dust to cover the contents of a picnic basket, and the effects last for an hour.",
+    "source_subset": "hope-fear",
+    "source": {
+      "corpus": "daggerheart-srd",
+      "version": "2.0",
+      "status": "srd"
+    }
+  },
+  {
+    "id": "srd-2.0.consumable.hope-fear-10-pipeweed",
+    "kind": "consumable",
+    "roll": 10,
+    "name": "Pipeweed",
+    "rules_text": "When you choose the Clear Stress downtime move during a short rest, you can smoke this non-intoxicating leaf to clear an additional Stress. Any other PCs who chose the Clear Stress downtime move also gain this benefit.",
+    "source_subset": "hope-fear",
+    "source": {
+      "corpus": "daggerheart-srd",
+      "version": "2.0",
+      "status": "srd"
+    }
+  },
+  {
+    "id": "srd-2.0.consumable.hope-fear-11-deathseers-powder",
+    "kind": "consumable",
+    "roll": 11,
+    "name": "Deathseer’s Powder",
+    "rules_text": "You can sprinkle this powder over a recently deceased corpse to conjure a spectral reprise of their final minute of life.",
+    "source_subset": "hope-fear",
+    "source": {
+      "corpus": "daggerheart-srd",
+      "version": "2.0",
+      "status": "srd"
+    }
+  },
+  {
+    "id": "srd-2.0.consumable.hope-fear-12-slayers-salt",
+    "kind": "consumable",
+    "roll": 12,
+    "name": "Slayer’s Salt",
+    "rules_text": "You can spread this salt in a line along windowsills or thresholds to create a magical barrier that undead creatures can’t cross until the line is broken.",
+    "source_subset": "hope-fear",
+    "source": {
+      "corpus": "daggerheart-srd",
+      "version": "2.0",
+      "status": "srd"
+    }
+  },
+  {
+    "id": "srd-2.0.consumable.hope-fear-13-yakamel-milk",
+    "kind": "consumable",
+    "roll": 13,
+    "name": "Yakamel Milk",
+    "rules_text": "After consuming this milk, the next time you clear 1 or more Hit Points, you clear an additional Hit Point.",
+    "source_subset": "hope-fear",
+    "source": {
+      "corpus": "daggerheart-srd",
+      "version": "2.0",
+      "status": "srd"
+    }
+  },
+  {
+    "id": "srd-2.0.consumable.hope-fear-14-glowmoss-mushroom",
+    "kind": "consumable",
+    "roll": 14,
+    "name": "Glowmoss Mushroom",
+    "rules_text": "You can break this mushroom into pieces, causing it to glow bright blue until your next long rest.",
+    "source_subset": "hope-fear",
+    "source": {
+      "corpus": "daggerheart-srd",
+      "version": "2.0",
+      "status": "srd"
+    }
+  },
+  {
+    "id": "srd-2.0.consumable.hope-fear-15-red-ooze-oil",
+    "kind": "consumable",
+    "roll": 15,
+    "name": "Red Ooze Oil",
+    "rules_text": "You can coat your weapon in this oil. The next successful attack you make with this weapon deals an extra 1d8 magic damage and temporarily Ignites the target. While Ignited, the target takes 1d4 magic damage when they take the spotlight.",
+    "source_subset": "hope-fear",
+    "source": {
+      "corpus": "daggerheart-srd",
+      "version": "2.0",
+      "status": "srd"
+    }
+  },
+  {
+    "id": "srd-2.0.consumable.hope-fear-16-instant-camp",
+    "kind": "consumable",
+    "roll": 16,
+    "name": "Instant Camp",
+    "rules_text": "You can unfold this small mechanical box into a camping tent large enough to safely house six people. The tent collapses at the end of your next long rest.",
+    "source_subset": "hope-fear",
+    "source": {
+      "corpus": "daggerheart-srd",
+      "version": "2.0",
+      "status": "srd"
+    }
+  },
+  {
+    "id": "srd-2.0.consumable.hope-fear-17-bundle-of-spiderlegs",
+    "kind": "consumable",
+    "roll": 17,
+    "name": "Bundle of Spiderlegs",
+    "rules_text": "You can eat these spiderlegs to walk on walls until your next rest.",
+    "source_subset": "hope-fear",
+    "source": {
+      "corpus": "daggerheart-srd",
+      "version": "2.0",
+      "status": "srd"
+    }
+  },
+  {
+    "id": "srd-2.0.consumable.hope-fear-18-ciscan-fog-bottle",
+    "kind": "consumable",
+    "roll": 18,
+    "name": "Ciscan Fog Bottle",
+    "rules_text": "You can break this jar to fill the area within Close range with magical mist. A creature who enters the mist clears a Stress and becomes Hidden.",
+    "source_subset": "hope-fear",
+    "source": {
+      "corpus": "daggerheart-srd",
+      "version": "2.0",
+      "status": "srd"
+    }
+  },
+  {
+    "id": "srd-2.0.consumable.hope-fear-19-snapthorn-seed",
+    "kind": "consumable",
+    "roll": 19,
+    "name": "Snapthorn Seed",
+    "rules_text": "You can throw this seed at a point you can see. It explodes into a tangle of binding vines that temporarily Restrains all creatures within Close range of that point.",
+    "source_subset": "hope-fear",
+    "source": {
+      "corpus": "daggerheart-srd",
+      "version": "2.0",
+      "status": "srd"
+    }
+  },
+  {
+    "id": "srd-2.0.consumable.hope-fear-20-sprite-bottle",
+    "kind": "consumable",
+    "roll": 20,
+    "name": "Sprite Bottle",
+    "rules_text": "When you mark your last Hit Point, this bottle shatters to release the Sprite inside. The Sprite clears all your Hit Points before fading from the Mortal Realm.",
+    "source_subset": "hope-fear",
+    "source": {
+      "corpus": "daggerheart-srd",
+      "version": "2.0",
+      "status": "srd"
+    }
+  },
+  {
+    "id": "srd-2.0.consumable.hope-fear-21-gravity-bomb",
+    "kind": "consumable",
+    "roll": 21,
+    "name": "Gravity Bomb",
+    "rules_text": "You can throw this peach-sized mechanical orb at a point within Far range. It implodes and pulls all creatures and objects within Close range of that point into Melee range with it.",
+    "source_subset": "hope-fear",
+    "source": {
+      "corpus": "daggerheart-srd",
+      "version": "2.0",
+      "status": "srd"
+    }
+  },
+  {
+    "id": "srd-2.0.consumable.hope-fear-22-gossip-flower",
+    "kind": "consumable",
+    "roll": 22,
+    "name": "Gossip Flower",
+    "rules_text": "You can plant this seed in soil. It instantly grows into a small flower that records everything it hears for up to one week. When plucked, the flower recites what it recorded in real time, then withers.",
+    "source_subset": "hope-fear",
+    "source": {
+      "corpus": "daggerheart-srd",
+      "version": "2.0",
+      "status": "srd"
+    }
+  },
+  {
+    "id": "srd-2.0.consumable.hope-fear-23-displacement-token",
+    "kind": "consumable",
+    "roll": 23,
+    "name": "Displacement Token",
+    "rules_text": "You can swallow this token to conjure two illusions of yourself that you can control. Each illusion lasts until it takes damage or until your next rest.",
+    "source_subset": "hope-fear",
+    "source": {
+      "corpus": "daggerheart-srd",
+      "version": "2.0",
+      "status": "srd"
+    }
+  },
+  {
+    "id": "srd-2.0.consumable.hope-fear-24-night-hags-dust",
+    "kind": "consumable",
+    "roll": 24,
+    "name": "Night Hag’s Dust",
+    "rules_text": "You can blow this dust in an adversary’s face to prevent them from clearing Stress until your next long rest.",
+    "source_subset": "hope-fear",
+    "source": {
+      "corpus": "daggerheart-srd",
+      "version": "2.0",
+      "status": "srd"
+    }
+  },
+  {
+    "id": "srd-2.0.consumable.hope-fear-25-self-sewing-thread",
+    "kind": "consumable",
+    "roll": 25,
+    "name": "Self-Sewing Thread",
+    "rules_text": "You can use this thread to clear either a Hit Point or 2 Armor Slots.",
+    "source_subset": "hope-fear",
+    "source": {
+      "corpus": "daggerheart-srd",
+      "version": "2.0",
+      "status": "srd"
+    }
+  },
+  {
+    "id": "srd-2.0.consumable.hope-fear-26-stonemasons-fortune",
+    "kind": "consumable",
+    "roll": 26,
+    "name": "Stonemason’s Fortune",
+    "rules_text": "When you throw this gray brick on the ground, it immediately grows into a 6-foot-tall, 10-foot-wide, and 2-foot- deep wall of solid stone.",
+    "source_subset": "hope-fear",
+    "source": {
+      "corpus": "daggerheart-srd",
+      "version": "2.0",
+      "status": "srd"
+    }
+  },
+  {
+    "id": "srd-2.0.consumable.hope-fear-27-mnemonic-potion",
+    "kind": "consumable",
+    "roll": 27,
+    "name": "Mnemonic Potion",
+    "rules_text": "You can drink this potion to Utilize an Experience without spending a Hope.",
+    "source_subset": "hope-fear",
+    "source": {
+      "corpus": "daggerheart-srd",
+      "version": "2.0",
+      "status": "srd"
+    }
+  },
+  {
+    "id": "srd-2.0.consumable.hope-fear-28-salamander-salve",
+    "kind": "consumable",
+    "roll": 28,
+    "name": "Salamander Salve",
+    "rules_text": "You can apply this salve to your skin to make yourself immune to heat until your next rest.",
+    "source_subset": "hope-fear",
+    "source": {
+      "corpus": "daggerheart-srd",
+      "version": "2.0",
+      "status": "srd"
+    }
+  },
+  {
+    "id": "srd-2.0.consumable.hope-fear-29-green-ooze-oil",
+    "kind": "consumable",
+    "roll": 29,
+    "name": "Green Ooze Oil",
+    "rules_text": "You can coat your weapon in this oil. The next successful attack you make with this weapon deals an extra 1d8 magic damage and temporarily Corrodes the target. While Corroded, the target gains a −2 penalty to their damage thresholds.",
+    "source_subset": "hope-fear",
+    "source": {
+      "corpus": "daggerheart-srd",
+      "version": "2.0",
+      "status": "srd"
+    }
+  },
+  {
+    "id": "srd-2.0.consumable.hope-fear-30-sunlight-orb",
+    "kind": "consumable",
+    "roll": 30,
+    "name": "Sunlight Orb",
+    "rules_text": "You can shatter this orb to make the area within Very Far range appear as though it’s sunlit daytime for the next",
+    "source_subset": "hope-fear",
+    "source": {
+      "corpus": "daggerheart-srd",
+      "version": "2.0",
+      "status": "srd"
+    }
+  },
+  {
+    "id": "srd-2.0.consumable.hope-fear-31-moonlight-orb",
+    "kind": "consumable",
+    "roll": 31,
+    "name": "Moonlight Orb",
+    "rules_text": "You can shatter this orb to make the area within Very Far range appear as though it’s moonlit nighttime for the next 24 hours.",
+    "source_subset": "hope-fear",
+    "source": {
+      "corpus": "daggerheart-srd",
+      "version": "2.0",
+      "status": "srd"
+    }
+  },
+  {
+    "id": "srd-2.0.consumable.hope-fear-32-midas-flask",
+    "kind": "consumable",
+    "roll": 32,
+    "name": "Midas Flask",
+    "rules_text": "You can pour this small flask of alchemical liquid over a mundane item to instantly transmute it into a handful of gold.",
+    "source_subset": "hope-fear",
+    "source": {
+      "corpus": "daggerheart-srd",
+      "version": "2.0",
+      "status": "srd"
+    }
+  },
+  {
+    "id": "srd-2.0.consumable.hope-fear-33-staff-of-reversal",
+    "kind": "consumable",
+    "roll": 33,
+    "name": "Staff of Reversal",
+    "rules_text": "You can break this staff against the ground to reverse one magical transformation or effect within Far range.",
+    "source_subset": "hope-fear",
+    "source": {
+      "corpus": "daggerheart-srd",
+      "version": "2.0",
+      "status": "srd"
+    }
+  },
+  {
+    "id": "srd-2.0.consumable.hope-fear-34-berserkers-brew",
+    "kind": "consumable",
+    "roll": 34,
+    "name": "Berserker’s Brew",
+    "rules_text": "When you drink this dram of liquid, you gain a bonus to your Strength and a penalty to your Finesse and Knowledge equal to your Instinct (minimum 1). This effect lasts until you make a death move or until your next rest.",
+    "source_subset": "hope-fear",
+    "source": {
+      "corpus": "daggerheart-srd",
+      "version": "2.0",
+      "status": "srd"
+    }
+  },
+  {
+    "id": "srd-2.0.consumable.hope-fear-35-emberite-shard",
+    "kind": "consumable",
+    "roll": 35,
+    "name": "Emberite Shard",
+    "rules_text": "Choose a point within Far range. All targets within Close range of that point must succeed on a Reaction Roll (16) or take 3d6 magic damage and become temporarily Ablaze. While Ablaze, a creature must roll a d4 whenever they make an action roll. On a result of 1, they mark a Hit Point. On a result of 4, they clear the Ablaze condition.",
+    "source_subset": "hope-fear",
+    "source": {
+      "corpus": "daggerheart-srd",
+      "version": "2.0",
+      "status": "srd"
+    }
+  },
+  {
+    "id": "srd-2.0.consumable.hope-fear-36-arcticite-shard",
+    "kind": "consumable",
+    "roll": 36,
+    "name": "Arcticite Shard",
+    "rules_text": "Choose a point within Far range. All targets within Close range of that point must succeed on a Reaction Roll (16) or take 3d6 magic damage and become temporarily Restrained by ice.",
+    "source_subset": "hope-fear",
+    "source": {
+      "corpus": "daggerheart-srd",
+      "version": "2.0",
+      "status": "srd"
+    }
+  },
+  {
+    "id": "srd-2.0.consumable.hope-fear-37-fulgurite-shard",
+    "kind": "consumable",
+    "roll": 37,
+    "name": "Fulgurite Shard",
+    "rules_text": "Choose a point within Far range. All targets within Close range of that point must succeed on a Reaction Roll (16) or take 3d6 magic damage and mark 1d4 Stress as lightning crackles through the area.",
+    "source_subset": "hope-fear",
+    "source": {
+      "corpus": "daggerheart-srd",
+      "version": "2.0",
+      "status": "srd"
+    }
+  },
+  {
+    "id": "srd-2.0.consumable.hope-fear-38-demiurges-draught",
+    "kind": "consumable",
+    "roll": 38,
+    "name": "Demiurge’s Draught",
+    "rules_text": "You can drink this draught to gain a +1 bonus to your Proficiency for your next successful attack roll.",
+    "source_subset": "hope-fear",
+    "source": {
+      "corpus": "daggerheart-srd",
+      "version": "2.0",
+      "status": "srd"
+    }
+  },
+  {
+    "id": "srd-2.0.consumable.hope-fear-39-cockerel-claw-tea",
+    "kind": "consumable",
+    "roll": 39,
+    "name": "Cockerel Claw Tea",
+    "rules_text": "You can drink this tea to refresh your features as if you had taken a long rest.",
+    "source_subset": "hope-fear",
+    "source": {
+      "corpus": "daggerheart-srd",
+      "version": "2.0",
+      "status": "srd"
+    }
+  },
+  {
+    "id": "srd-2.0.consumable.hope-fear-40-potion-of-vigilance",
+    "kind": "consumable",
+    "roll": 40,
+    "name": "Potion of Vigilance",
+    "rules_text": "You can drink this potion to gain a +1 bonus to your Evasion until you mark a Hit Point.",
+    "source_subset": "hope-fear",
+    "source": {
+      "corpus": "daggerheart-srd",
+      "version": "2.0",
+      "status": "srd"
+    }
+  },
+  {
+    "id": "srd-2.0.consumable.hope-fear-41-cacophonous-concoction",
+    "kind": "consumable",
+    "roll": 41,
+    "name": "Cacophonous Concoction",
+    "rules_text": "When you drink this potion, anything you say or do in the next hour becomes impossible for a witness to recount. Any attempts they make to communicate what they saw, heard, or otherwise sensed comes out garbled or nonsensical.",
+    "source_subset": "hope-fear",
+    "source": {
+      "corpus": "daggerheart-srd",
+      "version": "2.0",
+      "status": "srd"
+    }
+  },
+  {
+    "id": "srd-2.0.consumable.hope-fear-42-nightmare-mead",
+    "kind": "consumable",
+    "roll": 42,
+    "name": "Nightmare Mead",
+    "rules_text": "You can drink this potion to discover the deepest fear of the next person you make eye contact with. When you do, the GM gains a Fear.",
+    "source_subset": "hope-fear",
+    "source": {
+      "corpus": "daggerheart-srd",
+      "version": "2.0",
+      "status": "srd"
+    }
+  },
+  {
+    "id": "srd-2.0.consumable.hope-fear-43-stake-of-abjuration",
+    "kind": "consumable",
+    "roll": 43,
+    "name": "Stake of Abjuration",
+    "rules_text": "You can hammer this stake into the ground and make a proclamation. Until your next rest, a creature within Far range of the stake who transgresses that proclamation must mark a Stress. The stake lasts until your next rest, then it shatters.",
+    "source_subset": "hope-fear",
+    "source": {
+      "corpus": "daggerheart-srd",
+      "version": "2.0",
+      "status": "srd"
+    }
+  },
+  {
+    "id": "srd-2.0.consumable.hope-fear-44-psychopomps-shroud",
+    "kind": "consumable",
+    "roll": 44,
+    "name": "Psychopomp’s Shroud",
+    "rules_text": "You can place this shroud over the corpse of a recently deceased creature. The creature’s spirit enters the shroud and becomes your spectral assistant until the next sunrise, when they pass through the veil of death and take the shroud with them.",
+    "source_subset": "hope-fear",
+    "source": {
+      "corpus": "daggerheart-srd",
+      "version": "2.0",
+      "status": "srd"
+    }
+  },
+  {
+    "id": "srd-2.0.consumable.hope-fear-45-phial-of-deep-ink",
+    "kind": "consumable",
+    "roll": 45,
+    "name": "Phial of Deep Ink",
+    "rules_text": "You can drink this bottle of ink to transform into a cephalopod of roughly your size for the next hour. You gain rubbery skin, soft bones, the ability to breathe underwater, and new limbs until you have eight total.",
+    "source_subset": "hope-fear",
+    "source": {
+      "corpus": "daggerheart-srd",
+      "version": "2.0",
+      "status": "srd"
+    }
+  },
+  {
+    "id": "srd-2.0.consumable.hope-fear-46-mesmers-tonic",
+    "kind": "consumable",
+    "roll": 46,
+    "name": "Mesmer’s Tonic",
+    "rules_text": "When you drink this tonic, the only thing you can hear until your next rest are the surface thoughts of creatures within Very Close range.",
+    "source_subset": "hope-fear",
+    "source": {
+      "corpus": "daggerheart-srd",
+      "version": "2.0",
+      "status": "srd"
+    }
+  },
+  {
+    "id": "srd-2.0.consumable.hope-fear-47-invisibility-potion",
+    "kind": "consumable",
+    "roll": 47,
+    "name": "Invisibility Potion",
+    "rules_text": "You are Hidden until you deal damage to another creature or until your next rest.",
+    "source_subset": "hope-fear",
+    "source": {
+      "corpus": "daggerheart-srd",
+      "version": "2.0",
+      "status": "srd"
+    }
+  },
+  {
+    "id": "srd-2.0.consumable.hope-fear-48-formoid-serum",
+    "kind": "consumable",
+    "roll": 48,
+    "name": "Formoid Serum",
+    "rules_text": "You can drink this potion to become a swarm of 16 million ants until the end of the scene. You keep and have access to all equipment, loot, and features.",
+    "source_subset": "hope-fear",
+    "source": {
+      "corpus": "daggerheart-srd",
+      "version": "2.0",
+      "status": "srd"
+    }
+  },
+  {
+    "id": "srd-2.0.consumable.hope-fear-49-steelskin-salve",
+    "kind": "consumable",
+    "roll": 49,
+    "name": "Steelskin Salve",
+    "rules_text": "You can apply this salve to your skin to gain a bonus to your damage thresholds equal to your tier until the end of the scene.",
+    "source_subset": "hope-fear",
+    "source": {
+      "corpus": "daggerheart-srd",
+      "version": "2.0",
+      "status": "srd"
+    }
+  },
+  {
+    "id": "srd-2.0.consumable.hope-fear-50-godlings-pomelo",
+    "kind": "consumable",
+    "roll": 50,
+    "name": "Godling’s Pomelo",
+    "rules_text": "You can eat this citrus fruit to clear all Hit Points and Stress.",
+    "source_subset": "hope-fear",
+    "source": {
+      "corpus": "daggerheart-srd",
+      "version": "2.0",
+      "status": "srd"
+    }
+  },
+  {
+    "id": "srd-2.0.consumable.hope-fear-51-snakeskin-spirit",
+    "kind": "consumable",
+    "roll": 51,
+    "name": "Snakeskin Spirit",
+    "rules_text": "You can drink this potion to slough off your outer layer of skin and heal a scar.",
+    "source_subset": "hope-fear",
+    "source": {
+      "corpus": "daggerheart-srd",
+      "version": "2.0",
+      "status": "srd"
+    }
+  },
+  {
+    "id": "srd-2.0.consumable.hope-fear-52-magic-users-malison",
+    "kind": "consumable",
+    "roll": 52,
+    "name": "Magic-User’s Malison",
+    "rules_text": "When you release this spellcaster’s trapped soul, you can cast one spell from a card in your vault as if it were in your loadout. This doesn’t work for permanently vaulted cards.",
+    "source_subset": "hope-fear",
+    "source": {
+      "corpus": "daggerheart-srd",
+      "version": "2.0",
+      "status": "srd"
+    }
+  },
+  {
+    "id": "srd-2.0.consumable.hope-fear-53-quintessential-severant",
+    "kind": "consumable",
+    "roll": 53,
+    "name": "Quintessential Severant",
+    "rules_text": "You can use this magic blade to cut one magical or metaphysical bond, such as an enchantment, contract, magical tether, or divine oath. When you do, the blade shatters.",
+    "source_subset": "hope-fear",
+    "source": {
+      "corpus": "daggerheart-srd",
+      "version": "2.0",
+      "status": "srd"
+    }
+  },
+  {
+    "id": "srd-2.0.consumable.hope-fear-54-mask-of-the-echoed-self",
+    "kind": "consumable",
+    "roll": 54,
+    "name": "Mask of the Echoed Self",
+    "rules_text": "You can wear this mask during your next level up to swap the values of any of your traits. When you do, the mask becomes your permanent face.",
+    "source_subset": "hope-fear",
+    "source": {
+      "corpus": "daggerheart-srd",
+      "version": "2.0",
+      "status": "srd"
+    }
+  },
+  {
+    "id": "srd-2.0.consumable.hope-fear-55-necroprancers-bell",
+    "kind": "consumable",
+    "roll": 55,
+    "name": "Necroprancer’s Bell",
+    "rules_text": "You can break this rusted, clapperless bell against the ground to summon a skeletal steed that climbs out of the earth and serves you until the next sunrise.",
+    "source_subset": "hope-fear",
+    "source": {
+      "corpus": "daggerheart-srd",
+      "version": "2.0",
+      "status": "srd"
+    }
+  },
+  {
+    "id": "srd-2.0.consumable.hope-fear-56-drakemantle",
+    "kind": "consumable",
+    "roll": 56,
+    "name": "Drakemantle",
+    "rules_text": "You can use this enchanted ancient dragon hide to gain draconic characteristics until the end of the scene, when the hide falls aways in tatters. Until then, you can fly and gain a +5 bonus to your damage thresholds and a +1 bonus to your Proficiency.",
+    "source_subset": "hope-fear",
+    "source": {
+      "corpus": "daggerheart-srd",
+      "version": "2.0",
+      "status": "srd"
+    }
+  },
+  {
+    "id": "srd-2.0.consumable.hope-fear-57-gamblers-fallacy",
+    "kind": "consumable",
+    "roll": 57,
+    "name": "Gambler’s Fallacy",
+    "rules_text": "You can spend any number of handfuls of gold by placing them into this slotted ceramic jar shaped like a pig. When you throw the jar at a point within Far range, it explodes and deals 1d20 magic damage for each handful of gold spent to all creatures within Close range of that point. All gold within the jar is destroyed.",
+    "source_subset": "hope-fear",
+    "source": {
+      "corpus": "daggerheart-srd",
+      "version": "2.0",
+      "status": "srd"
+    }
+  },
+  {
+    "id": "srd-2.0.consumable.hope-fear-58-lionheart-tonic",
+    "kind": "consumable",
+    "roll": 58,
+    "name": "Lionheart Tonic",
+    "rules_text": "You can drink this tonic to gain a +1 bonus to your Proficiency until you roll with Fear.",
+    "source_subset": "hope-fear",
+    "source": {
+      "corpus": "daggerheart-srd",
+      "version": "2.0",
+      "status": "srd"
+    }
+  },
+  {
+    "id": "srd-2.0.consumable.hope-fear-59-tears-of-the-undying-hero",
+    "kind": "consumable",
+    "roll": 59,
+    "name": "Tears of the Undying Hero",
+    "rules_text": "When you drink this potion, death can’t touch you until your next long rest. When you would mark your last Hit Point, instead of making a death move, you make one final action roll before falling into a dreamless slumber until an ally chooses the T end to Wounds downtime move to clear your Hit Points.",
+    "source_subset": "hope-fear",
+    "source": {
+      "corpus": "daggerheart-srd",
+      "version": "2.0",
+      "status": "srd"
+    }
+  },
+  {
+    "id": "srd-2.0.consumable.hope-fear-60-featherstep-potion",
+    "kind": "consumable",
+    "roll": 60,
+    "name": "Featherstep Potion",
+    "rules_text": "You can drink this potion to sprout small wings from your ankles that give you a bonus to your Evasion equal to your tier until your next rest. GOLD Gold is an abstract measurement of how much wealth a character has, and is measured in handfuls, bags, and chests, with 10 handfuls to 1 bag, and 10 bags to 1 chest. When you have marked all of the slots in a category and you gain another gold reward in that category, mark a slot in the following category and clear all the slots in the current one. For example, if you have 9 handfuls and gain another, you instead mark 1 bag and erase all handfuls. If you have 9 bags and gain another, you mark 1 chest and erase all bags. You can’t have more than 1 chest, so if all your Gold slots are marked, you’ll need to spend some of your gold or store it somewhere else before you can acquire more. Optional Rule: Gold Coins If your group wants to track gold with more granularity, you can add coins as your lowest denomination. Following the established pattern, 10 coins equal 1 handful.",
+    "source_subset": "hope-fear",
+    "source": {
+      "corpus": "daggerheart-srd",
+      "version": "2.0",
+      "status": "srd"
+    }
+  }
+]

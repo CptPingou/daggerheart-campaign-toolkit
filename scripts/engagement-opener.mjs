@@ -1,9 +1,11 @@
 import { spendActorHope } from "./engagement-resources.mjs";
+import { huntCardEffectsFromDocument, huntRoleRule } from "./monster-hunter-hunt-card.mjs";
 
 const MODULE_ID = "daggerheart-campaign-toolkit";
 const ROLE = "opener";
 const ROLE_LABEL = "Opener";
 const FLAG_KEY = "engagementActions";
+const ROLE_RULE = huntRoleRule(ROLE);
 
 export const OPENER_REMINDER = "Coût automatique : 2 Hope. Désignez oralement un Finisher distinct. Critique : +3 Opportunity. Réussite avec Hope : +2. Réussite avec Fear : +2 + réaction. Échec avec Hope : +2 + réaction. Échec avec Fear : +1 + réaction.";
 
@@ -148,29 +150,29 @@ function dualityOutcomeFromMessage(message, context) {
 
 function openerResolution(outcome) {
   if (outcome.critical) {
-    return { gained: 3, reactionRequired: false, outcome: "critical" };
+    return { gained: ROLE_RULE.opportunity.critical, reactionRequired: false, outcome: "critical" };
   }
 
   if (outcome.success && outcome.duality === "hope") {
-    return { gained: 2, reactionRequired: false, outcome: "success-hope" };
+    return { gained: ROLE_RULE.opportunity.successHope, reactionRequired: false, outcome: "success-hope" };
   }
 
   if (outcome.success && outcome.duality === "fear") {
-    return { gained: 2, reactionRequired: true, outcome: "success-fear" };
+    return { gained: ROLE_RULE.opportunity.successFear, reactionRequired: true, outcome: "success-fear" };
   }
 
   if (!outcome.success && outcome.duality === "hope") {
-    return { gained: 2, reactionRequired: true, outcome: "failure-hope" };
+    return { gained: ROLE_RULE.opportunity.failureHope, reactionRequired: true, outcome: "failure-hope" };
   }
 
   if (!outcome.success && outcome.duality === "fear") {
-    return { gained: 1, reactionRequired: true, outcome: "failure-fear" };
+    return { gained: ROLE_RULE.opportunity.failureFear, reactionRequired: true, outcome: "failure-fear" };
   }
 
   return null;
 }
 
-export function createEngagementOpenerApi(opportunityApi) {
+export function createEngagementOpenerApi(opportunityApi, stateApi = null) {
   if (!opportunityApi?.increaseOpportunity || !opportunityApi?.getOpportunityValue) {
     throw new TypeError("Campaign Toolkit | Opener requires the Opportunity API");
   }
@@ -179,7 +181,28 @@ export function createEngagementOpenerApi(opportunityApi) {
     const context = openerContextFromMessage(message);
     if (!context) return null;
 
-    const hope = await spendActorHope(context.actor, 2, { label: ROLE_LABEL });
+    if (stateApi) {
+      const window = stateApi.validateRoleWindow(ROLE);
+      if (!window.green) {
+        globalThis.ui?.notifications?.warn?.("Engagement déjà ouvert : un nouvel Opener ne peut pas réinitialiser le cycle.");
+        return Object.freeze({ role: ROLE_LABEL, applied: false, reason: window.reason, window });
+      }
+
+      const opened = await stateApi.open({ openerActor: context.actor });
+      if (!opened.opened) {
+        return Object.freeze({ role: ROLE_LABEL, applied: false, reason: opened.reason, opened });
+      }
+
+      const claim = await stateApi.claim(context.actor, {
+        role: ROLE,
+        cardId: context.item.id,
+        actionId: context.actionId,
+      });
+      if (!claim.claimed) return Object.freeze({ role: ROLE_LABEL, applied: false, reason: claim.reason, claim });
+    }
+
+    const hope = await spendActorHope(context.actor, ROLE_RULE.hopeCost, { label: ROLE_LABEL });
+    if (!hope.paid && stateApi) await stateApi.reset();
     if (!hope.paid) {
       return Object.freeze({
         role: ROLE_LABEL,
@@ -242,13 +265,42 @@ export function createEngagementOpenerApi(opportunityApi) {
       `Opener : +${resolution.gained} Opportunity${resolution.reactionRequired ? " — réaction du monstre." : "."}`,
     );
 
+    const cardEffects = huntCardEffectsFromDocument(context.item);
+    const openerEffect = cardEffects.opener ?? null;
+
+    // `effects.opener.timing` is the trigger that decides whether the effect
+    // activates. Once activated, a Finisher attack modifier belongs to the
+    // next-finisher-attack lifecycle so the Finisher can surface and consume it.
+    if (
+      openerEffect
+      && openerEffect.timing === `opener-${resolution.outcome}`
+      && stateApi?.queueEffect
+    ) {
+      const queuedEffect = openerEffect.appliesTo === "finisher-attack-roll"
+        ? { ...openerEffect, timing: "next-finisher-attack" }
+        : openerEffect;
+
+      await stateApi.queueEffect(queuedEffect, {
+        sourceActor: context.actor,
+        sourceCard: context.item,
+      });
+    }
+
     if (resolution.reactionRequired) {
+      const reactionEffect = cardEffects.reaction ?? null;
+      const pendingReactionEffects = stateApi?.pendingEffects
+        ? stateApi.pendingEffects({ timing: "next-monster-reaction" })
+        : [];
+
       await ChatMessage.create({
         content: [
           '<div class="daggerheart-campaign-toolkit monster-hunter-reaction">',
-          '<h3><i class="fa-solid fa-paw"></i> Réaction du monstre — Ouverture</h3>',
+          `<h3><i class="fa-solid fa-paw"></i> Réaction du monstre — ${foundry.utils.escapeHTML(context.item.name ?? "Ouverture")}</h3>`,
           "<p>Le monstre peut effectuer une attaque appropriée contre l’Opener.</p>",
-          "<p><em>La réaction peut être modifiée par les effets de la carte Chasse utilisée.</em></p>",
+          reactionEffect?.chat
+            ? `<div>${reactionEffect.chat}</div>`
+            : "<p><em>La réaction peut être modifiée par les effets de la carte Chasse utilisée.</em></p>",
+          ...pendingReactionEffects.map(effect => `<div>${effect.chat ?? foundry.utils.escapeHTML(effect.id)}</div>`),
           "</div>",
         ].join(""),
         flags: {
@@ -263,6 +315,10 @@ export function createEngagementOpenerApi(opportunityApi) {
           },
         },
       });
+
+      if (pendingReactionEffects.length && stateApi?.consumeEffects) {
+        await stateApi.consumeEffects({ timing: "next-monster-reaction" });
+      }
     }
 
     return result;

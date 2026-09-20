@@ -1,0 +1,4300 @@
+{
+  "evidence": [
+    {
+      "primitive_id": "phase_or_procedure",
+      "corpus": "hope_fear_frames",
+      "source_path": "data\\hope-fear-private\\campaign-frames\\castle-high.json",
+      "source_entity": "Castle High",
+      "evidence_kind": "explicit_P1.3b_candidate",
+      "evidence_ref": "Introduction"
+    },
+    {
+      "primitive_id": "result_table",
+      "corpus": "hope_fear_frames",
+      "source_path": "data\\hope-fear-private\\campaign-frames\\castle-high.json",
+      "source_entity": "Castle High",
+      "evidence_kind": "explicit_P1.3b_candidate",
+      "evidence_ref": "Using Traits For Flight"
+    },
+    {
+      "primitive_id": "phase_or_procedure",
+      "corpus": "hope_fear_frames",
+      "source_path": "data\\hope-fear-private\\campaign-frames\\dark-heart-of-andaluria.json",
+      "source_entity": "Dark Heart of Andaluria",
+      "evidence_kind": "explicit_P1.3b_candidate",
+      "evidence_ref": "Introduction"
+    },
+    {
+      "primitive_id": "result_table",
+      "corpus": "hope_fear_frames",
+      "source_path": "data\\hope-fear-private\\campaign-frames\\dark-heart-of-andaluria.json",
+      "source_entity": "Dark Heart of Andaluria",
+      "evidence_kind": "explicit_P1.3b_candidate",
+      "evidence_ref": "Using Traits For Flight"
+    },
+    {
+      "primitive_id": "phase_or_procedure",
+      "corpus": "hope_fear_frames",
+      "source_path": "data\\hope-fear-private\\campaign-frames\\journey-to-horizon.json",
+      "source_entity": "Journey to Horizon",
+      "evidence_kind": "explicit_P1.3b_candidate",
+      "evidence_ref": "Introduction"
+    },
+    {
+      "primitive_id": "result_table",
+      "corpus": "hope_fear_frames",
+      "source_path": "data\\hope-fear-private\\campaign-frames\\journey-to-horizon.json",
+      "source_entity": "Journey to Horizon",
+      "evidence_kind": "explicit_P1.3b_candidate",
+      "evidence_ref": "Using Traits For Flight"
+    },
+    {
+      "primitive_id": "phase_or_procedure",
+      "corpus": "hope_fear_frames",
+      "source_path": "data\\hope-fear-private\\campaign-frames\\reign-of-the-weredragon.json",
+      "source_entity": "Reign of the Weredragon",
+      "evidence_kind": "explicit_P1.3b_candidate",
+      "evidence_ref": "Introduction"
+    },
+    {
+      "primitive_id": "result_table",
+      "corpus": "hope_fear_frames",
+      "source_path": "data\\hope-fear-private\\campaign-frames\\reign-of-the-weredragon.json",
+      "source_entity": "Reign of the Weredragon",
+      "evidence_kind": "explicit_P1.3b_candidate",
+      "evidence_ref": "Using Traits For Flight"
+    },
+    {
+      "primitive_id": "resource",
+      "corpus": "srd2_supplemental",
+      "source_path": "data\\srd-2.0\\supplemental-campaign-mechanics\\colossal-adversaries.json",
+      "source_entity": "srd-2.0.supplemental-campaign-mechanic.colossal-adversaries",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "state_or_condition",
+      "corpus": "srd2_supplemental",
+      "source_path": "data\\srd-2.0\\supplemental-campaign-mechanics\\colossal-adversaries.json",
+      "source_entity": "srd-2.0.supplemental-campaign-mechanic.colossal-adversaries",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "tag",
+      "corpus": "srd2_supplemental",
+      "source_path": "data\\srd-2.0\\supplemental-campaign-mechanics\\colossal-adversaries.json",
+      "source_entity": "srd-2.0.supplemental-campaign-mechanic.colossal-adversaries",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "spend_gain",
+      "corpus": "srd2_supplemental",
+      "source_path": "data\\srd-2.0\\supplemental-campaign-mechanics\\colossal-adversaries.json",
+      "source_entity": "srd-2.0.supplemental-campaign-mechanic.colossal-adversaries",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "result_table",
+      "corpus": "srd2_supplemental",
+      "source_path": "data\\srd-2.0\\supplemental-campaign-mechanics\\colossal-adversaries.json",
+      "source_entity": "srd-2.0.supplemental-campaign-mechanic.colossal-adversaries",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "linked_entity",
+      "corpus": "srd2_supplemental",
+      "source_path": "data\\srd-2.0\\supplemental-campaign-mechanics\\colossal-adversaries.json",
+      "source_entity": "srd-2.0.supplemental-campaign-mechanic.colossal-adversaries",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "segmented_entity",
+      "corpus": "srd2_supplemental",
+      "source_path": "data\\srd-2.0\\supplemental-campaign-mechanics\\colossal-adversaries.json",
+      "source_entity": "srd-2.0.supplemental-campaign-mechanic.colossal-adversaries",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "phase_or_procedure",
+      "corpus": "srd2_supplemental",
+      "source_path": "data\\srd-2.0\\supplemental-campaign-mechanics\\colossal-adversaries.json",
+      "source_entity": "srd-2.0.supplemental-campaign-mechanic.colossal-adversaries",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "form_or_state_transition",
+      "corpus": "srd2_supplemental",
+      "source_path": "data\\srd-2.0\\supplemental-campaign-mechanics\\colossal-adversaries.json",
+      "source_entity": "srd-2.0.supplemental-campaign-mechanic.colossal-adversaries",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "threshold",
+      "corpus": "srd2_supplemental",
+      "source_path": "data\\srd-2.0\\supplemental-campaign-mechanics\\colossal-adversaries.json",
+      "source_entity": "srd-2.0.supplemental-campaign-mechanic.colossal-adversaries",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "campaign_rule_modifier",
+      "corpus": "srd2_supplemental",
+      "source_path": "data\\srd-2.0\\supplemental-campaign-mechanics\\colossal-adversaries.json",
+      "source_entity": "srd-2.0.supplemental-campaign-mechanic.colossal-adversaries",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "resource",
+      "corpus": "srd2_supplemental",
+      "source_path": "data\\srd-2.0\\supplemental-campaign-mechanics\\everyday-hero-starting-equipment.json",
+      "source_entity": "srd-2.0.supplemental-campaign-mechanic.everyday-hero-starting-equipment",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "spend_gain",
+      "corpus": "srd2_supplemental",
+      "source_path": "data\\srd-2.0\\supplemental-campaign-mechanics\\everyday-hero-starting-equipment.json",
+      "source_entity": "srd-2.0.supplemental-campaign-mechanic.everyday-hero-starting-equipment",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "die_or_dice_pool",
+      "corpus": "srd2_supplemental",
+      "source_path": "data\\srd-2.0\\supplemental-campaign-mechanics\\everyday-hero-starting-equipment.json",
+      "source_entity": "srd-2.0.supplemental-campaign-mechanic.everyday-hero-starting-equipment",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "result_table",
+      "corpus": "srd2_supplemental",
+      "source_path": "data\\srd-2.0\\supplemental-campaign-mechanics\\everyday-hero-starting-equipment.json",
+      "source_entity": "srd-2.0.supplemental-campaign-mechanic.everyday-hero-starting-equipment",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "linked_entity",
+      "corpus": "srd2_supplemental",
+      "source_path": "data\\srd-2.0\\supplemental-campaign-mechanics\\everyday-hero-starting-equipment.json",
+      "source_entity": "srd-2.0.supplemental-campaign-mechanic.everyday-hero-starting-equipment",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "phase_or_procedure",
+      "corpus": "srd2_supplemental",
+      "source_path": "data\\srd-2.0\\supplemental-campaign-mechanics\\everyday-hero-starting-equipment.json",
+      "source_entity": "srd-2.0.supplemental-campaign-mechanic.everyday-hero-starting-equipment",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "triggered_rule",
+      "corpus": "srd2_supplemental",
+      "source_path": "data\\srd-2.0\\supplemental-campaign-mechanics\\everyday-hero-starting-equipment.json",
+      "source_entity": "srd-2.0.supplemental-campaign-mechanic.everyday-hero-starting-equipment",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "campaign_rule_modifier",
+      "corpus": "srd2_supplemental",
+      "source_path": "data\\srd-2.0\\supplemental-campaign-mechanics\\everyday-hero-starting-equipment.json",
+      "source_entity": "srd-2.0.supplemental-campaign-mechanic.everyday-hero-starting-equipment",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "resource",
+      "corpus": "srd2_supplemental",
+      "source_path": "data\\srd-2.0\\supplemental-campaign-mechanics\\faction-tracking.json",
+      "source_entity": "srd-2.0.supplemental-campaign-mechanic.faction-tracking",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "counter_or_track",
+      "corpus": "srd2_supplemental",
+      "source_path": "data\\srd-2.0\\supplemental-campaign-mechanics\\faction-tracking.json",
+      "source_entity": "srd-2.0.supplemental-campaign-mechanic.faction-tracking",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "tag",
+      "corpus": "srd2_supplemental",
+      "source_path": "data\\srd-2.0\\supplemental-campaign-mechanics\\faction-tracking.json",
+      "source_entity": "srd-2.0.supplemental-campaign-mechanic.faction-tracking",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "spend_gain",
+      "corpus": "srd2_supplemental",
+      "source_path": "data\\srd-2.0\\supplemental-campaign-mechanics\\faction-tracking.json",
+      "source_entity": "srd-2.0.supplemental-campaign-mechanic.faction-tracking",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "linked_entity",
+      "corpus": "srd2_supplemental",
+      "source_path": "data\\srd-2.0\\supplemental-campaign-mechanics\\faction-tracking.json",
+      "source_entity": "srd-2.0.supplemental-campaign-mechanic.faction-tracking",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "segmented_entity",
+      "corpus": "srd2_supplemental",
+      "source_path": "data\\srd-2.0\\supplemental-campaign-mechanics\\faction-tracking.json",
+      "source_entity": "srd-2.0.supplemental-campaign-mechanic.faction-tracking",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "graph_or_hex_travel",
+      "corpus": "srd2_supplemental",
+      "source_path": "data\\srd-2.0\\supplemental-campaign-mechanics\\faction-tracking.json",
+      "source_entity": "srd-2.0.supplemental-campaign-mechanic.faction-tracking",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "phase_or_procedure",
+      "corpus": "srd2_supplemental",
+      "source_path": "data\\srd-2.0\\supplemental-campaign-mechanics\\faction-tracking.json",
+      "source_entity": "srd-2.0.supplemental-campaign-mechanic.faction-tracking",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "form_or_state_transition",
+      "corpus": "srd2_supplemental",
+      "source_path": "data\\srd-2.0\\supplemental-campaign-mechanics\\faction-tracking.json",
+      "source_entity": "srd-2.0.supplemental-campaign-mechanic.faction-tracking",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "relation_or_faction",
+      "corpus": "srd2_supplemental",
+      "source_path": "data\\srd-2.0\\supplemental-campaign-mechanics\\faction-tracking.json",
+      "source_entity": "srd-2.0.supplemental-campaign-mechanic.faction-tracking",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "threshold",
+      "corpus": "srd2_supplemental",
+      "source_path": "data\\srd-2.0\\supplemental-campaign-mechanics\\faction-tracking.json",
+      "source_entity": "srd-2.0.supplemental-campaign-mechanic.faction-tracking",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "campaign_rule_modifier",
+      "corpus": "srd2_supplemental",
+      "source_path": "data\\srd-2.0\\supplemental-campaign-mechanics\\faction-tracking.json",
+      "source_entity": "srd-2.0.supplemental-campaign-mechanic.faction-tracking",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "play_aid",
+      "corpus": "srd2_supplemental",
+      "source_path": "data\\srd-2.0\\supplemental-campaign-mechanics\\faction-tracking.json",
+      "source_entity": "srd-2.0.supplemental-campaign-mechanic.faction-tracking",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "resource",
+      "corpus": "srd2_supplemental",
+      "source_path": "data\\srd-2.0\\supplemental-campaign-mechanics\\fairy-tale-campaigns.json",
+      "source_entity": "srd-2.0.supplemental-campaign-mechanic.fairy-tale-campaigns",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "counter_or_track",
+      "corpus": "srd2_supplemental",
+      "source_path": "data\\srd-2.0\\supplemental-campaign-mechanics\\fairy-tale-campaigns.json",
+      "source_entity": "srd-2.0.supplemental-campaign-mechanic.fairy-tale-campaigns",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "state_or_condition",
+      "corpus": "srd2_supplemental",
+      "source_path": "data\\srd-2.0\\supplemental-campaign-mechanics\\fairy-tale-campaigns.json",
+      "source_entity": "srd-2.0.supplemental-campaign-mechanic.fairy-tale-campaigns",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "spend_gain",
+      "corpus": "srd2_supplemental",
+      "source_path": "data\\srd-2.0\\supplemental-campaign-mechanics\\fairy-tale-campaigns.json",
+      "source_entity": "srd-2.0.supplemental-campaign-mechanic.fairy-tale-campaigns",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "result_table",
+      "corpus": "srd2_supplemental",
+      "source_path": "data\\srd-2.0\\supplemental-campaign-mechanics\\fairy-tale-campaigns.json",
+      "source_entity": "srd-2.0.supplemental-campaign-mechanic.fairy-tale-campaigns",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "linked_entity",
+      "corpus": "srd2_supplemental",
+      "source_path": "data\\srd-2.0\\supplemental-campaign-mechanics\\fairy-tale-campaigns.json",
+      "source_entity": "srd-2.0.supplemental-campaign-mechanic.fairy-tale-campaigns",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "segmented_entity",
+      "corpus": "srd2_supplemental",
+      "source_path": "data\\srd-2.0\\supplemental-campaign-mechanics\\fairy-tale-campaigns.json",
+      "source_entity": "srd-2.0.supplemental-campaign-mechanic.fairy-tale-campaigns",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "graph_or_hex_travel",
+      "corpus": "srd2_supplemental",
+      "source_path": "data\\srd-2.0\\supplemental-campaign-mechanics\\fairy-tale-campaigns.json",
+      "source_entity": "srd-2.0.supplemental-campaign-mechanic.fairy-tale-campaigns",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "phase_or_procedure",
+      "corpus": "srd2_supplemental",
+      "source_path": "data\\srd-2.0\\supplemental-campaign-mechanics\\fairy-tale-campaigns.json",
+      "source_entity": "srd-2.0.supplemental-campaign-mechanic.fairy-tale-campaigns",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "form_or_state_transition",
+      "corpus": "srd2_supplemental",
+      "source_path": "data\\srd-2.0\\supplemental-campaign-mechanics\\fairy-tale-campaigns.json",
+      "source_entity": "srd-2.0.supplemental-campaign-mechanic.fairy-tale-campaigns",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "relation_or_faction",
+      "corpus": "srd2_supplemental",
+      "source_path": "data\\srd-2.0\\supplemental-campaign-mechanics\\fairy-tale-campaigns.json",
+      "source_entity": "srd-2.0.supplemental-campaign-mechanic.fairy-tale-campaigns",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "campaign_rule_modifier",
+      "corpus": "srd2_supplemental",
+      "source_path": "data\\srd-2.0\\supplemental-campaign-mechanics\\fairy-tale-campaigns.json",
+      "source_entity": "srd-2.0.supplemental-campaign-mechanic.fairy-tale-campaigns",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "play_aid",
+      "corpus": "srd2_supplemental",
+      "source_path": "data\\srd-2.0\\supplemental-campaign-mechanics\\fairy-tale-campaigns.json",
+      "source_entity": "srd-2.0.supplemental-campaign-mechanic.fairy-tale-campaigns",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "resource",
+      "corpus": "srd2_supplemental",
+      "source_path": "data\\srd-2.0\\supplemental-campaign-mechanics\\feasts.json",
+      "source_entity": "srd-2.0.supplemental-campaign-mechanic.feasts",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "slot_capacity",
+      "corpus": "srd2_supplemental",
+      "source_path": "data\\srd-2.0\\supplemental-campaign-mechanics\\feasts.json",
+      "source_entity": "srd-2.0.supplemental-campaign-mechanic.feasts",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "spend_gain",
+      "corpus": "srd2_supplemental",
+      "source_path": "data\\srd-2.0\\supplemental-campaign-mechanics\\feasts.json",
+      "source_entity": "srd-2.0.supplemental-campaign-mechanic.feasts",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "die_or_dice_pool",
+      "corpus": "srd2_supplemental",
+      "source_path": "data\\srd-2.0\\supplemental-campaign-mechanics\\feasts.json",
+      "source_entity": "srd-2.0.supplemental-campaign-mechanic.feasts",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "result_table",
+      "corpus": "srd2_supplemental",
+      "source_path": "data\\srd-2.0\\supplemental-campaign-mechanics\\feasts.json",
+      "source_entity": "srd-2.0.supplemental-campaign-mechanic.feasts",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "linked_entity",
+      "corpus": "srd2_supplemental",
+      "source_path": "data\\srd-2.0\\supplemental-campaign-mechanics\\feasts.json",
+      "source_entity": "srd-2.0.supplemental-campaign-mechanic.feasts",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "recipe_or_craft",
+      "corpus": "srd2_supplemental",
+      "source_path": "data\\srd-2.0\\supplemental-campaign-mechanics\\feasts.json",
+      "source_entity": "srd-2.0.supplemental-campaign-mechanic.feasts",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "segmented_entity",
+      "corpus": "srd2_supplemental",
+      "source_path": "data\\srd-2.0\\supplemental-campaign-mechanics\\feasts.json",
+      "source_entity": "srd-2.0.supplemental-campaign-mechanic.feasts",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "rest_rule",
+      "corpus": "srd2_supplemental",
+      "source_path": "data\\srd-2.0\\supplemental-campaign-mechanics\\feasts.json",
+      "source_entity": "srd-2.0.supplemental-campaign-mechanic.feasts",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "phase_or_procedure",
+      "corpus": "srd2_supplemental",
+      "source_path": "data\\srd-2.0\\supplemental-campaign-mechanics\\feasts.json",
+      "source_entity": "srd-2.0.supplemental-campaign-mechanic.feasts",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "triggered_rule",
+      "corpus": "srd2_supplemental",
+      "source_path": "data\\srd-2.0\\supplemental-campaign-mechanics\\feasts.json",
+      "source_entity": "srd-2.0.supplemental-campaign-mechanic.feasts",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "campaign_rule_modifier",
+      "corpus": "srd2_supplemental",
+      "source_path": "data\\srd-2.0\\supplemental-campaign-mechanics\\feasts.json",
+      "source_entity": "srd-2.0.supplemental-campaign-mechanic.feasts",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "state_or_condition",
+      "corpus": "srd2_supplemental",
+      "source_path": "data\\srd-2.0\\supplemental-campaign-mechanics\\floating-magic-school-campaigns.json",
+      "source_entity": "srd-2.0.supplemental-campaign-mechanic.floating-magic-school-campaigns",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "spend_gain",
+      "corpus": "srd2_supplemental",
+      "source_path": "data\\srd-2.0\\supplemental-campaign-mechanics\\floating-magic-school-campaigns.json",
+      "source_entity": "srd-2.0.supplemental-campaign-mechanic.floating-magic-school-campaigns",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "result_table",
+      "corpus": "srd2_supplemental",
+      "source_path": "data\\srd-2.0\\supplemental-campaign-mechanics\\floating-magic-school-campaigns.json",
+      "source_entity": "srd-2.0.supplemental-campaign-mechanic.floating-magic-school-campaigns",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "linked_entity",
+      "corpus": "srd2_supplemental",
+      "source_path": "data\\srd-2.0\\supplemental-campaign-mechanics\\floating-magic-school-campaigns.json",
+      "source_entity": "srd-2.0.supplemental-campaign-mechanic.floating-magic-school-campaigns",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "segmented_entity",
+      "corpus": "srd2_supplemental",
+      "source_path": "data\\srd-2.0\\supplemental-campaign-mechanics\\floating-magic-school-campaigns.json",
+      "source_entity": "srd-2.0.supplemental-campaign-mechanic.floating-magic-school-campaigns",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "rest_rule",
+      "corpus": "srd2_supplemental",
+      "source_path": "data\\srd-2.0\\supplemental-campaign-mechanics\\floating-magic-school-campaigns.json",
+      "source_entity": "srd-2.0.supplemental-campaign-mechanic.floating-magic-school-campaigns",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "phase_or_procedure",
+      "corpus": "srd2_supplemental",
+      "source_path": "data\\srd-2.0\\supplemental-campaign-mechanics\\floating-magic-school-campaigns.json",
+      "source_entity": "srd-2.0.supplemental-campaign-mechanic.floating-magic-school-campaigns",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "threshold",
+      "corpus": "srd2_supplemental",
+      "source_path": "data\\srd-2.0\\supplemental-campaign-mechanics\\floating-magic-school-campaigns.json",
+      "source_entity": "srd-2.0.supplemental-campaign-mechanic.floating-magic-school-campaigns",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "campaign_rule_modifier",
+      "corpus": "srd2_supplemental",
+      "source_path": "data\\srd-2.0\\supplemental-campaign-mechanics\\floating-magic-school-campaigns.json",
+      "source_entity": "srd-2.0.supplemental-campaign-mechanic.floating-magic-school-campaigns",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "resource",
+      "corpus": "srd2_supplemental",
+      "source_path": "data\\srd-2.0\\supplemental-campaign-mechanics\\grimdark-campaigns.json",
+      "source_entity": "srd-2.0.supplemental-campaign-mechanic.grimdark-campaigns",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "slot_capacity",
+      "corpus": "srd2_supplemental",
+      "source_path": "data\\srd-2.0\\supplemental-campaign-mechanics\\grimdark-campaigns.json",
+      "source_entity": "srd-2.0.supplemental-campaign-mechanic.grimdark-campaigns",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "spend_gain",
+      "corpus": "srd2_supplemental",
+      "source_path": "data\\srd-2.0\\supplemental-campaign-mechanics\\grimdark-campaigns.json",
+      "source_entity": "srd-2.0.supplemental-campaign-mechanic.grimdark-campaigns",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "result_table",
+      "corpus": "srd2_supplemental",
+      "source_path": "data\\srd-2.0\\supplemental-campaign-mechanics\\grimdark-campaigns.json",
+      "source_entity": "srd-2.0.supplemental-campaign-mechanic.grimdark-campaigns",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "linked_entity",
+      "corpus": "srd2_supplemental",
+      "source_path": "data\\srd-2.0\\supplemental-campaign-mechanics\\grimdark-campaigns.json",
+      "source_entity": "srd-2.0.supplemental-campaign-mechanic.grimdark-campaigns",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "segmented_entity",
+      "corpus": "srd2_supplemental",
+      "source_path": "data\\srd-2.0\\supplemental-campaign-mechanics\\grimdark-campaigns.json",
+      "source_entity": "srd-2.0.supplemental-campaign-mechanic.grimdark-campaigns",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "phase_or_procedure",
+      "corpus": "srd2_supplemental",
+      "source_path": "data\\srd-2.0\\supplemental-campaign-mechanics\\grimdark-campaigns.json",
+      "source_entity": "srd-2.0.supplemental-campaign-mechanic.grimdark-campaigns",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "form_or_state_transition",
+      "corpus": "srd2_supplemental",
+      "source_path": "data\\srd-2.0\\supplemental-campaign-mechanics\\grimdark-campaigns.json",
+      "source_entity": "srd-2.0.supplemental-campaign-mechanic.grimdark-campaigns",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "triggered_rule",
+      "corpus": "srd2_supplemental",
+      "source_path": "data\\srd-2.0\\supplemental-campaign-mechanics\\grimdark-campaigns.json",
+      "source_entity": "srd-2.0.supplemental-campaign-mechanic.grimdark-campaigns",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "campaign_rule_modifier",
+      "corpus": "srd2_supplemental",
+      "source_path": "data\\srd-2.0\\supplemental-campaign-mechanics\\grimdark-campaigns.json",
+      "source_entity": "srd-2.0.supplemental-campaign-mechanic.grimdark-campaigns",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "resource",
+      "corpus": "srd2_supplemental",
+      "source_path": "data\\srd-2.0\\supplemental-campaign-mechanics\\hex-crawl-campaigns.json",
+      "source_entity": "srd-2.0.supplemental-campaign-mechanic.hex-crawl-campaigns",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "counter_or_track",
+      "corpus": "srd2_supplemental",
+      "source_path": "data\\srd-2.0\\supplemental-campaign-mechanics\\hex-crawl-campaigns.json",
+      "source_entity": "srd-2.0.supplemental-campaign-mechanic.hex-crawl-campaigns",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "state_or_condition",
+      "corpus": "srd2_supplemental",
+      "source_path": "data\\srd-2.0\\supplemental-campaign-mechanics\\hex-crawl-campaigns.json",
+      "source_entity": "srd-2.0.supplemental-campaign-mechanic.hex-crawl-campaigns",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "tag",
+      "corpus": "srd2_supplemental",
+      "source_path": "data\\srd-2.0\\supplemental-campaign-mechanics\\hex-crawl-campaigns.json",
+      "source_entity": "srd-2.0.supplemental-campaign-mechanic.hex-crawl-campaigns",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "spend_gain",
+      "corpus": "srd2_supplemental",
+      "source_path": "data\\srd-2.0\\supplemental-campaign-mechanics\\hex-crawl-campaigns.json",
+      "source_entity": "srd-2.0.supplemental-campaign-mechanic.hex-crawl-campaigns",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "die_or_dice_pool",
+      "corpus": "srd2_supplemental",
+      "source_path": "data\\srd-2.0\\supplemental-campaign-mechanics\\hex-crawl-campaigns.json",
+      "source_entity": "srd-2.0.supplemental-campaign-mechanic.hex-crawl-campaigns",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "result_table",
+      "corpus": "srd2_supplemental",
+      "source_path": "data\\srd-2.0\\supplemental-campaign-mechanics\\hex-crawl-campaigns.json",
+      "source_entity": "srd-2.0.supplemental-campaign-mechanic.hex-crawl-campaigns",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "linked_entity",
+      "corpus": "srd2_supplemental",
+      "source_path": "data\\srd-2.0\\supplemental-campaign-mechanics\\hex-crawl-campaigns.json",
+      "source_entity": "srd-2.0.supplemental-campaign-mechanic.hex-crawl-campaigns",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "segmented_entity",
+      "corpus": "srd2_supplemental",
+      "source_path": "data\\srd-2.0\\supplemental-campaign-mechanics\\hex-crawl-campaigns.json",
+      "source_entity": "srd-2.0.supplemental-campaign-mechanic.hex-crawl-campaigns",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "graph_or_hex_travel",
+      "corpus": "srd2_supplemental",
+      "source_path": "data\\srd-2.0\\supplemental-campaign-mechanics\\hex-crawl-campaigns.json",
+      "source_entity": "srd-2.0.supplemental-campaign-mechanic.hex-crawl-campaigns",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "rest_rule",
+      "corpus": "srd2_supplemental",
+      "source_path": "data\\srd-2.0\\supplemental-campaign-mechanics\\hex-crawl-campaigns.json",
+      "source_entity": "srd-2.0.supplemental-campaign-mechanic.hex-crawl-campaigns",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "phase_or_procedure",
+      "corpus": "srd2_supplemental",
+      "source_path": "data\\srd-2.0\\supplemental-campaign-mechanics\\hex-crawl-campaigns.json",
+      "source_entity": "srd-2.0.supplemental-campaign-mechanic.hex-crawl-campaigns",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "form_or_state_transition",
+      "corpus": "srd2_supplemental",
+      "source_path": "data\\srd-2.0\\supplemental-campaign-mechanics\\hex-crawl-campaigns.json",
+      "source_entity": "srd-2.0.supplemental-campaign-mechanic.hex-crawl-campaigns",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "threshold",
+      "corpus": "srd2_supplemental",
+      "source_path": "data\\srd-2.0\\supplemental-campaign-mechanics\\hex-crawl-campaigns.json",
+      "source_entity": "srd-2.0.supplemental-campaign-mechanic.hex-crawl-campaigns",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "triggered_rule",
+      "corpus": "srd2_supplemental",
+      "source_path": "data\\srd-2.0\\supplemental-campaign-mechanics\\hex-crawl-campaigns.json",
+      "source_entity": "srd-2.0.supplemental-campaign-mechanic.hex-crawl-campaigns",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "campaign_rule_modifier",
+      "corpus": "srd2_supplemental",
+      "source_path": "data\\srd-2.0\\supplemental-campaign-mechanics\\hex-crawl-campaigns.json",
+      "source_entity": "srd-2.0.supplemental-campaign-mechanic.hex-crawl-campaigns",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "map_or_handout",
+      "corpus": "srd2_supplemental",
+      "source_path": "data\\srd-2.0\\supplemental-campaign-mechanics\\hex-crawl-campaigns.json",
+      "source_entity": "srd-2.0.supplemental-campaign-mechanic.hex-crawl-campaigns",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "resource",
+      "corpus": "srd2_supplemental",
+      "source_path": "data\\srd-2.0\\supplemental-campaign-mechanics\\index.json",
+      "source_entity": "index",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "counter_or_track",
+      "corpus": "srd2_supplemental",
+      "source_path": "data\\srd-2.0\\supplemental-campaign-mechanics\\index.json",
+      "source_entity": "index",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "state_or_condition",
+      "corpus": "srd2_supplemental",
+      "source_path": "data\\srd-2.0\\supplemental-campaign-mechanics\\index.json",
+      "source_entity": "index",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "tag",
+      "corpus": "srd2_supplemental",
+      "source_path": "data\\srd-2.0\\supplemental-campaign-mechanics\\index.json",
+      "source_entity": "index",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "slot_capacity",
+      "corpus": "srd2_supplemental",
+      "source_path": "data\\srd-2.0\\supplemental-campaign-mechanics\\index.json",
+      "source_entity": "index",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "spend_gain",
+      "corpus": "srd2_supplemental",
+      "source_path": "data\\srd-2.0\\supplemental-campaign-mechanics\\index.json",
+      "source_entity": "index",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "die_or_dice_pool",
+      "corpus": "srd2_supplemental",
+      "source_path": "data\\srd-2.0\\supplemental-campaign-mechanics\\index.json",
+      "source_entity": "index",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "result_table",
+      "corpus": "srd2_supplemental",
+      "source_path": "data\\srd-2.0\\supplemental-campaign-mechanics\\index.json",
+      "source_entity": "index",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "tier_progression",
+      "corpus": "srd2_supplemental",
+      "source_path": "data\\srd-2.0\\supplemental-campaign-mechanics\\index.json",
+      "source_entity": "index",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "linked_entity",
+      "corpus": "srd2_supplemental",
+      "source_path": "data\\srd-2.0\\supplemental-campaign-mechanics\\index.json",
+      "source_entity": "index",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "recipe_or_craft",
+      "corpus": "srd2_supplemental",
+      "source_path": "data\\srd-2.0\\supplemental-campaign-mechanics\\index.json",
+      "source_entity": "index",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "upgrade_slot",
+      "corpus": "srd2_supplemental",
+      "source_path": "data\\srd-2.0\\supplemental-campaign-mechanics\\index.json",
+      "source_entity": "index",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "segmented_entity",
+      "corpus": "srd2_supplemental",
+      "source_path": "data\\srd-2.0\\supplemental-campaign-mechanics\\index.json",
+      "source_entity": "index",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "graph_or_hex_travel",
+      "corpus": "srd2_supplemental",
+      "source_path": "data\\srd-2.0\\supplemental-campaign-mechanics\\index.json",
+      "source_entity": "index",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "rest_rule",
+      "corpus": "srd2_supplemental",
+      "source_path": "data\\srd-2.0\\supplemental-campaign-mechanics\\index.json",
+      "source_entity": "index",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "phase_or_procedure",
+      "corpus": "srd2_supplemental",
+      "source_path": "data\\srd-2.0\\supplemental-campaign-mechanics\\index.json",
+      "source_entity": "index",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "form_or_state_transition",
+      "corpus": "srd2_supplemental",
+      "source_path": "data\\srd-2.0\\supplemental-campaign-mechanics\\index.json",
+      "source_entity": "index",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "relation_or_faction",
+      "corpus": "srd2_supplemental",
+      "source_path": "data\\srd-2.0\\supplemental-campaign-mechanics\\index.json",
+      "source_entity": "index",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "threshold",
+      "corpus": "srd2_supplemental",
+      "source_path": "data\\srd-2.0\\supplemental-campaign-mechanics\\index.json",
+      "source_entity": "index",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "triggered_rule",
+      "corpus": "srd2_supplemental",
+      "source_path": "data\\srd-2.0\\supplemental-campaign-mechanics\\index.json",
+      "source_entity": "index",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "campaign_rule_modifier",
+      "corpus": "srd2_supplemental",
+      "source_path": "data\\srd-2.0\\supplemental-campaign-mechanics\\index.json",
+      "source_entity": "index",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "play_aid",
+      "corpus": "srd2_supplemental",
+      "source_path": "data\\srd-2.0\\supplemental-campaign-mechanics\\index.json",
+      "source_entity": "index",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "map_or_handout",
+      "corpus": "srd2_supplemental",
+      "source_path": "data\\srd-2.0\\supplemental-campaign-mechanics\\index.json",
+      "source_entity": "index",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "resource",
+      "corpus": "srd2_supplemental",
+      "source_path": "data\\srd-2.0\\supplemental-campaign-mechanics\\monster-hunting-campaigns.json",
+      "source_entity": "srd-2.0.supplemental-campaign-mechanic.monster-hunting-campaigns",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "counter_or_track",
+      "corpus": "srd2_supplemental",
+      "source_path": "data\\srd-2.0\\supplemental-campaign-mechanics\\monster-hunting-campaigns.json",
+      "source_entity": "srd-2.0.supplemental-campaign-mechanic.monster-hunting-campaigns",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "slot_capacity",
+      "corpus": "srd2_supplemental",
+      "source_path": "data\\srd-2.0\\supplemental-campaign-mechanics\\monster-hunting-campaigns.json",
+      "source_entity": "srd-2.0.supplemental-campaign-mechanic.monster-hunting-campaigns",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "spend_gain",
+      "corpus": "srd2_supplemental",
+      "source_path": "data\\srd-2.0\\supplemental-campaign-mechanics\\monster-hunting-campaigns.json",
+      "source_entity": "srd-2.0.supplemental-campaign-mechanic.monster-hunting-campaigns",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "die_or_dice_pool",
+      "corpus": "srd2_supplemental",
+      "source_path": "data\\srd-2.0\\supplemental-campaign-mechanics\\monster-hunting-campaigns.json",
+      "source_entity": "srd-2.0.supplemental-campaign-mechanic.monster-hunting-campaigns",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "result_table",
+      "corpus": "srd2_supplemental",
+      "source_path": "data\\srd-2.0\\supplemental-campaign-mechanics\\monster-hunting-campaigns.json",
+      "source_entity": "srd-2.0.supplemental-campaign-mechanic.monster-hunting-campaigns",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "tier_progression",
+      "corpus": "srd2_supplemental",
+      "source_path": "data\\srd-2.0\\supplemental-campaign-mechanics\\monster-hunting-campaigns.json",
+      "source_entity": "srd-2.0.supplemental-campaign-mechanic.monster-hunting-campaigns",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "linked_entity",
+      "corpus": "srd2_supplemental",
+      "source_path": "data\\srd-2.0\\supplemental-campaign-mechanics\\monster-hunting-campaigns.json",
+      "source_entity": "srd-2.0.supplemental-campaign-mechanic.monster-hunting-campaigns",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "segmented_entity",
+      "corpus": "srd2_supplemental",
+      "source_path": "data\\srd-2.0\\supplemental-campaign-mechanics\\monster-hunting-campaigns.json",
+      "source_entity": "srd-2.0.supplemental-campaign-mechanic.monster-hunting-campaigns",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "graph_or_hex_travel",
+      "corpus": "srd2_supplemental",
+      "source_path": "data\\srd-2.0\\supplemental-campaign-mechanics\\monster-hunting-campaigns.json",
+      "source_entity": "srd-2.0.supplemental-campaign-mechanic.monster-hunting-campaigns",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "rest_rule",
+      "corpus": "srd2_supplemental",
+      "source_path": "data\\srd-2.0\\supplemental-campaign-mechanics\\monster-hunting-campaigns.json",
+      "source_entity": "srd-2.0.supplemental-campaign-mechanic.monster-hunting-campaigns",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "phase_or_procedure",
+      "corpus": "srd2_supplemental",
+      "source_path": "data\\srd-2.0\\supplemental-campaign-mechanics\\monster-hunting-campaigns.json",
+      "source_entity": "srd-2.0.supplemental-campaign-mechanic.monster-hunting-campaigns",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "form_or_state_transition",
+      "corpus": "srd2_supplemental",
+      "source_path": "data\\srd-2.0\\supplemental-campaign-mechanics\\monster-hunting-campaigns.json",
+      "source_entity": "srd-2.0.supplemental-campaign-mechanic.monster-hunting-campaigns",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "threshold",
+      "corpus": "srd2_supplemental",
+      "source_path": "data\\srd-2.0\\supplemental-campaign-mechanics\\monster-hunting-campaigns.json",
+      "source_entity": "srd-2.0.supplemental-campaign-mechanic.monster-hunting-campaigns",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "triggered_rule",
+      "corpus": "srd2_supplemental",
+      "source_path": "data\\srd-2.0\\supplemental-campaign-mechanics\\monster-hunting-campaigns.json",
+      "source_entity": "srd-2.0.supplemental-campaign-mechanic.monster-hunting-campaigns",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "campaign_rule_modifier",
+      "corpus": "srd2_supplemental",
+      "source_path": "data\\srd-2.0\\supplemental-campaign-mechanics\\monster-hunting-campaigns.json",
+      "source_entity": "srd-2.0.supplemental-campaign-mechanic.monster-hunting-campaigns",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "resource",
+      "corpus": "srd2_supplemental",
+      "source_path": "data\\srd-2.0\\supplemental-campaign-mechanics\\tech-based-campaigns.json",
+      "source_entity": "srd-2.0.supplemental-campaign-mechanic.tech-based-campaigns",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "counter_or_track",
+      "corpus": "srd2_supplemental",
+      "source_path": "data\\srd-2.0\\supplemental-campaign-mechanics\\tech-based-campaigns.json",
+      "source_entity": "srd-2.0.supplemental-campaign-mechanic.tech-based-campaigns",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "state_or_condition",
+      "corpus": "srd2_supplemental",
+      "source_path": "data\\srd-2.0\\supplemental-campaign-mechanics\\tech-based-campaigns.json",
+      "source_entity": "srd-2.0.supplemental-campaign-mechanic.tech-based-campaigns",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "slot_capacity",
+      "corpus": "srd2_supplemental",
+      "source_path": "data\\srd-2.0\\supplemental-campaign-mechanics\\tech-based-campaigns.json",
+      "source_entity": "srd-2.0.supplemental-campaign-mechanic.tech-based-campaigns",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "spend_gain",
+      "corpus": "srd2_supplemental",
+      "source_path": "data\\srd-2.0\\supplemental-campaign-mechanics\\tech-based-campaigns.json",
+      "source_entity": "srd-2.0.supplemental-campaign-mechanic.tech-based-campaigns",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "die_or_dice_pool",
+      "corpus": "srd2_supplemental",
+      "source_path": "data\\srd-2.0\\supplemental-campaign-mechanics\\tech-based-campaigns.json",
+      "source_entity": "srd-2.0.supplemental-campaign-mechanic.tech-based-campaigns",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "result_table",
+      "corpus": "srd2_supplemental",
+      "source_path": "data\\srd-2.0\\supplemental-campaign-mechanics\\tech-based-campaigns.json",
+      "source_entity": "srd-2.0.supplemental-campaign-mechanic.tech-based-campaigns",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "tier_progression",
+      "corpus": "srd2_supplemental",
+      "source_path": "data\\srd-2.0\\supplemental-campaign-mechanics\\tech-based-campaigns.json",
+      "source_entity": "srd-2.0.supplemental-campaign-mechanic.tech-based-campaigns",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "linked_entity",
+      "corpus": "srd2_supplemental",
+      "source_path": "data\\srd-2.0\\supplemental-campaign-mechanics\\tech-based-campaigns.json",
+      "source_entity": "srd-2.0.supplemental-campaign-mechanic.tech-based-campaigns",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "recipe_or_craft",
+      "corpus": "srd2_supplemental",
+      "source_path": "data\\srd-2.0\\supplemental-campaign-mechanics\\tech-based-campaigns.json",
+      "source_entity": "srd-2.0.supplemental-campaign-mechanic.tech-based-campaigns",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "upgrade_slot",
+      "corpus": "srd2_supplemental",
+      "source_path": "data\\srd-2.0\\supplemental-campaign-mechanics\\tech-based-campaigns.json",
+      "source_entity": "srd-2.0.supplemental-campaign-mechanic.tech-based-campaigns",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "segmented_entity",
+      "corpus": "srd2_supplemental",
+      "source_path": "data\\srd-2.0\\supplemental-campaign-mechanics\\tech-based-campaigns.json",
+      "source_entity": "srd-2.0.supplemental-campaign-mechanic.tech-based-campaigns",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "phase_or_procedure",
+      "corpus": "srd2_supplemental",
+      "source_path": "data\\srd-2.0\\supplemental-campaign-mechanics\\tech-based-campaigns.json",
+      "source_entity": "srd-2.0.supplemental-campaign-mechanic.tech-based-campaigns",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "form_or_state_transition",
+      "corpus": "srd2_supplemental",
+      "source_path": "data\\srd-2.0\\supplemental-campaign-mechanics\\tech-based-campaigns.json",
+      "source_entity": "srd-2.0.supplemental-campaign-mechanic.tech-based-campaigns",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "campaign_rule_modifier",
+      "corpus": "srd2_supplemental",
+      "source_path": "data\\srd-2.0\\supplemental-campaign-mechanics\\tech-based-campaigns.json",
+      "source_entity": "srd-2.0.supplemental-campaign-mechanic.tech-based-campaigns",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "play_aid",
+      "corpus": "srd2_supplemental",
+      "source_path": "data\\srd-2.0\\supplemental-campaign-mechanics\\tech-based-campaigns.json",
+      "source_entity": "srd-2.0.supplemental-campaign-mechanic.tech-based-campaigns",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "resource",
+      "corpus": "srd2_supplemental",
+      "source_path": "data\\srd-2.0\\supplemental-campaign-mechanics\\western-campaigns.json",
+      "source_entity": "srd-2.0.supplemental-campaign-mechanic.western-campaigns",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "state_or_condition",
+      "corpus": "srd2_supplemental",
+      "source_path": "data\\srd-2.0\\supplemental-campaign-mechanics\\western-campaigns.json",
+      "source_entity": "srd-2.0.supplemental-campaign-mechanic.western-campaigns",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "tag",
+      "corpus": "srd2_supplemental",
+      "source_path": "data\\srd-2.0\\supplemental-campaign-mechanics\\western-campaigns.json",
+      "source_entity": "srd-2.0.supplemental-campaign-mechanic.western-campaigns",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "spend_gain",
+      "corpus": "srd2_supplemental",
+      "source_path": "data\\srd-2.0\\supplemental-campaign-mechanics\\western-campaigns.json",
+      "source_entity": "srd-2.0.supplemental-campaign-mechanic.western-campaigns",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "die_or_dice_pool",
+      "corpus": "srd2_supplemental",
+      "source_path": "data\\srd-2.0\\supplemental-campaign-mechanics\\western-campaigns.json",
+      "source_entity": "srd-2.0.supplemental-campaign-mechanic.western-campaigns",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "result_table",
+      "corpus": "srd2_supplemental",
+      "source_path": "data\\srd-2.0\\supplemental-campaign-mechanics\\western-campaigns.json",
+      "source_entity": "srd-2.0.supplemental-campaign-mechanic.western-campaigns",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "tier_progression",
+      "corpus": "srd2_supplemental",
+      "source_path": "data\\srd-2.0\\supplemental-campaign-mechanics\\western-campaigns.json",
+      "source_entity": "srd-2.0.supplemental-campaign-mechanic.western-campaigns",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "linked_entity",
+      "corpus": "srd2_supplemental",
+      "source_path": "data\\srd-2.0\\supplemental-campaign-mechanics\\western-campaigns.json",
+      "source_entity": "srd-2.0.supplemental-campaign-mechanic.western-campaigns",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "rest_rule",
+      "corpus": "srd2_supplemental",
+      "source_path": "data\\srd-2.0\\supplemental-campaign-mechanics\\western-campaigns.json",
+      "source_entity": "srd-2.0.supplemental-campaign-mechanic.western-campaigns",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "phase_or_procedure",
+      "corpus": "srd2_supplemental",
+      "source_path": "data\\srd-2.0\\supplemental-campaign-mechanics\\western-campaigns.json",
+      "source_entity": "srd-2.0.supplemental-campaign-mechanic.western-campaigns",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "triggered_rule",
+      "corpus": "srd2_supplemental",
+      "source_path": "data\\srd-2.0\\supplemental-campaign-mechanics\\western-campaigns.json",
+      "source_entity": "srd-2.0.supplemental-campaign-mechanic.western-campaigns",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "campaign_rule_modifier",
+      "corpus": "srd2_supplemental",
+      "source_path": "data\\srd-2.0\\supplemental-campaign-mechanics\\western-campaigns.json",
+      "source_entity": "srd-2.0.supplemental-campaign-mechanic.western-campaigns",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "play_aid",
+      "corpus": "srd2_supplemental",
+      "source_path": "data\\srd-2.0\\supplemental-campaign-mechanics\\western-campaigns.json",
+      "source_entity": "srd-2.0.supplemental-campaign-mechanic.western-campaigns",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "resource",
+      "corpus": "srd2_campaign_frame",
+      "source_path": "data\\srd-2.0\\campaign-frames\\witherwild.json",
+      "source_entity": "srd-2.0.campaign-frame.witherwild",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "counter_or_track",
+      "corpus": "srd2_campaign_frame",
+      "source_path": "data\\srd-2.0\\campaign-frames\\witherwild.json",
+      "source_entity": "srd-2.0.campaign-frame.witherwild",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "state_or_condition",
+      "corpus": "srd2_campaign_frame",
+      "source_path": "data\\srd-2.0\\campaign-frames\\witherwild.json",
+      "source_entity": "srd-2.0.campaign-frame.witherwild",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "tag",
+      "corpus": "srd2_campaign_frame",
+      "source_path": "data\\srd-2.0\\campaign-frames\\witherwild.json",
+      "source_entity": "srd-2.0.campaign-frame.witherwild",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "spend_gain",
+      "corpus": "srd2_campaign_frame",
+      "source_path": "data\\srd-2.0\\campaign-frames\\witherwild.json",
+      "source_entity": "srd-2.0.campaign-frame.witherwild",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "die_or_dice_pool",
+      "corpus": "srd2_campaign_frame",
+      "source_path": "data\\srd-2.0\\campaign-frames\\witherwild.json",
+      "source_entity": "srd-2.0.campaign-frame.witherwild",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "result_table",
+      "corpus": "srd2_campaign_frame",
+      "source_path": "data\\srd-2.0\\campaign-frames\\witherwild.json",
+      "source_entity": "srd-2.0.campaign-frame.witherwild",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "linked_entity",
+      "corpus": "srd2_campaign_frame",
+      "source_path": "data\\srd-2.0\\campaign-frames\\witherwild.json",
+      "source_entity": "srd-2.0.campaign-frame.witherwild",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "segmented_entity",
+      "corpus": "srd2_campaign_frame",
+      "source_path": "data\\srd-2.0\\campaign-frames\\witherwild.json",
+      "source_entity": "srd-2.0.campaign-frame.witherwild",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "graph_or_hex_travel",
+      "corpus": "srd2_campaign_frame",
+      "source_path": "data\\srd-2.0\\campaign-frames\\witherwild.json",
+      "source_entity": "srd-2.0.campaign-frame.witherwild",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "rest_rule",
+      "corpus": "srd2_campaign_frame",
+      "source_path": "data\\srd-2.0\\campaign-frames\\witherwild.json",
+      "source_entity": "srd-2.0.campaign-frame.witherwild",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "form_or_state_transition",
+      "corpus": "srd2_campaign_frame",
+      "source_path": "data\\srd-2.0\\campaign-frames\\witherwild.json",
+      "source_entity": "srd-2.0.campaign-frame.witherwild",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "relation_or_faction",
+      "corpus": "srd2_campaign_frame",
+      "source_path": "data\\srd-2.0\\campaign-frames\\witherwild.json",
+      "source_entity": "srd-2.0.campaign-frame.witherwild",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "threshold",
+      "corpus": "srd2_campaign_frame",
+      "source_path": "data\\srd-2.0\\campaign-frames\\witherwild.json",
+      "source_entity": "srd-2.0.campaign-frame.witherwild",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "triggered_rule",
+      "corpus": "srd2_campaign_frame",
+      "source_path": "data\\srd-2.0\\campaign-frames\\witherwild.json",
+      "source_entity": "srd-2.0.campaign-frame.witherwild",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "campaign_rule_modifier",
+      "corpus": "srd2_campaign_frame",
+      "source_path": "data\\srd-2.0\\campaign-frames\\witherwild.json",
+      "source_entity": "srd-2.0.campaign-frame.witherwild",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "play_aid",
+      "corpus": "srd2_campaign_frame",
+      "source_path": "data\\srd-2.0\\campaign-frames\\witherwild.json",
+      "source_entity": "srd-2.0.campaign-frame.witherwild",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "resource",
+      "corpus": "srd2_adversaries",
+      "source_path": "data\\srd-2.0\\adversaries\\adversaries.json",
+      "source_entity": "adversaries",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "counter_or_track",
+      "corpus": "srd2_adversaries",
+      "source_path": "data\\srd-2.0\\adversaries\\adversaries.json",
+      "source_entity": "adversaries",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "state_or_condition",
+      "corpus": "srd2_adversaries",
+      "source_path": "data\\srd-2.0\\adversaries\\adversaries.json",
+      "source_entity": "adversaries",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "tag",
+      "corpus": "srd2_adversaries",
+      "source_path": "data\\srd-2.0\\adversaries\\adversaries.json",
+      "source_entity": "adversaries",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "slot_capacity",
+      "corpus": "srd2_adversaries",
+      "source_path": "data\\srd-2.0\\adversaries\\adversaries.json",
+      "source_entity": "adversaries",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "spend_gain",
+      "corpus": "srd2_adversaries",
+      "source_path": "data\\srd-2.0\\adversaries\\adversaries.json",
+      "source_entity": "adversaries",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "die_or_dice_pool",
+      "corpus": "srd2_adversaries",
+      "source_path": "data\\srd-2.0\\adversaries\\adversaries.json",
+      "source_entity": "adversaries",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "result_table",
+      "corpus": "srd2_adversaries",
+      "source_path": "data\\srd-2.0\\adversaries\\adversaries.json",
+      "source_entity": "adversaries",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "tier_progression",
+      "corpus": "srd2_adversaries",
+      "source_path": "data\\srd-2.0\\adversaries\\adversaries.json",
+      "source_entity": "adversaries",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "linked_entity",
+      "corpus": "srd2_adversaries",
+      "source_path": "data\\srd-2.0\\adversaries\\adversaries.json",
+      "source_entity": "adversaries",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "recipe_or_craft",
+      "corpus": "srd2_adversaries",
+      "source_path": "data\\srd-2.0\\adversaries\\adversaries.json",
+      "source_entity": "adversaries",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "segmented_entity",
+      "corpus": "srd2_adversaries",
+      "source_path": "data\\srd-2.0\\adversaries\\adversaries.json",
+      "source_entity": "adversaries",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "graph_or_hex_travel",
+      "corpus": "srd2_adversaries",
+      "source_path": "data\\srd-2.0\\adversaries\\adversaries.json",
+      "source_entity": "adversaries",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "rest_rule",
+      "corpus": "srd2_adversaries",
+      "source_path": "data\\srd-2.0\\adversaries\\adversaries.json",
+      "source_entity": "adversaries",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "phase_or_procedure",
+      "corpus": "srd2_adversaries",
+      "source_path": "data\\srd-2.0\\adversaries\\adversaries.json",
+      "source_entity": "adversaries",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "form_or_state_transition",
+      "corpus": "srd2_adversaries",
+      "source_path": "data\\srd-2.0\\adversaries\\adversaries.json",
+      "source_entity": "adversaries",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "threshold",
+      "corpus": "srd2_adversaries",
+      "source_path": "data\\srd-2.0\\adversaries\\adversaries.json",
+      "source_entity": "adversaries",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "triggered_rule",
+      "corpus": "srd2_adversaries",
+      "source_path": "data\\srd-2.0\\adversaries\\adversaries.json",
+      "source_entity": "adversaries",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "campaign_rule_modifier",
+      "corpus": "srd2_adversaries",
+      "source_path": "data\\srd-2.0\\adversaries\\adversaries.json",
+      "source_entity": "adversaries",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "play_aid",
+      "corpus": "srd2_adversaries",
+      "source_path": "data\\srd-2.0\\adversaries\\adversaries.json",
+      "source_entity": "adversaries",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "resource",
+      "corpus": "srd2_environments",
+      "source_path": "data\\srd-2.0\\environments\\environments.json",
+      "source_entity": "environments",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "counter_or_track",
+      "corpus": "srd2_environments",
+      "source_path": "data\\srd-2.0\\environments\\environments.json",
+      "source_entity": "environments",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "state_or_condition",
+      "corpus": "srd2_environments",
+      "source_path": "data\\srd-2.0\\environments\\environments.json",
+      "source_entity": "environments",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "tag",
+      "corpus": "srd2_environments",
+      "source_path": "data\\srd-2.0\\environments\\environments.json",
+      "source_entity": "environments",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "slot_capacity",
+      "corpus": "srd2_environments",
+      "source_path": "data\\srd-2.0\\environments\\environments.json",
+      "source_entity": "environments",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "spend_gain",
+      "corpus": "srd2_environments",
+      "source_path": "data\\srd-2.0\\environments\\environments.json",
+      "source_entity": "environments",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "die_or_dice_pool",
+      "corpus": "srd2_environments",
+      "source_path": "data\\srd-2.0\\environments\\environments.json",
+      "source_entity": "environments",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "result_table",
+      "corpus": "srd2_environments",
+      "source_path": "data\\srd-2.0\\environments\\environments.json",
+      "source_entity": "environments",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "tier_progression",
+      "corpus": "srd2_environments",
+      "source_path": "data\\srd-2.0\\environments\\environments.json",
+      "source_entity": "environments",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "linked_entity",
+      "corpus": "srd2_environments",
+      "source_path": "data\\srd-2.0\\environments\\environments.json",
+      "source_entity": "environments",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "recipe_or_craft",
+      "corpus": "srd2_environments",
+      "source_path": "data\\srd-2.0\\environments\\environments.json",
+      "source_entity": "environments",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "segmented_entity",
+      "corpus": "srd2_environments",
+      "source_path": "data\\srd-2.0\\environments\\environments.json",
+      "source_entity": "environments",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "graph_or_hex_travel",
+      "corpus": "srd2_environments",
+      "source_path": "data\\srd-2.0\\environments\\environments.json",
+      "source_entity": "environments",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "rest_rule",
+      "corpus": "srd2_environments",
+      "source_path": "data\\srd-2.0\\environments\\environments.json",
+      "source_entity": "environments",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "phase_or_procedure",
+      "corpus": "srd2_environments",
+      "source_path": "data\\srd-2.0\\environments\\environments.json",
+      "source_entity": "environments",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "form_or_state_transition",
+      "corpus": "srd2_environments",
+      "source_path": "data\\srd-2.0\\environments\\environments.json",
+      "source_entity": "environments",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "relation_or_faction",
+      "corpus": "srd2_environments",
+      "source_path": "data\\srd-2.0\\environments\\environments.json",
+      "source_entity": "environments",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "threshold",
+      "corpus": "srd2_environments",
+      "source_path": "data\\srd-2.0\\environments\\environments.json",
+      "source_entity": "environments",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "triggered_rule",
+      "corpus": "srd2_environments",
+      "source_path": "data\\srd-2.0\\environments\\environments.json",
+      "source_entity": "environments",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "campaign_rule_modifier",
+      "corpus": "srd2_environments",
+      "source_path": "data\\srd-2.0\\environments\\environments.json",
+      "source_entity": "environments",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "play_aid",
+      "corpus": "srd2_environments",
+      "source_path": "data\\srd-2.0\\environments\\environments.json",
+      "source_entity": "environments",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "map_or_handout",
+      "corpus": "srd2_environments",
+      "source_path": "data\\srd-2.0\\environments\\environments.json",
+      "source_entity": "environments",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "resource",
+      "corpus": "srd2_equipment",
+      "source_path": "data\\srd-2.0\\equipment\\armor.json",
+      "source_entity": "armor",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "state_or_condition",
+      "corpus": "srd2_equipment",
+      "source_path": "data\\srd-2.0\\equipment\\armor.json",
+      "source_entity": "armor",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "tag",
+      "corpus": "srd2_equipment",
+      "source_path": "data\\srd-2.0\\equipment\\armor.json",
+      "source_entity": "armor",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "slot_capacity",
+      "corpus": "srd2_equipment",
+      "source_path": "data\\srd-2.0\\equipment\\armor.json",
+      "source_entity": "armor",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "spend_gain",
+      "corpus": "srd2_equipment",
+      "source_path": "data\\srd-2.0\\equipment\\armor.json",
+      "source_entity": "armor",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "die_or_dice_pool",
+      "corpus": "srd2_equipment",
+      "source_path": "data\\srd-2.0\\equipment\\armor.json",
+      "source_entity": "armor",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "result_table",
+      "corpus": "srd2_equipment",
+      "source_path": "data\\srd-2.0\\equipment\\armor.json",
+      "source_entity": "armor",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "linked_entity",
+      "corpus": "srd2_equipment",
+      "source_path": "data\\srd-2.0\\equipment\\armor.json",
+      "source_entity": "armor",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "segmented_entity",
+      "corpus": "srd2_equipment",
+      "source_path": "data\\srd-2.0\\equipment\\armor.json",
+      "source_entity": "armor",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "rest_rule",
+      "corpus": "srd2_equipment",
+      "source_path": "data\\srd-2.0\\equipment\\armor.json",
+      "source_entity": "armor",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "threshold",
+      "corpus": "srd2_equipment",
+      "source_path": "data\\srd-2.0\\equipment\\armor.json",
+      "source_entity": "armor",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "triggered_rule",
+      "corpus": "srd2_equipment",
+      "source_path": "data\\srd-2.0\\equipment\\armor.json",
+      "source_entity": "armor",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "campaign_rule_modifier",
+      "corpus": "srd2_equipment",
+      "source_path": "data\\srd-2.0\\equipment\\armor.json",
+      "source_entity": "armor",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "resource",
+      "corpus": "srd2_equipment",
+      "source_path": "data\\srd-2.0\\equipment\\combat-wheelchairs.json",
+      "source_entity": "combat-wheelchairs",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "slot_capacity",
+      "corpus": "srd2_equipment",
+      "source_path": "data\\srd-2.0\\equipment\\combat-wheelchairs.json",
+      "source_entity": "combat-wheelchairs",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "spend_gain",
+      "corpus": "srd2_equipment",
+      "source_path": "data\\srd-2.0\\equipment\\combat-wheelchairs.json",
+      "source_entity": "combat-wheelchairs",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "die_or_dice_pool",
+      "corpus": "srd2_equipment",
+      "source_path": "data\\srd-2.0\\equipment\\combat-wheelchairs.json",
+      "source_entity": "combat-wheelchairs",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "result_table",
+      "corpus": "srd2_equipment",
+      "source_path": "data\\srd-2.0\\equipment\\combat-wheelchairs.json",
+      "source_entity": "combat-wheelchairs",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "linked_entity",
+      "corpus": "srd2_equipment",
+      "source_path": "data\\srd-2.0\\equipment\\combat-wheelchairs.json",
+      "source_entity": "combat-wheelchairs",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "triggered_rule",
+      "corpus": "srd2_equipment",
+      "source_path": "data\\srd-2.0\\equipment\\combat-wheelchairs.json",
+      "source_entity": "combat-wheelchairs",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "campaign_rule_modifier",
+      "corpus": "srd2_equipment",
+      "source_path": "data\\srd-2.0\\equipment\\combat-wheelchairs.json",
+      "source_entity": "combat-wheelchairs",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "resource",
+      "corpus": "srd2_equipment",
+      "source_path": "data\\srd-2.0\\equipment\\consumables.json",
+      "source_entity": "consumables",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "counter_or_track",
+      "corpus": "srd2_equipment",
+      "source_path": "data\\srd-2.0\\equipment\\consumables.json",
+      "source_entity": "consumables",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "state_or_condition",
+      "corpus": "srd2_equipment",
+      "source_path": "data\\srd-2.0\\equipment\\consumables.json",
+      "source_entity": "consumables",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "slot_capacity",
+      "corpus": "srd2_equipment",
+      "source_path": "data\\srd-2.0\\equipment\\consumables.json",
+      "source_entity": "consumables",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "spend_gain",
+      "corpus": "srd2_equipment",
+      "source_path": "data\\srd-2.0\\equipment\\consumables.json",
+      "source_entity": "consumables",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "die_or_dice_pool",
+      "corpus": "srd2_equipment",
+      "source_path": "data\\srd-2.0\\equipment\\consumables.json",
+      "source_entity": "consumables",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "result_table",
+      "corpus": "srd2_equipment",
+      "source_path": "data\\srd-2.0\\equipment\\consumables.json",
+      "source_entity": "consumables",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "linked_entity",
+      "corpus": "srd2_equipment",
+      "source_path": "data\\srd-2.0\\equipment\\consumables.json",
+      "source_entity": "consumables",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "graph_or_hex_travel",
+      "corpus": "srd2_equipment",
+      "source_path": "data\\srd-2.0\\equipment\\consumables.json",
+      "source_entity": "consumables",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "rest_rule",
+      "corpus": "srd2_equipment",
+      "source_path": "data\\srd-2.0\\equipment\\consumables.json",
+      "source_entity": "consumables",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "form_or_state_transition",
+      "corpus": "srd2_equipment",
+      "source_path": "data\\srd-2.0\\equipment\\consumables.json",
+      "source_entity": "consumables",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "threshold",
+      "corpus": "srd2_equipment",
+      "source_path": "data\\srd-2.0\\equipment\\consumables.json",
+      "source_entity": "consumables",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "triggered_rule",
+      "corpus": "srd2_equipment",
+      "source_path": "data\\srd-2.0\\equipment\\consumables.json",
+      "source_entity": "consumables",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "campaign_rule_modifier",
+      "corpus": "srd2_equipment",
+      "source_path": "data\\srd-2.0\\equipment\\consumables.json",
+      "source_entity": "consumables",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "resource",
+      "corpus": "srd2_equipment",
+      "source_path": "data\\srd-2.0\\equipment\\items.json",
+      "source_entity": "items",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "counter_or_track",
+      "corpus": "srd2_equipment",
+      "source_path": "data\\srd-2.0\\equipment\\items.json",
+      "source_entity": "items",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "state_or_condition",
+      "corpus": "srd2_equipment",
+      "source_path": "data\\srd-2.0\\equipment\\items.json",
+      "source_entity": "items",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "tag",
+      "corpus": "srd2_equipment",
+      "source_path": "data\\srd-2.0\\equipment\\items.json",
+      "source_entity": "items",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "slot_capacity",
+      "corpus": "srd2_equipment",
+      "source_path": "data\\srd-2.0\\equipment\\items.json",
+      "source_entity": "items",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "spend_gain",
+      "corpus": "srd2_equipment",
+      "source_path": "data\\srd-2.0\\equipment\\items.json",
+      "source_entity": "items",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "die_or_dice_pool",
+      "corpus": "srd2_equipment",
+      "source_path": "data\\srd-2.0\\equipment\\items.json",
+      "source_entity": "items",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "result_table",
+      "corpus": "srd2_equipment",
+      "source_path": "data\\srd-2.0\\equipment\\items.json",
+      "source_entity": "items",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "linked_entity",
+      "corpus": "srd2_equipment",
+      "source_path": "data\\srd-2.0\\equipment\\items.json",
+      "source_entity": "items",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "recipe_or_craft",
+      "corpus": "srd2_equipment",
+      "source_path": "data\\srd-2.0\\equipment\\items.json",
+      "source_entity": "items",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "segmented_entity",
+      "corpus": "srd2_equipment",
+      "source_path": "data\\srd-2.0\\equipment\\items.json",
+      "source_entity": "items",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "graph_or_hex_travel",
+      "corpus": "srd2_equipment",
+      "source_path": "data\\srd-2.0\\equipment\\items.json",
+      "source_entity": "items",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "rest_rule",
+      "corpus": "srd2_equipment",
+      "source_path": "data\\srd-2.0\\equipment\\items.json",
+      "source_entity": "items",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "form_or_state_transition",
+      "corpus": "srd2_equipment",
+      "source_path": "data\\srd-2.0\\equipment\\items.json",
+      "source_entity": "items",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "threshold",
+      "corpus": "srd2_equipment",
+      "source_path": "data\\srd-2.0\\equipment\\items.json",
+      "source_entity": "items",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "triggered_rule",
+      "corpus": "srd2_equipment",
+      "source_path": "data\\srd-2.0\\equipment\\items.json",
+      "source_entity": "items",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "campaign_rule_modifier",
+      "corpus": "srd2_equipment",
+      "source_path": "data\\srd-2.0\\equipment\\items.json",
+      "source_entity": "items",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "play_aid",
+      "corpus": "srd2_equipment",
+      "source_path": "data\\srd-2.0\\equipment\\items.json",
+      "source_entity": "items",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "map_or_handout",
+      "corpus": "srd2_equipment",
+      "source_path": "data\\srd-2.0\\equipment\\items.json",
+      "source_entity": "items",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "counter_or_track",
+      "corpus": "srd2_equipment",
+      "source_path": "data\\srd-2.0\\equipment\\manifest.json",
+      "source_entity": "manifest",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "die_or_dice_pool",
+      "corpus": "srd2_equipment",
+      "source_path": "data\\srd-2.0\\equipment\\manifest.json",
+      "source_entity": "manifest",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "result_table",
+      "corpus": "srd2_equipment",
+      "source_path": "data\\srd-2.0\\equipment\\manifest.json",
+      "source_entity": "manifest",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "linked_entity",
+      "corpus": "srd2_equipment",
+      "source_path": "data\\srd-2.0\\equipment\\manifest.json",
+      "source_entity": "manifest",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "segmented_entity",
+      "corpus": "srd2_equipment",
+      "source_path": "data\\srd-2.0\\equipment\\manifest.json",
+      "source_entity": "manifest",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "phase_or_procedure",
+      "corpus": "srd2_equipment",
+      "source_path": "data\\srd-2.0\\equipment\\manifest.json",
+      "source_entity": "manifest",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "form_or_state_transition",
+      "corpus": "srd2_equipment",
+      "source_path": "data\\srd-2.0\\equipment\\manifest.json",
+      "source_entity": "manifest",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "threshold",
+      "corpus": "srd2_equipment",
+      "source_path": "data\\srd-2.0\\equipment\\manifest.json",
+      "source_entity": "manifest",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "campaign_rule_modifier",
+      "corpus": "srd2_equipment",
+      "source_path": "data\\srd-2.0\\equipment\\manifest.json",
+      "source_entity": "manifest",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "resource",
+      "corpus": "srd2_equipment",
+      "source_path": "data\\srd-2.0\\equipment\\supplemental-weapons.json",
+      "source_entity": "supplemental-weapons",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "state_or_condition",
+      "corpus": "srd2_equipment",
+      "source_path": "data\\srd-2.0\\equipment\\supplemental-weapons.json",
+      "source_entity": "supplemental-weapons",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "tag",
+      "corpus": "srd2_equipment",
+      "source_path": "data\\srd-2.0\\equipment\\supplemental-weapons.json",
+      "source_entity": "supplemental-weapons",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "slot_capacity",
+      "corpus": "srd2_equipment",
+      "source_path": "data\\srd-2.0\\equipment\\supplemental-weapons.json",
+      "source_entity": "supplemental-weapons",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "spend_gain",
+      "corpus": "srd2_equipment",
+      "source_path": "data\\srd-2.0\\equipment\\supplemental-weapons.json",
+      "source_entity": "supplemental-weapons",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "die_or_dice_pool",
+      "corpus": "srd2_equipment",
+      "source_path": "data\\srd-2.0\\equipment\\supplemental-weapons.json",
+      "source_entity": "supplemental-weapons",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "result_table",
+      "corpus": "srd2_equipment",
+      "source_path": "data\\srd-2.0\\equipment\\supplemental-weapons.json",
+      "source_entity": "supplemental-weapons",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "linked_entity",
+      "corpus": "srd2_equipment",
+      "source_path": "data\\srd-2.0\\equipment\\supplemental-weapons.json",
+      "source_entity": "supplemental-weapons",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "rest_rule",
+      "corpus": "srd2_equipment",
+      "source_path": "data\\srd-2.0\\equipment\\supplemental-weapons.json",
+      "source_entity": "supplemental-weapons",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "triggered_rule",
+      "corpus": "srd2_equipment",
+      "source_path": "data\\srd-2.0\\equipment\\supplemental-weapons.json",
+      "source_entity": "supplemental-weapons",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "campaign_rule_modifier",
+      "corpus": "srd2_equipment",
+      "source_path": "data\\srd-2.0\\equipment\\supplemental-weapons.json",
+      "source_entity": "supplemental-weapons",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "play_aid",
+      "corpus": "srd2_equipment",
+      "source_path": "data\\srd-2.0\\equipment\\supplemental-weapons.json",
+      "source_entity": "supplemental-weapons",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "resource",
+      "corpus": "srd2_equipment",
+      "source_path": "data\\srd-2.0\\equipment\\weapons-raw.json",
+      "source_entity": "weapons-raw",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "counter_or_track",
+      "corpus": "srd2_equipment",
+      "source_path": "data\\srd-2.0\\equipment\\weapons-raw.json",
+      "source_entity": "weapons-raw",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "tag",
+      "corpus": "srd2_equipment",
+      "source_path": "data\\srd-2.0\\equipment\\weapons-raw.json",
+      "source_entity": "weapons-raw",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "slot_capacity",
+      "corpus": "srd2_equipment",
+      "source_path": "data\\srd-2.0\\equipment\\weapons-raw.json",
+      "source_entity": "weapons-raw",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "spend_gain",
+      "corpus": "srd2_equipment",
+      "source_path": "data\\srd-2.0\\equipment\\weapons-raw.json",
+      "source_entity": "weapons-raw",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "die_or_dice_pool",
+      "corpus": "srd2_equipment",
+      "source_path": "data\\srd-2.0\\equipment\\weapons-raw.json",
+      "source_entity": "weapons-raw",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "result_table",
+      "corpus": "srd2_equipment",
+      "source_path": "data\\srd-2.0\\equipment\\weapons-raw.json",
+      "source_entity": "weapons-raw",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "linked_entity",
+      "corpus": "srd2_equipment",
+      "source_path": "data\\srd-2.0\\equipment\\weapons-raw.json",
+      "source_entity": "weapons-raw",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "segmented_entity",
+      "corpus": "srd2_equipment",
+      "source_path": "data\\srd-2.0\\equipment\\weapons-raw.json",
+      "source_entity": "weapons-raw",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "rest_rule",
+      "corpus": "srd2_equipment",
+      "source_path": "data\\srd-2.0\\equipment\\weapons-raw.json",
+      "source_entity": "weapons-raw",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "form_or_state_transition",
+      "corpus": "srd2_equipment",
+      "source_path": "data\\srd-2.0\\equipment\\weapons-raw.json",
+      "source_entity": "weapons-raw",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "threshold",
+      "corpus": "srd2_equipment",
+      "source_path": "data\\srd-2.0\\equipment\\weapons-raw.json",
+      "source_entity": "weapons-raw",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "triggered_rule",
+      "corpus": "srd2_equipment",
+      "source_path": "data\\srd-2.0\\equipment\\weapons-raw.json",
+      "source_entity": "weapons-raw",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "campaign_rule_modifier",
+      "corpus": "srd2_equipment",
+      "source_path": "data\\srd-2.0\\equipment\\weapons-raw.json",
+      "source_entity": "weapons-raw",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "form_or_state_transition",
+      "corpus": "srd2_transformations",
+      "source_path": "data\\srd-2.0\\indexes\\transformations.json",
+      "source_entity": "transformations",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "resource",
+      "corpus": "hope_fear_frames",
+      "source_path": "data\\hope-fear-private\\campaign-frames\\castle-high.json",
+      "source_entity": "hope-fear.campaign-frame.castle-high",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "counter_or_track",
+      "corpus": "hope_fear_frames",
+      "source_path": "data\\hope-fear-private\\campaign-frames\\castle-high.json",
+      "source_entity": "hope-fear.campaign-frame.castle-high",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "state_or_condition",
+      "corpus": "hope_fear_frames",
+      "source_path": "data\\hope-fear-private\\campaign-frames\\castle-high.json",
+      "source_entity": "hope-fear.campaign-frame.castle-high",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "tag",
+      "corpus": "hope_fear_frames",
+      "source_path": "data\\hope-fear-private\\campaign-frames\\castle-high.json",
+      "source_entity": "hope-fear.campaign-frame.castle-high",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "slot_capacity",
+      "corpus": "hope_fear_frames",
+      "source_path": "data\\hope-fear-private\\campaign-frames\\castle-high.json",
+      "source_entity": "hope-fear.campaign-frame.castle-high",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "spend_gain",
+      "corpus": "hope_fear_frames",
+      "source_path": "data\\hope-fear-private\\campaign-frames\\castle-high.json",
+      "source_entity": "hope-fear.campaign-frame.castle-high",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "die_or_dice_pool",
+      "corpus": "hope_fear_frames",
+      "source_path": "data\\hope-fear-private\\campaign-frames\\castle-high.json",
+      "source_entity": "hope-fear.campaign-frame.castle-high",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "result_table",
+      "corpus": "hope_fear_frames",
+      "source_path": "data\\hope-fear-private\\campaign-frames\\castle-high.json",
+      "source_entity": "hope-fear.campaign-frame.castle-high",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "tier_progression",
+      "corpus": "hope_fear_frames",
+      "source_path": "data\\hope-fear-private\\campaign-frames\\castle-high.json",
+      "source_entity": "hope-fear.campaign-frame.castle-high",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "linked_entity",
+      "corpus": "hope_fear_frames",
+      "source_path": "data\\hope-fear-private\\campaign-frames\\castle-high.json",
+      "source_entity": "hope-fear.campaign-frame.castle-high",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "recipe_or_craft",
+      "corpus": "hope_fear_frames",
+      "source_path": "data\\hope-fear-private\\campaign-frames\\castle-high.json",
+      "source_entity": "hope-fear.campaign-frame.castle-high",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "segmented_entity",
+      "corpus": "hope_fear_frames",
+      "source_path": "data\\hope-fear-private\\campaign-frames\\castle-high.json",
+      "source_entity": "hope-fear.campaign-frame.castle-high",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "graph_or_hex_travel",
+      "corpus": "hope_fear_frames",
+      "source_path": "data\\hope-fear-private\\campaign-frames\\castle-high.json",
+      "source_entity": "hope-fear.campaign-frame.castle-high",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "rest_rule",
+      "corpus": "hope_fear_frames",
+      "source_path": "data\\hope-fear-private\\campaign-frames\\castle-high.json",
+      "source_entity": "hope-fear.campaign-frame.castle-high",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "phase_or_procedure",
+      "corpus": "hope_fear_frames",
+      "source_path": "data\\hope-fear-private\\campaign-frames\\castle-high.json",
+      "source_entity": "hope-fear.campaign-frame.castle-high",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "form_or_state_transition",
+      "corpus": "hope_fear_frames",
+      "source_path": "data\\hope-fear-private\\campaign-frames\\castle-high.json",
+      "source_entity": "hope-fear.campaign-frame.castle-high",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "relation_or_faction",
+      "corpus": "hope_fear_frames",
+      "source_path": "data\\hope-fear-private\\campaign-frames\\castle-high.json",
+      "source_entity": "hope-fear.campaign-frame.castle-high",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "threshold",
+      "corpus": "hope_fear_frames",
+      "source_path": "data\\hope-fear-private\\campaign-frames\\castle-high.json",
+      "source_entity": "hope-fear.campaign-frame.castle-high",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "triggered_rule",
+      "corpus": "hope_fear_frames",
+      "source_path": "data\\hope-fear-private\\campaign-frames\\castle-high.json",
+      "source_entity": "hope-fear.campaign-frame.castle-high",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "campaign_rule_modifier",
+      "corpus": "hope_fear_frames",
+      "source_path": "data\\hope-fear-private\\campaign-frames\\castle-high.json",
+      "source_entity": "hope-fear.campaign-frame.castle-high",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "play_aid",
+      "corpus": "hope_fear_frames",
+      "source_path": "data\\hope-fear-private\\campaign-frames\\castle-high.json",
+      "source_entity": "hope-fear.campaign-frame.castle-high",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "map_or_handout",
+      "corpus": "hope_fear_frames",
+      "source_path": "data\\hope-fear-private\\campaign-frames\\castle-high.json",
+      "source_entity": "hope-fear.campaign-frame.castle-high",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "resource",
+      "corpus": "hope_fear_frames",
+      "source_path": "data\\hope-fear-private\\campaign-frames\\dark-heart-of-andaluria.json",
+      "source_entity": "hope-fear.campaign-frame.dark-heart-of-andaluria",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "counter_or_track",
+      "corpus": "hope_fear_frames",
+      "source_path": "data\\hope-fear-private\\campaign-frames\\dark-heart-of-andaluria.json",
+      "source_entity": "hope-fear.campaign-frame.dark-heart-of-andaluria",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "state_or_condition",
+      "corpus": "hope_fear_frames",
+      "source_path": "data\\hope-fear-private\\campaign-frames\\dark-heart-of-andaluria.json",
+      "source_entity": "hope-fear.campaign-frame.dark-heart-of-andaluria",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "tag",
+      "corpus": "hope_fear_frames",
+      "source_path": "data\\hope-fear-private\\campaign-frames\\dark-heart-of-andaluria.json",
+      "source_entity": "hope-fear.campaign-frame.dark-heart-of-andaluria",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "slot_capacity",
+      "corpus": "hope_fear_frames",
+      "source_path": "data\\hope-fear-private\\campaign-frames\\dark-heart-of-andaluria.json",
+      "source_entity": "hope-fear.campaign-frame.dark-heart-of-andaluria",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "spend_gain",
+      "corpus": "hope_fear_frames",
+      "source_path": "data\\hope-fear-private\\campaign-frames\\dark-heart-of-andaluria.json",
+      "source_entity": "hope-fear.campaign-frame.dark-heart-of-andaluria",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "die_or_dice_pool",
+      "corpus": "hope_fear_frames",
+      "source_path": "data\\hope-fear-private\\campaign-frames\\dark-heart-of-andaluria.json",
+      "source_entity": "hope-fear.campaign-frame.dark-heart-of-andaluria",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "result_table",
+      "corpus": "hope_fear_frames",
+      "source_path": "data\\hope-fear-private\\campaign-frames\\dark-heart-of-andaluria.json",
+      "source_entity": "hope-fear.campaign-frame.dark-heart-of-andaluria",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "tier_progression",
+      "corpus": "hope_fear_frames",
+      "source_path": "data\\hope-fear-private\\campaign-frames\\dark-heart-of-andaluria.json",
+      "source_entity": "hope-fear.campaign-frame.dark-heart-of-andaluria",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "linked_entity",
+      "corpus": "hope_fear_frames",
+      "source_path": "data\\hope-fear-private\\campaign-frames\\dark-heart-of-andaluria.json",
+      "source_entity": "hope-fear.campaign-frame.dark-heart-of-andaluria",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "recipe_or_craft",
+      "corpus": "hope_fear_frames",
+      "source_path": "data\\hope-fear-private\\campaign-frames\\dark-heart-of-andaluria.json",
+      "source_entity": "hope-fear.campaign-frame.dark-heart-of-andaluria",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "segmented_entity",
+      "corpus": "hope_fear_frames",
+      "source_path": "data\\hope-fear-private\\campaign-frames\\dark-heart-of-andaluria.json",
+      "source_entity": "hope-fear.campaign-frame.dark-heart-of-andaluria",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "graph_or_hex_travel",
+      "corpus": "hope_fear_frames",
+      "source_path": "data\\hope-fear-private\\campaign-frames\\dark-heart-of-andaluria.json",
+      "source_entity": "hope-fear.campaign-frame.dark-heart-of-andaluria",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "rest_rule",
+      "corpus": "hope_fear_frames",
+      "source_path": "data\\hope-fear-private\\campaign-frames\\dark-heart-of-andaluria.json",
+      "source_entity": "hope-fear.campaign-frame.dark-heart-of-andaluria",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "phase_or_procedure",
+      "corpus": "hope_fear_frames",
+      "source_path": "data\\hope-fear-private\\campaign-frames\\dark-heart-of-andaluria.json",
+      "source_entity": "hope-fear.campaign-frame.dark-heart-of-andaluria",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "form_or_state_transition",
+      "corpus": "hope_fear_frames",
+      "source_path": "data\\hope-fear-private\\campaign-frames\\dark-heart-of-andaluria.json",
+      "source_entity": "hope-fear.campaign-frame.dark-heart-of-andaluria",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "relation_or_faction",
+      "corpus": "hope_fear_frames",
+      "source_path": "data\\hope-fear-private\\campaign-frames\\dark-heart-of-andaluria.json",
+      "source_entity": "hope-fear.campaign-frame.dark-heart-of-andaluria",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "threshold",
+      "corpus": "hope_fear_frames",
+      "source_path": "data\\hope-fear-private\\campaign-frames\\dark-heart-of-andaluria.json",
+      "source_entity": "hope-fear.campaign-frame.dark-heart-of-andaluria",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "triggered_rule",
+      "corpus": "hope_fear_frames",
+      "source_path": "data\\hope-fear-private\\campaign-frames\\dark-heart-of-andaluria.json",
+      "source_entity": "hope-fear.campaign-frame.dark-heart-of-andaluria",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "campaign_rule_modifier",
+      "corpus": "hope_fear_frames",
+      "source_path": "data\\hope-fear-private\\campaign-frames\\dark-heart-of-andaluria.json",
+      "source_entity": "hope-fear.campaign-frame.dark-heart-of-andaluria",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "play_aid",
+      "corpus": "hope_fear_frames",
+      "source_path": "data\\hope-fear-private\\campaign-frames\\dark-heart-of-andaluria.json",
+      "source_entity": "hope-fear.campaign-frame.dark-heart-of-andaluria",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "map_or_handout",
+      "corpus": "hope_fear_frames",
+      "source_path": "data\\hope-fear-private\\campaign-frames\\dark-heart-of-andaluria.json",
+      "source_entity": "hope-fear.campaign-frame.dark-heart-of-andaluria",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "resource",
+      "corpus": "hope_fear_frames",
+      "source_path": "data\\hope-fear-private\\campaign-frames\\journey-to-horizon.json",
+      "source_entity": "hope-fear.campaign-frame.journey-to-horizon",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "counter_or_track",
+      "corpus": "hope_fear_frames",
+      "source_path": "data\\hope-fear-private\\campaign-frames\\journey-to-horizon.json",
+      "source_entity": "hope-fear.campaign-frame.journey-to-horizon",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "state_or_condition",
+      "corpus": "hope_fear_frames",
+      "source_path": "data\\hope-fear-private\\campaign-frames\\journey-to-horizon.json",
+      "source_entity": "hope-fear.campaign-frame.journey-to-horizon",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "tag",
+      "corpus": "hope_fear_frames",
+      "source_path": "data\\hope-fear-private\\campaign-frames\\journey-to-horizon.json",
+      "source_entity": "hope-fear.campaign-frame.journey-to-horizon",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "slot_capacity",
+      "corpus": "hope_fear_frames",
+      "source_path": "data\\hope-fear-private\\campaign-frames\\journey-to-horizon.json",
+      "source_entity": "hope-fear.campaign-frame.journey-to-horizon",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "spend_gain",
+      "corpus": "hope_fear_frames",
+      "source_path": "data\\hope-fear-private\\campaign-frames\\journey-to-horizon.json",
+      "source_entity": "hope-fear.campaign-frame.journey-to-horizon",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "die_or_dice_pool",
+      "corpus": "hope_fear_frames",
+      "source_path": "data\\hope-fear-private\\campaign-frames\\journey-to-horizon.json",
+      "source_entity": "hope-fear.campaign-frame.journey-to-horizon",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "result_table",
+      "corpus": "hope_fear_frames",
+      "source_path": "data\\hope-fear-private\\campaign-frames\\journey-to-horizon.json",
+      "source_entity": "hope-fear.campaign-frame.journey-to-horizon",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "tier_progression",
+      "corpus": "hope_fear_frames",
+      "source_path": "data\\hope-fear-private\\campaign-frames\\journey-to-horizon.json",
+      "source_entity": "hope-fear.campaign-frame.journey-to-horizon",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "linked_entity",
+      "corpus": "hope_fear_frames",
+      "source_path": "data\\hope-fear-private\\campaign-frames\\journey-to-horizon.json",
+      "source_entity": "hope-fear.campaign-frame.journey-to-horizon",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "recipe_or_craft",
+      "corpus": "hope_fear_frames",
+      "source_path": "data\\hope-fear-private\\campaign-frames\\journey-to-horizon.json",
+      "source_entity": "hope-fear.campaign-frame.journey-to-horizon",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "segmented_entity",
+      "corpus": "hope_fear_frames",
+      "source_path": "data\\hope-fear-private\\campaign-frames\\journey-to-horizon.json",
+      "source_entity": "hope-fear.campaign-frame.journey-to-horizon",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "graph_or_hex_travel",
+      "corpus": "hope_fear_frames",
+      "source_path": "data\\hope-fear-private\\campaign-frames\\journey-to-horizon.json",
+      "source_entity": "hope-fear.campaign-frame.journey-to-horizon",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "rest_rule",
+      "corpus": "hope_fear_frames",
+      "source_path": "data\\hope-fear-private\\campaign-frames\\journey-to-horizon.json",
+      "source_entity": "hope-fear.campaign-frame.journey-to-horizon",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "phase_or_procedure",
+      "corpus": "hope_fear_frames",
+      "source_path": "data\\hope-fear-private\\campaign-frames\\journey-to-horizon.json",
+      "source_entity": "hope-fear.campaign-frame.journey-to-horizon",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "form_or_state_transition",
+      "corpus": "hope_fear_frames",
+      "source_path": "data\\hope-fear-private\\campaign-frames\\journey-to-horizon.json",
+      "source_entity": "hope-fear.campaign-frame.journey-to-horizon",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "relation_or_faction",
+      "corpus": "hope_fear_frames",
+      "source_path": "data\\hope-fear-private\\campaign-frames\\journey-to-horizon.json",
+      "source_entity": "hope-fear.campaign-frame.journey-to-horizon",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "threshold",
+      "corpus": "hope_fear_frames",
+      "source_path": "data\\hope-fear-private\\campaign-frames\\journey-to-horizon.json",
+      "source_entity": "hope-fear.campaign-frame.journey-to-horizon",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "triggered_rule",
+      "corpus": "hope_fear_frames",
+      "source_path": "data\\hope-fear-private\\campaign-frames\\journey-to-horizon.json",
+      "source_entity": "hope-fear.campaign-frame.journey-to-horizon",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "campaign_rule_modifier",
+      "corpus": "hope_fear_frames",
+      "source_path": "data\\hope-fear-private\\campaign-frames\\journey-to-horizon.json",
+      "source_entity": "hope-fear.campaign-frame.journey-to-horizon",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "play_aid",
+      "corpus": "hope_fear_frames",
+      "source_path": "data\\hope-fear-private\\campaign-frames\\journey-to-horizon.json",
+      "source_entity": "hope-fear.campaign-frame.journey-to-horizon",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "map_or_handout",
+      "corpus": "hope_fear_frames",
+      "source_path": "data\\hope-fear-private\\campaign-frames\\journey-to-horizon.json",
+      "source_entity": "hope-fear.campaign-frame.journey-to-horizon",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "resource",
+      "corpus": "hope_fear_frames",
+      "source_path": "data\\hope-fear-private\\campaign-frames\\reign-of-the-weredragon.json",
+      "source_entity": "hope-fear.campaign-frame.reign-of-the-weredragon",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "counter_or_track",
+      "corpus": "hope_fear_frames",
+      "source_path": "data\\hope-fear-private\\campaign-frames\\reign-of-the-weredragon.json",
+      "source_entity": "hope-fear.campaign-frame.reign-of-the-weredragon",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "state_or_condition",
+      "corpus": "hope_fear_frames",
+      "source_path": "data\\hope-fear-private\\campaign-frames\\reign-of-the-weredragon.json",
+      "source_entity": "hope-fear.campaign-frame.reign-of-the-weredragon",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "tag",
+      "corpus": "hope_fear_frames",
+      "source_path": "data\\hope-fear-private\\campaign-frames\\reign-of-the-weredragon.json",
+      "source_entity": "hope-fear.campaign-frame.reign-of-the-weredragon",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "slot_capacity",
+      "corpus": "hope_fear_frames",
+      "source_path": "data\\hope-fear-private\\campaign-frames\\reign-of-the-weredragon.json",
+      "source_entity": "hope-fear.campaign-frame.reign-of-the-weredragon",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "spend_gain",
+      "corpus": "hope_fear_frames",
+      "source_path": "data\\hope-fear-private\\campaign-frames\\reign-of-the-weredragon.json",
+      "source_entity": "hope-fear.campaign-frame.reign-of-the-weredragon",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "die_or_dice_pool",
+      "corpus": "hope_fear_frames",
+      "source_path": "data\\hope-fear-private\\campaign-frames\\reign-of-the-weredragon.json",
+      "source_entity": "hope-fear.campaign-frame.reign-of-the-weredragon",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "result_table",
+      "corpus": "hope_fear_frames",
+      "source_path": "data\\hope-fear-private\\campaign-frames\\reign-of-the-weredragon.json",
+      "source_entity": "hope-fear.campaign-frame.reign-of-the-weredragon",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "tier_progression",
+      "corpus": "hope_fear_frames",
+      "source_path": "data\\hope-fear-private\\campaign-frames\\reign-of-the-weredragon.json",
+      "source_entity": "hope-fear.campaign-frame.reign-of-the-weredragon",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "linked_entity",
+      "corpus": "hope_fear_frames",
+      "source_path": "data\\hope-fear-private\\campaign-frames\\reign-of-the-weredragon.json",
+      "source_entity": "hope-fear.campaign-frame.reign-of-the-weredragon",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "recipe_or_craft",
+      "corpus": "hope_fear_frames",
+      "source_path": "data\\hope-fear-private\\campaign-frames\\reign-of-the-weredragon.json",
+      "source_entity": "hope-fear.campaign-frame.reign-of-the-weredragon",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "segmented_entity",
+      "corpus": "hope_fear_frames",
+      "source_path": "data\\hope-fear-private\\campaign-frames\\reign-of-the-weredragon.json",
+      "source_entity": "hope-fear.campaign-frame.reign-of-the-weredragon",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "graph_or_hex_travel",
+      "corpus": "hope_fear_frames",
+      "source_path": "data\\hope-fear-private\\campaign-frames\\reign-of-the-weredragon.json",
+      "source_entity": "hope-fear.campaign-frame.reign-of-the-weredragon",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "rest_rule",
+      "corpus": "hope_fear_frames",
+      "source_path": "data\\hope-fear-private\\campaign-frames\\reign-of-the-weredragon.json",
+      "source_entity": "hope-fear.campaign-frame.reign-of-the-weredragon",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "phase_or_procedure",
+      "corpus": "hope_fear_frames",
+      "source_path": "data\\hope-fear-private\\campaign-frames\\reign-of-the-weredragon.json",
+      "source_entity": "hope-fear.campaign-frame.reign-of-the-weredragon",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "form_or_state_transition",
+      "corpus": "hope_fear_frames",
+      "source_path": "data\\hope-fear-private\\campaign-frames\\reign-of-the-weredragon.json",
+      "source_entity": "hope-fear.campaign-frame.reign-of-the-weredragon",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "relation_or_faction",
+      "corpus": "hope_fear_frames",
+      "source_path": "data\\hope-fear-private\\campaign-frames\\reign-of-the-weredragon.json",
+      "source_entity": "hope-fear.campaign-frame.reign-of-the-weredragon",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "threshold",
+      "corpus": "hope_fear_frames",
+      "source_path": "data\\hope-fear-private\\campaign-frames\\reign-of-the-weredragon.json",
+      "source_entity": "hope-fear.campaign-frame.reign-of-the-weredragon",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "triggered_rule",
+      "corpus": "hope_fear_frames",
+      "source_path": "data\\hope-fear-private\\campaign-frames\\reign-of-the-weredragon.json",
+      "source_entity": "hope-fear.campaign-frame.reign-of-the-weredragon",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "campaign_rule_modifier",
+      "corpus": "hope_fear_frames",
+      "source_path": "data\\hope-fear-private\\campaign-frames\\reign-of-the-weredragon.json",
+      "source_entity": "hope-fear.campaign-frame.reign-of-the-weredragon",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "play_aid",
+      "corpus": "hope_fear_frames",
+      "source_path": "data\\hope-fear-private\\campaign-frames\\reign-of-the-weredragon.json",
+      "source_entity": "hope-fear.campaign-frame.reign-of-the-weredragon",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "map_or_handout",
+      "corpus": "hope_fear_frames",
+      "source_path": "data\\hope-fear-private\\campaign-frames\\reign-of-the-weredragon.json",
+      "source_entity": "hope-fear.campaign-frame.reign-of-the-weredragon",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "resource",
+      "corpus": "hope_fear_assets",
+      "source_path": "data\\hope-fear-private\\appendix-assets.json",
+      "source_entity": "appendix-assets",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "graph_or_hex_travel",
+      "corpus": "hope_fear_assets",
+      "source_path": "data\\hope-fear-private\\appendix-assets.json",
+      "source_entity": "appendix-assets",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "campaign_rule_modifier",
+      "corpus": "hope_fear_assets",
+      "source_path": "data\\hope-fear-private\\appendix-assets.json",
+      "source_entity": "appendix-assets",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "play_aid",
+      "corpus": "hope_fear_assets",
+      "source_path": "data\\hope-fear-private\\appendix-assets.json",
+      "source_entity": "appendix-assets",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "map_or_handout",
+      "corpus": "hope_fear_assets",
+      "source_path": "data\\hope-fear-private\\appendix-assets.json",
+      "source_entity": "appendix-assets",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "resource",
+      "corpus": "blood_hunter",
+      "source_path": "data\\playtest\\blood-hunter-v1.5\\classes\\blood-hunter.json",
+      "source_entity": "the-void.v1.5.class.blood-hunter",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "tag",
+      "corpus": "blood_hunter",
+      "source_path": "data\\playtest\\blood-hunter-v1.5\\classes\\blood-hunter.json",
+      "source_entity": "the-void.v1.5.class.blood-hunter",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "spend_gain",
+      "corpus": "blood_hunter",
+      "source_path": "data\\playtest\\blood-hunter-v1.5\\classes\\blood-hunter.json",
+      "source_entity": "the-void.v1.5.class.blood-hunter",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "die_or_dice_pool",
+      "corpus": "blood_hunter",
+      "source_path": "data\\playtest\\blood-hunter-v1.5\\classes\\blood-hunter.json",
+      "source_entity": "the-void.v1.5.class.blood-hunter",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "result_table",
+      "corpus": "blood_hunter",
+      "source_path": "data\\playtest\\blood-hunter-v1.5\\classes\\blood-hunter.json",
+      "source_entity": "the-void.v1.5.class.blood-hunter",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "linked_entity",
+      "corpus": "blood_hunter",
+      "source_path": "data\\playtest\\blood-hunter-v1.5\\classes\\blood-hunter.json",
+      "source_entity": "the-void.v1.5.class.blood-hunter",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "graph_or_hex_travel",
+      "corpus": "blood_hunter",
+      "source_path": "data\\playtest\\blood-hunter-v1.5\\classes\\blood-hunter.json",
+      "source_entity": "the-void.v1.5.class.blood-hunter",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "rest_rule",
+      "corpus": "blood_hunter",
+      "source_path": "data\\playtest\\blood-hunter-v1.5\\classes\\blood-hunter.json",
+      "source_entity": "the-void.v1.5.class.blood-hunter",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "threshold",
+      "corpus": "blood_hunter",
+      "source_path": "data\\playtest\\blood-hunter-v1.5\\classes\\blood-hunter.json",
+      "source_entity": "the-void.v1.5.class.blood-hunter",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "triggered_rule",
+      "corpus": "blood_hunter",
+      "source_path": "data\\playtest\\blood-hunter-v1.5\\classes\\blood-hunter.json",
+      "source_entity": "the-void.v1.5.class.blood-hunter",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "resource",
+      "corpus": "blood_hunter",
+      "source_path": "data\\playtest\\blood-hunter-v1.5\\domains\\blood\\cards\\01-blood-spike.json",
+      "source_entity": "the-void.v1.5.domain_card.blood-spike",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "spend_gain",
+      "corpus": "blood_hunter",
+      "source_path": "data\\playtest\\blood-hunter-v1.5\\domains\\blood\\cards\\01-blood-spike.json",
+      "source_entity": "the-void.v1.5.domain_card.blood-spike",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "die_or_dice_pool",
+      "corpus": "blood_hunter",
+      "source_path": "data\\playtest\\blood-hunter-v1.5\\domains\\blood\\cards\\01-blood-spike.json",
+      "source_entity": "the-void.v1.5.domain_card.blood-spike",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "result_table",
+      "corpus": "blood_hunter",
+      "source_path": "data\\playtest\\blood-hunter-v1.5\\domains\\blood\\cards\\01-blood-spike.json",
+      "source_entity": "the-void.v1.5.domain_card.blood-spike",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "resource",
+      "corpus": "blood_hunter",
+      "source_path": "data\\playtest\\blood-hunter-v1.5\\domains\\blood\\cards\\01-lifeblood-talisman.json",
+      "source_entity": "the-void.v1.5.domain_card.lifeblood-talisman",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "spend_gain",
+      "corpus": "blood_hunter",
+      "source_path": "data\\playtest\\blood-hunter-v1.5\\domains\\blood\\cards\\01-lifeblood-talisman.json",
+      "source_entity": "the-void.v1.5.domain_card.lifeblood-talisman",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "triggered_rule",
+      "corpus": "blood_hunter",
+      "source_path": "data\\playtest\\blood-hunter-v1.5\\domains\\blood\\cards\\01-lifeblood-talisman.json",
+      "source_entity": "the-void.v1.5.domain_card.lifeblood-talisman",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "resource",
+      "corpus": "blood_hunter",
+      "source_path": "data\\playtest\\blood-hunter-v1.5\\domains\\blood\\cards\\01-power-through-pain.json",
+      "source_entity": "the-void.v1.5.domain_card.power-through-pain",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "spend_gain",
+      "corpus": "blood_hunter",
+      "source_path": "data\\playtest\\blood-hunter-v1.5\\domains\\blood\\cards\\01-power-through-pain.json",
+      "source_entity": "the-void.v1.5.domain_card.power-through-pain",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "result_table",
+      "corpus": "blood_hunter",
+      "source_path": "data\\playtest\\blood-hunter-v1.5\\domains\\blood\\cards\\01-power-through-pain.json",
+      "source_entity": "the-void.v1.5.domain_card.power-through-pain",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "triggered_rule",
+      "corpus": "blood_hunter",
+      "source_path": "data\\playtest\\blood-hunter-v1.5\\domains\\blood\\cards\\01-power-through-pain.json",
+      "source_entity": "the-void.v1.5.domain_card.power-through-pain",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "resource",
+      "corpus": "blood_hunter",
+      "source_path": "data\\playtest\\blood-hunter-v1.5\\domains\\blood\\cards\\02-brand-of-castigation.json",
+      "source_entity": "the-void.v1.5.domain_card.brand-of-castigation",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "spend_gain",
+      "corpus": "blood_hunter",
+      "source_path": "data\\playtest\\blood-hunter-v1.5\\domains\\blood\\cards\\02-brand-of-castigation.json",
+      "source_entity": "the-void.v1.5.domain_card.brand-of-castigation",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "triggered_rule",
+      "corpus": "blood_hunter",
+      "source_path": "data\\playtest\\blood-hunter-v1.5\\domains\\blood\\cards\\02-brand-of-castigation.json",
+      "source_entity": "the-void.v1.5.domain_card.brand-of-castigation",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "resource",
+      "corpus": "blood_hunter",
+      "source_path": "data\\playtest\\blood-hunter-v1.5\\domains\\blood\\cards\\02-vitality-manipulation.json",
+      "source_entity": "the-void.v1.5.domain_card.vitality-manipulation",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "tag",
+      "corpus": "blood_hunter",
+      "source_path": "data\\playtest\\blood-hunter-v1.5\\domains\\blood\\cards\\02-vitality-manipulation.json",
+      "source_entity": "the-void.v1.5.domain_card.vitality-manipulation",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "spend_gain",
+      "corpus": "blood_hunter",
+      "source_path": "data\\playtest\\blood-hunter-v1.5\\domains\\blood\\cards\\02-vitality-manipulation.json",
+      "source_entity": "the-void.v1.5.domain_card.vitality-manipulation",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "result_table",
+      "corpus": "blood_hunter",
+      "source_path": "data\\playtest\\blood-hunter-v1.5\\domains\\blood\\cards\\02-vitality-manipulation.json",
+      "source_entity": "the-void.v1.5.domain_card.vitality-manipulation",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "triggered_rule",
+      "corpus": "blood_hunter",
+      "source_path": "data\\playtest\\blood-hunter-v1.5\\domains\\blood\\cards\\02-vitality-manipulation.json",
+      "source_entity": "the-void.v1.5.domain_card.vitality-manipulation",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "resource",
+      "corpus": "blood_hunter",
+      "source_path": "data\\playtest\\blood-hunter-v1.5\\domains\\blood\\cards\\03-blood-puppet.json",
+      "source_entity": "the-void.v1.5.domain_card.blood-puppet",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "spend_gain",
+      "corpus": "blood_hunter",
+      "source_path": "data\\playtest\\blood-hunter-v1.5\\domains\\blood\\cards\\03-blood-puppet.json",
+      "source_entity": "the-void.v1.5.domain_card.blood-puppet",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "die_or_dice_pool",
+      "corpus": "blood_hunter",
+      "source_path": "data\\playtest\\blood-hunter-v1.5\\domains\\blood\\cards\\03-blood-puppet.json",
+      "source_entity": "the-void.v1.5.domain_card.blood-puppet",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "result_table",
+      "corpus": "blood_hunter",
+      "source_path": "data\\playtest\\blood-hunter-v1.5\\domains\\blood\\cards\\03-blood-puppet.json",
+      "source_entity": "the-void.v1.5.domain_card.blood-puppet",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "graph_or_hex_travel",
+      "corpus": "blood_hunter",
+      "source_path": "data\\playtest\\blood-hunter-v1.5\\domains\\blood\\cards\\03-blood-puppet.json",
+      "source_entity": "the-void.v1.5.domain_card.blood-puppet",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "triggered_rule",
+      "corpus": "blood_hunter",
+      "source_path": "data\\playtest\\blood-hunter-v1.5\\domains\\blood\\cards\\03-blood-puppet.json",
+      "source_entity": "the-void.v1.5.domain_card.blood-puppet",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "resource",
+      "corpus": "blood_hunter",
+      "source_path": "data\\playtest\\blood-hunter-v1.5\\domains\\blood\\cards\\03-burning-blood.json",
+      "source_entity": "the-void.v1.5.domain_card.burning-blood",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "spend_gain",
+      "corpus": "blood_hunter",
+      "source_path": "data\\playtest\\blood-hunter-v1.5\\domains\\blood\\cards\\03-burning-blood.json",
+      "source_entity": "the-void.v1.5.domain_card.burning-blood",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "result_table",
+      "corpus": "blood_hunter",
+      "source_path": "data\\playtest\\blood-hunter-v1.5\\domains\\blood\\cards\\03-burning-blood.json",
+      "source_entity": "the-void.v1.5.domain_card.burning-blood",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "campaign_rule_modifier",
+      "corpus": "blood_hunter",
+      "source_path": "data\\playtest\\blood-hunter-v1.5\\domains\\blood\\cards\\03-burning-blood.json",
+      "source_entity": "the-void.v1.5.domain_card.burning-blood",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "resource",
+      "corpus": "blood_hunter",
+      "source_path": "data\\playtest\\blood-hunter-v1.5\\domains\\blood\\cards\\04-grisly-harpoon.json",
+      "source_entity": "the-void.v1.5.domain_card.grisly-harpoon",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "spend_gain",
+      "corpus": "blood_hunter",
+      "source_path": "data\\playtest\\blood-hunter-v1.5\\domains\\blood\\cards\\04-grisly-harpoon.json",
+      "source_entity": "the-void.v1.5.domain_card.grisly-harpoon",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "die_or_dice_pool",
+      "corpus": "blood_hunter",
+      "source_path": "data\\playtest\\blood-hunter-v1.5\\domains\\blood\\cards\\04-grisly-harpoon.json",
+      "source_entity": "the-void.v1.5.domain_card.grisly-harpoon",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "result_table",
+      "corpus": "blood_hunter",
+      "source_path": "data\\playtest\\blood-hunter-v1.5\\domains\\blood\\cards\\04-grisly-harpoon.json",
+      "source_entity": "the-void.v1.5.domain_card.grisly-harpoon",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "graph_or_hex_travel",
+      "corpus": "blood_hunter",
+      "source_path": "data\\playtest\\blood-hunter-v1.5\\domains\\blood\\cards\\04-grisly-harpoon.json",
+      "source_entity": "the-void.v1.5.domain_card.grisly-harpoon",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "resource",
+      "corpus": "blood_hunter",
+      "source_path": "data\\playtest\\blood-hunter-v1.5\\domains\\blood\\cards\\04-weave-the-flesh.json",
+      "source_entity": "the-void.v1.5.domain_card.weave-the-flesh",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "spend_gain",
+      "corpus": "blood_hunter",
+      "source_path": "data\\playtest\\blood-hunter-v1.5\\domains\\blood\\cards\\04-weave-the-flesh.json",
+      "source_entity": "the-void.v1.5.domain_card.weave-the-flesh",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "rest_rule",
+      "corpus": "blood_hunter",
+      "source_path": "data\\playtest\\blood-hunter-v1.5\\domains\\blood\\cards\\04-weave-the-flesh.json",
+      "source_entity": "the-void.v1.5.domain_card.weave-the-flesh",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "resource",
+      "corpus": "blood_hunter",
+      "source_path": "data\\playtest\\blood-hunter-v1.5\\domains\\blood\\cards\\05-mutual-suffering.json",
+      "source_entity": "the-void.v1.5.domain_card.mutual-suffering",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "spend_gain",
+      "corpus": "blood_hunter",
+      "source_path": "data\\playtest\\blood-hunter-v1.5\\domains\\blood\\cards\\05-mutual-suffering.json",
+      "source_entity": "the-void.v1.5.domain_card.mutual-suffering",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "result_table",
+      "corpus": "blood_hunter",
+      "source_path": "data\\playtest\\blood-hunter-v1.5\\domains\\blood\\cards\\05-mutual-suffering.json",
+      "source_entity": "the-void.v1.5.domain_card.mutual-suffering",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "rest_rule",
+      "corpus": "blood_hunter",
+      "source_path": "data\\playtest\\blood-hunter-v1.5\\domains\\blood\\cards\\05-mutual-suffering.json",
+      "source_entity": "the-void.v1.5.domain_card.mutual-suffering",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "resource",
+      "corpus": "blood_hunter",
+      "source_path": "data\\playtest\\blood-hunter-v1.5\\domains\\blood\\cards\\05-parasite-of-the-will.json",
+      "source_entity": "the-void.v1.5.domain_card.parasite-of-the-will",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "tag",
+      "corpus": "blood_hunter",
+      "source_path": "data\\playtest\\blood-hunter-v1.5\\domains\\blood\\cards\\05-parasite-of-the-will.json",
+      "source_entity": "the-void.v1.5.domain_card.parasite-of-the-will",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "spend_gain",
+      "corpus": "blood_hunter",
+      "source_path": "data\\playtest\\blood-hunter-v1.5\\domains\\blood\\cards\\05-parasite-of-the-will.json",
+      "source_entity": "the-void.v1.5.domain_card.parasite-of-the-will",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "result_table",
+      "corpus": "blood_hunter",
+      "source_path": "data\\playtest\\blood-hunter-v1.5\\domains\\blood\\cards\\05-parasite-of-the-will.json",
+      "source_entity": "the-void.v1.5.domain_card.parasite-of-the-will",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "resource",
+      "corpus": "blood_hunter",
+      "source_path": "data\\playtest\\blood-hunter-v1.5\\domains\\blood\\cards\\06-blood-bind.json",
+      "source_entity": "the-void.v1.5.domain_card.blood-bind",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "state_or_condition",
+      "corpus": "blood_hunter",
+      "source_path": "data\\playtest\\blood-hunter-v1.5\\domains\\blood\\cards\\06-blood-bind.json",
+      "source_entity": "the-void.v1.5.domain_card.blood-bind",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "spend_gain",
+      "corpus": "blood_hunter",
+      "source_path": "data\\playtest\\blood-hunter-v1.5\\domains\\blood\\cards\\06-blood-bind.json",
+      "source_entity": "the-void.v1.5.domain_card.blood-bind",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "die_or_dice_pool",
+      "corpus": "blood_hunter",
+      "source_path": "data\\playtest\\blood-hunter-v1.5\\domains\\blood\\cards\\06-blood-bind.json",
+      "source_entity": "the-void.v1.5.domain_card.blood-bind",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "result_table",
+      "corpus": "blood_hunter",
+      "source_path": "data\\playtest\\blood-hunter-v1.5\\domains\\blood\\cards\\06-blood-bind.json",
+      "source_entity": "the-void.v1.5.domain_card.blood-bind",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "rest_rule",
+      "corpus": "blood_hunter",
+      "source_path": "data\\playtest\\blood-hunter-v1.5\\domains\\blood\\cards\\06-blood-bind.json",
+      "source_entity": "the-void.v1.5.domain_card.blood-bind",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "triggered_rule",
+      "corpus": "blood_hunter",
+      "source_path": "data\\playtest\\blood-hunter-v1.5\\domains\\blood\\cards\\06-blood-bind.json",
+      "source_entity": "the-void.v1.5.domain_card.blood-bind",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "resource",
+      "corpus": "blood_hunter",
+      "source_path": "data\\playtest\\blood-hunter-v1.5\\domains\\blood\\cards\\06-vital-ward.json",
+      "source_entity": "the-void.v1.5.domain_card.vital-ward",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "spend_gain",
+      "corpus": "blood_hunter",
+      "source_path": "data\\playtest\\blood-hunter-v1.5\\domains\\blood\\cards\\06-vital-ward.json",
+      "source_entity": "the-void.v1.5.domain_card.vital-ward",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "triggered_rule",
+      "corpus": "blood_hunter",
+      "source_path": "data\\playtest\\blood-hunter-v1.5\\domains\\blood\\cards\\06-vital-ward.json",
+      "source_entity": "the-void.v1.5.domain_card.vital-ward",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "resource",
+      "corpus": "blood_hunter",
+      "source_path": "data\\playtest\\blood-hunter-v1.5\\domains\\blood\\cards\\07-blood-touched.json",
+      "source_entity": "the-void.v1.5.domain_card.blood-touched",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "spend_gain",
+      "corpus": "blood_hunter",
+      "source_path": "data\\playtest\\blood-hunter-v1.5\\domains\\blood\\cards\\07-blood-touched.json",
+      "source_entity": "the-void.v1.5.domain_card.blood-touched",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "triggered_rule",
+      "corpus": "blood_hunter",
+      "source_path": "data\\playtest\\blood-hunter-v1.5\\domains\\blood\\cards\\07-blood-touched.json",
+      "source_entity": "the-void.v1.5.domain_card.blood-touched",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "resource",
+      "corpus": "blood_hunter",
+      "source_path": "data\\playtest\\blood-hunter-v1.5\\domains\\blood\\cards\\07-vampiric-strike.json",
+      "source_entity": "the-void.v1.5.domain_card.vampiric-strike",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "spend_gain",
+      "corpus": "blood_hunter",
+      "source_path": "data\\playtest\\blood-hunter-v1.5\\domains\\blood\\cards\\07-vampiric-strike.json",
+      "source_entity": "the-void.v1.5.domain_card.vampiric-strike",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "result_table",
+      "corpus": "blood_hunter",
+      "source_path": "data\\playtest\\blood-hunter-v1.5\\domains\\blood\\cards\\07-vampiric-strike.json",
+      "source_entity": "the-void.v1.5.domain_card.vampiric-strike",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "linked_entity",
+      "corpus": "blood_hunter",
+      "source_path": "data\\playtest\\blood-hunter-v1.5\\domains\\blood\\cards\\07-vampiric-strike.json",
+      "source_entity": "the-void.v1.5.domain_card.vampiric-strike",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "triggered_rule",
+      "corpus": "blood_hunter",
+      "source_path": "data\\playtest\\blood-hunter-v1.5\\domains\\blood\\cards\\07-vampiric-strike.json",
+      "source_entity": "the-void.v1.5.domain_card.vampiric-strike",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "resource",
+      "corpus": "blood_hunter",
+      "source_path": "data\\playtest\\blood-hunter-v1.5\\domains\\blood\\cards\\08-life-leash.json",
+      "source_entity": "the-void.v1.5.domain_card.life-leash",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "spend_gain",
+      "corpus": "blood_hunter",
+      "source_path": "data\\playtest\\blood-hunter-v1.5\\domains\\blood\\cards\\08-life-leash.json",
+      "source_entity": "the-void.v1.5.domain_card.life-leash",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "rest_rule",
+      "corpus": "blood_hunter",
+      "source_path": "data\\playtest\\blood-hunter-v1.5\\domains\\blood\\cards\\08-life-leash.json",
+      "source_entity": "the-void.v1.5.domain_card.life-leash",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "resource",
+      "corpus": "blood_hunter",
+      "source_path": "data\\playtest\\blood-hunter-v1.5\\domains\\blood\\cards\\08-runic-adrenaline.json",
+      "source_entity": "the-void.v1.5.domain_card.runic-adrenaline",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "tag",
+      "corpus": "blood_hunter",
+      "source_path": "data\\playtest\\blood-hunter-v1.5\\domains\\blood\\cards\\08-runic-adrenaline.json",
+      "source_entity": "the-void.v1.5.domain_card.runic-adrenaline",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "spend_gain",
+      "corpus": "blood_hunter",
+      "source_path": "data\\playtest\\blood-hunter-v1.5\\domains\\blood\\cards\\08-runic-adrenaline.json",
+      "source_entity": "the-void.v1.5.domain_card.runic-adrenaline",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "die_or_dice_pool",
+      "corpus": "blood_hunter",
+      "source_path": "data\\playtest\\blood-hunter-v1.5\\domains\\blood\\cards\\08-runic-adrenaline.json",
+      "source_entity": "the-void.v1.5.domain_card.runic-adrenaline",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "result_table",
+      "corpus": "blood_hunter",
+      "source_path": "data\\playtest\\blood-hunter-v1.5\\domains\\blood\\cards\\08-runic-adrenaline.json",
+      "source_entity": "the-void.v1.5.domain_card.runic-adrenaline",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "triggered_rule",
+      "corpus": "blood_hunter",
+      "source_path": "data\\playtest\\blood-hunter-v1.5\\domains\\blood\\cards\\08-runic-adrenaline.json",
+      "source_entity": "the-void.v1.5.domain_card.runic-adrenaline",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "campaign_rule_modifier",
+      "corpus": "blood_hunter",
+      "source_path": "data\\playtest\\blood-hunter-v1.5\\domains\\blood\\cards\\08-runic-adrenaline.json",
+      "source_entity": "the-void.v1.5.domain_card.runic-adrenaline",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "resource",
+      "corpus": "blood_hunter",
+      "source_path": "data\\playtest\\blood-hunter-v1.5\\domains\\blood\\cards\\09-bloodbath.json",
+      "source_entity": "the-void.v1.5.domain_card.bloodbath",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "spend_gain",
+      "corpus": "blood_hunter",
+      "source_path": "data\\playtest\\blood-hunter-v1.5\\domains\\blood\\cards\\09-bloodbath.json",
+      "source_entity": "the-void.v1.5.domain_card.bloodbath",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "result_table",
+      "corpus": "blood_hunter",
+      "source_path": "data\\playtest\\blood-hunter-v1.5\\domains\\blood\\cards\\09-bloodbath.json",
+      "source_entity": "the-void.v1.5.domain_card.bloodbath",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "linked_entity",
+      "corpus": "blood_hunter",
+      "source_path": "data\\playtest\\blood-hunter-v1.5\\domains\\blood\\cards\\09-bloodbath.json",
+      "source_entity": "the-void.v1.5.domain_card.bloodbath",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "rest_rule",
+      "corpus": "blood_hunter",
+      "source_path": "data\\playtest\\blood-hunter-v1.5\\domains\\blood\\cards\\09-bloodbath.json",
+      "source_entity": "the-void.v1.5.domain_card.bloodbath",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "resource",
+      "corpus": "blood_hunter",
+      "source_path": "data\\playtest\\blood-hunter-v1.5\\domains\\blood\\cards\\09-glyph-of-hemorrhaging.json",
+      "source_entity": "the-void.v1.5.domain_card.glyph-of-hemorrhaging",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "spend_gain",
+      "corpus": "blood_hunter",
+      "source_path": "data\\playtest\\blood-hunter-v1.5\\domains\\blood\\cards\\09-glyph-of-hemorrhaging.json",
+      "source_entity": "the-void.v1.5.domain_card.glyph-of-hemorrhaging",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "result_table",
+      "corpus": "blood_hunter",
+      "source_path": "data\\playtest\\blood-hunter-v1.5\\domains\\blood\\cards\\09-glyph-of-hemorrhaging.json",
+      "source_entity": "the-void.v1.5.domain_card.glyph-of-hemorrhaging",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "threshold",
+      "corpus": "blood_hunter",
+      "source_path": "data\\playtest\\blood-hunter-v1.5\\domains\\blood\\cards\\09-glyph-of-hemorrhaging.json",
+      "source_entity": "the-void.v1.5.domain_card.glyph-of-hemorrhaging",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "triggered_rule",
+      "corpus": "blood_hunter",
+      "source_path": "data\\playtest\\blood-hunter-v1.5\\domains\\blood\\cards\\09-glyph-of-hemorrhaging.json",
+      "source_entity": "the-void.v1.5.domain_card.glyph-of-hemorrhaging",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "resource",
+      "corpus": "blood_hunter",
+      "source_path": "data\\playtest\\blood-hunter-v1.5\\domains\\blood\\cards\\10-crimson-adamance.json",
+      "source_entity": "the-void.v1.5.domain_card.crimson-adamance",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "spend_gain",
+      "corpus": "blood_hunter",
+      "source_path": "data\\playtest\\blood-hunter-v1.5\\domains\\blood\\cards\\10-crimson-adamance.json",
+      "source_entity": "the-void.v1.5.domain_card.crimson-adamance",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "triggered_rule",
+      "corpus": "blood_hunter",
+      "source_path": "data\\playtest\\blood-hunter-v1.5\\domains\\blood\\cards\\10-crimson-adamance.json",
+      "source_entity": "the-void.v1.5.domain_card.crimson-adamance",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "campaign_rule_modifier",
+      "corpus": "blood_hunter",
+      "source_path": "data\\playtest\\blood-hunter-v1.5\\domains\\blood\\cards\\10-crimson-adamance.json",
+      "source_entity": "the-void.v1.5.domain_card.crimson-adamance",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "resource",
+      "corpus": "blood_hunter",
+      "source_path": "data\\playtest\\blood-hunter-v1.5\\domains\\blood\\cards\\10-sanguine-feast.json",
+      "source_entity": "the-void.v1.5.domain_card.sanguine-feast",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "spend_gain",
+      "corpus": "blood_hunter",
+      "source_path": "data\\playtest\\blood-hunter-v1.5\\domains\\blood\\cards\\10-sanguine-feast.json",
+      "source_entity": "the-void.v1.5.domain_card.sanguine-feast",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "result_table",
+      "corpus": "blood_hunter",
+      "source_path": "data\\playtest\\blood-hunter-v1.5\\domains\\blood\\cards\\10-sanguine-feast.json",
+      "source_entity": "the-void.v1.5.domain_card.sanguine-feast",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "linked_entity",
+      "corpus": "blood_hunter",
+      "source_path": "data\\playtest\\blood-hunter-v1.5\\domains\\blood\\cards\\10-sanguine-feast.json",
+      "source_entity": "the-void.v1.5.domain_card.sanguine-feast",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "resource",
+      "corpus": "blood_hunter",
+      "source_path": "data\\playtest\\blood-hunter-v1.5\\subclasses\\order-of-the-ghost-slayer.json",
+      "source_entity": "the-void.v1.5.subclass.order-of-the-ghost-slayer",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "tag",
+      "corpus": "blood_hunter",
+      "source_path": "data\\playtest\\blood-hunter-v1.5\\subclasses\\order-of-the-ghost-slayer.json",
+      "source_entity": "the-void.v1.5.subclass.order-of-the-ghost-slayer",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "spend_gain",
+      "corpus": "blood_hunter",
+      "source_path": "data\\playtest\\blood-hunter-v1.5\\subclasses\\order-of-the-ghost-slayer.json",
+      "source_entity": "the-void.v1.5.subclass.order-of-the-ghost-slayer",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "die_or_dice_pool",
+      "corpus": "blood_hunter",
+      "source_path": "data\\playtest\\blood-hunter-v1.5\\subclasses\\order-of-the-ghost-slayer.json",
+      "source_entity": "the-void.v1.5.subclass.order-of-the-ghost-slayer",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "result_table",
+      "corpus": "blood_hunter",
+      "source_path": "data\\playtest\\blood-hunter-v1.5\\subclasses\\order-of-the-ghost-slayer.json",
+      "source_entity": "the-void.v1.5.subclass.order-of-the-ghost-slayer",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "rest_rule",
+      "corpus": "blood_hunter",
+      "source_path": "data\\playtest\\blood-hunter-v1.5\\subclasses\\order-of-the-ghost-slayer.json",
+      "source_entity": "the-void.v1.5.subclass.order-of-the-ghost-slayer",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "form_or_state_transition",
+      "corpus": "blood_hunter",
+      "source_path": "data\\playtest\\blood-hunter-v1.5\\subclasses\\order-of-the-ghost-slayer.json",
+      "source_entity": "the-void.v1.5.subclass.order-of-the-ghost-slayer",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "triggered_rule",
+      "corpus": "blood_hunter",
+      "source_path": "data\\playtest\\blood-hunter-v1.5\\subclasses\\order-of-the-ghost-slayer.json",
+      "source_entity": "the-void.v1.5.subclass.order-of-the-ghost-slayer",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "campaign_rule_modifier",
+      "corpus": "blood_hunter",
+      "source_path": "data\\playtest\\blood-hunter-v1.5\\subclasses\\order-of-the-ghost-slayer.json",
+      "source_entity": "the-void.v1.5.subclass.order-of-the-ghost-slayer",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "resource",
+      "corpus": "blood_hunter",
+      "source_path": "data\\playtest\\blood-hunter-v1.5\\subclasses\\order-of-the-lycan.json",
+      "source_entity": "the-void.v1.5.subclass.order-of-the-lycan",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "tag",
+      "corpus": "blood_hunter",
+      "source_path": "data\\playtest\\blood-hunter-v1.5\\subclasses\\order-of-the-lycan.json",
+      "source_entity": "the-void.v1.5.subclass.order-of-the-lycan",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "spend_gain",
+      "corpus": "blood_hunter",
+      "source_path": "data\\playtest\\blood-hunter-v1.5\\subclasses\\order-of-the-lycan.json",
+      "source_entity": "the-void.v1.5.subclass.order-of-the-lycan",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "die_or_dice_pool",
+      "corpus": "blood_hunter",
+      "source_path": "data\\playtest\\blood-hunter-v1.5\\subclasses\\order-of-the-lycan.json",
+      "source_entity": "the-void.v1.5.subclass.order-of-the-lycan",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "result_table",
+      "corpus": "blood_hunter",
+      "source_path": "data\\playtest\\blood-hunter-v1.5\\subclasses\\order-of-the-lycan.json",
+      "source_entity": "the-void.v1.5.subclass.order-of-the-lycan",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "rest_rule",
+      "corpus": "blood_hunter",
+      "source_path": "data\\playtest\\blood-hunter-v1.5\\subclasses\\order-of-the-lycan.json",
+      "source_entity": "the-void.v1.5.subclass.order-of-the-lycan",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "form_or_state_transition",
+      "corpus": "blood_hunter",
+      "source_path": "data\\playtest\\blood-hunter-v1.5\\subclasses\\order-of-the-lycan.json",
+      "source_entity": "the-void.v1.5.subclass.order-of-the-lycan",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "threshold",
+      "corpus": "blood_hunter",
+      "source_path": "data\\playtest\\blood-hunter-v1.5\\subclasses\\order-of-the-lycan.json",
+      "source_entity": "the-void.v1.5.subclass.order-of-the-lycan",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "triggered_rule",
+      "corpus": "blood_hunter",
+      "source_path": "data\\playtest\\blood-hunter-v1.5\\subclasses\\order-of-the-lycan.json",
+      "source_entity": "the-void.v1.5.subclass.order-of-the-lycan",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "campaign_rule_modifier",
+      "corpus": "blood_hunter",
+      "source_path": "data\\playtest\\blood-hunter-v1.5\\subclasses\\order-of-the-lycan.json",
+      "source_entity": "the-void.v1.5.subclass.order-of-the-lycan",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "resource",
+      "corpus": "blood_hunter",
+      "source_path": "data\\playtest\\blood-hunter-v1.5\\subclasses\\order-of-the-mutant.json",
+      "source_entity": "the-void.v1.5.subclass.order-of-the-mutant",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "tag",
+      "corpus": "blood_hunter",
+      "source_path": "data\\playtest\\blood-hunter-v1.5\\subclasses\\order-of-the-mutant.json",
+      "source_entity": "the-void.v1.5.subclass.order-of-the-mutant",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "spend_gain",
+      "corpus": "blood_hunter",
+      "source_path": "data\\playtest\\blood-hunter-v1.5\\subclasses\\order-of-the-mutant.json",
+      "source_entity": "the-void.v1.5.subclass.order-of-the-mutant",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "rest_rule",
+      "corpus": "blood_hunter",
+      "source_path": "data\\playtest\\blood-hunter-v1.5\\subclasses\\order-of-the-mutant.json",
+      "source_entity": "the-void.v1.5.subclass.order-of-the-mutant",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "triggered_rule",
+      "corpus": "blood_hunter",
+      "source_path": "data\\playtest\\blood-hunter-v1.5\\subclasses\\order-of-the-mutant.json",
+      "source_entity": "the-void.v1.5.subclass.order-of-the-mutant",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    },
+    {
+      "primitive_id": "campaign_rule_modifier",
+      "corpus": "blood_hunter",
+      "source_path": "data\\playtest\\blood-hunter-v1.5\\subclasses\\order-of-the-mutant.json",
+      "source_entity": "the-void.v1.5.subclass.order-of-the-mutant",
+      "evidence_kind": "keyword_structural_hit",
+      "evidence_ref": null
+    }
+  ]
+}

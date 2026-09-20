@@ -1,0 +1,33 @@
+{
+  "id": "the-void.2026-07-09.domain_card.palpitations",
+  "kind": "domain_card",
+  "identity": {
+    "name": "Palpitations",
+    "slug": "palpitations"
+  },
+  "source": {
+    "corpus": "the-void",
+    "product": "blood-hunter",
+    "version": "2026-07-09",
+    "status": "playtest"
+  },
+  "provenance": {
+    "source_file": "Blood_Hunter_Void_2026_07_09.pdf",
+    "page": 4
+  },
+  "availability": {
+    "in_srd": false,
+    "private_only": true,
+    "deprecated": false
+  },
+  "rules": {
+    "domain": "blood",
+    "level": 2,
+    "card_type": "spell",
+    "recall_cost": 2
+  },
+  "content": {
+    "rules_text": "When you or an ally makes an action roll to frighten or intimidate a creature within Close range, you can spend a Hope to give the roll advantage. On a success, the target marks a Stress. Additionally, once per long rest, you can spend a Hope to calm yourself or a willing creature within Close range, letting the target clear 2 Stress.",
+    "validation": "checked_against_pdf_2026-07-09"
+  }
+}

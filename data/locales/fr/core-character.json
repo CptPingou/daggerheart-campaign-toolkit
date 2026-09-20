@@ -1,0 +1,253 @@
+{
+  "locale": "fr",
+  "version": "P2.3.4c-lot1",
+  "scope": "core-character-identity",
+  "entries": {
+    "srd-2.0.ancestry.aetheris": {
+      "name": "Aetheris"
+    },
+    "srd-2.0.ancestry.clank": {
+      "name": "Clank"
+    },
+    "srd-2.0.ancestry.drakona": {
+      "name": "Drakona"
+    },
+    "srd-2.0.ancestry.dwarf": {
+      "name": "Nain"
+    },
+    "srd-2.0.ancestry.earthkin": {
+      "name": "Earthkin"
+    },
+    "srd-2.0.ancestry.elf": {
+      "name": "Elfe"
+    },
+    "srd-2.0.ancestry.emberkin": {
+      "name": "Emberkin"
+    },
+    "srd-2.0.ancestry.faerie": {
+      "name": "Fée"
+    },
+    "srd-2.0.ancestry.faun": {
+      "name": "Faune"
+    },
+    "srd-2.0.ancestry.firbolg": {
+      "name": "Firbolg"
+    },
+    "srd-2.0.ancestry.fungril": {
+      "name": "Fungril"
+    },
+    "srd-2.0.ancestry.galapa": {
+      "name": "Galapa"
+    },
+    "srd-2.0.ancestry.giant": {
+      "name": "Géant"
+    },
+    "srd-2.0.ancestry.gnome": {
+      "name": "Gnome"
+    },
+    "srd-2.0.ancestry.goblin": {
+      "name": "Gobelin"
+    },
+    "srd-2.0.ancestry.halfling": {
+      "name": "Halfelin"
+    },
+    "srd-2.0.ancestry.human": {
+      "name": "Humain"
+    },
+    "srd-2.0.ancestry.infernis": {
+      "name": "Infernis"
+    },
+    "srd-2.0.ancestry.katari": {
+      "name": "Katari"
+    },
+    "srd-2.0.ancestry.orc": {
+      "name": "Orc"
+    },
+    "srd-2.0.ancestry.ribbet": {
+      "name": "Ribbet"
+    },
+    "srd-2.0.ancestry.simiah": {
+      "name": "Simiah"
+    },
+    "srd-2.0.ancestry.skykin": {
+      "name": "Skykin"
+    },
+    "srd-2.0.ancestry.tidekin": {
+      "name": "Tidekin"
+    },
+    "srd-2.0.class.assassin": {
+      "name": "Assassin"
+    },
+    "srd-2.0.class.bard": {
+      "name": "Barde"
+    },
+    "srd-2.0.class.brawler": {
+      "name": "Bagarreur"
+    },
+    "srd-2.0.class.druid": {
+      "name": "Druide"
+    },
+    "srd-2.0.class.guardian": {
+      "name": "Gardien"
+    },
+    "srd-2.0.class.ranger": {
+      "name": "Rôdeur"
+    },
+    "srd-2.0.class.rogue": {
+      "name": "Roublard"
+    },
+    "srd-2.0.class.seraph": {
+      "name": "Séraphin"
+    },
+    "srd-2.0.class.sorcerer": {
+      "name": "Ensorceleur"
+    },
+    "srd-2.0.class.warlock": {
+      "name": "Occultiste"
+    },
+    "srd-2.0.class.warrior": {
+      "name": "Guerrier"
+    },
+    "srd-2.0.class.witch": {
+      "name": "Sorcière"
+    },
+    "srd-2.0.class.wizard": {
+      "name": "Magicien"
+    },
+    "srd-2.0.community.duneborne": {
+      "name": "Né des dunes"
+    },
+    "srd-2.0.community.freeborne": {
+      "name": "Né libre"
+    },
+    "srd-2.0.community.frostborne": {
+      "name": "Né du givre"
+    },
+    "srd-2.0.community.hearthborne": {
+      "name": "Né du foyer"
+    },
+    "srd-2.0.community.highborne": {
+      "name": "Né des hauteurs"
+    },
+    "srd-2.0.community.loreborne": {
+      "name": "Né du savoir"
+    },
+    "srd-2.0.community.orderborne": {
+      "name": "Né de l’ordre"
+    },
+    "srd-2.0.community.reborne": {
+      "name": "Renaissant"
+    },
+    "srd-2.0.community.ridgeborne": {
+      "name": "Né des crêtes"
+    },
+    "srd-2.0.community.seaborne": {
+      "name": "Né de la mer"
+    },
+    "srd-2.0.community.slyborne": {
+      "name": "Né de la ruse"
+    },
+    "srd-2.0.community.underborne": {
+      "name": "Né des profondeurs"
+    },
+    "srd-2.0.community.wanderborne": {
+      "name": "Né de l’errance"
+    },
+    "srd-2.0.community.warborne": {
+      "name": "Né de la guerre"
+    },
+    "srd-2.0.community.wildborne": {
+      "name": "Né des terres sauvages"
+    },
+    "srd-2.0.subclass.beastbound": {
+      "name": "Lié aux bêtes"
+    },
+    "srd-2.0.subclass.call-of-the-brave": {
+      "name": "Appel du brave"
+    },
+    "srd-2.0.subclass.call-of-the-slayer": {
+      "name": "Appel du pourfendeur"
+    },
+    "srd-2.0.subclass.divine-wielder": {
+      "name": "Porteur divin"
+    },
+    "srd-2.0.subclass.elemental-origin": {
+      "name": "Origine élémentaire"
+    },
+    "srd-2.0.subclass.executioners-guild": {
+      "name": "Guilde des exécuteurs"
+    },
+    "srd-2.0.subclass.hedge": {
+      "name": "Haie"
+    },
+    "srd-2.0.subclass.juggernaut": {
+      "name": "Juggernaut"
+    },
+    "srd-2.0.subclass.martial-artist": {
+      "name": "Artiste martial"
+    },
+    "srd-2.0.subclass.moon": {
+      "name": "Lune"
+    },
+    "srd-2.0.subclass.nightwalker": {
+      "name": "Marcheur nocturne"
+    },
+    "srd-2.0.subclass.pact-of-the-endless": {
+      "name": "Pacte de l’Infini"
+    },
+    "srd-2.0.subclass.pact-of-the-wrathful": {
+      "name": "Pacte du Courroucé"
+    },
+    "srd-2.0.subclass.poisoners-guild": {
+      "name": "Guilde des empoisonneurs"
+    },
+    "srd-2.0.subclass.primal-origin": {
+      "name": "Origine primordiale"
+    },
+    "srd-2.0.subclass.school-of-knowledge": {
+      "name": "École du savoir"
+    },
+    "srd-2.0.subclass.school-of-war": {
+      "name": "École de guerre"
+    },
+    "srd-2.0.subclass.stalwart": {
+      "name": "Inébranlable"
+    },
+    "srd-2.0.subclass.syndicate": {
+      "name": "Syndicat"
+    },
+    "srd-2.0.subclass.troubadour": {
+      "name": "Troubadour"
+    },
+    "srd-2.0.subclass.vengeance": {
+      "name": "Vengeance"
+    },
+    "srd-2.0.subclass.warden-of-renewal": {
+      "name": "Gardien du renouveau"
+    },
+    "srd-2.0.subclass.warden-of-the-elements": {
+      "name": "Gardien des éléments"
+    },
+    "srd-2.0.subclass.wayfinder": {
+      "name": "Éclaireur"
+    },
+    "srd-2.0.subclass.winged-sentinel": {
+      "name": "Sentinelle ailée"
+    },
+    "srd-2.0.subclass.wordsmith": {
+      "name": "Maître des mots"
+    },
+    "the-void.2026-07-09.class.blood-hunter": {
+      "name": "Chasseur de sang"
+    },
+    "the-void.2026-07-09.subclass.order-of-the-lycan": {
+      "name": "Ordre du Lycan"
+    },
+    "the-void.2026-07-09.subclass.order-of-the-mutant": {
+      "name": "Ordre du Mutant"
+    },
+    "the-void.2026-07-09.subclass.order-of-the-specter": {
+      "name": "Ordre du Spectre"
+    }
+  }
+}

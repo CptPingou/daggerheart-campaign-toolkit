@@ -1,0 +1,33 @@
+{
+  "id": "the-void.v1.5.domain_card.crimson-adamance",
+  "kind": "domain_card",
+  "identity": {
+    "name": "Crimson Adamance",
+    "slug": "crimson-adamance"
+  },
+  "source": {
+    "corpus": "the-void",
+    "product": "blood-hunter",
+    "version": "1.5",
+    "status": "playtest"
+  },
+  "provenance": {
+    "source_file": "Bloodhunter-v1.5-The-Void.pdf",
+    "page": 6
+  },
+  "availability": {
+    "in_srd": false,
+    "private_only": true,
+    "deprecated": false
+  },
+  "rules": {
+    "domain": "blood",
+    "level": 10,
+    "card_type": "ability",
+    "recall_cost": 1
+  },
+  "content": {
+    "rules_text": "When you would mark your last Hit Point, spend a Hope to mark a Stress instead.",
+    "validation": "checked_against_pdf_v1.5"
+  }
+}

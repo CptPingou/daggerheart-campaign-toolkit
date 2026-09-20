@@ -1,0 +1,92 @@
+{
+  "id": "srd-2.0.supplemental-campaign-mechanic.colossal-adversaries",
+  "kind": "supplemental_campaign_mechanic",
+  "identity": {
+    "name": "Colossal Adversaries",
+    "slug": "colossal-adversaries"
+  },
+  "source": {
+    "corpus": "daggerheart-srd",
+    "version": "2.0",
+    "status": "srd"
+  },
+  "provenance": {
+    "start_printed_page": 198,
+    "end_printed_page": 198
+  },
+  "rules_text": "“Colossus” is a special adversary type that uses multiple \nadversary stat blocks called segments to represent the body \nparts of an extremely large creature. Information and features \nthat apply to the colossus in its entirety are contained in a \nseparate stat block called the framework:\n• Name\n• Tier\n• Description\n• Motives & T actics\n• Size\n• Segments\n• Damage Thresholds\n• Stress\n• Experiences\n• Features that apply to all segments\nEach segment of a colossus has its own stat block, which lists \nthe following:\n• Name of segment\n• Adjacent segments\n• Difficulty\n• HP\n• Standard attack\n• Features\nSome segments can be Broken. A Broken segment can’t use \nactions or reactions until the condition is cleared. When a \nsegment marks its last Hit Point, it’s considered Destroyed. \nA Destroyed segment can’t use any of its features. A colossus \nis defeated when all its segments are Destroyed, however a \ncolossus’s stat block often details alternative ways to defeat it. \nBy default, a Destroyed segment is not gone or detached, it’s \nsimply non-working.\nFor example Colossus adversaries and Colossus features, see \nthe “Colossus of the Drylands” campaign frame.\nSEGMENT VS. COLOSSUS \nEFFECTS\nWhen a feature refers to a segment’s name, such as “the \nHead,” it refers only to that specific part of the colossus. For \nexample, the Head might be immune to physical attacks or \nmore difficult to climb. When a feature refers to the colossus’s \nname, it applies to the adversary as a whole. For example, \na reaction feature might trigger an attack after the colossus \nmarks 2 or more Hit Points from a single attack. This would \nmean that when any segment marks 2 or more Hit Points from \na single attack, the reaction is triggered.\nADJACENT SEGMENTS\nA colossus’s stat blocks should indicate which segments are \nadjacent to one another. By default,  a PC can move from one \nsegment to another only if those segments are adjacent (see \nthe upcoming “Moving PCs Around a Colossus” section).\nRUNNING COLOSSUS FIGHTS\nBattles against colossi have unique rules.\nSCALE\nUnlike normal range in Daggerheart, we use a standard form \nof measurement when talking about a colossus’s scale. (In \nour case, we use feet—but you should use whatever you find \neasiest.) Normal range bands still apply when taking actions \nand are at GM discretion as usual, but expressing the height or \nwidth of a creature through recognizable sizes helps the table \nto understand the scale of the colossus they’re facing.\nMOVING PCS AROUND A COLOSSUS\nDuring an encounter with a colossus, use the following \nmovement mechanics:\n• A PC can climb onto a colossus segment unless its stat \nblock indicates otherwise.\n• Once on a segment, a PC can usually move around and \nwithin it without making additional rolls.\n• T o move to an adjacent segment, a PC must make an \nappropriate action roll (usually Agility or Strength) to leap \nonto it.\nTEAMWORK\nWhile fighting a colossus, a PC can initiate any number of T ag \nT eam Rolls in a single session.\nUSING A COLOSSUS IN BATTLE\nTreat each segment of a colossus as a separate adversary \nwhen moving the spotlight. You can spotlight a segment \nas a GM move, then spend a Fear to spotlight an additional \nsegment as you would during a fight with regular adversaries. \nSome colossi also have actions in their colossus framework; \nyou can spotlight the framework to use this action as you \nwould spotlight a segment, but you should highlight the \ncolossus as a whole in the narrative. You can still spotlight \nadditional segments on your turn.\nWhile a PC is on a segment of the colossus:\n• They have advantage on attacks targeting that segment.\n• The segment’s standard attack cannot be used on that PC.\nAny features that would pull or push normal adversaries can’t \nmove a colossus; instead, the feature pulls or pushes the PC \nmaking the attack. For example, using a grappler against a \ncolossus can’t pull it toward you, but instead pulls you toward \nthem. \n198\nDaggerheart SRD",
+  "raw_heading": "COLOSSAL ADVERSARIES",
+  "mechanics": {
+    "mechanic_type": "colossal_adversary",
+    "subsections": [
+      {
+        "name": "Introduction",
+        "rules_text": "“Colossus” is a special adversary type that uses multiple\nadversary stat blocks called segments to represent the body\nparts of an extremely large creature. Information and features\nthat apply to the colossus in its entirety are contained in a\nseparate stat block called the framework:\n• Name\n• Tier\n• Description\n• Motives & T actics\n• Size\n• Segments\n• Damage Thresholds\n• Stress\n• Experiences\n• Features that apply to all segments\nEach segment of a colossus has its own stat block, which lists\nthe following:\n• Name of segment\n• Adjacent segments\n• Difficulty\n• HP\n• Standard attack\n• Features\nSome segments can be Broken. A Broken segment can’t use\nactions or reactions until the condition is cleared. When a\nsegment marks its last Hit Point, it’s considered Destroyed.\nA Destroyed segment can’t use any of its features. A colossus\nis defeated when all its segments are Destroyed, however a\ncolossus’s stat block often details alternative ways to defeat it.\nBy default, a Destroyed segment is not gone or detached, it’s\nsimply non-working.\nFor example Colossus adversaries and Colossus features, see\nthe “Colossus of the Drylands” campaign frame.",
+        "id": "introduction"
+      },
+      {
+        "name": "Effects",
+        "raw_heading": "EFFECTS",
+        "rules_text": "When a feature refers to a segment’s name, such as “the\nHead,” it refers only to that specific part of the colossus. For\nexample, the Head might be immune to physical attacks or\nmore difficult to climb. When a feature refers to the colossus’s\nname, it applies to the adversary as a whole. For example,\na reaction feature might trigger an attack after the colossus\nmarks 2 or more Hit Points from a single attack. This would\nmean that when any segment marks 2 or more Hit Points from\na single attack, the reaction is triggered.",
+        "id": "effects"
+      },
+      {
+        "name": "Adjacent Segments",
+        "raw_heading": "ADJACENT SEGMENTS",
+        "rules_text": "A colossus’s stat blocks should indicate which segments are\nadjacent to one another. By default, a PC can move from one\nsegment to another only if those segments are adjacent (see\nthe upcoming “Moving PCs Around a Colossus” section).",
+        "id": "adjacent-segments"
+      },
+      {
+        "name": "Running Colossus Fights",
+        "raw_heading": "RUNNING COLOSSUS FIGHTS",
+        "rules_text": "Battles against colossi have unique rules.",
+        "id": "running-colossus-fights"
+      },
+      {
+        "name": "Scale",
+        "raw_heading": "SCALE",
+        "rules_text": "Unlike normal range in Daggerheart, we use a standard form\nof measurement when talking about a colossus’s scale. (In\nour case, we use feet—but you should use whatever you find\neasiest.) Normal range bands still apply when taking actions\nand are at GM discretion as usual, but expressing the height or\nwidth of a creature through recognizable sizes helps the table\nto understand the scale of the colossus they’re facing.",
+        "id": "scale"
+      },
+      {
+        "name": "Moving Pcs Around A Colossus",
+        "raw_heading": "MOVING PCS AROUND A COLOSSUS",
+        "rules_text": "During an encounter with a colossus, use the following\nmovement mechanics:\n• A PC can climb onto a colossus segment unless its stat\nblock indicates otherwise.\n• Once on a segment, a PC can usually move around and\nwithin it without making additional rolls.\n• T o move to an adjacent segment, a PC must make an\nappropriate action roll (usually Agility or Strength) to leap\nonto it.",
+        "id": "moving-pcs-around-a-colossus"
+      },
+      {
+        "name": "Teamwork",
+        "raw_heading": "TEAMWORK",
+        "rules_text": "While fighting a colossus, a PC can initiate any number of T ag\nT eam Rolls in a single session.",
+        "id": "teamwork"
+      },
+      {
+        "name": "Using A Colossus In Battle",
+        "raw_heading": "USING A COLOSSUS IN BATTLE",
+        "rules_text": "Treat each segment of a colossus as a separate adversary\nwhen moving the spotlight. You can spotlight a segment\nas a GM move, then spend a Fear to spotlight an additional\nsegment as you would during a fight with regular adversaries.\nSome colossi also have actions in their colossus framework;\nyou can spotlight the framework to use this action as you\nwould spotlight a segment, but you should highlight the\ncolossus as a whole in the narrative. You can still spotlight\nadditional segments on your turn.\nWhile a PC is on a segment of the colossus:\n• They have advantage on attacks targeting that segment.\n• The segment’s standard attack cannot be used on that PC.\nAny features that would pull or push normal adversaries can’t\nmove a colossus; instead, the feature pulls or pushes the PC\nmaking the attack. For example, using a grappler against a\ncolossus can’t pull it toward you, but instead pulls you toward\nthem.\n198\nDaggerheart SRD",
+        "id": "using-a-colossus-in-battle"
+      }
+    ],
+    "uses_framework_stat_block": false,
+    "uses_segment_stat_blocks": true,
+    "segment_states": {
+      "broken": {
+        "present": true,
+        "blocks_actions_reactions": false
+      },
+      "destroyed": {
+        "present": true,
+        "trigger": "last_hp",
+        "blocks_features": false
+      }
+    },
+    "default_defeat_condition": "all_segments_destroyed",
+    "alternate_defeat_condition_possible": false,
+    "normalization_level": "mechanical"
+  },
+  "normalization": {
+    "phase": "P1.1f-b1-fix1",
+    "status": "normalized",
+    "source_field": "rules_text"
+  }
+}

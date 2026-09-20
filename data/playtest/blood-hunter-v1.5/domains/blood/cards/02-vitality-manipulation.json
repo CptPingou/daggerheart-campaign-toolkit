@@ -1,0 +1,33 @@
+{
+  "id": "the-void.v1.5.domain_card.vitality-manipulation",
+  "kind": "domain_card",
+  "identity": {
+    "name": "Vitality Manipulation",
+    "slug": "vitality-manipulation"
+  },
+  "source": {
+    "corpus": "the-void",
+    "product": "blood-hunter",
+    "version": "1.5",
+    "status": "playtest"
+  },
+  "provenance": {
+    "source_file": "Bloodhunter-v1.5-The-Void.pdf",
+    "page": 4
+  },
+  "availability": {
+    "in_srd": false,
+    "private_only": true,
+    "deprecated": false
+  },
+  "rules": {
+    "domain": "blood",
+    "level": 2,
+    "card_type": "spell",
+    "recall_cost": 0
+  },
+  "content": {
+    "rules_text": "Make a Spellcast Roll against a target within Very Close range. If you cast this on an ally, make the roll with advantage. On a success, mark a Stress, and choose one of the following effects: the target grows calmer and clears a Stress (2 Stress on a success with Hope); or the target grows more anxious and marks a Stress (2 Stress on a success with Hope).",
+    "validation": "checked_against_pdf_v1.5"
+  }
+}

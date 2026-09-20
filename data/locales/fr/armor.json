@@ -1,0 +1,214 @@
+{
+  "locale": "fr",
+  "version": "P2.3.4d-lot2",
+  "scope": "armor-identity-and-features",
+  "entries": {
+    "srd-2.0.armor.mage-robes": {
+      "name": "Robes de mage"
+    },
+    "srd-2.0.armor.gambeson-armor": {
+      "name": "Gambison"
+    },
+    "srd-2.0.armor.brigandine-armor": {
+      "name": "Brigandine"
+    },
+    "srd-2.0.armor.leather-armor": {
+      "name": "Armure de cuir"
+    },
+    "srd-2.0.armor.scale-mail-armor": {
+      "name": "Armure d’écailles"
+    },
+    "srd-2.0.armor.chainmail-armor": {
+      "name": "Cotte de mailles"
+    },
+    "srd-2.0.armor.banded-armor": {
+      "name": "Armure à bandes"
+    },
+    "srd-2.0.armor.full-plate-armor": {
+      "name": "Armure de plates complète"
+    },
+    "srd-2.0.armor.improved-mage-robes": {
+      "name": "Amélioré : Robes de mage"
+    },
+    "srd-2.0.armor.improved-gambeson-armor": {
+      "name": "Amélioré : Gambison"
+    },
+    "srd-2.0.armor.improved-brigandine-armor": {
+      "name": "Amélioré : Brigandine"
+    },
+    "srd-2.0.armor.improved-leather-armor": {
+      "name": "Amélioré : Armure de cuir"
+    },
+    "srd-2.0.armor.improved-scale-mail-armor": {
+      "name": "Amélioré : Armure d’écailles"
+    },
+    "srd-2.0.armor.improved-chainmail-armor": {
+      "name": "Amélioré : Cotte de mailles"
+    },
+    "srd-2.0.armor.improved-banded-armor": {
+      "name": "Amélioré : Armure à bandes"
+    },
+    "srd-2.0.armor.improved-full-plate-armor": {
+      "name": "Amélioré : Armure de plates complète"
+    },
+    "srd-2.0.armor.enchanters-robes": {
+      "name": "Robes d’enchanteur"
+    },
+    "srd-2.0.armor.hawkguards-mantle": {
+      "name": "Manteau du Garde-faucon"
+    },
+    "srd-2.0.armor.spidersilk-tunic": {
+      "name": "Tunique en soie d’araignée"
+    },
+    "srd-2.0.armor.stormthread-habit": {
+      "name": "Habit en fil d’orage"
+    },
+    "srd-2.0.armor.elundrian-chain-armor": {
+      "name": "Cotte de mailles elundrienne"
+    },
+    "srd-2.0.armor.harrowbone-armor": {
+      "name": "Armure d’os de Harrow"
+    },
+    "srd-2.0.armor.irontree-breastplate-armor": {
+      "name": "Cuirasse d’Arbrefer"
+    },
+    "srd-2.0.armor.runetan-floating-armor": {
+      "name": "Armure flottante runetane"
+    },
+    "srd-2.0.armor.tyris-soft-armor": {
+      "name": "Armure souple de Tyris"
+    },
+    "srd-2.0.armor.wyrdwood-splint-armor": {
+      "name": "Armure à attelles de Wyrdwood"
+    },
+    "srd-2.0.armor.rosewild-armor": {
+      "name": "Armure de Rosewild"
+    },
+    "srd-2.0.armor.trollhide-cuirass": {
+      "name": "Cuirasse en peau de troll"
+    },
+    "srd-2.0.armor.gilded-sunplate": {
+      "name": "Plate solaire dorée"
+    },
+    "srd-2.0.armor.advanced-mage-robes": {
+      "name": "Avancé : Robes de mage"
+    },
+    "srd-2.0.armor.advanced-gambeson-armor": {
+      "name": "Avancé : Gambison"
+    },
+    "srd-2.0.armor.advanced-brigandine-armor": {
+      "name": "Avancé : Brigandine"
+    },
+    "srd-2.0.armor.advanced-leather-armor": {
+      "name": "Avancé : Armure de cuir"
+    },
+    "srd-2.0.armor.advanced-scale-mail-armor": {
+      "name": "Avancé : Armure d’écailles"
+    },
+    "srd-2.0.armor.advanced-chainmail-armor": {
+      "name": "Avancé : Cotte de mailles"
+    },
+    "srd-2.0.armor.advanced-banded-armor": {
+      "name": "Avancé : Armure à bandes"
+    },
+    "srd-2.0.armor.advanced-full-plate-armor": {
+      "name": "Avancé : Armure de plates complète"
+    },
+    "srd-2.0.armor.granminsters-finery": {
+      "name": "Atours de Granminster"
+    },
+    "srd-2.0.armor.spiked-plate-armor": {
+      "name": "Armure de plates hérissée"
+    },
+    "srd-2.0.armor.astral-raiment": {
+      "name": "Parure astrale"
+    },
+    "srd-2.0.armor.bellamoi-fine-armor": {
+      "name": "Armure raffinée de Bellamoi"
+    },
+    "srd-2.0.armor.cloverweave-cloak": {
+      "name": "Cape en tissage de trèfle"
+    },
+    "srd-2.0.armor.dragonscale-armor": {
+      "name": "Armure d’écailles de dragon"
+    },
+    "srd-2.0.armor.skywardens-lamellar": {
+      "name": "Lamellaire du Garde-ciel"
+    },
+    "srd-2.0.armor.bloodstone-plate-armor": {
+      "name": "Armure de plates en pierre de sang"
+    },
+    "srd-2.0.armor.deep-forged-coral-armor": {
+      "name": "Armure de corail forgée des profondeurs"
+    },
+    "srd-2.0.armor.bladefare-armor": {
+      "name": "Armure Bladefare"
+    },
+    "srd-2.0.armor.monetts-cloak": {
+      "name": "Cape de Monett"
+    },
+    "srd-2.0.armor.runes-of-fortification": {
+      "name": "Runes de fortification"
+    },
+    "srd-2.0.armor.legendary-mage-robes": {
+      "name": "Légendaire : Robes de mage"
+    },
+    "srd-2.0.armor.legendary-gambeson-armor": {
+      "name": "Légendaire : Gambison"
+    },
+    "srd-2.0.armor.legendary-brigandine-armor": {
+      "name": "Légendaire : Brigandine"
+    },
+    "srd-2.0.armor.legendary-leather-armor": {
+      "name": "Légendaire : Armure de cuir"
+    },
+    "srd-2.0.armor.legendary-scale-mail-armor": {
+      "name": "Légendaire : Armure d’écailles"
+    },
+    "srd-2.0.armor.legendary-chainmail-armor": {
+      "name": "Légendaire : Cotte de mailles"
+    },
+    "srd-2.0.armor.legendary-banded-armor": {
+      "name": "Légendaire : Armure à bandes"
+    },
+    "srd-2.0.armor.legendary-full-plate-armor": {
+      "name": "Légendaire : Armure de plates complète"
+    },
+    "srd-2.0.armor.full-fortified-armor": {
+      "name": "Armure fortifiée complète"
+    },
+    "srd-2.0.armor.channeling-armor": {
+      "name": "Armure de canalisation"
+    },
+    "srd-2.0.armor.darkweave-shroud": {
+      "name": "Linceul en tissage sombre"
+    },
+    "srd-2.0.armor.emberwoven-armor": {
+      "name": "Armure tissée de braises"
+    },
+    "srd-2.0.armor.godbound-laminar": {
+      "name": "Laminaire liée aux dieux"
+    },
+    "srd-2.0.armor.veritas-opal-armor": {
+      "name": "Armure d’opale Veritas"
+    },
+    "srd-2.0.armor.circle-forged-dreadplate": {
+      "name": "Dreadplate forgée du Cercle"
+    },
+    "srd-2.0.armor.rune-forged-exosuit": {
+      "name": "Exosquelette forgé de runes"
+    },
+    "srd-2.0.armor.dunamis-silkchain": {
+      "name": "Cotte de soie Dunamis"
+    },
+    "srd-2.0.armor.hallowed-heroplate": {
+      "name": "Plate héroïque consacrée"
+    },
+    "srd-2.0.armor.resonant-harness": {
+      "name": "Harnais résonant"
+    },
+    "srd-2.0.armor.savior-chainmail": {
+      "name": "Cotte de mailles du Sauveur"
+    }
+  }
+}

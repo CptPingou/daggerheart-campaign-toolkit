@@ -1,0 +1,33 @@
+{
+  "id": "the-void.v1.5.domain_card.sanguine-feast",
+  "kind": "domain_card",
+  "identity": {
+    "name": "Sanguine Feast",
+    "slug": "sanguine-feast"
+  },
+  "source": {
+    "corpus": "the-void",
+    "product": "blood-hunter",
+    "version": "1.5",
+    "status": "playtest"
+  },
+  "provenance": {
+    "source_file": "Bloodhunter-v1.5-The-Void.pdf",
+    "page": 6
+  },
+  "availability": {
+    "in_srd": false,
+    "private_only": true,
+    "deprecated": false
+  },
+  "rules": {
+    "domain": "blood",
+    "level": 10,
+    "card_type": "spell",
+    "recall_cost": 2
+  },
+  "content": {
+    "rules_text": "Make a Spellcast Roll against an adversary within Close range. On a success, spend 2 Hope to mark 1–3 Hit Points, and the target marks twice the number of Hit Points you marked. If this causes the target to mark their last Hit Point, you can clear the Hit Points you marked to cast this spell.",
+    "validation": "checked_against_pdf_v1.5"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "phase": "P2.1.2",
+  "validation": "GREEN",
+  "installed_environment_audited": true,
+  "new_required_modules": [],
+  "merge_into_new_module": [
+    "Daggerheart - Homebrew",
+    "Daggerheart — Blood Hunter v1.5"
+  ],
+  "reuse_if_needed": [
+    "Daggerheart: Colossus",
+    "Daggerheart: Resource Macros",
+    "Monk's Active Tile Triggers",
+    "Sequencer"
+  ],
+  "next_phase": "P2.2 — squelette du module unique"
+}

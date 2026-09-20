@@ -1,0 +1,30 @@
+{
+  "source": {
+    "corpus": "hope-fear",
+    "product": "Daggerheart: Hope & Fear",
+    "status": "published_private",
+    "source_file": "Daggerheart_HF.pdf"
+  },
+  "assets": [
+    {
+      "id": "hope-fear.appendix.additional-sheets",
+      "kind": "play_aid_collection",
+      "printed_pages": {
+        "start": 182,
+        "end": 186
+      },
+      "status": "private_reference_asset",
+      "primitive_candidate": "play_aid"
+    },
+    {
+      "id": "hope-fear.appendix.campaign-frame-maps",
+      "kind": "map_handout_collection",
+      "printed_pages": {
+        "start": 187,
+        "end": 191
+      },
+      "status": "private_reference_asset",
+      "primitive_candidate": "map_or_handout"
+    }
+  ]
+}

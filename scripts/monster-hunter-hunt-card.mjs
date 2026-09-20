@@ -1,17 +1,42 @@
 /**
- * Monster Hunter — Hunt domain-card mechanic schema.
+ * Monster Hunter — Hunt card mechanic schema.
  *
- * Engagement behaviour belongs to Hunt domain cards, not weapons.
- * Weapons remain material profiles (damage/range/traits/augments).
+ * The Hunt Core owns the universal grammar/rules for Opener, Finisher and Support.
+ * Individual Hunt cards only declare their variation/effects.
  */
 
 export const HUNT_CARD_ROLES = Object.freeze(["opener", "finisher", "support"]);
 
+export const HUNT_ROLE_RULES = Object.freeze({
+  opener: Object.freeze({
+    hopeCost: 2,
+    opportunity: Object.freeze({
+      critical: 3,
+      successHope: 2,
+      successFear: 2,
+      failureHope: 2,
+      failureFear: 1,
+    }),
+  }),
+  finisher: Object.freeze({
+    hopeCost: 1,
+    maxOpportunity: 4,
+    clearOpportunityAfterAttempt: true,
+    damageDicePerOpportunity: 1,
+    effectCosts: Object.freeze({ standard: 2, rare: 3 }),
+    criticalCombinesDamageAndEffect: true,
+  }),
+  support: Object.freeze({
+    hopeCost: 1,
+  }),
+});
+
 export const HUNT_CARD_MECHANIC_SCHEMA = Object.freeze({
   id: "monster-hunter/hunt-card",
-  version: 1,
+  version: 2,
   maxLoadoutCards: 2,
   roles: HUNT_CARD_ROLES,
+  roleRules: HUNT_ROLE_RULES,
   opportunity: Object.freeze({
     spendModes: Object.freeze(["damage", "effect"]),
     standardEffectCost: 2,
@@ -19,15 +44,37 @@ export const HUNT_CARD_MECHANIC_SCHEMA = Object.freeze({
   }),
 });
 
+export function huntRoleRule(role) {
+  if (!HUNT_CARD_ROLES.includes(role)) {
+    throw new Error(`Unknown Hunt card role: ${role}`);
+  }
+  return HUNT_ROLE_RULES[role];
+}
+
+export function huntCardEffectsFromDocument(document) {
+  const mechanic = document?.flags?.["daggerheart-campaign-toolkit"]?.huntCardMechanic;
+  if (!mechanic) return Object.freeze({});
+
+  // supportEffect is accepted as a compatibility alias for cards created before
+  // schema v2. New cards should use mechanic.effects.<slot>.
+  const effects = clonePlain(mechanic.effects ?? {});
+  if (mechanic.supportEffect && !effects.support) {
+    effects.support = clonePlain(mechanic.supportEffect);
+  }
+  return Object.freeze(effects);
+}
+
 export function defineHuntCardMechanic(definition = {}) {
   const {
     id,
     role,
     name = id,
-    hopeCost = 0,
+    hopeCost = HUNT_ROLE_RULES[role]?.hopeCost ?? 0,
     opportunity = {},
     conditions = [],
     tags = [],
+    effects = {},
+    supportEffect = null,
   } = definition;
 
   if (!id || typeof id !== "string") throw new Error("Hunt card mechanic requires an id.");
@@ -40,6 +87,14 @@ export function defineHuntCardMechanic(definition = {}) {
   if (!Array.isArray(conditions) || !Array.isArray(tags)) {
     throw new Error("conditions and tags must be arrays.");
   }
+  if (!effects || typeof effects !== "object" || Array.isArray(effects)) {
+    throw new Error("effects must be an object.");
+  }
+
+  const normalizedEffects = clonePlain(effects);
+  if (supportEffect && !normalizedEffects.support) {
+    normalizedEffects.support = clonePlain(supportEffect);
+  }
 
   const mechanic = {
     id,
@@ -49,6 +104,7 @@ export function defineHuntCardMechanic(definition = {}) {
     opportunity: normalizeOpportunity(opportunity),
     conditions: [...conditions],
     tags: [...tags],
+    effects: Object.freeze(normalizedEffects),
   };
 
   return Object.freeze(mechanic);
@@ -82,7 +138,6 @@ export function huntCardMechanicStatus() {
   const opener = defineHuntCardMechanic({
     id: "specimen-opener",
     role: "opener",
-    hopeCost: 2,
     opportunity: { generate: 2 },
   });
   const finisher = defineHuntCardMechanic({
@@ -97,12 +152,21 @@ export function huntCardMechanicStatus() {
     role: "support",
   }]);
 
+  const universalCostsGreen =
+    opener.hopeCost === HUNT_ROLE_RULES.opener.hopeCost &&
+    finisher.hopeCost === HUNT_ROLE_RULES.finisher.hopeCost;
+
   return {
     mechanic: HUNT_CARD_MECHANIC_SCHEMA.id,
     version: HUNT_CARD_MECHANIC_SCHEMA.version,
     schema: HUNT_CARD_MECHANIC_SCHEMA,
+    roleRules: HUNT_ROLE_RULES,
     specimens: { opener, finisher },
-    green: valid.green && !overflow.green && overflow.reasons.includes("max-loadout"),
+    green:
+      valid.green &&
+      !overflow.green &&
+      overflow.reasons.includes("max-loadout") &&
+      universalCostsGreen,
   };
 }
 
@@ -122,8 +186,13 @@ function normalizeOpportunity(value) {
     generate,
     spend: Object.freeze([...spend]),
     effectCosts: Object.freeze({
-      standard: effectCosts.standard ?? 2,
-      rare: effectCosts.rare ?? 3,
+      standard: effectCosts.standard ?? HUNT_ROLE_RULES.finisher.effectCosts.standard,
+      rare: effectCosts.rare ?? HUNT_ROLE_RULES.finisher.effectCosts.rare,
     }),
   });
+}
+
+function clonePlain(value) {
+  if (value == null) return value;
+  return JSON.parse(JSON.stringify(value));
 }

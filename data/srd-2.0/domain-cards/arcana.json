@@ -1,0 +1,611 @@
+[
+  {
+    "id": "srd-2.0.domain-card.arcana.rune-ward",
+    "kind": "domain_card",
+    "identity": {
+      "name": "Rune Ward",
+      "slug": "rune-ward"
+    },
+    "source": {
+      "corpus": "daggerheart-srd",
+      "product": "srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    },
+    "rules": {
+      "domain": "arcana",
+      "level": 1,
+      "card_type": "spell",
+      "recall_cost": 0
+    },
+    "content": {
+      "rules_text": "You have a deeply personal trinket that can be infused with \nprotective magic and held as a ward by you or an ally. Describe \nwhat it is and why it’s important to you. The ward’s holder can \nspend a Hope to reduce incoming damage by 1d8. \nIf the Ward Die result is 8, the ward’s power ends after it \nreduces damage this turn. It can be recharged for free  \non your next rest.",
+      "notes": null
+    }
+  },
+  {
+    "id": "srd-2.0.domain-card.arcana.unleash-chaos",
+    "kind": "domain_card",
+    "identity": {
+      "name": "Unleash Chaos",
+      "slug": "unleash-chaos"
+    },
+    "source": {
+      "corpus": "daggerheart-srd",
+      "product": "srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    },
+    "rules": {
+      "domain": "arcana",
+      "level": 1,
+      "card_type": "spell",
+      "recall_cost": 1
+    },
+    "content": {
+      "rules_text": "At the beginning of a session, place a number of tokens equal \nto your Spellcast trait on this card. \nMake a Spellcast Roll against a target within Far range and \nspend any number of tokens to channel raw energy from within \nyourself to unleash against them. On a success, roll a number \nof d10s equal to the tokens you spent and deal that much \nmagic damage to the target. Mark a Stress to replenish this \ncard with tokens (up to your Spellcast trait). \nAt the end of each session, clear all unspent tokens.",
+      "notes": null
+    }
+  },
+  {
+    "id": "srd-2.0.domain-card.arcana.wall-walk",
+    "kind": "domain_card",
+    "identity": {
+      "name": "Wall Walk",
+      "slug": "wall-walk"
+    },
+    "source": {
+      "corpus": "daggerheart-srd",
+      "product": "srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    },
+    "rules": {
+      "domain": "arcana",
+      "level": 1,
+      "card_type": "spell",
+      "recall_cost": 1
+    },
+    "content": {
+      "rules_text": "Spend a Hope to allow a creature you can touch to climb on \nwalls and ceilings as easily as walking on the ground. This lasts \nuntil the end of the scene or you cast Wall Walk again",
+      "notes": null
+    }
+  },
+  {
+    "id": "srd-2.0.domain-card.arcana.cinder-grasp",
+    "kind": "domain_card",
+    "identity": {
+      "name": "Cinder Grasp",
+      "slug": "cinder-grasp"
+    },
+    "source": {
+      "corpus": "daggerheart-srd",
+      "product": "srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    },
+    "rules": {
+      "domain": "arcana",
+      "level": 2,
+      "card_type": "spell",
+      "recall_cost": 1
+    },
+    "content": {
+      "rules_text": "Make a Spellcast Roll against a target within Melee range. \nOn a success, the target instantly bursts into flames, takes \n1d20+3 magic damage, and is temporarily lit On Fire. \nWhen a creature acts while On Fire, they must take an extra \n2d6 magic damage if they are still On Fire at the end of their \naction.",
+      "notes": null
+    }
+  },
+  {
+    "id": "srd-2.0.domain-card.arcana.floating-eye",
+    "kind": "domain_card",
+    "identity": {
+      "name": "Floating Eye",
+      "slug": "floating-eye"
+    },
+    "source": {
+      "corpus": "daggerheart-srd",
+      "product": "srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    },
+    "rules": {
+      "domain": "arcana",
+      "level": 2,
+      "card_type": "spell",
+      "recall_cost": 0
+    },
+    "content": {
+      "rules_text": "Spend a Hope to create a single, small floating orb that you \ncan move anywhere within Very Far range. While this spell is \nactive, you can see through the orb as though you’re looking \nout from its position. You can transition between using your \nown senses and seeing through the orb freely. If the orb takes \ndamage or moves out of range, the spell ends.",
+      "notes": null
+    }
+  },
+  {
+    "id": "srd-2.0.domain-card.arcana.counterspell",
+    "kind": "domain_card",
+    "identity": {
+      "name": "Counterspell",
+      "slug": "counterspell"
+    },
+    "source": {
+      "corpus": "daggerheart-srd",
+      "product": "srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    },
+    "rules": {
+      "domain": "arcana",
+      "level": 3,
+      "card_type": "spell",
+      "recall_cost": 2
+    },
+    "content": {
+      "rules_text": "You can interrupt a magical effect taking place by making a \nreaction roll using your Spellcast trait. On a success, the effect \nstops and any consequences are avoided, and this card is \nplaced in your vault.",
+      "notes": null
+    }
+  },
+  {
+    "id": "srd-2.0.domain-card.arcana.flight",
+    "kind": "domain_card",
+    "identity": {
+      "name": "Flight",
+      "slug": "flight"
+    },
+    "source": {
+      "corpus": "daggerheart-srd",
+      "product": "srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    },
+    "rules": {
+      "domain": "arcana",
+      "level": 3,
+      "card_type": "spell",
+      "recall_cost": 1
+    },
+    "content": {
+      "rules_text": "Make a Spellcast Roll (15). On a success, place a number of \ntokens equal to your Agility on this card (minimum 1). When \nyou make an  \naction roll while flying, spend a token from this card. After the \naction that spends the last token is resolved,  \nyou descend to the ground directly below you.",
+      "notes": null
+    }
+  },
+  {
+    "id": "srd-2.0.domain-card.arcana.blink-out",
+    "kind": "domain_card",
+    "identity": {
+      "name": "Blink Out",
+      "slug": "blink-out"
+    },
+    "source": {
+      "corpus": "daggerheart-srd",
+      "product": "srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    },
+    "rules": {
+      "domain": "arcana",
+      "level": 4,
+      "card_type": "spell",
+      "recall_cost": 1
+    },
+    "content": {
+      "rules_text": "Make a Spellcast Roll (12). On a success, spend a Hope to \nteleport to another point you can see within Far range. If \nany willing creatures are within Very Close range, spend an \nadditional Hope for each creature to bring them with you.",
+      "notes": null
+    }
+  },
+  {
+    "id": "srd-2.0.domain-card.arcana.preservation-blast",
+    "kind": "domain_card",
+    "identity": {
+      "name": "Preservation Blast",
+      "slug": "preservation-blast"
+    },
+    "source": {
+      "corpus": "daggerheart-srd",
+      "product": "srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    },
+    "rules": {
+      "domain": "arcana",
+      "level": 4,
+      "card_type": "spell",
+      "recall_cost": 2
+    },
+    "content": {
+      "rules_text": "Make a Spellcast Roll against all targets within Melee range. \nT argets you succeed against are forced back to Far range and \ntake d8+3 magic damage using your Spellcast trait.",
+      "notes": null
+    }
+  },
+  {
+    "id": "srd-2.0.domain-card.arcana.chain-lightning",
+    "kind": "domain_card",
+    "identity": {
+      "name": "Chain Lightning",
+      "slug": "chain-lightning"
+    },
+    "source": {
+      "corpus": "daggerheart-srd",
+      "product": "srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    },
+    "rules": {
+      "domain": "arcana",
+      "level": 5,
+      "card_type": "spell",
+      "recall_cost": 1
+    },
+    "content": {
+      "rules_text": "Mark 2 Stress to make a Spellcast Roll, unleashing lightning \non all targets within Close range. T argets you succeed against \nmust make a reaction roll with a Difficulty equal to the result of \nyour Spellcast Roll. T argets who fail take 2d8+4 magic damage. \nAdditional adversaries not already targeted by Chain Lightning \nand within Close range of previous targets who took damage \nmust also make the reaction roll. T argets who fail take 2d8+4 \nmagic damage. This chain continues until there are no more \nadversaries within range.\n206\nDaggerheart SRD",
+      "notes": null
+    }
+  },
+  {
+    "id": "srd-2.0.domain-card.arcana.premonition",
+    "kind": "domain_card",
+    "identity": {
+      "name": "Premonition",
+      "slug": "premonition"
+    },
+    "source": {
+      "corpus": "daggerheart-srd",
+      "product": "srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    },
+    "rules": {
+      "domain": "arcana",
+      "level": 5,
+      "card_type": "spell",
+      "recall_cost": 2
+    },
+    "content": {
+      "rules_text": "You can channel arcane energy to have visions of the future. \nOnce per long rest, immediately after the GM conveys the \nconsequences of a roll you made, you can rescind the move \nand consequences like they never happened and make another \nmove instead.",
+      "notes": null
+    }
+  },
+  {
+    "id": "srd-2.0.domain-card.arcana.rift-walker",
+    "kind": "domain_card",
+    "identity": {
+      "name": "Rift Walker",
+      "slug": "rift-walker"
+    },
+    "source": {
+      "corpus": "daggerheart-srd",
+      "product": "srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    },
+    "rules": {
+      "domain": "arcana",
+      "level": 6,
+      "card_type": "spell",
+      "recall_cost": 2
+    },
+    "content": {
+      "rules_text": "Make a Spellcast Roll (15). On a success, you place an arcane \nmarking on the ground where you currently stand. The next \ntime you successfully cast Rift Walker, a rift in space opens \nup, providing safe passage back to the exact spot where the \nmarking was placed. This rift stays open until you choose to \nclose it or you cast another spell.\nYou can drop the spell at any time to cast Rift Walker again and \nplace the marking somewhere new.",
+      "notes": null
+    }
+  },
+  {
+    "id": "srd-2.0.domain-card.arcana.telekinesis",
+    "kind": "domain_card",
+    "identity": {
+      "name": "Telekinesis",
+      "slug": "telekinesis"
+    },
+    "source": {
+      "corpus": "daggerheart-srd",
+      "product": "srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    },
+    "rules": {
+      "domain": "arcana",
+      "level": 6,
+      "card_type": "spell",
+      "recall_cost": 0
+    },
+    "content": {
+      "rules_text": "Make a Spellcast Roll against a target within Far range. On \na success, you can use your mind to move them anywhere \nwithin Far range of their original position. You can throw the \nlifted target as an attack by making an additional Spellcast Roll \nagainst the second target you’re trying to attack. On a success, \ndeal d12+4 physical damage to the second target using your \nProficiency. This spell then ends.",
+      "notes": null
+    }
+  },
+  {
+    "id": "srd-2.0.domain-card.arcana.arcana-touched",
+    "kind": "domain_card",
+    "identity": {
+      "name": "Arcana-Touched",
+      "slug": "arcana-touched"
+    },
+    "source": {
+      "corpus": "daggerheart-srd",
+      "product": "srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    },
+    "rules": {
+      "domain": "arcana",
+      "level": 7,
+      "card_type": "ability",
+      "recall_cost": 2
+    },
+    "content": {
+      "rules_text": "When 4 or more of the domain cards in your loadout are from \nthe Arcana domain, gain the following benefits:\n ◦ +1 bonus to your Spellcast Rolls\n ◦ Once per rest, you can switch the results of your Hope and \nFear Dice.",
+      "notes": null
+    }
+  },
+  {
+    "id": "srd-2.0.domain-card.arcana.cloaking-blast",
+    "kind": "domain_card",
+    "identity": {
+      "name": "Cloaking Blast",
+      "slug": "cloaking-blast"
+    },
+    "source": {
+      "corpus": "daggerheart-srd",
+      "product": "srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    },
+    "rules": {
+      "domain": "arcana",
+      "level": 7,
+      "card_type": "spell",
+      "recall_cost": 2
+    },
+    "content": {
+      "rules_text": "When you make a successful Spellcast Roll to cast a different \nspell, you can spend a Hope to become Cloaked. While \nCloaked, you remain unseen if you are stationary when an \nadversary moves to where they would normally see you. When \nyou move into or within an adversary’s line of sight or make an \nattack, you are no longer Cloaked.",
+      "notes": null
+    }
+  },
+  {
+    "id": "srd-2.0.domain-card.arcana.arcane-reflection",
+    "kind": "domain_card",
+    "identity": {
+      "name": "Arcane Reflection",
+      "slug": "arcane-reflection"
+    },
+    "source": {
+      "corpus": "daggerheart-srd",
+      "product": "srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    },
+    "rules": {
+      "domain": "arcana",
+      "level": 8,
+      "card_type": "spell",
+      "recall_cost": 1
+    },
+    "content": {
+      "rules_text": "When you would take magic damage, you can spend any \nnumber of Hope to roll that many d6s. If any roll a 6, the \nattack is reflected back to the caster, dealing the damage to \nthem instead.",
+      "notes": null
+    }
+  },
+  {
+    "id": "srd-2.0.domain-card.arcana.confusing-aura",
+    "kind": "domain_card",
+    "identity": {
+      "name": "Confusing Aura",
+      "slug": "confusing-aura"
+    },
+    "source": {
+      "corpus": "daggerheart-srd",
+      "product": "srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    },
+    "rules": {
+      "domain": "arcana",
+      "level": 8,
+      "card_type": "spell",
+      "recall_cost": 2
+    },
+    "content": {
+      "rules_text": "Make a Spellcast Roll (14). Once per long rest on a success, \nyou create a layer of illusion over your body that makes it hard \nto tell exactly where you are. Mark any number of Stress \nto make that many additional layers. When an adversary \nmakes an attack against you, roll a number of d6s equal to \nthe number of layers currently active. If any roll a 5 or higher, \none layer of the aura is destroyed and the attack fails. If all the \nresults are 4 or lower, you take the damage and this spell ends",
+      "notes": null
+    }
+  },
+  {
+    "id": "srd-2.0.domain-card.arcana.earthquake",
+    "kind": "domain_card",
+    "identity": {
+      "name": "Earthquake",
+      "slug": "earthquake"
+    },
+    "source": {
+      "corpus": "daggerheart-srd",
+      "product": "srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    },
+    "rules": {
+      "domain": "arcana",
+      "level": 9,
+      "card_type": "spell",
+      "recall_cost": 2
+    },
+    "content": {
+      "rules_text": "Make a Spellcast Roll (16). Once per rest on a success, all \ntargets within Very Far range who aren’t flying must make \na Reaction Roll (18). T argets who fail take 3d10+8 physical \ndamage and are temporarily Vulnerable. T argets who succeed \ntake half damage.\nAdditionally, when you succeed on the Spellcast Roll, all terrain \nwithin Very Far range becomes difficult to move through and \nstructures within this range might sustain damage or crumble.",
+      "notes": null
+    }
+  },
+  {
+    "id": "srd-2.0.domain-card.arcana.sensory-projection",
+    "kind": "domain_card",
+    "identity": {
+      "name": "Sensory Projection",
+      "slug": "sensory-projection"
+    },
+    "source": {
+      "corpus": "daggerheart-srd",
+      "product": "srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    },
+    "rules": {
+      "domain": "arcana",
+      "level": 9,
+      "card_type": "spell",
+      "recall_cost": 0
+    },
+    "content": {
+      "rules_text": "Once per rest, make a Spellcast Roll (15). On a success, \ndrop into a vision that lets you clearly see and hear any place \nyou have been before as though you are standing there in \nthis moment. You can move freely in this vision and are not \nconstrained by the physics or impediments of a physical body. \nThis spell cannot be detected by mundane or magical means. \nYou drop out of this vision upon taking damage or casting \nanother spell.",
+      "notes": null
+    }
+  },
+  {
+    "id": "srd-2.0.domain-card.arcana.adjust-reality",
+    "kind": "domain_card",
+    "identity": {
+      "name": "Adjust Reality",
+      "slug": "adjust-reality"
+    },
+    "source": {
+      "corpus": "daggerheart-srd",
+      "product": "srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    },
+    "rules": {
+      "domain": "arcana",
+      "level": 10,
+      "card_type": "spell",
+      "recall_cost": 1
+    },
+    "content": {
+      "rules_text": "After you or a willing ally make any roll, you can spend 5 Hope \nto change the numerical result of that roll to a result of your \nchoice instead. The result must be plausible within the range \nof the dice.",
+      "notes": null
+    }
+  },
+  {
+    "id": "srd-2.0.domain-card.arcana.falling-sky",
+    "kind": "domain_card",
+    "identity": {
+      "name": "Falling Sky",
+      "slug": "falling-sky"
+    },
+    "source": {
+      "corpus": "daggerheart-srd",
+      "product": "srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    },
+    "rules": {
+      "domain": "arcana",
+      "level": 10,
+      "card_type": "spell",
+      "recall_cost": 1
+    },
+    "content": {
+      "rules_text": "Make a Spellcast Roll against all adversaries within Far range. \nMark any number of Stress to make shards of arcana rain \ndown from above. T argets you succeed against take 1d20+2 \nmagic damage for each Stress marked.\n207\nDaggerheart SRD",
+      "notes": null
+    }
+  }
+]

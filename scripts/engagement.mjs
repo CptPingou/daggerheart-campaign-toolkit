@@ -41,14 +41,16 @@ export function createEngagementApi({
   opener,
   finisher,
   support,
+  state,
 }) {
-  if (!opportunity || !opener || !finisher || !support) {
-    throw new TypeError("Campaign Toolkit | Engagement requires Opportunity, Opener, Finisher and Support APIs");
+  if (!opportunity || !opener || !finisher || !support || !state) {
+    throw new TypeError("Campaign Toolkit | Engagement requires Opportunity, Opener, Finisher, Support and State APIs");
   }
 
   function snapshot() {
     return Object.freeze({
       opportunity: opportunity.getOpportunityValue(),
+      state: state.snapshot(),
       countdownName: opportunity.countdownName,
       contract: ENGAGEMENT_CONTRACT,
       reminders: Object.freeze({
@@ -62,6 +64,7 @@ export function createEngagementApi({
   async function reset() {
     const before = opportunity.getOpportunityValue();
     const after = await opportunity.clearOpportunity();
+    await state.reset();
     const result = Object.freeze({
       before,
       after,
@@ -89,5 +92,6 @@ export function createEngagementApi({
     opener,
     finisher,
     support,
+    state,
   });
 }

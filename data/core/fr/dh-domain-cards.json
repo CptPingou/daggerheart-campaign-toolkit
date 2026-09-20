@@ -171,7 +171,7 @@
             "type": "any",
             "amount": null
           },
-          "name": "Spend Hope",
+          "name": "Dépenser de l’Espoir",
           "range": "close",
           "img": "icons/magic/air/fog-gas-smoke-purple-blue.webp"
         }
@@ -323,7 +323,7 @@
             "type": "any",
             "amount": null
           },
-          "name": "Rescind Move",
+          "name": "Annuler l’action",
           "img": "icons/magic/control/hypnosis-mesmerism-eye.webp",
           "range": "",
           "baseAction": false,
@@ -426,7 +426,7 @@
             "type": "any",
             "amount": null
           },
-          "name": "Gain Advantage",
+          "name": "Gagner un Avantage",
           "img": "icons/magic/life/heart-pink.webp",
           "range": "",
           "baseAction": false,
@@ -623,7 +623,7 @@
             },
             "useDefault": false
           },
-          "name": "Clear Stress",
+          "name": "Effacer du Stress",
           "img": "icons/commodities/gems/gem-faceted-navette-red.webp",
           "range": "",
           "baseAction": false,
@@ -708,7 +708,7 @@
             },
             "useDefault": false
           },
-          "name": "Clear Hitpoint",
+          "name": "Effacer 1 Point de vie",
           "img": "icons/commodities/gems/gem-faceted-diamond-green.webp",
           "range": "",
           "baseAction": false,
@@ -793,7 +793,7 @@
             },
             "useDefault": false
           },
-          "name": "Give Hope",
+          "name": "Donner 1 Espoir",
           "img": "icons/commodities/gems/gem-faceted-octagon-yellow.webp",
           "range": "",
           "baseAction": false,
@@ -952,7 +952,7 @@
             "difficulty": 12,
             "damageMod": "none"
           },
-          "name": "Mark Stress",
+          "name": "Marquer du Stress",
           "range": "far",
           "img": "icons/creatures/magical/spirit-fear-energy-pink.webp"
         }
@@ -1261,7 +1261,7 @@
             },
             "useDefault": false
           },
-          "name": "Heal One Hitpoint",
+          "name": "Soigner 1 Point de vie",
           "img": "icons/commodities/gems/gem-faceted-diamond-green.webp",
           "range": "",
           "baseAction": false,
@@ -1346,7 +1346,7 @@
             },
             "useDefault": false
           },
-          "name": "Heal One Stress",
+          "name": "Soigner 1 Stress",
           "img": "icons/commodities/gems/gem-faceted-navette-red.webp",
           "range": "",
           "baseAction": false,
@@ -1439,7 +1439,7 @@
             },
             "useDefault": false
           },
-          "name": "Heal Two Hit Points",
+          "name": "Soigner 2 Points de vie",
           "img": "icons/commodities/gems/gem-faceted-diamond-green.webp",
           "range": "",
           "baseAction": false,
@@ -1532,7 +1532,7 @@
             },
             "useDefault": false
           },
-          "name": "Heal Two Stress",
+          "name": "Soigner 2 Stress",
           "img": "icons/commodities/gems/gem-faceted-navette-red.webp",
           "range": "",
           "baseAction": false,
@@ -1681,7 +1681,7 @@
             "difficulty": 18,
             "damageMod": "half"
           },
-          "name": "Cast",
+          "name": "Lancer",
           "img": "icons/magic/earth/barrier-stone-explosion-red.webp",
           "range": "veryFar",
           "baseAction": false,
@@ -1836,7 +1836,7 @@
             "type": "any",
             "amount": null
           },
-          "name": "Pull into Chokehold",
+          "name": "Saisir en étranglement",
           "img": "icons/skills/melee/hand-grip-staff-teal.webp",
           "range": "",
           "baseAction": false,
@@ -1878,7 +1878,7 @@
             "amount": null
           },
           "effects": [],
-          "name": "Damage",
+          "name": "Dégâts",
           "img": "icons/magic/control/debuff-chains-shackle-movement-red.webp",
           "range": "",
           "baseAction": false,
@@ -2019,7 +2019,7 @@
             "type": "any",
             "amount": null
           },
-          "name": "Cast",
+          "name": "Lancer",
           "img": "icons/magic/perception/eye-slit-pink.webp",
           "range": "veryFar",
           "baseAction": false,
@@ -2160,7 +2160,7 @@
             "type": "any",
             "amount": null
           },
-          "name": "Critically Succeed",
+          "name": "Réussite critique",
           "img": "icons/magic/light/hand-sparks-glow-yellow.webp",
           "range": "",
           "baseAction": false,
@@ -2438,7 +2438,7 @@
             "difficulty": null,
             "damageMod": "none"
           },
-          "name": "Spellcast Roll",
+          "name": "Jet d’Incantation",
           "range": "",
           "img": "icons/magic/death/skull-energy-light-purple.webp"
         }
@@ -2642,7 +2642,7 @@
             "difficulty": null,
             "damageMod": "none"
           },
-          "name": "Cast",
+          "name": "Lancer",
           "img": "icons/magic/light/beam-horizon-strike-yellow.webp",
           "range": "far",
           "baseAction": false,
@@ -2848,7 +2848,7 @@
             "difficulty": null,
             "damageMod": "none"
           },
-          "name": "Spellcast Roll",
+          "name": "Jet d’Incantation",
           "range": "close",
           "img": "icons/magic/death/skull-humanoid-white-red.webp"
         }
@@ -2999,7 +2999,7 @@
             "type": "self",
             "amount": null
           },
-          "name": "Mark Stress",
+          "name": "Marquer du Stress",
           "img": "icons/magic/control/buff-flight-wings-runes-purple.webp",
           "range": "self",
           "baseAction": false,
@@ -3239,7 +3239,7 @@
             },
             "useDefault": false
           },
-          "name": "Heal 1 Hit Point",
+          "name": "Soigner 1 Point de vie",
           "img": "icons/commodities/gems/gem-faceted-diamond-green.webp",
           "range": "close",
           "areas": [
@@ -3341,7 +3341,7 @@
             },
             "useDefault": false
           },
-          "name": "Heal 2 Hit Points",
+          "name": "Soigner 2 Points de vie",
           "img": "icons/commodities/gems/gem-faceted-diamond-green.webp",
           "range": "close",
           "areas": [
@@ -3448,7 +3448,7 @@
             "type": "any",
             "amount": null
           },
-          "name": "Spend Token",
+          "name": "Dépenser un jeton",
           "img": "icons/skills/targeting/crosshair-arrowhead-blue.webp",
           "range": "",
           "baseAction": false,
@@ -3604,7 +3604,7 @@
             },
             "useDefault": false
           },
-          "name": "Spellcast Roll",
+          "name": "Jet d’Incantation",
           "range": "melee",
           "img": "icons/magic/perception/silhouette-stealth-shadow.webp"
         }
@@ -3768,7 +3768,7 @@
             "difficulty": null,
             "damageMod": "none"
           },
-          "name": "Slumber",
+          "name": "Sommeil",
           "img": "icons/magic/control/sleep-bubble-purple.webp",
           "range": "veryClose",
           "baseAction": false,
@@ -3839,7 +3839,7 @@
             "amount": 1
           },
           "effects": [],
-          "name": "Arcane Barrage",
+          "name": "Barrage arcanique",
           "img": "icons/magic/light/projectiles-trio-pink.webp",
           "range": "close",
           "baseAction": false,
@@ -3882,7 +3882,7 @@
             "type": "any",
             "amount": 1
           },
-          "name": "Telepathy",
+          "name": "Télépathie",
           "img": "icons/magic/perception/third-eye-blue-red.webp",
           "range": "",
           "baseAction": false,
@@ -4131,7 +4131,7 @@
             "difficulty": null,
             "damageMod": "none"
           },
-          "name": "Mystic Tether",
+          "name": "Entrave mystique",
           "img": "icons/magic/control/energy-stream-link-white.webp",
           "range": "far",
           "baseAction": false,
@@ -4184,7 +4184,7 @@
             "difficulty": 13,
             "damageMod": "half"
           },
-          "name": "Fireball - Cast",
+          "name": "Boule de feu — Incantation",
           "img": "icons/magic/fire/explosion-fireball-large-red-orange.webp",
           "range": "veryFar",
           "baseAction": false,
@@ -4283,7 +4283,7 @@
             "difficulty": 13,
             "damageMod": "half"
           },
-          "name": "Fireball - Explosion",
+          "name": "Boule de feu — Explosion",
           "range": "",
           "img": "icons/magic/fire/explosion-fireball-large-red-orange.webp"
         }
@@ -4453,7 +4453,7 @@
             "difficulty": null,
             "damageMod": "none"
           },
-          "name": "Roll d4",
+          "name": "Lancer 1d4",
           "img": "icons/skills/melee/maneuver-sword-katana-yellow.webp",
           "range": "",
           "baseAction": false,
@@ -4566,7 +4566,7 @@
             "difficulty": null,
             "damageMod": "none"
           },
-          "name": "Cast",
+          "name": "Lancer",
           "img": "icons/magic/control/buff-flight-wings-runes-purple-orange.webp",
           "range": "far",
           "areas": [
@@ -4702,7 +4702,7 @@
             "difficulty": null,
             "damageMod": "none"
           },
-          "name": "Cast",
+          "name": "Lancer",
           "img": "icons/magic/unholy/orb-glowing-purple.webp",
           "range": "close",
           "baseAction": false,
@@ -4868,7 +4868,7 @@
             "difficulty": null,
             "damageMod": "none"
           },
-          "name": "Repeat Attack",
+          "name": "Répéter l’attaque",
           "img": "icons/magic/light/explosion-impact-purple.webp",
           "range": "",
           "baseAction": false,
@@ -4966,7 +4966,7 @@
             "type": "any",
             "amount": null
           },
-          "name": "Gain Bonus",
+          "name": "Gagner le bonus",
           "img": "icons/magic/light/explosion-star-glow-silhouette.webp",
           "range": "",
           "baseAction": false,
@@ -5070,7 +5070,7 @@
             "type": "any",
             "amount": null
           },
-          "name": "Spend Hope",
+          "name": "Dépenser de l’Espoir",
           "range": "",
           "img": "icons/magic/unholy/energy-smoke-pink.webp"
         }
@@ -5168,7 +5168,7 @@
             "type": "any",
             "amount": null
           },
-          "name": "Mark Stress",
+          "name": "Marquer du Stress",
           "range": "",
           "img": "icons/magic/unholy/orb-hands-pink.webp"
         },
@@ -5197,7 +5197,7 @@
             "type": "any",
             "amount": null
           },
-          "name": "Gain Bonus",
+          "name": "Gagner le bonus",
           "range": "",
           "img": "icons/magic/unholy/hand-light-pink.webp"
         }
@@ -5349,7 +5349,7 @@
             "difficulty": 14,
             "damageMod": "none"
           },
-          "name": "Cast",
+          "name": "Lancer",
           "img": "icons/magic/light/beam-strike-village-yellow.webp",
           "range": "far",
           "areas": [
@@ -5422,7 +5422,7 @@
             "amount": null
           },
           "effects": [],
-          "name": "Damage on Successful Save",
+          "name": "Dégâts en cas de sauvegarde réussie",
           "img": "icons/magic/light/beam-strike-village-yellow.webp",
           "range": "",
           "baseAction": false,
@@ -5847,7 +5847,7 @@
             },
             "useDefault": false
           },
-          "name": "Clear Stress",
+          "name": "Effacer du Stress",
           "img": "icons/magic/life/heart-cross-strong-purple-orange.webp",
           "range": "",
           "baseAction": false,
@@ -6041,7 +6041,7 @@
             },
             "useDefault": false
           },
-          "name": "Gain Hope",
+          "name": "Gagner de l’Espoir",
           "range": "close",
           "img": "icons/magic/unholy/hand-light-green.webp"
         }
@@ -6208,7 +6208,7 @@
             "difficulty": null,
             "damageMod": "none"
           },
-          "name": "Repudiate",
+          "name": "Répudier",
           "img": "icons/magic/light/orbs-hand-gray.webp",
           "range": "",
           "baseAction": false,
@@ -6246,7 +6246,7 @@
             "type": "any",
             "amount": null
           },
-          "name": "Create Construct",
+          "name": "Créer un assemblage",
           "img": "icons/creatures/magical/construct-golem-stone-blue.webp",
           "range": "",
           "baseAction": false,
@@ -6330,7 +6330,7 @@
             "difficulty": null,
             "damageMod": "none"
           },
-          "name": "Construct (Take Action)",
+          "name": "Assemblage — Agir",
           "img": "icons/creatures/magical/construct-golem-stone-blue.webp",
           "range": "",
           "baseAction": false,
@@ -6425,7 +6425,7 @@
             "type": "any",
             "amount": 2
           },
-          "name": "Transfer Suffering",
+          "name": "Transférer la souffrance",
           "range": "melee",
           "img": "icons/magic/control/sihouette-hold-beam-green.webp"
         }
@@ -6517,7 +6517,7 @@
             "type": "any",
             "amount": null
           },
-          "name": "Spend Hope",
+          "name": "Dépenser de l’Espoir",
           "img": "icons/magic/fire/flame-burning-hand-purple.webp",
           "range": "",
           "baseAction": false,
@@ -6659,7 +6659,7 @@
             },
             "useDefault": false
           },
-          "name": "Clear Stress",
+          "name": "Effacer du Stress",
           "range": "self",
           "img": "icons/magic/life/cross-embers-glow-yellow-purple.webp"
         }
@@ -6804,7 +6804,7 @@
             },
             "useDefault": false
           },
-          "name": "Mark Stress",
+          "name": "Marquer du Stress",
           "range": "self",
           "img": "icons/magic/unholy/barrier-shield-glowing-pink.webp"
         },
@@ -6842,7 +6842,7 @@
             "type": "self",
             "amount": null
           },
-          "name": "Spend Tokens",
+          "name": "Dépenser des jetons",
           "range": "self",
           "img": "icons/magic/defensive/barrier-shield-dome-pink.webp"
         }
@@ -6972,7 +6972,7 @@
             },
             "useDefault": false
           },
-          "name": "Heal Another",
+          "name": "Soigner autrui",
           "img": "icons/commodities/gems/gem-faceted-diamond-green.webp",
           "range": "",
           "baseAction": false,
@@ -7048,7 +7048,7 @@
             },
             "useDefault": false
           },
-          "name": "Heal Self",
+          "name": "Se soigner",
           "img": "icons/commodities/gems/gem-faceted-diamond-green.webp",
           "range": "",
           "baseAction": false,
@@ -7179,7 +7179,7 @@
             "amount": 1
           },
           "effects": [],
-          "name": "Spend Tokens",
+          "name": "Dépenser des jetons",
           "img": "icons/commodities/gems/gem-faceted-diamond-blue.webp",
           "range": "far",
           "baseAction": false,
@@ -7377,7 +7377,7 @@
             "difficulty": null,
             "damageMod": "none"
           },
-          "name": "Cast",
+          "name": "Lancer",
           "img": "icons/skills/melee/spear-tips-three-green.webp",
           "range": "veryClose",
           "areas": [
@@ -7485,7 +7485,7 @@
             "type": "any",
             "amount": null
           },
-          "name": "Channel Nature",
+          "name": "Canaliser la nature",
           "img": "icons/magic/control/debuff-energy-hold-levitate-green.webp",
           "range": "",
           "baseAction": false,
@@ -7607,7 +7607,7 @@
             "difficulty": null,
             "damageMod": "none"
           },
-          "name": "Cast",
+          "name": "Lancer",
           "img": "icons/magic/nature/leaf-armor-scale-green.webp",
           "range": "",
           "baseAction": false,
@@ -7710,7 +7710,7 @@
             "type": "self",
             "amount": null
           },
-          "name": "Become Spectral",
+          "name": "Devenir spectral",
           "img": "icons/magic/unholy/silhouette-light-fire-blue.webp",
           "range": "self",
           "baseAction": false,
@@ -7909,7 +7909,7 @@
             "difficulty": null,
             "damageMod": "none"
           },
-          "name": "Goad",
+          "name": "Provoquer",
           "img": "icons/magic/control/mouth-smile-deception-purple.webp",
           "range": "close",
           "baseAction": false,
@@ -8064,7 +8064,7 @@
             "type": "any",
             "amount": null
           },
-          "name": "Cast Protective Aura",
+          "name": "Lancer Aura protectrice",
           "img": "icons/magic/defensive/shield-barrier-flaming-diamond-orange.webp",
           "range": "",
           "baseAction": false,
@@ -8262,7 +8262,7 @@
             "difficulty": null,
             "damageMod": "none"
           },
-          "name": "Cast",
+          "name": "Lancer",
           "img": "icons/magic/control/hypnosis-mesmerism-swirl.webp",
           "range": "close",
           "areas": [
@@ -8423,7 +8423,7 @@
             "type": "friendly",
             "amount": 1
           },
-          "name": "Spend Hope",
+          "name": "Dépenser de l’Espoir",
           "img": "icons/magic/holy/barrier-shield-winged-blue.webp",
           "range": "close",
           "baseAction": false,
@@ -8536,7 +8536,7 @@
             "difficulty": null,
             "damageMod": "none"
           },
-          "name": "Levitation",
+          "name": "Lévitation",
           "img": "icons/magic/control/energy-stream-link-blue.webp",
           "range": "close",
           "baseAction": false,
@@ -8598,7 +8598,7 @@
             "difficulty": null,
             "damageMod": "none"
           },
-          "name": "Recant",
+          "name": "Se rétracter",
           "img": "icons/magic/control/hypnosis-mesmerism-eye.webp",
           "range": "melee",
           "baseAction": false,
@@ -8671,7 +8671,7 @@
             "amount": null
           },
           "effects": [],
-          "name": "Rune Circle",
+          "name": "Cercle runique",
           "img": "icons/magic/symbols/runes-star-pentagon-blue.webp",
           "range": "",
           "areas": [
@@ -8778,7 +8778,7 @@
             "type": "any",
             "amount": null
           },
-          "name": "Change Fear to Hope",
+          "name": "Transformer Peur en Espoir",
           "img": "icons/commodities/gems/gem-faceted-octagon-yellow.webp",
           "range": "close",
           "baseAction": false,
@@ -8877,7 +8877,7 @@
             "type": "any",
             "amount": null
           },
-          "name": "Spend Hope to Reroll",
+          "name": "Dépenser de l’Espoir pour relancer",
           "img": "icons/sundries/gaming/dice-runed-tan.webp",
           "range": "",
           "baseAction": false,
@@ -8975,7 +8975,7 @@
             "type": "any",
             "amount": 1
           },
-          "name": "Mark Stress",
+          "name": "Marquer du Stress",
           "img": "icons/skills/movement/arrow-upward-yellow.webp",
           "range": "far",
           "baseAction": false,
@@ -9069,7 +9069,7 @@
             "type": "self",
             "amount": 1
           },
-          "name": "Focus",
+          "name": "Se concentrer",
           "img": "icons/skills/targeting/crosshair-pointed-orange.webp",
           "range": "self",
           "baseAction": false,
@@ -9232,7 +9232,7 @@
             "type": "any",
             "amount": null
           },
-          "name": "Mark Stress (1 token)",
+          "name": "Marquer du Stress (1 jeton)",
           "img": "icons/commodities/gems/gem-faceted-navette-red.webp",
           "range": "",
           "baseAction": false,
@@ -9283,7 +9283,7 @@
             "type": "any",
             "amount": null
           },
-          "name": "Mark Stress (2 tokens)",
+          "name": "Marquer du Stress (2 jetons)",
           "img": "icons/commodities/gems/gem-faceted-navette-red.webp",
           "range": "",
           "baseAction": false,
@@ -9334,7 +9334,7 @@
             "type": "any",
             "amount": null
           },
-          "name": "Mark Stress (3 tokens)",
+          "name": "Marquer du Stress (3 jetons)",
           "img": "icons/commodities/gems/gem-faceted-navette-red.webp",
           "range": "",
           "baseAction": false,
@@ -9385,7 +9385,7 @@
             "type": "any",
             "amount": null
           },
-          "name": "Mark Stress (4 tokens)",
+          "name": "Marquer du Stress (4 jetons)",
           "img": "icons/commodities/gems/gem-faceted-navette-red.webp",
           "range": "",
           "baseAction": false,
@@ -9777,7 +9777,7 @@
             "difficulty": null,
             "damageMod": "none"
           },
-          "name": "Reaction Roll",
+          "name": "Jet de réaction",
           "range": "close",
           "img": "icons/magic/unholy/hand-claw-glow-orange.webp"
         }
@@ -9922,7 +9922,7 @@
             },
             "useDefault": false
           },
-          "name": "Spend Hope",
+          "name": "Dépenser de l’Espoir",
           "range": "self",
           "img": "icons/magic/life/cross-explosion-burst-green.webp"
         }
@@ -10124,7 +10124,7 @@
             "difficulty": null,
             "damageMod": "none"
           },
-          "name": "Cast",
+          "name": "Lancer",
           "img": "icons/magic/control/voodoo-doll-pain-damage-red.webp",
           "range": "close",
           "baseAction": false,
@@ -10321,7 +10321,7 @@
             "difficulty": 17,
             "damageMod": "half"
           },
-          "name": "Strike Ground",
+          "name": "Frapper le sol",
           "img": "icons/magic/earth/barrier-stone-brown-green.webp",
           "range": "veryClose",
           "areas": [
@@ -10443,7 +10443,7 @@
             "difficulty": null,
             "damageMod": "none"
           },
-          "name": "Interrupt",
+          "name": "Interrompre",
           "img": "icons/magic/control/hypnosis-mesmerism-watch.webp",
           "range": "",
           "baseAction": false,
@@ -10546,7 +10546,7 @@
             "type": "any",
             "amount": null
           },
-          "name": "Cast",
+          "name": "Lancer",
           "img": "icons/creatures/invertebrates/spider-pink-purple.webp",
           "range": "",
           "baseAction": false,
@@ -10708,7 +10708,7 @@
             "difficulty": null,
             "damageMod": "none"
           },
-          "name": "Cast",
+          "name": "Lancer",
           "img": "icons/magic/control/debuff-energy-snare-blue.webp",
           "range": "veryClose",
           "areas": [
@@ -10921,7 +10921,7 @@
             "difficulty": null,
             "damageMod": "none"
           },
-          "name": "Cast",
+          "name": "Lancer",
           "img": "icons/magic/nature/vines-thorned-curled-glow-teal.webp",
           "range": "",
           "baseAction": false,
@@ -10964,7 +10964,7 @@
             "type": "any",
             "amount": null
           },
-          "name": "Restrain Another",
+          "name": "Entraver une autre cible",
           "img": "icons/commodities/gems/gem-faceted-octagon-yellow.webp",
           "range": "",
           "baseAction": false,
@@ -11189,7 +11189,7 @@
             "difficulty": null,
             "damageMod": "none"
           },
-          "name": "Cast",
+          "name": "Lancer",
           "img": "icons/magic/nature/moon-crescent.webp",
           "range": "far",
           "areas": [
@@ -11259,7 +11259,7 @@
             "amount": null
           },
           "effects": [],
-          "name": "Target Marks Stress",
+          "name": "La cible marque du Stress",
           "img": "icons/skills/wounds/anatomy-organ-brain-pink-red.webp",
           "range": "",
           "baseAction": false,
@@ -11471,7 +11471,7 @@
             "difficulty": null,
             "damageMod": "none"
           },
-          "name": "Spellcast Roll",
+          "name": "Jet d’Incantation",
           "range": "far",
           "img": "icons/magic/unholy/beam-impact-purple.webp"
         },
@@ -11541,7 +11541,7 @@
             "amount": null
           },
           "effects": [],
-          "name": "Stress Damage",
+          "name": "Dégâts de Stress",
           "range": "",
           "img": "icons/magic/death/skull-flames-white-blue.webp"
         }
@@ -11653,7 +11653,7 @@
             "difficulty": null,
             "damageMod": "none"
           },
-          "name": "Cast",
+          "name": "Lancer",
           "img": "icons/creatures/birds/corvid-flying-wings-purple.webp",
           "range": "",
           "baseAction": false,
@@ -11691,7 +11691,7 @@
             "type": "any",
             "amount": null
           },
-          "name": "Spend Token",
+          "name": "Dépenser un jeton",
           "img": "icons/commodities/gems/gem-faceted-diamond-blue.webp",
           "range": "",
           "baseAction": false,
@@ -11882,7 +11882,7 @@
             },
             "useDefault": false
           },
-          "name": "Clear Three Stress",
+          "name": "Effacer 3 Stress",
           "img": "icons/commodities/gems/gem-faceted-navette-red.webp",
           "range": "",
           "baseAction": false,
@@ -11967,7 +11967,7 @@
             },
             "useDefault": false
           },
-          "name": "Clear Hit Point",
+          "name": "Effacer 1 Point de vie",
           "img": "icons/commodities/gems/gem-faceted-diamond-green.webp",
           "range": "close",
           "baseAction": false,
@@ -12065,7 +12065,7 @@
             "type": "any",
             "amount": null
           },
-          "name": "Mark Stress",
+          "name": "Marquer du Stress",
           "img": "icons/skills/melee/sword-twirl-orange.webp",
           "range": "",
           "baseAction": false,
@@ -12323,7 +12323,7 @@
             "type": "self",
             "amount": null
           },
-          "name": "Mark Stress",
+          "name": "Marquer du Stress",
           "img": "icons/skills/wounds/injury-face-impact-orange.webp",
           "range": "self",
           "baseAction": false,
@@ -12602,7 +12602,7 @@
             "difficulty": null,
             "damageMod": "none"
           },
-          "name": "Attack",
+          "name": "Attaquer",
           "img": "icons/magic/light/projectiles-star-purple.webp",
           "range": "",
           "areas": [
@@ -12761,7 +12761,7 @@
             "difficulty": null,
             "damageMod": "none"
           },
-          "name": "Spellcast Roll",
+          "name": "Jet d’Incantation",
           "range": "veryClose",
           "img": "icons/magic/unholy/energy-smoke-pink.webp"
         },
@@ -12825,7 +12825,7 @@
             "amount": null
           },
           "effects": [],
-          "name": "With Fear",
+          "name": "Avec Peur",
           "range": "",
           "img": "icons/magic/unholy/orb-hands-pink.webp"
         }
@@ -13086,7 +13086,7 @@
             "type": "any",
             "amount": null
           },
-          "name": "Mark Armor Slot",
+          "name": "Marquer un emplacement d’Armure",
           "img": "icons/equipment/shield/kite-wooden-sigil-purple.webp",
           "range": "",
           "baseAction": false,
@@ -13147,7 +13147,7 @@
             "amount": null
           },
           "effects": [],
-          "name": "Mark 1 Stress",
+          "name": "Marquer 1 Stress",
           "img": "icons/commodities/gems/gem-faceted-navette-red.webp",
           "range": "",
           "baseAction": false,
@@ -13321,7 +13321,7 @@
             "amount": null
           },
           "effects": [],
-          "name": "Mark a Stress",
+          "name": "Marquer 1 Stress",
           "img": "icons/skills/melee/strike-axe-blood-red.webp",
           "range": "",
           "baseAction": false,
@@ -13471,7 +13471,7 @@
             "difficulty": null,
             "damageMod": "none"
           },
-          "name": "Spend a Hope",
+          "name": "Dépenser 1 Espoir",
           "img": "icons/skills/melee/strike-axe-red.webp",
           "range": "",
           "baseAction": false,
@@ -13612,7 +13612,7 @@
             },
             "useDefault": false
           },
-          "name": "Cast",
+          "name": "Lancer",
           "img": "icons/magic/nature/leaf-hand-green.webp",
           "range": "veryClose",
           "areas": [
@@ -13771,7 +13771,7 @@
             "type": "any",
             "amount": null
           },
-          "name": "Mark Stress",
+          "name": "Marquer du Stress",
           "img": "icons/skills/melee/maneuver-greatsword-yellow.webp",
           "range": "",
           "baseAction": false,
@@ -13874,7 +13874,7 @@
             "type": "any",
             "amount": null
           },
-          "name": "Conjure",
+          "name": "Conjurer",
           "img": "icons/creatures/mammals/deer-movement-leap-green.webp",
           "range": "",
           "baseAction": false,
@@ -14029,7 +14029,7 @@
             "type": "any",
             "amount": null
           },
-          "name": "Reassure",
+          "name": "Rassurer",
           "img": "icons/sundries/gaming/dice-pair-white-green.webp",
           "range": "",
           "baseAction": false,
@@ -14132,7 +14132,7 @@
             "type": "any",
             "amount": null
           },
-          "name": "Mark Stress",
+          "name": "Marquer du Stress",
           "img": "icons/magic/light/hand-sparks-glow-yellow.webp",
           "range": "",
           "baseAction": false,
@@ -14161,7 +14161,7 @@
             "type": "self",
             "amount": null
           },
-          "name": "Replace Card",
+          "name": "Remplacer la carte",
           "img": "icons/magic/symbols/star-inverted-yellow.webp",
           "range": "",
           "baseAction": false,
@@ -14311,7 +14311,7 @@
             "type": "self",
             "amount": null
           },
-          "name": "Spend Hope",
+          "name": "Dépenser de l’Espoir",
           "img": "icons/magic/holy/barrier-shield-winged-blue.webp",
           "range": "",
           "baseAction": false,
@@ -14461,7 +14461,7 @@
             "type": "any",
             "amount": null
           },
-          "name": "Spend Tokens",
+          "name": "Dépenser des jetons",
           "img": "icons/commodities/gems/gem-faceted-diamond-blue.webp",
           "range": "",
           "baseAction": false,
@@ -14709,7 +14709,7 @@
             "difficulty": null,
             "damageMod": "none"
           },
-          "name": "Hurricane",
+          "name": "Ouragan",
           "img": "icons/magic/air/wind-tornado-cyclone-purple-blue.webp",
           "range": "far",
           "areas": [
@@ -14807,7 +14807,7 @@
             "difficulty": null,
             "damageMod": "none"
           },
-          "name": "Sandstorm",
+          "name": "Tempête de sable",
           "img": "icons/magic/air/air-wave-gust-smoke-yellow.webp",
           "range": "far",
           "areas": [
@@ -15054,7 +15054,7 @@
             "type": "any",
             "amount": null
           },
-          "name": "Arcane Deflection",
+          "name": "Déflexion arcanique",
           "img": "icons/magic/defensive/barrier-shield-dome-blue-purple.webp",
           "range": "veryClose",
           "baseAction": false,
@@ -15083,7 +15083,7 @@
             "type": "any",
             "amount": null
           },
-          "name": "Time Lock",
+          "name": "Verrou temporel",
           "img": "icons/magic/time/hourglass-yellow-green.webp",
           "range": "far",
           "baseAction": false,
@@ -15167,7 +15167,7 @@
             "difficulty": null,
             "damageMod": "none"
           },
-          "name": "Wall Of Flame",
+          "name": "Mur de flammes",
           "img": "icons/magic/fire/barrier-wall-flame-ring-yellow.webp",
           "range": "",
           "areas": [
@@ -15320,7 +15320,7 @@
             "difficulty": null,
             "damageMod": "none"
           },
-          "name": "Cast",
+          "name": "Lancer",
           "img": "icons/magic/air/air-pressure-shield-blue.webp",
           "range": "melee",
           "baseAction": false,
@@ -15423,7 +15423,7 @@
             "type": "self",
             "amount": null
           },
-          "name": "Vanish",
+          "name": "Disparaître",
           "img": "icons/magic/perception/shadow-stealth-eyes-purple.webp",
           "range": "close",
           "baseAction": false,
@@ -15606,7 +15606,7 @@
             },
             "useDefault": false
           },
-          "name": "Spend a Hope",
+          "name": "Dépenser 1 Espoir",
           "img": "icons/magic/life/heart-cross-green.webp",
           "range": "",
           "baseAction": false,
@@ -15719,7 +15719,7 @@
             "difficulty": null,
             "damageMod": "none"
           },
-          "name": "Cast",
+          "name": "Lancer",
           "img": "icons/magic/control/debuff-energy-hold-pink.webp",
           "range": "",
           "baseAction": false,
@@ -15855,7 +15855,7 @@
             },
             "useDefault": false
           },
-          "name": "Clear Armor",
+          "name": "Effacer une Armure",
           "img": "icons/equipment/chest/breastplate-collared-steel-grey.webp",
           "range": "",
           "baseAction": false,
@@ -16033,7 +16033,7 @@
             "difficulty": null,
             "damageMod": "none"
           },
-          "name": "Reflect Back",
+          "name": "Renvoyer",
           "img": "icons/magic/defensive/barrier-shield-dome-deflect-blue.webp",
           "range": "",
           "baseAction": false,
@@ -16136,7 +16136,7 @@
             "type": "any",
             "amount": null
           },
-          "name": "Mark with Sigil",
+          "name": "Marquer d’un sceau",
           "img": "icons/magic/defensive/shield-barrier-deflect-gold.webp",
           "range": "",
           "baseAction": false,
@@ -16306,7 +16306,7 @@
             "difficulty": null,
             "damageMod": "none"
           },
-          "name": "Transform",
+          "name": "Se transformer",
           "img": "icons/containers/barrels/barrel-reinforced-cherry-brown.webp",
           "range": "self",
           "baseAction": false,
@@ -16364,7 +16364,7 @@
             "difficulty": null,
             "damageMod": "none"
           },
-          "name": "Eternal Enervation",
+          "name": "Énervation éternelle",
           "img": "icons/magic/unholy/hand-light-green.webp",
           "range": "close",
           "baseAction": false,
@@ -16602,7 +16602,7 @@
             "difficulty": null,
             "damageMod": "none"
           },
-          "name": "Cast",
+          "name": "Lancer",
           "img": "icons/magic/fire/flame-burning-fist-strike.webp",
           "range": "",
           "baseAction": false,
@@ -16666,7 +16666,7 @@
             "amount": null
           },
           "effects": [],
-          "name": "On Fire: Damage",
+          "name": "En feu : dégâts",
           "img": "icons/magic/fire/flame-burning-earth-orange.webp",
           "range": "",
           "baseAction": false,
@@ -16818,7 +16818,7 @@
             "type": "any",
             "amount": null
           },
-          "name": "Mark a Stress",
+          "name": "Marquer 1 Stress",
           "img": "icons/magic/control/silhouette-aura-energy.webp",
           "range": "",
           "baseAction": false,
@@ -16971,7 +16971,7 @@
             "difficulty": null,
             "damageMod": "none"
           },
-          "name": "Cast",
+          "name": "Lancer",
           "img": "icons/magic/lightning/bolts-forked-large-blue-yellow.webp",
           "range": "close",
           "areas": [
@@ -17044,7 +17044,7 @@
             "amount": null
           },
           "effects": [],
-          "name": "Chain Damage",
+          "name": "Dégâts en chaîne",
           "img": "icons/magic/lightning/bolt-forked-large-magenta.webp",
           "range": "",
           "baseAction": false,
@@ -17162,7 +17162,7 @@
             "difficulty": null,
             "damageMod": "none"
           },
-          "name": "Pull",
+          "name": "Attirer",
           "img": "icons/magic/nature/root-vine-entangled-hand.webp",
           "range": "close",
           "baseAction": false,
@@ -17248,7 +17248,7 @@
             "difficulty": null,
             "damageMod": "none"
           },
-          "name": "Constrict",
+          "name": "Étreindre",
           "img": "icons/magic/nature/root-vines-knot-brown.webp",
           "range": "close",
           "baseAction": false,
@@ -17337,7 +17337,7 @@
             "difficulty": null,
             "damageMod": "none"
           },
-          "name": "Hit All Adversaries Between",
+          "name": "Toucher tous les adversaires entre les deux",
           "img": "icons/magic/nature/root-vine-beanstalk-moon.webp",
           "range": "",
           "areas": [
@@ -17595,7 +17595,7 @@
             "difficulty": null,
             "damageMod": "none"
           },
-          "name": "Timejammer",
+          "name": "Brouilleur temporel",
           "img": "icons/magic/time/hourglass-tilted-glowing-gold.webp",
           "range": "far",
           "areas": [
@@ -17647,7 +17647,7 @@
             "type": "self",
             "amount": null
           },
-          "name": "Magic Immunity",
+          "name": "Immunité magique",
           "img": "icons/magic/defensive/barrier-shield-dome-deflect-teal.webp",
           "range": "self",
           "baseAction": false,
@@ -17860,7 +17860,7 @@
             "difficulty": null,
             "damageMod": "none"
           },
-          "name": "Cast",
+          "name": "Lancer",
           "img": "icons/magic/light/projectiles-pink-purple.webp",
           "range": "far",
           "baseAction": false,
@@ -17951,7 +17951,7 @@
             },
             "useDefault": false
           },
-          "name": "Replenish Tokens",
+          "name": "Récupérer des jetons",
           "range": "self",
           "img": "icons/commodities/gems/gem-faceted-diamond-blue.webp"
         }
@@ -18034,7 +18034,7 @@
             "type": "self",
             "amount": null
           },
-          "name": "Avoid",
+          "name": "Éviter",
           "img": "icons/skills/movement/feet-winged-boots-brown.webp",
           "range": "melee",
           "baseAction": false,
@@ -18161,7 +18161,7 @@
             "difficulty": null,
             "damageMod": "none"
           },
-          "name": "Cast",
+          "name": "Lancer",
           "img": "icons/magic/symbols/runes-triangle-blue.webp",
           "range": "veryClose",
           "baseAction": false,
@@ -18325,7 +18325,7 @@
             "type": "self",
             "amount": null
           },
-          "name": "Charge Smite",
+          "name": "Charger la Frappe",
           "img": "icons/skills/melee/sword-winged-holy-orange.webp",
           "range": "self",
           "baseAction": false,
@@ -18491,7 +18491,7 @@
             "difficulty": null,
             "damageMod": "none"
           },
-          "name": "Teleport",
+          "name": "Se téléporter",
           "img": "icons/magic/symbols/runes-star-orange-purple.webp",
           "range": "veryClose",
           "baseAction": false,
@@ -18594,7 +18594,7 @@
             "type": "any",
             "amount": null
           },
-          "name": "Mark Stress",
+          "name": "Marquer du Stress",
           "img": "icons/skills/movement/arrow-upward-yellow.webp",
           "range": "",
           "baseAction": false,
@@ -18764,7 +18764,7 @@
             "difficulty": null,
             "damageMod": "none"
           },
-          "name": "Enrapture",
+          "name": "Envoûter",
           "img": "icons/magic/control/hypnosis-mesmerism-eye.webp",
           "range": "close",
           "baseAction": false,
@@ -18834,7 +18834,7 @@
             "amount": null
           },
           "effects": [],
-          "name": "Mark Stress",
+          "name": "Marquer du Stress",
           "img": "icons/commodities/gems/gem-faceted-navette-red.webp",
           "range": "close",
           "baseAction": false,
@@ -19045,7 +19045,7 @@
             "difficulty": 15,
             "damageMod": "half"
           },
-          "name": "Spend Hope",
+          "name": "Dépenser de l’Espoir",
           "range": "close",
           "img": "icons/magic/fire/projectile-embers-orange.webp"
         }
@@ -19157,7 +19157,7 @@
             "difficulty": null,
             "damageMod": "none"
           },
-          "name": "Cast",
+          "name": "Lancer",
           "img": "icons/magic/unholy/barrier-shield-glowing-pink.webp",
           "range": "self",
           "areas": [
@@ -19324,7 +19324,7 @@
             "type": "any",
             "amount": null
           },
-          "name": "Double Agility",
+          "name": "Doubler l’Agilité",
           "img": "systems/daggerheart/assets/icons/domains/domain-card/sage.png",
           "range": "",
           "baseAction": false,
@@ -19367,7 +19367,7 @@
             "type": "any",
             "amount": null
           },
-          "name": "Double Instinct",
+          "name": "Doubler l’Instinct",
           "img": "systems/daggerheart/assets/icons/domains/domain-card/sage.png",
           "range": "",
           "baseAction": false,
@@ -19610,7 +19610,7 @@
             "type": "any",
             "amount": null
           },
-          "name": "Take Stress",
+          "name": "Subir du Stress",
           "img": "systems/daggerheart/assets/icons/domains/domain-card/grace.png",
           "range": "",
           "baseAction": false,
@@ -19723,7 +19723,7 @@
             "difficulty": null,
             "damageMod": "none"
           },
-          "name": "Agility Roll",
+          "name": "Jet d’Agilité",
           "img": "icons/skills/melee/sword-engraved-glow-purple.webp",
           "range": "close",
           "areas": [
@@ -19873,7 +19873,7 @@
             "difficulty": null,
             "damageMod": "none"
           },
-          "name": "Provoke",
+          "name": "Provoquer",
           "img": "icons/magic/control/fear-fright-monster-purple-blue.webp",
           "range": "far",
           "baseAction": false,
@@ -20024,7 +20024,7 @@
             },
             "useDefault": false
           },
-          "name": "Gain Tokens",
+          "name": "Gagner des jetons",
           "range": "self",
           "img": "icons/magic/nature/thorns-hand-glow-green.webp"
         },
@@ -20056,7 +20056,7 @@
             "type": "any",
             "amount": null
           },
-          "name": "Use Tokens",
+          "name": "Utiliser des jetons",
           "img": "icons/commodities/gems/gem-faceted-diamond-blue.webp",
           "range": "",
           "baseAction": false,
@@ -20218,7 +20218,7 @@
             "difficulty": 16,
             "damageMod": "none"
           },
-          "name": "Horrify",
+          "name": "Terrifier",
           "img": "icons/creatures/magical/spirit-fear-energy-pink.webp",
           "range": "veryClose",
           "areas": [
@@ -20298,7 +20298,7 @@
             "amount": null
           },
           "effects": [],
-          "name": "Steal Fear",
+          "name": "Voler de la Peur",
           "img": "icons/commodities/gems/gem-faceted-diamond-pink.webp",
           "range": "",
           "baseAction": false,
@@ -20498,7 +20498,7 @@
             },
             "useDefault": false
           },
-          "name": "Cast",
+          "name": "Lancer",
           "img": "icons/magic/light/beams-rays-orange-purple-large.webp",
           "range": "far",
           "areas": [
@@ -20669,7 +20669,7 @@
             "type": "any",
             "amount": null
           },
-          "name": "Ask Questions",
+          "name": "Poser des questions",
           "img": "icons/magic/nature/stealth-hide-eyes-green.webp",
           "range": "",
           "baseAction": false,
@@ -21027,7 +21027,7 @@
             },
             "useDefault": false
           },
-          "name": "Gain Hope",
+          "name": "Gagner de l’Espoir",
           "img": "icons/commodities/gems/gem-faceted-octagon-yellow.webp",
           "range": "",
           "baseAction": false,
@@ -21065,7 +21065,7 @@
             "type": "any",
             "amount": null
           },
-          "name": "Mark Stress",
+          "name": "Marquer du Stress",
           "img": "icons/skills/wounds/anatomy-organ-brain-pink-red.webp",
           "range": "",
           "baseAction": false,
@@ -21246,7 +21246,7 @@
             },
             "useDefault": false
           },
-          "name": "1. Unique Food (Stress)",
+          "name": "1. Nourriture unique (Stress)",
           "img": "icons/consumables/fruit/apple-ripe-red.webp",
           "range": "",
           "baseAction": false,
@@ -21322,7 +21322,7 @@
             },
             "useDefault": false
           },
-          "name": "2. Beautiful Relic (Hope)",
+          "name": "2. Belle relique (Espoir)",
           "img": "icons/commodities/gems/gem-faceted-octagon-yellow.webp",
           "range": "",
           "baseAction": false,
@@ -21356,7 +21356,7 @@
             "type": "any",
             "amount": null
           },
-          "name": "3. Arcane Rune (Spellcast Roll)",
+          "name": "3. Rune arcanique (Jet d’Incantation)",
           "img": "icons/magic/symbols/runes-carved-stone-green.webp",
           "range": "",
           "baseAction": false,
@@ -21432,7 +21432,7 @@
             },
             "useDefault": false
           },
-          "name": "4. Healing Vial (HP)",
+          "name": "4. Fiole de soin (PV)",
           "img": "icons/consumables/potions/bottle-bulb-corked-green.webp",
           "range": "",
           "baseAction": false,
@@ -21582,7 +21582,7 @@
             "type": "any",
             "amount": null
           },
-          "name": "Summon Spirit",
+          "name": "Invoquer un esprit",
           "img": "icons/creatures/magical/spirit-undead-ghost-blue.webp",
           "range": "",
           "baseAction": false,
@@ -21675,7 +21675,7 @@
             "difficulty": null,
             "damageMod": "none"
           },
-          "name": "Attack Adversary",
+          "name": "Attaquer un adversaire",
           "img": "icons/creatures/magical/spirit-undead-ghost-purple.webp",
           "range": "veryFar",
           "baseAction": false,
@@ -21789,7 +21789,7 @@
             "difficulty": null,
             "damageMod": "none"
           },
-          "name": "Spellcast Roll",
+          "name": "Jet d’Incantation",
           "img": "icons/magic/control/encase-creature-humanoid-hold.webp",
           "range": "close",
           "baseAction": false,
@@ -21898,7 +21898,7 @@
             "type": "any",
             "amount": 1
           },
-          "name": "Mark Stress",
+          "name": "Marquer du Stress",
           "range": "close",
           "img": "icons/magic/unholy/orb-contained-pink.webp"
         }
@@ -22057,7 +22057,7 @@
             "difficulty": null,
             "damageMod": "none"
           },
-          "name": "Spellcast Roll",
+          "name": "Jet d’Incantation",
           "img": "icons/magic/light/beam-rays-teal-large.webp",
           "range": "far",
           "baseAction": false,
@@ -22184,7 +22184,7 @@
             "difficulty": null,
             "damageMod": "none"
           },
-          "name": "Cast",
+          "name": "Lancer",
           "img": "icons/creatures/magical/humanoid-silhouette-dashing-blue.webp",
           "range": "",
           "baseAction": false,
@@ -22339,7 +22339,7 @@
             "type": "self",
             "amount": null
           },
-          "name": "Become Cloaked",
+          "name": "Se dissimuler",
           "img": "icons/magic/perception/shadow-stealth-eyes-purple.webp",
           "range": "self",
           "baseAction": false,
@@ -22536,7 +22536,7 @@
             },
             "useDefault": false
           },
-          "name": "Heal Hitpoints",
+          "name": "Soigner des Points de vie",
           "img": "icons/commodities/gems/gem-faceted-diamond-green.webp",
           "range": "",
           "baseAction": false,
@@ -22621,7 +22621,7 @@
             },
             "useDefault": false
           },
-          "name": "Reduce Stress",
+          "name": "Réduire le Stress",
           "img": "icons/commodities/gems/gem-faceted-navette-red.webp",
           "range": "",
           "baseAction": false,
@@ -22659,7 +22659,7 @@
             "type": "any",
             "amount": null
           },
-          "name": "Remove Condition",
+          "name": "Retirer un état",
           "img": "icons/magic/light/beam-rays-yellow.webp",
           "range": "",
           "baseAction": false,
@@ -22804,7 +22804,7 @@
             },
             "useDefault": false
           },
-          "name": "Clear 1 HP",
+          "name": "Effacer 1 PV",
           "img": "icons/magic/life/heart-cross-green.webp",
           "range": "",
           "baseAction": false,
@@ -22889,7 +22889,7 @@
             },
             "useDefault": false
           },
-          "name": "Clear 1 Armor Slot",
+          "name": "Effacer 1 emplacement d’Armure",
           "img": "icons/equipment/chest/breastplate-helmet-metal.webp",
           "range": "",
           "baseAction": false,
@@ -22959,7 +22959,7 @@
             "amount": null
           },
           "effects": [],
-          "name": "Deal 1 HP Damage",
+          "name": "Infliger 1 PV de dégâts",
           "img": "icons/skills/melee/strike-axe-blood-red.webp",
           "range": "",
           "baseAction": false,
@@ -23183,7 +23183,7 @@
             "difficulty": null,
             "damageMod": "none"
           },
-          "name": "Create First Layer",
+          "name": "Créer la première couche",
           "img": "icons/magic/defensive/illusion-evasion-echo-purple.webp",
           "range": "",
           "baseAction": false,
@@ -23245,7 +23245,7 @@
             "difficulty": null,
             "damageMod": "none"
           },
-          "name": "Create Extra Layers",
+          "name": "Créer des couches supplémentaires",
           "img": "icons/skills/wounds/anatomy-organ-brain-pink-red.webp",
           "range": "",
           "baseAction": false,
@@ -23348,7 +23348,7 @@
             "type": "self",
             "amount": null
           },
-          "name": "Spend Hope",
+          "name": "Dépenser de l’Espoir",
           "img": "icons/magic/holy/barrier-shield-winged-blue.webp",
           "range": "self",
           "baseAction": false,
@@ -23382,7 +23382,7 @@
             "type": "any",
             "amount": 1
           },
-          "name": "Restrain",
+          "name": "Entraver",
           "img": "icons/magic/defensive/shield-barrier-blue.webp",
           "range": "veryClose",
           "baseAction": false,
@@ -23577,7 +23577,7 @@
             "type": "any",
             "amount": null
           },
-          "name": "Shape",
+          "name": "Façonner",
           "img": "icons/commodities/stone/geode-raw-white.webp",
           "range": "",
           "baseAction": false,
@@ -23801,7 +23801,7 @@
             "type": "any",
             "amount": null
           },
-          "name": "Spend a Hope",
+          "name": "Dépenser 1 Espoir",
           "img": "icons/magic/control/buff-flight-wings-runes-purple-orange.webp",
           "range": "",
           "areas": [
@@ -23923,7 +23923,7 @@
             "difficulty": null,
             "damageMod": "none"
           },
-          "name": "Memory Delve",
+          "name": "Explorer la mémoire",
           "img": "icons/magic/control/hypnosis-mesmerism-eye.webp",
           "range": "far",
           "baseAction": false,
@@ -23966,7 +23966,7 @@
             "type": "any",
             "amount": 2
           },
-          "name": "Shared Clarity",
+          "name": "Clarté partagée",
           "img": "icons/magic/control/energy-stream-link-large-teal.webp",
           "range": "",
           "baseAction": false,
@@ -24108,7 +24108,7 @@
             "type": "any",
             "amount": null
           },
-          "name": "Ask one Question",
+          "name": "Poser une question",
           "img": "icons/skills/trades/academics-astronomy-navigation-blue.webp",
           "range": "",
           "baseAction": false,
@@ -24280,7 +24280,7 @@
             "difficulty": null,
             "damageMod": "none"
           },
-          "name": "Wild Flame",
+          "name": "Flamme sauvage",
           "img": "icons/magic/fire/projectile-feathers-embers-gold.webp",
           "range": "melee",
           "baseAction": false,
@@ -24309,7 +24309,7 @@
             "type": "any",
             "amount": null
           },
-          "name": "Magic Hand",
+          "name": "Main magique",
           "img": "icons/magic/death/hand-withered-gray.webp",
           "range": "far",
           "baseAction": false,
@@ -24362,7 +24362,7 @@
             "difficulty": null,
             "damageMod": "none"
           },
-          "name": "Mysterious Mist",
+          "name": "Brume mystérieuse",
           "img": "icons/magic/air/fog-gas-smoke-dense-gray.webp",
           "range": "veryClose",
           "baseAction": false,
@@ -24527,7 +24527,7 @@
             "difficulty": null,
             "damageMod": "none"
           },
-          "name": "Spellcast Roll",
+          "name": "Jet d’Incantation",
           "range": "",
           "img": "icons/magic/unholy/barrier-shield-glowing-pink.webp"
         },
@@ -24588,7 +24588,7 @@
             "amount": null
           },
           "effects": [],
-          "name": "Wall Damage",
+          "name": "Dégâts du mur",
           "range": "",
           "img": "icons/magic/unholy/hand-fire-skeleton-pink.webp"
         }
@@ -24695,7 +24695,7 @@
             "difficulty": null,
             "damageMod": "none"
           },
-          "name": "Infuse Corpse",
+          "name": "Infuser un cadavre",
           "img": "icons/magic/death/undead-skeleton-fire-green.webp",
           "range": "",
           "baseAction": false,
@@ -24789,7 +24789,7 @@
             "type": "any",
             "amount": null
           },
-          "name": "Spend Hope",
+          "name": "Dépenser de l’Espoir",
           "img": "icons/magic/life/cross-beam-green.webp",
           "range": "",
           "baseAction": false,
@@ -25062,7 +25062,7 @@
             },
             "useDefault": false
           },
-          "name": "Don Facade",
+          "name": "Revêtir une façade",
           "range": "self",
           "img": "icons/magic/control/debuff-energy-hold-pink.webp"
         },
@@ -25094,7 +25094,7 @@
             "type": "any",
             "amount": null
           },
-          "name": "Spend Token",
+          "name": "Dépenser un jeton",
           "img": "icons/commodities/gems/gem-faceted-diamond-blue.webp",
           "range": "",
           "baseAction": false,
@@ -25342,7 +25342,7 @@
             },
             "useDefault": false
           },
-          "name": "Gain 3 Hope",
+          "name": "Gagner 3 Espoir",
           "img": "icons/magic/light/beam-rays-yellow.webp",
           "range": "",
           "baseAction": false,
@@ -25478,7 +25478,7 @@
             "amount": null
           },
           "effects": [],
-          "name": "Mark Stress",
+          "name": "Marquer du Stress",
           "range": "",
           "img": "icons/skills/melee/strike-axe-red.webp"
         }
@@ -25594,7 +25594,7 @@
             "difficulty": null,
             "damageMod": "none"
           },
-          "name": "Roll d6",
+          "name": "Lancer 1d6",
           "img": "icons/magic/defensive/shield-barrier-deflect-teal.webp",
           "range": "",
           "baseAction": false,
@@ -25851,7 +25851,7 @@
             "type": "self",
             "amount": null
           },
-          "name": "Adjust Appearance",
+          "name": "Modifier l’apparence",
           "img": "icons/magic/defensive/shield-barrier-blades-teal.webp",
           "range": "self",
           "baseAction": false,
@@ -25894,7 +25894,7 @@
             "type": "friendly",
             "amount": 1
           },
-          "name": "Parallela",
+          "name": "Parallèle",
           "img": "icons/magic/defensive/illusion-evasion-echo-purple.webp",
           "range": "close",
           "baseAction": false,
@@ -26137,7 +26137,7 @@
             "type": "any",
             "amount": null
           },
-          "name": "Summon Familiar",
+          "name": "Invoquer un familier",
           "img": "icons/creatures/amphibians/bullfrog-glass-teal.webp",
           "range": "",
           "baseAction": false,
@@ -26190,7 +26190,7 @@
             "difficulty": null,
             "damageMod": "none"
           },
-          "name": "Perform Task",
+          "name": "Accomplir une tâche",
           "img": "icons/creatures/amphibians/treefrog-leaf-green.webp",
           "range": "",
           "baseAction": false,
@@ -26228,7 +26228,7 @@
             "type": "any",
             "amount": null
           },
-          "name": "See Through Eyes",
+          "name": "Voir par ses yeux",
           "img": "icons/magic/perception/eye-ringed-green.webp",
           "range": "",
           "baseAction": false,
@@ -26385,7 +26385,7 @@
             "type": "any",
             "amount": null
           },
-          "name": "Project",
+          "name": "Projeter",
           "img": "icons/magic/perception/orb-crystal-ball-scrying.webp",
           "range": "",
           "baseAction": false,
@@ -26498,7 +26498,7 @@
             "difficulty": null,
             "damageMod": "none"
           },
-          "name": "Reshape Natural World",
+          "name": "Remodeler le monde naturel",
           "img": "icons/magic/nature/tree-elm-roots-brown.webp",
           "range": "far",
           "baseAction": false,
@@ -26601,7 +26601,7 @@
             "type": "friendly",
             "amount": 2
           },
-          "name": "Spend Hope",
+          "name": "Dépenser de l’Espoir",
           "img": "icons/magic/light/explosion-beam-impact-silhouette.webp",
           "range": "",
           "baseAction": false,
@@ -26780,7 +26780,7 @@
             "difficulty": null,
             "damageMod": "none"
           },
-          "name": "Cast",
+          "name": "Lancer",
           "img": "icons/magic/holy/angel-winged-humanoid-blue.webp",
           "range": "self",
           "baseAction": false,
@@ -26953,7 +26953,7 @@
             "difficulty": null,
             "damageMod": "none"
           },
-          "name": "Runic Lock",
+          "name": "Verrou runique",
           "img": "icons/magic/symbols/runes-star-blue.webp",
           "range": "",
           "baseAction": false,
@@ -27015,7 +27015,7 @@
             "difficulty": null,
             "damageMod": "none"
           },
-          "name": "Arcane Door",
+          "name": "Porte arcanique",
           "img": "icons/magic/symbols/rune-sigil-horned-blue.webp",
           "range": "far",
           "baseAction": false,
@@ -27068,7 +27068,7 @@
             "difficulty": null,
             "damageMod": "none"
           },
-          "name": "Reveal",
+          "name": "Révéler",
           "img": "icons/magic/perception/orb-crystal-ball-scrying-blue.webp",
           "range": "close",
           "baseAction": false,
@@ -27236,7 +27236,7 @@
             },
             "useDefault": false
           },
-          "name": "Clear Stress & Gain Hope",
+          "name": "Effacer du Stress et gagner de l’Espoir",
           "img": "icons/magic/control/buff-flight-wings-runes-purple.webp",
           "range": "",
           "baseAction": false,
@@ -27418,7 +27418,7 @@
             "difficulty": null,
             "damageMod": "none"
           },
-          "name": "Spend Hope",
+          "name": "Dépenser de l’Espoir",
           "img": "icons/skills/melee/strike-sword-steel-yellow.webp",
           "range": "",
           "baseAction": false,
@@ -27512,7 +27512,7 @@
             "type": "any",
             "amount": 1
           },
-          "name": "Mark",
+          "name": "Marquer",
           "img": "icons/magic/symbols/triangle-glow-purple.webp",
           "range": "close",
           "baseAction": false,
@@ -27654,7 +27654,7 @@
             "type": "any",
             "amount": null
           },
-          "name": "Switch Duality Results",
+          "name": "Inverser les résultats de Dualité",
           "img": "icons/commodities/gems/gem-faceted-octagon-yellow.webp",
           "range": "",
           "baseAction": false,
@@ -27809,7 +27809,7 @@
             "type": "any",
             "amount": null
           },
-          "name": "Spend Hope",
+          "name": "Dépenser de l’Espoir",
           "img": "icons/skills/melee/shield-block-bash-yellow.webp",
           "range": "",
           "baseAction": false,
@@ -27999,7 +27999,7 @@
             },
             "useDefault": false
           },
-          "name": "Clear Stress",
+          "name": "Effacer du Stress",
           "img": "icons/magic/life/cross-beam-green.webp",
           "range": "",
           "baseAction": false,
@@ -28075,7 +28075,7 @@
             },
             "useDefault": false
           },
-          "name": "Gain Hope",
+          "name": "Gagner de l’Espoir",
           "img": "icons/magic/life/cross-beam-green.webp",
           "range": "",
           "baseAction": false,
@@ -28197,7 +28197,7 @@
             "difficulty": null,
             "damageMod": "none"
           },
-          "name": "Roll Dice Pool",
+          "name": "Lancer la réserve de dés",
           "img": "icons/commodities/gems/gem-faceted-octagon-yellow.webp",
           "range": "",
           "baseAction": false,
@@ -28324,7 +28324,7 @@
             "difficulty": null,
             "damageMod": "none"
           },
-          "name": "Tekaira's Armored Beetles: Stress",
+          "name": "Scarabées cuirassés de Tekaira : Stress",
           "img": "icons/creatures/invertebrates/wasp-swarm-attack.webp",
           "range": "self",
           "baseAction": false,
@@ -28362,7 +28362,7 @@
             "type": "any",
             "amount": null
           },
-          "name": "Keep Beetles",
+          "name": "Conserver les scarabées",
           "img": "icons/commodities/gems/gem-faceted-octagon-yellow.webp",
           "range": "",
           "baseAction": false,
@@ -28455,7 +28455,7 @@
             "difficulty": null,
             "damageMod": "none"
           },
-          "name": "Fire Flies: Cast",
+          "name": "Lucioles de feu : Incantation",
           "img": "icons/creatures/invertebrates/wasp-swarm-movement.webp",
           "range": "close",
           "areas": [
@@ -28636,7 +28636,7 @@
             "difficulty": null,
             "damageMod": "none"
           },
-          "name": "Spellcast Roll",
+          "name": "Jet d’Incantation",
           "img": "icons/magic/movement/pinwheel-turning-blue.webp",
           "range": "",
           "baseAction": false,
@@ -28754,7 +28754,7 @@
             "difficulty": null,
             "damageMod": "none"
           },
-          "name": "Enrapture",
+          "name": "Envoûter",
           "img": "icons/magic/control/hypnosis-mesmerism-eye.webp",
           "range": "far",
           "areas": [
@@ -28833,7 +28833,7 @@
             "amount": null
           },
           "effects": [],
-          "name": "Mark Stress",
+          "name": "Marquer du Stress",
           "img": "icons/commodities/gems/gem-faceted-navette-red.webp",
           "range": "",
           "baseAction": false,
@@ -29029,7 +29029,7 @@
             "difficulty": null,
             "damageMod": "none"
           },
-          "name": "Power Push",
+          "name": "Poussée de puissance",
           "img": "icons/magic/movement/trail-streak-impact-blue.webp",
           "range": "melee",
           "baseAction": false,
@@ -29072,7 +29072,7 @@
             "type": "any",
             "amount": 1
           },
-          "name": "Tava's Armor",
+          "name": "Armure de Tava",
           "img": "icons/magic/defensive/shield-barrier-glowing-triangle-blue.webp",
           "range": "",
           "baseAction": false,
@@ -29125,7 +29125,7 @@
             "difficulty": null,
             "damageMod": "none"
           },
-          "name": "Ice Spike",
+          "name": "Pointe de glace",
           "img": "icons/magic/water/projectile-icecicle.webp",
           "range": "",
           "baseAction": false,
@@ -29209,7 +29209,7 @@
             "difficulty": null,
             "damageMod": "none"
           },
-          "name": "Ice Spike (Attack)",
+          "name": "Pointe de glace (attaque)",
           "img": "icons/magic/water/projectile-icecicle.webp",
           "range": "",
           "baseAction": false,
@@ -29376,7 +29376,7 @@
             "type": "self",
             "amount": null
           },
-          "name": "Spend Hope",
+          "name": "Dépenser de l’Espoir",
           "img": "icons/magic/holy/barrier-shield-winged-blue.webp",
           "range": "self",
           "baseAction": false,
@@ -29405,7 +29405,7 @@
             "type": "self",
             "amount": null
           },
-          "name": "Avoid Condition",
+          "name": "Éviter l’état",
           "img": "icons/skills/wounds/blood-cells-disease-green.webp",
           "range": "",
           "baseAction": false,
@@ -29674,7 +29674,7 @@
             "type": "any",
             "amount": null
           },
-          "name": "Spend Hope",
+          "name": "Dépenser de l’Espoir",
           "img": "icons/magic/movement/trail-streak-zigzag-yellow.webp",
           "range": "far",
           "baseAction": false,
@@ -29901,7 +29901,7 @@
             "type": "any",
             "amount": null
           },
-          "name": "Mark Stress",
+          "name": "Marquer du Stress",
           "range": "",
           "img": "icons/magic/death/skull-energy-light-purple.webp"
         }
@@ -30071,7 +30071,7 @@
             "difficulty": null,
             "damageMod": "none"
           },
-          "name": "Spend Hope",
+          "name": "Dépenser de l’Espoir",
           "img": "icons/magic/symbols/ring-circle-smoke-blue.webp",
           "range": "",
           "areas": [
@@ -30178,7 +30178,7 @@
             "type": "any",
             "amount": null
           },
-          "name": "Spend Hope",
+          "name": "Dépenser de l’Espoir",
           "img": "icons/skills/melee/maneuver-sword-katana-yellow.webp",
           "range": "",
           "triggers": [],
@@ -30300,7 +30300,7 @@
             "difficulty": null,
             "damageMod": "none"
           },
-          "name": "Reduce Damage",
+          "name": "Réduire les dégâts",
           "img": "icons/commodities/gems/gem-faceted-diamond-pink-gold.webp",
           "range": "",
           "baseAction": false,
@@ -30403,7 +30403,7 @@
             "type": "any",
             "amount": 1
           },
-          "name": "Mark Stress",
+          "name": "Marquer du Stress",
           "img": "icons/skills/wounds/bone-broken-knee-beam.webp",
           "range": "",
           "baseAction": false,
@@ -30583,7 +30583,7 @@
             },
             "useDefault": false
           },
-          "name": "Repair Armor",
+          "name": "Réparer l’Armure",
           "img": "icons/tools/hand/hammer-and-nail.webp",
           "range": "",
           "baseAction": false,
@@ -30742,7 +30742,7 @@
             "type": "any",
             "amount": null
           },
-          "name": "Read Surface Thoughts",
+          "name": "Lire les pensées superficielles",
           "img": "icons/magic/control/hypnosis-mesmerism-watch.webp",
           "range": "far",
           "baseAction": false,
@@ -30795,7 +30795,7 @@
             "difficulty": null,
             "damageMod": "none"
           },
-          "name": "Delve Deeper",
+          "name": "Sonder plus profondément",
           "img": "icons/magic/control/fear-fright-shadow-monster-purple.webp",
           "range": "far",
           "baseAction": false,
@@ -30942,7 +30942,7 @@
             "type": "any",
             "amount": null
           },
-          "name": "Spend Hope",
+          "name": "Dépenser de l’Espoir",
           "img": "icons/environment/settlement/watchtower-moonlit-blue.webp",
           "range": "",
           "baseAction": false,
@@ -31255,7 +31255,7 @@
             },
             "useDefault": false
           },
-          "name": "Healing",
+          "name": "Soigner",
           "img": "icons/magic/life/heart-cross-strong-purple-orange.webp",
           "range": "",
           "baseAction": false,
@@ -31400,7 +31400,7 @@
             },
             "useDefault": false
           },
-          "name": "Clear Hit Point",
+          "name": "Effacer 1 Point de vie",
           "img": "icons/commodities/gems/gem-faceted-diamond-green.webp",
           "range": "close",
           "baseAction": false,
@@ -31498,7 +31498,7 @@
             "type": "any",
             "amount": null
           },
-          "name": "Activate",
+          "name": "Activer",
           "img": "icons/magic/air/air-smoke-casting.webp",
           "range": "",
           "baseAction": false,
@@ -31536,7 +31536,7 @@
             "type": "any",
             "amount": null
           },
-          "name": "Retreat",
+          "name": "Battre en retraite",
           "img": "icons/magic/control/silhouette-hold-beam-blue.webp",
           "range": "",
           "baseAction": false,
@@ -31640,7 +31640,7 @@
             "type": "self",
             "amount": null
           },
-          "name": "Transform",
+          "name": "Se transformer",
           "img": "icons/magic/nature/elemental-plant-humanoid.webp",
           "range": "self",
           "baseAction": false,
@@ -31678,7 +31678,7 @@
             "type": "any",
             "amount": null
           },
-          "name": "Spend Hope for Action",
+          "name": "Dépenser de l’Espoir pour agir",
           "img": "icons/commodities/gems/gem-faceted-octagon-yellow.webp",
           "range": "",
           "baseAction": false,
@@ -31880,7 +31880,7 @@
             },
             "useDefault": false
           },
-          "name": "Clear Stress",
+          "name": "Effacer du Stress",
           "img": "icons/magic/control/buff-flight-wings-runes-purple.webp",
           "range": "",
           "baseAction": false,
@@ -31956,7 +31956,7 @@
             },
             "useDefault": false
           },
-          "name": "Gain Hope",
+          "name": "Gagner de l’Espoir",
           "img": "icons/magic/holy/barrier-shield-winged-blue.webp",
           "range": "",
           "baseAction": false,
@@ -32069,7 +32069,7 @@
             "difficulty": null,
             "damageMod": "none"
           },
-          "name": "Move Target",
+          "name": "Déplacer la cible",
           "img": "icons/magic/light/hand-sparks-smoke-teal.webp",
           "range": "far",
           "baseAction": false,
@@ -32153,7 +32153,7 @@
             "difficulty": null,
             "damageMod": "none"
           },
-          "name": "Throw Target",
+          "name": "Projeter la cible",
           "img": "icons/magic/control/energy-stream-link-spiral-blue.webp",
           "range": "far",
           "baseAction": false,
@@ -32266,7 +32266,7 @@
             "difficulty": null,
             "damageMod": "none"
           },
-          "name": "Pass Through",
+          "name": "Traverser",
           "img": "icons/magic/symbols/cross-circle-blue.webp",
           "range": "close",
           "baseAction": false,
@@ -32319,7 +32319,7 @@
             "difficulty": null,
             "damageMod": "none"
           },
-          "name": "Plane Gate",
+          "name": "Portail planaire",
           "img": "icons/magic/movement/portal-vortex-orange.webp",
           "range": "",
           "baseAction": false,
@@ -32548,7 +32548,7 @@
             "difficulty": null,
             "damageMod": "none"
           },
-          "name": "Cast",
+          "name": "Lancer",
           "img": "icons/magic/life/heart-hand-gold-green-light.webp",
           "range": "melee",
           "baseAction": false,
@@ -32633,7 +32633,7 @@
             },
             "useDefault": false
           },
-          "name": "Heal One Hit Point",
+          "name": "Soigner 1 Point de vie",
           "img": "icons/commodities/gems/gem-faceted-diamond-green.webp",
           "range": "melee",
           "baseAction": false,
@@ -32718,7 +32718,7 @@
             },
             "useDefault": false
           },
-          "name": "Heal Two Hit Points",
+          "name": "Soigner 2 Points de vie",
           "img": "icons/commodities/gems/gem-faceted-diamond-green.webp",
           "range": "melee",
           "baseAction": false,
@@ -32803,7 +32803,7 @@
             },
             "useDefault": false
           },
-          "name": "Heal One Stress",
+          "name": "Soigner 1 Stress",
           "img": "icons/commodities/gems/gem-faceted-navette-red.webp",
           "range": "",
           "baseAction": false,
@@ -32888,7 +32888,7 @@
             },
             "useDefault": false
           },
-          "name": "Heal Two Stress",
+          "name": "Soigner 2 Stress",
           "img": "icons/commodities/gems/gem-faceted-navette-red.webp",
           "range": "melee",
           "baseAction": false,
@@ -33045,7 +33045,7 @@
             "difficulty": null,
             "damageMod": "none"
           },
-          "name": "Speak with Nature",
+          "name": "Parler avec la nature",
           "img": "icons/creatures/birds/corvid-call-sound-blue.webp",
           "range": "",
           "baseAction": false,
@@ -33088,7 +33088,7 @@
             "type": "any",
             "amount": null
           },
-          "name": "Gain Bonus",
+          "name": "Gagner le bonus",
           "img": "icons/magic/nature/beam-hand-leaves-green.webp",
           "range": "",
           "baseAction": false,
@@ -33282,7 +33282,7 @@
             "difficulty": null,
             "damageMod": "none"
           },
-          "name": "Cast",
+          "name": "Lancer",
           "img": "icons/magic/acid/projectile-smoke-glowing.webp",
           "range": "far",
           "baseAction": false,
@@ -33325,7 +33325,7 @@
             "type": "any",
             "amount": null
           },
-          "name": "Corrode",
+          "name": "Corroder",
           "img": "icons/magic/acid/dissolve-bone-white.webp",
           "range": "",
           "baseAction": false,
@@ -33499,7 +33499,7 @@
             "type": "self",
             "amount": null
           },
-          "name": "Mark Stress",
+          "name": "Marquer du Stress",
           "range": "self",
           "img": "icons/magic/unholy/silhouette-evil-horned-giant.webp"
         }
@@ -33706,7 +33706,7 @@
             "difficulty": null,
             "damageMod": "none"
           },
-          "name": "Cast",
+          "name": "Lancer",
           "img": "icons/skills/melee/strike-axe-energy-pink.webp",
           "range": "melee",
           "baseAction": false,
@@ -33874,7 +33874,7 @@
             "difficulty": null,
             "damageMod": "none"
           },
-          "name": "Spellcast Roll",
+          "name": "Jet d’Incantation",
           "range": "far",
           "img": "icons/magic/lightning/bolt-strike-beam-pink.webp"
         },
@@ -33938,7 +33938,7 @@
             "amount": null
           },
           "effects": [],
-          "name": "With Hope",
+          "name": "Avec Espoir",
           "range": "",
           "img": "icons/magic/holy/projectiles-blades-salvo-yellow.webp"
         },
@@ -34002,7 +34002,7 @@
             "amount": null
           },
           "effects": [],
-          "name": "With Fear",
+          "name": "Avec Peur",
           "range": "",
           "img": "icons/magic/unholy/orb-hands-pink.webp"
         }
@@ -34217,7 +34217,7 @@
             "type": "any",
             "amount": null
           },
-          "name": "Apply Effect",
+          "name": "Appliquer l’effet",
           "img": "systems/daggerheart/assets/icons/domains/domain-card/blade.png",
           "range": "",
           "baseAction": false,
@@ -34476,7 +34476,7 @@
             "type": "friendly",
             "amount": 1
           },
-          "name": "Mark Stress",
+          "name": "Marquer du Stress",
           "img": "icons/skills/melee/shield-block-fire-orange.webp",
           "range": "veryClose",
           "baseAction": false,
@@ -34574,7 +34574,7 @@
             "type": "any",
             "amount": null
           },
-          "name": "Mark a Stress",
+          "name": "Marquer 1 Stress",
           "img": "icons/magic/control/silhouette-aura-energy.webp",
           "range": "",
           "baseAction": false,
@@ -34668,7 +34668,7 @@
             "type": "any",
             "amount": null
           },
-          "name": "Cast",
+          "name": "Lancer",
           "img": "icons/skills/social/diplomacy-unity-alliance.webp",
           "range": "close",
           "baseAction": false,
@@ -34711,7 +34711,7 @@
               "hidden": null
             }
           ],
-          "name": "Start Countdown",
+          "name": "Démarrer le compte à rebours",
           "img": "icons/magic/time/hourglass-brown-orange.webp",
           "range": "",
           "baseAction": false,
@@ -34874,7 +34874,7 @@
             "difficulty": null,
             "damageMod": "none"
           },
-          "name": "Cast",
+          "name": "Lancer",
           "img": "icons/magic/earth/projectile-stone-bullet-pink.webp",
           "range": "",
           "baseAction": false,
@@ -34968,7 +34968,7 @@
             "type": "self",
             "amount": null
           },
-          "name": "Frenzy",
+          "name": "Frénésie",
           "img": "icons/magic/fire/projectile-wave-yellow.webp",
           "range": "self",
           "baseAction": false,
@@ -35138,7 +35138,7 @@
             "type": "any",
             "amount": null
           },
-          "name": "Mimic",
+          "name": "Imiter",
           "img": "icons/magic/perception/hand-eye-black.webp",
           "range": "",
           "baseAction": false,
@@ -35257,7 +35257,7 @@
             "difficulty": null,
             "damageMod": "none"
           },
-          "name": "Spellcast Roll",
+          "name": "Jet d’Incantation",
           "range": "",
           "img": "icons/magic/death/skull-trio-badge-purple.webp"
         },
@@ -35330,7 +35330,7 @@
             "amount": null
           },
           "effects": [],
-          "name": "Deal Damage",
+          "name": "Infliger des dégâts",
           "range": "",
           "img": "icons/creatures/unholy/demon-fire-horned-clawed.webp"
         }
@@ -35446,7 +35446,7 @@
             "difficulty": null,
             "damageMod": "none"
           },
-          "name": "Ask a question",
+          "name": "Poser une question",
           "img": "icons/magic/control/mouth-smile-deception-purple.webp",
           "range": "",
           "baseAction": false,
@@ -35555,7 +35555,7 @@
             },
             "useDefault": false
           },
-          "name": "Critically Succeed",
+          "name": "Réussite critique",
           "img": "icons/magic/light/hand-sparks-glow-yellow.webp",
           "range": "veryClose",
           "baseAction": false,
@@ -35716,7 +35716,7 @@
             "difficulty": null,
             "damageMod": "none"
           },
-          "name": "Use as attack",
+          "name": "Utiliser comme attaque",
           "img": "icons/magic/nature/root-vine-entangled-humanoid.webp",
           "range": "close",
           "areas": [
@@ -35763,7 +35763,7 @@
             "type": "any",
             "amount": null
           },
-          "name": "Conjure Stalk",
+          "name": "Conjurer une tige",
           "img": "icons/magic/nature/root-vine-beanstolk-green.webp",
           "range": "",
           "baseAction": false,
@@ -35885,7 +35885,7 @@
             "difficulty": null,
             "damageMod": "none"
           },
-          "name": "Instinct Roll",
+          "name": "Jet d’Instinct",
           "img": "icons/magic/perception/eye-ringed-glow-angry-small-teal.webp",
           "range": "",
           "baseAction": false,
@@ -35923,7 +35923,7 @@
             "type": "any",
             "amount": null
           },
-          "name": "Mark Stress",
+          "name": "Marquer du Stress",
           "img": "icons/magic/perception/eye-ringed-glow-angry-small-teal.webp",
           "range": "",
           "baseAction": false,
@@ -36036,7 +36036,7 @@
             "difficulty": null,
             "damageMod": "none"
           },
-          "name": "Roll d6",
+          "name": "Lancer 1d6",
           "img": "icons/magic/life/heart-cross-strong-flame-purple-orange.webp",
           "range": "",
           "baseAction": false,
@@ -36197,7 +36197,7 @@
             "amount": null
           },
           "effects": [],
-          "name": "Mark a Stress",
+          "name": "Marquer 1 Stress",
           "img": "systems/daggerheart/assets/icons/domains/domain-card/blade.png",
           "range": "",
           "baseAction": false,
@@ -36300,7 +36300,7 @@
             "type": "any",
             "amount": 1
           },
-          "name": "Mark Stress",
+          "name": "Marquer du Stress",
           "img": "icons/magic/control/buff-flight-wings-runes-purple.webp",
           "range": "",
           "baseAction": false,
@@ -36438,7 +36438,7 @@
             "type": "any",
             "amount": null
           },
-          "name": "Create Orb",
+          "name": "Créer un orbe",
           "img": "icons/magic/perception/eye-tendrils-web-purple.webp",
           "range": "veryFar",
           "baseAction": false,
@@ -36595,7 +36595,7 @@
             "difficulty": null,
             "damageMod": "none"
           },
-          "name": "Cast",
+          "name": "Lancer",
           "img": "icons/magic/light/explosion-beam-impact-silhouette.webp",
           "range": "",
           "baseAction": false,
@@ -36648,7 +36648,7 @@
             "difficulty": null,
             "damageMod": "none"
           },
-          "name": "Keep Card",
+          "name": "Conserver la carte",
           "img": "icons/sundries/gaming/dice-runed-brown.webp",
           "range": "",
           "baseAction": false,

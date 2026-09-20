@@ -1,0 +1,112 @@
+{
+  "phase": "P1.3b-fix2",
+  "source_file": "Daggerheart_HF.pdf",
+  "frames": [
+    {
+      "id": "hope-fear.campaign-frame.castle-high",
+      "name": "Castle High",
+      "sections_found": 13,
+      "campaign_mechanics_found": true,
+      "mechanic_blocks_found": 2,
+      "output": "data\\hope-fear-private\\campaign-frames\\castle-high.json",
+      "pdf_boundary": {
+        "method": "content_boundary",
+        "pdf_start_index": 115,
+        "pdf_end_index": 127
+      }
+    },
+    {
+      "id": "hope-fear.campaign-frame.reign-of-the-weredragon",
+      "name": "Reign of the Weredragon",
+      "sections_found": 13,
+      "campaign_mechanics_found": true,
+      "mechanic_blocks_found": 15,
+      "output": "data\\hope-fear-private\\campaign-frames\\reign-of-the-weredragon.json",
+      "pdf_boundary": {
+        "method": "content_boundary",
+        "pdf_start_index": 128,
+        "pdf_end_index": 143
+      }
+    },
+    {
+      "id": "hope-fear.campaign-frame.dark-heart-of-andaluria",
+      "name": "Dark Heart of Andaluria",
+      "sections_found": 13,
+      "campaign_mechanics_found": true,
+      "mechanic_blocks_found": 21,
+      "output": "data\\hope-fear-private\\campaign-frames\\dark-heart-of-andaluria.json",
+      "pdf_boundary": {
+        "method": "content_boundary",
+        "pdf_start_index": 144,
+        "pdf_end_index": 157
+      }
+    },
+    {
+      "id": "hope-fear.campaign-frame.journey-to-horizon",
+      "name": "Journey to Horizon",
+      "sections_found": 13,
+      "campaign_mechanics_found": true,
+      "mechanic_blocks_found": 26,
+      "output": "data\\hope-fear-private\\campaign-frames\\journey-to-horizon.json",
+      "pdf_boundary": {
+        "method": "content_boundary",
+        "pdf_start_index": 158,
+        "pdf_end_index": 179
+      }
+    }
+  ],
+  "appendix_assets": [
+    {
+      "id": "hope-fear.appendix.additional-sheets",
+      "kind": "play_aid_collection",
+      "printed_pages": {
+        "start": 182,
+        "end": 186
+      },
+      "status": "private_reference_asset",
+      "primitive_candidate": "play_aid"
+    },
+    {
+      "id": "hope-fear.appendix.campaign-frame-maps",
+      "kind": "map_handout_collection",
+      "printed_pages": {
+        "start": 187,
+        "end": 191
+      },
+      "status": "private_reference_asset",
+      "primitive_candidate": "map_or_handout"
+    }
+  ],
+  "primitive_candidate_counts": {
+    "downtime_procedure": 23,
+    "result_table": 23,
+    "resource_or_slot": 28,
+    "state_or_phase": 31,
+    "travel_or_map": 24,
+    "linked_actor_or_vehicle": 16,
+    "core_resource_hook": 18,
+    "unclassified_mechanic": 7,
+    "track_or_countdown": 11,
+    "craft_or_upgrade": 5,
+    "relationship_or_faction": 6
+  },
+  "primitive_evidence_count": 64,
+  "checks": {
+    "pdf_readable": true,
+    "four_frames_written": true,
+    "all_frames_have_campaign_mechanics": true,
+    "all_frames_have_mechanic_blocks": true,
+    "appendix_assets_indexed": true,
+    "primitive_evidence_present": true,
+    "no_structural_errors": true
+  },
+  "validation": "GREEN",
+  "errors": [],
+  "notes": [
+    "This pass extracts private H&F campaign-frame structure and mechanics only into data/hope-fear-private.",
+    "Campaign mechanic sub-blocks are structural evidence, not yet final primitives.",
+    "P1.4 Primitive Census will merge evidence from SRD, H&F, other settings, Blood Hunter, and Monster Hunter before committing to an ontology.",
+    "Appendix sheets/maps are indexed as private reference assets; this script does not export copyrighted artwork or layout."
+  ],
+  "next_phase": "P1.3c — inventory additional campaign-setting sources"
+}

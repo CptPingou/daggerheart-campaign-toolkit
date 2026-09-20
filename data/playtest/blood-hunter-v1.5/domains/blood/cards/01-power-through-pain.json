@@ -1,0 +1,33 @@
+{
+  "id": "the-void.v1.5.domain_card.power-through-pain",
+  "kind": "domain_card",
+  "identity": {
+    "name": "Power Through Pain",
+    "slug": "power-through-pain"
+  },
+  "source": {
+    "corpus": "the-void",
+    "product": "blood-hunter",
+    "version": "1.5",
+    "status": "playtest"
+  },
+  "provenance": {
+    "source_file": "Bloodhunter-v1.5-The-Void.pdf",
+    "page": 4
+  },
+  "availability": {
+    "in_srd": false,
+    "private_only": true,
+    "deprecated": false
+  },
+  "rules": {
+    "domain": "blood",
+    "level": 1,
+    "card_type": "ability",
+    "recall_cost": 1
+  },
+  "content": {
+    "rules_text": "If you have at least one Hit Point marked, you gain a bonus to your damage rolls. The bonus equals twice your number of marked Hit Points.",
+    "validation": "checked_against_pdf_v1.5"
+  }
+}

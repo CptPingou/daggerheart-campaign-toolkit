@@ -1,0 +1,242 @@
+[
+  {
+    "id": "srd-2.0.community.duneborne",
+    "kind": "community",
+    "name": "Duneborne",
+    "slug": "duneborne",
+    "source": {
+      "corpus": "daggerheart-srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    }
+  },
+  {
+    "id": "srd-2.0.community.freeborne",
+    "kind": "community",
+    "name": "Freeborne",
+    "slug": "freeborne",
+    "source": {
+      "corpus": "daggerheart-srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    }
+  },
+  {
+    "id": "srd-2.0.community.frostborne",
+    "kind": "community",
+    "name": "Frostborne",
+    "slug": "frostborne",
+    "source": {
+      "corpus": "daggerheart-srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    }
+  },
+  {
+    "id": "srd-2.0.community.hearthborne",
+    "kind": "community",
+    "name": "Hearthborne",
+    "slug": "hearthborne",
+    "source": {
+      "corpus": "daggerheart-srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    }
+  },
+  {
+    "id": "srd-2.0.community.highborne",
+    "kind": "community",
+    "name": "Highborne",
+    "slug": "highborne",
+    "source": {
+      "corpus": "daggerheart-srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    }
+  },
+  {
+    "id": "srd-2.0.community.loreborne",
+    "kind": "community",
+    "name": "Loreborne",
+    "slug": "loreborne",
+    "source": {
+      "corpus": "daggerheart-srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    }
+  },
+  {
+    "id": "srd-2.0.community.orderborne",
+    "kind": "community",
+    "name": "Orderborne",
+    "slug": "orderborne",
+    "source": {
+      "corpus": "daggerheart-srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    }
+  },
+  {
+    "id": "srd-2.0.community.reborne",
+    "kind": "community",
+    "name": "Reborne",
+    "slug": "reborne",
+    "source": {
+      "corpus": "daggerheart-srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    }
+  },
+  {
+    "id": "srd-2.0.community.ridgeborne",
+    "kind": "community",
+    "name": "Ridgeborne",
+    "slug": "ridgeborne",
+    "source": {
+      "corpus": "daggerheart-srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    }
+  },
+  {
+    "id": "srd-2.0.community.seaborne",
+    "kind": "community",
+    "name": "Seaborne",
+    "slug": "seaborne",
+    "source": {
+      "corpus": "daggerheart-srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    }
+  },
+  {
+    "id": "srd-2.0.community.slyborne",
+    "kind": "community",
+    "name": "Slyborne",
+    "slug": "slyborne",
+    "source": {
+      "corpus": "daggerheart-srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    }
+  },
+  {
+    "id": "srd-2.0.community.underborne",
+    "kind": "community",
+    "name": "Underborne",
+    "slug": "underborne",
+    "source": {
+      "corpus": "daggerheart-srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    }
+  },
+  {
+    "id": "srd-2.0.community.warborne",
+    "kind": "community",
+    "name": "Warborne",
+    "slug": "warborne",
+    "source": {
+      "corpus": "daggerheart-srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    }
+  },
+  {
+    "id": "srd-2.0.community.wanderborne",
+    "kind": "community",
+    "name": "Wanderborne",
+    "slug": "wanderborne",
+    "source": {
+      "corpus": "daggerheart-srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    }
+  },
+  {
+    "id": "srd-2.0.community.wildborne",
+    "kind": "community",
+    "name": "Wildborne",
+    "slug": "wildborne",
+    "source": {
+      "corpus": "daggerheart-srd",
+      "version": "2.0",
+      "status": "srd"
+    },
+    "availability": {
+      "in_srd": true,
+      "private_only": false,
+      "deprecated": false
+    }
+  }
+]

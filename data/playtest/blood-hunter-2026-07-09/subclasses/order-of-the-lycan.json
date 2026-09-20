@@ -1,0 +1,63 @@
+{
+  "id": "the-void.2026-07-09.subclass.order-of-the-lycan",
+  "kind": "subclass",
+  "identity": {
+    "name": "Order of the Lycan",
+    "slug": "order-of-the-lycan"
+  },
+  "source": {
+    "corpus": "the-void",
+    "product": "blood-hunter",
+    "version": "2026-07-09",
+    "status": "playtest"
+  },
+  "provenance": {
+    "source_file": "Blood_Hunter_Void_2026_07_09.pdf",
+    "page": 3
+  },
+  "availability": {
+    "in_srd": false,
+    "private_only": true,
+    "deprecated": false
+  },
+  "migration": {
+    "previous_id": "the-void.v1.5.subclass.order-of-the-lycan",
+    "relation": "revised"
+  },
+  "class_id": "the-void.2026-07-09.class.blood-hunter",
+  "rules": {
+    "spellcast_trait": "strength",
+    "features": [
+      {
+        "tier": "foundation",
+        "name": "Hybrid Form",
+        "text": "You can take on a lupine Hybrid Form. Mark a Stress to enter that form until all your Stress is marked or the scene ends. While in the form, you gain a 1d4 bonus to your action and damage rolls."
+      },
+      {
+        "tier": "foundation",
+        "name": "The Beast Within",
+        "text": "When you gain a Hope while in Hybrid Form, you also mark a Stress."
+      },
+      {
+        "tier": "specialization",
+        "name": "Bestial Focus",
+        "text": "Once per rest, you can place a domain card into your vault, then clear a number of Stress equal to the card’s Recall Cost."
+      },
+      {
+        "tier": "specialization",
+        "name": "Feral Empowerment",
+        "text": "The bonus die from your Hybrid Form increases to 1d6."
+      },
+      {
+        "tier": "mastery",
+        "name": "Apex Hunter",
+        "text": "The bonus die from your Hybrid Form increases to 1d8."
+      },
+      {
+        "tier": "mastery",
+        "name": "Regeneration",
+        "text": "When you succeed with Hope while in your Hybrid Form, roll a d4. If the result is higher than your current number of unmarked Hit Points, clear a Hit Point."
+      }
+    ]
+  }
+}

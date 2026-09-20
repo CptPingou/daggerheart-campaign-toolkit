@@ -1,0 +1,20 @@
+{
+  "phase": "P1.1a",
+  "status": "GREEN",
+  "resolved": [
+    "Warlock subclasses: Pact of the Endless / Pact of the Wrathful",
+    "Witch subclasses: Hedge / Moon",
+    "All 8 Hope & Fear subclass identities now confirmed",
+    "Dread domain 21/21 cards indexed with level/type/Recall Cost",
+    "SRD 2.0 domain-card target established at 210 cards (189 Core + 21 Dread)"
+  ],
+  "not_yet_claimed_complete": [
+    "189 Core card identity/metadata normalization",
+    "weapons",
+    "armor",
+    "loot",
+    "consumables",
+    "beastforms"
+  ],
+  "next": "P1.1b bulk extraction of Core cards + equipment collections"
+}
