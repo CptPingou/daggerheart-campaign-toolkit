@@ -81,8 +81,8 @@
     "id": "srd-2.0.consumable.core-07-minor-health-potion-clear-1d4",
     "kind": "consumable",
     "roll": 7,
-    "name": "Minor Health Potion Clear 1d4",
-    "rules_text": "HP.",
+    "name": "Minor Health Potion",
+    "rules_text": "Clear 1d4 HP.",
     "source_subset": "core",
     "source": {
       "corpus": "daggerheart-srd",
@@ -94,8 +94,8 @@
     "id": "srd-2.0.consumable.core-08-minor-stamina-potion-clear-1d4",
     "kind": "consumable",
     "roll": 8,
-    "name": "Minor Stamina Potion Clear 1d4",
-    "rules_text": "Stress.",
+    "name": "Minor Stamina Potion",
+    "rules_text": "Clear 1d4 Stress.",
     "source_subset": "core",
     "source": {
       "corpus": "daggerheart-srd",
@@ -147,7 +147,7 @@
     "kind": "consumable",
     "roll": 12,
     "name": "Unstable Arcane Shard",
-    "rules_text": "You can make a Finesse Roll to throw this shard at a group of adversaries within Far range. T argets you succeed against take 1d20 magic damage.",
+    "rules_text": "You can make a Finesse Roll to throw this shard at a group of adversaries within Far range. Targets you succeed against take 1d20 magic damage.",
     "source_subset": "core",
     "source": {
       "corpus": "daggerheart-srd",
@@ -211,8 +211,8 @@
     "id": "srd-2.0.consumable.core-17-jumping-root-eat",
     "kind": "consumable",
     "roll": 17,
-    "name": "Jumping Root Eat",
-    "rules_text": "this root to leap up to Far range once without needing to roll.",
+    "name": "Jumping Root",
+    "rules_text": "Eat this root to leap up to Far range once without needing to roll.",
     "source_subset": "core",
     "source": {
       "corpus": "daggerheart-srd",
@@ -237,8 +237,8 @@
     "id": "srd-2.0.consumable.core-19-health-potion-clear-1d4-1",
     "kind": "consumable",
     "roll": 19,
-    "name": "Health Potion Clear 1d4+1",
-    "rules_text": "HP.",
+    "name": "Health Potion",
+    "rules_text": "Clear 1d4+1 HP.",
     "source_subset": "core",
     "source": {
       "corpus": "daggerheart-srd",
@@ -250,8 +250,8 @@
     "id": "srd-2.0.consumable.core-20-stamina-potion-clear-1d4-1",
     "kind": "consumable",
     "roll": 20,
-    "name": "Stamina Potion Clear 1d4+1",
-    "rules_text": "Stress.",
+    "name": "Stamina Potion",
+    "rules_text": "Clear 1d4+1 Stress.",
     "source_subset": "core",
     "source": {
       "corpus": "daggerheart-srd",
@@ -289,8 +289,8 @@
     "id": "srd-2.0.consumable.core-23-replication-parchment-by-touching-this-piece-of-parchment-to-another-you-can-perfectly-copy-the-second-parchments-contents",
     "kind": "consumable",
     "roll": 23,
-    "name": "Replication Parchment By touching this piece of parchment to another, you can perfectly copy the second parchment’s contents.",
-    "rules_text": "Once used, this parchment becomes mundane paper.",
+    "name": "Replication Parchment",
+    "rules_text": "By touching this piece of parchment to another, you can perfectly copy the second parchment’s contents. Once used, this parchment becomes mundane paper.",
     "source_subset": "core",
     "source": {
       "corpus": "daggerheart-srd",
@@ -303,7 +303,7 @@
     "kind": "consumable",
     "roll": 24,
     "name": "Improved Arcane Shard",
-    "rules_text": "You can make a Finesse Roll to throw this shard at a group of adversaries within Far range. T argets you succeed against take 2d20 magic damage.",
+    "rules_text": "You can make a Finesse Roll to throw this shard at a group of adversaries within Far range. Targets you succeed against take 2d20 magic damage.",
     "source_subset": "core",
     "source": {
       "corpus": "daggerheart-srd",
@@ -485,7 +485,7 @@
     "kind": "consumable",
     "roll": 38,
     "name": "Major Arcane Shard",
-    "rules_text": "You can make a Finesse Roll to throw this shard at a group of adversaries within Far range. T argets you succeed against take 4d20 magic damage.",
+    "rules_text": "You can make a Finesse Roll to throw this shard at a group of adversaries within Far range. Targets you succeed against take 4d20 magic damage.",
     "source_subset": "core",
     "source": {
       "corpus": "daggerheart-srd",
@@ -523,8 +523,8 @@
     "id": "srd-2.0.consumable.core-41-sun-tree-sap-consume",
     "kind": "consumable",
     "roll": 41,
-    "name": "Sun Tree Sap Consume",
-    "rules_text": "this sap to roll a d6. On a result of 5–6, clear 2 HP. On a result of 2–4, clear 3 Stress. On a result of 1, see through the veil of death and return changed, gaining one scar.",
+    "name": "Sun Tree Sap",
+    "rules_text": "Consume this sap to roll a d6. On a result of 5–6, clear 2 HP. On a result of 2–4, clear 3 Stress. On a result of 1, see through the veil of death and return changed, gaining one scar.",
     "source_subset": "core",
     "source": {
       "corpus": "daggerheart-srd",
@@ -549,8 +549,8 @@
     "id": "srd-2.0.consumable.core-43-major-health-potion-clear-1d4-2",
     "kind": "consumable",
     "roll": 43,
-    "name": "Major Health Potion Clear 1d4+2",
-    "rules_text": "HP.",
+    "name": "Major Health Potion",
+    "rules_text": "Clear 1d4+2 HP.",
     "source_subset": "core",
     "source": {
       "corpus": "daggerheart-srd",
@@ -562,8 +562,8 @@
     "id": "srd-2.0.consumable.core-44-major-stamina-potion-clear-1d4-2",
     "kind": "consumable",
     "roll": 44,
-    "name": "Major Stamina Potion Clear 1d4+2",
-    "rules_text": "Stress.",
+    "name": "Major Stamina Potion",
+    "rules_text": "Clear 1d4+2 Stress.",
     "source_subset": "core",
     "source": {
       "corpus": "daggerheart-srd",
@@ -615,7 +615,7 @@
     "kind": "consumable",
     "roll": 48,
     "name": "Dragonbloom Tea",
-    "rules_text": "You can drink this tea to unleash a fiery breath attack. Make an Instinct Roll against all adversaries in front of you within Close range. T argets you succeed against take d20 physical damage using your Proficiency.",
+    "rules_text": "You can drink this tea to unleash a fiery breath attack. Make an Instinct Roll against all adversaries in front of you within Close range. Targets you succeed against take d20 physical damage using your Proficiency.",
     "source_subset": "core",
     "source": {
       "corpus": "daggerheart-srd",
@@ -627,8 +627,8 @@
     "id": "srd-2.0.consumable.core-49-bridge-seed-thick-vines-grow-from-your-location-to-a-point-of-your-choice-within-far-range-allowing-you-to-climb-up-or-across-them",
     "kind": "consumable",
     "roll": 49,
-    "name": "Bridge Seed Thick vines grow from your location to a point of your choice within Far range, allowing you to climb up or across them.",
-    "rules_text": "The vines dissipate on your next short rest.",
+    "name": "Bridge Seed",
+    "rules_text": "Thick vines grow from your location to a point of your choice within Far range, allowing you to climb up or across them. The vines dissipate on your next short rest.",
     "source_subset": "core",
     "source": {
       "corpus": "daggerheart-srd",
@@ -1109,7 +1109,7 @@
     "kind": "consumable",
     "roll": 26,
     "name": "Stonemason’s Fortune",
-    "rules_text": "When you throw this gray brick on the ground, it immediately grows into a 6-foot-tall, 10-foot-wide, and 2-foot- deep wall of solid stone.",
+    "rules_text": "When you throw this gray brick on the ground, it immediately grows into a 6-foot-tall, 10-foot-wide, and 2-foot-deep wall of solid stone.",
     "source_subset": "hope-fear",
     "source": {
       "corpus": "daggerheart-srd",
@@ -1161,7 +1161,7 @@
     "kind": "consumable",
     "roll": 30,
     "name": "Sunlight Orb",
-    "rules_text": "You can shatter this orb to make the area within Very Far range appear as though it’s sunlit daytime for the next",
+    "rules_text": "You can shatter this orb to make the area within Very Far range appear as though it’s sunlit daytime for the next 24 hours.",
     "source_subset": "hope-fear",
     "source": {
       "corpus": "daggerheart-srd",
@@ -1538,7 +1538,7 @@
     "kind": "consumable",
     "roll": 59,
     "name": "Tears of the Undying Hero",
-    "rules_text": "When you drink this potion, death can’t touch you until your next long rest. When you would mark your last Hit Point, instead of making a death move, you make one final action roll before falling into a dreamless slumber until an ally chooses the T end to Wounds downtime move to clear your Hit Points.",
+    "rules_text": "When you drink this potion, death can’t touch you until your next long rest. When you would mark your last Hit Point, instead of making a death move, you make one final action roll before falling into a dreamless slumber until an ally chooses the Tend to Wounds downtime move to clear your Hit Points.",
     "source_subset": "hope-fear",
     "source": {
       "corpus": "daggerheart-srd",
@@ -1551,7 +1551,7 @@
     "kind": "consumable",
     "roll": 60,
     "name": "Featherstep Potion",
-    "rules_text": "You can drink this potion to sprout small wings from your ankles that give you a bonus to your Evasion equal to your tier until your next rest. GOLD Gold is an abstract measurement of how much wealth a character has, and is measured in handfuls, bags, and chests, with 10 handfuls to 1 bag, and 10 bags to 1 chest. When you have marked all of the slots in a category and you gain another gold reward in that category, mark a slot in the following category and clear all the slots in the current one. For example, if you have 9 handfuls and gain another, you instead mark 1 bag and erase all handfuls. If you have 9 bags and gain another, you mark 1 chest and erase all bags. You can’t have more than 1 chest, so if all your Gold slots are marked, you’ll need to spend some of your gold or store it somewhere else before you can acquire more. Optional Rule: Gold Coins If your group wants to track gold with more granularity, you can add coins as your lowest denomination. Following the established pattern, 10 coins equal 1 handful.",
+    "rules_text": "You can drink this potion to sprout small wings from your ankles that give you a bonus to your Evasion equal to your tier until your next rest.",
     "source_subset": "hope-fear",
     "source": {
       "corpus": "daggerheart-srd",

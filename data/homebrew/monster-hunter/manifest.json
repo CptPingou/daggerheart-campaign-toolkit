@@ -7,6 +7,10 @@
     "dh-domain-cards": {
       "count": 8,
       "file": "dh-domain-cards.json"
+    },
+    "dh-loot": {
+      "count": 0,
+      "file": "dh-loot.json"
     }
   },
   "notes": [
@@ -14,6 +18,7 @@
     "Les documents seront matérialisés dans les compendiums Toolkit existants.",
     "P2.8b : premier corpus matérialisé — 5 cartes de rôle de Chasse.",
     "P2.8f : 3 premières cartes Chasse mécaniques — Ouverture, Conversion, Appui défensif.",
-    "P2.8g.2 : les cartes Monster Hunter utilisent la famille transversale Toolkit `hunt`; elles ne consomment pas un domaine de classe Daggerheart."
+    "P2.8g.2 : les cartes Monster Hunter utilisent la famille transversale Toolkit `hunt`; elles ne consomment pas un domaine de classe Daggerheart.",
+    "P2.9a.6a : dh-loot devient le point d’extension des objets persistants Monster Hunter (material/component/augment/recipe via métadonnées Toolkit)."
   ]
 }

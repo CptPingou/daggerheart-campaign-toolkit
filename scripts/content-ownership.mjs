@@ -8,6 +8,8 @@ export const OWNED_CONTENT = Object.freeze({
   "dh-domain-cards": { rootTypes: ["domainCard", "domain-card", "domain"], native: ["daggerheart.domains"] },
   "dh-weapons": { rootTypes: ["weapon"], native: ["daggerheart.weapons"] },
   "dh-armor": { rootTypes: ["armor"], native: ["daggerheart.armor", "daggerheart.armors"] },
+  "dh-consumables": { rootTypes: ["consumable"], native: ["daggerheart.consumables"] },
+  "dh-loot": { rootTypes: ["loot"], native: ["daggerheart.loot"] },
 });
 
 function ownerFlag(doc) {

@@ -5,9 +5,12 @@ const SOURCE_PACKS = Object.freeze([
   "dh-communities",
   "dh-classes",
   "dh-subclasses",
+  "dh-features",
   "dh-domain-cards",
   "dh-weapons",
   "dh-armor",
+  "dh-consumables",
+  "dh-loot",
 ]);
 
 const BLOOD_HUNTER_PREFIX = "the-void.2026-07-09.";
@@ -187,11 +190,15 @@ export function autonomousSourceExpectedCounts() {
     "dh-communities": 30,
     "dh-classes": 14,
     "dh-subclasses": 29,
+    "dh-features": 54,
     "dh-domain-cards": 231,
     "dh-weapons": 358,
     "dh-armor": 69,
-    total: 803,
-    expectedCore: 778,
-    expectedBloodHunterPlaytest: 25,
+    "dh-consumables": 120,
+    "dh-loot": 0,
+    total: 994,
+    expectedCore: 934,
+    expectedBloodHunterPlaytest: 43,
+    expectedMonsterHunterHomebrew: 17,
   };
 }

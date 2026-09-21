@@ -433,7 +433,7 @@ async function replacePack(packName, sources) {
       const createSources = sources.map(source => {
         const copy = foundry.utils.deepClone(source);
         if (
-          copy?.type === "domainCard" &&
+          ["domainCard", "consumable"].includes(copy?.type) &&
           copy?.system?.actions &&
           typeof copy.system.actions === "object" &&
           Object.keys(copy.system.actions).length > 0
@@ -452,7 +452,7 @@ async function replacePack(packName, sources) {
       for (const doc of created) {
         const actions = sourceById.get(doc.id)?.system?.actions;
         if (
-          doc.type === "domainCard" &&
+          ["domainCard", "consumable"].includes(doc.type) &&
           actions &&
           typeof actions === "object" &&
           Object.keys(actions).length > 0

@@ -90,6 +90,18 @@
       "type": "Item"
     },
     {
+      "name": "dh-consumables",
+      "label": "Campaign Toolkit — Consumables FR",
+      "path": "packs/dh-consumables",
+      "type": "Item"
+    },
+    {
+      "name": "dh-loot",
+      "label": "Campaign Toolkit — Loot",
+      "path": "packs/dh-loot",
+      "type": "Item"
+    },
+    {
       "name": "dh-adversaries",
       "label": "Campaign Toolkit — Adversaries",
       "path": "packs/dh-adversaries",
@@ -122,6 +134,8 @@
         "dh-domain-cards",
         "dh-weapons",
         "dh-armor",
+        "dh-consumables",
+        "dh-loot",
         "dh-adversaries",
         "dh-environments",
         "dh-campaign-frames"

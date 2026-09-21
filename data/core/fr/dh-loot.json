@@ -1,0 +1,4562 @@
+[
+  {
+    "_id": "3GQgZNAVEjwv4dHC",
+    "name": "Couchage premium",
+    "type": "loot",
+    "img": "icons/containers/bags/sack-simple-leather-brown.webp",
+    "system": {
+      "description": "<p>Pendant un temps mort, vous effacez automatiquement 1 Stress.</p>",
+      "quantity": 1,
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null,
+        "artist": ""
+      },
+      "gmNotes": "",
+      "actions": {}
+    },
+    "effects": [],
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "sourceId": "srd-2.0.loot.core-01-premium-bedroll",
+        "canonicalSourceId": "srd-2.0.loot.core-01-premium-bedroll",
+        "contentLocale": "fr",
+        "localeFallback": false,
+        "localizedPaths": [
+          "name",
+          "description"
+        ],
+        "managed": true,
+        "kind": "loot",
+        "lootCategory": "equipment",
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "contentOrigin": "core",
+        "sourceNamespace": "daggerheart-srd-2.0",
+        "sourceSubset": "core",
+        "roll": 1
+      }
+    }
+  },
+  {
+    "_id": "6rakaPIES2wdek1i",
+    "name": "Sifflet de Piper",
+    "type": "loot",
+    "img": "icons/containers/bags/sack-simple-leather-brown.webp",
+    "system": {
+      "description": "<p>Ce sifflet artisanal possède une sonorité caractéristique. Lorsque vous soufflez dedans, son timbre perçant s’entend dans un rayon de 1,6 km.</p>",
+      "quantity": 1,
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null,
+        "artist": ""
+      },
+      "gmNotes": "",
+      "actions": {}
+    },
+    "effects": [],
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "sourceId": "srd-2.0.loot.core-02-piper-whistle",
+        "canonicalSourceId": "srd-2.0.loot.core-02-piper-whistle",
+        "contentLocale": "fr",
+        "localeFallback": false,
+        "localizedPaths": [
+          "name",
+          "description"
+        ],
+        "managed": true,
+        "kind": "loot",
+        "lootCategory": "equipment",
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "contentOrigin": "core",
+        "sourceNamespace": "daggerheart-srd-2.0",
+        "sourceSubset": "core",
+        "roll": 2
+      }
+    }
+  },
+  {
+    "_id": "0JC1Q26tSCee0PxJ",
+    "name": "Carquois de charge",
+    "type": "loot",
+    "img": "icons/containers/bags/sack-simple-leather-brown.webp",
+    "system": {
+      "description": "<p>Lorsque vous réussissez une attaque avec une flèche stockée dans ce carquois, gagnez un bonus au jet de dégâts égal à votre palier actuel.</p>",
+      "quantity": 1,
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null,
+        "artist": ""
+      },
+      "gmNotes": "",
+      "actions": {}
+    },
+    "effects": [],
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "sourceId": "srd-2.0.loot.core-03-charging-quiver",
+        "canonicalSourceId": "srd-2.0.loot.core-03-charging-quiver",
+        "contentLocale": "fr",
+        "localeFallback": false,
+        "localizedPaths": [
+          "name",
+          "description"
+        ],
+        "managed": true,
+        "kind": "loot",
+        "lootCategory": "equipment",
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "contentOrigin": "core",
+        "sourceNamespace": "daggerheart-srd-2.0",
+        "sourceSubset": "core",
+        "roll": 3
+      }
+    }
+  },
+  {
+    "_id": "5e1aJigEJqBE0YFb",
+    "name": "Torche d’Alistair",
+    "type": "loot",
+    "img": "icons/containers/bags/sack-simple-leather-brown.webp",
+    "system": {
+      "description": "<p>Vous pouvez allumer cette torche magique à volonté. Sa flamme éclaire un espace bien plus vaste qu’elle ne le devrait, suffisamment pour illuminer une caverne comme en plein jour.</p>",
+      "quantity": 1,
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null,
+        "artist": ""
+      },
+      "gmNotes": "",
+      "actions": {}
+    },
+    "effects": [],
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "sourceId": "srd-2.0.loot.core-04-alistair-s-torch",
+        "canonicalSourceId": "srd-2.0.loot.core-04-alistair-s-torch",
+        "contentLocale": "fr",
+        "localeFallback": false,
+        "localizedPaths": [
+          "name",
+          "description"
+        ],
+        "managed": true,
+        "kind": "loot",
+        "lootCategory": "equipment",
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "contentOrigin": "core",
+        "sourceNamespace": "daggerheart-srd-2.0",
+        "sourceSubset": "core",
+        "roll": 4
+      }
+    }
+  },
+  {
+    "_id": "1oHJBmL7rwZ4ybkL",
+    "name": "Orbes de communication",
+    "type": "loot",
+    "img": "icons/containers/bags/sack-simple-leather-brown.webp",
+    "system": {
+      "description": "<p>Cette paire d’orbes permet aux créatures qui les tiennent de communiquer entre elles quelle que soit la distance qui les sépare.</p>",
+      "quantity": 1,
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null,
+        "artist": ""
+      },
+      "gmNotes": "",
+      "actions": {}
+    },
+    "effects": [],
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "sourceId": "srd-2.0.loot.core-05-speaking-orbs",
+        "canonicalSourceId": "srd-2.0.loot.core-05-speaking-orbs",
+        "contentLocale": "fr",
+        "localeFallback": false,
+        "localizedPaths": [
+          "name",
+          "description"
+        ],
+        "managed": true,
+        "kind": "loot",
+        "lootCategory": "equipment",
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "contentOrigin": "core",
+        "sourceNamespace": "daggerheart-srd-2.0",
+        "sourceSubset": "core",
+        "roll": 5
+      }
+    }
+  },
+  {
+    "_id": "elUnB54xltXVz20t",
+    "name": "Menottes",
+    "type": "loot",
+    "img": "icons/containers/bags/sack-simple-leather-brown.webp",
+    "system": {
+      "description": "<p>Cette paire de menottes verrouillables est fournie avec une clé.</p>",
+      "quantity": 1,
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null,
+        "artist": ""
+      },
+      "gmNotes": "",
+      "actions": {}
+    },
+    "effects": [],
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "sourceId": "srd-2.0.loot.core-06-manacles",
+        "canonicalSourceId": "srd-2.0.loot.core-06-manacles",
+        "contentLocale": "fr",
+        "localeFallback": false,
+        "localizedPaths": [
+          "name",
+          "description"
+        ],
+        "managed": true,
+        "kind": "loot",
+        "lootCategory": "equipment",
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "contentOrigin": "core",
+        "sourceNamespace": "daggerheart-srd-2.0",
+        "sourceSubset": "core",
+        "roll": 6
+      }
+    }
+  },
+  {
+    "_id": "BQuhj8na4agk2BaA",
+    "name": "Cape arcanique",
+    "type": "loot",
+    "img": "icons/containers/bags/sack-simple-leather-brown.webp",
+    "system": {
+      "description": "<p>Une créature possédant le trait d’Incantation et portant cette cape peut en modifier à volonté la couleur, la texture et la taille.</p>",
+      "quantity": 1,
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null,
+        "artist": ""
+      },
+      "gmNotes": "",
+      "actions": {}
+    },
+    "effects": [],
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "sourceId": "srd-2.0.loot.core-07-arcane-cloak",
+        "canonicalSourceId": "srd-2.0.loot.core-07-arcane-cloak",
+        "contentLocale": "fr",
+        "localeFallback": false,
+        "localizedPaths": [
+          "name",
+          "description"
+        ],
+        "managed": true,
+        "kind": "loot",
+        "lootCategory": "equipment",
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "contentOrigin": "core",
+        "sourceNamespace": "daggerheart-srd-2.0",
+        "sourceSubset": "core",
+        "roll": 7
+      }
+    }
+  },
+  {
+    "_id": "EUYAzStQC0J6OGLn",
+    "name": "Filet tissé",
+    "type": "loot",
+    "img": "icons/containers/bags/sack-simple-leather-brown.webp",
+    "system": {
+      "description": "<p>Vous pouvez effectuer un jet de Finesse avec ce filet pour piéger une petite créature. Une cible piégée peut se libérer en réussissant un jet d’attaque (16).</p>",
+      "quantity": 1,
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null,
+        "artist": ""
+      },
+      "gmNotes": "",
+      "actions": {}
+    },
+    "effects": [],
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "sourceId": "srd-2.0.loot.core-08-woven-net",
+        "canonicalSourceId": "srd-2.0.loot.core-08-woven-net",
+        "contentLocale": "fr",
+        "localeFallback": false,
+        "localizedPaths": [
+          "name",
+          "description"
+        ],
+        "managed": true,
+        "kind": "loot",
+        "lootCategory": "equipment",
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "contentOrigin": "core",
+        "sourceNamespace": "daggerheart-srd-2.0",
+        "sourceSubset": "core",
+        "roll": 8
+      }
+    }
+  },
+  {
+    "_id": "v2CPSAgfAuh8n0Aj",
+    "name": "Bocal de feu",
+    "type": "loot",
+    "img": "icons/containers/bags/sack-simple-leather-brown.webp",
+    "system": {
+      "description": "<p>Vous pouvez verser l’étrange liquide contenu dans ce bocal pour produire instantanément du feu. Son contenu se régénère lorsque vous prenez un repos long.</p>",
+      "quantity": 1,
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null,
+        "artist": ""
+      },
+      "gmNotes": "",
+      "actions": {}
+    },
+    "effects": [],
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "sourceId": "srd-2.0.loot.core-09-fire-jar",
+        "canonicalSourceId": "srd-2.0.loot.core-09-fire-jar",
+        "contentLocale": "fr",
+        "localeFallback": false,
+        "localizedPaths": [
+          "name",
+          "description"
+        ],
+        "managed": true,
+        "kind": "loot",
+        "lootCategory": "equipment",
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "contentOrigin": "core",
+        "sourceNamespace": "daggerheart-srd-2.0",
+        "sourceSubset": "core",
+        "roll": 9
+      }
+    }
+  },
+  {
+    "_id": "xXlLpfYq6c58ufTO",
+    "name": "Tige suspendue",
+    "type": "loot",
+    "img": "icons/containers/bags/sack-simple-leather-brown.webp",
+    "system": {
+      "description": "<p>Cette tige plate est gravée de runes. Lorsque vous l’activez, elle se suspend immédiatement dans l’espace. Jusqu’à sa désactivation, elle ne peut pas être déplacée, ignore les lois de la gravité et reste en place.</p>",
+      "quantity": 1,
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null,
+        "artist": ""
+      },
+      "gmNotes": "",
+      "actions": {}
+    },
+    "effects": [],
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "sourceId": "srd-2.0.loot.core-10-suspended-rod",
+        "canonicalSourceId": "srd-2.0.loot.core-10-suspended-rod",
+        "contentLocale": "fr",
+        "localeFallback": false,
+        "localizedPaths": [
+          "name",
+          "description"
+        ],
+        "managed": true,
+        "kind": "loot",
+        "lootCategory": "equipment",
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "contentOrigin": "core",
+        "sourceNamespace": "daggerheart-srd-2.0",
+        "sourceSubset": "core",
+        "roll": 10
+      }
+    }
+  },
+  {
+    "_id": "DspFO33ijEKobVoM",
+    "name": "Pierre de glamour",
+    "type": "loot",
+    "img": "icons/containers/bags/sack-simple-leather-brown.webp",
+    "system": {
+      "description": "<p>Activez cette pierre de la taille d’un caillou pour mémoriser l’apparence d’une personne que vous voyez. Dépensez 1 Espoir pour reproduire magiquement cette apparence sur vous sous forme d’illusion.</p>",
+      "quantity": 1,
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null,
+        "artist": ""
+      },
+      "gmNotes": "",
+      "actions": {}
+    },
+    "effects": [],
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "sourceId": "srd-2.0.loot.core-11-glamour-stone",
+        "canonicalSourceId": "srd-2.0.loot.core-11-glamour-stone",
+        "contentLocale": "fr",
+        "localeFallback": false,
+        "localizedPaths": [
+          "name",
+          "description"
+        ],
+        "managed": true,
+        "kind": "loot",
+        "lootCategory": "equipment",
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "contentOrigin": "core",
+        "sourceNamespace": "daggerheart-srd-2.0",
+        "sourceSubset": "core",
+        "roll": 11
+      }
+    }
+  },
+  {
+    "_id": "XwzXQAImRCjC3n97",
+    "name": "Coffre vide",
+    "type": "loot",
+    "img": "icons/containers/bags/sack-simple-leather-brown.webp",
+    "system": {
+      "description": "<p>Ce coffre magique paraît vide. Lorsque vous prononcez un mot déclencheur précis ou accomplissez une action déterminée puis ouvrez le coffre, vous pouvez voir les objets qui y sont entreposés.</p>",
+      "quantity": 1,
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null,
+        "artist": ""
+      },
+      "gmNotes": "",
+      "actions": {}
+    },
+    "effects": [],
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "sourceId": "srd-2.0.loot.core-12-empty-chest",
+        "canonicalSourceId": "srd-2.0.loot.core-12-empty-chest",
+        "contentLocale": "fr",
+        "localeFallback": false,
+        "localizedPaths": [
+          "name",
+          "description"
+        ],
+        "managed": true,
+        "kind": "loot",
+        "lootCategory": "equipment",
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "contentOrigin": "core",
+        "sourceNamespace": "daggerheart-srd-2.0",
+        "sourceSubset": "core",
+        "roll": 12
+      }
+    }
+  },
+  {
+    "_id": "RQuDfLxFK5ZC11Gw",
+    "name": "Étui de compagnon",
+    "type": "loot",
+    "img": "icons/containers/bags/sack-simple-leather-brown.webp",
+    "system": {
+      "description": "<p>Cet étui peut accueillir un petit compagnon animal. Tant que le compagnon se trouve à l’intérieur, l’animal et l’étui sont immunisés à tous les dégâts et effets néfastes.</p>",
+      "quantity": 1,
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null,
+        "artist": ""
+      },
+      "gmNotes": "",
+      "actions": {}
+    },
+    "effects": [],
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "sourceId": "srd-2.0.loot.core-13-companion-case",
+        "canonicalSourceId": "srd-2.0.loot.core-13-companion-case",
+        "contentLocale": "fr",
+        "localeFallback": false,
+        "localizedPaths": [
+          "name",
+          "description"
+        ],
+        "managed": true,
+        "kind": "loot",
+        "lootCategory": "equipment",
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "contentOrigin": "core",
+        "sourceNamespace": "daggerheart-srd-2.0",
+        "sourceSubset": "core",
+        "roll": 13
+      }
+    }
+  },
+  {
+    "_id": "YdPCNM6o6XgDYj9Z",
+    "name": "Flèches perforantes",
+    "type": "loot",
+    "img": "icons/containers/bags/sack-simple-leather-brown.webp",
+    "system": {
+      "description": "<p>Trois fois par repos, lorsque vous réussissez une attaque avec l’une de ces flèches, vous pouvez ajouter votre Maîtrise au jet de dégâts.</p>",
+      "quantity": 1,
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null,
+        "artist": ""
+      },
+      "gmNotes": "",
+      "actions": {}
+    },
+    "effects": [],
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "sourceId": "srd-2.0.loot.core-14-piercing-arrows",
+        "canonicalSourceId": "srd-2.0.loot.core-14-piercing-arrows",
+        "contentLocale": "fr",
+        "localeFallback": false,
+        "localizedPaths": [
+          "name",
+          "description"
+        ],
+        "managed": true,
+        "kind": "loot",
+        "lootCategory": "equipment",
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "contentOrigin": "core",
+        "sourceNamespace": "daggerheart-srd-2.0",
+        "sourceSubset": "core",
+        "roll": 14
+      }
+    }
+  },
+  {
+    "_id": "SNhZIbkJGi3xic5Y",
+    "name": "Pierre de vaillance",
+    "type": "loot",
+    "img": "icons/containers/bags/sack-simple-leather-brown.webp",
+    "system": {
+      "description": "<p>Vous pouvez fixer cette pierre à une armure qui ne possède pas déjà de capacité. L’armure gagne la capacité suivante. Résiliente : avant de marquer votre dernier emplacement d’Armure, lancez un d6. Sur un résultat de 6, réduisez la gravité des dégâts d’un seuil sans marquer d’emplacement d’Armure.</p>",
+      "quantity": 1,
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null,
+        "artist": ""
+      },
+      "gmNotes": "",
+      "actions": {}
+    },
+    "effects": [],
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "sourceId": "srd-2.0.loot.core-15-valorstone",
+        "canonicalSourceId": "srd-2.0.loot.core-15-valorstone",
+        "contentLocale": "fr",
+        "localeFallback": false,
+        "localizedPaths": [
+          "name",
+          "description"
+        ],
+        "managed": true,
+        "kind": "loot",
+        "lootCategory": "augment",
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "contentOrigin": "core",
+        "sourceNamespace": "daggerheart-srd-2.0",
+        "sourceSubset": "core",
+        "roll": 15
+      }
+    }
+  },
+  {
+    "_id": "yhWD8RxFmMQVUbhp",
+    "name": "Clé squelette",
+    "type": "loot",
+    "img": "icons/containers/bags/sack-simple-leather-brown.webp",
+    "system": {
+      "description": "<p>Lorsque vous utilisez cette clé pour ouvrir une porte verrouillée, vous gagnez l’avantage au jet de Finesse.</p>",
+      "quantity": 1,
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null,
+        "artist": ""
+      },
+      "gmNotes": "",
+      "actions": {}
+    },
+    "effects": [],
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "sourceId": "srd-2.0.loot.core-16-skeleton-key",
+        "canonicalSourceId": "srd-2.0.loot.core-16-skeleton-key",
+        "contentLocale": "fr",
+        "localeFallback": false,
+        "localizedPaths": [
+          "name",
+          "description"
+        ],
+        "managed": true,
+        "kind": "loot",
+        "lootCategory": "equipment",
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "contentOrigin": "core",
+        "sourceNamespace": "daggerheart-srd-2.0",
+        "sourceSubset": "core",
+        "roll": 16
+      }
+    }
+  },
+  {
+    "_id": "GhtUPzrwQNWYVATz",
+    "name": "Prisme arcanique",
+    "type": "loot",
+    "img": "icons/containers/bags/sack-simple-leather-brown.webp",
+    "system": {
+      "description": "<p>Placez ce prisme à l’endroit de votre choix et activez-le. Tous les alliés à portée Proche gagnent un bonus de +1 à leurs jets d’Incantation. Tant qu’il est activé, le prisme ne peut pas être déplacé. Une fois désactivé, il ne peut plus être activé avant votre prochain repos long.</p>",
+      "quantity": 1,
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null,
+        "artist": ""
+      },
+      "gmNotes": "",
+      "actions": {}
+    },
+    "effects": [],
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "sourceId": "srd-2.0.loot.core-17-arcane-prism",
+        "canonicalSourceId": "srd-2.0.loot.core-17-arcane-prism",
+        "contentLocale": "fr",
+        "localeFallback": false,
+        "localizedPaths": [
+          "name",
+          "description"
+        ],
+        "managed": true,
+        "kind": "loot",
+        "lootCategory": "equipment",
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "contentOrigin": "core",
+        "sourceNamespace": "daggerheart-srd-2.0",
+        "sourceSubset": "core",
+        "roll": 17
+      }
+    }
+  },
+  {
+    "_id": "tMWWtso6aiabGmNL",
+    "name": "Recette de potion mineure de vigueur",
+    "type": "loot",
+    "img": "icons/containers/bags/sack-simple-leather-brown.webp",
+    "system": {
+      "description": "<p>Comme action de temps mort, vous pouvez utiliser l’os d’une créature pour fabriquer une Potion mineure de vigueur.</p>",
+      "quantity": 1,
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null,
+        "artist": ""
+      },
+      "gmNotes": "",
+      "actions": {}
+    },
+    "effects": [],
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "sourceId": "srd-2.0.loot.core-18-minor-stamina-potion-recipe",
+        "canonicalSourceId": "srd-2.0.loot.core-18-minor-stamina-potion-recipe",
+        "contentLocale": "fr",
+        "localeFallback": false,
+        "localizedPaths": [
+          "name",
+          "description"
+        ],
+        "managed": true,
+        "kind": "loot",
+        "lootCategory": "recipe",
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "contentOrigin": "core",
+        "sourceNamespace": "daggerheart-srd-2.0",
+        "sourceSubset": "core",
+        "roll": 18
+      }
+    }
+  },
+  {
+    "_id": "EPBu2mMaxxCQJt3x",
+    "name": "Recette de potion mineure de soin",
+    "type": "loot",
+    "img": "icons/containers/bags/sack-simple-leather-brown.webp",
+    "system": {
+      "description": "<p>Comme action de temps mort, vous pouvez utiliser une fiole de sang pour fabriquer une Potion mineure de soin.</p>",
+      "quantity": 1,
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null,
+        "artist": ""
+      },
+      "gmNotes": "",
+      "actions": {}
+    },
+    "effects": [],
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "sourceId": "srd-2.0.loot.core-19-minor-health-potion-recipe",
+        "canonicalSourceId": "srd-2.0.loot.core-19-minor-health-potion-recipe",
+        "contentLocale": "fr",
+        "localeFallback": false,
+        "localizedPaths": [
+          "name",
+          "description"
+        ],
+        "managed": true,
+        "kind": "loot",
+        "lootCategory": "recipe",
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "contentOrigin": "core",
+        "sourceNamespace": "daggerheart-srd-2.0",
+        "sourceSubset": "core",
+        "roll": 19
+      }
+    }
+  },
+  {
+    "_id": "5VPlpUfSFZMH5zum",
+    "name": "Boussoles jumelles",
+    "type": "loot",
+    "img": "icons/containers/bags/sack-simple-leather-brown.webp",
+    "system": {
+      "description": "<p>Ces deux boussoles pointent toujours l’une vers l’autre, quelle que soit la distance qui les sépare.</p>",
+      "quantity": 1,
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null,
+        "artist": ""
+      },
+      "gmNotes": "",
+      "actions": {}
+    },
+    "effects": [],
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "sourceId": "srd-2.0.loot.core-20-homing-compasses",
+        "canonicalSourceId": "srd-2.0.loot.core-20-homing-compasses",
+        "contentLocale": "fr",
+        "localeFallback": false,
+        "localizedPaths": [
+          "name",
+          "description"
+        ],
+        "managed": true,
+        "kind": "loot",
+        "lootCategory": "equipment",
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "contentOrigin": "core",
+        "sourceNamespace": "daggerheart-srd-2.0",
+        "sourceSubset": "core",
+        "roll": 20
+      }
+    }
+  },
+  {
+    "_id": "7wXsdfWz93lS75A4",
+    "name": "Sprite correcteur",
+    "type": "loot",
+    "img": "icons/containers/bags/sack-simple-leather-brown.webp",
+    "system": {
+      "description": "<p>Ce minuscule sprite s’installe dans le creux de votre conduit auditif et vous souffle des conseils utiles pendant le combat. Une fois par repos court, vous pouvez gagner l’avantage sur un jet d’attaque.</p>",
+      "quantity": 1,
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null,
+        "artist": ""
+      },
+      "gmNotes": "",
+      "actions": {}
+    },
+    "effects": [],
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "sourceId": "srd-2.0.loot.core-21-corrector-sprite",
+        "canonicalSourceId": "srd-2.0.loot.core-21-corrector-sprite",
+        "contentLocale": "fr",
+        "localeFallback": false,
+        "localizedPaths": [
+          "name",
+          "description"
+        ],
+        "managed": true,
+        "kind": "loot",
+        "lootCategory": "equipment",
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "contentOrigin": "core",
+        "sourceNamespace": "daggerheart-srd-2.0",
+        "sourceSubset": "core",
+        "roll": 21
+      }
+    }
+  },
+  {
+    "_id": "pAYCTtilP2EgQeXl",
+    "name": "Gants de gecko",
+    "type": "loot",
+    "img": "icons/containers/bags/sack-simple-leather-brown.webp",
+    "system": {
+      "description": "<p>Vous pouvez escalader des surfaces verticales et vous déplacer au plafond.</p>",
+      "quantity": 1,
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null,
+        "artist": ""
+      },
+      "gmNotes": "",
+      "actions": {}
+    },
+    "effects": [],
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "sourceId": "srd-2.0.loot.core-22-gecko-gloves",
+        "canonicalSourceId": "srd-2.0.loot.core-22-gecko-gloves",
+        "contentLocale": "fr",
+        "localeFallback": false,
+        "localizedPaths": [
+          "name",
+          "description"
+        ],
+        "managed": true,
+        "kind": "loot",
+        "lootCategory": "equipment",
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "contentOrigin": "core",
+        "sourceNamespace": "daggerheart-srd-2.0",
+        "sourceSubset": "core",
+        "roll": 22
+      }
+    }
+  },
+  {
+    "_id": "rpecB0dx9oeEZR96",
+    "name": "Gardien du savoir",
+    "type": "loot",
+    "img": "icons/containers/bags/sack-simple-leather-brown.webp",
+    "system": {
+      "description": "<p>Vous pouvez consigner dans ce livre le nom et les informations de trois créatures hostiles au maximum. Vous gagnez un bonus de +1 aux jets d’action contre ces créatures.</p>",
+      "quantity": 1,
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null,
+        "artist": ""
+      },
+      "gmNotes": "",
+      "actions": {}
+    },
+    "effects": [],
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "sourceId": "srd-2.0.loot.core-23-lorekeeper",
+        "canonicalSourceId": "srd-2.0.loot.core-23-lorekeeper",
+        "contentLocale": "fr",
+        "localeFallback": false,
+        "localizedPaths": [
+          "name",
+          "description"
+        ],
+        "managed": true,
+        "kind": "loot",
+        "lootCategory": "equipment",
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "contentOrigin": "core",
+        "sourceNamespace": "daggerheart-srd-2.0",
+        "sourceSubset": "core",
+        "roll": 23
+      }
+    }
+  },
+  {
+    "_id": "RiexkcpvqgPOhbLt",
+    "name": "Recette de fiole de fumée noire",
+    "type": "loot",
+    "img": "icons/containers/bags/sack-simple-leather-brown.webp",
+    "system": {
+      "description": "<p>Comme action de temps mort, vous pouvez marquer 1 Stress pour fabriquer une Fiole de fumée noire.</p>",
+      "quantity": 1,
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null,
+        "artist": ""
+      },
+      "gmNotes": "",
+      "actions": {}
+    },
+    "effects": [],
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "sourceId": "srd-2.0.loot.core-24-vial-of-darksmoke-recipe",
+        "canonicalSourceId": "srd-2.0.loot.core-24-vial-of-darksmoke-recipe",
+        "contentLocale": "fr",
+        "localeFallback": false,
+        "localizedPaths": [
+          "name",
+          "description"
+        ],
+        "managed": true,
+        "kind": "loot",
+        "lootCategory": "recipe",
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "contentOrigin": "core",
+        "sourceNamespace": "daggerheart-srd-2.0",
+        "sourceSubset": "core",
+        "roll": 24
+      }
+    }
+  },
+  {
+    "_id": "K73k0Q3XymjemP9f",
+    "name": "Pierre de sang",
+    "type": "loot",
+    "img": "icons/containers/bags/sack-simple-leather-brown.webp",
+    "system": {
+      "description": "<p>Vous pouvez fixer cette pierre à une arme qui ne possède pas déjà de capacité. L’arme gagne la capacité suivante. Brutale : lorsque vous obtenez la valeur maximale sur un dé de dégâts, lancez un dé de dégâts supplémentaire.</p>",
+      "quantity": 1,
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null,
+        "artist": ""
+      },
+      "gmNotes": "",
+      "actions": {}
+    },
+    "effects": [],
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "sourceId": "srd-2.0.loot.core-25-bloodstone",
+        "canonicalSourceId": "srd-2.0.loot.core-25-bloodstone",
+        "contentLocale": "fr",
+        "localeFallback": false,
+        "localizedPaths": [
+          "name",
+          "description"
+        ],
+        "managed": true,
+        "kind": "loot",
+        "lootCategory": "augment",
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "contentOrigin": "core",
+        "sourceNamespace": "daggerheart-srd-2.0",
+        "sourceSubset": "core",
+        "roll": 25
+      }
+    }
+  },
+  {
+    "_id": "PYWOBG0Za4a1CoDO",
+    "name": "Grande pierre",
+    "type": "loot",
+    "img": "icons/containers/bags/sack-simple-leather-brown.webp",
+    "system": {
+      "description": "<p>Vous pouvez fixer cette pierre à une arme qui ne possède pas déjà de capacité. L’arme gagne la capacité suivante. Puissante : lors d’une attaque réussie, lancez un dé de dégâts supplémentaire et écartez le résultat le plus faible.</p>",
+      "quantity": 1,
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null,
+        "artist": ""
+      },
+      "gmNotes": "",
+      "actions": {}
+    },
+    "effects": [],
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "sourceId": "srd-2.0.loot.core-26-greatstone",
+        "canonicalSourceId": "srd-2.0.loot.core-26-greatstone",
+        "contentLocale": "fr",
+        "localeFallback": false,
+        "localizedPaths": [
+          "name",
+          "description"
+        ],
+        "managed": true,
+        "kind": "loot",
+        "lootCategory": "augment",
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "contentOrigin": "core",
+        "sourceNamespace": "daggerheart-srd-2.0",
+        "sourceSubset": "core",
+        "roll": 26
+      }
+    }
+  },
+  {
+    "_id": "VgApMXCw99A7ifoK",
+    "name": "Planeur",
+    "type": "loot",
+    "img": "icons/containers/bags/sack-simple-leather-brown.webp",
+    "system": {
+      "description": "<p>Lorsque vous chutez, vous pouvez marquer 1 Stress pour déployer ce petit parachute et planer jusqu’au sol en toute sécurité.</p>",
+      "quantity": 1,
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null,
+        "artist": ""
+      },
+      "gmNotes": "",
+      "actions": {}
+    },
+    "effects": [],
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "sourceId": "srd-2.0.loot.core-27-glider",
+        "canonicalSourceId": "srd-2.0.loot.core-27-glider",
+        "contentLocale": "fr",
+        "localeFallback": false,
+        "localizedPaths": [
+          "name",
+          "description"
+        ],
+        "managed": true,
+        "kind": "loot",
+        "lootCategory": "equipment",
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "contentOrigin": "core",
+        "sourceNamespace": "daggerheart-srd-2.0",
+        "sourceSubset": "core",
+        "roll": 27
+      }
+    }
+  },
+  {
+    "_id": "sbiUb8lt6APzTGBl",
+    "name": "Anneau de silence",
+    "type": "loot",
+    "img": "icons/containers/bags/sack-simple-leather-brown.webp",
+    "system": {
+      "description": "<p>Dépensez 1 Espoir pour activer cet anneau. Vos pas restent silencieux jusqu’à votre prochain repos.</p>",
+      "quantity": 1,
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null,
+        "artist": ""
+      },
+      "gmNotes": "",
+      "actions": {}
+    },
+    "effects": [],
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "sourceId": "srd-2.0.loot.core-28-ring-of-silence",
+        "canonicalSourceId": "srd-2.0.loot.core-28-ring-of-silence",
+        "contentLocale": "fr",
+        "localeFallback": false,
+        "localizedPaths": [
+          "name",
+          "description"
+        ],
+        "managed": true,
+        "kind": "loot",
+        "lootCategory": "equipment",
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "contentOrigin": "core",
+        "sourceNamespace": "daggerheart-srd-2.0",
+        "sourceSubset": "core",
+        "roll": 28
+      }
+    }
+  },
+  {
+    "_id": "bbRU03ueKU7o4SeX",
+    "name": "Pendentif apaisant",
+    "type": "loot",
+    "img": "icons/containers/bags/sack-simple-leather-brown.webp",
+    "system": {
+      "description": "<p>Lorsque vous devriez marquer votre dernier Stress, lancez un d6. Sur un résultat de 5 ou plus, ne le marquez pas.</p>",
+      "quantity": 1,
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null,
+        "artist": ""
+      },
+      "gmNotes": "",
+      "actions": {}
+    },
+    "effects": [],
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "sourceId": "srd-2.0.loot.core-29-calming-pendant",
+        "canonicalSourceId": "srd-2.0.loot.core-29-calming-pendant",
+        "contentLocale": "fr",
+        "localeFallback": false,
+        "localizedPaths": [
+          "name",
+          "description"
+        ],
+        "managed": true,
+        "kind": "loot",
+        "lootCategory": "equipment",
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "contentOrigin": "core",
+        "sourceNamespace": "daggerheart-srd-2.0",
+        "sourceSubset": "core",
+        "roll": 29
+      }
+    }
+  },
+  {
+    "_id": "kI52TnZaqz9Hc8Zf",
+    "name": "Flasque double",
+    "type": "loot",
+    "img": "icons/containers/bags/sack-simple-leather-brown.webp",
+    "system": {
+      "description": "<p>Cette flasque peut contenir deux liquides différents. Vous pouvez passer de l’un à l’autre grâce à un petit interrupteur placé sur son côté.</p>",
+      "quantity": 1,
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null,
+        "artist": ""
+      },
+      "gmNotes": "",
+      "actions": {}
+    },
+    "effects": [],
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "sourceId": "srd-2.0.loot.core-30-dual-flask",
+        "canonicalSourceId": "srd-2.0.loot.core-30-dual-flask",
+        "contentLocale": "fr",
+        "localeFallback": false,
+        "localizedPaths": [
+          "name",
+          "description"
+        ],
+        "managed": true,
+        "kind": "loot",
+        "lootCategory": "equipment",
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "contentOrigin": "core",
+        "sourceNamespace": "daggerheart-srd-2.0",
+        "sourceSubset": "core",
+        "roll": 30
+      }
+    }
+  },
+  {
+    "_id": "UMPzUNxKPu9UReZB",
+    "name": "Sac de sable capricieux",
+    "type": "loot",
+    "img": "icons/containers/bags/sack-simple-leather-brown.webp",
+    "system": {
+      "description": "<p>Vous pouvez convaincre ce petit sac de sable de devenir beaucoup plus lourd ou plus léger en réussissant un jet de Présence (10). De plus, en réussissant un jet de Finesse (10), vous pouvez souffler un peu de sable au visage d’une cible pour la rendre temporairement Vulnérable.</p>",
+      "quantity": 1,
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null,
+        "artist": ""
+      },
+      "gmNotes": "",
+      "actions": {}
+    },
+    "effects": [],
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "sourceId": "srd-2.0.loot.core-31-bag-of-ficklesand",
+        "canonicalSourceId": "srd-2.0.loot.core-31-bag-of-ficklesand",
+        "contentLocale": "fr",
+        "localeFallback": false,
+        "localizedPaths": [
+          "name",
+          "description"
+        ],
+        "managed": true,
+        "kind": "loot",
+        "lootCategory": "equipment",
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "contentOrigin": "core",
+        "sourceNamespace": "daggerheart-srd-2.0",
+        "sourceSubset": "core",
+        "roll": 31
+      }
+    }
+  },
+  {
+    "_id": "1I1xe3spJSyqiWKC",
+    "name": "Anneau de résistance",
+    "type": "loot",
+    "img": "icons/containers/bags/sack-simple-leather-brown.webp",
+    "system": {
+      "description": "<p>Une fois par repos long, vous pouvez activer cet anneau après qu’une attaque contre vous a réussi afin de réduire les dégâts de moitié.</p>",
+      "quantity": 1,
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null,
+        "artist": ""
+      },
+      "gmNotes": "",
+      "actions": {}
+    },
+    "effects": [],
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "sourceId": "srd-2.0.loot.core-32-ring-of-resistance",
+        "canonicalSourceId": "srd-2.0.loot.core-32-ring-of-resistance",
+        "contentLocale": "fr",
+        "localeFallback": false,
+        "localizedPaths": [
+          "name",
+          "description"
+        ],
+        "managed": true,
+        "kind": "loot",
+        "lootCategory": "equipment",
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "contentOrigin": "core",
+        "sourceNamespace": "daggerheart-srd-2.0",
+        "sourceSubset": "core",
+        "roll": 32
+      }
+    }
+  },
+  {
+    "_id": "pVm7chqN9XHrz97G",
+    "name": "Plume de phénix",
+    "type": "loot",
+    "img": "icons/containers/bags/sack-simple-leather-brown.webp",
+    "system": {
+      "description": "<p>Si vous possédez au moins une Plume de phénix lorsque vous tombez inconscient, vous gagnez un bonus de +1 au jet déterminant si vous gagnez une cicatrice.</p>",
+      "quantity": 1,
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null,
+        "artist": ""
+      },
+      "gmNotes": "",
+      "actions": {}
+    },
+    "effects": [],
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "sourceId": "srd-2.0.loot.core-33-phoenix-feather",
+        "canonicalSourceId": "srd-2.0.loot.core-33-phoenix-feather",
+        "contentLocale": "fr",
+        "localeFallback": false,
+        "localizedPaths": [
+          "name",
+          "description"
+        ],
+        "managed": true,
+        "kind": "loot",
+        "lootCategory": "equipment",
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "contentOrigin": "core",
+        "sourceNamespace": "daggerheart-srd-2.0",
+        "sourceSubset": "core",
+        "roll": 33
+      }
+    }
+  },
+  {
+    "_id": "zNgZ0AAGzZsb3svg",
+    "name": "Boîte aux mille ressources",
+    "type": "loot",
+    "img": "icons/containers/bags/sack-simple-leather-brown.webp",
+    "system": {
+      "description": "<p>Une fois par repos long, vous pouvez ouvrir cette petite boîte et lancer un d12. Sur 1–6, elle est vide. Sur 7–10, elle contient un consommable commun aléatoire. Sur 11–12, elle contient deux consommables communs aléatoires.</p>",
+      "quantity": 1,
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null,
+        "artist": ""
+      },
+      "gmNotes": "",
+      "actions": {}
+    },
+    "effects": [],
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "sourceId": "srd-2.0.loot.core-34-box-of-many-goods",
+        "canonicalSourceId": "srd-2.0.loot.core-34-box-of-many-goods",
+        "contentLocale": "fr",
+        "localeFallback": false,
+        "localizedPaths": [
+          "name",
+          "description"
+        ],
+        "managed": true,
+        "kind": "loot",
+        "lootCategory": "equipment",
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "contentOrigin": "core",
+        "sourceNamespace": "daggerheart-srd-2.0",
+        "sourceSubset": "core",
+        "roll": 34
+      }
+    }
+  },
+  {
+    "_id": "CSDoUcNUU2EFE7HW",
+    "name": "Charme de lame d’air",
+    "type": "loot",
+    "img": "icons/containers/bags/sack-simple-leather-brown.webp",
+    "system": {
+      "description": "<p>Vous pouvez fixer ce charme à une arme de portée Mêlée. Trois fois par repos, vous pouvez activer le charme et attaquer une cible à portée Proche.</p>",
+      "quantity": 1,
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null,
+        "artist": ""
+      },
+      "gmNotes": "",
+      "actions": {}
+    },
+    "effects": [],
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "sourceId": "srd-2.0.loot.core-35-airblade-charm",
+        "canonicalSourceId": "srd-2.0.loot.core-35-airblade-charm",
+        "contentLocale": "fr",
+        "localeFallback": false,
+        "localizedPaths": [
+          "name",
+          "description"
+        ],
+        "managed": true,
+        "kind": "loot",
+        "lootCategory": "augment",
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "contentOrigin": "core",
+        "sourceNamespace": "daggerheart-srd-2.0",
+        "sourceSubset": "core",
+        "roll": 35
+      }
+    }
+  },
+  {
+    "_id": "utkI3ukHNGIUvbZA",
+    "name": "Graine de portail",
+    "type": "loot",
+    "img": "icons/containers/bags/sack-simple-leather-brown.webp",
+    "system": {
+      "description": "<p>Vous pouvez planter cette graine dans le sol pour faire pousser un portail à cet endroit. Le portail est utilisable après 24 heures. Vous pouvez l’emprunter pour voyager vers tout autre endroit où vous avez planté une graine de portail. Un portail peut être détruit en lui infligeant n’importe quelle quantité de dégâts magiques.</p>",
+      "quantity": 1,
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null,
+        "artist": ""
+      },
+      "gmNotes": "",
+      "actions": {}
+    },
+    "effects": [],
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "sourceId": "srd-2.0.loot.core-36-portal-seed",
+        "canonicalSourceId": "srd-2.0.loot.core-36-portal-seed",
+        "contentLocale": "fr",
+        "localeFallback": false,
+        "localizedPaths": [
+          "name",
+          "description"
+        ],
+        "managed": true,
+        "kind": "loot",
+        "lootCategory": "equipment",
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "contentOrigin": "core",
+        "sourceNamespace": "daggerheart-srd-2.0",
+        "sourceSubset": "core",
+        "roll": 36
+      }
+    }
+  },
+  {
+    "_id": "hAMA1iQhjkIzAalT",
+    "name": "Chaîne du parangon",
+    "type": "loot",
+    "img": "icons/containers/bags/sack-simple-leather-brown.webp",
+    "system": {
+      "description": "<p>Comme action de temps mort, vous pouvez méditer sur un idéal ou un principe qui vous est cher et concentrer votre volonté dans cette chaîne. Une fois par repos long, vous pouvez dépenser 1 Espoir pour lancer un d20 comme dé d’Espoir lors de jets directement conformes à ce principe.</p>",
+      "quantity": 1,
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null,
+        "artist": ""
+      },
+      "gmNotes": "",
+      "actions": {}
+    },
+    "effects": [],
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "sourceId": "srd-2.0.loot.core-37-paragon-s-chain",
+        "canonicalSourceId": "srd-2.0.loot.core-37-paragon-s-chain",
+        "contentLocale": "fr",
+        "localeFallback": false,
+        "localizedPaths": [
+          "name",
+          "description"
+        ],
+        "managed": true,
+        "kind": "loot",
+        "lootCategory": "equipment",
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "contentOrigin": "core",
+        "sourceNamespace": "daggerheart-srd-2.0",
+        "sourceSubset": "core",
+        "roll": 37
+      }
+    }
+  },
+  {
+    "_id": "qURiJ8zaiZwYmyZZ",
+    "name": "Amulette insaisissable",
+    "type": "loot",
+    "img": "icons/containers/bags/sack-simple-leather-brown.webp",
+    "system": {
+      "description": "<p>Une fois par repos long, vous pouvez activer cette amulette pour devenir Caché jusqu’à ce que vous vous déplaciez. Tant que vous êtes Caché de cette manière, vous restez invisible même si un adversaire se déplace jusqu’à un endroit d’où il devrait normalement vous voir.</p>",
+      "quantity": 1,
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null,
+        "artist": ""
+      },
+      "gmNotes": "",
+      "actions": {}
+    },
+    "effects": [],
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "sourceId": "srd-2.0.loot.core-38-elusive-amulet",
+        "canonicalSourceId": "srd-2.0.loot.core-38-elusive-amulet",
+        "contentLocale": "fr",
+        "localeFallback": false,
+        "localizedPaths": [
+          "name",
+          "description"
+        ],
+        "managed": true,
+        "kind": "loot",
+        "lootCategory": "equipment",
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "contentOrigin": "core",
+        "sourceNamespace": "daggerheart-srd-2.0",
+        "sourceSubset": "core",
+        "roll": 38
+      }
+    }
+  },
+  {
+    "_id": "zSQHF3WutEgBURgx",
+    "name": "Médaillon gardien d’Espoir",
+    "type": "loot",
+    "img": "icons/containers/bags/sack-simple-leather-brown.webp",
+    "system": {
+      "description": "<p>Pendant un repos long, si vous avez 6 Espoir, vous pouvez dépenser 1 Espoir pour imprégner ce médaillon de votre détermination. Lorsque vous avez 0 Espoir, vous pouvez utiliser le médaillon pour gagner immédiatement 1 Espoir. Le médaillon doit être imprégné de nouveau avant de pouvoir être réutilisé ainsi.</p>",
+      "quantity": 1,
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null,
+        "artist": ""
+      },
+      "gmNotes": "",
+      "actions": {}
+    },
+    "effects": [],
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "sourceId": "srd-2.0.loot.core-39-hopekeeper-locket",
+        "canonicalSourceId": "srd-2.0.loot.core-39-hopekeeper-locket",
+        "contentLocale": "fr",
+        "localeFallback": false,
+        "localizedPaths": [
+          "name",
+          "description"
+        ],
+        "managed": true,
+        "kind": "loot",
+        "lootCategory": "equipment",
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "contentOrigin": "core",
+        "sourceNamespace": "daggerheart-srd-2.0",
+        "sourceSubset": "core",
+        "roll": 39
+      }
+    }
+  },
+  {
+    "_id": "6fOpUjB6IJU4Jv3i",
+    "name": "Sac infini",
+    "type": "loot",
+    "img": "icons/containers/bags/sack-simple-leather-brown.webp",
+    "system": {
+      "description": "<p>Les objets placés dans ce sac sont conservés dans une dimension de poche dont l’espace ne s’épuise jamais. Vous pouvez récupérer un objet à tout moment.</p>",
+      "quantity": 1,
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null,
+        "artist": ""
+      },
+      "gmNotes": "",
+      "actions": {}
+    },
+    "effects": [],
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "sourceId": "srd-2.0.loot.core-40-infinite-bag",
+        "canonicalSourceId": "srd-2.0.loot.core-40-infinite-bag",
+        "contentLocale": "fr",
+        "localeFallback": false,
+        "localizedPaths": [
+          "name",
+          "description"
+        ],
+        "managed": true,
+        "kind": "loot",
+        "lootCategory": "equipment",
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "contentOrigin": "core",
+        "sourceNamespace": "daggerheart-srd-2.0",
+        "sourceSubset": "core",
+        "roll": 40
+      }
+    }
+  },
+  {
+    "_id": "mn7suobF0InyLJ8b",
+    "name": "Relique de foulée",
+    "type": "loot",
+    "img": "icons/containers/bags/sack-simple-leather-brown.webp",
+    "system": {
+      "description": "<p>Vous gagnez un bonus de +1 à votre Agilité. Vous ne pouvez porter qu’une seule relique.</p>",
+      "quantity": 1,
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null,
+        "artist": ""
+      },
+      "gmNotes": "",
+      "actions": {}
+    },
+    "effects": [],
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "sourceId": "srd-2.0.loot.core-41-stride-relic",
+        "canonicalSourceId": "srd-2.0.loot.core-41-stride-relic",
+        "contentLocale": "fr",
+        "localeFallback": false,
+        "localizedPaths": [
+          "name",
+          "description"
+        ],
+        "managed": true,
+        "kind": "loot",
+        "lootCategory": "relic",
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "contentOrigin": "core",
+        "sourceNamespace": "daggerheart-srd-2.0",
+        "sourceSubset": "core",
+        "roll": 41
+      }
+    }
+  },
+  {
+    "_id": "BMcMSSVmQI4JmfFB",
+    "name": "Relique de vigueur",
+    "type": "loot",
+    "img": "icons/containers/bags/sack-simple-leather-brown.webp",
+    "system": {
+      "description": "<p>Vous gagnez un bonus de +1 à votre Force. Vous ne pouvez porter qu’une seule relique.</p>",
+      "quantity": 1,
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null,
+        "artist": ""
+      },
+      "gmNotes": "",
+      "actions": {}
+    },
+    "effects": [],
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "sourceId": "srd-2.0.loot.core-42-bolster-relic",
+        "canonicalSourceId": "srd-2.0.loot.core-42-bolster-relic",
+        "contentLocale": "fr",
+        "localeFallback": false,
+        "localizedPaths": [
+          "name",
+          "description"
+        ],
+        "managed": true,
+        "kind": "loot",
+        "lootCategory": "relic",
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "contentOrigin": "core",
+        "sourceNamespace": "daggerheart-srd-2.0",
+        "sourceSubset": "core",
+        "roll": 42
+      }
+    }
+  },
+  {
+    "_id": "9bj5csLR7MkGyHpZ",
+    "name": "Relique de contrôle",
+    "type": "loot",
+    "img": "icons/containers/bags/sack-simple-leather-brown.webp",
+    "system": {
+      "description": "<p>Vous gagnez un bonus de +1 à votre Finesse. Vous ne pouvez porter qu’une seule relique.</p>",
+      "quantity": 1,
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null,
+        "artist": ""
+      },
+      "gmNotes": "",
+      "actions": {}
+    },
+    "effects": [],
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "sourceId": "srd-2.0.loot.core-43-control-relic",
+        "canonicalSourceId": "srd-2.0.loot.core-43-control-relic",
+        "contentLocale": "fr",
+        "localeFallback": false,
+        "localizedPaths": [
+          "name",
+          "description"
+        ],
+        "managed": true,
+        "kind": "loot",
+        "lootCategory": "relic",
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "contentOrigin": "core",
+        "sourceNamespace": "daggerheart-srd-2.0",
+        "sourceSubset": "core",
+        "roll": 43
+      }
+    }
+  },
+  {
+    "_id": "4f3No1bO1VxtBZ4O",
+    "name": "Relique d’harmonisation",
+    "type": "loot",
+    "img": "icons/containers/bags/sack-simple-leather-brown.webp",
+    "system": {
+      "description": "<p>Vous gagnez un bonus de +1 à votre Instinct. Vous ne pouvez porter qu’une seule relique.</p>",
+      "quantity": 1,
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null,
+        "artist": ""
+      },
+      "gmNotes": "",
+      "actions": {}
+    },
+    "effects": [],
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "sourceId": "srd-2.0.loot.core-44-attune-relic",
+        "canonicalSourceId": "srd-2.0.loot.core-44-attune-relic",
+        "contentLocale": "fr",
+        "localeFallback": false,
+        "localizedPaths": [
+          "name",
+          "description"
+        ],
+        "managed": true,
+        "kind": "loot",
+        "lootCategory": "relic",
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "contentOrigin": "core",
+        "sourceNamespace": "daggerheart-srd-2.0",
+        "sourceSubset": "core",
+        "roll": 44
+      }
+    }
+  },
+  {
+    "_id": "5qTNOwccclAsM5ek",
+    "name": "Relique de charme",
+    "type": "loot",
+    "img": "icons/containers/bags/sack-simple-leather-brown.webp",
+    "system": {
+      "description": "<p>Vous gagnez un bonus de +1 à votre Présence. Vous ne pouvez porter qu’une seule relique.</p>",
+      "quantity": 1,
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null,
+        "artist": ""
+      },
+      "gmNotes": "",
+      "actions": {}
+    },
+    "effects": [],
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "sourceId": "srd-2.0.loot.core-45-charm-relic",
+        "canonicalSourceId": "srd-2.0.loot.core-45-charm-relic",
+        "contentLocale": "fr",
+        "localeFallback": false,
+        "localizedPaths": [
+          "name",
+          "description"
+        ],
+        "managed": true,
+        "kind": "loot",
+        "lootCategory": "relic",
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "contentOrigin": "core",
+        "sourceNamespace": "daggerheart-srd-2.0",
+        "sourceSubset": "core",
+        "roll": 45
+      }
+    }
+  },
+  {
+    "_id": "B3gjw7Ra6XaTJ8I8",
+    "name": "Relique d’illumination",
+    "type": "loot",
+    "img": "icons/containers/bags/sack-simple-leather-brown.webp",
+    "system": {
+      "description": "<p>Vous gagnez un bonus de +1 à votre Savoir. Vous ne pouvez porter qu’une seule relique.</p>",
+      "quantity": 1,
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null,
+        "artist": ""
+      },
+      "gmNotes": "",
+      "actions": {}
+    },
+    "effects": [],
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "sourceId": "srd-2.0.loot.core-46-enlighten-relic",
+        "canonicalSourceId": "srd-2.0.loot.core-46-enlighten-relic",
+        "contentLocale": "fr",
+        "localeFallback": false,
+        "localizedPaths": [
+          "name",
+          "description"
+        ],
+        "managed": true,
+        "kind": "loot",
+        "lootCategory": "relic",
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "contentOrigin": "core",
+        "sourceNamespace": "daggerheart-srd-2.0",
+        "sourceSubset": "core",
+        "roll": 46
+      }
+    }
+  },
+  {
+    "_id": "4N6dqSKCvVZweiIz",
+    "name": "Relique d’affûtage",
+    "type": "loot",
+    "img": "icons/containers/bags/sack-simple-leather-brown.webp",
+    "system": {
+      "description": "<p>Vous gagnez un bonus de +1 à une Expérience de votre choix. Vous ne pouvez porter qu’une seule relique.</p>",
+      "quantity": 1,
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null,
+        "artist": ""
+      },
+      "gmNotes": "",
+      "actions": {}
+    },
+    "effects": [],
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "sourceId": "srd-2.0.loot.core-47-honing-relic",
+        "canonicalSourceId": "srd-2.0.loot.core-47-honing-relic",
+        "contentLocale": "fr",
+        "localeFallback": false,
+        "localizedPaths": [
+          "name",
+          "description"
+        ],
+        "managed": true,
+        "kind": "loot",
+        "lootCategory": "relic",
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "contentOrigin": "core",
+        "sourceNamespace": "daggerheart-srd-2.0",
+        "sourceSubset": "core",
+        "roll": 47
+      }
+    }
+  },
+  {
+    "_id": "oT95ZGRwRqmR7fFt",
+    "name": "Pendentif de luciole",
+    "type": "loot",
+    "img": "icons/containers/bags/sack-simple-leather-brown.webp",
+    "system": {
+      "description": "<p>Tant que vous portez ce pendentif, vos armes de portée Mêlée qui infligent des dégâts physiques prennent un éclat diaphane et peuvent attaquer des cibles à portée Très proche.</p>",
+      "quantity": 1,
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null,
+        "artist": ""
+      },
+      "gmNotes": "",
+      "actions": {}
+    },
+    "effects": [],
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "sourceId": "srd-2.0.loot.core-48-flickerfly-pendant",
+        "canonicalSourceId": "srd-2.0.loot.core-48-flickerfly-pendant",
+        "contentLocale": "fr",
+        "localeFallback": false,
+        "localizedPaths": [
+          "name",
+          "description"
+        ],
+        "managed": true,
+        "kind": "loot",
+        "lootCategory": "equipment",
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "contentOrigin": "core",
+        "sourceNamespace": "daggerheart-srd-2.0",
+        "sourceSubset": "core",
+        "roll": 48
+      }
+    }
+  },
+  {
+    "_id": "luYivDNyR6zEkf3g",
+    "name": "Bottes d’arpenteur des lacs",
+    "type": "loot",
+    "img": "icons/containers/bags/sack-simple-leather-brown.webp",
+    "system": {
+      "description": "<p>Vous pouvez marcher à la surface de l’eau comme s’il s’agissait d’un sol meuble.</p>",
+      "quantity": 1,
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null,
+        "artist": ""
+      },
+      "gmNotes": "",
+      "actions": {}
+    },
+    "effects": [],
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "sourceId": "srd-2.0.loot.core-49-lakestrider-boots",
+        "canonicalSourceId": "srd-2.0.loot.core-49-lakestrider-boots",
+        "contentLocale": "fr",
+        "localeFallback": false,
+        "localizedPaths": [
+          "name",
+          "description"
+        ],
+        "managed": true,
+        "kind": "loot",
+        "lootCategory": "equipment",
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "contentOrigin": "core",
+        "sourceNamespace": "daggerheart-srd-2.0",
+        "sourceSubset": "core",
+        "roll": 49
+      }
+    }
+  },
+  {
+    "_id": "nHnSTen2cdE26YAo",
+    "name": "Compagnon d’argile",
+    "type": "loot",
+    "img": "icons/containers/bags/sack-simple-leather-brown.webp",
+    "system": {
+      "description": "<p>Lorsque vous modelez cette boule d’argile en compagnon animal, elle se comporte comme l’animal représenté. Par exemple, une araignée d’argile peut tisser des toiles d’argile et un oiseau d’argile peut voler. Le compagnon conserve sa mémoire et son identité d’une forme à l’autre, mais peut adopter de nouvelles manières à chaque forme.</p>",
+      "quantity": 1,
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null,
+        "artist": ""
+      },
+      "gmNotes": "",
+      "actions": {}
+    },
+    "effects": [],
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "sourceId": "srd-2.0.loot.core-50-clay-companion",
+        "canonicalSourceId": "srd-2.0.loot.core-50-clay-companion",
+        "contentLocale": "fr",
+        "localeFallback": false,
+        "localizedPaths": [
+          "name",
+          "description"
+        ],
+        "managed": true,
+        "kind": "loot",
+        "lootCategory": "equipment",
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "contentOrigin": "core",
+        "sourceNamespace": "daggerheart-srd-2.0",
+        "sourceSubset": "core",
+        "roll": 50
+      }
+    }
+  },
+  {
+    "_id": "YjguBoDQ0ckjykVR",
+    "name": "Recette de poussière mythique",
+    "type": "loot",
+    "img": "icons/containers/bags/sack-simple-leather-brown.webp",
+    "system": {
+      "description": "<p>Comme action de temps mort, vous pouvez utiliser une poignée de fine poussière d’or pour fabriquer de la Poussière mythique.</p>",
+      "quantity": 1,
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null,
+        "artist": ""
+      },
+      "gmNotes": "",
+      "actions": {}
+    },
+    "effects": [],
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "sourceId": "srd-2.0.loot.core-51-mythic-dust-recipe",
+        "canonicalSourceId": "srd-2.0.loot.core-51-mythic-dust-recipe",
+        "contentLocale": "fr",
+        "localeFallback": false,
+        "localizedPaths": [
+          "name",
+          "description"
+        ],
+        "managed": true,
+        "kind": "loot",
+        "lootCategory": "recipe",
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "contentOrigin": "core",
+        "sourceNamespace": "daggerheart-srd-2.0",
+        "sourceSubset": "core",
+        "roll": 51
+      }
+    }
+  },
+  {
+    "_id": "XgKv2sDJcAwQIcBq",
+    "name": "Éclat de mémoire",
+    "type": "loot",
+    "img": "icons/containers/bags/sack-simple-leather-brown.webp",
+    "system": {
+      "description": "<p>Une fois par repos long, vous pouvez dépenser 2 Espoir pour rappeler une carte de domaine depuis votre coffre sans payer son coût de Rappel.</p>",
+      "quantity": 1,
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null,
+        "artist": ""
+      },
+      "gmNotes": "",
+      "actions": {}
+    },
+    "effects": [],
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "sourceId": "srd-2.0.loot.core-52-shard-of-memory",
+        "canonicalSourceId": "srd-2.0.loot.core-52-shard-of-memory",
+        "contentLocale": "fr",
+        "localeFallback": false,
+        "localizedPaths": [
+          "name",
+          "description"
+        ],
+        "managed": true,
+        "kind": "loot",
+        "lootCategory": "equipment",
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "contentOrigin": "core",
+        "sourceNamespace": "daggerheart-srd-2.0",
+        "sourceSubset": "core",
+        "roll": 52
+      }
+    }
+  },
+  {
+    "_id": "niAgopft9VTTPfBH",
+    "name": "Gemme de célérité",
+    "type": "loot",
+    "img": "icons/containers/bags/sack-simple-leather-brown.webp",
+    "system": {
+      "description": "<p>Vous pouvez fixer cette gemme à une arme, ce qui vous permet d’utiliser votre Agilité lorsque vous effectuez une attaque avec cette arme.</p>",
+      "quantity": 1,
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null,
+        "artist": ""
+      },
+      "gmNotes": "",
+      "actions": {}
+    },
+    "effects": [],
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "sourceId": "srd-2.0.loot.core-53-gem-of-alacrity",
+        "canonicalSourceId": "srd-2.0.loot.core-53-gem-of-alacrity",
+        "contentLocale": "fr",
+        "localeFallback": false,
+        "localizedPaths": [
+          "name",
+          "description"
+        ],
+        "managed": true,
+        "kind": "loot",
+        "lootCategory": "augment",
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "contentOrigin": "core",
+        "sourceNamespace": "daggerheart-srd-2.0",
+        "sourceSubset": "core",
+        "roll": 53
+      }
+    }
+  },
+  {
+    "_id": "YPny1BToBOrsM9Vk",
+    "name": "Gemme de puissance",
+    "type": "loot",
+    "img": "icons/containers/bags/sack-simple-leather-brown.webp",
+    "system": {
+      "description": "<p>Vous pouvez fixer cette gemme à une arme, ce qui vous permet d’utiliser votre Force lorsque vous effectuez une attaque avec cette arme.</p>",
+      "quantity": 1,
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null,
+        "artist": ""
+      },
+      "gmNotes": "",
+      "actions": {}
+    },
+    "effects": [],
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "sourceId": "srd-2.0.loot.core-54-gem-of-might",
+        "canonicalSourceId": "srd-2.0.loot.core-54-gem-of-might",
+        "contentLocale": "fr",
+        "localeFallback": false,
+        "localizedPaths": [
+          "name",
+          "description"
+        ],
+        "managed": true,
+        "kind": "loot",
+        "lootCategory": "augment",
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "contentOrigin": "core",
+        "sourceNamespace": "daggerheart-srd-2.0",
+        "sourceSubset": "core",
+        "roll": 54
+      }
+    }
+  },
+  {
+    "_id": "kXZKtG1YMzKDpZGW",
+    "name": "Gemme de précision",
+    "type": "loot",
+    "img": "icons/containers/bags/sack-simple-leather-brown.webp",
+    "system": {
+      "description": "<p>Vous pouvez fixer cette gemme à une arme, ce qui vous permet d’utiliser votre Finesse lorsque vous effectuez une attaque avec cette arme.</p>",
+      "quantity": 1,
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null,
+        "artist": ""
+      },
+      "gmNotes": "",
+      "actions": {}
+    },
+    "effects": [],
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "sourceId": "srd-2.0.loot.core-55-gem-of-precision",
+        "canonicalSourceId": "srd-2.0.loot.core-55-gem-of-precision",
+        "contentLocale": "fr",
+        "localeFallback": false,
+        "localizedPaths": [
+          "name",
+          "description"
+        ],
+        "managed": true,
+        "kind": "loot",
+        "lootCategory": "augment",
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "contentOrigin": "core",
+        "sourceNamespace": "daggerheart-srd-2.0",
+        "sourceSubset": "core",
+        "roll": 55
+      }
+    }
+  },
+  {
+    "_id": "cOC31WepBq9PmU3p",
+    "name": "Gemme d’intuition",
+    "type": "loot",
+    "img": "icons/containers/bags/sack-simple-leather-brown.webp",
+    "system": {
+      "description": "<p>Vous pouvez fixer cette gemme à une arme, ce qui vous permet d’utiliser votre Instinct lorsque vous effectuez une attaque avec cette arme.</p>",
+      "quantity": 1,
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null,
+        "artist": ""
+      },
+      "gmNotes": "",
+      "actions": {}
+    },
+    "effects": [],
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "sourceId": "srd-2.0.loot.core-56-gem-of-insight",
+        "canonicalSourceId": "srd-2.0.loot.core-56-gem-of-insight",
+        "contentLocale": "fr",
+        "localeFallback": false,
+        "localizedPaths": [
+          "name",
+          "description"
+        ],
+        "managed": true,
+        "kind": "loot",
+        "lootCategory": "augment",
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "contentOrigin": "core",
+        "sourceNamespace": "daggerheart-srd-2.0",
+        "sourceSubset": "core",
+        "roll": 56
+      }
+    }
+  },
+  {
+    "_id": "wdya07URj9kwgqwe",
+    "name": "Gemme d’audace",
+    "type": "loot",
+    "img": "icons/containers/bags/sack-simple-leather-brown.webp",
+    "system": {
+      "description": "<p>Vous pouvez fixer cette gemme à une arme, ce qui vous permet d’utiliser votre Présence lorsque vous effectuez une attaque avec cette arme.</p>",
+      "quantity": 1,
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null,
+        "artist": ""
+      },
+      "gmNotes": "",
+      "actions": {}
+    },
+    "effects": [],
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "sourceId": "srd-2.0.loot.core-57-gem-of-audacity",
+        "canonicalSourceId": "srd-2.0.loot.core-57-gem-of-audacity",
+        "contentLocale": "fr",
+        "localeFallback": false,
+        "localizedPaths": [
+          "name",
+          "description"
+        ],
+        "managed": true,
+        "kind": "loot",
+        "lootCategory": "augment",
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "contentOrigin": "core",
+        "sourceNamespace": "daggerheart-srd-2.0",
+        "sourceSubset": "core",
+        "roll": 57
+      }
+    }
+  },
+  {
+    "_id": "fs3FQZOa3p06N0yF",
+    "name": "Gemme de sagacité",
+    "type": "loot",
+    "img": "icons/containers/bags/sack-simple-leather-brown.webp",
+    "system": {
+      "description": "<p>Vous pouvez fixer cette gemme à une arme, ce qui vous permet d’utiliser votre Savoir lorsque vous effectuez une attaque avec cette arme.</p>",
+      "quantity": 1,
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null,
+        "artist": ""
+      },
+      "gmNotes": "",
+      "actions": {}
+    },
+    "effects": [],
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "sourceId": "srd-2.0.loot.core-58-gem-of-sagacity",
+        "canonicalSourceId": "srd-2.0.loot.core-58-gem-of-sagacity",
+        "contentLocale": "fr",
+        "localeFallback": false,
+        "localizedPaths": [
+          "name",
+          "description"
+        ],
+        "managed": true,
+        "kind": "loot",
+        "lootCategory": "augment",
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "contentOrigin": "core",
+        "sourceNamespace": "daggerheart-srd-2.0",
+        "sourceSubset": "core",
+        "roll": 58
+      }
+    }
+  },
+  {
+    "_id": "YrKhYs33ix15Dl9b",
+    "name": "Anneau de résolution inébranlable",
+    "type": "loot",
+    "img": "icons/containers/bags/sack-simple-leather-brown.webp",
+    "system": {
+      "description": "<p>Une fois par session, lorsque le MJ dépense 1 Peur, vous pouvez dépenser 4 Espoir pour annuler les effets de cette Peur dépensée.</p>",
+      "quantity": 1,
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null,
+        "artist": ""
+      },
+      "gmNotes": "",
+      "actions": {}
+    },
+    "effects": [],
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "sourceId": "srd-2.0.loot.core-59-ring-of-unbreakable-resolve",
+        "canonicalSourceId": "srd-2.0.loot.core-59-ring-of-unbreakable-resolve",
+        "contentLocale": "fr",
+        "localeFallback": false,
+        "localizedPaths": [
+          "name",
+          "description"
+        ],
+        "managed": true,
+        "kind": "loot",
+        "lootCategory": "equipment",
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "contentOrigin": "core",
+        "sourceNamespace": "daggerheart-srd-2.0",
+        "sourceSubset": "core",
+        "roll": 59
+      }
+    }
+  },
+  {
+    "_id": "XMJXGaQaZ5vkKK7Z",
+    "name": "Ceinture d’unité",
+    "type": "loot",
+    "img": "icons/containers/bags/sack-simple-leather-brown.webp",
+    "system": {
+      "description": "<p>Une fois par session, vous pouvez dépenser 5 Espoir pour mener un jet d’Équipe avec trois PJ au lieu de deux.</p>",
+      "quantity": 1,
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null,
+        "artist": ""
+      },
+      "gmNotes": "",
+      "actions": {}
+    },
+    "effects": [],
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "sourceId": "srd-2.0.loot.core-60-belt-of-unity",
+        "canonicalSourceId": "srd-2.0.loot.core-60-belt-of-unity",
+        "contentLocale": "fr",
+        "localeFallback": false,
+        "localizedPaths": [
+          "name",
+          "description"
+        ],
+        "managed": true,
+        "kind": "loot",
+        "lootCategory": "equipment",
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "contentOrigin": "core",
+        "sourceNamespace": "daggerheart-srd-2.0",
+        "sourceSubset": "core",
+        "roll": 60
+      }
+    }
+  },
+  {
+    "_id": "R18H87QeDCO1VTwl",
+    "name": "Chausse-trappes",
+    "type": "loot",
+    "img": "icons/containers/bags/sack-simple-leather-brown.webp",
+    "system": {
+      "description": "<p>Vous pouvez répandre ces chausse-trappes dans une zone à portée Très proche autour de vous. Une créature qui traverse cette zone à toute vitesse doit marquer 1 Stress.</p>",
+      "quantity": 1,
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null,
+        "artist": ""
+      },
+      "gmNotes": "",
+      "actions": {}
+    },
+    "effects": [],
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "sourceId": "srd-2.0.loot.hope-fear-01-caltrops",
+        "canonicalSourceId": "srd-2.0.loot.hope-fear-01-caltrops",
+        "contentLocale": "fr",
+        "localeFallback": false,
+        "localizedPaths": [
+          "name",
+          "description"
+        ],
+        "managed": true,
+        "kind": "loot",
+        "lootCategory": "equipment",
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "contentOrigin": "core",
+        "sourceNamespace": "daggerheart-srd-2.0",
+        "sourceSubset": "hope-fear",
+        "roll": 1
+      }
+    }
+  },
+  {
+    "_id": "WhS7Yp1i3Dbydfa9",
+    "name": "Grappin",
+    "type": "loot",
+    "img": "icons/containers/bags/sack-simple-leather-brown.webp",
+    "system": {
+      "description": "<p>Vous gagnez l’avantage aux jets d’action pour escalader des surfaces abruptes.</p>",
+      "quantity": 1,
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null,
+        "artist": ""
+      },
+      "gmNotes": "",
+      "actions": {}
+    },
+    "effects": [],
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "sourceId": "srd-2.0.loot.hope-fear-02-grapnel",
+        "canonicalSourceId": "srd-2.0.loot.hope-fear-02-grapnel",
+        "contentLocale": "fr",
+        "localeFallback": false,
+        "localizedPaths": [
+          "name",
+          "description"
+        ],
+        "managed": true,
+        "kind": "loot",
+        "lootCategory": "equipment",
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "contentOrigin": "core",
+        "sourceNamespace": "daggerheart-srd-2.0",
+        "sourceSubset": "hope-fear",
+        "roll": 2
+      }
+    }
+  },
+  {
+    "_id": "raFxNofT0VOoJy1M",
+    "name": "Billes",
+    "type": "loot",
+    "img": "icons/containers/bags/sack-simple-leather-brown.webp",
+    "system": {
+      "description": "<p>Cette bourse contient des sphères métalliques parfaitement lisses.</p>",
+      "quantity": 1,
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null,
+        "artist": ""
+      },
+      "gmNotes": "",
+      "actions": {}
+    },
+    "effects": [],
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "sourceId": "srd-2.0.loot.hope-fear-03-ball-bearings",
+        "canonicalSourceId": "srd-2.0.loot.hope-fear-03-ball-bearings",
+        "contentLocale": "fr",
+        "localeFallback": false,
+        "localizedPaths": [
+          "name",
+          "description"
+        ],
+        "managed": true,
+        "kind": "loot",
+        "lootCategory": "equipment",
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "contentOrigin": "core",
+        "sourceNamespace": "daggerheart-srd-2.0",
+        "sourceSubset": "hope-fear",
+        "roll": 3
+      }
+    }
+  },
+  {
+    "_id": "FnUCyLr44pId3OoF",
+    "name": "Boîte de poussière de dragon",
+    "type": "loot",
+    "img": "icons/containers/bags/sack-simple-leather-brown.webp",
+    "system": {
+      "description": "<p>Cette tabatière contient une poudre combustible.</p>",
+      "quantity": 1,
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null,
+        "artist": ""
+      },
+      "gmNotes": "",
+      "actions": {}
+    },
+    "effects": [],
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "sourceId": "srd-2.0.loot.hope-fear-04-box-of-dragon-dust",
+        "canonicalSourceId": "srd-2.0.loot.hope-fear-04-box-of-dragon-dust",
+        "contentLocale": "fr",
+        "localeFallback": false,
+        "localizedPaths": [
+          "name",
+          "description"
+        ],
+        "managed": true,
+        "kind": "loot",
+        "lootCategory": "equipment",
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "contentOrigin": "core",
+        "sourceNamespace": "daggerheart-srd-2.0",
+        "sourceSubset": "hope-fear",
+        "roll": 4
+      }
+    }
+  },
+  {
+    "_id": "PqtWmrIT9b3cq0fv",
+    "name": "Anneau de Nighthawker",
+    "type": "loot",
+    "img": "icons/containers/bags/sack-simple-leather-brown.webp",
+    "system": {
+      "description": "<p>Dépensez 1 Espoir pour activer la gemme de cet anneau jusqu’à la fin de la scène. Tant qu’elle est active, la gemme change de couleur selon la proximité du porteur avec un trésor caché : couleurs chaudes s’il est proche, couleurs froides s’il est loin.</p>",
+      "quantity": 1,
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null,
+        "artist": ""
+      },
+      "gmNotes": "",
+      "actions": {}
+    },
+    "effects": [],
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "sourceId": "srd-2.0.loot.hope-fear-05-nighthawker-s-ring",
+        "canonicalSourceId": "srd-2.0.loot.hope-fear-05-nighthawker-s-ring",
+        "contentLocale": "fr",
+        "localeFallback": false,
+        "localizedPaths": [
+          "name",
+          "description"
+        ],
+        "managed": true,
+        "kind": "loot",
+        "lootCategory": "equipment",
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "contentOrigin": "core",
+        "sourceNamespace": "daggerheart-srd-2.0",
+        "sourceSubset": "hope-fear",
+        "roll": 5
+      }
+    }
+  },
+  {
+    "_id": "pVlM2vp7CcDbMIni",
+    "name": "Longue-vue elfique",
+    "type": "loot",
+    "img": "icons/containers/bags/sack-simple-leather-brown.webp",
+    "system": {
+      "description": "<p>Vous pouvez utiliser cette longue-vue pour grossir votre vision cent fois.</p>",
+      "quantity": 1,
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null,
+        "artist": ""
+      },
+      "gmNotes": "",
+      "actions": {}
+    },
+    "effects": [],
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "sourceId": "srd-2.0.loot.hope-fear-06-elven-spyglass",
+        "canonicalSourceId": "srd-2.0.loot.hope-fear-06-elven-spyglass",
+        "contentLocale": "fr",
+        "localeFallback": false,
+        "localizedPaths": [
+          "name",
+          "description"
+        ],
+        "managed": true,
+        "kind": "loot",
+        "lootCategory": "equipment",
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "contentOrigin": "core",
+        "sourceNamespace": "daggerheart-srd-2.0",
+        "sourceSubset": "hope-fear",
+        "roll": 6
+      }
+    }
+  },
+  {
+    "_id": "ePFBKRcG2VITpT9c",
+    "name": "Granules gourmandes",
+    "type": "loot",
+    "img": "icons/containers/bags/sack-simple-leather-brown.webp",
+    "system": {
+      "description": "<p>Cette poudre savoureuse rend délicieux et sain tout aliment sur lequel elle est saupoudrée, aussi fade ou avarié soit-il.</p>",
+      "quantity": 1,
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null,
+        "artist": ""
+      },
+      "gmNotes": "",
+      "actions": {}
+    },
+    "effects": [],
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "sourceId": "srd-2.0.loot.hope-fear-07-gourmet-granules",
+        "canonicalSourceId": "srd-2.0.loot.hope-fear-07-gourmet-granules",
+        "contentLocale": "fr",
+        "localeFallback": false,
+        "localizedPaths": [
+          "name",
+          "description"
+        ],
+        "managed": true,
+        "kind": "loot",
+        "lootCategory": "equipment",
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "contentOrigin": "core",
+        "sourceNamespace": "daggerheart-srd-2.0",
+        "sourceSubset": "hope-fear",
+        "roll": 7
+      }
+    }
+  },
+  {
+    "_id": "GMRC4pVhxkk3TvPU",
+    "name": "Perche télescopique",
+    "type": "loot",
+    "img": "icons/containers/bags/sack-simple-leather-brown.webp",
+    "system": {
+      "description": "<p>Vous pouvez démonter cette perche de 5,5 m en six segments emboîtés de 90 cm.</p>",
+      "quantity": 1,
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null,
+        "artist": ""
+      },
+      "gmNotes": "",
+      "actions": {}
+    },
+    "effects": [],
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "sourceId": "srd-2.0.loot.hope-fear-08-collapsible-pole",
+        "canonicalSourceId": "srd-2.0.loot.hope-fear-08-collapsible-pole",
+        "contentLocale": "fr",
+        "localeFallback": false,
+        "localizedPaths": [
+          "name",
+          "description"
+        ],
+        "managed": true,
+        "kind": "loot",
+        "lootCategory": "equipment",
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "contentOrigin": "core",
+        "sourceNamespace": "daggerheart-srd-2.0",
+        "sourceSubset": "hope-fear",
+        "roll": 8
+      }
+    }
+  },
+  {
+    "_id": "rFvLHBl6jrthpmKb",
+    "name": "Plume d’aile noire",
+    "type": "loot",
+    "img": "icons/containers/bags/sack-simple-leather-brown.webp",
+    "system": {
+      "description": "<p>Cette plume d’écriture ne manque jamais d’encre et n’a jamais besoin d’être taillée.</p>",
+      "quantity": 1,
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null,
+        "artist": ""
+      },
+      "gmNotes": "",
+      "actions": {}
+    },
+    "effects": [],
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "sourceId": "srd-2.0.loot.hope-fear-09-blackwing-quill",
+        "canonicalSourceId": "srd-2.0.loot.hope-fear-09-blackwing-quill",
+        "contentLocale": "fr",
+        "localeFallback": false,
+        "localizedPaths": [
+          "name",
+          "description"
+        ],
+        "managed": true,
+        "kind": "loot",
+        "lootCategory": "equipment",
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "contentOrigin": "core",
+        "sourceNamespace": "daggerheart-srd-2.0",
+        "sourceSubset": "hope-fear",
+        "roll": 9
+      }
+    }
+  },
+  {
+    "_id": "Uhvu6wwwLbo4B9Cf",
+    "name": "Couteau pliant de Silee",
+    "type": "loot",
+    "img": "icons/containers/bags/sack-simple-leather-brown.webp",
+    "system": {
+      "description": "<p>Cette lame de 7,5 cm possède un tranchant capable de couper facilement presque n’importe quoi, à l’exception du manche dans lequel elle est rangée.</p>",
+      "quantity": 1,
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null,
+        "artist": ""
+      },
+      "gmNotes": "",
+      "actions": {}
+    },
+    "effects": [],
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "sourceId": "srd-2.0.loot.hope-fear-10-silee-s-folding-knife",
+        "canonicalSourceId": "srd-2.0.loot.hope-fear-10-silee-s-folding-knife",
+        "contentLocale": "fr",
+        "localeFallback": false,
+        "localizedPaths": [
+          "name",
+          "description"
+        ],
+        "managed": true,
+        "kind": "loot",
+        "lootCategory": "equipment",
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "contentOrigin": "core",
+        "sourceNamespace": "daggerheart-srd-2.0",
+        "sourceSubset": "hope-fear",
+        "roll": 10
+      }
+    }
+  },
+  {
+    "_id": "9qE0w1ahJRrNCtcD",
+    "name": "Jouet mécanique",
+    "type": "loot",
+    "img": "icons/containers/bags/sack-simple-leather-brown.webp",
+    "system": {
+      "description": "<p>Ce petit dispositif mécanique a la forme d’un jeune strixwolf et peut être programmé pour effectuer des tours simples.</p>",
+      "quantity": 1,
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null,
+        "artist": ""
+      },
+      "gmNotes": "",
+      "actions": {}
+    },
+    "effects": [],
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "sourceId": "srd-2.0.loot.hope-fear-11-windup-toy",
+        "canonicalSourceId": "srd-2.0.loot.hope-fear-11-windup-toy",
+        "contentLocale": "fr",
+        "localeFallback": false,
+        "localizedPaths": [
+          "name",
+          "description"
+        ],
+        "managed": true,
+        "kind": "loot",
+        "lootCategory": "equipment",
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "contentOrigin": "core",
+        "sourceNamespace": "daggerheart-srd-2.0",
+        "sourceSubset": "hope-fear",
+        "roll": 11
+      }
+    }
+  },
+  {
+    "_id": "mCul1FcE8QsNXxQ6",
+    "name": "Dés pipés",
+    "type": "loot",
+    "img": "icons/containers/bags/sack-simple-leather-brown.webp",
+    "system": {
+      "description": "<p>Vous pouvez choisir le résultat obtenu par ces dés pipés en réussissant un jet de Finesse (14). Si vous obtenez un jet avec Peur, toute personne qui observe comprend que les dés sont truqués.</p>",
+      "quantity": 1,
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null,
+        "artist": ""
+      },
+      "gmNotes": "",
+      "actions": {}
+    },
+    "effects": [],
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "sourceId": "srd-2.0.loot.hope-fear-12-loaded-dice",
+        "canonicalSourceId": "srd-2.0.loot.hope-fear-12-loaded-dice",
+        "contentLocale": "fr",
+        "localeFallback": false,
+        "localizedPaths": [
+          "name",
+          "description"
+        ],
+        "managed": true,
+        "kind": "loot",
+        "lootCategory": "equipment",
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "contentOrigin": "core",
+        "sourceNamespace": "daggerheart-srd-2.0",
+        "sourceSubset": "hope-fear",
+        "roll": 12
+      }
+    }
+  },
+  {
+    "_id": "RQUhENtG74nMPbbj",
+    "name": "Corne d’écorce creuse",
+    "type": "loot",
+    "img": "icons/containers/bags/sack-simple-leather-brown.webp",
+    "system": {
+      "description": "<p>Vous pouvez souffler dans cette corne pour invoquer une petite créature des bois qui accomplira une tâche simple.</p>",
+      "quantity": 1,
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null,
+        "artist": ""
+      },
+      "gmNotes": "",
+      "actions": {}
+    },
+    "effects": [],
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "sourceId": "srd-2.0.loot.hope-fear-13-hollowbark-horn",
+        "canonicalSourceId": "srd-2.0.loot.hope-fear-13-hollowbark-horn",
+        "contentLocale": "fr",
+        "localeFallback": false,
+        "localizedPaths": [
+          "name",
+          "description"
+        ],
+        "managed": true,
+        "kind": "loot",
+        "lootCategory": "equipment",
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "contentOrigin": "core",
+        "sourceNamespace": "daggerheart-srd-2.0",
+        "sourceSubset": "hope-fear",
+        "roll": 13
+      }
+    }
+  },
+  {
+    "_id": "rJJPWT3bAXnyBrEM",
+    "name": "Corde auto-nouante",
+    "type": "loot",
+    "img": "icons/containers/bags/sack-simple-leather-brown.webp",
+    "system": {
+      "description": "<p>Vous pouvez ordonner à cette corde de se nouer ou de se dénouer toute seule.</p>",
+      "quantity": 1,
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null,
+        "artist": ""
+      },
+      "gmNotes": "",
+      "actions": {}
+    },
+    "effects": [],
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "sourceId": "srd-2.0.loot.hope-fear-14-self-tying-rope",
+        "canonicalSourceId": "srd-2.0.loot.hope-fear-14-self-tying-rope",
+        "contentLocale": "fr",
+        "localeFallback": false,
+        "localizedPaths": [
+          "name",
+          "description"
+        ],
+        "managed": true,
+        "kind": "loot",
+        "lootCategory": "equipment",
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "contentOrigin": "core",
+        "sourceNamespace": "daggerheart-srd-2.0",
+        "sourceSubset": "hope-fear",
+        "roll": 14
+      }
+    }
+  },
+  {
+    "_id": "ZQmqi4PZmI8jKbBI",
+    "name": "Boussole du voleur",
+    "type": "loot",
+    "img": "icons/containers/bags/sack-simple-leather-brown.webp",
+    "system": {
+      "description": "<p>À l’intérieur, cette boussole indique la sortie la plus proche ; à l’extérieur, elle indique l’entrée la plus proche.</p>",
+      "quantity": 1,
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null,
+        "artist": ""
+      },
+      "gmNotes": "",
+      "actions": {}
+    },
+    "effects": [],
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "sourceId": "srd-2.0.loot.hope-fear-15-thief-s-compass",
+        "canonicalSourceId": "srd-2.0.loot.hope-fear-15-thief-s-compass",
+        "contentLocale": "fr",
+        "localeFallback": false,
+        "localizedPaths": [
+          "name",
+          "description"
+        ],
+        "managed": true,
+        "kind": "loot",
+        "lootCategory": "equipment",
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "contentOrigin": "core",
+        "sourceNamespace": "daggerheart-srd-2.0",
+        "sourceSubset": "hope-fear",
+        "roll": 15
+      }
+    }
+  },
+  {
+    "_id": "22OaQiDjeIUsqACb",
+    "name": "Cloche du voyageur",
+    "type": "loot",
+    "img": "icons/containers/bags/sack-simple-leather-brown.webp",
+    "system": {
+      "description": "<p>Une fois par repos long, vous pouvez faire sonner cette cloche pour ouvrir magiquement le chemin sûr le plus court à travers un terrain difficile pendant 1 heure.</p>",
+      "quantity": 1,
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null,
+        "artist": ""
+      },
+      "gmNotes": "",
+      "actions": {}
+    },
+    "effects": [],
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "sourceId": "srd-2.0.loot.hope-fear-16-traveler-s-bell",
+        "canonicalSourceId": "srd-2.0.loot.hope-fear-16-traveler-s-bell",
+        "contentLocale": "fr",
+        "localeFallback": false,
+        "localizedPaths": [
+          "name",
+          "description"
+        ],
+        "managed": true,
+        "kind": "loot",
+        "lootCategory": "equipment",
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "contentOrigin": "core",
+        "sourceNamespace": "daggerheart-srd-2.0",
+        "sourceSubset": "hope-fear",
+        "roll": 16
+      }
+    }
+  },
+  {
+    "_id": "L7jpNfEYBRbb76Vk",
+    "name": "Torche mandragorienne",
+    "type": "loot",
+    "img": "icons/containers/bags/sack-simple-leather-brown.webp",
+    "system": {
+      "description": "<p>Cette torche émet une lumière que seul son porteur peut voir.</p>",
+      "quantity": 1,
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null,
+        "artist": ""
+      },
+      "gmNotes": "",
+      "actions": {}
+    },
+    "effects": [],
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "sourceId": "srd-2.0.loot.hope-fear-17-mandragorian-torch",
+        "canonicalSourceId": "srd-2.0.loot.hope-fear-17-mandragorian-torch",
+        "contentLocale": "fr",
+        "localeFallback": false,
+        "localizedPaths": [
+          "name",
+          "description"
+        ],
+        "managed": true,
+        "kind": "loot",
+        "lootCategory": "equipment",
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "contentOrigin": "core",
+        "sourceNamespace": "daggerheart-srd-2.0",
+        "sourceSubset": "hope-fear",
+        "roll": 17
+      }
+    }
+  },
+  {
+    "_id": "krcZyW4QW5JSvDBe",
+    "name": "Bottes de mystique souple",
+    "type": "loot",
+    "img": "icons/containers/bags/sack-simple-leather-brown.webp",
+    "system": {
+      "description": "<p>Tant que vous portez ces bottes, vous ne laissez ni traces ni empreintes.</p>",
+      "quantity": 1,
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null,
+        "artist": ""
+      },
+      "gmNotes": "",
+      "actions": {}
+    },
+    "effects": [],
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "sourceId": "srd-2.0.loot.hope-fear-18-boots-of-supple-mystique",
+        "canonicalSourceId": "srd-2.0.loot.hope-fear-18-boots-of-supple-mystique",
+        "contentLocale": "fr",
+        "localeFallback": false,
+        "localizedPaths": [
+          "name",
+          "description"
+        ],
+        "managed": true,
+        "kind": "loot",
+        "lootCategory": "equipment",
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "contentOrigin": "core",
+        "sourceNamespace": "daggerheart-srd-2.0",
+        "sourceSubset": "hope-fear",
+        "roll": 18
+      }
+    }
+  },
+  {
+    "_id": "h5hQizkPoi7q234L",
+    "name": "Bocal de zéphyr",
+    "type": "loot",
+    "img": "icons/containers/bags/sack-simple-leather-brown.webp",
+    "system": {
+      "description": "<p>Vous pouvez ouvrir ce bocal vide pendant des intempéries pour capturer la tempête et laisser derrière vous un ciel dégagé. La tempête reste à l’intérieur jusqu’à ce que vous la libériez en rouvrant le bocal.</p>",
+      "quantity": 1,
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null,
+        "artist": ""
+      },
+      "gmNotes": "",
+      "actions": {}
+    },
+    "effects": [],
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "sourceId": "srd-2.0.loot.hope-fear-19-zephyr-s-jar",
+        "canonicalSourceId": "srd-2.0.loot.hope-fear-19-zephyr-s-jar",
+        "contentLocale": "fr",
+        "localeFallback": false,
+        "localizedPaths": [
+          "name",
+          "description"
+        ],
+        "managed": true,
+        "kind": "loot",
+        "lootCategory": "equipment",
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "contentOrigin": "core",
+        "sourceNamespace": "daggerheart-srd-2.0",
+        "sourceSubset": "hope-fear",
+        "roll": 19
+      }
+    }
+  },
+  {
+    "_id": "7y7cHyayFMeKiNUA",
+    "name": "Anneau de retour",
+    "type": "loot",
+    "img": "icons/containers/bags/sack-simple-leather-brown.webp",
+    "system": {
+      "description": "<p>Lorsque vous lancez votre arme principale en portant cet anneau, l’arme réapparaît dans votre main immédiatement après l’attaque.</p>",
+      "quantity": 1,
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null,
+        "artist": ""
+      },
+      "gmNotes": "",
+      "actions": {}
+    },
+    "effects": [],
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "sourceId": "srd-2.0.loot.hope-fear-20-returning-ring",
+        "canonicalSourceId": "srd-2.0.loot.hope-fear-20-returning-ring",
+        "contentLocale": "fr",
+        "localeFallback": false,
+        "localizedPaths": [
+          "name",
+          "description"
+        ],
+        "managed": true,
+        "kind": "loot",
+        "lootCategory": "equipment",
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "contentOrigin": "core",
+        "sourceNamespace": "daggerheart-srd-2.0",
+        "sourceSubset": "hope-fear",
+        "roll": 20
+      }
+    }
+  },
+  {
+    "_id": "AXv9gZf33bJISQcL",
+    "name": "Filet du martin-pêcheur",
+    "type": "loot",
+    "img": "icons/containers/bags/sack-simple-leather-brown.webp",
+    "system": {
+      "description": "<p>Une fois par repos long, vous pouvez utiliser ce filet pour sortir un poisson vivant de n’importe quelle quantité d’eau, même s’il est hautement improbable qu’elle contienne des poissons.</p>",
+      "quantity": 1,
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null,
+        "artist": ""
+      },
+      "gmNotes": "",
+      "actions": {}
+    },
+    "effects": [],
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "sourceId": "srd-2.0.loot.hope-fear-21-kingfisher-s-net",
+        "canonicalSourceId": "srd-2.0.loot.hope-fear-21-kingfisher-s-net",
+        "contentLocale": "fr",
+        "localeFallback": false,
+        "localizedPaths": [
+          "name",
+          "description"
+        ],
+        "managed": true,
+        "kind": "loot",
+        "lootCategory": "equipment",
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "contentOrigin": "core",
+        "sourceNamespace": "daggerheart-srd-2.0",
+        "sourceSubset": "hope-fear",
+        "roll": 21
+      }
+    }
+  },
+  {
+    "_id": "WoLkV7hR2FXVUnPl",
+    "name": "Ceinture du titan",
+    "type": "loot",
+    "img": "icons/containers/bags/sack-simple-leather-brown.webp",
+    "system": {
+      "description": "<p>Une fois par scène, vous pouvez activer cette ceinture pour gagner un bonus de +1 à votre Maîtrise lors de votre prochaine attaque.</p>",
+      "quantity": 1,
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null,
+        "artist": ""
+      },
+      "gmNotes": "",
+      "actions": {}
+    },
+    "effects": [],
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "sourceId": "srd-2.0.loot.hope-fear-22-titan-s-girdle",
+        "canonicalSourceId": "srd-2.0.loot.hope-fear-22-titan-s-girdle",
+        "contentLocale": "fr",
+        "localeFallback": false,
+        "localizedPaths": [
+          "name",
+          "description"
+        ],
+        "managed": true,
+        "kind": "loot",
+        "lootCategory": "equipment",
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "contentOrigin": "core",
+        "sourceNamespace": "daggerheart-srd-2.0",
+        "sourceSubset": "hope-fear",
+        "roll": 22
+      }
+    }
+  },
+  {
+    "_id": "hnn23m3AqqeJ7Vbf",
+    "name": "Voile de fer",
+    "type": "loot",
+    "img": "icons/containers/bags/sack-simple-leather-brown.webp",
+    "system": {
+      "description": "<p>Ce couvre-chef en mailles rend son porteur invisible aux créatures féeriques.</p>",
+      "quantity": 1,
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null,
+        "artist": ""
+      },
+      "gmNotes": "",
+      "actions": {}
+    },
+    "effects": [],
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "sourceId": "srd-2.0.loot.hope-fear-23-iron-veil",
+        "canonicalSourceId": "srd-2.0.loot.hope-fear-23-iron-veil",
+        "contentLocale": "fr",
+        "localeFallback": false,
+        "localizedPaths": [
+          "name",
+          "description"
+        ],
+        "managed": true,
+        "kind": "loot",
+        "lootCategory": "equipment",
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "contentOrigin": "core",
+        "sourceNamespace": "daggerheart-srd-2.0",
+        "sourceSubset": "hope-fear",
+        "roll": 23
+      }
+    }
+  },
+  {
+    "_id": "TTNThKpzAZhxLrQ4",
+    "name": "Sac à boules de poils",
+    "type": "loot",
+    "img": "icons/containers/bags/sack-simple-leather-brown.webp",
+    "system": {
+      "description": "<p>Une fois par repos, vous pouvez tirer de ce sac 2d20 créatures inoffensives de la taille d’un chat, couvertes de fourrure et d’origine comme d’espèce indéterminées.</p>",
+      "quantity": 1,
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null,
+        "artist": ""
+      },
+      "gmNotes": "",
+      "actions": {}
+    },
+    "effects": [],
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "sourceId": "srd-2.0.loot.hope-fear-24-furball-bag",
+        "canonicalSourceId": "srd-2.0.loot.hope-fear-24-furball-bag",
+        "contentLocale": "fr",
+        "localeFallback": false,
+        "localizedPaths": [
+          "name",
+          "description"
+        ],
+        "managed": true,
+        "kind": "loot",
+        "lootCategory": "equipment",
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "contentOrigin": "core",
+        "sourceNamespace": "daggerheart-srd-2.0",
+        "sourceSubset": "hope-fear",
+        "roll": 24
+      }
+    }
+  },
+  {
+    "_id": "qsUjtme6QzvvOjwB",
+    "name": "Chevillière pas-de-velours",
+    "type": "loot",
+    "img": "icons/containers/bags/sack-simple-leather-brown.webp",
+    "system": {
+      "description": "<p>Cette chevillière rend vos pas silencieux tant que vous ne vous déplacez pas plus vite qu’en marchant.</p>",
+      "quantity": 1,
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null,
+        "artist": ""
+      },
+      "gmNotes": "",
+      "actions": {}
+    },
+    "effects": [],
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "sourceId": "srd-2.0.loot.hope-fear-25-whisperstep-anklet",
+        "canonicalSourceId": "srd-2.0.loot.hope-fear-25-whisperstep-anklet",
+        "contentLocale": "fr",
+        "localeFallback": false,
+        "localizedPaths": [
+          "name",
+          "description"
+        ],
+        "managed": true,
+        "kind": "loot",
+        "lootCategory": "equipment",
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "contentOrigin": "core",
+        "sourceNamespace": "daggerheart-srd-2.0",
+        "sourceSubset": "hope-fear",
+        "roll": 25
+      }
+    }
+  },
+  {
+    "_id": "OqmFNS1NaKCF5FrI",
+    "name": "Loupe de l’enchanteur",
+    "type": "loot",
+    "img": "icons/containers/bags/sack-simple-leather-brown.webp",
+    "system": {
+      "description": "<p>Vous pouvez utiliser cette loupe pour voir au travers des illusions et des enchantements.</p>",
+      "quantity": 1,
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null,
+        "artist": ""
+      },
+      "gmNotes": "",
+      "actions": {}
+    },
+    "effects": [],
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "sourceId": "srd-2.0.loot.hope-fear-26-enchanter-s-loupe",
+        "canonicalSourceId": "srd-2.0.loot.hope-fear-26-enchanter-s-loupe",
+        "contentLocale": "fr",
+        "localeFallback": false,
+        "localizedPaths": [
+          "name",
+          "description"
+        ],
+        "managed": true,
+        "kind": "loot",
+        "lootCategory": "equipment",
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "contentOrigin": "core",
+        "sourceNamespace": "daggerheart-srd-2.0",
+        "sourceSubset": "hope-fear",
+        "roll": 26
+      }
+    }
+  },
+  {
+    "_id": "A3zGKEZ8hi1oWNW7",
+    "name": "Boule-miroir d’Escher",
+    "type": "loot",
+    "img": "icons/containers/bags/sack-simple-leather-brown.webp",
+    "system": {
+      "description": "<p>Une fois par repos long, vous pouvez ordonner à cet orbe argenté de la taille d’un poing de capturer sur sa surface une image omnidirectionnelle de son environnement. Cette image persiste jusqu’à votre prochain repos long.</p>",
+      "quantity": 1,
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null,
+        "artist": ""
+      },
+      "gmNotes": "",
+      "actions": {}
+    },
+    "effects": [],
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "sourceId": "srd-2.0.loot.hope-fear-27-escher-s-mirrorball",
+        "canonicalSourceId": "srd-2.0.loot.hope-fear-27-escher-s-mirrorball",
+        "contentLocale": "fr",
+        "localeFallback": false,
+        "localizedPaths": [
+          "name",
+          "description"
+        ],
+        "managed": true,
+        "kind": "loot",
+        "lootCategory": "equipment",
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "contentOrigin": "core",
+        "sourceNamespace": "daggerheart-srd-2.0",
+        "sourceSubset": "hope-fear",
+        "roll": 27
+      }
+    }
+  },
+  {
+    "_id": "BOhXNw0RHxkOWVWv",
+    "name": "Pièce du tricheur",
+    "type": "loot",
+    "img": "icons/containers/bags/sack-simple-leather-brown.webp",
+    "system": {
+      "description": "<p>Lorsque vous lancez cette pièce, vous pouvez dépenser 1 Espoir pour décider sur quelle face elle retombe.</p>",
+      "quantity": 1,
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null,
+        "artist": ""
+      },
+      "gmNotes": "",
+      "actions": {}
+    },
+    "effects": [],
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "sourceId": "srd-2.0.loot.hope-fear-28-cheater-s-coin",
+        "canonicalSourceId": "srd-2.0.loot.hope-fear-28-cheater-s-coin",
+        "contentLocale": "fr",
+        "localeFallback": false,
+        "localizedPaths": [
+          "name",
+          "description"
+        ],
+        "managed": true,
+        "kind": "loot",
+        "lootCategory": "equipment",
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "contentOrigin": "core",
+        "sourceNamespace": "daggerheart-srd-2.0",
+        "sourceSubset": "hope-fear",
+        "roll": 28
+      }
+    }
+  },
+  {
+    "_id": "4FOeuXfVf5H6tpef",
+    "name": "Cloche du gardien des tombes",
+    "type": "loot",
+    "img": "icons/containers/bags/sack-simple-leather-brown.webp",
+    "system": {
+      "description": "<p>Cette cloche sonne lorsqu’un fantôme ou une créature morte-vivante se déplace à portée Lointaine.</p>",
+      "quantity": 1,
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null,
+        "artist": ""
+      },
+      "gmNotes": "",
+      "actions": {}
+    },
+    "effects": [],
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "sourceId": "srd-2.0.loot.hope-fear-29-gravewarden-s-bell",
+        "canonicalSourceId": "srd-2.0.loot.hope-fear-29-gravewarden-s-bell",
+        "contentLocale": "fr",
+        "localeFallback": false,
+        "localizedPaths": [
+          "name",
+          "description"
+        ],
+        "managed": true,
+        "kind": "loot",
+        "lootCategory": "equipment",
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "contentOrigin": "core",
+        "sourceNamespace": "daggerheart-srd-2.0",
+        "sourceSubset": "hope-fear",
+        "roll": 29
+      }
+    }
+  },
+  {
+    "_id": "xBwowFtyKXsQlOrI",
+    "name": "Reliquaire du saint aveugle",
+    "type": "loot",
+    "img": "icons/containers/bags/sack-simple-leather-brown.webp",
+    "system": {
+      "description": "<p>Vous gagnez un bonus de +1 à votre dé d’Espoir lorsque vous effectuez le mouvement de mort Tout risquer.</p>",
+      "quantity": 1,
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null,
+        "artist": ""
+      },
+      "gmNotes": "",
+      "actions": {}
+    },
+    "effects": [],
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "sourceId": "srd-2.0.loot.hope-fear-30-reliquary-of-the-sightless-saint",
+        "canonicalSourceId": "srd-2.0.loot.hope-fear-30-reliquary-of-the-sightless-saint",
+        "contentLocale": "fr",
+        "localeFallback": false,
+        "localizedPaths": [
+          "name",
+          "description"
+        ],
+        "managed": true,
+        "kind": "loot",
+        "lootCategory": "relic",
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "contentOrigin": "core",
+        "sourceNamespace": "daggerheart-srd-2.0",
+        "sourceSubset": "hope-fear",
+        "roll": 30
+      }
+    }
+  },
+  {
+    "_id": "6ExzOKsJ7o2GlPpG",
+    "name": "Carte de révélation",
+    "type": "loot",
+    "img": "icons/containers/bags/sack-simple-leather-brown.webp",
+    "system": {
+      "description": "<p>Vous pouvez harmoniser cette carte avec une créature à la fois. La carte indique toujours la position de la créature harmonisée.</p>",
+      "quantity": 1,
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null,
+        "artist": ""
+      },
+      "gmNotes": "",
+      "actions": {}
+    },
+    "effects": [],
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "sourceId": "srd-2.0.loot.hope-fear-31-map-of-revelation",
+        "canonicalSourceId": "srd-2.0.loot.hope-fear-31-map-of-revelation",
+        "contentLocale": "fr",
+        "localeFallback": false,
+        "localizedPaths": [
+          "name",
+          "description"
+        ],
+        "managed": true,
+        "kind": "loot",
+        "lootCategory": "equipment",
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "contentOrigin": "core",
+        "sourceNamespace": "daggerheart-srd-2.0",
+        "sourceSubset": "hope-fear",
+        "roll": 31
+      }
+    }
+  },
+  {
+    "_id": "YQKowtRojiXGZAgh",
+    "name": "Tablette d’obsidienne de Dagginae",
+    "type": "loot",
+    "img": "icons/containers/bags/sack-simple-leather-brown.webp",
+    "system": {
+      "description": "<p>Cette feuille de verre volcanique extrêmement fine est utilisée par les archivistes pour prendre des notes. Toute information gravée à sa surface disparaît, mais peut être rappelée grâce à une commande que vous définissez.</p>",
+      "quantity": 1,
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null,
+        "artist": ""
+      },
+      "gmNotes": "",
+      "actions": {}
+    },
+    "effects": [],
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "sourceId": "srd-2.0.loot.hope-fear-32-dagginae-s-obsidian-slate",
+        "canonicalSourceId": "srd-2.0.loot.hope-fear-32-dagginae-s-obsidian-slate",
+        "contentLocale": "fr",
+        "localeFallback": false,
+        "localizedPaths": [
+          "name",
+          "description"
+        ],
+        "managed": true,
+        "kind": "loot",
+        "lootCategory": "equipment",
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "contentOrigin": "core",
+        "sourceNamespace": "daggerheart-srd-2.0",
+        "sourceSubset": "hope-fear",
+        "roll": 32
+      }
+    }
+  },
+  {
+    "_id": "gV47DU9at30FKEVT",
+    "name": "Sac à dos de Gadiman",
+    "type": "loot",
+    "img": "icons/containers/bags/sack-simple-leather-brown.webp",
+    "system": {
+      "description": "<p>Une fois par repos, vous pouvez dépenser 1 Espoir pour faire apparaître dans cette besace un objet ordinaire mesurant jusqu’à environ 30 cm de côté.</p>",
+      "quantity": 1,
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null,
+        "artist": ""
+      },
+      "gmNotes": "",
+      "actions": {}
+    },
+    "effects": [],
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "sourceId": "srd-2.0.loot.hope-fear-33-gadiman-s-backpack",
+        "canonicalSourceId": "srd-2.0.loot.hope-fear-33-gadiman-s-backpack",
+        "contentLocale": "fr",
+        "localeFallback": false,
+        "localizedPaths": [
+          "name",
+          "description"
+        ],
+        "managed": true,
+        "kind": "loot",
+        "lootCategory": "equipment",
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "contentOrigin": "core",
+        "sourceNamespace": "daggerheart-srd-2.0",
+        "sourceSubset": "hope-fear",
+        "roll": 33
+      }
+    }
+  },
+  {
+    "_id": "1mUIMvUnO0gFt3Wb",
+    "name": "Pièce d’éclipse",
+    "type": "loot",
+    "img": "icons/containers/bags/sack-simple-leather-brown.webp",
+    "system": {
+      "description": "<p>Une fois par repos, lancez une pièce. Sur face, vous gagnez un bonus de +1 aux jets d’attaque jusqu’à votre prochaine attaque réussie. Sur pile, vous gagnez +1 en Esquive jusqu’à ce qu’une attaque échoue contre vous.</p>",
+      "quantity": 1,
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null,
+        "artist": ""
+      },
+      "gmNotes": "",
+      "actions": {}
+    },
+    "effects": [],
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "sourceId": "srd-2.0.loot.hope-fear-34-eclipse-coin",
+        "canonicalSourceId": "srd-2.0.loot.hope-fear-34-eclipse-coin",
+        "contentLocale": "fr",
+        "localeFallback": false,
+        "localizedPaths": [
+          "name",
+          "description"
+        ],
+        "managed": true,
+        "kind": "loot",
+        "lootCategory": "equipment",
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "contentOrigin": "core",
+        "sourceNamespace": "daggerheart-srd-2.0",
+        "sourceSubset": "hope-fear",
+        "roll": 34
+      }
+    }
+  },
+  {
+    "_id": "0PdytvVH0KvcjTWn",
+    "name": "Chapeau de sorcier",
+    "type": "loot",
+    "img": "icons/containers/bags/sack-simple-leather-brown.webp",
+    "system": {
+      "description": "<p>Ce chapeau conique bleu est couvert d’étoiles argentées. Une fois par repos, vous pouvez lancer depuis votre coffre un sort dont le coût de Rappel est inférieur ou égal à votre palier. Cela ne fonctionne pas pour les cartes placées définitivement dans le coffre.</p>",
+      "quantity": 1,
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null,
+        "artist": ""
+      },
+      "gmNotes": "",
+      "actions": {}
+    },
+    "effects": [],
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "sourceId": "srd-2.0.loot.hope-fear-35-sorcerer-s-hat",
+        "canonicalSourceId": "srd-2.0.loot.hope-fear-35-sorcerer-s-hat",
+        "contentLocale": "fr",
+        "localeFallback": false,
+        "localizedPaths": [
+          "name",
+          "description"
+        ],
+        "managed": true,
+        "kind": "loot",
+        "lootCategory": "equipment",
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "contentOrigin": "core",
+        "sourceNamespace": "daggerheart-srd-2.0",
+        "sourceSubset": "hope-fear",
+        "roll": 35
+      }
+    }
+  },
+  {
+    "_id": "m5ldFe8Sf85x3c0b",
+    "name": "Gants en peau de goule",
+    "type": "loot",
+    "img": "icons/containers/bags/sack-simple-leather-brown.webp",
+    "system": {
+      "description": "<p>Lorsque vous attaquez avec une arme physique en portant ces gants, les dégâts sont considérés à la fois comme physiques et magiques.</p>",
+      "quantity": 1,
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null,
+        "artist": ""
+      },
+      "gmNotes": "",
+      "actions": {}
+    },
+    "effects": [],
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "sourceId": "srd-2.0.loot.hope-fear-36-ghoulskin-gloves",
+        "canonicalSourceId": "srd-2.0.loot.hope-fear-36-ghoulskin-gloves",
+        "contentLocale": "fr",
+        "localeFallback": false,
+        "localizedPaths": [
+          "name",
+          "description"
+        ],
+        "managed": true,
+        "kind": "loot",
+        "lootCategory": "equipment",
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "contentOrigin": "core",
+        "sourceNamespace": "daggerheart-srd-2.0",
+        "sourceSubset": "hope-fear",
+        "roll": 36
+      }
+    }
+  },
+  {
+    "_id": "67jbQl8rrhDvnppR",
+    "name": "Gants de célérité",
+    "type": "loot",
+    "img": "icons/containers/bags/sack-simple-leather-brown.webp",
+    "system": {
+      "description": "<p>Lorsque vous devriez marquer 1 Stress pour recharger une arme, vous ne le marquez pas.</p>",
+      "quantity": 1,
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null,
+        "artist": ""
+      },
+      "gmNotes": "",
+      "actions": {}
+    },
+    "effects": [],
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "sourceId": "srd-2.0.loot.hope-fear-37-gloves-of-alacrity",
+        "canonicalSourceId": "srd-2.0.loot.hope-fear-37-gloves-of-alacrity",
+        "contentLocale": "fr",
+        "localeFallback": false,
+        "localizedPaths": [
+          "name",
+          "description"
+        ],
+        "managed": true,
+        "kind": "loot",
+        "lootCategory": "equipment",
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "contentOrigin": "core",
+        "sourceNamespace": "daggerheart-srd-2.0",
+        "sourceSubset": "hope-fear",
+        "roll": 37
+      }
+    }
+  },
+  {
+    "_id": "otFDELhqCLgfaTuK",
+    "name": "Périapte de l’insomniaque",
+    "type": "loot",
+    "img": "icons/containers/bags/sack-simple-leather-brown.webp",
+    "system": {
+      "description": "<p>Lorsque vous prenez un repos sans effacer de Points de vie ni de Stress, vous gagnez un bonus de +2 aux jets d’attaque et de dégâts jusqu’à votre prochain repos.</p>",
+      "quantity": 1,
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null,
+        "artist": ""
+      },
+      "gmNotes": "",
+      "actions": {}
+    },
+    "effects": [],
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "sourceId": "srd-2.0.loot.hope-fear-38-insomniac-s-periapt",
+        "canonicalSourceId": "srd-2.0.loot.hope-fear-38-insomniac-s-periapt",
+        "contentLocale": "fr",
+        "localeFallback": false,
+        "localizedPaths": [
+          "name",
+          "description"
+        ],
+        "managed": true,
+        "kind": "loot",
+        "lootCategory": "equipment",
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "contentOrigin": "core",
+        "sourceNamespace": "daggerheart-srd-2.0",
+        "sourceSubset": "hope-fear",
+        "roll": 38
+      }
+    }
+  },
+  {
+    "_id": "Hd5oYPVFowQfBPxj",
+    "name": "Selle du cavalier sauvage",
+    "type": "loot",
+    "img": "icons/containers/bags/sack-simple-leather-brown.webp",
+    "system": {
+      "description": "<p>Cette selle confère à tout animal qui la porte la capacité de comprendre les ordres de son cavalier.</p>",
+      "quantity": 1,
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null,
+        "artist": ""
+      },
+      "gmNotes": "",
+      "actions": {}
+    },
+    "effects": [],
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "sourceId": "srd-2.0.loot.hope-fear-39-wildrider-s-saddle",
+        "canonicalSourceId": "srd-2.0.loot.hope-fear-39-wildrider-s-saddle",
+        "contentLocale": "fr",
+        "localeFallback": false,
+        "localizedPaths": [
+          "name",
+          "description"
+        ],
+        "managed": true,
+        "kind": "loot",
+        "lootCategory": "equipment",
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "contentOrigin": "core",
+        "sourceNamespace": "daggerheart-srd-2.0",
+        "sourceSubset": "hope-fear",
+        "roll": 39
+      }
+    }
+  },
+  {
+    "_id": "tjDmuqiYt3tE5GAY",
+    "name": "Diadèmes des âmes jumelles",
+    "type": "loot",
+    "img": "icons/containers/bags/sack-simple-leather-brown.webp",
+    "system": {
+      "description": "<p>Deux créatures peuvent porter cette paire de diadèmes. Vous pouvez dépenser 1 Espoir pour échanger votre place avec la créature portant l’autre diadème.</p>",
+      "quantity": 1,
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null,
+        "artist": ""
+      },
+      "gmNotes": "",
+      "actions": {}
+    },
+    "effects": [],
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "sourceId": "srd-2.0.loot.hope-fear-40-soul-twin-circlets",
+        "canonicalSourceId": "srd-2.0.loot.hope-fear-40-soul-twin-circlets",
+        "contentLocale": "fr",
+        "localeFallback": false,
+        "localizedPaths": [
+          "name",
+          "description"
+        ],
+        "managed": true,
+        "kind": "loot",
+        "lootCategory": "equipment",
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "contentOrigin": "core",
+        "sourceNamespace": "daggerheart-srd-2.0",
+        "sourceSubset": "hope-fear",
+        "roll": 40
+      }
+    }
+  },
+  {
+    "_id": "84WXcyhOGuXNLE2K",
+    "name": "Oracle du nom",
+    "type": "loot",
+    "img": "icons/containers/bags/sack-simple-leather-brown.webp",
+    "system": {
+      "description": "<p>Une fois par session, vous pouvez lancer cet ensemble de dés runiques pour révéler le nom complet de la dernière personne que vous avez touchée.</p>",
+      "quantity": 1,
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null,
+        "artist": ""
+      },
+      "gmNotes": "",
+      "actions": {}
+    },
+    "effects": [],
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "sourceId": "srd-2.0.loot.hope-fear-41-namer-s-oracle",
+        "canonicalSourceId": "srd-2.0.loot.hope-fear-41-namer-s-oracle",
+        "contentLocale": "fr",
+        "localeFallback": false,
+        "localizedPaths": [
+          "name",
+          "description"
+        ],
+        "managed": true,
+        "kind": "loot",
+        "lootCategory": "equipment",
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "contentOrigin": "core",
+        "sourceNamespace": "daggerheart-srd-2.0",
+        "sourceSubset": "hope-fear",
+        "roll": 41
+      }
+    }
+  },
+  {
+    "_id": "ksBLFoKirzEY4aPf",
+    "name": "Lunettes du creuset",
+    "type": "loot",
+    "img": "icons/containers/bags/sack-simple-leather-brown.webp",
+    "system": {
+      "description": "<p>Ces lunettes révèlent les points faibles des objets et des créatures. Trois fois par repos, vous pouvez dépenser 1 Espoir pour gagner l’avantage sur un jet d’attaque.</p>",
+      "quantity": 1,
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null,
+        "artist": ""
+      },
+      "gmNotes": "",
+      "actions": {}
+    },
+    "effects": [],
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "sourceId": "srd-2.0.loot.hope-fear-42-crucible-frames",
+        "canonicalSourceId": "srd-2.0.loot.hope-fear-42-crucible-frames",
+        "contentLocale": "fr",
+        "localeFallback": false,
+        "localizedPaths": [
+          "name",
+          "description"
+        ],
+        "managed": true,
+        "kind": "loot",
+        "lootCategory": "equipment",
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "contentOrigin": "core",
+        "sourceNamespace": "daggerheart-srd-2.0",
+        "sourceSubset": "hope-fear",
+        "roll": 42
+      }
+    }
+  },
+  {
+    "_id": "XC0XwPY7yTuiutED",
+    "name": "Broche d’égide à deux faces",
+    "type": "loot",
+    "img": "icons/containers/bags/sack-simple-leather-brown.webp",
+    "system": {
+      "description": "<p>Une fois par repos, lancez une pièce. Sur face, vous devenez immunisé aux prochains dégâts physiques que vous devriez subir. Sur pile, vous devenez immunisé aux prochains dégâts magiques que vous devriez subir.</p>",
+      "quantity": 1,
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null,
+        "artist": ""
+      },
+      "gmNotes": "",
+      "actions": {}
+    },
+    "effects": [],
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "sourceId": "srd-2.0.loot.hope-fear-43-two-faced-aegis-brooch",
+        "canonicalSourceId": "srd-2.0.loot.hope-fear-43-two-faced-aegis-brooch",
+        "contentLocale": "fr",
+        "localeFallback": false,
+        "localizedPaths": [
+          "name",
+          "description"
+        ],
+        "managed": true,
+        "kind": "loot",
+        "lootCategory": "equipment",
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "contentOrigin": "core",
+        "sourceNamespace": "daggerheart-srd-2.0",
+        "sourceSubset": "hope-fear",
+        "roll": 43
+      }
+    }
+  },
+  {
+    "_id": "LBNXKobX9mSRHY0q",
+    "name": "Bracelets de recul",
+    "type": "loot",
+    "img": "icons/containers/bags/sack-simple-leather-brown.webp",
+    "system": {
+      "description": "<p>Lors d’une attaque d’arme réussie, vous pouvez repousser votre cible jusqu’à portée Proche de sa position.</p>",
+      "quantity": 1,
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null,
+        "artist": ""
+      },
+      "gmNotes": "",
+      "actions": {}
+    },
+    "effects": [],
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "sourceId": "srd-2.0.loot.hope-fear-44-knockback-bracelets",
+        "canonicalSourceId": "srd-2.0.loot.hope-fear-44-knockback-bracelets",
+        "contentLocale": "fr",
+        "localeFallback": false,
+        "localizedPaths": [
+          "name",
+          "description"
+        ],
+        "managed": true,
+        "kind": "loot",
+        "lootCategory": "equipment",
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "contentOrigin": "core",
+        "sourceNamespace": "daggerheart-srd-2.0",
+        "sourceSubset": "hope-fear",
+        "roll": 44
+      }
+    }
+  },
+  {
+    "_id": "pyi0IubS9sJrPrTO",
+    "name": "Disque de force",
+    "type": "loot",
+    "img": "icons/containers/bags/sack-simple-leather-brown.webp",
+    "system": {
+      "description": "<p>Ce disque bidimensionnel scintillant de force magique mesure environ 1,2 m de diamètre et est magiquement relié à un caillou. Le disque flotte toujours à 90 cm au nord du caillou et à la même altitude. Le caillou possède une masse égale à un centième de la masse totale transportée par le disque.</p>",
+      "quantity": 1,
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null,
+        "artist": ""
+      },
+      "gmNotes": "",
+      "actions": {}
+    },
+    "effects": [],
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "sourceId": "srd-2.0.loot.hope-fear-45-force-disc",
+        "canonicalSourceId": "srd-2.0.loot.hope-fear-45-force-disc",
+        "contentLocale": "fr",
+        "localeFallback": false,
+        "localizedPaths": [
+          "name",
+          "description"
+        ],
+        "managed": true,
+        "kind": "loot",
+        "lootCategory": "equipment",
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "contentOrigin": "core",
+        "sourceNamespace": "daggerheart-srd-2.0",
+        "sourceSubset": "hope-fear",
+        "roll": 45
+      }
+    }
+  },
+  {
+    "_id": "etVw5kuSmCpadJcH",
+    "name": "Mitaines de taupe",
+    "type": "loot",
+    "img": "icons/containers/bags/sack-simple-leather-brown.webp",
+    "system": {
+      "description": "<p>Dépensez 1 Espoir pour nager dans la terre comme s’il s’agissait d’eau pendant les 10 prochaines minutes.</p>",
+      "quantity": 1,
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null,
+        "artist": ""
+      },
+      "gmNotes": "",
+      "actions": {}
+    },
+    "effects": [],
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "sourceId": "srd-2.0.loot.hope-fear-46-molepaw-mittens",
+        "canonicalSourceId": "srd-2.0.loot.hope-fear-46-molepaw-mittens",
+        "contentLocale": "fr",
+        "localeFallback": false,
+        "localizedPaths": [
+          "name",
+          "description"
+        ],
+        "managed": true,
+        "kind": "loot",
+        "lootCategory": "equipment",
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "contentOrigin": "core",
+        "sourceNamespace": "daggerheart-srd-2.0",
+        "sourceSubset": "hope-fear",
+        "roll": 46
+      }
+    }
+  },
+  {
+    "_id": "MWSYEou08Ov6WGEk",
+    "name": "Pendentif du chronomancien",
+    "type": "loot",
+    "img": "icons/containers/bags/sack-simple-leather-brown.webp",
+    "system": {
+      "description": "<p>Vous pouvez choisir une action de temps mort supplémentaire à chaque repos.</p>",
+      "quantity": 1,
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null,
+        "artist": ""
+      },
+      "gmNotes": "",
+      "actions": {}
+    },
+    "effects": [],
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "sourceId": "srd-2.0.loot.hope-fear-47-timekeeper-s-pendant",
+        "canonicalSourceId": "srd-2.0.loot.hope-fear-47-timekeeper-s-pendant",
+        "contentLocale": "fr",
+        "localeFallback": false,
+        "localizedPaths": [
+          "name",
+          "description"
+        ],
+        "managed": true,
+        "kind": "loot",
+        "lootCategory": "equipment",
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "contentOrigin": "core",
+        "sourceNamespace": "daggerheart-srd-2.0",
+        "sourceSubset": "hope-fear",
+        "roll": 47
+      }
+    }
+  },
+  {
+    "_id": "zARPO5jNA1Kd9hq8",
+    "name": "Pendentif à dague de fer",
+    "type": "loot",
+    "img": "icons/containers/bags/sack-simple-leather-brown.webp",
+    "system": {
+      "description": "<p>Une fois par repos long, vous pouvez dépenser 1 Espoir et prononcer le nom d’une créature devant le pendentif. Celui-ci vous attire doucement vers la position actuelle de cette créature jusqu’à votre prochain repos long.</p>",
+      "quantity": 1,
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null,
+        "artist": ""
+      },
+      "gmNotes": "",
+      "actions": {}
+    },
+    "effects": [],
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "sourceId": "srd-2.0.loot.hope-fear-48-iron-dagger-pendant",
+        "canonicalSourceId": "srd-2.0.loot.hope-fear-48-iron-dagger-pendant",
+        "contentLocale": "fr",
+        "localeFallback": false,
+        "localizedPaths": [
+          "name",
+          "description"
+        ],
+        "managed": true,
+        "kind": "loot",
+        "lootCategory": "equipment",
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "contentOrigin": "core",
+        "sourceNamespace": "daggerheart-srd-2.0",
+        "sourceSubset": "hope-fear",
+        "roll": 48
+      }
+    }
+  },
+  {
+    "_id": "tYXoMIprbdsRwOex",
+    "name": "Collier d’ascendance",
+    "type": "loot",
+    "img": "icons/containers/bags/sack-simple-leather-brown.webp",
+    "system": {
+      "description": "<p>Un animal portant ce collier acquiert la capacité de parler et de comprendre la langue commune.</p>",
+      "quantity": 1,
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null,
+        "artist": ""
+      },
+      "gmNotes": "",
+      "actions": {}
+    },
+    "effects": [],
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "sourceId": "srd-2.0.loot.hope-fear-49-collar-of-ascendancy",
+        "canonicalSourceId": "srd-2.0.loot.hope-fear-49-collar-of-ascendancy",
+        "contentLocale": "fr",
+        "localeFallback": false,
+        "localizedPaths": [
+          "name",
+          "description"
+        ],
+        "managed": true,
+        "kind": "loot",
+        "lootCategory": "equipment",
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "contentOrigin": "core",
+        "sourceNamespace": "daggerheart-srd-2.0",
+        "sourceSubset": "hope-fear",
+        "roll": 49
+      }
+    }
+  },
+  {
+    "_id": "e8dPXbHyQQOSkwNL",
+    "name": "Sanctuaire temporel",
+    "type": "loot",
+    "img": "icons/containers/bags/sack-simple-leather-brown.webp",
+    "system": {
+      "description": "<p>Un PJ qui prend un repos dans le sanctuaire temporel peut choisir une action de temps mort supplémentaire.</p>",
+      "quantity": 1,
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null,
+        "artist": ""
+      },
+      "gmNotes": "",
+      "actions": {}
+    },
+    "effects": [],
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "sourceId": "srd-2.0.loot.hope-fear-50-temporal-sanctuary",
+        "canonicalSourceId": "srd-2.0.loot.hope-fear-50-temporal-sanctuary",
+        "contentLocale": "fr",
+        "localeFallback": false,
+        "localizedPaths": [
+          "name",
+          "description"
+        ],
+        "managed": true,
+        "kind": "loot",
+        "lootCategory": "equipment",
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "contentOrigin": "core",
+        "sourceNamespace": "daggerheart-srd-2.0",
+        "sourceSubset": "hope-fear",
+        "roll": 50
+      }
+    }
+  },
+  {
+    "_id": "6NkwNG4kzNSKaLXg",
+    "name": "Heaume du héros",
+    "type": "loot",
+    "img": "icons/containers/bags/sack-simple-leather-brown.webp",
+    "system": {
+      "description": "<p>Lorsque vous obtenez une réussite critique sur une attaque, tous les alliés à portée Proche gagnent 1 Espoir.</p>",
+      "quantity": 1,
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null,
+        "artist": ""
+      },
+      "gmNotes": "",
+      "actions": {}
+    },
+    "effects": [],
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "sourceId": "srd-2.0.loot.hope-fear-51-hero-s-helm",
+        "canonicalSourceId": "srd-2.0.loot.hope-fear-51-hero-s-helm",
+        "contentLocale": "fr",
+        "localeFallback": false,
+        "localizedPaths": [
+          "name",
+          "description"
+        ],
+        "managed": true,
+        "kind": "loot",
+        "lootCategory": "equipment",
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "contentOrigin": "core",
+        "sourceNamespace": "daggerheart-srd-2.0",
+        "sourceSubset": "hope-fear",
+        "roll": 51
+      }
+    }
+  },
+  {
+    "_id": "5AOpn5VlD9hFhbY2",
+    "name": "Anneaux d’amitié",
+    "type": "loot",
+    "img": "icons/containers/bags/sack-simple-leather-brown.webp",
+    "system": {
+      "description": "<p>Deux créatures peuvent porter cette paire d’anneaux en forme de serpents enroulés. Vous pouvez dépenser l’Espoir de la créature portant l’autre anneau, avec sa permission, comme s’il s’agissait du vôtre.</p>",
+      "quantity": 1,
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null,
+        "artist": ""
+      },
+      "gmNotes": "",
+      "actions": {}
+    },
+    "effects": [],
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "sourceId": "srd-2.0.loot.hope-fear-52-rings-of-friendship",
+        "canonicalSourceId": "srd-2.0.loot.hope-fear-52-rings-of-friendship",
+        "contentLocale": "fr",
+        "localeFallback": false,
+        "localizedPaths": [
+          "name",
+          "description"
+        ],
+        "managed": true,
+        "kind": "loot",
+        "lootCategory": "equipment",
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "contentOrigin": "core",
+        "sourceNamespace": "daggerheart-srd-2.0",
+        "sourceSubset": "hope-fear",
+        "roll": 52
+      }
+    }
+  },
+  {
+    "_id": "ZssiWAHhLA2c7SKp",
+    "name": "Anneaux de camaraderie",
+    "type": "loot",
+    "img": "icons/containers/bags/sack-simple-leather-brown.webp",
+    "system": {
+      "description": "<p>Deux créatures peuvent porter cette paire d’anneaux en bois. Vous pouvez marquer le Stress de la créature portant l’autre anneau, avec sa permission, comme s’il s’agissait du vôtre.</p>",
+      "quantity": 1,
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null,
+        "artist": ""
+      },
+      "gmNotes": "",
+      "actions": {}
+    },
+    "effects": [],
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "sourceId": "srd-2.0.loot.hope-fear-53-rings-of-camaraderie",
+        "canonicalSourceId": "srd-2.0.loot.hope-fear-53-rings-of-camaraderie",
+        "contentLocale": "fr",
+        "localeFallback": false,
+        "localizedPaths": [
+          "name",
+          "description"
+        ],
+        "managed": true,
+        "kind": "loot",
+        "lootCategory": "equipment",
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "contentOrigin": "core",
+        "sourceNamespace": "daggerheart-srd-2.0",
+        "sourceSubset": "hope-fear",
+        "roll": 53
+      }
+    }
+  },
+  {
+    "_id": "SfRrr2AyFpjA6Uhx",
+    "name": "Anneaux d’alliance",
+    "type": "loot",
+    "img": "icons/containers/bags/sack-simple-leather-brown.webp",
+    "system": {
+      "description": "<p>Deux créatures peuvent porter cette paire d’anneaux en or rose. Une fois par session, vous pouvez initier un jet d’Équipe avec la créature portant l’autre anneau sans dépenser d’Espoir et sans que cela compte dans votre limite de jets d’Équipe par session.</p>",
+      "quantity": 1,
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null,
+        "artist": ""
+      },
+      "gmNotes": "",
+      "actions": {}
+    },
+    "effects": [],
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "sourceId": "srd-2.0.loot.hope-fear-54-rings-of-alliance",
+        "canonicalSourceId": "srd-2.0.loot.hope-fear-54-rings-of-alliance",
+        "contentLocale": "fr",
+        "localeFallback": false,
+        "localizedPaths": [
+          "name",
+          "description"
+        ],
+        "managed": true,
+        "kind": "loot",
+        "lootCategory": "equipment",
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "contentOrigin": "core",
+        "sourceNamespace": "daggerheart-srd-2.0",
+        "sourceSubset": "hope-fear",
+        "roll": 54
+      }
+    }
+  },
+  {
+    "_id": "Lc2fM5oxgGbs6FZu",
+    "name": "Diadème du phobophage",
+    "type": "loot",
+    "img": "icons/containers/bags/sack-simple-leather-brown.webp",
+    "system": {
+      "description": "<p>Lorsque le MJ dépense 1 Peur, lancez un d4. Une fois par scène, sur un résultat de 4, vous effacez 1 Stress.</p>",
+      "quantity": 1,
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null,
+        "artist": ""
+      },
+      "gmNotes": "",
+      "actions": {}
+    },
+    "effects": [],
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "sourceId": "srd-2.0.loot.hope-fear-55-phobophage-s-circlet",
+        "canonicalSourceId": "srd-2.0.loot.hope-fear-55-phobophage-s-circlet",
+        "contentLocale": "fr",
+        "localeFallback": false,
+        "localizedPaths": [
+          "name",
+          "description"
+        ],
+        "managed": true,
+        "kind": "loot",
+        "lootCategory": "equipment",
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "contentOrigin": "core",
+        "sourceNamespace": "daggerheart-srd-2.0",
+        "sourceSubset": "hope-fear",
+        "roll": 55
+      }
+    }
+  },
+  {
+    "_id": "LWoZJtdvMfc11sR3",
+    "name": "Châle de piquants",
+    "type": "loot",
+    "img": "icons/containers/bags/sack-simple-leather-brown.webp",
+    "system": {
+      "description": "<p>Si un adversaire vous attaque à portée Mêlée, il doit réussir un jet de réaction (12) ou marquer 1 Point de vie.</p>",
+      "quantity": 1,
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null,
+        "artist": ""
+      },
+      "gmNotes": "",
+      "actions": {}
+    },
+    "effects": [],
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "sourceId": "srd-2.0.loot.hope-fear-56-quillshawl",
+        "canonicalSourceId": "srd-2.0.loot.hope-fear-56-quillshawl",
+        "contentLocale": "fr",
+        "localeFallback": false,
+        "localizedPaths": [
+          "name",
+          "description"
+        ],
+        "managed": true,
+        "kind": "loot",
+        "lootCategory": "equipment",
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "contentOrigin": "core",
+        "sourceNamespace": "daggerheart-srd-2.0",
+        "sourceSubset": "hope-fear",
+        "roll": 56
+      }
+    }
+  },
+  {
+    "_id": "Y5gyyDWJn9eNMNMa",
+    "name": "Pendentif de distorsion",
+    "type": "loot",
+    "img": "icons/containers/bags/sack-simple-leather-brown.webp",
+    "system": {
+      "description": "<p>Une fois par repos, marquez 1 Stress pour vous téléporter vers un endroit que vous voyez clairement.</p>",
+      "quantity": 1,
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null,
+        "artist": ""
+      },
+      "gmNotes": "",
+      "actions": {}
+    },
+    "effects": [],
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "sourceId": "srd-2.0.loot.hope-fear-57-warp-pendant",
+        "canonicalSourceId": "srd-2.0.loot.hope-fear-57-warp-pendant",
+        "contentLocale": "fr",
+        "localeFallback": false,
+        "localizedPaths": [
+          "name",
+          "description"
+        ],
+        "managed": true,
+        "kind": "loot",
+        "lootCategory": "equipment",
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "contentOrigin": "core",
+        "sourceNamespace": "daggerheart-srd-2.0",
+        "sourceSubset": "hope-fear",
+        "roll": 57
+      }
+    }
+  },
+  {
+    "_id": "MtoMnQKdzcOYXNlH",
+    "name": "Cadres de portail",
+    "type": "loot",
+    "img": "icons/containers/bags/sack-simple-leather-brown.webp",
+    "system": {
+      "description": "<p>Cette paire de petits cadres ouvragés, l’un rouge et l’autre bleu, est reliée. Tout ce qui entre dans l’un ressort par l’autre.</p>",
+      "quantity": 1,
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null,
+        "artist": ""
+      },
+      "gmNotes": "",
+      "actions": {}
+    },
+    "effects": [],
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "sourceId": "srd-2.0.loot.hope-fear-58-portal-frames",
+        "canonicalSourceId": "srd-2.0.loot.hope-fear-58-portal-frames",
+        "contentLocale": "fr",
+        "localeFallback": false,
+        "localizedPaths": [
+          "name",
+          "description"
+        ],
+        "managed": true,
+        "kind": "loot",
+        "lootCategory": "equipment",
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "contentOrigin": "core",
+        "sourceNamespace": "daggerheart-srd-2.0",
+        "sourceSubset": "hope-fear",
+        "roll": 58
+      }
+    }
+  },
+  {
+    "_id": "sE6bzaiA31NVYvNq",
+    "name": "Relique de communion",
+    "type": "loot",
+    "img": "icons/containers/bags/sack-simple-leather-brown.webp",
+    "system": {
+      "description": "<p>Une fois par repos, vous pouvez dépenser 1 Espoir pour utiliser l’Expérience d’un allié comme si elle était la vôtre. Vous ne pouvez porter qu’une seule relique.</p>",
+      "quantity": 1,
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null,
+        "artist": ""
+      },
+      "gmNotes": "",
+      "actions": {}
+    },
+    "effects": [],
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "sourceId": "srd-2.0.loot.hope-fear-59-communion-relic",
+        "canonicalSourceId": "srd-2.0.loot.hope-fear-59-communion-relic",
+        "contentLocale": "fr",
+        "localeFallback": false,
+        "localizedPaths": [
+          "name",
+          "description"
+        ],
+        "managed": true,
+        "kind": "loot",
+        "lootCategory": "relic",
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "contentOrigin": "core",
+        "sourceNamespace": "daggerheart-srd-2.0",
+        "sourceSubset": "hope-fear",
+        "roll": 59
+      }
+    }
+  },
+  {
+    "_id": "1SYCpttvfGKDOjQv",
+    "name": "Relique de l’augure",
+    "type": "loot",
+    "img": "icons/containers/bags/sack-simple-leather-brown.webp",
+    "system": {
+      "description": "<p>Une fois par repos long, vous pouvez activer votre capacité d’Espoir sans dépenser d’Espoir. Vous ne pouvez porter qu’une seule relique.</p>",
+      "quantity": 1,
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null,
+        "artist": ""
+      },
+      "gmNotes": "",
+      "actions": {}
+    },
+    "effects": [],
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "sourceId": "srd-2.0.loot.hope-fear-60-augur-s-relic",
+        "canonicalSourceId": "srd-2.0.loot.hope-fear-60-augur-s-relic",
+        "contentLocale": "fr",
+        "localeFallback": false,
+        "localizedPaths": [
+          "name",
+          "description"
+        ],
+        "managed": true,
+        "kind": "loot",
+        "lootCategory": "relic",
+        "contentOwner": "daggerheart-campaign-toolkit",
+        "contentOrigin": "core",
+        "sourceNamespace": "daggerheart-srd-2.0",
+        "sourceSubset": "hope-fear",
+        "roll": 60
+      }
+    }
+  }
+]

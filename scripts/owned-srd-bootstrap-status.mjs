@@ -9,12 +9,14 @@ const OWNED_NATIVE_PACKS = Object.freeze([
   "daggerheart.weapons",
   "daggerheart.armor",
   "daggerheart.armors",
+  "daggerheart.consumables",
+  "daggerheart.loot",
 ]);
 
 export function ownedSrdBootstrapStatus() {
   return {
     owner: MODULE_ID,
-    ownedFamilies: 7,
+    ownedFamilies: 9,
     nativeContentPacksRequired: [],
     nativeContentReadRequired: false,
     schemaAuthority: "CONFIG.Item.documentClass",
