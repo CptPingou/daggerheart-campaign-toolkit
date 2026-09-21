@@ -661,6 +661,66 @@
     "the-void.2026-07-09.class.blood-hunter.feature.grim-psychometry": {
       "name": "Psychométrie macabre",
       "description": "<p>Effectuez un jet d’Incantation (12) pour examiner un lieu à portée Très proche. En cas de réussite, vous avez une vision de la dernière créature à y avoir commis un acte violent. Jusqu’à votre prochain repos long ou jusqu’à ce que vous utilisiez de nouveau cette spécificité, vous bénéficiez d’un avantage aux jets d’action visant à la traquer ou à vous remémorer des informations à son sujet.</p>"
+    },
+    "the-void.2026-07-09.subclass.order-of-the-lycan.feature.hybrid-form": {
+      "name": "Forme hybride",
+      "description": "<p>Vous pouvez adopter une Forme hybride lupine. Marquez 1 Stress pour prendre cette forme jusqu’à ce que tout votre Stress soit marqué ou que la scène prenne fin. Sous cette forme, vous gagnez un bonus de 1d4 à vos jets d’action et de dégâts.</p>"
+    },
+    "the-void.2026-07-09.subclass.order-of-the-lycan.feature.the-beast-within": {
+      "name": "La Bête intérieure",
+      "description": "<p>Lorsque vous gagnez 1 Espoir sous Forme hybride, marquez également 1 Stress.</p>"
+    },
+    "the-void.2026-07-09.subclass.order-of-the-lycan.feature.bestial-focus": {
+      "name": "Focalisation bestiale",
+      "description": "<p>Une fois par repos, vous pouvez placer une carte de domaine dans votre réserve, puis effacer un nombre de Stress égal au coût de Rappel de cette carte.</p>"
+    },
+    "the-void.2026-07-09.subclass.order-of-the-lycan.feature.feral-empowerment": {
+      "name": "Puissance sauvage",
+      "description": "<p>Le dé bonus de votre Forme hybride passe à 1d6.</p>"
+    },
+    "the-void.2026-07-09.subclass.order-of-the-lycan.feature.apex-hunter": {
+      "name": "Prédateur suprême",
+      "description": "<p>Le dé bonus de votre Forme hybride passe à 1d8.</p>"
+    },
+    "the-void.2026-07-09.subclass.order-of-the-lycan.feature.regeneration": {
+      "name": "Régénération",
+      "description": "<p>Lorsque vous réussissez avec Espoir sous Forme hybride, lancez un d4. Si le résultat est supérieur à votre nombre actuel de PV non marqués, effacez 1 PV.</p>"
+    },
+    "the-void.2026-07-09.subclass.order-of-the-specter.feature.shadowed-grit": {
+      "name": "Ténacité des ombres",
+      "description": "<p>Lorsque vous réussissez un jet d’action avec Peur, vous pouvez dépenser 1 Espoir pour effacer 1 Stress.</p>"
+    },
+    "the-void.2026-07-09.subclass.order-of-the-specter.feature.veilwalker": {
+      "name": "Marche-voile",
+      "description": "<p>Vous pouvez brièvement vous glisser dans le royaume entre les vivants et les morts. Marquez 1 Stress pour vous déplacer jusqu’à portée Proche en traversant créatures et objets.</p>"
+    },
+    "the-void.2026-07-09.subclass.order-of-the-specter.feature.veilstalker": {
+      "name": "Traque-voile",
+      "description": "<p>Lorsque vous utilisez Marche-voile, vous pouvez désormais vous déplacer jusqu’à un endroit à portée Loin et vous bénéficiez d’un avantage au prochain jet d’action que vous effectuez pendant cette scène.</p>"
+    },
+    "the-void.2026-07-09.subclass.order-of-the-specter.feature.horror-honed": {
+      "name": "Aiguisé par l’horreur",
+      "description": "<p>Vous ne pouvez pas devenir Vulnérable tant que tout votre Stress n’est pas marqué.</p>"
+    },
+    "the-void.2026-07-09.subclass.order-of-the-specter.feature.spectral-form": {
+      "name": "Forme spectrale",
+      "description": "<p>Une fois par repos long, lorsque vous devriez marquer votre dernier PV, vous pouvez marquer 1 Stress et entrer à la place en Forme spectrale. Sous cette forme, vous pouvez traverser la matière physique et bénéficiez d’une résistance aux dégâts physiques. De plus, lorsque vous devriez marquer 1 PV, marquez 1 Stress à la place. Vous quittez cette forme si votre dernier Stress est marqué ou si vous effacez 1 PV.</p>"
+    },
+    "the-void.2026-07-09.subclass.order-of-the-mutant.feature.mutagens": {
+      "name": "Mutagènes",
+      "description": "<p>Vous employez des toxines mutagènes conçues pour améliorer vos capacités. À la fin d’un repos, vous pouvez boire l’une de ces toxines pour bénéficier de ses effets jusqu’à la fin de votre prochain repos. Vous gagnez +1 à un trait de votre choix, −1 à un autre trait de votre choix, ainsi que l’un des bénéfices suivants :</p><ul><li><p><strong>Célérité.</strong> Si vous êtes Entravé ou Vulnérable, marquez 1 Stress pour mettre fin à cet état sur vous-même.</p></li><li><p><strong>Robuste.</strong> Votre score d’Armure augmente de 2.</p></li><li><p><strong>Sens du chasseur.</strong> Vous bénéficiez d’un avantage aux jets d’action pour traquer une créature et pouvez voir dans l’obscurité totale.</p></li></ul>"
+    },
+    "the-void.2026-07-09.subclass.order-of-the-mutant.feature.improved-mutagens": {
+      "name": "Mutagènes améliorés",
+      "description": "<p>Lorsque vous choisissez un bénéfice de mutagène, vous pouvez également choisir parmi les options suivantes :</p><ul><li><p><strong>Nerfs d’acier.</strong> Chaque fois que vous devriez marquer 1 Stress, vous pouvez dépenser 2 Espoir à la place.</p></li><li><p><strong>Rapidité.</strong> Votre Évasion augmente de 1.</p></li><li><p><strong>Peau de fer.</strong> Votre seuil de dégâts Graves augmente d’un nombre égal à votre Maîtrise.</p></li></ul>"
+    },
+    "the-void.2026-07-09.subclass.order-of-the-mutant.feature.volatile-toxins": {
+      "name": "Toxines volatiles",
+      "description": "<p>Vous pouvez choisir deux bénéfices de mutagène au lieu d’un. Si vous le faites, marquez 1 PV qui ne peut pas être effacé avant la fin de votre prochain repos.</p>"
+    },
+    "the-void.2026-07-09.subclass.order-of-the-mutant.feature.mastered-mutagens": {
+      "name": "Mutagènes maîtrisés",
+      "description": "<p>Le bonus et le malus de trait conférés par Mutagènes passent respectivement à +2 et −2. Lorsque vous choisissez un bénéfice de mutagène, vous pouvez également choisir parmi les options suivantes :</p><ul><li><p><strong>Sang d’éther.</strong> Dans votre ligne de vue, vous voyez les créatures et objets invisibles, et les illusions visuelles vous apparaissent transparentes. Si une créature ou un objet dans votre ligne de vue a été transformé par magie, vous voyez sa véritable forme.</p></li><li><p><strong>Fureur.</strong> Lorsque vous effectuez un jet d’attaque, vous pouvez marquer 1 Stress pour gagner un bonus au jet égal à votre Maîtrise.</p></li><li><p><strong>Chair d’acier.</strong> Votre seuil de dégâts Majeurs gagne un bonus égal à votre Maîtrise.</p></li></ul>"
     }
   }
 }

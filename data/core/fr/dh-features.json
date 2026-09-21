@@ -1,0 +1,1370 @@
+[
+  {
+    "_id": "V9pGJ0kLr6dsPXAl",
+    "name": "Détermination mortelle",
+    "type": "feature",
+    "img": "icons/magic/defensive/barrier-shield-dome-deflect-teal.webp",
+    "system": {
+      "description": "<p><strong>Dépensez 3 Espoir</strong> pour effacer 2 Stress.</p>",
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null,
+        "artist": ""
+      },
+      "gmNotes": "",
+      "granter": null,
+      "featureForm": "passive",
+      "actorResources": [],
+      "resource": null,
+      "actions": {}
+    },
+    "effects": [],
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "sourceId": "srd-2.0.class-feature.assassin.deadly-determination",
+        "contentLocale": "fr",
+        "canonicalSourceId": "srd-2.0.class-feature.assassin.deadly-determination",
+        "localeFallback": false,
+        "localizedPaths": [
+          "name",
+          "description"
+        ],
+        "managed": true,
+        "kind": "class_feature",
+        "sourceNamespace": "daggerheart-srd-2.0",
+        "parentSourceId": "srd-2.0.class.assassin",
+        "sourceFeatureType": "hope"
+      }
+    }
+  },
+  {
+    "_id": "Brm84Ly7IW4PnSVC",
+    "name": "Marqué pour la mort",
+    "type": "feature",
+    "img": "icons/magic/defensive/barrier-shield-dome-deflect-teal.webp",
+    "system": {
+      "description": "<p>Lorsque vous réussissez une attaque avec une arme, vous pouvez <strong>marquer 1 Stress</strong> pour désigner la cible comme <em>Marquée pour la mort</em>. Lorsque vous lui infligez des dégâts, ajoutez au jet de dégâts un nombre de <strong>d4</strong> égal à votre rang.</p><p>Un seul adversaire peut être <em>Marqué pour la mort</em> à la fois. Cet état persiste jusqu’à ce que vous preniez un repos, que l’adversaire soit vaincu ou que le MJ dépense un nombre de Peurs égal à votre rang pour y mettre fin.</p>",
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null,
+        "artist": ""
+      },
+      "gmNotes": "",
+      "granter": null,
+      "featureForm": "passive",
+      "actorResources": [],
+      "resource": null,
+      "actions": {}
+    },
+    "effects": [],
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "sourceId": "srd-2.0.class-feature.assassin.marked-for-death",
+        "contentLocale": "fr",
+        "canonicalSourceId": "srd-2.0.class-feature.assassin.marked-for-death",
+        "localeFallback": false,
+        "localizedPaths": [
+          "name",
+          "description"
+        ],
+        "managed": true,
+        "kind": "class_feature",
+        "sourceNamespace": "daggerheart-srd-2.0",
+        "parentSourceId": "srd-2.0.class.assassin",
+        "sourceFeatureType": "class"
+      }
+    }
+  },
+  {
+    "_id": "iNtTmMz3b58S0a3N",
+    "name": "Entrer et ressortir",
+    "type": "feature",
+    "img": "icons/magic/defensive/barrier-shield-dome-deflect-teal.webp",
+    "system": {
+      "description": "<p><strong>Dépensez 1 Espoir</strong> pour demander au MJ un moyen rapide ou discret d’entrer dans un lieu visible ou d’en sortir. Le prochain jet effectué pour exploiter cette information bénéficie d’un avantage.</p>",
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null,
+        "artist": ""
+      },
+      "gmNotes": "",
+      "granter": null,
+      "featureForm": "passive",
+      "actorResources": [],
+      "resource": null,
+      "actions": {}
+    },
+    "effects": [],
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "sourceId": "srd-2.0.class-feature.assassin.get-in-and-get-out",
+        "contentLocale": "fr",
+        "canonicalSourceId": "srd-2.0.class-feature.assassin.get-in-and-get-out",
+        "localeFallback": false,
+        "localizedPaths": [
+          "name",
+          "description"
+        ],
+        "managed": true,
+        "kind": "class_feature",
+        "sourceNamespace": "daggerheart-srd-2.0",
+        "parentSourceId": "srd-2.0.class.assassin",
+        "sourceFeatureType": "class"
+      }
+    }
+  },
+  {
+    "_id": "qSLgABLik7S1Q7oc",
+    "name": "Sans pitié",
+    "type": "feature",
+    "img": "icons/magic/defensive/barrier-shield-dome-deflect-teal.webp",
+    "system": {
+      "description": "<p><strong>Dépensez 3 Espoir</strong> pour gagner un bonus de +1 à vos jets d’attaque jusqu’à votre prochain repos.</p>",
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null,
+        "artist": ""
+      },
+      "gmNotes": "",
+      "granter": null,
+      "featureForm": "passive",
+      "actorResources": [],
+      "resource": null,
+      "actions": {}
+    },
+    "effects": [],
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "sourceId": "srd-2.0.class-feature.warrior.no-mercy",
+        "contentLocale": "fr",
+        "canonicalSourceId": "srd-2.0.class-feature.warrior.no-mercy",
+        "localeFallback": false,
+        "localizedPaths": [
+          "name",
+          "description"
+        ],
+        "managed": true,
+        "kind": "class_feature",
+        "sourceNamespace": "daggerheart-srd-2.0",
+        "parentSourceId": "srd-2.0.class.warrior",
+        "sourceFeatureType": "hope"
+      }
+    }
+  },
+  {
+    "_id": "P0Uzcu9zyHWpTPkk",
+    "name": "Attaque d’opportunité",
+    "type": "feature",
+    "img": "icons/magic/defensive/barrier-shield-dome-deflect-teal.webp",
+    "system": {
+      "description": "<p>Lorsqu’un adversaire à portée Corps à corps tente de quitter cette portée, effectuez un jet de réaction avec le trait de votre choix contre sa Difficulté. En cas de réussite, choisissez un effet ci-dessous ; choisissez-en deux en cas de réussite critique :</p><ul><li><p>Il ne peut pas quitter sa position.</p></li><li><p>Vous lui infligez des dégâts égaux à ceux de votre arme principale.</p></li><li><p>Vous vous déplacez avec lui.</p></li></ul>",
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null,
+        "artist": ""
+      },
+      "gmNotes": "",
+      "granter": null,
+      "featureForm": "passive",
+      "actorResources": [],
+      "resource": null,
+      "actions": {}
+    },
+    "effects": [],
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "sourceId": "srd-2.0.class-feature.warrior.attack-of-opportunity",
+        "contentLocale": "fr",
+        "canonicalSourceId": "srd-2.0.class-feature.warrior.attack-of-opportunity",
+        "localeFallback": false,
+        "localizedPaths": [
+          "name",
+          "description"
+        ],
+        "managed": true,
+        "kind": "class_feature",
+        "sourceNamespace": "daggerheart-srd-2.0",
+        "parentSourceId": "srd-2.0.class.warrior",
+        "sourceFeatureType": "class"
+      }
+    }
+  },
+  {
+    "_id": "2iyVqgpKyGEQdCtJ",
+    "name": "Entraînement au combat",
+    "type": "feature",
+    "img": "icons/magic/defensive/barrier-shield-dome-deflect-teal.webp",
+    "system": {
+      "description": "<p>Vous ignorez l’Encombrement lorsque vous équipez des armes. Lorsque vous infligez des dégâts physiques, ajoutez à votre jet de dégâts un bonus égal à votre niveau.</p>",
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null,
+        "artist": ""
+      },
+      "gmNotes": "",
+      "granter": null,
+      "featureForm": "passive",
+      "actorResources": [],
+      "resource": null,
+      "actions": {}
+    },
+    "effects": [],
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "sourceId": "srd-2.0.class-feature.warrior.combat-training",
+        "contentLocale": "fr",
+        "canonicalSourceId": "srd-2.0.class-feature.warrior.combat-training",
+        "localeFallback": false,
+        "localizedPaths": [
+          "name",
+          "description"
+        ],
+        "managed": true,
+        "kind": "class_feature",
+        "sourceNamespace": "daggerheart-srd-2.0",
+        "parentSourceId": "srd-2.0.class.warrior",
+        "sourceFeatureType": "class"
+      }
+    }
+  },
+  {
+    "_id": "grnYDpoVkkGf3meO",
+    "name": "Pas cette fois",
+    "type": "feature",
+    "img": "icons/magic/defensive/barrier-shield-dome-deflect-teal.webp",
+    "system": {
+      "description": "<p><strong>Dépensez 3 Espoir</strong> pour obliger un adversaire à portée Loin à relancer un jet d’attaque ou de dégâts.</p>",
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null,
+        "artist": ""
+      },
+      "gmNotes": "",
+      "granter": null,
+      "featureForm": "passive",
+      "actorResources": [],
+      "resource": null,
+      "actions": {}
+    },
+    "effects": [],
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "sourceId": "srd-2.0.class-feature.wizard.not-this-time",
+        "contentLocale": "fr",
+        "canonicalSourceId": "srd-2.0.class-feature.wizard.not-this-time",
+        "localeFallback": false,
+        "localizedPaths": [
+          "name",
+          "description"
+        ],
+        "managed": true,
+        "kind": "class_feature",
+        "sourceNamespace": "daggerheart-srd-2.0",
+        "parentSourceId": "srd-2.0.class.wizard",
+        "sourceFeatureType": "hope"
+      }
+    }
+  },
+  {
+    "_id": "gv72pS69bYDvk15V",
+    "name": "Prestidigitation",
+    "type": "feature",
+    "img": "icons/magic/defensive/barrier-shield-dome-deflect-teal.webp",
+    "system": {
+      "description": "<p>Vous pouvez produire à volonté de petits effets magiques subtils et inoffensifs. Vous pouvez par exemple changer la couleur d’un objet, créer une odeur, allumer une bougie, faire flotter un objet minuscule, éclairer une pièce ou réparer un petit objet.</p>",
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null,
+        "artist": ""
+      },
+      "gmNotes": "",
+      "granter": null,
+      "featureForm": "passive",
+      "actorResources": [],
+      "resource": null,
+      "actions": {}
+    },
+    "effects": [],
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "sourceId": "srd-2.0.class-feature.wizard.prestidigitation",
+        "contentLocale": "fr",
+        "canonicalSourceId": "srd-2.0.class-feature.wizard.prestidigitation",
+        "localeFallback": false,
+        "localizedPaths": [
+          "name",
+          "description"
+        ],
+        "managed": true,
+        "kind": "class_feature",
+        "sourceNamespace": "daggerheart-srd-2.0",
+        "parentSourceId": "srd-2.0.class.wizard",
+        "sourceFeatureType": "class"
+      }
+    }
+  },
+  {
+    "_id": "Nqiwu5MoittHTdPf",
+    "name": "Motifs étranges",
+    "type": "feature",
+    "img": "icons/magic/defensive/barrier-shield-dome-deflect-teal.webp",
+    "system": {
+      "description": "<p>Choisissez un nombre compris entre 1 et 12. Lorsque l’un de vos dés de Dualité obtient ce nombre, gagnez 1 Espoir ou effacez 1 Stress.</p><p>Vous pouvez changer ce nombre lorsque vous prenez un repos long.</p>",
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null,
+        "artist": ""
+      },
+      "gmNotes": "",
+      "granter": null,
+      "featureForm": "passive",
+      "actorResources": [],
+      "resource": null,
+      "actions": {}
+    },
+    "effects": [],
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "sourceId": "srd-2.0.class-feature.wizard.strange-patterns",
+        "contentLocale": "fr",
+        "canonicalSourceId": "srd-2.0.class-feature.wizard.strange-patterns",
+        "localeFallback": false,
+        "localizedPaths": [
+          "name",
+          "description"
+        ],
+        "managed": true,
+        "kind": "class_feature",
+        "sourceNamespace": "daggerheart-srd-2.0",
+        "parentSourceId": "srd-2.0.class.wizard",
+        "sourceFeatureType": "class"
+      }
+    }
+  },
+  {
+    "_id": "V7t6zb79hlxm5wba",
+    "name": "Charme de la sorcière",
+    "type": "feature",
+    "img": "icons/magic/defensive/barrier-shield-dome-deflect-teal.webp",
+    "system": {
+      "description": "<p>Lorsque vous ou un allié à portée Loin échouez à un jet d’action, vous pouvez <strong>dépenser 3 Espoir</strong> pour transformer cet échec en réussite avec Peur.</p>",
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null,
+        "artist": ""
+      },
+      "gmNotes": "",
+      "granter": null,
+      "featureForm": "passive",
+      "actorResources": [],
+      "resource": null,
+      "actions": {}
+    },
+    "effects": [],
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "sourceId": "srd-2.0.class-feature.witch.witchs-charm",
+        "contentLocale": "fr",
+        "canonicalSourceId": "srd-2.0.class-feature.witch.witchs-charm",
+        "localeFallback": false,
+        "localizedPaths": [
+          "name",
+          "description"
+        ],
+        "managed": true,
+        "kind": "class_feature",
+        "sourceNamespace": "daggerheart-srd-2.0",
+        "parentSourceId": "srd-2.0.class.witch",
+        "sourceFeatureType": "hope"
+      }
+    }
+  },
+  {
+    "_id": "Eeu3B2da5VdNxeo3",
+    "name": "Maléfice",
+    "type": "feature",
+    "img": "icons/magic/defensive/barrier-shield-dome-deflect-teal.webp",
+    "system": {
+      "description": "<p><strong>Marquez 1 Stress</strong> pour placer temporairement un <em>Maléfice</em> sur une cible à portée Loin. Tant qu’elle est <em>Maudite</em>, elle subit à ses jets de dégâts et à sa Difficulté un malus égal à votre rang. Vous pouvez maintenir simultanément un nombre maximal de créatures sous <em>Maléfice</em> égal à votre trait d’Incantation.</p>",
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null,
+        "artist": ""
+      },
+      "gmNotes": "",
+      "granter": null,
+      "featureForm": "passive",
+      "actorResources": [],
+      "resource": null,
+      "actions": {}
+    },
+    "effects": [],
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "sourceId": "srd-2.0.class-feature.witch.hex",
+        "contentLocale": "fr",
+        "canonicalSourceId": "srd-2.0.class-feature.witch.hex",
+        "localeFallback": false,
+        "localizedPaths": [
+          "name",
+          "description"
+        ],
+        "managed": true,
+        "kind": "class_feature",
+        "sourceNamespace": "daggerheart-srd-2.0",
+        "parentSourceId": "srd-2.0.class.witch",
+        "sourceFeatureType": "class"
+      }
+    }
+  },
+  {
+    "_id": "robtwzaRryWkJbNb",
+    "name": "Communion",
+    "type": "feature",
+    "img": "icons/magic/defensive/barrier-shield-dome-deflect-teal.webp",
+    "system": {
+      "description": "<p>Une fois par repos long, pendant un moment de calme, vous pouvez communier avec un ancêtre, une divinité, un esprit ou une entité d’un autre monde. Posez-lui une question, puis lancez un nombre de <strong>[[/r d6]]{d6}</strong> égal à votre trait d’Incantation. Choisissez l’un des résultats et appliquez l’effet correspondant :</p><ul><li><p>1–3 : vous percevez une saveur, une odeur ou une sensation en rapport avec la réponse.</p></li><li><p>4–5 : vous entendez des sons ou voyez une vision en rapport avec la réponse.</p></li><li><p>6 : vous vivez psychiquement une scène en rapport avec la réponse comme si vous y étiez.</p></li></ul>",
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null,
+        "artist": ""
+      },
+      "gmNotes": "",
+      "granter": null,
+      "featureForm": "passive",
+      "actorResources": [],
+      "resource": null,
+      "actions": {}
+    },
+    "effects": [],
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "sourceId": "srd-2.0.class-feature.witch.commune",
+        "contentLocale": "fr",
+        "canonicalSourceId": "srd-2.0.class-feature.witch.commune",
+        "localeFallback": false,
+        "localizedPaths": [
+          "name",
+          "description"
+        ],
+        "managed": true,
+        "kind": "class_feature",
+        "sourceNamespace": "daggerheart-srd-2.0",
+        "parentSourceId": "srd-2.0.class.witch",
+        "sourceFeatureType": "class"
+      }
+    }
+  },
+  {
+    "_id": "GErNuQu3H5Df3lRL",
+    "name": "Esquive du roublard",
+    "type": "feature",
+    "img": "icons/magic/defensive/barrier-shield-dome-deflect-teal.webp",
+    "system": {
+      "description": "<p><strong>Dépensez 3 Espoir</strong> pour gagner un bonus de +2 à votre Évasion jusqu’à la prochaine attaque réussie contre vous. Si aucune attaque ne réussit, ce bonus persiste jusqu’à votre prochain repos.</p>",
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null,
+        "artist": ""
+      },
+      "gmNotes": "",
+      "granter": null,
+      "featureForm": "passive",
+      "actorResources": [],
+      "resource": null,
+      "actions": {}
+    },
+    "effects": [],
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "sourceId": "srd-2.0.class-feature.rogue.rogues-dodge",
+        "contentLocale": "fr",
+        "canonicalSourceId": "srd-2.0.class-feature.rogue.rogues-dodge",
+        "localeFallback": false,
+        "localizedPaths": [
+          "name",
+          "description"
+        ],
+        "managed": true,
+        "kind": "class_feature",
+        "sourceNamespace": "daggerheart-srd-2.0",
+        "parentSourceId": "srd-2.0.class.rogue",
+        "sourceFeatureType": "hope"
+      }
+    }
+  },
+  {
+    "_id": "c3BWAgZyFtJMI2KK",
+    "name": "Dissimulé",
+    "type": "feature",
+    "img": "icons/magic/defensive/barrier-shield-dome-deflect-teal.webp",
+    "system": {
+      "description": "<p>Chaque fois que vous devriez être Caché, vous êtes à la place Dissimulé. En plus des bénéfices de l’état Caché, vous restez invisible tant que vous demeurez immobile lorsqu’un adversaire se déplace jusqu’à un endroit d’où il devrait normalement vous voir. Après avoir effectué une attaque ou terminé un déplacement dans la ligne de vue d’un adversaire, vous n’êtes plus Dissimulé.</p>",
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null,
+        "artist": ""
+      },
+      "gmNotes": "",
+      "granter": null,
+      "featureForm": "passive",
+      "actorResources": [],
+      "resource": null,
+      "actions": {}
+    },
+    "effects": [],
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "sourceId": "srd-2.0.class-feature.rogue.cloaked",
+        "contentLocale": "fr",
+        "canonicalSourceId": "srd-2.0.class-feature.rogue.cloaked",
+        "localeFallback": false,
+        "localizedPaths": [
+          "name",
+          "description"
+        ],
+        "managed": true,
+        "kind": "class_feature",
+        "sourceNamespace": "daggerheart-srd-2.0",
+        "parentSourceId": "srd-2.0.class.rogue",
+        "sourceFeatureType": "class"
+      }
+    }
+  },
+  {
+    "_id": "fARMpF115F0suIgA",
+    "name": "Attaque sournoise",
+    "type": "feature",
+    "img": "icons/magic/defensive/barrier-shield-dome-deflect-teal.webp",
+    "system": {
+      "description": "<p>Lorsque vous réussissez une attaque en étant Dissimulé, ou lorsqu’un allié se trouve à portée Corps à corps de votre cible, ajoutez à votre jet de dégâts un nombre de d6 égal à votre rang.</p><ul><li><p>Niveau 1 → rang 1</p></li><li><p>Niveaux 2 à 4 → rang 2</p></li><li><p>Niveaux 5 à 7 → rang 3</p></li><li><p>Niveaux 8 à 10 → rang 4</p></li></ul>",
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null,
+        "artist": ""
+      },
+      "gmNotes": "",
+      "granter": null,
+      "featureForm": "passive",
+      "actorResources": [],
+      "resource": null,
+      "actions": {}
+    },
+    "effects": [],
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "sourceId": "srd-2.0.class-feature.rogue.sneak-attack",
+        "contentLocale": "fr",
+        "canonicalSourceId": "srd-2.0.class-feature.rogue.sneak-attack",
+        "localeFallback": false,
+        "localizedPaths": [
+          "name",
+          "description"
+        ],
+        "managed": true,
+        "kind": "class_feature",
+        "sourceNamespace": "daggerheart-srd-2.0",
+        "parentSourceId": "srd-2.0.class.rogue",
+        "sourceFeatureType": "class"
+      }
+    }
+  },
+  {
+    "_id": "XG4jVNhWGwG2eauA",
+    "name": "Don du patron",
+    "type": "feature",
+    "img": "icons/magic/defensive/barrier-shield-dome-deflect-teal.webp",
+    "system": {
+      "description": "<p>Lorsque vous échouez à un jet, vous pouvez <strong>dépenser 3 Espoir</strong> pour le relancer avec un avantage.</p>",
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null,
+        "artist": ""
+      },
+      "gmNotes": "",
+      "granter": null,
+      "featureForm": "passive",
+      "actorResources": [],
+      "resource": null,
+      "actions": {}
+    },
+    "effects": [],
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "sourceId": "srd-2.0.class-feature.warlock.patrons-boon",
+        "contentLocale": "fr",
+        "canonicalSourceId": "srd-2.0.class-feature.warlock.patrons-boon",
+        "localeFallback": false,
+        "localizedPaths": [
+          "name",
+          "description"
+        ],
+        "managed": true,
+        "kind": "class_feature",
+        "sourceNamespace": "daggerheart-srd-2.0",
+        "parentSourceId": "srd-2.0.class.warlock",
+        "sourceFeatureType": "hope"
+      }
+    }
+  },
+  {
+    "_id": "x7FlKUk1M2oBl4A4",
+    "name": "Pacte du patron",
+    "type": "feature",
+    "img": "icons/magic/defensive/barrier-shield-dome-deflect-teal.webp",
+    "system": {
+      "description": "<p>Vous vous êtes lié à une entité surnaturelle — dieu, fée ou démon, par exemple — en échange de pouvoir. Inscrivez son nom sur votre fiche de personnage, puis déterminez avec le MJ sa sphère d’influence, comme la Nature, le Chaos, la Sagesse, la Malice, l’Amour, la Guerre, la Justice ou la Mort. Avant d’effectuer un jet d’action en rapport avec cette sphère, vous pouvez <strong>dépenser 1 Faveur</strong> pour demander son aide : lancez votre dé de Patron et ajoutez son résultat au total. Votre dé de Patron commence comme un <strong>[[/r d6]]</strong> et devient un <strong>[[/r d8]]</strong> au niveau 5.</p>",
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null,
+        "artist": ""
+      },
+      "gmNotes": "",
+      "granter": null,
+      "featureForm": "passive",
+      "actorResources": [],
+      "resource": null,
+      "actions": {}
+    },
+    "effects": [],
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "sourceId": "srd-2.0.class-feature.warlock.patrons-pact",
+        "contentLocale": "fr",
+        "canonicalSourceId": "srd-2.0.class-feature.warlock.patrons-pact",
+        "localeFallback": false,
+        "localizedPaths": [
+          "name",
+          "description"
+        ],
+        "managed": true,
+        "kind": "class_feature",
+        "sourceNamespace": "daggerheart-srd-2.0",
+        "parentSourceId": "srd-2.0.class.warlock",
+        "sourceFeatureType": "class"
+      }
+    }
+  },
+  {
+    "_id": "SCDeNIcXG06F6iRn",
+    "name": "Faveur",
+    "type": "feature",
+    "img": "icons/magic/defensive/barrier-shield-dome-deflect-teal.webp",
+    "system": {
+      "description": "<p>Vous commencez avec 3 Faveurs. Vous pouvez utiliser une action de temps libre pour rendre hommage à votre patron : décrivez comment, puis gagnez un nombre de Faveurs égal à votre trait d’Incantation. De plus, lorsque vous réussissez un jet d’action avec Espoir, vous pouvez choisir de gagner 1 Faveur au lieu de 1 Espoir.</p>",
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null,
+        "artist": ""
+      },
+      "gmNotes": "",
+      "granter": null,
+      "featureForm": "passive",
+      "actorResources": [],
+      "resource": null,
+      "actions": {}
+    },
+    "effects": [],
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "sourceId": "srd-2.0.class-feature.warlock.favor",
+        "contentLocale": "fr",
+        "canonicalSourceId": "srd-2.0.class-feature.warlock.favor",
+        "localeFallback": false,
+        "localizedPaths": [
+          "name",
+          "description"
+        ],
+        "managed": true,
+        "kind": "class_feature",
+        "sourceNamespace": "daggerheart-srd-2.0",
+        "parentSourceId": "srd-2.0.class.warlock",
+        "sourceFeatureType": "class"
+      }
+    }
+  },
+  {
+    "_id": "5NKJnbBwG6DR1phS",
+    "name": "Magie volatile",
+    "type": "feature",
+    "img": "icons/magic/defensive/barrier-shield-dome-deflect-teal.webp",
+    "system": {
+      "description": "<p><strong>Dépensez 3 Espoir</strong> pour relancer autant de dés de dégâts que vous le souhaitez lors d’une attaque qui inflige des dégâts magiques.</p>",
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null,
+        "artist": ""
+      },
+      "gmNotes": "",
+      "granter": null,
+      "featureForm": "passive",
+      "actorResources": [],
+      "resource": null,
+      "actions": {}
+    },
+    "effects": [],
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "sourceId": "srd-2.0.class-feature.sorcerer.volatile-magic",
+        "contentLocale": "fr",
+        "canonicalSourceId": "srd-2.0.class-feature.sorcerer.volatile-magic",
+        "localeFallback": false,
+        "localizedPaths": [
+          "name",
+          "description"
+        ],
+        "managed": true,
+        "kind": "class_feature",
+        "sourceNamespace": "daggerheart-srd-2.0",
+        "parentSourceId": "srd-2.0.class.sorcerer",
+        "sourceFeatureType": "hope"
+      }
+    }
+  },
+  {
+    "_id": "R9rkZX29DqXprnNg",
+    "name": "Sens arcanique",
+    "type": "feature",
+    "img": "icons/magic/defensive/barrier-shield-dome-deflect-teal.webp",
+    "system": {
+      "description": "<p>Vous pouvez ressentir la présence de personnes et d’objets magiques à portée Proche.</p>",
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null,
+        "artist": ""
+      },
+      "gmNotes": "",
+      "granter": null,
+      "featureForm": "passive",
+      "actorResources": [],
+      "resource": null,
+      "actions": {}
+    },
+    "effects": [],
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "sourceId": "srd-2.0.class-feature.sorcerer.arcane-sense",
+        "contentLocale": "fr",
+        "canonicalSourceId": "srd-2.0.class-feature.sorcerer.arcane-sense",
+        "localeFallback": false,
+        "localizedPaths": [
+          "name",
+          "description"
+        ],
+        "managed": true,
+        "kind": "class_feature",
+        "sourceNamespace": "daggerheart-srd-2.0",
+        "parentSourceId": "srd-2.0.class.sorcerer",
+        "sourceFeatureType": "class"
+      }
+    }
+  },
+  {
+    "_id": "bA9fpowkJIIoFnQr",
+    "name": "Illusion mineure",
+    "type": "feature",
+    "img": "icons/magic/defensive/barrier-shield-dome-deflect-teal.webp",
+    "system": {
+      "description": "<p>Effectuez un <strong>jet d’Incantation (10)</strong>. En cas de réussite, vous créez à portée Proche une petite illusion visuelle qui ne dépasse pas votre taille. Cette illusion paraît convaincante à toute personne située à portée Proche ou au-delà.</p>",
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null,
+        "artist": ""
+      },
+      "gmNotes": "",
+      "granter": null,
+      "featureForm": "passive",
+      "actorResources": [],
+      "resource": null,
+      "actions": {}
+    },
+    "effects": [],
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "sourceId": "srd-2.0.class-feature.sorcerer.minor-illusion",
+        "contentLocale": "fr",
+        "canonicalSourceId": "srd-2.0.class-feature.sorcerer.minor-illusion",
+        "localeFallback": false,
+        "localizedPaths": [
+          "name",
+          "description"
+        ],
+        "managed": true,
+        "kind": "class_feature",
+        "sourceNamespace": "daggerheart-srd-2.0",
+        "parentSourceId": "srd-2.0.class.sorcerer",
+        "sourceFeatureType": "class"
+      }
+    }
+  },
+  {
+    "_id": "Mu1Hgd0QJykWBMaL",
+    "name": "Canaliser la puissance brute",
+    "type": "feature",
+    "img": "icons/magic/defensive/barrier-shield-dome-deflect-teal.webp",
+    "system": {
+      "description": "<p>Une fois par repos long, vous pouvez placer une carte de domaine de votre équipement actif dans votre réserve, puis choisir l’un des effets suivants :</p><ul><li><p>Gagner un nombre d’Espoir égal au niveau de la carte.</p></li><li><p>Renforcer un sort infligeant des dégâts et gagner un bonus au jet de dégâts égal au double du niveau de la carte.</p></li></ul>",
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null,
+        "artist": ""
+      },
+      "gmNotes": "",
+      "granter": null,
+      "featureForm": "passive",
+      "actorResources": [],
+      "resource": null,
+      "actions": {}
+    },
+    "effects": [],
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "sourceId": "srd-2.0.class-feature.sorcerer.channel-raw-power",
+        "contentLocale": "fr",
+        "canonicalSourceId": "srd-2.0.class-feature.sorcerer.channel-raw-power",
+        "localeFallback": false,
+        "localizedPaths": [
+          "name",
+          "description"
+        ],
+        "managed": true,
+        "kind": "class_feature",
+        "sourceNamespace": "daggerheart-srd-2.0",
+        "parentSourceId": "srd-2.0.class.sorcerer",
+        "sourceFeatureType": "class"
+      }
+    }
+  },
+  {
+    "_id": "MfiM7GMEZikqoHY8",
+    "name": "Faire une scène",
+    "type": "feature",
+    "img": "icons/magic/defensive/barrier-shield-dome-deflect-teal.webp",
+    "system": {
+      "description": "<p><strong>Dépensez 3 Espoir</strong> pour <strong>distraire temporairement une cible</strong> à portée Proche, ce qui lui inflige un <strong>malus de −2</strong> à sa Difficulté.</p>",
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null,
+        "artist": ""
+      },
+      "gmNotes": "",
+      "granter": null,
+      "featureForm": "passive",
+      "actorResources": [],
+      "resource": null,
+      "actions": {}
+    },
+    "effects": [],
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "sourceId": "srd-2.0.class-feature.bard.make-a-scene",
+        "contentLocale": "fr",
+        "canonicalSourceId": "srd-2.0.class-feature.bard.make-a-scene",
+        "localeFallback": false,
+        "localizedPaths": [
+          "name",
+          "description"
+        ],
+        "managed": true,
+        "kind": "class_feature",
+        "sourceNamespace": "daggerheart-srd-2.0",
+        "parentSourceId": "srd-2.0.class.bard",
+        "sourceFeatureType": "hope"
+      }
+    }
+  },
+  {
+    "_id": "5NC5hM7NXLwCXl9j",
+    "name": "Ralliement",
+    "type": "feature",
+    "img": "icons/magic/defensive/barrier-shield-dome-deflect-teal.webp",
+    "system": {
+      "description": "<p>Une fois par session, décrivez comment vous ralliez le groupe et accordez-vous, ainsi qu’à chacun de vos alliés, un dé de Ralliement. Au niveau 1, ce dé est un d6. Un PJ peut dépenser son dé de Ralliement pour le lancer et ajouter le résultat à un jet d’action, de réaction ou de dégâts, ou pour effacer un nombre de Stress égal au résultat. À la fin de chaque session, retirez tous les dés de Ralliement non dépensés. Au niveau 5, votre dé de Ralliement devient un d8.</p>",
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null,
+        "artist": ""
+      },
+      "gmNotes": "",
+      "granter": null,
+      "featureForm": "passive",
+      "actorResources": [],
+      "resource": null,
+      "actions": {}
+    },
+    "effects": [],
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "sourceId": "srd-2.0.class-feature.bard.rally",
+        "contentLocale": "fr",
+        "canonicalSourceId": "srd-2.0.class-feature.bard.rally",
+        "localeFallback": false,
+        "localizedPaths": [
+          "name",
+          "description"
+        ],
+        "managed": true,
+        "kind": "class_feature",
+        "sourceNamespace": "daggerheart-srd-2.0",
+        "parentSourceId": "srd-2.0.class.bard",
+        "sourceFeatureType": "class"
+      }
+    }
+  },
+  {
+    "_id": "39Ofh6dHPKqDhku0",
+    "name": "Face-à-face",
+    "type": "feature",
+    "img": "icons/magic/defensive/barrier-shield-dome-deflect-teal.webp",
+    "system": {
+      "description": "<p><strong>Dépensez 3 Espoir</strong> pour intimider une cible à portée Proche et la rendre temporairement <em>Vulnérable</em>.</p>",
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null,
+        "artist": ""
+      },
+      "gmNotes": "",
+      "granter": null,
+      "featureForm": "passive",
+      "actorResources": [],
+      "resource": null,
+      "actions": {}
+    },
+    "effects": [],
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "sourceId": "srd-2.0.class-feature.brawler.square-up",
+        "contentLocale": "fr",
+        "canonicalSourceId": "srd-2.0.class-feature.brawler.square-up",
+        "localeFallback": false,
+        "localizedPaths": [
+          "name",
+          "description"
+        ],
+        "managed": true,
+        "kind": "class_feature",
+        "sourceNamespace": "daggerheart-srd-2.0",
+        "parentSourceId": "srd-2.0.class.brawler",
+        "sourceFeatureType": "hope"
+      }
+    }
+  },
+  {
+    "_id": "ECQJ5L97Mc1FH9bK",
+    "name": "Je suis l’arme",
+    "type": "feature",
+    "img": "icons/magic/defensive/barrier-shield-dome-deflect-teal.webp",
+    "system": {
+      "description": "<p>Vos attaques à mains nues sont aussi puissantes que n’importe quelle lame. Tant que vous n’avez aucune autre arme active, vous êtes équipé d’une arme principale appelée Frappe du bagarreur. Elle utilise le trait de votre choix, possède une portée Corps à corps et inflige <strong>d8+d6</strong> dégâts physiques selon votre Maîtrise ; le <strong>d8</strong> et le <strong>d6</strong> évoluent tous deux avec celle-ci. Tant que cette arme est active, vous gagnez un bonus de +1 à votre Évasion.</p>",
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null,
+        "artist": ""
+      },
+      "gmNotes": "",
+      "granter": null,
+      "featureForm": "passive",
+      "actorResources": [],
+      "resource": null,
+      "actions": {}
+    },
+    "effects": [],
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "sourceId": "srd-2.0.class-feature.brawler.i-am-the-weapon",
+        "contentLocale": "fr",
+        "canonicalSourceId": "srd-2.0.class-feature.brawler.i-am-the-weapon",
+        "localeFallback": false,
+        "localizedPaths": [
+          "name",
+          "description"
+        ],
+        "managed": true,
+        "kind": "class_feature",
+        "sourceNamespace": "daggerheart-srd-2.0",
+        "parentSourceId": "srd-2.0.class.brawler",
+        "sourceFeatureType": "class"
+      }
+    }
+  },
+  {
+    "_id": "5BhNyDFDwMOjMIEy",
+    "name": "Enchaînement",
+    "type": "feature",
+    "img": "icons/magic/defensive/barrier-shield-dome-deflect-teal.webp",
+    "system": {
+      "description": "<p>Après avoir lancé les dégâts d’une attaque réussie avec une arme de Corps à corps, vous pouvez <strong>marquer 1 Stress</strong> pour commencer un enchaînement. Lancez votre dé d’Enchaînement et notez le résultat, puis continuez à le lancer jusqu’à obtenir un résultat inférieur au précédent. Cette attaque inflige des dégâts supplémentaires égaux à la somme de tous les résultats obtenus. Ces résultats ne peuvent être modifiés d’aucune manière.</p><p>Votre dé d’Enchaînement commence comme un <strong>d4</strong>. Une fois par rang, vous pouvez l’augmenter d’un cran en choisissant l’option correspondante lors d’une progression de niveau.</p>",
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null,
+        "artist": ""
+      },
+      "gmNotes": "",
+      "granter": null,
+      "featureForm": "passive",
+      "actorResources": [],
+      "resource": null,
+      "actions": {}
+    },
+    "effects": [],
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "sourceId": "srd-2.0.class-feature.brawler.combo-strike",
+        "contentLocale": "fr",
+        "canonicalSourceId": "srd-2.0.class-feature.brawler.combo-strike",
+        "localeFallback": false,
+        "localizedPaths": [
+          "name",
+          "description"
+        ],
+        "managed": true,
+        "kind": "class_feature",
+        "sourceNamespace": "daggerheart-srd-2.0",
+        "parentSourceId": "srd-2.0.class.brawler",
+        "sourceFeatureType": "class"
+      }
+    }
+  },
+  {
+    "_id": "I3iqgcAPEjdJLdKm",
+    "name": "Rempart de première ligne",
+    "type": "feature",
+    "img": "icons/magic/defensive/barrier-shield-dome-deflect-teal.webp",
+    "system": {
+      "description": "<p><strong>Dépensez 3 Espoir</strong> pour effacer 2 emplacements d’Armure.</p>",
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null,
+        "artist": ""
+      },
+      "gmNotes": "",
+      "granter": null,
+      "featureForm": "passive",
+      "actorResources": [],
+      "resource": null,
+      "actions": {}
+    },
+    "effects": [],
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "sourceId": "srd-2.0.class-feature.guardian.frontline-tank",
+        "contentLocale": "fr",
+        "canonicalSourceId": "srd-2.0.class-feature.guardian.frontline-tank",
+        "localeFallback": false,
+        "localizedPaths": [
+          "name",
+          "description"
+        ],
+        "managed": true,
+        "kind": "class_feature",
+        "sourceNamespace": "daggerheart-srd-2.0",
+        "parentSourceId": "srd-2.0.class.guardian",
+        "sourceFeatureType": "hope"
+      }
+    }
+  },
+  {
+    "_id": "rX5eOaDMiVLlIYjr",
+    "name": "Inarrêtable",
+    "type": "feature",
+    "img": "icons/magic/defensive/barrier-shield-dome-deflect-teal.webp",
+    "system": {
+      "description": "<p>Une fois par repos long, vous pouvez devenir Inarrêtable et gagner un dé Inarrêtable. Au niveau 1, il s’agit d’un d4. Placez-le sur votre fiche de personnage, face 1 visible. Après avoir effectué un jet de dégâts qui fait perdre au moins 1 PV à une cible, augmentez sa valeur de 1. Lorsque sa valeur devrait dépasser son maximum, ou lorsque la scène prend fin, retirez le dé et vous cessez d’être Inarrêtable. Au niveau 5, ce dé devient un d6. Tant que vous êtes Inarrêtable, vous bénéficiez des effets suivants :</p><ul><li><p>Vous réduisez d’un seuil la gravité des dégâts physiques : Grave devient Majeure, Majeure devient Mineure et Mineure devient Nulle.</p></li><li><p>Vous ajoutez la valeur actuelle du dé Inarrêtable à vos jets de dégâts.</p></li><li><p>Vous ne pouvez être ni Entravé ni Vulnérable.</p></li></ul><blockquote><p>Conseil : si votre dé Inarrêtable est un d4 affichant 4, retirez-le la prochaine fois que vous devriez l’augmenter. S’il est devenu un d6 et affiche 4, tournez-le sur 5 ; vous ne le retirerez que lorsqu’il devrait dépasser 6.</p></blockquote>",
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null,
+        "artist": ""
+      },
+      "gmNotes": "",
+      "granter": null,
+      "featureForm": "passive",
+      "actorResources": [],
+      "resource": null,
+      "actions": {}
+    },
+    "effects": [],
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "sourceId": "srd-2.0.class-feature.guardian.unstoppable",
+        "contentLocale": "fr",
+        "canonicalSourceId": "srd-2.0.class-feature.guardian.unstoppable",
+        "localeFallback": false,
+        "localizedPaths": [
+          "name",
+          "description"
+        ],
+        "managed": true,
+        "kind": "class_feature",
+        "sourceNamespace": "daggerheart-srd-2.0",
+        "parentSourceId": "srd-2.0.class.guardian",
+        "sourceFeatureType": "class"
+      }
+    }
+  },
+  {
+    "_id": "gXsuGvlbi0hgSCkd",
+    "name": "Évolution",
+    "type": "feature",
+    "img": "icons/magic/defensive/barrier-shield-dome-deflect-teal.webp",
+    "system": {
+      "description": "<p><strong>Dépensez 3 Espoir</strong> pour adopter une Forme bestiale sans marquer de Stress. Lorsque vous le faites, choisissez un trait : il bénéficie d’un bonus de +1 jusqu’à ce que vous quittiez cette Forme bestiale.</p>",
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null,
+        "artist": ""
+      },
+      "gmNotes": "",
+      "granter": null,
+      "featureForm": "passive",
+      "actorResources": [],
+      "resource": null,
+      "actions": {}
+    },
+    "effects": [],
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "sourceId": "srd-2.0.class-feature.druid.evolution",
+        "contentLocale": "fr",
+        "canonicalSourceId": "srd-2.0.class-feature.druid.evolution",
+        "localeFallback": false,
+        "localizedPaths": [
+          "name",
+          "description"
+        ],
+        "managed": true,
+        "kind": "class_feature",
+        "sourceNamespace": "daggerheart-srd-2.0",
+        "parentSourceId": "srd-2.0.class.druid",
+        "sourceFeatureType": "hope"
+      }
+    }
+  },
+  {
+    "_id": "LKMoXNPUpU7Z3S11",
+    "name": "Forme bestiale",
+    "type": "feature",
+    "img": "icons/magic/defensive/barrier-shield-dome-deflect-teal.webp",
+    "system": {
+      "description": "<p>Marquez 1 Stress pour vous transformer par magie en une créature de votre niveau ou inférieur choisie dans la liste des Formes bestiales. Vous pouvez mettre fin à cette transformation à tout moment. Sous cette forme, vous ne pouvez ni utiliser d’armes ni lancer de sorts provenant de cartes de domaine, mais vous conservez l’accès à vos autres capacités et spécificités. Les sorts lancés avant votre transformation restent actifs pendant leur durée normale, et vous pouvez toujours parler et communiquer. Vous gagnez également les spécificités de la Forme bestiale, ajoutez son bonus d’Évasion à votre Évasion et utilisez le trait indiqué dans son profil pour vos attaques. Votre armure fusionne avec votre corps : vous continuez à marquer normalement ses emplacements, qui restent marqués lorsque vous reprenez votre forme habituelle. Si vous marquez votre dernier PV, la transformation prend automatiquement fin.</p>",
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null,
+        "artist": ""
+      },
+      "gmNotes": "",
+      "granter": null,
+      "featureForm": "passive",
+      "actorResources": [],
+      "resource": null,
+      "actions": {}
+    },
+    "effects": [],
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "sourceId": "srd-2.0.class-feature.druid.beastform",
+        "contentLocale": "fr",
+        "canonicalSourceId": "srd-2.0.class-feature.druid.beastform",
+        "localeFallback": false,
+        "localizedPaths": [
+          "name",
+          "description"
+        ],
+        "managed": true,
+        "kind": "class_feature",
+        "sourceNamespace": "daggerheart-srd-2.0",
+        "parentSourceId": "srd-2.0.class.druid",
+        "sourceFeatureType": "class"
+      }
+    }
+  },
+  {
+    "_id": "tZIllsB4uEmKxGZ3",
+    "name": "Toucher sauvage",
+    "type": "feature",
+    "img": "icons/magic/defensive/barrier-shield-dome-deflect-teal.webp",
+    "system": {
+      "description": "<p>Vous pouvez produire à volonté de petits effets naturels, subtils et inoffensifs : faire éclore rapidement une fleur, soulever une légère brise ou allumer un feu de camp, par exemple.</p>",
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null,
+        "artist": ""
+      },
+      "gmNotes": "",
+      "granter": null,
+      "featureForm": "passive",
+      "actorResources": [],
+      "resource": null,
+      "actions": {}
+    },
+    "effects": [],
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "sourceId": "srd-2.0.class-feature.druid.wildtouch",
+        "contentLocale": "fr",
+        "canonicalSourceId": "srd-2.0.class-feature.druid.wildtouch",
+        "localeFallback": false,
+        "localizedPaths": [
+          "name",
+          "description"
+        ],
+        "managed": true,
+        "kind": "class_feature",
+        "sourceNamespace": "daggerheart-srd-2.0",
+        "parentSourceId": "srd-2.0.class.druid",
+        "sourceFeatureType": "class"
+      }
+    }
+  },
+  {
+    "_id": "5OvvQ8slxNWKZaDA",
+    "name": "Soutien vital",
+    "type": "feature",
+    "img": "icons/magic/defensive/barrier-shield-dome-deflect-teal.webp",
+    "system": {
+      "description": "<p><strong>Dépensez 3 Espoir</strong> pour effacer 1 PV sur un allié à portée Proche.</p>",
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null,
+        "artist": ""
+      },
+      "gmNotes": "",
+      "granter": null,
+      "featureForm": "passive",
+      "actorResources": [],
+      "resource": null,
+      "actions": {}
+    },
+    "effects": [],
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "sourceId": "srd-2.0.class-feature.seraph.life-support",
+        "contentLocale": "fr",
+        "canonicalSourceId": "srd-2.0.class-feature.seraph.life-support",
+        "localeFallback": false,
+        "localizedPaths": [
+          "name",
+          "description"
+        ],
+        "managed": true,
+        "kind": "class_feature",
+        "sourceNamespace": "daggerheart-srd-2.0",
+        "parentSourceId": "srd-2.0.class.seraph",
+        "sourceFeatureType": "hope"
+      }
+    }
+  },
+  {
+    "_id": "bDyiv5r5lOCfhT7Q",
+    "name": "Dés de prière",
+    "type": "feature",
+    "img": "icons/magic/defensive/barrier-shield-dome-deflect-teal.webp",
+    "system": {
+      "description": "<p>Au début de chaque session, lancez un nombre de d4 égal à votre trait d’Incantation de sous-classe et placez-les dans l’espace prévu sur votre fiche de personnage. Ce sont vos dés de prière. Vous pouvez dépenser autant de ces dés que vous le souhaitez pour vous aider ou aider un allié à portée Loin. Utilisez la valeur d’un dé dépensé pour réduire des dégâts subis, l’ajouter au résultat d’un jet après son lancer ou gagner autant d’Espoir. À la fin de chaque session, retirez tous les dés de prière non dépensés.</p>",
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null,
+        "artist": ""
+      },
+      "gmNotes": "",
+      "granter": null,
+      "featureForm": "passive",
+      "actorResources": [],
+      "resource": null,
+      "actions": {}
+    },
+    "effects": [],
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "sourceId": "srd-2.0.class-feature.seraph.prayer-dice",
+        "contentLocale": "fr",
+        "canonicalSourceId": "srd-2.0.class-feature.seraph.prayer-dice",
+        "localeFallback": false,
+        "localizedPaths": [
+          "name",
+          "description"
+        ],
+        "managed": true,
+        "kind": "class_feature",
+        "sourceNamespace": "daggerheart-srd-2.0",
+        "parentSourceId": "srd-2.0.class.seraph",
+        "sourceFeatureType": "class"
+      }
+    }
+  },
+  {
+    "_id": "CWiYSfAGDZqaehFd",
+    "name": "Retenez-les",
+    "type": "feature",
+    "img": "icons/magic/defensive/barrier-shield-dome-deflect-teal.webp",
+    "system": {
+      "description": "<p>Lorsque vous réussissez une attaque avec une arme, <strong>dépensez 3 Espoir</strong> pour appliquer le même résultat de jet à deux adversaires supplémentaires situés à portée de l’attaque.</p>",
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null,
+        "artist": ""
+      },
+      "gmNotes": "",
+      "granter": null,
+      "featureForm": "passive",
+      "actorResources": [],
+      "resource": null,
+      "actions": {}
+    },
+    "effects": [],
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "sourceId": "srd-2.0.class-feature.ranger.hold-them-off",
+        "contentLocale": "fr",
+        "canonicalSourceId": "srd-2.0.class-feature.ranger.hold-them-off",
+        "localeFallback": false,
+        "localizedPaths": [
+          "name",
+          "description"
+        ],
+        "managed": true,
+        "kind": "class_feature",
+        "sourceNamespace": "daggerheart-srd-2.0",
+        "parentSourceId": "srd-2.0.class.ranger",
+        "sourceFeatureType": "hope"
+      }
+    }
+  },
+  {
+    "_id": "qzJ1PCjYOsBDVQ1W",
+    "name": "Focalisation du rôdeur",
+    "type": "feature",
+    "img": "icons/magic/defensive/barrier-shield-dome-deflect-teal.webp",
+    "system": {
+      "description": "<p>Dépensez 1 Espoir et effectuez une attaque contre une cible. En cas de réussite, infligez les dégâts normaux de l’attaque et faites temporairement de cette cible votre Focalisation. Jusqu’à ce que cette spécificité prenne fin ou que vous choisissiez une autre créature, vous bénéficiez des effets suivants contre votre Focalisation :</p><ul><li><p>Vous savez précisément dans quelle direction elle se trouve.</p></li><li><p>Lorsque vous lui infligez des dégâts, elle doit marquer 1 Stress.</p></li><li><p>Lorsque vous échouez à une attaque contre elle, vous pouvez mettre fin à cette spécificité pour relancer vos dés de Dualité.</p></li></ul>",
+      "attribution": {
+        "source": "Daggerheart SRD",
+        "page": null,
+        "artist": ""
+      },
+      "gmNotes": "",
+      "granter": null,
+      "featureForm": "passive",
+      "actorResources": [],
+      "resource": null,
+      "actions": {}
+    },
+    "effects": [],
+    "flags": {
+      "daggerheart-campaign-toolkit": {
+        "sourceId": "srd-2.0.class-feature.ranger.rangers-focus",
+        "contentLocale": "fr",
+        "canonicalSourceId": "srd-2.0.class-feature.ranger.rangers-focus",
+        "localeFallback": false,
+        "localizedPaths": [
+          "name",
+          "description"
+        ],
+        "managed": true,
+        "kind": "class_feature",
+        "sourceNamespace": "daggerheart-srd-2.0",
+        "parentSourceId": "srd-2.0.class.ranger",
+        "sourceFeatureType": "class"
+      }
+    }
+  }
+]

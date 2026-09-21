@@ -96,7 +96,7 @@
           "expiry": null,
           "expired": false
         },
-        "description": "<p>On a successful attack using a weapon with a Melee range, gain a bonus to your damage roll equal to your Strength.</p>",
+        "description": "<p>Lors d’une attaque réussie avec une arme à portée de Mêlée, ajoutez à votre jet de dégâts un bonus égal à votre Force.</p>",
         "tint": "#ffffff",
         "transfer": true,
         "statuses": [],
@@ -226,7 +226,7 @@
         "name": "Spectral",
         "disabled": false,
         "img": "icons/magic/air/fog-gas-smoke-purple-blue.webp",
-        "description": "<p>While a creature is incorporeal, they can move through solid objects and are immune to physical damage. They become corporeal again after they pass through a solid object or make an action roll. Otherwise, this effect lasts until the end of the scene.</p>",
+        "description": "<p>Tant qu’une créature est incorporelle, elle peut traverser les objets solides et est immunisée aux dégâts physiques. Elle redevient corporelle après avoir traversé un objet solide ou effectué un jet d’action. Sinon, cet effet dure jusqu’à la fin de la scène.</p>",
         "transfer": false,
         "statuses": [],
         "system": {
@@ -299,7 +299,7 @@
           "type": "effect",
           "_id": "OR0EkGeqY25BhO1h",
           "systemPath": "actions",
-          "description": "<p>Once per long rest, immediately after the GM conveys the consequences of a roll you made, you can rescind the move and consequences like they never happened and make another move instead.</p>",
+          "description": "<p>Une fois par repos long, immédiatement après que le MJ vous a annoncé les conséquences d’un jet que vous avez effectué, vous pouvez annuler l’action et ses conséquences comme si elles n’avaient jamais eu lieu, puis effectuer une autre action à la place.</p>",
           "chatDisplay": true,
           "actionType": "action",
           "cost": [
@@ -494,7 +494,7 @@
             {
               "key": "system.advantageSources",
               "type": "add",
-              "value": "Deceive or trick someone into believing a lie you told them",
+              "value": "Tromper quelqu’un ou lui faire croire un mensonge que vous lui racontez",
               "priority": null,
               "phase": "initial"
             }
@@ -513,7 +513,7 @@
           "expiry": null,
           "expired": false
         },
-        "description": "<p>Gain advantage on a roll to deceive or trick someone into believing a lie you tell them.</p>",
+        "description": "<p>Dépensez un Espoir pour obtenir un Avantage à un jet visant à tromper quelqu’un ou à lui faire croire un mensonge que vous lui racontez.</p>",
         "tint": "#ffffff",
         "statuses": [],
         "sort": 0,
@@ -552,7 +552,7 @@
           "type": "healing",
           "_id": "5sGMd6m6Ltahit4h",
           "systemPath": "actions",
-          "description": "<p>Spend a token from this card to give them the following:</p><ul class=\"\"><li class=\"vertical-card-list-found\"><p>Your ally clears a Stress.</p></li></ul>",
+          "description": "<p>Lorsque vous parlez avec un allié, vous pouvez dépenser un jeton de cette carte pour lui accorder l’un des bénéfices suivants : Votre allié efface un Stress.</p>",
           "chatDisplay": true,
           "actionType": "action",
           "cost": [
@@ -637,7 +637,7 @@
           "type": "healing",
           "_id": "QKS3vo3Nf5CK8rkF",
           "systemPath": "actions",
-          "description": "<p>Spend a token from this card to give them the following:</p><ul class=\"\"><li class=\"vertical-card-list-found\"><p>Your ally clears a Hit Point.</p></li></ul>",
+          "description": "<p>Lorsque vous parlez avec un allié, vous pouvez dépenser un jeton de cette carte pour lui accorder l’un des bénéfices suivants : Votre allié efface un Stress. Votre allié efface un Point de vie.</p>",
           "chatDisplay": true,
           "actionType": "action",
           "cost": [
@@ -722,7 +722,7 @@
           "type": "healing",
           "_id": "5xn70wYZW7k9aiVl",
           "systemPath": "actions",
-          "description": "<p>Spend a token from this card to give them the following:</p><ul class=\"\"><li class=\"vertical-card-list-found\"><p>Your ally gains a Hope.</p></li></ul>",
+          "description": "<p>Lorsque vous parlez avec un allié, vous pouvez dépenser un jeton de cette carte pour lui accorder l’un des bénéfices suivants : Votre allié efface un Stress. Votre allié efface un Point de vie. Votre allié gagne un Espoir.</p>",
           "chatDisplay": true,
           "actionType": "action",
           "cost": [
@@ -1150,7 +1150,7 @@
           "expiry": null,
           "expired": false
         },
-        "description": "<p>Gain a bonus to your Evasion equal to half your Agility.</p>",
+        "description": "<p>Gagnez un bonus à votre Esquive égal à la moitié de votre Agilité.</p>",
         "tint": "#ffffff",
         "transfer": true,
         "statuses": [],
@@ -1190,7 +1190,7 @@
           "type": "healing",
           "_id": "sDoL9p1cpIx8Vdbb",
           "systemPath": "actions",
-          "description": "<p>When you can take a few minutes to focus on the target you're helping, you can spend 2 Hope to clear a Hit Point or a Stress on them.</p>",
+          "description": "<p>Lorsque vous pouvez prendre quelques minutes pour vous concentrer sur la cible que vous aidez, vous pouvez dépenser 2 Espoir pour lui faire récupérer 1 PV ou effacer 1 Stress.</p>",
           "chatDisplay": true,
           "actionType": "action",
           "cost": [
@@ -1360,7 +1360,7 @@
           "type": "healing",
           "_id": "FsbOSV8eR2PEb1aS",
           "systemPath": "actions",
-          "description": "<p>When you can take a few minutes to focus on the target you're helping, you can <strong>spend 2 Hope</strong> to clear a Hit Point or a Stress on them.</p><p>Once per long rest, when you spend this healing time learning something new about them or revealing something about yourself, you can clear 2 Hit Points or 2 Stress on them instead.</p>",
+          "description": "<p>Lorsque vous pouvez prendre quelques minutes pour vous concentrer sur la cible que vous aidez, vous pouvez dépenser 2 Espoir pour lui faire récupérer 1 PV ou effacer 1 Stress. Une fois par repos long, si vous consacrez ce temps de soin à apprendre quelque chose de nouveau sur elle ou à révéler quelque chose sur vous-même, vous pouvez à la place lui faire récupérer 2 PV ou effacer 2 Stress.</p>",
           "chatDisplay": true,
           "actionType": "action",
           "cost": [
@@ -1453,7 +1453,7 @@
           "type": "healing",
           "_id": "mqDV9s6oMRQjJF4U",
           "systemPath": "actions",
-          "description": "<p>When you can take a few minutes to focus on the target you're helping, you can <strong>spend 2 Hope</strong> to clear a Hit Point or a Stress on them.</p><p>Once per long rest, when you spend this healing time learning something new about them or revealing something about yourself, you can clear 2 Hit Points or 2 Stress on them instead.</p>",
+          "description": "<p>Lorsque vous pouvez prendre quelques minutes pour vous concentrer sur la cible que vous aidez, vous pouvez dépenser 2 Espoir pour lui faire récupérer 1 PV ou effacer 1 Stress. Une fois par repos long, si vous consacrez ce temps de soin à apprendre quelque chose de nouveau sur elle ou à révéler quelque chose sur vous-même, vous pouvez à la place lui faire récupérer 2 PV ou effacer 2 Stress.</p>",
           "chatDisplay": true,
           "actionType": "action",
           "cost": [
@@ -1807,7 +1807,7 @@
           "type": "effect",
           "_id": "QCMkze8rU0VB1VYL",
           "systemPath": "actions",
-          "description": "<p>When you position yourself behind a creature who's about your size, you can mark a <strong>Stress</strong> to pull them into a chokehold, making them temporarily <em>Vulnerable</em>.</p>",
+          "description": "<p>Lorsque vous vous placez derrière une créature d’une taille proche de la vôtre, vous pouvez marquer 1 Stress pour l’immobiliser dans une prise d’étranglement, la rendant temporairement Vulnérable.</p>",
           "chatDisplay": true,
           "actionType": "action",
           "cost": [
@@ -1850,7 +1850,7 @@
           "type": "damage",
           "_id": "IwiUBldoDTUgT6mh",
           "systemPath": "actions",
-          "description": "<p>When a creature attacks a target who is <em>Vulnerable</em> in this way, they deal an extra <strong>2d6</strong> damage.</p>",
+          "description": "<p>Lorsqu’une créature attaque une cible rendue Vulnérable de cette manière, elle inflige 2d6 dégâts supplémentaires.</p>",
           "chatDisplay": true,
           "actionType": "action",
           "cost": [
@@ -2099,7 +2099,7 @@
           "expiry": null,
           "expired": false
         },
-        "description": "<p>Can see through their eyes and hear through their ears.</p>",
+        "description": "<p>Vous pouvez voir par ses yeux et entendre par ses oreilles.</p>",
         "tint": "#ffffff",
         "statuses": [],
         "sort": 0,
@@ -2299,7 +2299,7 @@
             {
               "key": "system.advantageSources",
               "type": "add",
-              "value": "Steal items from a target (either through stealth or by force)",
+              "value": "Voler des objets à une cible (par discrétion ou par la force)",
               "priority": null,
               "phase": "initial"
             }
@@ -2320,7 +2320,7 @@
           "expiry": null,
           "expired": false
         },
-        "description": "<p>You have advantage on action rolls to pick nonmagical locks, disarm nonmagical traps, or steal items from a target (either through stealth or by force).</p>",
+        "description": "<p>Vous avez l’Avantage aux jets d’action pour crocheter des serrures non magiques, désamorcer des pièges non magiques ou voler des objets à une cible (par discrétion ou par la force).</p>",
         "tint": "#ffffff",
         "transfer": true,
         "statuses": [],
@@ -2560,7 +2560,7 @@
           "type": "attack",
           "_id": "zrGLlwmpuUIBrSXy",
           "systemPath": "actions",
-          "description": "<p>Make a <strong>Spellcast Roll</strong> against a target within Far range. On a success, spend a <strong>Hope</strong> to send a bolt of shimmering light toward them, dealing d8+2 magic damage using your Proficiency. The target becomes temporarily <em>Vulnerable</em> and glows brightly until this condition is cleared.</p>",
+          "description": "<p>Effectuez un jet d’Incantation contre une cible à portée Lointaine. En cas de réussite, dépensez 1 Espoir pour projeter vers elle un trait de lumière scintillante, infligeant d8+2 dégâts magiques avec votre Maîtrise. La cible devient temporairement Vulnérable et brille intensément jusqu’à ce que cet état soit dissipé.</p>",
           "chatDisplay": true,
           "actionType": "action",
           "cost": [
@@ -2722,7 +2722,7 @@
           "expiry": null,
           "expired": false
         },
-        "description": "<p>Temporarily Vulnerable and glows brightly until this condition is cleared.</p>",
+        "description": "<p>La cible devient temporairement Vulnérable et brille intensément jusqu’à ce que cet état soit dissipé.</p>",
         "tint": "#ffffff",
         "statuses": [
           "vulnerable"
@@ -3122,7 +3122,7 @@
           "expiry": null,
           "expired": false
         },
-        "description": "<p>Gain a +2 bonus to all of your character traits until your next rest.</p>",
+        "description": "<p>Gagnez un bonus de +2 à tous les Traits de votre personnage jusqu’à votre prochain repos.</p>",
         "tint": "#ffffff",
         "statuses": [],
         "sort": 0,
@@ -3424,7 +3424,7 @@
           "type": "effect",
           "_id": "jTC0GbsBpGmaQLi7",
           "systemPath": "actions",
-          "description": "<p>The first time you move within Close range of an adversary and make an attack against them, you can spend one token to choose one of the following options:</p><ul class=\"\"><li class=\"vertical-card-list-found\"><p>You make the attack with advantage.</p></li><li class=\"vertical-card-list-found\"><p>You clear a Stress on an ally within Melee range of the adversary.</p></li><li class=\"vertical-card-list-found\"><p>You add a <strong>d8</strong> to your damage roll.</p></li></ul>",
+          "description": "<p>La première fois que vous vous déplacez à portée Proche d’un adversaire et effectuez une attaque contre lui, vous pouvez dépenser un jeton pour choisir l’une des options suivantes : Effectuez l’attaque avec l’avantage. Effacez 1 Stress d’un allié à portée de Mêlée de l’adversaire. Ajoutez un d8 à votre jet de dégâts.</p>",
           "chatDisplay": true,
           "actionType": "action",
           "cost": [
@@ -3659,7 +3659,7 @@
         "name": "Invisible",
         "disabled": false,
         "img": "icons/magic/perception/silhouette-stealth-shadow.webp",
-        "description": "<p>An <em>Invisible</em> creature can't be seen except through magical means and attack rolls against them are made with disadvantage. Place a number of tokens on this card equal to your Spellcast trait. When the <em>Invisible</em> creature takes an action, spend a token from this card. After the action that spends the last token is resolved, the effect ends.</p>",
+        "description": "<p>Une créature Invisible ne peut être vue que par des moyens magiques, et les jets d’attaque contre elle subissent un Désavantage. Placez sur cette carte un nombre de jetons égal à votre trait d’Incantation. Lorsque la créature Invisible effectue une action, dépensez un jeton de cette carte. Une fois résolue l’action qui dépense le dernier jeton, l’effet prend fin.</p>",
         "transfer": false,
         "statuses": [],
         "system": {
@@ -3724,7 +3724,7 @@
           "type": "attack",
           "_id": "gd4zjBV1UvXhgAid",
           "systemPath": "actions",
-          "description": "<p><em><strong>Slumber:</strong></em> Make a <strong>Spellcast Roll</strong> against a target within Very Close range. On a success, they're <em>Asleep</em> until they take damage or the GM spends a <strong>Fear</strong> on their turn to clear this condition.</p>",
+          "description": "<p>Sommeil : Effectuez un jet d’incantation contre une cible à portée très proche. En cas de réussite, elle est Endormie jusqu’à ce qu’elle subisse des dégâts ou que le MJ dépense 1 Peur pendant son tour pour mettre fin à cet état.</p>",
           "chatDisplay": true,
           "actionType": "action",
           "cost": [],
@@ -3782,7 +3782,7 @@
           "type": "damage",
           "_id": "tOHoeUFjdPw2TGrw",
           "systemPath": "actions",
-          "description": "<p>Once per rest, <strong>spend any number of Hope</strong> and shoot magical projectiles that strike a target of your choice within Close range. Roll a number of <strong>d6s</strong> equal to the Hope spent and deal that much magic damage to the target.</p>",
+          "description": "<p>Barrage arcanique : Une fois par repos, dépensez autant d’Espoir que vous le souhaitez et projetez des projectiles magiques qui frappent une cible de votre choix à portée proche. Lancez un nombre de d6 égal à l’Espoir dépensé et infligez à la cible autant de dégâts magiques que le total obtenu.</p>",
           "chatDisplay": true,
           "actionType": "action",
           "cost": [
@@ -3853,7 +3853,7 @@
           "type": "effect",
           "_id": "Ya1vttriJRLbuyhk",
           "systemPath": "actions",
-          "description": "<p><strong>Spend a Hope</strong> to open a line of mental communication with one target you can see. This connection lasts until your next rest or you cast Telepathy again.</p>",
+          "description": "<p>Télépathie : Dépensez 1 Espoir pour établir une communication mentale avec une cible que vous pouvez voir. Cette connexion dure jusqu’à votre prochain repos ou jusqu’à ce que vous lanciez de nouveau Télépathie.</p>",
           "chatDisplay": true,
           "actionType": "action",
           "cost": [
@@ -3962,7 +3962,7 @@
           "expiry": null,
           "expired": false
         },
-        "description": "<p>Lasts until your next rest or the caster casts Telepathy again.</p>",
+        "description": "<p>Cette connexion dure jusqu’à votre prochain repos ou jusqu’à ce que vous lanciez de nouveau Télépathie.</p>",
         "tint": "#ffffff",
         "statuses": [],
         "sort": 0,
@@ -4013,7 +4013,7 @@
           "expiry": null,
           "expired": false
         },
-        "description": "<p>Asleep until they take damage or the GM spends a Fear on their turn to clear this condition.</p>",
+        "description": "<p>En cas de réussite, elle est Endormie jusqu’à ce qu’elle subisse des dégâts ou que le MJ dépense 1 Peur pendant son tour pour mettre fin à cet état.</p>",
         "tint": "#ffffff",
         "statuses": [],
         "sort": 0,
@@ -4059,7 +4059,7 @@
           "type": "attack",
           "_id": "ywBVT5mbDKr485Jg",
           "systemPath": "actions",
-          "description": "<p>Make a <strong>Spellcast Roll</strong> against a target within Far range. On a success, they're temporarily <em>Restrained</em> and must mark a Stress. If you target a flying creature, this spell grounds and temporarily <em>Restrains</em> them.</p>",
+          "description": "<p>Lien mystique : Effectuez un jet d’incantation contre une cible à portée lointaine. En cas de réussite, elle est temporairement Entravée et doit marquer 1 Stress. Si vous ciblez une créature volante, ce sort la force à atterrir et l’Entrave temporairement.</p>",
           "chatDisplay": true,
           "actionType": "action",
           "cost": [],
@@ -4145,7 +4145,7 @@
           "type": "attack",
           "_id": "GI2VkIcGDOjFRxpT",
           "systemPath": "actions",
-          "description": "<p>Make a <strong>Spellcast Roll</strong> against a target within Very Far range. On a success, hurl a sphere of fire toward them that explodes on impact.</p>",
+          "description": "<p>Boule de feu : Effectuez un jet d’incantation contre une cible à portée très lointaine. En cas de réussite, projetez vers elle une sphère de feu qui explose à l’impact.</p>",
           "chatDisplay": true,
           "actionType": "action",
           "cost": [],
@@ -4199,7 +4199,7 @@
           "_id": "HJ749c2a8WTjkSHY",
           "systemPath": "actions",
           "baseAction": false,
-          "description": "<p>The target and all creatures within Very Close range of them must make a Reaction Roll (13). Targets who fail take<strong> d20+5</strong> magic damage using your Proficiency. Targets who succeed take half damage.</p>",
+          "description": "<p>La cible et toutes les créatures à portée très proche d’elle doivent effectuer un jet de réaction (13). Les cibles qui échouent subissent d20+5 dégâts magiques en utilisant votre Maîtrise. Celles qui réussissent subissent la moitié de ces dégâts.</p>",
           "chatDisplay": true,
           "originItem": {
             "type": "itemCollection"
@@ -4783,7 +4783,7 @@
           "expiry": null,
           "expired": false
         },
-        "description": "<p>Suppressive magic around the target that encompasses everything within Very Close range of them and follows them as they move. The target and anything within the area is Silenced until the GM spends a Fear on their turn to clear this condition, you cast Hush again, or you take Major damage. While Silenced, they can't make noise and can't cast spells.</p>",
+        "description": "<p>En cas de réussite, dépensez 1 Espoir pour invoquer autour d’elle une magie d’étouffement qui englobe tout ce qui se trouve à portée Très proche de la cible et la suit dans ses déplacements. La cible et tout ce qui se trouve dans la zone sont Réduits au silence jusqu’à ce que le MJ dépense 1 Peur pendant son tour pour dissiper cet état, que vous lanciez de nouveau Silence ou que vous subissiez des dégâts Majeurs. Tant qu’ils sont Réduits au silence, ils ne peuvent produire aucun bruit ni lancer de sorts.</p>",
         "tint": "#ffffff",
         "statuses": [],
         "sort": 0,
@@ -4942,7 +4942,7 @@
           "type": "effect",
           "_id": "Cb39VXOUPVWl3ea4",
           "systemPath": "actions",
-          "description": "<p>When you leverage your notoriety to get what you want, you can <strong>mark a Stress</strong> before you roll to gain a +10 bonus to the result.</p><p>This card doesn't count against your loadout's domain card maximum of 5 and can't be placed in your vault.</p>",
+          "description": "<p>Les gens savent qui vous êtes et ce que vous avez fait, et ils vous traitent différemment à cause de cela. Lorsque vous vous appuyez sur votre notoriété pour obtenir ce que vous voulez, vous pouvez marquer un Stress avant le jet pour gagner un bonus de +10 au résultat.</p>",
           "chatDisplay": true,
           "actionType": "action",
           "cost": [
@@ -5372,7 +5372,7 @@
           "type": "damage",
           "_id": "AI8sGbUXLw4gG8mW",
           "systemPath": "actions",
-          "description": "<p>Targets who succeed take <strong>3d20+3</strong> magic damage.</p>",
+          "description": "<p>Les cibles qui réussissent subissent 3d20+3 dégâts magiques.</p>",
           "chatDisplay": true,
           "actionType": "action",
           "cost": [],
@@ -5502,7 +5502,7 @@
           "expiry": null,
           "expired": false
         },
-        "description": "<p>Temporarily Stunned. While Stunned, they can't use reactions and can't take any other actions until they clear this condition.</p>",
+        "description": "<p>Celles qui échouent subissent 4d20+5 dégâts magiques et sont temporairement Étourdies. Tant qu’elles sont Étourdies, elles ne peuvent pas utiliser de réactions ni entreprendre d’autre action jusqu’à ce qu’elles dissipent cet état.</p>",
         "tint": "#ffffff",
         "statuses": [
           "stun"
@@ -5628,7 +5628,7 @@
           "expiry": null,
           "expired": false
         },
-        "description": "<p>When you make a successful attack with a weapon, gain a bonus to your damage roll equal to either your Finesse or Agility.</p>",
+        "description": "<p>Lorsque vous réussissez une attaque avec une arme, gagnez un bonus à votre jet de dégâts égal à votre Finesse ou à votre Agilité.</p>",
         "tint": "#ffffff",
         "transfer": true,
         "statuses": [],
@@ -5686,7 +5686,7 @@
           "expiry": null,
           "expired": false
         },
-        "description": "<p>When you make a successful attack with a weapon, gain a bonus to your damage roll equal to either your Finesse or Agility.</p>",
+        "description": "<p>Lorsque vous réussissez une attaque avec une arme, gagnez un bonus à votre jet de dégâts égal à votre Finesse ou à votre Agilité.</p>",
         "tint": "#ffffff",
         "transfer": true,
         "statuses": [],
@@ -5785,7 +5785,7 @@
           "type": "healing",
           "_id": "DAsnjDomrlupo1aw",
           "systemPath": "actions",
-          "description": "<p>When you mark 1 or more Hit Points from an attack, clear a Stress.</p>",
+          "description": "<p>Lorsque vous marquez un Point de vie ou plus à cause d’une attaque, effacez 1 Stress.</p>",
           "chatDisplay": true,
           "actionType": "action",
           "cost": [],
@@ -5933,7 +5933,7 @@
           "expiry": null,
           "expired": false
         },
-        "description": "<p>Gain a bonus to your Severe threshold equal to your Proficiency.</p>",
+        "description": "<p>Gagnez un bonus à votre seuil Sévère égal à votre Maîtrise.</p>",
         "tint": "#ffffff",
         "transfer": true,
         "statuses": [],
@@ -5974,7 +5974,7 @@
           "_id": "3fABewYlBBP80OiK",
           "systemPath": "actions",
           "baseAction": false,
-          "description": "<p>When an adversary within Close range is defeated with all its Stress marked, you gain a Hope.</p>",
+          "description": "<p>De plus, lorsqu’un adversaire à portée proche est vaincu alors que tous ses emplacements de Stress sont marqués, vous gagnez 1 Espoir.</p>",
           "chatDisplay": true,
           "originItem": {
             "type": "itemCollection"
@@ -6130,7 +6130,7 @@
           "expiry": null,
           "expired": false
         },
-        "description": "<p>You deal double damage to targets that have all their Stress marked.</p>",
+        "description": "<p>Vous infligez le double de dégâts aux cibles dont tous les emplacements de Stress sont marqués.</p>",
         "tint": "#ffffff",
         "transfer": true,
         "statuses": [],
@@ -6169,7 +6169,7 @@
           "type": "attack",
           "_id": "6eioK8CoAPfObBP2",
           "systemPath": "actions",
-          "description": "<p>You can interrupt a magical effect taking place. Make a reaction roll using your Spellcast trait. Once per rest on a success, the effect stops and any consequences are avoided.</p>",
+          "description": "<p>Répudiation : Vous pouvez interrompre un effet magique en cours. Effectuez un jet de réaction en utilisant votre trait d’Incantation. Une fois par repos, en cas de réussite, l’effet s’arrête et toutes ses conséquences sont évitées.</p>",
           "chatDisplay": true,
           "actionType": "action",
           "cost": [],
@@ -6222,7 +6222,7 @@
           "type": "effect",
           "_id": "6JWhxevxbL0sOcbv",
           "systemPath": "actions",
-          "description": "<p><strong>Spend a Hope</strong> to choose a group of objects around you and create an animated construct from them that obeys basic commands.</p>",
+          "description": "<p>Créer une construction : Dépensez 1 Espoir pour choisir un groupe d’objets autour de vous et en créer une construction animée qui obéit à des ordres simples.</p>",
           "chatDisplay": true,
           "actionType": "action",
           "cost": [
@@ -6260,7 +6260,7 @@
           "type": "attack",
           "_id": "MGVKJ8wVac1v8eJv",
           "systemPath": "actions",
-          "description": "<p>Make a <strong>Spellcast Roll</strong> to command the constructs to take action. When necessary, they share your Evasion and traits and their attacks deal <strong>2d10+3</strong> physical damage. You can only maintain one construct at a time, and they fall apart when they take any amount of damage.</p>",
+          "description": "<p>Effectuez un jet d’incantation pour lui ordonner d’agir. Lorsque nécessaire, elle partage votre Esquive et vos traits, et ses attaques infligent 2d10+3 dégâts physiques. Vous ne pouvez maintenir qu’une seule construction à la fois, et elle se désagrège dès qu’elle subit des dégâts.</p>",
           "chatDisplay": true,
           "actionType": "action",
           "cost": [],
@@ -6813,7 +6813,7 @@
           "_id": "oeuSyzRQ7Qtg6JaT",
           "systemPath": "actions",
           "baseAction": false,
-          "description": "<p>After an attack roll is made against you, you can spend any number of tokens to give the result a -1 penalty per token spent.</p>",
+          "description": "<p>Après qu’un jet d’attaque a été effectué contre vous, vous pouvez dépenser autant de jetons que vous le souhaitez pour appliquer un malus de −1 au résultat par jeton dépensé.</p>",
           "chatDisplay": true,
           "originItem": {
             "type": "itemCollection"
@@ -6910,7 +6910,7 @@
           "type": "healing",
           "_id": "r9mQqwdwL6J15IEf",
           "systemPath": "actions",
-          "description": "<p>During a short rest, when you take the time to comfort another character while using the Tend to Wounds downtime move on them, clear an additional Hit Point on that character.</p>",
+          "description": "<p>Pendant un repos court, lorsque vous prenez le temps de réconforter un autre personnage tout en utilisant sur lui l’action de repos Soigner les blessures, effacez un Point de vie supplémentaire sur ce personnage.</p>",
           "chatDisplay": true,
           "actionType": "action",
           "cost": [],
@@ -6986,7 +6986,7 @@
           "type": "healing",
           "_id": "s4KRqnNHNrSsOoNi",
           "systemPath": "actions",
-          "description": "<p>When you do, you also clear 2 Hit Points.</p>",
+          "description": "<p>Lorsque vous le faites, vous effacez également 2 Points de vie.</p>",
           "chatDisplay": true,
           "actionType": "action",
           "cost": [],
@@ -7122,7 +7122,7 @@
           "type": "damage",
           "_id": "hdMFgH17KyxENDAJ",
           "systemPath": "actions",
-          "description": "<p>When you deal damage to this target, spend any number of tokens to add a<strong> d12</strong> for each token spent to your damage roll. You can only hold Twilight Toll on one creature at a time.When you choose a new target or take a rest, clear all unspent tokens.</p>",
+          "description": "<p>Lorsque vous infligez des dégâts à cette cible, dépensez autant de jetons que vous le souhaitez pour ajouter un d12 à votre jet de dégâts pour chaque jeton dépensé. Vous ne pouvez maintenir Tribut du crépuscule que sur une seule créature à la fois. Lorsque vous choisissez une nouvelle cible ou prenez un repos, retirez tous les jetons non dépensés.</p>",
           "chatDisplay": true,
           "actionType": "action",
           "cost": [
@@ -7298,7 +7298,7 @@
           "type": "attack",
           "_id": "WTnjKQs2uI1TuF9r",
           "systemPath": "actions",
-          "description": "<p><strong>Spend a Hope</strong> to make a <strong>Spellcast Roll</strong> and conjure throwing blades that strike out at all targets within Very Close range. Targets you succeed against take <strong>d8+2</strong> magic damage using your Proficiency.</p>",
+          "description": "<p>Dépensez 1 Espoir pour effectuer un jet d’incantation et invoquer des lames de jet qui frappent toutes les cibles à portée Très proche. Les cibles contre lesquelles vous réussissez subissent d8+2 dégâts magiques en utilisant votre Maîtrise.</p>",
           "chatDisplay": true,
           "actionType": "action",
           "cost": [
@@ -7681,7 +7681,7 @@
           "type": "effect",
           "_id": "K91pB8O1ak8fikUj",
           "systemPath": "actions",
-          "description": "<p>Mark a <strong>Stress</strong> to become Spectral until you make an action roll targeting another creature. While Spectral, you're immune to physical damage and can float and pass through solid objects. Other creatures can still see you while you're in this form.</p>",
+          "description": "<p>Marquez 1 Stress pour devenir Spectral jusqu’à ce que vous effectuiez un jet d’action ciblant une autre créature. Tant que vous êtes Spectral, vous êtes immunisé aux dégâts physiques et pouvez flotter et traverser les objets solides.</p>",
           "chatDisplay": true,
           "actionType": "action",
           "cost": [
@@ -7977,7 +7977,7 @@
             {
               "key": "system.disadvantageSources",
               "type": "add",
-              "value": "Attacking the goading creature",
+              "value": "Attaquer la créature qui provoque",
               "priority": null,
               "phase": "initial"
             }
@@ -7996,7 +7996,7 @@
           "expiry": null,
           "expired": false
         },
-        "description": "<p>The next time this Adversary is spotlighted, they must target the Goading Character with an attack, which they make with disadvantage.</p>",
+        "description": "<p>En cas de réussite, la cible doit marquer un Stress et, la prochaine fois que le MJ braque les projecteurs sur elle, elle doit vous prendre pour cible avec une attaque, qu’elle effectue avec Désavantage.</p>",
         "tint": "#ffffff",
         "statuses": [],
         "sort": 0,
@@ -8035,7 +8035,7 @@
           "type": "effect",
           "_id": "vox5fIIFsOnraXgK",
           "systemPath": "actions",
-          "description": "<p><strong>Mark a Stress</strong> to cast a protective aura on a target within Very Close range. When the target marks an Armor Slot, they reduce the severity of the attack by an additional threshold. If this spell causes a creature who would be damaged to instead mark no Hit Points, the effect ends.</p><p>You can only hold Shield Aura on one creature at a time.</p>",
+          "description": "<p>Cochez 1 Stress pour lancer une aura protectrice sur une cible à portée Très proche. Lorsque la cible coche un emplacement d’armure, elle réduit la gravité de l’attaque d’un seuil supplémentaire. Si ce sort permet à une créature qui aurait dû subir des dégâts de ne cocher aucun PV, l’effet prend fin.</p>",
           "chatDisplay": true,
           "actionType": "action",
           "cost": [
@@ -8151,7 +8151,7 @@
           "expiry": null,
           "expired": false
         },
-        "description": "<p>When the target marks an Armor Slot, they reduce the severity of the attack by an additional threshold. If this spell causes a creature who would be damaged to instead mark no Hit Points, the effect ends.</p>",
+        "description": "<p>Lorsque la cible coche un emplacement d’armure, elle réduit la gravité de l’attaque d’un seuil supplémentaire. Si ce sort permet à une créature qui aurait dû subir des dégâts de ne cocher aucun PV, l’effet prend fin.</p>",
         "tint": "#ffffff",
         "statuses": [],
         "sort": 0,
@@ -8351,7 +8351,7 @@
           "expiry": null,
           "expired": false
         },
-        "description": "<p>An illusion of flashing colors and lights that temporarily Stuns targets. While Stunned, they can't use reactions and can't take any other actions until they clear this condition.</p>",
+        "description": "<p>Une fois par repos, en cas de réussite, vous créez une illusion de couleurs et de lumières scintillantes qui Étourdit temporairement les cibles contre lesquelles vous réussissez et les force à marquer un Stress. Tant qu’elles sont Étourdies, elles ne peuvent pas utiliser de réactions ni entreprendre d’autres actions jusqu’à ce qu’elles dissipent cet état.</p>",
         "tint": "#ffffff",
         "statuses": [
           "stun"
@@ -8497,7 +8497,7 @@
           "type": "attack",
           "_id": "fgBLkAtuv9okxUd4",
           "systemPath": "actions",
-          "description": "<p>Make a <strong>Spellcast Roll</strong> to temporarily lift a target you can see up into the air and move them within Close range of their original position.</p>",
+          "description": "<p>Lévitation : Effectuez un jet d’incantation pour soulever temporairement dans les airs une cible que vous pouvez voir et la déplacer à portée proche de sa position d’origine. Rétractation : Dépensez 1 Espoir pour forcer une cible à portée de mêlée à effectuer un jet de réaction (15).</p>",
           "chatDisplay": true,
           "actionType": "action",
           "cost": [],
@@ -8550,7 +8550,7 @@
           "type": "attack",
           "_id": "m4y7KXhjVNT30wUT",
           "systemPath": "actions",
-          "description": "<p><strong>Spend a Hope</strong> to force a target within Melee range to make a Reaction Roll (15). On a failure, they forget the last minute of your conversation.</p>",
+          "description": "<p>Rétractation : Dépensez 1 Espoir pour forcer une cible à portée de mêlée à effectuer un jet de réaction (15). En cas d’échec, elle oublie la dernière minute de votre conversation.</p>",
           "chatDisplay": true,
           "actionType": "action",
           "cost": [
@@ -8612,7 +8612,7 @@
           "type": "damage",
           "_id": "fb2HYD9J759nHKhV",
           "systemPath": "actions",
-          "description": "<p><strong>Mark a Stress</strong> to create a temporary magical circle on the ground where you stand. All adversaries within Melee range, or who enter Melee range, take <strong>2d12+4</strong> magic damage and are knocked back to Very Close range.</p>",
+          "description": "<p>Cercle runique : Marquez 1 Stress pour créer un cercle magique temporaire au sol à l’endroit où vous vous tenez. Tous les adversaires à portée de mêlée, ou qui entrent à portée de mêlée, subissent 2d12+4 dégâts magiques et sont repoussés jusqu’à portée très proche.</p>",
           "chatDisplay": true,
           "actionType": "action",
           "cost": [
@@ -9156,7 +9156,7 @@
           "expiry": null,
           "expired": false
         },
-        "description": "<p>Until you attack another creature, you defeat the target, or the battle ends, gain a +1 bonus to your Proficiency.</p>",
+        "description": "<p>Jusqu’à ce que vous attaquiez une autre créature, que vous vainquiez la cible ou que le combat prenne fin, gagnez +1 en Maîtrise.</p>",
         "tint": "#ffffff",
         "statuses": [],
         "sort": 0,
@@ -9479,7 +9479,7 @@
           "expiry": null,
           "expired": false
         },
-        "description": "<p>Gain a +5 bonus to your damage roll</p>",
+        "description": "<p>Gagnez un bonus de +5 à votre jet de dégâts.</p>",
         "tint": "#ffffff",
         "statuses": [],
         "sort": 0,
@@ -9537,7 +9537,7 @@
           "expiry": null,
           "expired": false
         },
-        "description": "<p>Gain a +10 bonus to your damage roll</p>",
+        "description": "<p>Gagnez un bonus de +10 à votre jet de dégâts.</p>",
         "tint": "#ffffff",
         "statuses": [],
         "sort": 0,
@@ -9595,7 +9595,7 @@
           "expiry": null,
           "expired": false
         },
-        "description": "<p>Gain a +15 bonus to your damage roll</p>",
+        "description": "<p>Gagnez un bonus de +15 à votre jet de dégâts.</p>",
         "tint": "#ffffff",
         "statuses": [],
         "sort": 0,
@@ -9653,7 +9653,7 @@
           "expiry": null,
           "expired": false
         },
-        "description": "<p>Gain a +20 bonus to your damage roll</p>",
+        "description": "<p>Gagnez un bonus de +20 à votre jet de dégâts.</p>",
         "tint": "#ffffff",
         "statuses": [],
         "sort": 0,
@@ -9846,7 +9846,7 @@
           "_id": "oC0J0jSeimxm01Fx",
           "systemPath": "actions",
           "baseAction": false,
-          "description": "<p>When you roll with Fear, you can <strong>spend 2 Hope</strong> to clear an Armor Slot.</p>",
+          "description": "<p>De plus, lorsque vous obtenez un résultat avec Peur, vous pouvez dépenser 2 Espoir pour récupérer un emplacement d’armure.</p>",
           "chatDisplay": true,
           "originItem": {
             "type": "itemCollection"
@@ -10018,7 +10018,7 @@
           "expiry": null,
           "expired": false
         },
-        "description": "<p>Gain a +1 bonus to your damage thresholds for each Stress you have marked.</p>",
+        "description": "<p>Gagnez un bonus de +1 à vos seuils de dégâts pour chaque Stress que vous avez marqué. De plus, lorsque vous obtenez un résultat avec Peur, vous pouvez dépenser 2 Espoir pour récupérer un emplacement d’armure.</p>",
         "tint": "#ffffff",
         "transfer": true,
         "statuses": [],
@@ -10057,7 +10057,7 @@
           "type": "attack",
           "_id": "Et9JXoAULa2EAZfa",
           "systemPath": "actions",
-          "description": "<p>Make a <strong>Spellcast Roll </strong>against a target within Very Close range. On a success, they can't lie to you while they remain within Close range, but they are not compelled to speak. If you ask them a question and they refuse to answer, they must mark a Stress and the effect ends. The target is typically unaware this spell has been cast on them until it causes them to utter the truth.</p>",
+          "description": "<p>Effectuez un jet d’Incantation contre une cible à portée Très proche. En cas de réussite, elle ne peut pas vous mentir tant qu’elle reste à portée Proche, mais rien ne l’oblige à parler. Si vous lui posez une question et qu’elle refuse de répondre, elle doit marquer un Stress et l’effet prend fin. En général, la cible ignore que ce sort a été lancé sur elle jusqu’à ce qu’il la force à dire la vérité.</p>",
           "chatDisplay": true,
           "actionType": "action",
           "cost": [],
@@ -10202,7 +10202,7 @@
           "expiry": null,
           "expired": false
         },
-        "description": "<p>Can't lie to you while they remain within Close range, but they are not compelled to speak. If you ask them a question and they refuse to answer, they must mark a Stress and the effect ends. The target is typically unaware this spell has been cast on them until it causes them to utter the truth.</p>",
+        "description": "<p>En cas de réussite, elle ne peut pas vous mentir tant qu’elle reste à portée Proche, mais rien ne l’oblige à parler. Si vous lui posez une question et qu’elle refuse de répondre, elle doit marquer un Stress et l’effet prend fin. En général, la cible ignore que ce sort a été lancé sur elle jusqu’à ce qu’il la force à dire la vérité.</p>",
         "tint": "#ffffff",
         "transfer": true,
         "statuses": [],
@@ -10625,7 +10625,7 @@
           "expiry": null,
           "expired": false
         },
-        "description": "<p>Can climb on walls and ceilings as easily as walking on the ground. This lasts until the end of the scene or you cast Wall Walk again.</p>",
+        "description": "<p>Cet effet dure jusqu’à la fin de la scène ou jusqu’à ce que vous lanciez de nouveau Marche murale.</p>",
         "tint": "#ffffff",
         "statuses": [],
         "sort": 0,
@@ -10846,7 +10846,7 @@
           "type": "attack",
           "_id": "lrA95PnD2vOwwmgN",
           "systemPath": "actions",
-          "description": "<p>Make a <strong>Spellcast Roll</strong> against a target within Far range. On a success, roots and vines reach out from the ground, dealing <strong>1d8+1</strong> physical damage and temporarily <em>Restraining</em> the target.</p>",
+          "description": "<p>Effectuez un jet d’Incantation contre une cible à portée Lointaine. En cas de réussite, des racines et des lianes jaillissent du sol, infligeant 1d8+1 dégâts physiques et Entravant temporairement la cible.</p>",
           "chatDisplay": true,
           "actionType": "action",
           "cost": [],
@@ -10935,7 +10935,7 @@
           "type": "effect",
           "_id": "vh1IKRvsU4w57lBt",
           "systemPath": "actions",
-          "description": "<p>Additionally on a success, you can <strong>spend a Hope</strong> to temporarily <em>Restrain</em> another adversary within Very Close range of your target.</p>",
+          "description": "<p>De plus, en cas de réussite, vous pouvez dépenser 1 Espoir pour Entraver temporairement un autre adversaire à portée Très proche de votre cible.</p>",
           "chatDisplay": true,
           "actionType": "action",
           "cost": [
@@ -11145,7 +11145,7 @@
           "type": "attack",
           "_id": "7vU2EBQ1bp3OF3G3",
           "systemPath": "actions",
-          "description": "<p>Make a <strong>Spellcast Roll (16)</strong>. Once per long rest on a success, plunge the entire area within Far range into complete darkness only you and your allies can see through. Attack rolls have disadvantage when targeting you or an ally within this shadow.</p>",
+          "description": "<p>Effectuez un jet d’incantation (16). Une fois par repos long, en cas de réussite, plongez toute la zone à portée Lointaine dans des ténèbres complètes à travers lesquelles seuls vous et vos alliés pouvez voir. Les jets d’attaque visant vous-même ou un allié dans ces ombres subissent le Désavantage.</p>",
           "chatDisplay": true,
           "actionType": "action",
           "cost": [],
@@ -11327,7 +11327,7 @@
           "changes": [
             {
               "key": "system.disadvantageSources",
-              "value": "Attacking you or an ally within this eclipse's shadow",
+              "value": "Vous attaquer, vous ou un allié dans l’ombre de cette éclipse",
               "priority": null,
               "type": "add",
               "phase": "initial"
@@ -11347,7 +11347,7 @@
           "expiry": null,
           "expired": false
         },
-        "description": "<p>Attack rolls have disadvantage when targeting you or an ally within this shadow.</p>",
+        "description": "<p>Une fois par repos long, en cas de réussite, plongez toute la zone à portée Lointaine dans des ténèbres complètes à travers lesquelles seuls vous et vos alliés pouvez voir. Les jets d’attaque visant vous-même ou un allié dans ces ombres subissent le Désavantage. De plus, lorsque vous ou un allié réussissez avec Espoir contre un adversaire situé dans ces ombres, la cible doit marquer 1 Stress.</p>",
         "tint": "#ffffff",
         "statuses": [],
         "sort": 0,
@@ -11512,7 +11512,7 @@
           "_id": "84fdyQS28Xi3Kvhi",
           "systemPath": "actions",
           "baseAction": false,
-          "description": "<p>If this attack defeats the target, all adversaries within Far range of the target must mark a Stress.</p>",
+          "description": "<p>Si cette attaque vainc la cible, tous les adversaires à portée lointaine de celle-ci doivent marquer 1 Stress.</p>",
           "chatDisplay": true,
           "originItem": {
             "type": "itemCollection"
@@ -11609,7 +11609,7 @@
           "type": "attack",
           "_id": "sAE4ZDLyU9CmNzES",
           "systemPath": "actions",
-          "description": "<p>Make a <strong>Spellcast Roll</strong> (15). On a success, place a number of tokens equal to your Agility on this card (minimum 1).</p>",
+          "description": "<p>Effectuez un jet d’Incantation (15). En cas de réussite, placez sur cette carte un nombre de jetons égal à votre Agilité (minimum 1).</p>",
           "chatDisplay": true,
           "actionType": "action",
           "cost": [],
@@ -11667,7 +11667,7 @@
           "type": "effect",
           "_id": "2wzlrOPefdowBtRr",
           "systemPath": "actions",
-          "description": "<p>When you make an action roll while flying, spend a token from this card. After the action that spends the last token is resolved, you descend to the ground directly below you.</p>",
+          "description": "<p>En cas de réussite, placez sur cette carte un nombre de jetons égal à votre Agilité (minimum 1). Lorsque vous effectuez un jet d’action en volant, dépensez un jeton de cette carte.</p>",
           "chatDisplay": true,
           "actionType": "action",
           "cost": [
@@ -11770,7 +11770,7 @@
           "expiry": null,
           "expired": false
         },
-        "description": "<p>You can fly. When you make an action roll while flying, spend a token from this card. After the action that spends the last token is resolved, you descend to the ground directly below you.</p>",
+        "description": "<p>Lorsque vous effectuez un jet d’action en volant, dépensez un jeton de cette carte. Une fois résolue l’action qui dépense le dernier jeton, vous redescendez au sol directement sous votre position.</p>",
         "tint": "#ffffff",
         "statuses": [
           "fly"
@@ -12203,7 +12203,7 @@
           "expiry": null,
           "expired": false
         },
-        "description": "<p>While you're shrouded in low light or darkness, you gain a +1 bonus to your Evasion and make attack rolls with advantage.</p>",
+        "description": "<p>Tant que vous êtes plongé dans une faible lumière ou dans les ténèbres, vous gagnez un bonus de +1 à votre Esquive et effectuez vos jets d’attaque avec l’Avantage.</p>",
         "tint": "#ffffff",
         "transfer": true,
         "statuses": [],
@@ -12233,7 +12233,7 @@
             {
               "key": "system.advantageSources",
               "type": "add",
-              "value": "Attack rolls while shrouded in low light or darkness.",
+              "value": "Jets d’attaque lorsque vous êtes dissimulé dans une faible lumière ou l’obscurité",
               "priority": null,
               "phase": "initial"
             }
@@ -12294,7 +12294,7 @@
           "type": "effect",
           "_id": "LmjwPg03xLnoGTHm",
           "systemPath": "actions",
-          "description": "<p>You can <strong>mark a Stress</strong> to gain a bonus to your damage roll equal to twice your Strength.</p>",
+          "description": "<p>Avant d’effectuer une attaque, vous pouvez marquer 1 Stress pour gagner un bonus à votre jet de dégâts égal au double de votre Force.</p>",
           "chatDisplay": true,
           "actionType": "action",
           "cost": [
@@ -12421,7 +12421,7 @@
           "expiry": null,
           "expired": false
         },
-        "description": "<p>For your next attack you have a bonus to your damage roll equal to twice your Strength.</p>",
+        "description": "<p>Avant d’effectuer une attaque, vous pouvez marquer 1 Stress pour gagner un bonus à votre jet de dégâts égal au double de votre Force.</p>",
         "tint": "#ffffff",
         "statuses": [],
         "sort": 0,
@@ -12805,7 +12805,7 @@
           "_id": "2WSDK7psPlgjOnSG",
           "systemPath": "actions",
           "baseAction": false,
-          "description": "<p>On a success with Fear, you gain a +1 bonus to your Proficiency for this attack.</p>",
+          "description": "<p>Sur une réussite avec Peur, vous gagnez un bonus de +1 à votre Maîtrise pour cette attaque.</p>",
           "chatDisplay": true,
           "originItem": {
             "type": "itemCollection"
@@ -12971,7 +12971,7 @@
           "expiry": null,
           "expired": false
         },
-        "description": "<p>You have advantage on action rolls to de-escalate violent situations or convince someone to follow your lead.</p>",
+        "description": "<p>Vous avez l’Avantage aux jets d’action visant à désamorcer une situation violente ou à convaincre quelqu’un de suivre vos directives.</p>",
         "tint": "#ffffff",
         "transfer": true,
         "statuses": [],
@@ -13022,7 +13022,7 @@
           "expiry": null,
           "expired": false
         },
-        "description": "<p>When all of your Stress slots are marked, you gain a +1 bonus to your Proficiency for damage rolls.</p>",
+        "description": "<p>Lorsque tous vos emplacements de Stress sont cochés, vous gagnez un bonus de +1 à votre Maîtrise pour les jets de dégâts.</p>",
         "tint": "#ffffff",
         "transfer": true,
         "statuses": [],
@@ -13225,7 +13225,7 @@
           "expiry": null,
           "expired": false
         },
-        "description": "<p>When 4 or more of the domain cards in your loadout are from the Grace domain, gain the following benefits:</p><ul><li class=\"vertical-card-list-found\"><p>You can <strong>mark an Armor Slot</strong> instead of marking a Stress.</p></li><li class=\"vertical-card-list-found\"><p>When you would force a target to mark a number of Hit Points, you can choose instead to force them to mark that number of Stress.</p></li></ul>",
+        "description": "<p>Lorsque 4 cartes ou plus de votre sélection active appartiennent au domaine de la Grâce, vous bénéficiez des avantages suivants : Vous pouvez marquer un emplacement d’Armure au lieu de marquer un Stress. Lorsque vous devriez forcer une cible à marquer un certain nombre de Points de vie, vous pouvez choisir de lui faire marquer ce même nombre de Stress à la place.</p>",
         "tint": "#ffffff",
         "transfer": true,
         "statuses": [],
@@ -13265,7 +13265,7 @@
           "type": "damage",
           "_id": "MxaqNvY9IfWnFe5P",
           "systemPath": "actions",
-          "description": "<p>When a creature within your weapon's range deals damage to an ally with an attack that doesn't include you, you can <strong>mark a Stress</strong> to force them to make a Reaction Roll (15). On a failure, the target must mark a Hit Point.</p>",
+          "description": "<p>De plus, lorsqu’une créature à portée de votre arme inflige des dégâts à un allié avec une attaque qui ne vous inclut pas, vous pouvez marquer 1 Stress pour la forcer à effectuer un jet de réaction (15). En cas d’échec, la cible doit marquer 1 Point de vie.</p>",
           "chatDisplay": true,
           "actionType": "action",
           "cost": [
@@ -13708,7 +13708,7 @@
           "expiry": null,
           "expired": false
         },
-        "description": "<p>While the barrier is up, the caster and all allies within have resistance to physical damage from outside the barrier. When the caster moves, the barrier follows them.</p>",
+        "description": "<p>Une fois par repos, en cas de réussite, créez autour de vous une barrière temporaire d’énergie protectrice à portée Très proche. Vous et tous les alliés présents dans la barrière au moment où ce sort est lancé récupérez 1d4 Points de vie. Tant que la barrière est active, vous et tous les alliés à l’intérieur avez une résistance aux dégâts physiques provenant de l’extérieur de la barrière. Lorsque vous vous déplacez, la barrière vous suit.</p>",
         "tint": "#ffffff",
         "statuses": [],
         "sort": 0,
@@ -13975,7 +13975,7 @@
           "expiry": null,
           "expired": false
         },
-        "description": "<p>Creatures riding a steed gain a -2 penalty to attack rolls and a +2 bonus to damage rolls.</p>",
+        "description": "<p>Les créatures chevauchant une monture subissent une pénalité de −2 aux jets d’attaque et gagnent un bonus de +2 aux jets de dégâts.</p>",
         "tint": "#ffffff",
         "statuses": [],
         "sort": 0,
@@ -14103,7 +14103,7 @@
           "type": "effect",
           "_id": "OV23p0uWuzmrQsZi",
           "systemPath": "actions",
-          "description": "<p>You can <strong>mark a Stress</strong> to add your Proficiency to a Spellcast Roll.</p>",
+          "description": "<p>Vous pouvez marquer 1 Stress pour ajouter votre Maîtrise à un jet d’incantation.</p>",
           "chatDisplay": true,
           "actionType": "action",
           "cost": [
@@ -14146,7 +14146,7 @@
           "type": "effect",
           "_id": "TGOGkEzH3HluH6YK",
           "systemPath": "actions",
-          "description": "<p>Once per rest, replace this card with any card from your vault without paying its Recall Cost.</p>",
+          "description": "<p>Une fois par repos, remplacez cette carte par n’importe quelle carte de votre réserve sans payer son Coût de rappel.</p>",
           "chatDisplay": true,
           "actionType": "action",
           "cost": [],
@@ -14248,7 +14248,7 @@
           "expiry": null,
           "expired": false
         },
-        "description": "<p>Add your Proficiency to a Spellcast Roll.</p>",
+        "description": "<p>Vous pouvez marquer 1 Stress pour ajouter votre Maîtrise à un jet d’incantation.</p>",
         "tint": "#ffffff",
         "statuses": [],
         "sort": 0,
@@ -14287,7 +14287,7 @@
           "type": "effect",
           "_id": "pRSiIoh4Bzk5I9ej",
           "systemPath": "actions",
-          "description": "<p>Once per rest, you can <strong>spend 3 Hope</strong> to cause an attack that succeeded against you to fail instead.</p>",
+          "description": "<p>Une fois par repos, vous pouvez dépenser 3 Espoir pour faire échouer à la place une attaque qui avait réussi contre vous.</p>",
           "chatDisplay": true,
           "actionType": "action",
           "cost": [
@@ -14437,7 +14437,7 @@
           "type": "effect",
           "_id": "jCgZ0yCoIhSAVEw3",
           "systemPath": "actions",
-          "description": "<p>When you make a successful attack against a target, you can spend any number of tokens to add a d6 for each token spent to your damage roll.</p>",
+          "description": "<p>Lorsque vous réussissez une attaque contre une cible, vous pouvez dépenser autant de jetons que vous le souhaitez pour ajouter un d6 à votre jet de dégâts pour chaque jeton dépensé.</p>",
           "chatDisplay": true,
           "actionType": "action",
           "cost": [
@@ -14536,7 +14536,7 @@
           "type": "attack",
           "_id": "ZqnziDBlh5Re7SKs",
           "systemPath": "actions",
-          "description": "<p>Choose the following tempest and make a <strong>Spellcast Roll</strong> against all targets within Far range. Targets you succeed against experience its effects until the GM spends a Fear on their turn to end this spell.</p><ul class=\"\"><li class=\"vertical-card-list\"><p><em><strong>Blizzard:</strong></em> Deal <strong>2d20+8</strong> magic damage and targets are temporarily <em>Vulnerable</em>.</p></li></ul>",
+          "description": "<p>Choisissez l’une des tempêtes suivantes et effectuez un jet d’Incantation contre toutes les cibles à portée Lointaine. Les cibles contre lesquelles vous réussissez subissent ses effets jusqu’à ce que le MJ dépense 1 Peur pendant son tour pour mettre fin à ce sort. • Blizzard : Infligez 2d20+8 dégâts magiques et les cibles deviennent temporairement Vulnérables.</p>",
           "chatDisplay": true,
           "actionType": "action",
           "cost": [],
@@ -14634,7 +14634,7 @@
           "type": "attack",
           "_id": "FEPhujGa5lvu5fXr",
           "systemPath": "actions",
-          "description": "<p>Choose the following tempest and make a <strong>Spellcast Roll</strong> against all targets within Far range. Targets you succeed against experience its effects until the GM spends a Fear on their turn to end this spell.</p><ul class=\"\"><li class=\"vertical-card-list\"><em><strong>Hurricane: </strong></em>Deal <strong>3d10+10</strong> magic damage and choose a direction the wind is blowing. Targets can't move against the wind.</li></ul>",
+          "description": "<p>Choisissez l’une des tempêtes suivantes et effectuez un jet d’Incantation contre toutes les cibles à portée Lointaine. Les cibles contre lesquelles vous réussissez subissent ses effets jusqu’à ce que le MJ dépense 1 Peur pendant son tour pour mettre fin à ce sort. • Blizzard : Infligez 2d20+8 dégâts magiques et les cibles deviennent temporairement Vulnérables. • Ouragan : Infligez 3d10+10 dégâts magiques et choisissez la direction dans laquelle souffle le vent. Les cibles ne peuvent pas se déplacer contre le vent.</p>",
           "chatDisplay": true,
           "actionType": "action",
           "cost": [],
@@ -14732,7 +14732,7 @@
           "type": "attack",
           "_id": "CzMlqo91kuTgg1As",
           "systemPath": "actions",
-          "description": "<p>Choose the following tempest and make a <strong>Spellcast Roll</strong> against all targets within Far range. Targets you succeed against experience its effects until the GM spends a Fear on their turn to end this spell.</p><ul class=\"\"><li class=\"vertical-card-list\"><p><em><strong>Sandstorm:</strong></em> Deal <strong>5d6+9</strong> magic damage. Attacks made from beyond Melee range have disadvantage.</p></li></ul>",
+          "description": "<p>• Ouragan : Infligez 3d10+10 dégâts magiques et choisissez la direction dans laquelle souffle le vent. Les cibles ne peuvent pas se déplacer contre le vent. • Tempête de sable : Infligez 5d6+9 dégâts magiques. Les attaques effectuées depuis une distance supérieure à la portée de Mêlée ont un Désavantage.</p>",
           "chatDisplay": true,
           "actionType": "action",
           "cost": [],
@@ -14948,7 +14948,7 @@
           "expiry": null,
           "expired": false
         },
-        "description": "<p>Targets can't move against the wind.</p>",
+        "description": "<p>Les cibles ne peuvent pas se déplacer contre le vent.</p>",
         "tint": "#ffffff",
         "statuses": [],
         "sort": 0,
@@ -14991,7 +14991,7 @@
           "expiry": null,
           "expired": false
         },
-        "description": "<p>Attacks made from beyond Melee range have disadvantage.</p>",
+        "description": "<p>Les attaques effectuées depuis une distance supérieure à la portée de Mêlée ont un Désavantage.</p>",
         "tint": "#ffffff",
         "statuses": [],
         "sort": 0,
@@ -15030,7 +15030,7 @@
           "type": "effect",
           "_id": "2pyqgdVZDCUQPYaj",
           "systemPath": "actions",
-          "description": "<p>Once per long rest, <strong>spend a Hope</strong> to negate the damage of an attack targeting you or an ally within Very Close range.</p>",
+          "description": "<p>Déflexion arcanique : Une fois par repos long, dépensez 1 Espoir pour annuler les dégâts d’une attaque qui vous cible ou cible un allié à portée très proche.</p>",
           "chatDisplay": true,
           "actionType": "action",
           "cost": [
@@ -15068,7 +15068,7 @@
           "type": "effect",
           "_id": "0vUkyQiGHTFS3Api",
           "systemPath": "actions",
-          "description": "<p>Target an object within Far range. That object stops in time and space exactly where it is until your next rest. If a creature tries to move it, make a <strong>Spellcast Roll</strong> against them to maintain this spell.</p>",
+          "description": "<p>Verrou temporel : Ciblez un objet à portée lointaine. Cet objet s’immobilise dans le temps et l’espace exactement là où il se trouve jusqu’à votre prochain repos. Si une créature tente de le déplacer, effectuez un jet d’incantation contre elle pour maintenir ce sort.</p>",
           "chatDisplay": true,
           "actionType": "action",
           "cost": [],
@@ -15097,7 +15097,7 @@
           "type": "attack",
           "_id": "K26kfjmTEH9zPMMO",
           "systemPath": "actions",
-          "description": "<p>Make a <strong>Spellcast Roll (15)</strong>. On a success, create a temporary wall of magical flame between two points within Far range. All creatures in its path must choose a side to be on, and anything that subsequently passes through the wall takes <strong>4d10+3</strong> magic damage.</p>",
+          "description": "<p>Mur de flammes : Effectuez un jet d’incantation (15). En cas de réussite, créez un mur temporaire de flammes magiques entre deux points à portée lointaine. Toutes les créatures sur sa trajectoire doivent choisir de quel côté elles se trouvent, et tout ce qui traverse ensuite le mur subit 4d10+3 dégâts magiques.</p>",
           "chatDisplay": true,
           "actionType": "action",
           "cost": [],
@@ -15503,7 +15503,7 @@
           "expiry": null,
           "expired": false
         },
-        "description": "<p>Envelop yourself in shadow, becoming Hidden and teleporting to a point within Close range of the attacker. You remain Hidden until the next time you make an action roll.</p>",
+        "description": "<p>Lorsqu’une attaque contre vous qui aurait infligé des dégâts physiques échoue, vous pouvez dépenser 1 Espoir pour vous envelopper d’ombre, devenir Caché et vous téléporter vers un point à portée Proche de l’attaquant. Vous restez Caché jusqu’à votre prochain jet d’action.</p>",
         "tint": "#ffffff",
         "statuses": [
           "hidden"
@@ -15793,7 +15793,7 @@
           "type": "healing",
           "_id": "F04596OgMgpnhpQp",
           "systemPath": "actions",
-          "description": "<p>When you mark 1 or more Hit Points without marking an Armor Slot, clear an Armor Slot.</p>",
+          "description": "<p>Lorsque vous marquez 1 Point de vie ou plus sans marquer d’emplacement d’armure, effacez un emplacement d’armure.</p>",
           "chatDisplay": true,
           "actionType": "action",
           "cost": [],
@@ -15945,7 +15945,7 @@
           "expiry": null,
           "expired": false
         },
-        "description": "<ul><li class=\"vertical-card-list-found\"><p>+1 bonus to your Armor Score</p></li><li class=\"vertical-card-list-found\"><p>When you mark 1 or more Hit Points without marking an Armor Slot, clear an Armor Slot.</p></li></ul>",
+        "description": "<p>Bonus de +1 à votre Score d’armure Lorsque vous marquez 1 Point de vie ou plus sans marquer d’emplacement d’armure, effacez un emplacement d’armure.</p>",
         "tint": "#ffffff",
         "transfer": true,
         "statuses": [],
@@ -16107,7 +16107,7 @@
           "type": "effect",
           "_id": "i99aNWZqVC8PHAIx",
           "systemPath": "actions",
-          "description": "<p><strong>Spend 3 Hope</strong> and choose an ally within Close range. They are marked with a glowing sigil of protection. When this ally would make a death move, they clear a Hit Point instead.</p><p>This effect ends when it saves the target from a death move, you cast Life Ward on another target, or you take a long rest.</p>",
+          "description": "<p>Dépensez 3 Espoir et choisissez un allié à portée Proche. Un sceau lumineux de protection apparaît sur lui. Lorsque cet allié devrait effectuer un mouvement de mort, il récupère 1 PV à la place. Cet effet prend fin lorsqu’il sauve la cible d’un mouvement de mort, lorsque vous lancez Garde de vie sur une autre cible ou lorsque vous prenez un repos long.</p>",
           "chatDisplay": true,
           "actionType": "action",
           "cost": [
@@ -16216,7 +16216,7 @@
           "expiry": null,
           "expired": false
         },
-        "description": "<p>Marked with a glowing sigil of protection. When this ally would make a death move, they clear a Hit Point instead.</p><p>This effect ends when it saves the target from a death move, you cast Life Ward on another target, or you take a long rest.</p>",
+        "description": "<p>Lorsque cet allié devrait effectuer un mouvement de mort, il récupère 1 PV à la place. Cet effet prend fin lorsqu’il sauve la cible d’un mouvement de mort, lorsque vous lancez Garde de vie sur une autre cible ou lorsque vous prenez un repos long.</p>",
         "tint": "#ffffff",
         "statuses": [],
         "sort": 0,
@@ -16262,7 +16262,7 @@
           "type": "attack",
           "_id": "etnR1OKzpLWrx2os",
           "systemPath": "actions",
-          "description": "<p>Make a <strong>Spellcast Roll (15)</strong>. On a success, transform into an inanimate object no larger than twice your normal size. You can remain in this shape until you take damage.</p>",
+          "description": "<p>Transformation : Effectuez un jet d’incantation (15). En cas de réussite, transformez-vous en un objet inanimé dont la taille ne dépasse pas deux fois votre taille normale. Vous pouvez conserver cette forme jusqu’à ce que vous subissiez des dégâts.</p>",
           "chatDisplay": true,
           "actionType": "action",
           "cost": [],
@@ -16320,7 +16320,7 @@
           "type": "attack",
           "_id": "h7i4ZuDYuYLnjze6",
           "systemPath": "actions",
-          "description": "<p>Once per long rest, make a <strong>Spellcast Roll</strong> against a target within Close range. On a success, they become permanently <em>Vulnerable</em>. They can't clear this condition by any means.</p>",
+          "description": "<p>Énervation éternelle : Une fois par repos long, effectuez un jet d’incantation contre une cible à portée proche. En cas de réussite, elle devient définitivement Vulnérable.</p>",
           "chatDisplay": true,
           "actionType": "action",
           "cost": [],
@@ -16443,7 +16443,7 @@
           "expiry": null,
           "expired": false
         },
-        "description": "<p>You've transformed into an inanimate object no larger than twice your normal size. You can remain in this shape until you take damage.</p>",
+        "description": "<p>En cas de réussite, transformez-vous en un objet inanimé dont la taille ne dépasse pas deux fois votre taille normale. Vous pouvez conserver cette forme jusqu’à ce que vous subissiez des dégâts.</p>",
         "tint": "#ffffff",
         "statuses": [],
         "sort": 0,
@@ -16486,7 +16486,7 @@
           "expiry": null,
           "expired": false
         },
-        "description": "<p>Permanently <em>Vulnerable</em>. They can't clear this condition by any means.</p>",
+        "description": "<p>En cas de réussite, elle devient définitivement Vulnérable.</p>",
         "tint": "#ffffff",
         "statuses": [
           "vulnerable"
@@ -16527,7 +16527,7 @@
           "type": "attack",
           "_id": "9qebkHgxdWVFhIqd",
           "systemPath": "actions",
-          "description": "<p>Make a <strong>Spellcast Roll</strong> against a target within Melee range. On a success, the target instantly bursts into flames, takes <strong>1d20+3</strong> magic damage, and is temporarily lit <em>On Fire</em>.</p>",
+          "description": "<p>Effectuez un jet d’Incantation contre une cible à portée de Corps à corps. En cas de réussite, la cible s’embrase instantanément, subit 1d20+3 dégâts magiques et est temporairement En feu.</p>",
           "chatDisplay": true,
           "actionType": "action",
           "cost": [],
@@ -16616,7 +16616,7 @@
           "type": "damage",
           "_id": "z9vUmnLXfskowwsc",
           "systemPath": "actions",
-          "description": "<p>When a creature acts while <em>On Fire</em>, they must take an extra <strong>2d6</strong> magic damage if they are still <em>On Fire</em> at the end of their action.</p>",
+          "description": "<p>Lorsqu’une créature agit alors qu’elle est En feu, elle subit 2d6 dégâts magiques supplémentaires si elle est toujours En feu à la fin de son action.</p>",
           "chatDisplay": true,
           "actionType": "action",
           "cost": [],
@@ -16746,7 +16746,7 @@
           "expiry": null,
           "expired": false
         },
-        "description": "<p>When a creature acts while <em>On Fire</em>, they must take an extra <strong>2d6</strong> magic damage if they are still <em>On Fire</em> at the end of their action.</p>",
+        "description": "<p>Lorsqu’une créature agit alors qu’elle est En feu, elle subit 2d6 dégâts magiques supplémentaires si elle est toujours En feu à la fin de son action.</p>",
         "tint": "#ffffff",
         "statuses": [
           "burning"
@@ -16892,7 +16892,7 @@
           "type": "attack",
           "_id": "2jjOspoj5HGgUBmE",
           "systemPath": "actions",
-          "description": "<p><strong>Mark 2 Stress</strong> to make a <strong>Spellcast Roll</strong>, unleashing lightning on all targets within Close range. Targets you succeed against must make a reaction roll with a Difficulty equal to the result of your Spellcast Roll. Targets who fail take <strong>2d8+4</strong> magic damage.</p>",
+          "description": "<p>Cochez 2 Stress pour effectuer un jet d’Incantation et déchaîner la foudre sur toutes les cibles à portée Proche. Les cibles contre lesquelles vous réussissez doivent effectuer un jet de réaction dont la Difficulté est égale au résultat de votre jet d’Incantation. Celles qui échouent subissent 2d8+4 dégâts magiques.</p>",
           "chatDisplay": true,
           "actionType": "action",
           "cost": [
@@ -16994,7 +16994,7 @@
           "type": "damage",
           "_id": "tRJNO3DVvVYwW3tt",
           "systemPath": "actions",
-          "description": "<p>Additional adversaries not already targeted by Chain Lightning and within Close range of previous targets who took damage must also make the reaction roll. Targets who fail take <strong>2d8+4</strong> magic damage. This chain continues until there are no more adversaries within range.</p>",
+          "description": "<p>Les adversaires supplémentaires qui n’ont pas encore été ciblés par Éclair en chaîne et se trouvent à portée Proche d’une cible précédente ayant subi des dégâts doivent eux aussi effectuer ce jet de réaction. Ceux qui échouent subissent 2d8+4 dégâts magiques. La chaîne se poursuit jusqu’à ce qu’il n’y ait plus d’adversaire à portée.</p>",
           "chatDisplay": true,
           "actionType": "action",
           "cost": [],
@@ -17118,7 +17118,7 @@
           "type": "attack",
           "_id": "wsXZCKqGKfOUHE1M",
           "systemPath": "actions",
-          "description": "<p>Make a <strong>Spellcast Roll</strong> against a target within Close range, and choose the following option:</p><ul><li class=\"vertical-card-list\"><p>You pull the target into Melee range or pull yourself into Melee range of them.</p></li></ul><p>On a success, vines reach out from your hands, causing the chosen effect and temporarily <em>Restraining</em> the target.</p>",
+          "description": "<p>Effectuez un jet d’Incantation contre une cible à portée Proche et choisissez l’une des options suivantes : • Vous attirez la cible à portée de Mêlée, ou vous vous attirez vous-même à portée de Mêlée d’elle. • Vous comprimez la cible et la forcez à cocher 2 Stress. • Tous les adversaires entre vous et la cible doivent réussir un jet de Réaction (13) ou être frappés par des lianes et subir 3d6+2 dégâts physiques. En cas de réussite, des lianes jaillissent de vos mains, produisent l’effet choisi et Entravent temporairement la cible.</p>",
           "chatDisplay": true,
           "actionType": "action",
           "cost": [],
@@ -17176,7 +17176,7 @@
           "type": "attack",
           "_id": "x62SXSpT9bjIEP5e",
           "systemPath": "actions",
-          "description": "<p>Make a <strong>Spellcast Roll</strong> against a target within Close range and choose the following option:</p><ul><li class=\"vertical-card-list\"><p>You constrict the target and force them to mark 2 Stress.</p></li></ul><p>On a success, vines reach out from your hands, causing the chosen effect and temporarily <em>Restraining</em> the target.</p>",
+          "description": "<p>Effectuez un jet d’Incantation contre une cible à portée Proche et choisissez l’une des options suivantes : • Vous attirez la cible à portée de Mêlée, ou vous vous attirez vous-même à portée de Mêlée d’elle. • Vous comprimez la cible et la forcez à cocher 2 Stress. • Tous les adversaires entre vous et la cible doivent réussir un jet de Réaction (13) ou être frappés par des lianes et subir 3d6+2 dégâts physiques. En cas de réussite, des lianes jaillissent de vos mains, produisent l’effet choisi et Entravent temporairement la cible.</p>",
           "chatDisplay": true,
           "actionType": "action",
           "cost": [],
@@ -17262,7 +17262,7 @@
           "type": "attack",
           "_id": "9416a3EogNFLRdUX",
           "systemPath": "actions",
-          "description": "<p>Make a <strong>Spellcast Roll</strong> against a target within Close range and choose the following option:</p><ul><li class=\"vertical-card-list\"><p>All adversaries between you and the target must succeed on a Reaction Roll (13) or be hit by vines, taking <strong>3d6+2</strong> physical damage.</p></li></ul><p>On a success, vines reach out from your hands, causing the chosen effect and temporarily <em>Restraining</em> the target.</p>",
+          "description": "<p>Effectuez un jet d’Incantation contre une cible à portée Proche et choisissez l’une des options suivantes : • Vous attirez la cible à portée de Mêlée, ou vous vous attirez vous-même à portée de Mêlée d’elle. • Vous comprimez la cible et la forcez à cocher 2 Stress. • Tous les adversaires entre vous et la cible doivent réussir un jet de Réaction (13) ou être frappés par des lianes et subir 3d6+2 dégâts physiques. En cas de réussite, des lianes jaillissent de vos mains, produisent l’effet choisi et Entravent temporairement la cible.</p>",
           "chatDisplay": true,
           "actionType": "reaction",
           "cost": [],
@@ -17556,7 +17556,7 @@
           "type": "attack",
           "_id": "IxoglRervMx9YdVn",
           "systemPath": "actions",
-          "description": "<p>Make a <strong>Spellcast Roll (18)</strong>. On a success, time temporarily slows to a halt for everyone within Far range except for you. It resumes the next time you make an action roll that targets another creature.</p>",
+          "description": "<p>Blocage temporel : Effectuez un jet d’incantation (18). En cas de réussite, le temps ralentit temporairement jusqu’à s’arrêter pour tous ceux qui se trouvent à portée lointaine, sauf vous. Il reprend la prochaine fois que vous effectuez un jet d’action qui cible une autre créature.</p>",
           "chatDisplay": true,
           "actionType": "action",
           "cost": [],
@@ -17618,7 +17618,7 @@
           "type": "effect",
           "_id": "ZcQfbtGet0KQWjWS",
           "systemPath": "actions",
-          "description": "<p><strong>Spend 5 Hope</strong> to become immune to magic damage until your next rest.</p>",
+          "description": "<p>Immunité magique : Dépensez 5 Espoir pour devenir immunisé aux dégâts magiques jusqu’à votre prochain repos.</p>",
           "chatDisplay": true,
           "actionType": "action",
           "cost": [
@@ -17735,7 +17735,7 @@
           "expiry": null,
           "expired": false
         },
-        "description": "<p><strong>I</strong>mmune to magic damage until your next rest.</p>",
+        "description": "<p>Immunité magique : Dépensez 5 Espoir pour devenir immunisé aux dégâts magiques jusqu’à votre prochain repos.</p>",
         "tint": "#ffffff",
         "statuses": [],
         "sort": 0,
@@ -17781,7 +17781,7 @@
           "type": "attack",
           "_id": "MWvrKuwejWcQm7N1",
           "systemPath": "actions",
-          "description": "<p>Make a <strong>Spellcast Roll</strong> against a target within Far range and spend any number of tokens to channel raw energy from within yourself to unleash against them. On a success, roll a number of d10s equal to the tokens you spent and deal that much magic damage to the target.</p>",
+          "description": "<p>Au début d’une session, placez sur cette carte un nombre de jetons égal à votre trait d’Incantation. Effectuez un jet d’Incantation contre une cible à portée Lointaine et dépensez autant de jetons que vous le souhaitez pour canaliser l’énergie brute qui sommeille en vous et la déchaîner contre elle. En cas de réussite, lancez autant de d10 que de jetons dépensés et infligez à la cible autant de dégâts magiques.</p>",
           "chatDisplay": true,
           "actionType": "action",
           "cost": [
@@ -17875,7 +17875,7 @@
           "_id": "OOMICXFmXqlPy80J",
           "systemPath": "actions",
           "baseAction": false,
-          "description": "<p><strong>Mark a Stress</strong> to replenish this card with tokens (up to your Spellcast trait).</p>",
+          "description": "<p>Cochez 1 Stress pour replacer sur cette carte des jetons jusqu’à concurrence de votre trait d’Incantation.</p>",
           "chatDisplay": true,
           "originItem": {
             "type": "itemCollection"
@@ -18258,7 +18258,7 @@
           "expiry": null,
           "expired": false
         },
-        "description": "<p>Conjure a dark glyph upon their body that exposes their weak points, temporarily reducing the target's Difficulty by a value equal to your Knowledge (minimum 1).</p>",
+        "description": "<p>En cas de réussite, dépensez 1 Espoir pour faire apparaître sur son corps un glyphe sombre qui révèle ses points faibles, réduisant temporairement la Difficulté de la cible d’une valeur égale à votre Savoir (minimum 1).</p>",
         "tint": "#ffffff",
         "statuses": [],
         "showIcon": 1,
@@ -18404,7 +18404,7 @@
           "expiry": null,
           "expired": false
         },
-        "description": "<p>When you next successfully attack with a weapon, double the result of your damage roll. This attack deals magic damage regardless of the weapon's damage type.</p>",
+        "description": "<p>Lors de votre prochaine attaque réussie avec une arme, doublez le résultat de votre jet de dégâts. Cette attaque inflige des dégâts magiques quel que soit le type de dégâts de l’arme.</p>",
         "tint": "#ffffff",
         "statuses": [],
         "sort": 0,
@@ -18443,7 +18443,7 @@
           "type": "attack",
           "_id": "LsAdmSinOiNr9jH8",
           "systemPath": "actions",
-          "description": "<p>Make a <strong>Spellcast Roll (12)</strong>. On a success, <strong>spend a Hope</strong> to teleport to another point you can see within Far range. If any willing creatures are within Very Close range, <strong>spend an additional Hope</strong> for each creature to bring them with you.</p>",
+          "description": "<p>Effectuez un jet d’Incantation (12). En cas de réussite, dépensez 1 Espoir pour vous téléporter vers un autre point que vous voyez à portée Lointaine. Si des créatures consentantes se trouvent à portée Très proche, dépensez 1 Espoir supplémentaire par créature que vous souhaitez emmener avec vous.</p>",
           "chatDisplay": true,
           "actionType": "action",
           "cost": [
@@ -18681,7 +18681,7 @@
           "expiry": null,
           "expired": false
         },
-        "description": "<p>If you end this movement within Melee range of an adversary and immediately make an attack against them, gain a +1 bonus to the attack roll.</p>",
+        "description": "<p>Si vous terminez ce déplacement à portée de Mêlée d’un adversaire et effectuez immédiatement une attaque contre lui, gagnez un bonus de +1 au jet d’attaque.</p>",
         "tint": "#ffffff",
         "statuses": [],
         "sort": 0,
@@ -18720,7 +18720,7 @@
           "type": "attack",
           "_id": "G6RBFMbCuHlM45t0",
           "systemPath": "actions",
-          "description": "<p>Make a <strong>Spellcast Roll</strong> against a target within Close range. On a success, they become temporarily <em>Enraptured</em>. While <em>Enraptured</em>, a target's attention is fixed on you, narrowing their field of view and drowning out any sound but your voice.</p>",
+          "description": "<p>Effectuez un jet d’Incantation contre une cible à portée Proche. En cas de réussite, elle devient temporairement Envoûtée. Tant qu’elle est Envoûtée, l’attention de la cible reste fixée sur vous, son champ de vision se rétrécit et votre voix couvre tous les autres sons.</p>",
           "chatDisplay": true,
           "actionType": "action",
           "cost": [],
@@ -18778,7 +18778,7 @@
           "type": "damage",
           "_id": "oJDiE9egDyfdLbR7",
           "systemPath": "actions",
-          "description": "<p>Once per rest on a success, you can <strong>mark a Stress</strong> to force the <em>Enraptured</em> target to mark a Stress as well.</p>",
+          "description": "<p>Une fois par repos, en cas de réussite, vous pouvez marquer un Stress pour forcer la cible Envoûtée à marquer également un Stress.</p>",
           "chatDisplay": true,
           "actionType": "action",
           "cost": [
@@ -18914,7 +18914,7 @@
           "expiry": null,
           "expired": false
         },
-        "description": "<p>While <em>Enraptured</em>, a target's attention is fixed on you, narrowing their field of view and drowning out any sound but your voice.</p>",
+        "description": "<p>Une fois par repos, en cas de réussite, vous pouvez marquer un Stress pour forcer la cible Envoûtée à marquer également un Stress.</p>",
         "tint": "#ffffff",
         "statuses": [],
         "sort": 0,
@@ -19113,7 +19113,7 @@
           "type": "attack",
           "_id": "br6UQ0toK4ZYpP2s",
           "systemPath": "actions",
-          "description": "<p>Make a <strong>Spellcast Roll</strong> (13). On a success, you can create a temporary curtain of darkness between two points within Far range. Only you can see through this darkness. You're considered <em>Hidden</em> to adversaries on the other side of the veil, and you have advantage on attacks you make through the darkness. The veil remains until you cast another spell.</p>",
+          "description": "<p>Effectuez un jet d’incantation (13). En cas de réussite, vous pouvez créer un rideau temporaire de ténèbres entre deux points à portée Lointaine. Vous seul pouvez voir à travers ces ténèbres. Vous êtes considéré comme Caché aux yeux des adversaires situés de l’autre côté du voile et vous avez l’Avantage aux attaques effectuées à travers les ténèbres. Le voile demeure jusqu’à ce que vous lanciez un autre sort.</p>",
           "chatDisplay": true,
           "actionType": "action",
           "cost": [],
@@ -19234,7 +19234,7 @@
           "changes": [
             {
               "key": "system.advantageSources",
-              "value": "Attack rolls you make through the darkness",
+              "value": "Jets d’attaque que vous effectuez à travers les ténèbres",
               "priority": null,
               "type": "add",
               "phase": "initial"
@@ -19295,7 +19295,7 @@
           "type": "effect",
           "_id": "JVrYhunJ2qr5uOcx",
           "systemPath": "actions",
-          "description": "<p>Once per rest, you can double your Agility or Instinct when making a roll that uses that trait. You must choose to do this before you roll.</p>",
+          "description": "<p>• Une fois par repos, vous pouvez doubler votre Agilité ou votre Instinct lorsque vous effectuez un jet utilisant ce Trait. Vous devez choisir de le faire avant de lancer les dés.</p>",
           "chatDisplay": true,
           "actionType": "action",
           "cost": [
@@ -19338,7 +19338,7 @@
           "type": "effect",
           "_id": "zdu8GkVWby3nz8Pa",
           "systemPath": "actions",
-          "description": "<p>Once per rest, you can double your Agility or Instinct when making a roll that uses that trait. You must choose to do this before you roll.</p>",
+          "description": "<p>• Une fois par repos, vous pouvez doubler votre Agilité ou votre Instinct lorsque vous effectuez un jet utilisant ce Trait. Vous devez choisir de le faire avant de lancer les dés.</p>",
           "chatDisplay": true,
           "actionType": "action",
           "cost": [
@@ -19453,7 +19453,7 @@
           "expiry": null,
           "expired": false
         },
-        "description": "<p>While you're in a natural environment, you gain a +2 bonus to your Spellcast Rolls.</p>",
+        "description": "<p>• Tant que vous êtes dans un environnement naturel, vous gagnez un bonus de +2 à vos jets d’Incantation.</p>",
         "tint": "#ffffff",
         "transfer": true,
         "statuses": [],
@@ -19556,7 +19556,7 @@
           "expiry": null,
           "expired": false
         },
-        "description": "<p>Once per rest, you can double your Agility or Instinct when making a roll that uses that trait. You must choose to do this before you roll.</p>",
+        "description": "<p>• Une fois par repos, vous pouvez doubler votre Agilité ou votre Instinct lorsque vous effectuez un jet utilisant ce Trait. Vous devez choisir de le faire avant de lancer les dés.</p>",
         "tint": "#ffffff",
         "statuses": [],
         "sort": 0,
@@ -19684,7 +19684,7 @@
           "type": "attack",
           "_id": "XKY0LJYmvuILmNNU",
           "systemPath": "actions",
-          "description": "<p>Make an Agility Roll against all targets within Close range.<strong> Spend a Hope</strong> to move targets you succeed against, and any willing allies within Close range, to another point within Close range.</p><p>@Template[type:emanation|range:c]</p>",
+          "description": "<p>Effectuez un jet d’Agilité contre toutes les cibles à portée Proche. Dépensez 1 Espoir pour déplacer les cibles contre lesquelles vous réussissez, ainsi que tout allié consentant à portée Proche, vers un autre point à portée Proche.</p>",
           "chatDisplay": true,
           "actionType": "action",
           "cost": [],
@@ -19948,7 +19948,7 @@
           "_id": "zuiLXexIzTvLmoKF",
           "systemPath": "actions",
           "baseAction": false,
-          "description": "<p>Once per rest, <strong>spend a Hope</strong> to sprout thorns all over your body. When you do, place a number of tokens equal to your Spellcast trait on this card.</p>",
+          "description": "<p>Une fois par repos, dépensez 1 Espoir pour faire pousser des épines sur tout votre corps. Lorsque vous le faites, placez sur cette carte un nombre de jetons égal à votre Trait d’Incantation.</p>",
           "chatDisplay": true,
           "originItem": {
             "type": "itemCollection"
@@ -20032,7 +20032,7 @@
           "type": "effect",
           "_id": "IVAyyVf8gqFWB7bP",
           "systemPath": "actions",
-          "description": "<p>When you take damage, you can spend any number of tokens to roll that number of <strong>d6s</strong>. Add the results together and reduce the incoming damage by that amount. If you're within Melee range of the attacker, deal that amount of damage back to them.</p><p>When you take a rest, clear all unspent tokens.</p>",
+          "description": "<p>Lorsque vous subissez des dégâts, vous pouvez dépenser autant de jetons que vous le souhaitez pour lancer autant de d6. Additionnez les résultats et réduisez les dégâts reçus de ce montant. Si vous êtes à portée de Mêlée de l’attaquant, infligez-lui autant de dégâts. Lorsque vous prenez un repos, retirez tous les jetons non dépensés.</p>",
           "chatDisplay": true,
           "actionType": "action",
           "cost": [
@@ -20241,7 +20241,7 @@
           "type": "damage",
           "_id": "ELzQvftGxZigPkBH",
           "systemPath": "actions",
-          "description": "<p>Steal a number of Fear from the GM equal to the number of targets that are Horrified (up to the number of Fear in the GM's pool). Roll a number of d6s equal to the number of stolen Fear and deal the total damage to each Horrified target. Discard the stolen Fear.</p>",
+          "description": "<p>Chaque cible doit réussir un jet de réaction (16) ou devenir temporairement Horrifiée. Tant qu’elle est Horrifiée, elle est Vulnérable. Volez au MJ un nombre de Peurs égal au nombre de cibles Horrifiées (dans la limite des Peurs de sa réserve). Lancez un nombre de d6 égal au nombre de Peurs volées et infligez le total obtenu comme dégâts à chaque cible Horrifiée.</p>",
           "chatDisplay": true,
           "actionType": "action",
           "cost": [
@@ -20379,7 +20379,7 @@
           "expiry": null,
           "expired": false
         },
-        "description": "<p>While Horrified, they're Vulnerable.</p>",
+        "description": "<p>Tant qu’elle est Horrifiée, elle est Vulnérable.</p>",
         "tint": "#ffffff",
         "statuses": [
           "vulnerable"
@@ -20756,7 +20756,7 @@
           "expiry": null,
           "expired": false
         },
-        "description": "<p>When you encounter creatures you've tracked in this way, gain a +1 bonus to your Evasion against them.</p>",
+        "description": "<p>Lorsque vous rencontrez des créatures que vous avez pistées de cette manière, gagnez un bonus de +1 à votre Esquive contre elles.</p>",
         "tint": "#ffffff",
         "statuses": [],
         "sort": 0,
@@ -20925,7 +20925,7 @@
           "expiry": null,
           "expired": false
         },
-        "description": "<ul><li class=\"vertical-card-list\"><p>+3 bonus to your Severe damage threshold</p></li><li class=\"vertical-card-list\"><p>Once per long rest, when incoming damage would require you to mark a number of Hit Points, you can choose to mark that much Stress or spend that much Hope instead.</p></li></ul>",
+        "description": "<p>+3 à votre seuil de dégâts Graves. Une fois par repos long, lorsque des dégâts reçus devraient vous faire cocher un certain nombre de PV, vous pouvez choisir de cocher autant de Stress ou de dépenser autant d’Espoir à la place.</p>",
         "tint": "#ffffff",
         "transfer": true,
         "statuses": [],
@@ -20965,7 +20965,7 @@
           "type": "healing",
           "_id": "ksl1CcxcuwYxObiS",
           "systemPath": "actions",
-          "description": "<p>Once per rest, when you have 0 Hope and the GM would gain a Fear, you can gain a Hope instead.</p>",
+          "description": "<p>• Une fois par repos, lorsque vous avez 0 Espoir et que le MJ devrait gagner 1 Peur, vous pouvez gagner 1 Espoir à la place.</p>",
           "chatDisplay": true,
           "actionType": "action",
           "cost": [],
@@ -21041,7 +21041,7 @@
           "type": "effect",
           "_id": "Ky5wcwBqgm5bJCK1",
           "systemPath": "actions",
-          "description": "<p>When you make a successful attack, you can <strong>mark a Stress</strong> to add the result of your Fear Die to your damage roll.</p>",
+          "description": "<p>• Lorsque vous réussissez une attaque, vous pouvez marquer 1 Stress pour ajouter le résultat de votre dé de Peur à votre jet de dégâts.</p>",
           "chatDisplay": true,
           "actionType": "action",
           "cost": [
@@ -21144,7 +21144,7 @@
           "expiry": null,
           "expired": false
         },
-        "description": "<p>When 4 or more of the domain cards in your loadout are from the Midnight domain, gain the following benefits:</p><ul><li class=\"vertical-card-list-found\"><p>Once per rest, when you have 0 Hope and the GM would gain a Fear, you can gain a Hope instead.</p></li><li class=\"vertical-card-list-found\"><p>When you make a successful attack, you can <strong>mark a Stress</strong> to add the result of your Fear Die to your damage roll.</p></li></ul>",
+        "description": "<p>Lorsque 4 cartes de domaine ou plus de votre équipement actif appartiennent au domaine Midnight, vous gagnez les bénéfices suivants : • Une fois par repos, lorsque vous avez 0 Espoir et que le MJ devrait gagner 1 Peur, vous pouvez gagner 1 Espoir à la place. • Lorsque vous réussissez une attaque, vous pouvez marquer 1 Stress pour ajouter le résultat de votre dé de Peur à votre jet de dégâts.</p>",
         "tint": "#ffffff",
         "transfer": true,
         "statuses": [],
@@ -21336,7 +21336,7 @@
           "type": "effect",
           "_id": "mZGaBlk8JBcXVCrw",
           "systemPath": "actions",
-          "description": "<ol start=\"3\"><li><p>An arcane rune (+2 to a Spellcast Roll)</p></li></ol>",
+          "description": "<p>Une rune arcanique (+2 à un jet d’Incantation)</p>",
           "chatDisplay": true,
           "actionType": "action",
           "cost": [],
@@ -21519,7 +21519,7 @@
           "expiry": null,
           "expired": false
         },
-        "description": "<p>+2 to a Spellcast Roll</p>",
+        "description": "<p>Une rune arcanique (+2 à un jet d’Incantation)</p>",
         "tint": "#ffffff",
         "statuses": [],
         "sort": 0,
@@ -21558,7 +21558,7 @@
           "type": "effect",
           "_id": "BDKCP4FvntHkYqXp",
           "systemPath": "actions",
-          "description": "<p>Spend a <strong>Hope</strong> to summon a humanoid-sized spirit that can move or carry things for you until your next rest.</p>",
+          "description": "<p>Dépensez 1 Espoir pour invoquer un esprit de taille humanoïde qui peut déplacer ou porter des objets pour vous jusqu’à votre prochain repos.</p>",
           "chatDisplay": true,
           "actionType": "action",
           "cost": [
@@ -21596,7 +21596,7 @@
           "type": "attack",
           "_id": "YVSMa2Igxp6DhNpG",
           "systemPath": "actions",
-          "description": "<p>You can also send it to attack an adversary. When you do, make a <strong>Spellcast Roll</strong> against a target within Very Far range. On a success, the spirit moves into Melee range with that target. Roll a number of d6s equal to your Spellcast trait and deal that much magic damage to the target. The spirit then dissipates. You can only have one spirit at a time.</p>",
+          "description": "<p>Vous pouvez aussi l’envoyer attaquer un adversaire. Dans ce cas, effectuez un jet d’incantation contre une cible à portée Très lointaine. En cas de réussite, l’esprit se déplace à portée de Mêlée de cette cible. Lancez un nombre de d6 égal à votre trait d’Incantation et infligez à la cible autant de dégâts magiques. L’esprit se dissipe ensuite.</p>",
           "chatDisplay": true,
           "actionType": "action",
           "cost": [
@@ -21953,7 +21953,7 @@
         "name": "Chained",
         "disabled": false,
         "img": "icons/magic/unholy/orb-contained-pink.webp",
-        "description": "<p>When a <em>Chained</em> creature deals damage, the target of their attack marks one fewer Hit Point than they normally would. You can't have more than one creature <em>Chained</em> at a time.</p>",
+        "description": "<p>Lorsqu’une créature Enchaînée inflige des dégâts, la cible de son attaque marque 1 Point de vie de moins que normalement. Vous ne pouvez avoir qu’une seule créature Enchaînée à la fois.</p>",
         "transfer": false,
         "statuses": [],
         "system": {
@@ -22131,7 +22131,7 @@
           "type": "attack",
           "_id": "TVepLgRNQLhZWDu6",
           "systemPath": "actions",
-          "description": "<p>Make a <strong>Spellcast Roll (13)</strong>. On a success, <strong>spend any number of Hope</strong> to create an equal number of small forest sprites who appear at points you choose within Far range, providing the following benefits:</p><ul class=\"\"><li class=\"vertical-card-list\"><p>Your allies gain a +3 bonus to attack rolls against adversaries within Melee range of a sprite.</p></li><li class=\"vertical-card-list\"><p>An ally who marks an Armor Slot while within Melee range of a sprite can mark an additional Armor Slot.</p></li></ul><p>A sprite vanishes after granting a benefit or taking any damage.</p>",
+          "description": "<p>Effectuez un jet d’Incantation (13). En cas de réussite, dépensez autant d’Espoir que vous le souhaitez pour créer autant de petits esprits de la forêt, qui apparaissent aux endroits de votre choix à portée Lointaine et procurent les bénéfices suivants : • Vos alliés gagnent un bonus de +3 aux jets d’attaque contre les adversaires à portée de Mêlée d’un esprit. • Un allié qui coche un emplacement d’Armure alors qu’il se trouve à portée de Mêlée d’un esprit peut cocher un emplacement d’Armure supplémentaire. Un esprit disparaît après avoir accordé un bénéfice ou subi des dégâts.</p>",
           "chatDisplay": true,
           "actionType": "action",
           "cost": [
@@ -22271,7 +22271,7 @@
           "expiry": null,
           "expired": false
         },
-        "description": "<p>Gain a +3 bonus to attack rolls against adversaries within Melee range of a sprite.</p><p>An ally who marks an Armor Slot while within Melee range of a sprite can mark an additional Armor Slot.</p><p>A sprite vanishes after granting a benefit or taking any damage.</p>",
+        "description": "<p>• Vos alliés gagnent un bonus de +3 aux jets d’attaque contre les adversaires à portée de Mêlée d’un esprit. • Un allié qui coche un emplacement d’Armure alors qu’il se trouve à portée de Mêlée d’un esprit peut cocher un emplacement d’Armure supplémentaire.</p>",
         "tint": "#ffffff",
         "statuses": [],
         "sort": 0,
@@ -22419,7 +22419,7 @@
           "expiry": null,
           "expired": false
         },
-        "description": "<p>While <em>Cloaked</em>, you remain unseen if you are stationary when an adversary moves to where they would normally see you. When you move into or within an adversary's line of sight or make an attack, you are no longer <em>Cloaked</em>.</p>",
+        "description": "<p>Dès que vous vous déplacez dans la ligne de vue d’un adversaire ou à l’intérieur de celle-ci, ou que vous effectuez une attaque, vous n’êtes plus Dissimulé.</p>",
         "tint": "#ffffff",
         "statuses": [],
         "sort": 0,
@@ -22465,7 +22465,7 @@
           "type": "healing",
           "_id": "udmHKUtCDClxeB4h",
           "systemPath": "actions",
-          "description": "<p>Touch a creature and spend any number of tokens to clear 2 Hit Points or 2 Stress for each token spent.</p>",
+          "description": "<p>Touchez une créature et dépensez autant de jetons que vous le souhaitez : pour chaque jeton dépensé, faites-lui récupérer 2 PV ou effacez 2 Stress.</p>",
           "chatDisplay": true,
           "actionType": "action",
           "cost": [
@@ -22550,7 +22550,7 @@
           "type": "healing",
           "_id": "TvF88tS5x3Yof8Q1",
           "systemPath": "actions",
-          "description": "<p>Touch a creature and spend any number of tokens to clear 2 Hit Points or 2 Stress for each token spent.</p>",
+          "description": "<p>Touchez une créature et dépensez autant de jetons que vous le souhaitez : pour chaque jeton dépensé, faites-lui récupérer 2 PV ou effacez 2 Stress.</p>",
           "chatDisplay": true,
           "actionType": "action",
           "cost": [
@@ -22635,7 +22635,7 @@
           "type": "effect",
           "_id": "LFDgLQ2CjnBEoTH9",
           "systemPath": "actions",
-          "description": "<p>You can also spend a token from this card when touching a creature to clear the <em>Vulnerable</em> condition or heal a physical or magical ailment (the GM might require additional tokens depending on the strength of the ailment).</p>",
+          "description": "<p>Touchez une créature et dépensez autant de jetons que vous le souhaitez : pour chaque jeton dépensé, faites-lui récupérer 2 PV ou effacez 2 Stress. Vous pouvez également dépenser un jeton de cette carte lorsque vous touchez une créature pour dissiper l’état Vulnérable ou soigner une affection physique ou magique (le MJ peut exiger des jetons supplémentaires selon la gravité de l’affection).</p>",
           "chatDisplay": true,
           "actionType": "action",
           "cost": [
@@ -22733,7 +22733,7 @@
           "type": "healing",
           "_id": "CbKKgf1TboGPZitf",
           "systemPath": "actions",
-          "description": "<p>When you critically succeed on an attack, you can <strong>spend up to 3 Hope</strong> and choose one of the following options for each Hope spent:</p><ul class=\"\"><li class=\"vertical-card-list\"><p>You clear a Hit Point.</p></li><li class=\"vertical-card-list\"><p>You clear an Armor Slot.</p></li><li class=\"vertical-card-list\">The target must mark an additional Hit Point.</li></ul><p>You can't choose the same option more than once.</p>",
+          "description": "<p>Lorsque vous obtenez une réussite critique sur une attaque, vous pouvez dépenser jusqu’à 3 Espoir et choisir une des options suivantes pour chaque Espoir dépensé : Effacez 1 Point de vie. Effacez 1 emplacement d’Armure. La cible doit marquer 1 Point de vie supplémentaire.</p>",
           "chatDisplay": true,
           "actionType": "action",
           "cost": [
@@ -23104,7 +23104,7 @@
           "expiry": null,
           "expired": false
         },
-        "description": "<p>When you mark an Armor Slot to reduce incoming damage, you can <strong>mark a Stress</strong> to mark an additional Armor Slot.</p>",
+        "description": "<p>Lorsque vous marquez un emplacement d’Armure pour réduire des dégâts reçus, vous pouvez marquer 1 Stress pour marquer un emplacement d’Armure supplémentaire.</p>",
         "tint": "#ffffff",
         "transfer": true,
         "statuses": [],
@@ -23144,7 +23144,7 @@
           "type": "attack",
           "_id": "L2hCs7xXO6sD4tUa",
           "systemPath": "actions",
-          "description": "<p>Make a <strong>Spellcast Roll (14)</strong>. Once per long rest on a success, you create a layer of illusion over your body that makes it hard to tell exactly where you are.</p>",
+          "description": "<p>Effectuez un jet d’Incantation (14). Une fois par repos long, en cas de réussite, vous créez sur votre corps une couche d’illusion qui rend votre position exacte difficile à discerner.</p>",
           "chatDisplay": true,
           "actionType": "action",
           "cost": [],
@@ -23197,7 +23197,7 @@
           "type": "attack",
           "_id": "oB5tyd2a7bmcJJmm",
           "systemPath": "actions",
-          "description": "<p>Mark any number of Stress to make that many additional layers.</p>",
+          "description": "<p>Cochez autant de Stress que vous le souhaitez pour créer autant de couches supplémentaires.</p>",
           "chatDisplay": true,
           "actionType": "action",
           "cost": [
@@ -23362,7 +23362,7 @@
           "type": "effect",
           "_id": "SKG6Gu0uJZxtYTnz",
           "systemPath": "actions",
-          "description": "<p>If an adversary moves within Very Close range, they're pulled into Melee range and <em>Restrained.</em></p>",
+          "description": "<p>Si un adversaire se déplace à portée Très proche, il est attiré à portée de Mêlée et Entravé.</p>",
           "chatDisplay": true,
           "actionType": "action",
           "cost": [],
@@ -23461,7 +23461,7 @@
           "expiry": null,
           "expired": false
         },
-        "description": "<p>If an adversary moves within Very Close range, they're pulled into Melee range and <em>Restrained.</em></p><p>This condition lasts until you move or fail a roll with Fear, or the GM spends 2 Fear on their turn to clear it.</p>",
+        "description": "<p>Si un adversaire se déplace à portée Très proche, il est attiré à portée de Mêlée et Entravé. Cet état dure jusqu’à ce que vous vous déplaciez ou échouiez à un jet avec Peur, ou jusqu’à ce que le MJ dépense 2 Peur pendant son tour pour y mettre fin.</p>",
         "tint": "#ffffff",
         "statuses": [],
         "sort": 0,
@@ -23505,7 +23505,7 @@
           "expiry": null,
           "expired": false
         },
-        "description": "<p>If an adversary moves within Very Close range, they're pulled into Melee range and <em>Restrained.</em></p>",
+        "description": "<p>Si un adversaire se déplace à portée Très proche, il est attiré à portée de Mêlée et Entravé.</p>",
         "tint": "#ffffff",
         "statuses": [
           "restrained"
@@ -23738,7 +23738,7 @@
           "expiry": null,
           "expired": false
         },
-        "description": "<p>You have a base Armor Score of 3 + your Strength.</p>",
+        "description": "<p>Lorsque vous choisissez de ne pas équiper d’armure, votre Score d’armure de base est égal à 3 + votre Force et vous utilisez les seuils de dégâts de base suivants :</p>",
         "tint": "#ffffff",
         "transfer": true,
         "statuses": [],
@@ -23884,7 +23884,7 @@
           "type": "attack",
           "_id": "gV6i6Nn6Qolc6PuF",
           "systemPath": "actions",
-          "description": "<p>Make a <strong>Spellcast Roll</strong> against a target within Far range. On a success, peer into the target's mind and ask the GM a question. The GM describes any memories the target has pertaining to the answer.</p>",
+          "description": "<p>Exploration mémorielle : Effectuez un jet d’incantation contre une cible à portée lointaine. En cas de réussite, sondez l’esprit de la cible et posez une question au MJ.</p>",
           "chatDisplay": true,
           "actionType": "action",
           "cost": [],
@@ -23937,7 +23937,7 @@
           "type": "effect",
           "_id": "djZ0hQamdwzvYeKc",
           "systemPath": "actions",
-          "description": "<p>Once per long rest, <strong>spend a Hope</strong> to choose two willing creatures. When one of them would mark Stress, they can choose between the two of them who marks it. This spell lasts until their next rest.</p>",
+          "description": "<p>Clarté partagée : Une fois par repos long, dépensez 1 Espoir pour choisir deux créatures consentantes. Lorsque l’une d’elles devrait marquer du Stress, elles peuvent choisir laquelle des deux le marque. Ce sort dure jusqu’à leur prochain repos.</p>",
           "chatDisplay": true,
           "actionType": "action",
           "cost": [
@@ -24045,7 +24045,7 @@
           "expiry": null,
           "expired": false
         },
-        "description": "<p>Once per long rest, <strong>spend a Hope</strong> to choose two willing creatures. When one of them would mark Stress, they can choose between the two of them who marks it. This spell lasts until their next rest.</p>",
+        "description": "<p>Clarté partagée : Une fois par repos long, dépensez 1 Espoir pour choisir deux créatures consentantes. Lorsque l’une d’elles devrait marquer du Stress, elles peuvent choisir laquelle des deux le marque. Ce sort dure jusqu’à leur prochain repos.</p>",
         "tint": "#ffffff",
         "statuses": [],
         "sort": 0,
@@ -24182,7 +24182,7 @@
           "type": "attack",
           "_id": "E3AnyfI7LDL0z9tT",
           "systemPath": "actions",
-          "description": "<p>Make a <strong>Spellcast Roll</strong> against up to three adversaries within Melee range. Targets you succeed against take <strong>2d6</strong> magic damage and must mark a Stress as flames erupt from your hand.</p>",
+          "description": "<p>Flamme sauvage : Effectuez un jet d’incantation contre jusqu’à trois adversaires à portée de mêlée. Les cibles contre lesquelles vous réussissez subissent 2d6 dégâts magiques et doivent marquer 1 Stress tandis que des flammes jaillissent de votre main.</p>",
           "chatDisplay": true,
           "actionType": "action",
           "cost": [],
@@ -24294,7 +24294,7 @@
           "type": "effect",
           "_id": "MYZWoU0clYEcsYDb",
           "systemPath": "actions",
-          "description": "<p>You conjure a magical hand with the same size and strength as your own within Far range.</p>",
+          "description": "<p>Main magique : Vous invoquez à portée lointaine une main magique de la même taille et de la même force que la vôtre.</p>",
           "chatDisplay": true,
           "actionType": "action",
           "cost": [],
@@ -24323,7 +24323,7 @@
           "type": "attack",
           "_id": "WQ9XzpbtXl4SmVet",
           "systemPath": "actions",
-          "description": "<p>Make a <strong>Spellcast Roll (13)</strong> to cast a temporary thick fog that gathers in a stationary area within Very Close range. The fog heavily obscures this area and everything in it.</p><p>@Template[type:emanation|range:vc]</p>",
+          "description": "<p>Brume mystérieuse : Effectuez un jet d’incantation (13) pour créer un épais brouillard temporaire dans une zone fixe à portée très proche. Le brouillard masque fortement cette zone et tout ce qui s’y trouve.</p>",
           "chatDisplay": true,
           "actionType": "action",
           "cost": [],
@@ -24568,7 +24568,7 @@
           "_id": "kleemC4p5DTs3YTp",
           "systemPath": "actions",
           "baseAction": false,
-          "description": "<p>A creature inside the wall when it appears or that passes through it must mark 2 Stress.</p>",
+          "description": "<p>Une créature qui se trouve dans le mur lorsqu’il apparaît ou qui le traverse doit marquer 2 Stress.</p>",
           "chatDisplay": true,
           "originItem": {
             "type": "itemCollection"
@@ -24883,7 +24883,7 @@
           "expiry": null,
           "expired": false
         },
-        "description": "<p>During this short rest, you can choose a long rest downtime move instead.</p>",
+        "description": "<p>Pendant un repos court, vous pouvez choisir à la place une action de temps libre de repos long.</p>",
         "tint": "#ffffff",
         "statuses": [],
         "sort": 0,
@@ -24940,7 +24940,7 @@
           "expiry": null,
           "expired": false
         },
-        "description": "<p>During a short rest, you can choose a long rest downtime move instead.</p>",
+        "description": "<p>Pendant un repos court, vous pouvez choisir à la place une action de temps libre de repos long.</p>",
         "tint": "#ffffff",
         "transfer": true,
         "statuses": [],
@@ -25070,7 +25070,7 @@
           "type": "effect",
           "_id": "OoNND7VcWoBQdtFK",
           "systemPath": "actions",
-          "description": "<p>Place a number of tokens equal to your Spellcast trait on this card. When you take an action while disguised, spend a token from this card. After the action that spends the last token is resolved, the disguise drops.</p>",
+          "description": "<p>Placez sur cette carte un nombre de jetons égal à votre trait d’Incantation. Lorsque vous effectuez une action sous ce déguisement, dépensez un jeton de cette carte. Une fois résolue l’action qui dépense le dernier jeton, le déguisement disparaît.</p>",
           "chatDisplay": true,
           "actionType": "action",
           "cost": [
@@ -25182,7 +25182,7 @@
           "expiry": null,
           "expired": false
         },
-        "description": "<p>Don the facade of any humanoid you can picture clearly in your mind. While disguised, you have advantage on Presence Rolls to avoid scrutiny.</p>",
+        "description": "<p>Tant que vous êtes déguisé, vous avez l’Avantage aux jets de Présence pour éviter d’éveiller les soupçons. Placez sur cette carte un nombre de jetons égal à votre trait d’Incantation.</p>",
         "tint": "#ffffff",
         "statuses": [],
         "sort": 0,
@@ -25207,7 +25207,7 @@
         "name": "Disguised",
         "disabled": false,
         "img": "icons/commodities/treasure/mask-bone-white.webp",
-        "description": "<p>While disguised, you have advantage on Presence Rolls to avoid scrutiny.</p><p>When you take an action while disguised, spend a token from this card. After the action that spends the last token is resolved, the disguise drops.</p>",
+        "description": "<p>Tant que vous êtes déguisé, vous avez l’Avantage aux jets de Présence pour éviter d’éveiller les soupçons. Placez sur cette carte un nombre de jetons égal à votre trait d’Incantation. Lorsque vous effectuez une action sous ce déguisement, dépensez un jeton de cette carte.</p>",
         "transfer": false,
         "statuses": [],
         "system": {
@@ -25680,7 +25680,7 @@
           "expiry": null,
           "expired": false
         },
-        "description": "<p>When you would take damage, you can <strong>mark a Stress</strong> to reduce the severity of the damage by one threshold. When you do, roll a <strong>d6</strong>. On a result of 3 or lower, place this card in your vault.</p>",
+        "description": "<p>Lorsque vous devriez subir des dégâts, vous pouvez marquer un Stress pour réduire leur gravité d’un seuil. Lorsque vous le faites, lancez un d6. Sur un résultat de 3 ou moins, placez cette carte dans votre réserve.</p>",
         "tint": "#ffffff",
         "transfer": true,
         "statuses": [],
@@ -25763,7 +25763,7 @@
     },
     "effects": [
       {
-        "name": "On The Brink",
+        "name": "Au bord du gouffre",
         "type": "base",
         "system": {
           "changes": [
@@ -25791,7 +25791,7 @@
           "expiry": null,
           "expired": false
         },
-        "description": "<p>When you have 2 or fewer Hit Points unmarked, you don't take Minor damage.</p>",
+        "description": "<p>Lorsque vous avez 2 Points de vie non marqués ou moins, vous ne subissez pas de dégâts Mineurs.</p>",
         "tint": "#ffffff",
         "transfer": true,
         "statuses": [],
@@ -25831,7 +25831,7 @@
           "type": "effect",
           "_id": "cc1ahwawL16OEu2r",
           "systemPath": "actions",
-          "description": "<p>You magically shift your appearance and clothing to avoid recognition.</p>",
+          "description": "<p>Modifier l’apparence : Vous modifiez magiquement votre apparence et vos vêtements afin de ne pas être reconnu.</p>",
           "chatDisplay": true,
           "actionType": "action",
           "cost": [],
@@ -25865,7 +25865,7 @@
           "type": "effect",
           "_id": "wBQkw3P4Esj6kOx2",
           "systemPath": "actions",
-          "description": "<p><strong>Spend 2 Hope</strong> to cast this spell on yourself or an ally within Close range. The next time the target makes an attack, they can hit an additional target within range that their attack roll would succeed against. You can only hold this spell on one creature at a time.</p>",
+          "description": "<p>Parallela : Dépensez 2 Espoir pour lancer ce sort sur vous-même ou un allié à portée proche. La prochaine fois que la cible effectue une attaque, elle peut toucher une cible supplémentaire à portée contre laquelle son jet d’attaque aurait réussi. Vous ne pouvez maintenir ce sort que sur une seule créature à la fois.</p>",
           "chatDisplay": true,
           "actionType": "action",
           "cost": [
@@ -25908,7 +25908,7 @@
           "type": "attack",
           "_id": "rsyxORrTH5oU2DkV",
           "systemPath": "actions",
-          "description": "<p>Make a <strong>Spellcast Roll (14)</strong>. On a success, create a temporary visual illusion no larger than you within Close range that lasts for as long as you look at it. It holds up to scrutiny until an observer is within Melee range.</p>",
+          "description": "<p>Illusion : Effectuez un jet d’incantation (14). En cas de réussite, créez à portée proche une illusion visuelle temporaire qui ne dépasse pas votre taille et dure tant que vous la regardez. Elle résiste à l’examen jusqu’à ce qu’un observateur soit à portée de mêlée.</p>",
           "chatDisplay": true,
           "actionType": "action",
           "cost": [],
@@ -26026,7 +26026,7 @@
           "expiry": null,
           "expired": false
         },
-        "description": "<p>The next time you make an attack, you can hit an additional target within range that your attack roll would succeed against.</p>",
+        "description": "<p>La prochaine fois que la cible effectue une attaque, elle peut toucher une cible supplémentaire à portée contre laquelle son jet d’attaque aurait réussi.</p>",
         "tint": "#ffffff",
         "statuses": [],
         "sort": 0,
@@ -26069,7 +26069,7 @@
           "expiry": null,
           "expired": false
         },
-        "description": "<p>You magically shift your appearance and clothing to avoid recognition.</p>",
+        "description": "<p>Modifier l’apparence : Vous modifiez magiquement votre apparence et vos vêtements afin de ne pas être reconnu.</p>",
         "tint": "#ffffff",
         "statuses": [],
         "sort": 0,
@@ -26108,7 +26108,7 @@
           "type": "effect",
           "_id": "BhVDgty2nqoOhn97",
           "systemPath": "actions",
-          "description": "<p><strong>Spend a Hope</strong> to summon a small nature spirit or forest critter to your side until your next rest, you cast Natural Familiar again, or the familiar is targeted by an attack. If you <strong>spend an additional Hope</strong>, you can summon a familiar that flies.</p>",
+          "description": "<p>Dépensez 1 Espoir pour invoquer à vos côtés un petit esprit de la nature ou une créature des bois jusqu’à votre prochain repos, jusqu’à ce que vous lanciez de nouveau Familier naturel ou jusqu’à ce que le familier soit ciblé par une attaque. Si vous dépensez 1 Espoir supplémentaire, vous pouvez invoquer un familier capable de voler.</p>",
           "chatDisplay": true,
           "actionType": "action",
           "cost": [
@@ -26151,7 +26151,7 @@
           "type": "attack",
           "_id": "kHAwq8lfsEPd9Qga",
           "systemPath": "actions",
-          "description": "<p>You can communicate with them, make a <strong>Spellcast Roll</strong> to command them to perform simple tasks.</p>",
+          "description": "<p>Vous pouvez communiquer avec lui, effectuer un jet d’Incantation pour lui ordonner d’accomplir des tâches simples et cocher 1 Stress pour voir à travers ses yeux.</p>",
           "chatDisplay": true,
           "actionType": "action",
           "cost": [],
@@ -26204,7 +26204,7 @@
           "type": "effect",
           "_id": "8Y03LcPgXF30DfzZ",
           "systemPath": "actions",
-          "description": "<p><strong>Mark a Stress</strong> to see through their eyes.</p>",
+          "description": "<p>Vous pouvez communiquer avec lui, effectuer un jet d’Incantation pour lui ordonner d’accomplir des tâches simples et cocher 1 Stress pour voir à travers ses yeux.</p>",
           "chatDisplay": true,
           "actionType": "action",
           "cost": [
@@ -26681,7 +26681,7 @@
           "expiry": null,
           "expired": false
         },
-        "description": "<p>Until your next rest, when a creature connected by this union would mark Stress or Hit Points, the connected creatures can choose who marks it.</p>",
+        "description": "<p>Jusqu’à votre prochain repos, lorsqu’une créature liée par cette union devrait marquer du Stress ou des Points de vie, les créatures liées peuvent choisir laquelle les marque.</p>",
         "tint": "#ffffff",
         "statuses": [],
         "sort": 0,
@@ -26727,7 +26727,7 @@
           "type": "attack",
           "_id": "r2XblKJyZyamOOXq",
           "systemPath": "actions",
-          "description": "<p>Make a <strong>Spellcast Roll (15)</strong> to magically empower your aura. On a success, <strong>spend 2 Hope</strong> to make your Presence equal to your Spellcast trait until your next long rest.While this spell is active, an adversary must mark a Stress when they target you with an attack.</p>",
+          "description": "<p>Effectuez un jet d’Incantation (15) pour renforcer magiquement votre aura. En cas de réussite, dépensez 2 Espoir pour rendre votre Présence égale à votre trait d’Incantation jusqu’à votre prochain repos long. Tant que ce sort est actif, un adversaire doit cocher 1 Stress lorsqu’il vous cible avec une attaque.</p>",
           "chatDisplay": true,
           "actionType": "action",
           "cost": [
@@ -26868,7 +26868,7 @@
           "expiry": null,
           "expired": false
         },
-        "description": "<p>Your Presence is equal to your Spellcast trait until your next long rest.<br>While this spell is active, an adversary must mark a Stress when they target you with an attack.</p>",
+        "description": "<p>En cas de réussite, dépensez 2 Espoir pour rendre votre Présence égale à votre trait d’Incantation jusqu’à votre prochain repos long. Tant que ce sort est actif, un adversaire doit cocher 1 Stress lorsqu’il vous cible avec une attaque.</p>",
         "tint": "#ffffff",
         "statuses": [],
         "sort": 0,
@@ -26914,7 +26914,7 @@
           "type": "attack",
           "_id": "kfJZdT3F4SH1h1dc",
           "systemPath": "actions",
-          "description": "<p>Make a <strong>Spellcast Roll (15)</strong> on an object you're touching that can close (such as a lock, chest, or box). Once per rest on a success, you can lock the object so it can only be opened by creatures of your choice. Someone with access to magic and an hour of time to study the spell can break it.</p>",
+          "description": "<p>Verrou runique : Effectuez un jet d’incantation (15) sur un objet que vous touchez et qui peut se fermer (comme une serrure, un coffre ou une boîte). Une fois par repos, en cas de réussite, vous pouvez verrouiller l’objet afin que seules les créatures de votre choix puissent l’ouvrir. Une personne ayant accès à la magie et une heure pour étudier le sort peut le briser.</p>",
           "chatDisplay": true,
           "actionType": "action",
           "cost": [],
@@ -26967,7 +26967,7 @@
           "type": "attack",
           "_id": "Da3zkKkOljZfu5Xb",
           "systemPath": "actions",
-          "description": "<p>When you have no adversaries within Melee range, make a <strong>Spellcast Roll (13)</strong>. On a success, <strong>spend a Hope</strong> to create a portal from where you are to a point within Far range you can see. It closes once a creature has passed through it.</p>",
+          "description": "<p>Porte arcanique : Lorsque vous n’avez aucun adversaire à portée de mêlée, effectuez un jet d’incantation (13). En cas de réussite, dépensez 1 Espoir pour créer un portail entre votre position et un point à portée lointaine que vous pouvez voir. Il se referme après le passage d’une créature. Révélation : Effectuez un jet d’incantation. Si quelque chose est caché par magie à portée proche, il est révélé.</p>",
           "chatDisplay": true,
           "actionType": "action",
           "cost": [
@@ -27029,7 +27029,7 @@
           "type": "attack",
           "_id": "VOOND5icbz1WxUUD",
           "systemPath": "actions",
-          "description": "<p>Make a <strong>Spellcast Roll</strong>. If there is anything magically hidden within Close range the roll would succeed against, it is revealed.</p><p>@Template[type:emanation|range:c]</p>",
+          "description": "<p>Il se referme après le passage d’une créature. Révélation : Effectuez un jet d’incantation. Si quelque chose est caché par magie à portée proche, il est révélé.</p>",
           "chatDisplay": true,
           "actionType": "action",
           "cost": [],
@@ -27324,7 +27324,7 @@
           "expiry": null,
           "expired": false
         },
-        "description": "<p>You gain advantage on attack rolls until you or an ally rolls a failure with Fear.</p>",
+        "description": "<p>Tous les alliés qui peuvent vous entendre effacent chacun 1 Stress et gagnent 1 Espoir. De plus, vos alliés ont l’avantage sur leurs jets d’attaque jusqu’à ce que vous ou un allié obteniez un échec avec Peur.</p>",
         "tint": "#ffffff",
         "statuses": [],
         "sort": 0,
@@ -27591,7 +27591,7 @@
           "expiry": null,
           "expired": false
         },
-        "description": "<p>When the marked adversary deals damage to you or your allies, place a <strong>d8</strong> on this card. You can hold a number of <strong>d8s</strong> equal to your level. When you successfully attack the marked adversary, roll the dice on this card and add the total to your damage roll, then clear the dice. This effect ends when the marked adversary is defeated or you cast Sigil of Retribution again.</p>",
+        "description": "<p>Vous pouvez conserver sur cette carte un nombre de d8 égal à votre niveau. Lorsque vous réussissez une attaque contre l’adversaire marqué, lancez les dés placés sur cette carte et ajoutez leur total à votre jet de dégâts, puis retirez les dés. Cet effet prend fin lorsque l’adversaire marqué est vaincu ou lorsque vous lancez de nouveau Sceau de rétribution.</p>",
         "tint": "#ffffff",
         "statuses": [],
         "sort": 0,
@@ -27630,7 +27630,7 @@
           "type": "effect",
           "_id": "hBh4Lt0Bdd9CtJY7",
           "systemPath": "actions",
-          "description": "<p>Once per rest, you can switch the results of your Hope and Fear Dice.</p>",
+          "description": "<p>Une fois par repos, vous pouvez intervertir les résultats de vos dés d’Espoir et de Peur.</p>",
           "chatDisplay": true,
           "actionType": "action",
           "cost": [
@@ -27740,7 +27740,7 @@
           "expiry": null,
           "expired": false
         },
-        "description": "<p>When 4 or more of the domain cards in your loadout are from the Arcana domain, gain the following benefits:</p><ul><li class=\"vertical-card-list-found\"><p>+1 bonus to your Spellcast Rolls</p></li><li class=\"vertical-card-list-found\"><p>Once per rest, you can switch the results of your Hope and Fear Dice.</p></li></ul>",
+        "description": "<p>Lorsque 4 cartes ou plus de votre sélection active appartiennent au domaine des Arcanes, vous bénéficiez des avantages suivants : +1 à vos jets d’Incantation. Une fois par repos, vous pouvez intervertir les résultats de vos dés d’Espoir et de Peur.</p>",
         "tint": "#ffffff",
         "transfer": true,
         "statuses": [],
@@ -28271,7 +28271,7 @@
           "type": "attack",
           "_id": "qygTUSNldYNbP7vN",
           "systemPath": "actions",
-          "description": "<p><em><strong>Tekaira Armored Beetles:</strong></em> <strong>Mark a Stress</strong> to conjure armored beetles that encircle you. When you next take damage, reduce the severity by one threshold.</p>",
+          "description": "<p>Scarabées cuirassés de Tekaira : Cochez 1 Stress pour conjurer des scarabées cuirassés qui vous encerclent. La prochaine fois que vous subissez des dégâts, réduisez leur gravité d’un seuil.</p>",
           "chatDisplay": true,
           "actionType": "action",
           "cost": [
@@ -28338,7 +28338,7 @@
           "type": "effect",
           "_id": "533qzPIjcccpiMey",
           "systemPath": "actions",
-          "description": "<p>You can <strong>spend a Hope</strong> to keep the beetles conjured after taking damage.</p>",
+          "description": "<p>Vous pouvez dépenser 1 Espoir pour maintenir les scarabées conjurés après avoir subi les dégâts.</p>",
           "chatDisplay": true,
           "actionType": "action",
           "cost": [
@@ -28376,7 +28376,7 @@
           "type": "attack",
           "_id": "nugW0yPOG08pqBAT",
           "systemPath": "actions",
-          "description": "<p><em><strong>Fire Flies:</strong></em> Make a <strong>Spellcast Roll</strong> against all adversaries within Close range. <strong>Spend a Hope</strong> to deal <strong>2d8+3</strong> magic damage to targets you succeeded against.</p>",
+          "description": "<p>Lucioles : Effectuez un jet d’Incantation contre tous les adversaires à portée Proche. Dépensez 1 Espoir pour infliger 2d8+3 dégâts magiques aux cibles contre lesquelles vous avez réussi.</p>",
           "chatDisplay": true,
           "actionType": "action",
           "cost": [
@@ -28597,7 +28597,7 @@
           "type": "attack",
           "_id": "Fc38nN8i4z2VYW2T",
           "systemPath": "actions",
-          "description": "<p>Once per long rest, you can instantly teleport yourself and any number of willing targets within Close range to a place you've been before. Choose one of the following options, then make a <strong>Spellcast Roll (16)</strong>:</p><ul class=\"\"><li class=\"vertical-card-list\">If you know the place very well, gain a +3 bonus.</li><li class=\"vertical-card-list\">If you've visited the place frequently, gain a +1 bonus.</li><li class=\"vertical-card-list\">If you've visited the place infrequently, gain no modifier.</li><li class=\"vertical-card-list\">If you've only been there once, gain a -2 penalty.</li></ul><p>On a success, you appear where you were intending to go. On a failure, you appear off course, with the range of failure determining how far off course.</p>",
+          "description": "<p>Une fois par repos long, vous pouvez vous téléporter instantanément, ainsi que n’importe quel nombre de cibles consentantes à portée proche, vers un lieu où vous êtes déjà allé. Choisissez l’une des options suivantes, puis effectuez un jet d’incantation (16) : Si vous connaissez très bien le lieu, gagnez un bonus de +3. Si vous l’avez visité fréquemment, gagnez un bonus de +1. Si vous l’avez visité rarement, n’appliquez aucun modificateur.</p>",
           "chatDisplay": true,
           "actionType": "action",
           "cost": [],
@@ -28777,7 +28777,7 @@
           "type": "damage",
           "_id": "QhBaM0LU9tmSI3IO",
           "systemPath": "actions",
-          "description": "<p><strong>Mark a Stress</strong> to force all <em>Enraptured</em> targets to mark a Stress, ending this spell.</p>",
+          "description": "<p>Marquez un Stress pour forcer toutes les cibles Envoûtées à marquer un Stress, ce qui met fin à ce sort.</p>",
           "chatDisplay": true,
           "actionType": "action",
           "cost": [
@@ -28913,7 +28913,7 @@
           "expiry": null,
           "expired": false
         },
-        "description": "<p>While Enraptured, a target's attention is fixed on you, narrowing their field of view and drowning out any sound but your voice.</p>",
+        "description": "<p>Tant qu’elle est Envoûtée, l’attention d’une cible reste fixée sur vous, son champ de vision se rétrécit et votre voix couvre tous les autres sons.</p>",
         "tint": "#ffffff",
         "statuses": [],
         "sort": 0,
@@ -28959,7 +28959,7 @@
           "type": "attack",
           "_id": "jX4wg2HR2xkdtbIU",
           "systemPath": "actions",
-          "description": "<p>Make a <strong>Spellcast Roll</strong> against a target within Melee range. On a success, they're knocked back to Far range and take <strong>d10+2</strong> magic damage using your Proficiency.</p>",
+          "description": "<p>Poussée de puissance : Effectuez un jet d’incantation contre une cible à portée de mêlée. En cas de réussite, elle est repoussée jusqu’à portée lointaine et subit d10+2 dégâts magiques en utilisant votre Maîtrise.</p>",
           "chatDisplay": true,
           "actionType": "action",
           "cost": [],
@@ -29043,7 +29043,7 @@
           "type": "effect",
           "_id": "4N7ViDYt9Na3zwzi",
           "systemPath": "actions",
-          "description": "<p><strong>Spend a Hope</strong> to give a target you can touch a +1 bonus to their Armor Score until their next rest or you cast Tava's Armor again.</p>",
+          "description": "<p>Armure de Tava : Dépensez 1 Espoir pour accorder à une cible que vous pouvez toucher un bonus de +1 à sa Valeur d’armure jusqu’à son prochain repos ou jusqu’à ce que vous lanciez de nouveau Armure de Tava.</p>",
           "chatDisplay": true,
           "actionType": "action",
           "cost": [
@@ -29086,7 +29086,7 @@
           "type": "attack",
           "_id": "XU1joyIDFZrQiToF",
           "systemPath": "actions",
-          "description": "<p>Make a <strong>Spellcast Roll (12)</strong> to summon a large ice spike within Far range. If you use it as a weapon, make the Spellcast Roll against the target's Difficulty instead. On a success, deal <strong>d6</strong> physical damage using your Proficiency.</p>",
+          "description": "<p>Pointe de glace : Effectuez un jet d’incantation (12) pour invoquer une grande pointe de glace à portée lointaine. Si vous l’utilisez comme arme, effectuez plutôt le jet d’incantation contre la Difficulté de la cible. En cas de réussite, infligez d6 dégâts physiques en utilisant votre Maîtrise.</p>",
           "chatDisplay": true,
           "actionType": "action",
           "cost": [],
@@ -29139,7 +29139,7 @@
           "type": "attack",
           "_id": "enit3ZkPp0nY5lN1",
           "systemPath": "actions",
-          "description": "<p>Make a <strong>Spellcast Roll (12)</strong> to summon a large ice spike within Far range. If you use it as a weapon, make the Spellcast Roll against the target's Difficulty instead. On a success, deal <strong>d6</strong> physical damage using your Proficiency.</p>",
+          "description": "<p>Pointe de glace : Effectuez un jet d’incantation (12) pour invoquer une grande pointe de glace à portée lointaine. Si vous l’utilisez comme arme, effectuez plutôt le jet d’incantation contre la Difficulté de la cible. En cas de réussite, infligez d6 dégâts physiques en utilisant votre Maîtrise.</p>",
           "chatDisplay": true,
           "actionType": "action",
           "cost": [],
@@ -29301,7 +29301,7 @@
           "expiry": null,
           "expired": false
         },
-        "description": "<p>+1 bonus to your Armor Score until your next rest, or the caster cast's Tava's Armor again.</p>",
+        "description": "<p>Armure de Tava : Dépensez 1 Espoir pour accorder à une cible que vous pouvez toucher un bonus de +1 à sa Valeur d’armure jusqu’à son prochain repos ou jusqu’à ce que vous lanciez de nouveau Armure de Tava.</p>",
         "tint": "#ffffff",
         "statuses": [],
         "sort": 0,
@@ -29347,7 +29347,7 @@
           "type": "effect",
           "_id": "GYXo5c2OYS3v1UBA",
           "systemPath": "actions",
-          "description": "<p>When you make a Presence Roll, you can <strong>spend a Hope</strong> to add your Strength to the roll.</p>",
+          "description": "<p>Lorsque vous effectuez un jet de Présence, vous pouvez dépenser un Espoir pour ajouter votre Force au jet.</p>",
           "chatDisplay": true,
           "actionType": "action",
           "cost": [
@@ -29390,7 +29390,7 @@
           "type": "effect",
           "_id": "OdRTXMOXhZFiZHES",
           "systemPath": "actions",
-          "description": "<p>Additionally, once per rest when you would gain a condition, you can describe how your bold presence aids you in the situation and avoid gaining the condition.</p>",
+          "description": "<p>De plus, une fois par repos, lorsque vous devriez subir un état, vous pouvez décrire comment votre présence audacieuse vous aide dans cette situation et éviter de subir cet état.</p>",
           "chatDisplay": true,
           "actionType": "action",
           "cost": [],
@@ -29493,7 +29493,7 @@
           "expiry": null,
           "expired": false
         },
-        "description": "<p>Add your Strength to the presence roll.</p>",
+        "description": "<p>Lorsque vous effectuez un jet de Présence, vous pouvez dépenser un Espoir pour ajouter votre Force au jet.</p>",
         "tint": "#ffffff",
         "statuses": [],
         "sort": 0,
@@ -29589,7 +29589,7 @@
             {
               "key": "system.advantageSources",
               "type": "add",
-              "value": "If you failed your previous action roll",
+              "value": "Si vous avez échoué à votre précédent jet d’action",
               "priority": null,
               "phase": "initial"
             }
@@ -29610,7 +29610,7 @@
           "expiry": null,
           "expired": false
         },
-        "description": "<p>When you fail an action roll, your next action roll has advantage.</p>",
+        "description": "<p>Lorsque vous échouez à un jet d’action, votre prochain jet d’action bénéficie d’Avantage.</p>",
         "tint": "#ffffff",
         "transfer": true,
         "statuses": [],
@@ -29956,7 +29956,7 @@
         "name": "Scared",
         "disabled": false,
         "img": "icons/magic/death/skull-energy-light-purple.webp",
-        "description": "<p>They are <em>Vulnerable</em> until they mark 1 or more Hit Points.</p>",
+        "description": "<p>Lorsque vous le faites, elle est Vulnérable jusqu’à ce qu’elle marque au moins 1 Point de vie.</p>",
         "transfer": false,
         "statuses": [
           "vulnerable"
@@ -30252,7 +30252,7 @@
           "type": "attack",
           "_id": "VwtkvnNeU9tZQMDT",
           "systemPath": "actions",
-          "description": "<p>The ward's holder can spend a Hope to reduce incoming damage by <strong>1d8</strong>.</p><p>If the Ward Die result is 8, the ward's power ends after it reduces damage this turn. It can be recharged for free on your next rest.</p>",
+          "description": "<p>Le porteur de la garde peut dépenser 1 Espoir pour réduire de 1d8 les dégâts qu’il devrait subir. Si le résultat du dé de Garde est 8, le pouvoir de la garde prend fin après avoir réduit les dégâts ce tour-ci. Elle peut être rechargée gratuitement lors de votre prochain repos.</p>",
           "chatDisplay": true,
           "actionType": "action",
           "cost": [
@@ -30482,7 +30482,7 @@
           "expiry": null,
           "expired": false
         },
-        "description": "<p>The next successful attack against this target deals an extra <strong>2d12</strong> damage.</p>",
+        "description": "<p>Lorsque vous réussissez une attaque, vous pouvez marquer 1 Stress pour que la prochaine attaque réussie contre cette même cible inflige 2d12 dégâts supplémentaires.</p>",
         "tint": "#ffffff",
         "statuses": [],
         "sort": 0,
@@ -30521,7 +30521,7 @@
           "type": "healing",
           "_id": "Z864RtY6fR5Cnrx9",
           "systemPath": "actions",
-          "description": "<p>During a rest, when you choose to repair your armor as a downtime move, your allies also clear an Armor Slot.</p>",
+          "description": "<p>Pendant un repos, lorsque vous choisissez de réparer votre armure comme action de temps libre, vos alliés effacent également un emplacement d’armure.</p>",
           "chatDisplay": true,
           "actionType": "action",
           "cost": [],
@@ -30673,7 +30673,7 @@
           "expiry": null,
           "expired": false
         },
-        "description": "<p>While you're wearing armor, gain a +1 bonus to your Armor Score.</p>",
+        "description": "<p>Tant que vous portez une armure, vous gagnez un bonus de +1 à votre Score d’armure.</p>",
         "tint": "#ffffff",
         "transfer": true,
         "statuses": [],
@@ -30713,7 +30713,7 @@
           "type": "effect",
           "_id": "7ilDNYo2nfRZF1cj",
           "systemPath": "actions",
-          "description": "<p>You can peek into the minds of others. <strong>Spend a Hope</strong> to read the vague surface thoughts of a target within Far range.</p>",
+          "description": "<p>Vous pouvez jeter un coup d’œil dans l’esprit des autres. Dépensez un Espoir pour lire les pensées superficielles et imprécises d’une cible à portée Lointaine.</p>",
           "chatDisplay": true,
           "actionType": "action",
           "cost": [
@@ -30756,7 +30756,7 @@
           "type": "attack",
           "_id": "nuYCkANsYDtZJO6f",
           "systemPath": "actions",
-          "description": "<p>Make a<strong> Spellcast Roll </strong>against the target to delve for deeper, more hidden thoughts. On a roll with Fear, the target might, at the GM's discretion, become aware that you're reading their thoughts.</p>",
+          "description": "<p>Effectuez un jet d’Incantation contre la cible pour sonder des pensées plus profondes et mieux dissimulées. Sur un résultat avec Peur, la cible peut, à la discrétion du MJ, prendre conscience que vous lisez ses pensées.</p>",
           "chatDisplay": true,
           "actionType": "action",
           "cost": [],
@@ -30874,7 +30874,7 @@
           "expiry": null,
           "expired": false
         },
-        "description": "<p>Read the vague surface thoughts of a target within Far range. Make a <strong>Spellcast Roll</strong> against the target to delve for deeper, more hidden thoughts.</p>",
+        "description": "<p>Dépensez un Espoir pour lire les pensées superficielles et imprécises d’une cible à portée Lointaine. Effectuez un jet d’Incantation contre la cible pour sonder des pensées plus profondes et mieux dissimulées.</p>",
         "tint": "#ffffff",
         "statuses": [],
         "sort": 0,
@@ -31036,7 +31036,7 @@
           "expiry": null,
           "expired": false
         },
-        "description": "<p>When you take a rest within your own Safe Haven, you can choose an additional downtime move.</p>",
+        "description": "<p>Lorsque vous prenez un repos dans votre propre Havre sûr, vous pouvez choisir une action de temps mort supplémentaire.</p>",
         "tint": "#ffffff",
         "statuses": [],
         "sort": 0,
@@ -31474,7 +31474,7 @@
           "type": "effect",
           "_id": "SE2C9Andtlw3OQLL",
           "systemPath": "actions",
-          "description": "<p>Spend a <strong>Hope</strong> to activate Phantom Retreat where you're currently standing.</p>",
+          "description": "<p>Dépensez 1 Espoir pour activer Retraite fantôme à l’endroit où vous vous trouvez.</p>",
           "chatDisplay": true,
           "actionType": "action",
           "cost": [
@@ -31512,7 +31512,7 @@
           "type": "effect",
           "_id": "1AJRAbFtDx8Pm26q",
           "systemPath": "actions",
-          "description": "<p><strong>Spend another Hope</strong> at any time before your next rest to disappear from where you are and reappear where you were standing when you activated Phantom Retreat. This spell ends after you reappear.</p>",
+          "description": "<p>À tout moment avant votre prochain repos, dépensez 1 Espoir supplémentaire pour disparaître de votre position actuelle et réapparaître à l’endroit où vous vous trouviez lorsque vous avez activé Retraite fantôme. Ce sort prend fin après votre réapparition.</p>",
           "chatDisplay": true,
           "actionType": "action",
           "cost": [
@@ -31654,7 +31654,7 @@
           "type": "effect",
           "_id": "1rLoYS90AZizJujS",
           "systemPath": "actions",
-          "description": "<p>Before you make an action roll, you must <strong>spend a Hope</strong>. If you can't, you revert to your normal form.</p>",
+          "description": "<p>• Vous ne pouvez pas être Entravé. Avant d’effectuer un jet d’action, vous devez dépenser 1 Espoir.</p>",
           "chatDisplay": true,
           "actionType": "action",
           "cost": [
@@ -31779,7 +31779,7 @@
           "expiry": null,
           "expired": false
         },
-        "description": "<ul><li><p>When you succeed on an attack or Spellcast Roll, gain a +10 bonus to the damage roll.</p></li><li><p>When you deal enough damage to defeat a creature within Close range, you absorb them and clear an Armor Slot.</p></li><li><p>You can't be <em>Restrained</em>.</p></li><li><p>Before you make an action roll, you must spend a Hope. If you can't, you revert to your normal form.</p></li></ul>",
+        "description": "<p>• Lorsque vous réussissez une attaque ou un jet d’Incantation, gagnez un bonus de +10 au jet de dégâts. • Lorsque vous infligez suffisamment de dégâts pour vaincre une créature à portée Proche, vous l’absorbez et récupérez 1 emplacement d’Armure. • Vous ne pouvez pas être Entravé. Avant d’effectuer un jet d’action, vous devez dépenser 1 Espoir.</p>",
         "tint": "#ffffff",
         "statuses": [],
         "sort": 0,
@@ -32030,7 +32030,7 @@
           "type": "attack",
           "_id": "IPtULQVFaBoeWDfz",
           "systemPath": "actions",
-          "description": "<p>Make a <strong>Spellcast Roll</strong> against a target within Far range. On a success, you can use your mind to move them anywhere within Far range of their original position.</p>",
+          "description": "<p>Effectuez un jet d’Incantation contre une cible à portée Lointaine. En cas de réussite, vous pouvez la déplacer par la pensée n’importe où à portée Lointaine de sa position d’origine.</p>",
           "chatDisplay": true,
           "actionType": "action",
           "cost": [],
@@ -32083,7 +32083,7 @@
           "type": "attack",
           "_id": "rgDZzUg8ivTTctsM",
           "systemPath": "actions",
-          "description": "<p>You can throw the lifted target as an attack by making an additional Spellcast Roll against the second target you're trying to attack. On a success, deal<strong> d12+4</strong> physical damage to the second target using your Proficiency. This spell then ends.</p>",
+          "description": "<p>Vous pouvez projeter la cible soulevée comme une attaque en effectuant un jet d’Incantation supplémentaire contre la seconde cible que vous tentez d’atteindre. En cas de réussite, infligez à cette seconde cible d12+4 dégâts physiques en utilisant votre Maîtrise. Le sort prend alors fin.</p>",
           "chatDisplay": true,
           "actionType": "action",
           "cost": [],
@@ -32227,7 +32227,7 @@
           "type": "attack",
           "_id": "4cKqwH2jWsYylzI7",
           "systemPath": "actions",
-          "description": "<p>Make a <strong>Spellcast Roll (13)</strong>. Once per rest on a success, you and all creatures touching you can pass through a wall or door within Close range. The effect ends once everyone is on the other side.</p>",
+          "description": "<p>Traversée : Effectuez un jet d’incantation (13). Une fois par repos, en cas de réussite, vous et toutes les créatures qui vous touchent pouvez traverser un mur ou une porte à portée proche. L’effet prend fin lorsque tout le monde est passé de l’autre côté.</p>",
           "chatDisplay": true,
           "actionType": "action",
           "cost": [],
@@ -32280,7 +32280,7 @@
           "type": "attack",
           "_id": "RTUxVXUyRM6mNwUX",
           "systemPath": "actions",
-          "description": "<p>Make a <strong>Spellcast Roll (14)</strong>. Once per long rest on a success, open a gateway to a location in another dimension or plane of existence you've been to before. This gateway lasts until your next rest.</p>",
+          "description": "<p>Porte planaire : Effectuez un jet d’incantation (14). Une fois par repos long, en cas de réussite, ouvrez un passage vers un lieu d’une autre dimension ou d’un autre plan d’existence où vous êtes déjà allé. Ce passage demeure jusqu’à votre prochain repos.</p>",
           "chatDisplay": true,
           "actionType": "action",
           "cost": [],
@@ -32464,7 +32464,7 @@
           "expiry": null,
           "expired": false
         },
-        "description": "<p>When you take Severe damage, you can <strong>mark a Stress</strong> to reduce the severity by one threshold.</p>",
+        "description": "<p>Lorsque vous subissez des dégâts Sévères, vous pouvez marquer 1 Stress pour réduire leur gravité d’un seuil.</p>",
         "tint": "#ffffff",
         "transfer": true,
         "statuses": [],
@@ -32504,7 +32504,7 @@
           "type": "attack",
           "_id": "PjXt807MYg1JbAfO",
           "systemPath": "actions",
-          "description": "<p>Make a <strong>Spellcast Roll (13)</strong> and target a creature other than yourself within Melee range.</p>",
+          "description": "<p>Effectuez un jet d’Incantation (13) en ciblant une créature autre que vous à portée de Corps à corps.</p>",
           "chatDisplay": true,
           "actionType": "action",
           "cost": [],
@@ -32562,7 +32562,7 @@
           "type": "healing",
           "_id": "vmWku5XYmakLdwX2",
           "systemPath": "actions",
-          "description": "<p>On a failure, mark a Stress to clear a Hit Point or a Stress on the target. You can't heal the same target again until your next long rest.</p>",
+          "description": "<p>En cas d’échec, cochez 1 Stress pour lui faire récupérer 1 PV ou effacer 1 Stress. Vous ne pouvez pas soigner de nouveau la même cible avant votre prochain repos long.</p>",
           "chatDisplay": true,
           "actionType": "action",
           "cost": [
@@ -32647,7 +32647,7 @@
           "type": "healing",
           "_id": "FYHLuVtFCR9A6Nvt",
           "systemPath": "actions",
-          "description": "<p>On a success, mark a Stress to clear 2 Hit Points or 2 Stress on the target. You can't heal the same target again until your next long rest.</p>",
+          "description": "<p>En cas de réussite, cochez 1 Stress pour lui faire récupérer 2 PV ou effacer 2 Stress. En cas d’échec, cochez 1 Stress pour lui faire récupérer 1 PV ou effacer 1 Stress. Vous ne pouvez pas soigner de nouveau la même cible avant votre prochain repos long.</p>",
           "chatDisplay": true,
           "actionType": "action",
           "cost": [
@@ -32732,7 +32732,7 @@
           "type": "healing",
           "_id": "8ElTYMjIM7YI6Kb8",
           "systemPath": "actions",
-          "description": "<p>On a failure, mark a Stress to clear a Hit Point or a Stress on the target. You can't heal the same target again until your next long rest.</p>",
+          "description": "<p>En cas d’échec, cochez 1 Stress pour lui faire récupérer 1 PV ou effacer 1 Stress. Vous ne pouvez pas soigner de nouveau la même cible avant votre prochain repos long.</p>",
           "chatDisplay": true,
           "actionType": "action",
           "cost": [
@@ -32817,7 +32817,7 @@
           "type": "healing",
           "_id": "lQMhidLodJn9Nj7e",
           "systemPath": "actions",
-          "description": "<p>On a success, mark a Stress to clear 2 Hit Points or 2 Stress on the target.  You can't heal the same target again until your next long rest.</p>",
+          "description": "<p>En cas de réussite, cochez 1 Stress pour lui faire récupérer 2 PV ou effacer 2 Stress. En cas d’échec, cochez 1 Stress pour lui faire récupérer 1 PV ou effacer 1 Stress. Vous ne pouvez pas soigner de nouveau la même cible avant votre prochain repos long.</p>",
           "chatDisplay": true,
           "actionType": "action",
           "cost": [
@@ -32967,7 +32967,7 @@
           "expiry": null,
           "expired": false
         },
-        "description": "<p>Can't be healed again with Healing Hands by the caster of the Healing Hands until a long rest.</p>",
+        "description": "<p>Vous ne pouvez pas soigner de nouveau la même cible avant votre prochain repos long.</p>",
         "tint": "#ffffff",
         "statuses": [],
         "sort": 0,
@@ -33006,7 +33006,7 @@
           "type": "attack",
           "_id": "qQEeyIGs0wKjW3a1",
           "systemPath": "actions",
-          "description": "<p>You can speak the language of the natural world. When you want to speak to the plants and animals around you, make an <strong>Instinct Roll (12)</strong>. On a success, they'll give you the information they know. On a roll with Fear, their knowledge might be limited or come at a cost.</p>",
+          "description": "<p>Lorsque vous souhaitez parler aux plantes et aux animaux qui vous entourent, effectuez un jet d’Instinct (12). En cas de réussite, ils vous communiquent les informations qu’ils connaissent. Sur un jet avec Peur, leurs connaissances peuvent être limitées ou avoir un coût.</p>",
           "chatDisplay": true,
           "actionType": "action",
           "cost": [],
@@ -33059,7 +33059,7 @@
           "type": "effect",
           "_id": "IIJC4HGdilVv3YMo",
           "systemPath": "actions",
-          "description": "<p>Additionally, before you make a Spellcast Roll while within a natural environment, you can <strong>spend a Hope</strong> to gain a +2 bonus to the roll.</p>",
+          "description": "<p>De plus, avant d’effectuer un jet d’Incantation dans un environnement naturel, vous pouvez dépenser 1 Espoir pour gagner un bonus de +2 au jet.</p>",
           "chatDisplay": true,
           "actionType": "action",
           "cost": [
@@ -33214,7 +33214,7 @@
           "type": "attack",
           "_id": "WqHLiHxP2enmJaHx",
           "systemPath": "actions",
-          "description": "<p>Make a <strong>Spellcast Roll</strong> against a target within Far range. On a success, deal <strong>d6+4</strong> magic damage using your Proficiency.</p>",
+          "description": "<p>Effectuez un jet d’Incantation contre une cible à portée Lointaine. En cas de réussite, infligez d6+4 dégâts magiques en utilisant votre Maîtrise.</p>",
           "chatDisplay": true,
           "actionType": "action",
           "cost": [],
@@ -33296,7 +33296,7 @@
           "type": "effect",
           "_id": "maf0whws7wgRnFsH",
           "systemPath": "actions",
-          "description": "<p>Additionally, <strong>mark 2 or more Stress</strong> to make them permanently <em>Corroded</em>. While a target is <em>Corroded</em>, they gain a -1 penalty to their Difficulty for every 2 Stress you spent. This condition can stack.</p>",
+          "description": "<p>De plus, cochez 2 Stress ou plus pour rendre la cible Corrodée de façon permanente. Tant qu’une cible est Corrodée, elle subit une pénalité de −1 à sa Difficulté pour chaque tranche de 2 Stress dépensés.</p>",
           "chatDisplay": true,
           "actionType": "action",
           "cost": [
@@ -33416,7 +33416,7 @@
           "expiry": null,
           "expired": false
         },
-        "description": "<p>While a target is Corroded, they gain a -1 penalty to their Difficulty for every 2 Stress you spent. This condition can stack.</p>",
+        "description": "<p>Tant qu’une cible est Corrodée, elle subit une pénalité de −1 à sa Difficulté pour chaque tranche de 2 Stress dépensés.</p>",
         "tint": "#ffffff",
         "statuses": [
           "corrode"
@@ -33554,7 +33554,7 @@
         "name": "Avatar Of Terror",
         "disabled": false,
         "img": "icons/magic/unholy/silhouette-evil-horned-giant.webp",
-        "description": "<p>While in this form, you gain a <strong>1d6</strong> bonus to your damage rolls for each Fear in the GM's pool. Additionally, you gain a Hope when the GM spends a Fear to spotlight an adversary within Very Close range.</p><p>Before you make an action roll, you must spend a Hope. If you can't, you revert to your normal form.</p>",
+        "description": "<p>Tant que vous êtes sous cette forme, vous gagnez un bonus de 1d6 à vos jets de dégâts pour chaque Peur dans la réserve du MJ. De plus, vous gagnez 1 Espoir lorsque le MJ dépense 1 Peur pour mettre en lumière un adversaire à portée très proche. Avant d’effectuer un jet d’action, vous devez dépenser 1 Espoir.</p>",
         "transfer": false,
         "statuses": [],
         "system": {
@@ -33785,7 +33785,7 @@
           "expiry": null,
           "expired": false
         },
-        "description": "<p>The target must make an attack against another adversary instead of against you or your allies. Once this attack is over, the target realizes what happened. The next time you cast Words of Discord on them, gain a -5 penalty to the Spellcast Roll.</p>",
+        "description": "<p>En cas de réussite, la cible doit marquer un Stress et effectuer une attaque contre un autre adversaire plutôt que contre vous ou vos alliés. Une fois cette attaque terminée, la cible comprend ce qui s’est passé. La prochaine fois que vous lancez Paroles de discorde sur elle, subissez un malus de −5 au jet d’Incantation.</p>",
         "tint": "#ffffff",
         "statuses": [],
         "sort": 0,
@@ -33918,7 +33918,7 @@
           "_id": "LM5NdHVJ4fL8jtQQ",
           "systemPath": "actions",
           "baseAction": false,
-          "description": "<p>On a roll with Hope, deal <strong>d6+1</strong> magic damage using your Proficiency.</p>",
+          "description": "<p>Effectuez un jet d’incantation contre une cible à portée lointaine. En cas de réussite : Sur un résultat avec Espoir, infligez d6+1 dégâts magiques en utilisant votre Maîtrise.</p>",
           "chatDisplay": true,
           "originItem": {
             "type": "itemCollection"
@@ -33982,7 +33982,7 @@
           "_id": "w1tVBhrsmCEmAiSD",
           "systemPath": "actions",
           "baseAction": false,
-          "description": "<p>On a roll with Fear, deal <strong>d10+1</strong> magic damage using your Proficiency.</p>",
+          "description": "<p>Effectuez un jet d’incantation contre une cible à portée lointaine. En cas de réussite : Sur un résultat avec Espoir, infligez d6+1 dégâts magiques en utilisant votre Maîtrise. Sur un résultat avec Peur, infligez d10+1 dégâts magiques en utilisant votre Maîtrise.</p>",
           "chatDisplay": true,
           "originItem": {
             "type": "itemCollection"
@@ -34057,7 +34057,7 @@
         "name": "Blightning Strike",
         "disabled": false,
         "img": "icons/magic/lightning/bolt-strike-beam-pink.webp",
-        "description": "<p>The target's next successful attack deals half damage.</p>",
+        "description": "<p>La prochaine attaque réussie de la cible inflige la moitié des dégâts.</p>",
         "transfer": false,
         "statuses": [],
         "system": {
@@ -34189,7 +34189,7 @@
           "type": "effect",
           "_id": "W8nmboZ41sij2ybT",
           "systemPath": "actions",
-          "description": "<p>Choose from:</p><ul class=\"\"><li class=\"vertical-card-list-found\"><p>One Stress slot</p></li><li class=\"vertical-card-list-found\"><p>One Hit Point slot</p></li><li class=\"vertical-card-list-found\">+2 bonus to your damage thresholds</li></ul><p>(The effects are applied disabled. You have to manually enable two of them in your character sheet for now.</p>",
+          "description": "<p>Lorsque vous choisissez cette carte, gagnez définitivement deux des bénéfices suivants : 1 emplacement de Stress 1 emplacement de Point de vie +2 à vos seuils de dégâts</p>",
           "chatDisplay": true,
           "actionType": "action",
           "cost": [],
@@ -34413,7 +34413,7 @@
           "expiry": null,
           "expired": false
         },
-        "description": "<p>Permanently add a +2 bonus to your damage thresholds</p>",
+        "description": "<p>1 emplacement de Point de vie +2 à vos seuils de dégâts</p>",
         "tint": "#ffffff",
         "statuses": [],
         "sort": 0,
@@ -34682,7 +34682,7 @@
           "type": "countdown",
           "_id": "ZM96wFu3YuAeUXel",
           "systemPath": "actions",
-          "description": "<p>Activate a <em>Countdown (8)</em>. It ticks down as a consequence the GM chooses. When it triggers, the disguise drops.</p>",
+          "description": "<p>Activez un Compte à rebours (8). Il diminue en conséquence d’un événement choisi par le MJ.</p>",
           "chatDisplay": false,
           "originItem": {
             "type": "itemCollection"
@@ -34796,7 +34796,7 @@
           "expiry": null,
           "expired": false
         },
-        "description": "<p>A disguised creature has advantage on Presence Rolls to avoid scrutiny.</p>",
+        "description": "<p>Une créature déguisée a l’Avantage aux jets de Présence pour éviter d’éveiller les soupçons.</p>",
         "tint": "#ffffff",
         "statuses": [],
         "sort": 0,
@@ -35077,7 +35077,7 @@
           "expiry": null,
           "expired": false
         },
-        "description": "<p>Once per long rest, you can go into a <em>Frenzy</em> until there are no more adversaries within sight.</p><p>While <em>Frenzied</em>, you can't use Armor Slots, and you gain a +10 bonus to your damage rolls and a +8 bonus to your Severe damage threshold.</p>",
+        "description": "<p>Une fois par repos long, vous pouvez entrer en Frénésie jusqu’à ce qu’il n’y ait plus aucun adversaire en vue. Tant que vous êtes en Frénésie, vous ne pouvez pas utiliser vos emplacements d’Armure, et vous gagnez +10 à vos jets de dégâts ainsi que +8 à votre seuil de dégâts Sévères.</p>",
         "tint": "#ffffff",
         "statuses": [],
         "sort": 0,
@@ -35217,7 +35217,7 @@
           "_id": "040T1iKcp84YM2mp",
           "systemPath": "actions",
           "baseAction": false,
-          "description": "<p>Make a <strong>Spellcast Roll (14)</strong>. Once per long rest on a success, you can summon fiends that surround and move with you. Place 8 tokens on this card. When you deal damage to a target within Very Close range, you can spend any number of tokens to add <strong>1d8</strong> for each token spent to your damage roll. Additionally, when you take damage, you can spend any number of tokens to reduce the damage by <strong>1d8</strong> for each token spent. Each time you spend a token, a fiend acts on your behalf, then disappears.</p>",
+          "description": "<p>Effectuez un jet d’incantation (14). Une fois par repos long, en cas de réussite, vous pouvez invoquer des fiélons qui vous entourent et se déplacent avec vous. Placez 8 jetons sur cette carte. Lorsque vous infligez des dégâts à une cible à portée très proche, vous pouvez dépenser autant de jetons que vous le souhaitez pour ajouter 1d8 à votre jet de dégâts pour chaque jeton dépensé. De plus, lorsque vous subissez des dégâts, vous pouvez dépenser autant de jetons que vous le souhaitez pour réduire les dégâts de 1d8 pour chaque jeton dépensé.</p>",
           "chatDisplay": true,
           "originItem": {
             "type": "itemCollection"
@@ -35629,7 +35629,7 @@
           "type": "attack",
           "_id": "KzEDeofyjxeg3pV5",
           "systemPath": "actions",
-          "description": "<p><strong>Mark a Stress</strong> to use this spell as an attack. Make a <strong>Spellcast Roll</strong> against an adversary or group of adversaries within Close range. The erupting stalk lifts targets you succeed against into the air and drops them, dealing <strong>d8</strong> physical damage using your Proficiency.</p>",
+          "description": "<p>Cochez 1 Stress pour utiliser ce sort comme une attaque. Effectuez un jet d’Incantation contre un adversaire ou un groupe d’adversaires à portée Proche. La tige jaillissante soulève dans les airs les cibles contre lesquelles vous avez réussi puis les laisse retomber, infligeant d8 dégâts physiques en utilisant votre Maîtrise.</p>",
           "chatDisplay": true,
           "actionType": "action",
           "cost": [
@@ -35739,7 +35739,7 @@
           "type": "effect",
           "_id": "I6eSBTpuYDU1nEgr",
           "systemPath": "actions",
-          "description": "<p>Once per rest, you can conjure a thick, twisting stalk within Close range that can be easily climbed. Its height can grow up to Far range.</p>",
+          "description": "<p>Une fois par repos, vous pouvez conjurer à portée Proche une épaisse tige torsadée, facile à escalader. Elle peut atteindre une hauteur allant jusqu’à la portée Lointaine.</p>",
           "chatDisplay": true,
           "actionType": "action",
           "cost": [
@@ -35837,7 +35837,7 @@
           "type": "attack",
           "_id": "CTIjJn5xFME0DCWm",
           "systemPath": "actions",
-          "description": "<p>When observing a creature, you can make an <strong>Instinct Roll</strong> against them. On a success, <strong>spend a Hope</strong> and ask the GM for one set of information about the target from the following options:</p><ul class=\"\"><li class=\"vertical-card-list-found\"><p>Their unmarked Hit Points and Stress.</p></li><li class=\"vertical-card-list-found\"><p>Their Difficulty and damage thresholds.</p></li><li class=\"vertical-card-list-found\">Their tactics and standard attack damage dice.</li><li class=\"vertical-card-list-found\"><p>Their features and Experiences.</p></li></ul>",
+          "description": "<p>Lorsque vous observez une créature, vous pouvez effectuer un jet d’Instinct contre elle. En cas de réussite, dépensez 1 Espoir et demandez au MJ un ensemble d’informations parmi les options suivantes : Ses Points de vie et son Stress non marqués. Sa Difficulté et ses seuils de dégâts. Ses tactiques et les dés de dégâts de son attaque standard.</p>",
           "chatDisplay": true,
           "actionType": "action",
           "cost": [
@@ -35899,7 +35899,7 @@
           "type": "effect",
           "_id": "ADRUe0WJktpHFz1o",
           "systemPath": "actions",
-          "description": "<p>On a success, you can <strong>mark a Stress</strong> to remove a Fear from the GM's Fear Pool.</p>",
+          "description": "<p>De plus, en cas de réussite, vous pouvez marquer 1 Stress pour retirer 1 Peur de la réserve de Peur du MJ.</p>",
           "chatDisplay": true,
           "actionType": "action",
           "cost": [
@@ -36379,7 +36379,7 @@
           "expiry": null,
           "expired": false
         },
-        "description": "<p>The next PC to make an attack against that adversary can clear a Stress or gain a Hope.</p>",
+        "description": "<p>Le prochain PJ qui effectue une attaque contre cet adversaire peut effacer un Stress ou gagner un Espoir.</p>",
         "tint": "#ffffff",
         "statuses": [],
         "sort": 0,
@@ -36418,7 +36418,7 @@
           "type": "effect",
           "_id": "pO8E1Bf4GDAU0efI",
           "systemPath": "actions",
-          "description": "<p>Spend a <strong>Hope</strong> to create a single, small floating orb that you can move anywhere within Very Far range. While this spell is active, you can see through the orb as though you're looking out from its position. You can transition between using your own senses and seeing through the orb freely. If the orb takes damage or moves out of range, the spell ends.</p>",
+          "description": "<p>Dépensez 1 Espoir pour créer un petit orbe flottant que vous pouvez déplacer n’importe où à portée Très lointaine. Tant que ce sort est actif, vous pouvez voir à travers l’orbe comme si vous regardiez depuis sa position. Vous pouvez librement alterner entre vos propres sens et la vision de l’orbe. Si l’orbe subit des dégâts ou sort de portée, le sort prend fin.</p>",
           "chatDisplay": true,
           "actionType": "action",
           "cost": [],
@@ -36517,7 +36517,7 @@
           "expiry": null,
           "expired": false
         },
-        "description": "<p>While this spell is active, you can see through the orb as though you're looking out from its position. You can transition between using your own senses and seeing through the orb freely. If the orb takes damage or moves out of range, the spell ends.</p>",
+        "description": "<p>Dépensez 1 Espoir pour créer un petit orbe flottant que vous pouvez déplacer n’importe où à portée Très lointaine. Tant que ce sort est actif, vous pouvez voir à travers l’orbe comme si vous regardiez depuis sa position. Vous pouvez librement alterner entre vos propres sens et la vision de l’orbe. Si l’orbe subit des dégâts ou sort de portée, le sort prend fin.</p>",
         "tint": "#ffffff",
         "statuses": [],
         "sort": 0,
@@ -36556,7 +36556,7 @@
           "type": "attack",
           "_id": "znSDInMjOlFZn7Vp",
           "systemPath": "actions",
-          "description": "<p>Make a <strong>Spellcast Roll (20)</strong>. On a success, restore one creature who has been dead no longer than 100 years to full strength.</p>",
+          "description": "<p>Effectuez un jet d’Incantation (20). En cas de réussite, ramenez à pleine puissance une créature morte depuis au maximum 100 ans.</p>",
           "chatDisplay": true,
           "actionType": "action",
           "cost": [],
@@ -36609,7 +36609,7 @@
           "type": "attack",
           "_id": "NurXUfoPDSVptejR",
           "systemPath": "actions",
-          "description": "<p>Then roll a <strong>d6</strong>. On a result of 5 or lower, place this card in your vault permanently. On a failure, you can't cast Resurrection again for a week.</p>",
+          "description": "<p>Effectuez un jet d’Incantation (20). En cas de réussite, ramenez à pleine puissance une créature morte depuis au maximum 100 ans. Lancez ensuite un d6. Sur un résultat de 5 ou moins, placez définitivement cette carte dans votre réserve. En cas d’échec, vous ne pouvez pas lancer Résurrection de nouveau pendant une semaine.</p>",
           "chatDisplay": true,
           "actionType": "action",
           "cost": [],

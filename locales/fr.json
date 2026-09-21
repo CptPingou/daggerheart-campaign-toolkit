@@ -3,212 +3,11 @@
   "locale": "fr",
   "fallback": "en",
   "entries": {
-    "srd-2.0.armor.mage-robes": {
-      "name": "Robes de mage"
-    },
-    "srd-2.0.armor.gambeson-armor": {
-      "name": "Gambison"
-    },
-    "srd-2.0.armor.brigandine-armor": {
-      "name": "Brigandine"
-    },
-    "srd-2.0.armor.leather-armor": {
-      "name": "Armure de cuir"
-    },
-    "srd-2.0.armor.scale-mail-armor": {
-      "name": "Armure d’écailles"
-    },
-    "srd-2.0.armor.chainmail-armor": {
-      "name": "Cotte de mailles"
-    },
-    "srd-2.0.armor.banded-armor": {
-      "name": "Armure à bandes"
-    },
-    "srd-2.0.armor.full-plate-armor": {
-      "name": "Armure de plates complète"
-    },
-    "srd-2.0.armor.improved-mage-robes": {
-      "name": "Amélioré : Robes de mage"
-    },
-    "srd-2.0.armor.improved-gambeson-armor": {
-      "name": "Amélioré : Gambison"
-    },
-    "srd-2.0.armor.improved-brigandine-armor": {
-      "name": "Amélioré : Brigandine"
-    },
-    "srd-2.0.armor.improved-leather-armor": {
-      "name": "Amélioré : Armure de cuir"
-    },
-    "srd-2.0.armor.improved-scale-mail-armor": {
-      "name": "Amélioré : Armure d’écailles"
-    },
-    "srd-2.0.armor.improved-chainmail-armor": {
-      "name": "Amélioré : Cotte de mailles"
-    },
-    "srd-2.0.armor.improved-banded-armor": {
-      "name": "Amélioré : Armure à bandes"
-    },
-    "srd-2.0.armor.improved-full-plate-armor": {
-      "name": "Amélioré : Armure de plates complète"
-    },
-    "srd-2.0.armor.enchanters-robes": {
-      "name": "Robes d’enchanteur"
-    },
-    "srd-2.0.armor.hawkguards-mantle": {
-      "name": "Manteau du Garde-faucon"
-    },
-    "srd-2.0.armor.spidersilk-tunic": {
-      "name": "Tunique en soie d’araignée"
-    },
-    "srd-2.0.armor.stormthread-habit": {
-      "name": "Habit en fil d’orage"
-    },
-    "srd-2.0.armor.elundrian-chain-armor": {
-      "name": "Cotte de mailles elundrienne"
-    },
-    "srd-2.0.armor.harrowbone-armor": {
-      "name": "Armure d’os de Harrow"
-    },
-    "srd-2.0.armor.irontree-breastplate-armor": {
-      "name": "Cuirasse d’Arbrefer"
-    },
-    "srd-2.0.armor.runetan-floating-armor": {
-      "name": "Armure flottante runetane"
-    },
-    "srd-2.0.armor.tyris-soft-armor": {
-      "name": "Armure souple de Tyris"
-    },
-    "srd-2.0.armor.wyrdwood-splint-armor": {
-      "name": "Armure à attelles de Wyrdwood"
-    },
-    "srd-2.0.armor.rosewild-armor": {
-      "name": "Armure de Rosewild"
-    },
-    "srd-2.0.armor.trollhide-cuirass": {
-      "name": "Cuirasse en peau de troll"
-    },
-    "srd-2.0.armor.gilded-sunplate": {
-      "name": "Plate solaire dorée"
-    },
-    "srd-2.0.armor.advanced-mage-robes": {
-      "name": "Avancé : Robes de mage"
-    },
-    "srd-2.0.armor.advanced-gambeson-armor": {
-      "name": "Avancé : Gambison"
-    },
-    "srd-2.0.armor.advanced-brigandine-armor": {
-      "name": "Avancé : Brigandine"
-    },
-    "srd-2.0.armor.advanced-leather-armor": {
-      "name": "Avancé : Armure de cuir"
-    },
-    "srd-2.0.armor.advanced-scale-mail-armor": {
-      "name": "Avancé : Armure d’écailles"
-    },
-    "srd-2.0.armor.advanced-chainmail-armor": {
-      "name": "Avancé : Cotte de mailles"
-    },
-    "srd-2.0.armor.advanced-banded-armor": {
-      "name": "Avancé : Armure à bandes"
-    },
-    "srd-2.0.armor.advanced-full-plate-armor": {
-      "name": "Avancé : Armure de plates complète"
-    },
-    "srd-2.0.armor.granminsters-finery": {
-      "name": "Atours de Granminster"
-    },
-    "srd-2.0.armor.spiked-plate-armor": {
-      "name": "Armure de plates hérissée"
-    },
-    "srd-2.0.armor.astral-raiment": {
-      "name": "Parure astrale"
-    },
-    "srd-2.0.armor.bellamoi-fine-armor": {
-      "name": "Armure raffinée de Bellamoi"
-    },
-    "srd-2.0.armor.cloverweave-cloak": {
-      "name": "Cape en tissage de trèfle"
-    },
-    "srd-2.0.armor.dragonscale-armor": {
-      "name": "Armure d’écailles de dragon"
-    },
-    "srd-2.0.armor.skywardens-lamellar": {
-      "name": "Lamellaire du Garde-ciel"
-    },
-    "srd-2.0.armor.bloodstone-plate-armor": {
-      "name": "Armure de plates en pierre de sang"
-    },
-    "srd-2.0.armor.deep-forged-coral-armor": {
-      "name": "Armure de corail forgée des profondeurs"
-    },
-    "srd-2.0.armor.bladefare-armor": {
-      "name": "Armure Bladefare"
-    },
-    "srd-2.0.armor.monetts-cloak": {
-      "name": "Cape de Monett"
-    },
-    "srd-2.0.armor.runes-of-fortification": {
-      "name": "Runes de fortification"
-    },
-    "srd-2.0.armor.legendary-mage-robes": {
-      "name": "Légendaire : Robes de mage"
-    },
-    "srd-2.0.armor.legendary-gambeson-armor": {
-      "name": "Légendaire : Gambison"
-    },
-    "srd-2.0.armor.legendary-brigandine-armor": {
-      "name": "Légendaire : Brigandine"
-    },
-    "srd-2.0.armor.legendary-leather-armor": {
-      "name": "Légendaire : Armure de cuir"
-    },
-    "srd-2.0.armor.legendary-scale-mail-armor": {
-      "name": "Légendaire : Armure d’écailles"
-    },
-    "srd-2.0.armor.legendary-chainmail-armor": {
-      "name": "Légendaire : Cotte de mailles"
-    },
-    "srd-2.0.armor.legendary-banded-armor": {
-      "name": "Légendaire : Armure à bandes"
-    },
-    "srd-2.0.armor.legendary-full-plate-armor": {
-      "name": "Légendaire : Armure de plates complète"
-    },
-    "srd-2.0.armor.full-fortified-armor": {
-      "name": "Armure fortifiée complète"
-    },
-    "srd-2.0.armor.channeling-armor": {
-      "name": "Armure de canalisation"
-    },
-    "srd-2.0.armor.darkweave-shroud": {
-      "name": "Linceul en tissage sombre"
-    },
-    "srd-2.0.armor.emberwoven-armor": {
-      "name": "Armure tissée de braises"
-    },
-    "srd-2.0.armor.godbound-laminar": {
-      "name": "Laminaire liée aux dieux"
-    },
-    "srd-2.0.armor.veritas-opal-armor": {
-      "name": "Armure d’opale Veritas"
-    },
-    "srd-2.0.armor.circle-forged-dreadplate": {
-      "name": "Dreadplate forgée du Cercle"
-    },
-    "srd-2.0.armor.rune-forged-exosuit": {
-      "name": "Exosquelette forgé de runes"
-    },
-    "srd-2.0.armor.dunamis-silkchain": {
-      "name": "Cotte de soie Dunamis"
-    },
-    "srd-2.0.armor.hallowed-heroplate": {
-      "name": "Plate héroïque consacrée"
-    },
-    "srd-2.0.armor.resonant-harness": {
-      "name": "Harnais résonant"
-    },
-    "srd-2.0.armor.savior-chainmail": {
-      "name": "Cotte de mailles du Sauveur"
+    "srd-2.0.adversary.bear": {
+      "name": "Ours",
+      "system": {
+        "motivesAndTactics": "Grimper, défendre son territoire, rouer de coups, traquer"
+      }
     },
     "srd-2.0.ancestry.aetheris": {
       "description": "<p>Les Aetheris sont des humanoïdes que l'on reconnaît aisément à leurs ailes et à leurs marques sacrées.</p>",
@@ -562,6 +361,409 @@
       "description": "<p>Une fois par repos, lorsque vous avez accès à une petite quantité d’eau, vous pouvez <strong>marquer 1 Stress</strong> pour effacer 1 PV sur vous-même ou un allié à portée Très proche.</p>",
       "system.actions.xIWHvlsLjznMLrGX.name": "Marquer du Stress"
     },
+    "srd-2.0.armor.advanced-banded-armor": {
+      "name": "Avancé : Armure à bandes"
+    },
+    "srd-2.0.armor.advanced-brigandine-armor": {
+      "name": "Avancé : Brigandine"
+    },
+    "srd-2.0.armor.advanced-chainmail-armor": {
+      "name": "Avancé : Cotte de mailles"
+    },
+    "srd-2.0.armor.advanced-full-plate-armor": {
+      "name": "Avancé : Armure de plates complète"
+    },
+    "srd-2.0.armor.advanced-gambeson-armor": {
+      "name": "Avancé : Gambison"
+    },
+    "srd-2.0.armor.advanced-leather-armor": {
+      "name": "Avancé : Armure de cuir"
+    },
+    "srd-2.0.armor.advanced-mage-robes": {
+      "name": "Avancé : Robes de mage"
+    },
+    "srd-2.0.armor.advanced-scale-mail-armor": {
+      "name": "Avancé : Armure d’écailles"
+    },
+    "srd-2.0.armor.astral-raiment": {
+      "name": "Parure astrale"
+    },
+    "srd-2.0.armor.banded-armor": {
+      "name": "Armure à bandes"
+    },
+    "srd-2.0.armor.bellamoi-fine-armor": {
+      "name": "Armure raffinée de Bellamoi"
+    },
+    "srd-2.0.armor.bladefare-armor": {
+      "name": "Armure Bladefare"
+    },
+    "srd-2.0.armor.bloodstone-plate-armor": {
+      "name": "Armure de plates en pierre de sang"
+    },
+    "srd-2.0.armor.brigandine-armor": {
+      "name": "Brigandine"
+    },
+    "srd-2.0.armor.chainmail-armor": {
+      "name": "Cotte de mailles"
+    },
+    "srd-2.0.armor.channeling-armor": {
+      "name": "Armure de canalisation"
+    },
+    "srd-2.0.armor.circle-forged-dreadplate": {
+      "name": "Dreadplate forgée du Cercle"
+    },
+    "srd-2.0.armor.cloverweave-cloak": {
+      "name": "Cape en tissage de trèfle"
+    },
+    "srd-2.0.armor.darkweave-shroud": {
+      "name": "Linceul en tissage sombre"
+    },
+    "srd-2.0.armor.deep-forged-coral-armor": {
+      "name": "Armure de corail forgée des profondeurs"
+    },
+    "srd-2.0.armor.dragonscale-armor": {
+      "name": "Armure d’écailles de dragon"
+    },
+    "srd-2.0.armor.dunamis-silkchain": {
+      "name": "Cotte de soie Dunamis"
+    },
+    "srd-2.0.armor.elundrian-chain-armor": {
+      "name": "Cotte de mailles elundrienne"
+    },
+    "srd-2.0.armor.emberwoven-armor": {
+      "name": "Armure tissée de braises"
+    },
+    "srd-2.0.armor.enchanters-robes": {
+      "name": "Robes d’enchanteur"
+    },
+    "srd-2.0.armor.full-fortified-armor": {
+      "name": "Armure fortifiée complète"
+    },
+    "srd-2.0.armor.full-plate-armor": {
+      "name": "Armure de plates complète"
+    },
+    "srd-2.0.armor.gambeson-armor": {
+      "name": "Gambison"
+    },
+    "srd-2.0.armor.gilded-sunplate": {
+      "name": "Plate solaire dorée"
+    },
+    "srd-2.0.armor.godbound-laminar": {
+      "name": "Laminaire liée aux dieux"
+    },
+    "srd-2.0.armor.granminsters-finery": {
+      "name": "Atours de Granminster"
+    },
+    "srd-2.0.armor.hallowed-heroplate": {
+      "name": "Plate héroïque consacrée"
+    },
+    "srd-2.0.armor.harrowbone-armor": {
+      "name": "Armure d’os de Harrow"
+    },
+    "srd-2.0.armor.hawkguards-mantle": {
+      "name": "Manteau du Garde-faucon"
+    },
+    "srd-2.0.armor.improved-banded-armor": {
+      "name": "Amélioré : Armure à bandes"
+    },
+    "srd-2.0.armor.improved-brigandine-armor": {
+      "name": "Amélioré : Brigandine"
+    },
+    "srd-2.0.armor.improved-chainmail-armor": {
+      "name": "Amélioré : Cotte de mailles"
+    },
+    "srd-2.0.armor.improved-full-plate-armor": {
+      "name": "Amélioré : Armure de plates complète"
+    },
+    "srd-2.0.armor.improved-gambeson-armor": {
+      "name": "Amélioré : Gambison"
+    },
+    "srd-2.0.armor.improved-leather-armor": {
+      "name": "Amélioré : Armure de cuir"
+    },
+    "srd-2.0.armor.improved-mage-robes": {
+      "name": "Amélioré : Robes de mage"
+    },
+    "srd-2.0.armor.improved-scale-mail-armor": {
+      "name": "Amélioré : Armure d’écailles"
+    },
+    "srd-2.0.armor.irontree-breastplate-armor": {
+      "name": "Cuirasse d’Arbrefer"
+    },
+    "srd-2.0.armor.leather-armor": {
+      "name": "Armure de cuir"
+    },
+    "srd-2.0.armor.legendary-banded-armor": {
+      "name": "Légendaire : Armure à bandes"
+    },
+    "srd-2.0.armor.legendary-brigandine-armor": {
+      "name": "Légendaire : Brigandine"
+    },
+    "srd-2.0.armor.legendary-chainmail-armor": {
+      "name": "Légendaire : Cotte de mailles"
+    },
+    "srd-2.0.armor.legendary-full-plate-armor": {
+      "name": "Légendaire : Armure de plates complète"
+    },
+    "srd-2.0.armor.legendary-gambeson-armor": {
+      "name": "Légendaire : Gambison"
+    },
+    "srd-2.0.armor.legendary-leather-armor": {
+      "name": "Légendaire : Armure de cuir"
+    },
+    "srd-2.0.armor.legendary-mage-robes": {
+      "name": "Légendaire : Robes de mage"
+    },
+    "srd-2.0.armor.legendary-scale-mail-armor": {
+      "name": "Légendaire : Armure d’écailles"
+    },
+    "srd-2.0.armor.mage-robes": {
+      "name": "Robes de mage"
+    },
+    "srd-2.0.armor.monetts-cloak": {
+      "name": "Cape de Monett"
+    },
+    "srd-2.0.armor.resonant-harness": {
+      "name": "Harnais résonant"
+    },
+    "srd-2.0.armor.rosewild-armor": {
+      "name": "Armure de Rosewild"
+    },
+    "srd-2.0.armor.rune-forged-exosuit": {
+      "name": "Exosquelette forgé de runes"
+    },
+    "srd-2.0.armor.runes-of-fortification": {
+      "name": "Runes de fortification"
+    },
+    "srd-2.0.armor.runetan-floating-armor": {
+      "name": "Armure flottante runetane"
+    },
+    "srd-2.0.armor.savior-chainmail": {
+      "name": "Cotte de mailles du Sauveur"
+    },
+    "srd-2.0.armor.scale-mail-armor": {
+      "name": "Armure d’écailles"
+    },
+    "srd-2.0.armor.skywardens-lamellar": {
+      "name": "Lamellaire du Garde-ciel"
+    },
+    "srd-2.0.armor.spidersilk-tunic": {
+      "name": "Tunique en soie d’araignée"
+    },
+    "srd-2.0.armor.spiked-plate-armor": {
+      "name": "Armure de plates hérissée"
+    },
+    "srd-2.0.armor.stormthread-habit": {
+      "name": "Habit en fil d’orage"
+    },
+    "srd-2.0.armor.trollhide-cuirass": {
+      "name": "Cuirasse en peau de troll"
+    },
+    "srd-2.0.armor.tyris-soft-armor": {
+      "name": "Armure souple de Tyris"
+    },
+    "srd-2.0.armor.veritas-opal-armor": {
+      "name": "Armure d’opale Veritas"
+    },
+    "srd-2.0.armor.wyrdwood-splint-armor": {
+      "name": "Armure à attelles de Wyrdwood"
+    },
+    "srd-2.0.class-feature.assassin.deadly-determination": {
+      "name": "Détermination mortelle",
+      "description": "<p><strong>Dépensez 3 Espoir</strong> pour effacer 2 Stress.</p>"
+    },
+    "srd-2.0.class-feature.assassin.get-in-and-get-out": {
+      "name": "Entrer et ressortir",
+      "description": "<p><strong>Dépensez 1 Espoir</strong> pour demander au MJ un moyen rapide ou discret d’entrer dans un lieu visible ou d’en sortir. Le prochain jet effectué pour exploiter cette information bénéficie d’un avantage.</p>"
+    },
+    "srd-2.0.class-feature.assassin.marked-for-death": {
+      "name": "Marqué pour la mort",
+      "description": "<p>Lorsque vous réussissez une attaque avec une arme, vous pouvez <strong>marquer 1 Stress</strong> pour désigner la cible comme <em>Marquée pour la mort</em>. Lorsque vous lui infligez des dégâts, ajoutez au jet de dégâts un nombre de <strong>d4</strong> égal à votre rang.</p><p>Un seul adversaire peut être <em>Marqué pour la mort</em> à la fois. Cet état persiste jusqu’à ce que vous preniez un repos, que l’adversaire soit vaincu ou que le MJ dépense un nombre de Peurs égal à votre rang pour y mettre fin.</p>"
+    },
+    "srd-2.0.class-feature.bard.make-a-scene": {
+      "name": "Faire une scène",
+      "description": "<p><strong>Dépensez 3 Espoir</strong> pour <strong>distraire temporairement une cible</strong> à portée Proche, ce qui lui inflige un <strong>malus de −2</strong> à sa Difficulté.</p>"
+    },
+    "srd-2.0.class-feature.bard.rally": {
+      "name": "Ralliement",
+      "description": "<p>Une fois par session, décrivez comment vous ralliez le groupe et accordez-vous, ainsi qu’à chacun de vos alliés, un dé de Ralliement. Au niveau 1, ce dé est un d6. Un PJ peut dépenser son dé de Ralliement pour le lancer et ajouter le résultat à un jet d’action, de réaction ou de dégâts, ou pour effacer un nombre de Stress égal au résultat. À la fin de chaque session, retirez tous les dés de Ralliement non dépensés. Au niveau 5, votre dé de Ralliement devient un d8.</p>"
+    },
+    "srd-2.0.class-feature.brawler.combo-strike": {
+      "name": "Enchaînement",
+      "description": "<p>Après avoir lancé les dégâts d’une attaque réussie avec une arme de Corps à corps, vous pouvez <strong>marquer 1 Stress</strong> pour commencer un enchaînement. Lancez votre dé d’Enchaînement et notez le résultat, puis continuez à le lancer jusqu’à obtenir un résultat inférieur au précédent. Cette attaque inflige des dégâts supplémentaires égaux à la somme de tous les résultats obtenus. Ces résultats ne peuvent être modifiés d’aucune manière.</p><p>Votre dé d’Enchaînement commence comme un <strong>d4</strong>. Une fois par rang, vous pouvez l’augmenter d’un cran en choisissant l’option correspondante lors d’une progression de niveau.</p>"
+    },
+    "srd-2.0.class-feature.brawler.i-am-the-weapon": {
+      "name": "Je suis l’arme",
+      "description": "<p>Vos attaques à mains nues sont aussi puissantes que n’importe quelle lame. Tant que vous n’avez aucune autre arme active, vous êtes équipé d’une arme principale appelée Frappe du bagarreur. Elle utilise le trait de votre choix, possède une portée Corps à corps et inflige <strong>d8+d6</strong> dégâts physiques selon votre Maîtrise ; le <strong>d8</strong> et le <strong>d6</strong> évoluent tous deux avec celle-ci. Tant que cette arme est active, vous gagnez un bonus de +1 à votre Évasion.</p>"
+    },
+    "srd-2.0.class-feature.brawler.square-up": {
+      "name": "Face-à-face",
+      "description": "<p><strong>Dépensez 3 Espoir</strong> pour intimider une cible à portée Proche et la rendre temporairement <em>Vulnérable</em>.</p>"
+    },
+    "srd-2.0.class-feature.druid.beastform": {
+      "name": "Forme bestiale",
+      "description": "<p>Marquez 1 Stress pour vous transformer par magie en une créature de votre niveau ou inférieur choisie dans la liste des Formes bestiales. Vous pouvez mettre fin à cette transformation à tout moment. Sous cette forme, vous ne pouvez ni utiliser d’armes ni lancer de sorts provenant de cartes de domaine, mais vous conservez l’accès à vos autres capacités et spécificités. Les sorts lancés avant votre transformation restent actifs pendant leur durée normale, et vous pouvez toujours parler et communiquer. Vous gagnez également les spécificités de la Forme bestiale, ajoutez son bonus d’Évasion à votre Évasion et utilisez le trait indiqué dans son profil pour vos attaques. Votre armure fusionne avec votre corps : vous continuez à marquer normalement ses emplacements, qui restent marqués lorsque vous reprenez votre forme habituelle. Si vous marquez votre dernier PV, la transformation prend automatiquement fin.</p>"
+    },
+    "srd-2.0.class-feature.druid.evolution": {
+      "name": "Évolution",
+      "description": "<p><strong>Dépensez 3 Espoir</strong> pour adopter une Forme bestiale sans marquer de Stress. Lorsque vous le faites, choisissez un trait : il bénéficie d’un bonus de +1 jusqu’à ce que vous quittiez cette Forme bestiale.</p>"
+    },
+    "srd-2.0.class-feature.druid.wildtouch": {
+      "name": "Toucher sauvage",
+      "description": "<p>Vous pouvez produire à volonté de petits effets naturels, subtils et inoffensifs : faire éclore rapidement une fleur, soulever une légère brise ou allumer un feu de camp, par exemple.</p>"
+    },
+    "srd-2.0.class-feature.guardian.frontline-tank": {
+      "name": "Rempart de première ligne",
+      "description": "<p><strong>Dépensez 3 Espoir</strong> pour effacer 2 emplacements d’Armure.</p>"
+    },
+    "srd-2.0.class-feature.guardian.unstoppable": {
+      "name": "Inarrêtable",
+      "description": "<p>Une fois par repos long, vous pouvez devenir Inarrêtable et gagner un dé Inarrêtable. Au niveau 1, il s’agit d’un d4. Placez-le sur votre fiche de personnage, face 1 visible. Après avoir effectué un jet de dégâts qui fait perdre au moins 1 PV à une cible, augmentez sa valeur de 1. Lorsque sa valeur devrait dépasser son maximum, ou lorsque la scène prend fin, retirez le dé et vous cessez d’être Inarrêtable. Au niveau 5, ce dé devient un d6. Tant que vous êtes Inarrêtable, vous bénéficiez des effets suivants :</p><ul><li><p>Vous réduisez d’un seuil la gravité des dégâts physiques : Grave devient Majeure, Majeure devient Mineure et Mineure devient Nulle.</p></li><li><p>Vous ajoutez la valeur actuelle du dé Inarrêtable à vos jets de dégâts.</p></li><li><p>Vous ne pouvez être ni Entravé ni Vulnérable.</p></li></ul><blockquote><p>Conseil : si votre dé Inarrêtable est un d4 affichant 4, retirez-le la prochaine fois que vous devriez l’augmenter. S’il est devenu un d6 et affiche 4, tournez-le sur 5 ; vous ne le retirerez que lorsqu’il devrait dépasser 6.</p></blockquote>"
+    },
+    "srd-2.0.class-feature.ranger.hold-them-off": {
+      "name": "Retenez-les",
+      "description": "<p>Lorsque vous réussissez une attaque avec une arme, <strong>dépensez 3 Espoir</strong> pour appliquer le même résultat de jet à deux adversaires supplémentaires situés à portée de l’attaque.</p>"
+    },
+    "srd-2.0.class-feature.ranger.rangers-focus": {
+      "name": "Focalisation du rôdeur",
+      "description": "<p>Dépensez 1 Espoir et effectuez une attaque contre une cible. En cas de réussite, infligez les dégâts normaux de l’attaque et faites temporairement de cette cible votre Focalisation. Jusqu’à ce que cette spécificité prenne fin ou que vous choisissiez une autre créature, vous bénéficiez des effets suivants contre votre Focalisation :</p><ul><li><p>Vous savez précisément dans quelle direction elle se trouve.</p></li><li><p>Lorsque vous lui infligez des dégâts, elle doit marquer 1 Stress.</p></li><li><p>Lorsque vous échouez à une attaque contre elle, vous pouvez mettre fin à cette spécificité pour relancer vos dés de Dualité.</p></li></ul>"
+    },
+    "srd-2.0.class-feature.rogue.cloaked": {
+      "name": "Dissimulé",
+      "description": "<p>Chaque fois que vous devriez être Caché, vous êtes à la place Dissimulé. En plus des bénéfices de l’état Caché, vous restez invisible tant que vous demeurez immobile lorsqu’un adversaire se déplace jusqu’à un endroit d’où il devrait normalement vous voir. Après avoir effectué une attaque ou terminé un déplacement dans la ligne de vue d’un adversaire, vous n’êtes plus Dissimulé.</p>"
+    },
+    "srd-2.0.class-feature.rogue.rogues-dodge": {
+      "name": "Esquive du roublard",
+      "description": "<p><strong>Dépensez 3 Espoir</strong> pour gagner un bonus de +2 à votre Évasion jusqu’à la prochaine attaque réussie contre vous. Si aucune attaque ne réussit, ce bonus persiste jusqu’à votre prochain repos.</p>"
+    },
+    "srd-2.0.class-feature.rogue.sneak-attack": {
+      "name": "Attaque sournoise",
+      "description": "<p>Lorsque vous réussissez une attaque en étant Dissimulé, ou lorsqu’un allié se trouve à portée Corps à corps de votre cible, ajoutez à votre jet de dégâts un nombre de d6 égal à votre rang.</p><ul><li><p>Niveau 1 → rang 1</p></li><li><p>Niveaux 2 à 4 → rang 2</p></li><li><p>Niveaux 5 à 7 → rang 3</p></li><li><p>Niveaux 8 à 10 → rang 4</p></li></ul>"
+    },
+    "srd-2.0.class-feature.seraph.life-support": {
+      "name": "Soutien vital",
+      "description": "<p><strong>Dépensez 3 Espoir</strong> pour effacer 1 PV sur un allié à portée Proche.</p>"
+    },
+    "srd-2.0.class-feature.seraph.prayer-dice": {
+      "name": "Dés de prière",
+      "description": "<p>Au début de chaque session, lancez un nombre de d4 égal à votre trait d’Incantation de sous-classe et placez-les dans l’espace prévu sur votre fiche de personnage. Ce sont vos dés de prière. Vous pouvez dépenser autant de ces dés que vous le souhaitez pour vous aider ou aider un allié à portée Loin. Utilisez la valeur d’un dé dépensé pour réduire des dégâts subis, l’ajouter au résultat d’un jet après son lancer ou gagner autant d’Espoir. À la fin de chaque session, retirez tous les dés de prière non dépensés.</p>"
+    },
+    "srd-2.0.class-feature.sorcerer.arcane-sense": {
+      "name": "Sens arcanique",
+      "description": "<p>Vous pouvez ressentir la présence de personnes et d’objets magiques à portée Proche.</p>"
+    },
+    "srd-2.0.class-feature.sorcerer.channel-raw-power": {
+      "name": "Canaliser la puissance brute",
+      "description": "<p>Une fois par repos long, vous pouvez placer une carte de domaine de votre équipement actif dans votre réserve, puis choisir l’un des effets suivants :</p><ul><li><p>Gagner un nombre d’Espoir égal au niveau de la carte.</p></li><li><p>Renforcer un sort infligeant des dégâts et gagner un bonus au jet de dégâts égal au double du niveau de la carte.</p></li></ul>"
+    },
+    "srd-2.0.class-feature.sorcerer.minor-illusion": {
+      "name": "Illusion mineure",
+      "description": "<p>Effectuez un <strong>jet d’Incantation (10)</strong>. En cas de réussite, vous créez à portée Proche une petite illusion visuelle qui ne dépasse pas votre taille. Cette illusion paraît convaincante à toute personne située à portée Proche ou au-delà.</p>"
+    },
+    "srd-2.0.class-feature.sorcerer.volatile-magic": {
+      "name": "Magie volatile",
+      "description": "<p><strong>Dépensez 3 Espoir</strong> pour relancer autant de dés de dégâts que vous le souhaitez lors d’une attaque qui inflige des dégâts magiques.</p>"
+    },
+    "srd-2.0.class-feature.warlock.favor": {
+      "name": "Faveur",
+      "description": "<p>Vous commencez avec 3 Faveurs. Vous pouvez utiliser une action de temps libre pour rendre hommage à votre patron : décrivez comment, puis gagnez un nombre de Faveurs égal à votre trait d’Incantation. De plus, lorsque vous réussissez un jet d’action avec Espoir, vous pouvez choisir de gagner 1 Faveur au lieu de 1 Espoir.</p>"
+    },
+    "srd-2.0.class-feature.warlock.patrons-boon": {
+      "name": "Don du patron",
+      "description": "<p>Lorsque vous échouez à un jet, vous pouvez <strong>dépenser 3 Espoir</strong> pour le relancer avec un avantage.</p>"
+    },
+    "srd-2.0.class-feature.warlock.patrons-pact": {
+      "name": "Pacte du patron",
+      "description": "<p>Vous vous êtes lié à une entité surnaturelle — dieu, fée ou démon, par exemple — en échange de pouvoir. Inscrivez son nom sur votre fiche de personnage, puis déterminez avec le MJ sa sphère d’influence, comme la Nature, le Chaos, la Sagesse, la Malice, l’Amour, la Guerre, la Justice ou la Mort. Avant d’effectuer un jet d’action en rapport avec cette sphère, vous pouvez <strong>dépenser 1 Faveur</strong> pour demander son aide : lancez votre dé de Patron et ajoutez son résultat au total. Votre dé de Patron commence comme un <strong>[[/r d6]]</strong> et devient un <strong>[[/r d8]]</strong> au niveau 5.</p>"
+    },
+    "srd-2.0.class-feature.warrior.attack-of-opportunity": {
+      "name": "Attaque d’opportunité",
+      "description": "<p>Lorsqu’un adversaire à portée Corps à corps tente de quitter cette portée, effectuez un jet de réaction avec le trait de votre choix contre sa Difficulté. En cas de réussite, choisissez un effet ci-dessous ; choisissez-en deux en cas de réussite critique :</p><ul><li><p>Il ne peut pas quitter sa position.</p></li><li><p>Vous lui infligez des dégâts égaux à ceux de votre arme principale.</p></li><li><p>Vous vous déplacez avec lui.</p></li></ul>"
+    },
+    "srd-2.0.class-feature.warrior.combat-training": {
+      "name": "Entraînement au combat",
+      "description": "<p>Vous ignorez l’Encombrement lorsque vous équipez des armes. Lorsque vous infligez des dégâts physiques, ajoutez à votre jet de dégâts un bonus égal à votre niveau.</p>"
+    },
+    "srd-2.0.class-feature.warrior.no-mercy": {
+      "name": "Sans pitié",
+      "description": "<p><strong>Dépensez 3 Espoir</strong> pour gagner un bonus de +1 à vos jets d’attaque jusqu’à votre prochain repos.</p>"
+    },
+    "srd-2.0.class-feature.witch.commune": {
+      "name": "Communion",
+      "description": "<p>Une fois par repos long, pendant un moment de calme, vous pouvez communier avec un ancêtre, une divinité, un esprit ou une entité d’un autre monde. Posez-lui une question, puis lancez un nombre de <strong>[[/r d6]]{d6}</strong> égal à votre trait d’Incantation. Choisissez l’un des résultats et appliquez l’effet correspondant :</p><ul><li><p>1–3 : vous percevez une saveur, une odeur ou une sensation en rapport avec la réponse.</p></li><li><p>4–5 : vous entendez des sons ou voyez une vision en rapport avec la réponse.</p></li><li><p>6 : vous vivez psychiquement une scène en rapport avec la réponse comme si vous y étiez.</p></li></ul>"
+    },
+    "srd-2.0.class-feature.witch.hex": {
+      "name": "Maléfice",
+      "description": "<p><strong>Marquez 1 Stress</strong> pour placer temporairement un <em>Maléfice</em> sur une cible à portée Loin. Tant qu’elle est <em>Maudite</em>, elle subit à ses jets de dégâts et à sa Difficulté un malus égal à votre rang. Vous pouvez maintenir simultanément un nombre maximal de créatures sous <em>Maléfice</em> égal à votre trait d’Incantation.</p>"
+    },
+    "srd-2.0.class-feature.witch.witchs-charm": {
+      "name": "Charme de la sorcière",
+      "description": "<p>Lorsque vous ou un allié à portée Loin échouez à un jet d’action, vous pouvez <strong>dépenser 3 Espoir</strong> pour transformer cet échec en réussite avec Peur.</p>"
+    },
+    "srd-2.0.class-feature.wizard.not-this-time": {
+      "name": "Pas cette fois",
+      "description": "<p><strong>Dépensez 3 Espoir</strong> pour obliger un adversaire à portée Loin à relancer un jet d’attaque ou de dégâts.</p>"
+    },
+    "srd-2.0.class-feature.wizard.prestidigitation": {
+      "name": "Prestidigitation",
+      "description": "<p>Vous pouvez produire à volonté de petits effets magiques subtils et inoffensifs. Vous pouvez par exemple changer la couleur d’un objet, créer une odeur, allumer une bougie, faire flotter un objet minuscule, éclairer une pièce ou réparer un petit objet.</p>"
+    },
+    "srd-2.0.class-feature.wizard.strange-patterns": {
+      "name": "Motifs étranges",
+      "description": "<p>Choisissez un nombre compris entre 1 et 12. Lorsque l’un de vos dés de Dualité obtient ce nombre, gagnez 1 Espoir ou effacez 1 Stress.</p><p>Vous pouvez changer ce nombre lorsque vous prenez un repos long.</p>"
+    },
+    "srd-2.0.class.assassin": {
+      "description": "<p>Les assassins excellent dans l’art d’infliger des blessures mortelles par des frappes précises. Contrairement à ceux qui n’emploient la violence que comme un moyen, ils font de la mort une profession. Beaucoup considèrent leur métier comme honorable, voire sacré, et certains rejoignent des guildes pour perfectionner leur art, définir leurs principes et gagner leur vie. Des commanditaires de tous horizons louent leurs services : souverains souhaitant éviter une guerre ouverte, dirigeants cherchant à éliminer la concurrence ou simples particuliers désireux de régler une dette. L’assassin est souvent le dernier recours contre une cible que l’on croyait impossible à tuer. Certains éliminent quiconque se dresse sur leur route pour une juste cause ou le juste prix ; d’autres suivent un code moral strict qui détermine leurs cibles. Quiconque devient la cible d’un assassin devrait déjà se compter parmi les morts.</p>",
+      "name": "Assassin"
+    },
+    "srd-2.0.class.bard": {
+      "description": "<p>Les bardes comptent parmi les personnes les plus charismatiques de tous les royaumes. Maîtres dans l’art de captiver, ils se spécialisent dans diverses formes de spectacle : chant, musique, récit ou comédie. Qu’ils se produisent devant une foule ou s’adressent à une seule personne, les bardes s’épanouissent dans les situations sociales. Ils se rencontrent et s’entraînent au sein d’écoles ou de guildes, mais l’ego n’est jamais très loin chez ceux qui suivent cette voie. S’ils sont souvent les mieux placés pour rassembler un groupe, les bardes au tempérament difficile peuvent tout aussi aisément le déchirer.</p>",
+      "name": "Barde"
+    },
+    "srd-2.0.class.brawler": {
+      "description": "<p>Experts du combat à mains nues, les bagarreurs façonnent leur corps pour en faire une arme mortelle. Qu’ils aient reçu un entraînement formel, étudié auprès d’un mentor ou appris combat après combat, leur discipline reste exigeante : le corps et l’esprit doivent agir comme un seul. Leur puissance et leur polyvalence sont appréciées, et ils rejoignent généralement un groupe ou une cause lorsque le besoin ou l’envie s’en fait sentir. Leur corps étant leur meilleure arme, ils recherchent de nouveaux défis et des partenaires d’entraînement réguliers afin d’entretenir leurs talents et d’enrichir leur répertoire. Ils peuvent sembler inoffensifs à ceux qui ne craignent que les adversaires lourdement armés, mais leurs poings accomplissent souvent davantage que l’épée d’un soldat ordinaire.</p>",
+      "name": "Bagarreur"
+    },
+    "srd-2.0.class.druid": {
+      "description": "<p>Être druide ne consiste pas simplement à exercer un métier : c’est répondre à l’appel de celles et ceux qui souhaitent comprendre et préserver la magie des terres sauvages. Un druide paisible occupé à faire prospérer la flore peut sembler inoffensif, mais ceux qui déchaînent les forces indomptées de la nature inspirent la terreur. Les druides développent généralement leurs talents au sein de petits cercles réunis par une même philosophie ou attachés à un territoire particulier, même si certains suivent cette voie en solitaire. Au terme de longues années d’étude et de pratique, ils apprennent à prendre la forme de bêtes et à modeler la nature elle-même.</p>",
+      "name": "Druide"
+    },
+    "srd-2.0.class.guardian": {
+      "description": "<p>Le titre de gardien recouvre de nombreuses professions martiales et décrit davantage une boussole morale et une détermination inébranlable qu’une manière précise de combattre. Beaucoup servent des forces armées au nom d’un pays ou d’une cause, mais ils suivent plus volontiers les rares personnes auxquelles ils tiennent vraiment, quelle que soit l’opinion de la majorité. Les gardiens sont réputés pour leur férocité face aux forces les plus écrasantes et placent la défense de leurs compagnons au-dessus de tout. Malheur à quiconque blesse l’allié d’un gardien : celui-ci rendra coup pour coup.</p>",
+      "name": "Gardien"
+    },
+    "srd-2.0.class.ranger": {
+      "description": "<p>Les rôdeurs sont des chasseurs accomplis qui, malgré leurs talents martiaux, mettent rarement leurs compétences au service d’une armée. En maîtrisant leur corps et en comprenant profondément les terres sauvages, ils deviennent de subtils tacticiens qui poursuivent leur proie avec ruse et patience. Beaucoup traquent et combattent aux côtés d’un compagnon animal avec lequel ils ont noué un puissant lien spirituel. À force de perfectionner leur art dans la nature, les rôdeurs deviennent des pisteurs experts, aussi susceptibles de prendre leurs ennemis au piège que de les affronter de front.</p>",
+      "name": "Rôdeur"
+    },
+    "srd-2.0.class.rogue": {
+      "description": "<p>Les roublards sont des canailles, tant par leur attitude que par leurs méthodes. Réputés menteurs et voleurs, les meilleurs d’entre eux traversent le monde sans laisser de nom derrière eux. Grâce à leur esprit affûté autant qu’à leurs lames, ils trompent leurs adversaires par la manipulation sociale aussi facilement qu’ils forcent une serrure, passent par une fenêtre ou frappent en traître. Ces maîtres d’un art magique jouent avec les ombres et le mouvement pour ajouter à leur arsenal des outils aussi utiles que mortels. Les roublards fondent souvent des guildes afin de rencontrer de futurs complices, décrocher des contrats et perfectionner des techniques secrètes : preuve qu’il existe bien un honneur parmi les voleurs, pour qui sait où le chercher.</p>",
+      "name": "Roublard"
+    },
+    "srd-2.0.class.seraph": {
+      "description": "<p>Les séraphins sont des combattants et des guérisseurs divins investis d’une mission sacrée. Les royaumes abritent d’innombrables divinités, qui choisissent chacune leurs propres séraphins. Leur conduite s’accorde généralement au domaine ou aux objectifs de leur dieu : défendre les faibles, exercer une vengeance, protéger un territoire ou un artefact, ou faire respecter une foi particulière. Certains s’allient à une armée ou à une communauté, pour la plus grande satisfaction de ses dirigeants ; d’autres croisent le fer contre les folies du Royaume mortel. Mieux vaut être l’allié d’un séraphin que son ennemi, car ceux qui s’opposent à sa mission affrontent un adversaire terrifiant.</p>",
+      "name": "Séraphin"
+    },
+    "srd-2.0.class.sorcerer": {
+      "description": "<p>Toutes les personnes dotées d’une magie innée ne choisissent pas de la cultiver, mais celles qui s’y consacrent peuvent devenir de puissants ensorceleurs. Leurs dons se transmettent au sein des familles, même lorsque celles-ci les ignorent ou refusent de les pratiquer. Leurs talents vont de la maîtrise des éléments aux illusions et bien au-delà ; beaucoup se regroupent en cercles fondés sur leurs affinités. Devenir un ensorceleur redoutable ne consiste pas à acquérir davantage de pouvoir, mais à nourrir et contrôler celui que l’on possède déjà. La magie d’un ensorceleur égaré ou indiscipliné constitue une force dangereuse.</p>",
+      "name": "Ensorceleur"
+    },
+    "srd-2.0.class.warlock": {
+      "description": "<p>Ceux qui ont offert leur vie — voire leur âme — à un patron venu d’un autre monde en échange d’un pouvoir extraordinaire sont appelés occultistes. Souvent poussés au sacrifice par le désespoir, ils cherchent à se protéger, sauver un proche, aider leur communauté, se venger, améliorer leur condition ou satisfaire quelque autre ambition. Leurs puissants interlocuteurs sont aussi variés qu’eux : dieux, esprits, démons ou entités que même le signataire du pacte ne comprend pas. Chacun possède une sphère d’influence qui définit son pouvoir surnaturel, et ceux qui collectionnent les âmes sont rarement connus pour leur bonté. Le pouvoir d’un occultiste dépend donc de la relation qu’il entretient avec son bienfaiteur. Malgré sa magie terrifiante, il peut découvrir que quelqu’un — ou quelque chose — tire encore les ficelles.</p>",
+      "name": "Occultiste"
+    },
+    "srd-2.0.class.warrior": {
+      "description": "<p>Devenir guerrier exige des années, parfois toute une vie, d’entraînement et de dévouement à la maîtrise des armes et de la violence. Là où beaucoup ne développent que leur force, les guerriers comprennent l’importance d’un corps et d’un esprit agiles, ce qui en fait des combattants très recherchés dans tous les royaumes. Ils servent souvent dans une armée, une compagnie de mercenaires ou une garde royale, mais toute fonction qui les empêche d’améliorer et d’élargir leurs compétences gaspille leur potentiel. Les guerriers sont connus pour avoir une arme favorite ; se placer entre eux et leur lame serait une grave erreur.</p>",
+      "name": "Guerrier"
+    },
+    "srd-2.0.class.witch": {
+      "description": "<p>Les sorcières sont des praticiennes de la magie qui communient avec les forces de la nature et les entités des royaumes lointains. Leur art mêle le tangible et l’éphémère : sorts, incantations murmurées, talismans, illusions et rituels personnels. Elles protègent leurs alliés et nuisent à leurs ennemis en invoquant des puissances qui les dépassent, tels des ancêtres, des divinités ou des aspects de la nature. Leur savoir magique leur est souvent transmis par ces entités ou par des générations de praticiens réunis en petits groupes appelés covens. Leurs méthodes mystérieuses, étranges, voire macabres aux yeux des profanes, leur valent crainte et incompréhension. Quelle que soit la voie choisie, une sorcière avance sans peur sur la frontière entre lumière et ombre.</p>",
+      "name": "Sorcière"
+    },
+    "srd-2.0.class.wizard": {
+      "description": "<p>Qu’ils étudient dans une institution ou en solitaire, les magiciens acquièrent et perfectionnent une immense puissance magique au fil de longues années d’apprentissage, à l’aide de livres, de pierres, de potions, d’herbes et de nombreux autres outils. Certains consacrent leur vie à une école de magie particulière, tandis que d’autres puisent dans de multiples disciplines. Beaucoup deviennent des figures sages et influentes de leur communauté : ils conseillent les dirigeants, préparent remèdes et soins, ou dirigent même des conseils de guerre. Tous poursuivent l’objectif commun de recueillir le savoir magique, mais leurs plus violents conflits les opposent souvent entre eux, car l’acquisition, la conservation et le partage des secrets de pouvoir nourrissent des débats qui ont déjà causé d’innombrables morts.</p>",
+      "name": "Magicien"
+    },
     "srd-2.0.community.duneborne": {
       "description": "<p>Faire partie d’une communauté née des dunes signifie que vous avez établi votre foyer parmi les sables mouvants et le climat aride du désert.</p>",
       "name": "Né des dunes"
@@ -712,304 +914,6 @@
       "effects.0.name": "Pas léger",
       "effects.0.description": "<p>Vos déplacements sont naturellement silencieux. Vous avez un avantage aux jets visant à vous déplacer sans être entendu.</p>",
       "effects.0.system.changes.0.value": "Se déplacer sans être entendu."
-    },
-    "srd-2.0.class.druid": {
-      "description": "<p>Être druide ne consiste pas simplement à exercer un métier : c’est répondre à l’appel de celles et ceux qui souhaitent comprendre et préserver la magie des terres sauvages. Un druide paisible occupé à faire prospérer la flore peut sembler inoffensif, mais ceux qui déchaînent les forces indomptées de la nature inspirent la terreur. Les druides développent généralement leurs talents au sein de petits cercles réunis par une même philosophie ou attachés à un territoire particulier, même si certains suivent cette voie en solitaire. Au terme de longues années d’étude et de pratique, ils apprennent à prendre la forme de bêtes et à modeler la nature elle-même.</p>",
-      "name": "Druide"
-    },
-    "srd-2.0.class-feature.druid.evolution": {
-      "name": "Évolution",
-      "description": "<p><strong>Dépensez 3 Espoir</strong> pour adopter une Forme bestiale sans marquer de Stress. Lorsque vous le faites, choisissez un trait : il bénéficie d’un bonus de +1 jusqu’à ce que vous quittiez cette Forme bestiale.</p>"
-    },
-    "srd-2.0.class-feature.druid.beastform": {
-      "name": "Forme bestiale",
-      "description": "<p>Marquez 1 Stress pour vous transformer par magie en une créature de votre niveau ou inférieur choisie dans la liste des Formes bestiales. Vous pouvez mettre fin à cette transformation à tout moment. Sous cette forme, vous ne pouvez ni utiliser d’armes ni lancer de sorts provenant de cartes de domaine, mais vous conservez l’accès à vos autres capacités et spécificités. Les sorts lancés avant votre transformation restent actifs pendant leur durée normale, et vous pouvez toujours parler et communiquer. Vous gagnez également les spécificités de la Forme bestiale, ajoutez son bonus d’Évasion à votre Évasion et utilisez le trait indiqué dans son profil pour vos attaques. Votre armure fusionne avec votre corps : vous continuez à marquer normalement ses emplacements, qui restent marqués lorsque vous reprenez votre forme habituelle. Si vous marquez votre dernier PV, la transformation prend automatiquement fin.</p>"
-    },
-    "srd-2.0.class-feature.druid.wildtouch": {
-      "name": "Toucher sauvage",
-      "description": "<p>Vous pouvez produire à volonté de petits effets naturels, subtils et inoffensifs : faire éclore rapidement une fleur, soulever une légère brise ou allumer un feu de camp, par exemple.</p>"
-    },
-    "srd-2.0.class.assassin": {
-      "description": "<p>Les assassins excellent dans l’art d’infliger des blessures mortelles par des frappes précises. Contrairement à ceux qui n’emploient la violence que comme un moyen, ils font de la mort une profession. Beaucoup considèrent leur métier comme honorable, voire sacré, et certains rejoignent des guildes pour perfectionner leur art, définir leurs principes et gagner leur vie. Des commanditaires de tous horizons louent leurs services : souverains souhaitant éviter une guerre ouverte, dirigeants cherchant à éliminer la concurrence ou simples particuliers désireux de régler une dette. L’assassin est souvent le dernier recours contre une cible que l’on croyait impossible à tuer. Certains éliminent quiconque se dresse sur leur route pour une juste cause ou le juste prix ; d’autres suivent un code moral strict qui détermine leurs cibles. Quiconque devient la cible d’un assassin devrait déjà se compter parmi les morts.</p>",
-      "name": "Assassin"
-    },
-    "srd-2.0.class.bard": {
-      "description": "<p>Les bardes comptent parmi les personnes les plus charismatiques de tous les royaumes. Maîtres dans l’art de captiver, ils se spécialisent dans diverses formes de spectacle : chant, musique, récit ou comédie. Qu’ils se produisent devant une foule ou s’adressent à une seule personne, les bardes s’épanouissent dans les situations sociales. Ils se rencontrent et s’entraînent au sein d’écoles ou de guildes, mais l’ego n’est jamais très loin chez ceux qui suivent cette voie. S’ils sont souvent les mieux placés pour rassembler un groupe, les bardes au tempérament difficile peuvent tout aussi aisément le déchirer.</p>",
-      "name": "Barde"
-    },
-    "srd-2.0.class.brawler": {
-      "description": "<p>Experts du combat à mains nues, les bagarreurs façonnent leur corps pour en faire une arme mortelle. Qu’ils aient reçu un entraînement formel, étudié auprès d’un mentor ou appris combat après combat, leur discipline reste exigeante : le corps et l’esprit doivent agir comme un seul. Leur puissance et leur polyvalence sont appréciées, et ils rejoignent généralement un groupe ou une cause lorsque le besoin ou l’envie s’en fait sentir. Leur corps étant leur meilleure arme, ils recherchent de nouveaux défis et des partenaires d’entraînement réguliers afin d’entretenir leurs talents et d’enrichir leur répertoire. Ils peuvent sembler inoffensifs à ceux qui ne craignent que les adversaires lourdement armés, mais leurs poings accomplissent souvent davantage que l’épée d’un soldat ordinaire.</p>",
-      "name": "Bagarreur"
-    },
-    "srd-2.0.class.guardian": {
-      "description": "<p>Le titre de gardien recouvre de nombreuses professions martiales et décrit davantage une boussole morale et une détermination inébranlable qu’une manière précise de combattre. Beaucoup servent des forces armées au nom d’un pays ou d’une cause, mais ils suivent plus volontiers les rares personnes auxquelles ils tiennent vraiment, quelle que soit l’opinion de la majorité. Les gardiens sont réputés pour leur férocité face aux forces les plus écrasantes et placent la défense de leurs compagnons au-dessus de tout. Malheur à quiconque blesse l’allié d’un gardien : celui-ci rendra coup pour coup.</p>",
-      "name": "Gardien"
-    },
-    "srd-2.0.class.ranger": {
-      "description": "<p>Les rôdeurs sont des chasseurs accomplis qui, malgré leurs talents martiaux, mettent rarement leurs compétences au service d’une armée. En maîtrisant leur corps et en comprenant profondément les terres sauvages, ils deviennent de subtils tacticiens qui poursuivent leur proie avec ruse et patience. Beaucoup traquent et combattent aux côtés d’un compagnon animal avec lequel ils ont noué un puissant lien spirituel. À force de perfectionner leur art dans la nature, les rôdeurs deviennent des pisteurs experts, aussi susceptibles de prendre leurs ennemis au piège que de les affronter de front.</p>",
-      "name": "Rôdeur"
-    },
-    "srd-2.0.class.rogue": {
-      "description": "<p>Les roublards sont des canailles, tant par leur attitude que par leurs méthodes. Réputés menteurs et voleurs, les meilleurs d’entre eux traversent le monde sans laisser de nom derrière eux. Grâce à leur esprit affûté autant qu’à leurs lames, ils trompent leurs adversaires par la manipulation sociale aussi facilement qu’ils forcent une serrure, passent par une fenêtre ou frappent en traître. Ces maîtres d’un art magique jouent avec les ombres et le mouvement pour ajouter à leur arsenal des outils aussi utiles que mortels. Les roublards fondent souvent des guildes afin de rencontrer de futurs complices, décrocher des contrats et perfectionner des techniques secrètes : preuve qu’il existe bien un honneur parmi les voleurs, pour qui sait où le chercher.</p>",
-      "name": "Roublard"
-    },
-    "srd-2.0.class.seraph": {
-      "description": "<p>Les séraphins sont des combattants et des guérisseurs divins investis d’une mission sacrée. Les royaumes abritent d’innombrables divinités, qui choisissent chacune leurs propres séraphins. Leur conduite s’accorde généralement au domaine ou aux objectifs de leur dieu : défendre les faibles, exercer une vengeance, protéger un territoire ou un artefact, ou faire respecter une foi particulière. Certains s’allient à une armée ou à une communauté, pour la plus grande satisfaction de ses dirigeants ; d’autres croisent le fer contre les folies du Royaume mortel. Mieux vaut être l’allié d’un séraphin que son ennemi, car ceux qui s’opposent à sa mission affrontent un adversaire terrifiant.</p>",
-      "name": "Séraphin"
-    },
-    "srd-2.0.class.sorcerer": {
-      "description": "<p>Toutes les personnes dotées d’une magie innée ne choisissent pas de la cultiver, mais celles qui s’y consacrent peuvent devenir de puissants ensorceleurs. Leurs dons se transmettent au sein des familles, même lorsque celles-ci les ignorent ou refusent de les pratiquer. Leurs talents vont de la maîtrise des éléments aux illusions et bien au-delà ; beaucoup se regroupent en cercles fondés sur leurs affinités. Devenir un ensorceleur redoutable ne consiste pas à acquérir davantage de pouvoir, mais à nourrir et contrôler celui que l’on possède déjà. La magie d’un ensorceleur égaré ou indiscipliné constitue une force dangereuse.</p>",
-      "name": "Ensorceleur"
-    },
-    "srd-2.0.class.warlock": {
-      "description": "<p>Ceux qui ont offert leur vie — voire leur âme — à un patron venu d’un autre monde en échange d’un pouvoir extraordinaire sont appelés occultistes. Souvent poussés au sacrifice par le désespoir, ils cherchent à se protéger, sauver un proche, aider leur communauté, se venger, améliorer leur condition ou satisfaire quelque autre ambition. Leurs puissants interlocuteurs sont aussi variés qu’eux : dieux, esprits, démons ou entités que même le signataire du pacte ne comprend pas. Chacun possède une sphère d’influence qui définit son pouvoir surnaturel, et ceux qui collectionnent les âmes sont rarement connus pour leur bonté. Le pouvoir d’un occultiste dépend donc de la relation qu’il entretient avec son bienfaiteur. Malgré sa magie terrifiante, il peut découvrir que quelqu’un — ou quelque chose — tire encore les ficelles.</p>",
-      "name": "Occultiste"
-    },
-    "srd-2.0.class.warrior": {
-      "description": "<p>Devenir guerrier exige des années, parfois toute une vie, d’entraînement et de dévouement à la maîtrise des armes et de la violence. Là où beaucoup ne développent que leur force, les guerriers comprennent l’importance d’un corps et d’un esprit agiles, ce qui en fait des combattants très recherchés dans tous les royaumes. Ils servent souvent dans une armée, une compagnie de mercenaires ou une garde royale, mais toute fonction qui les empêche d’améliorer et d’élargir leurs compétences gaspille leur potentiel. Les guerriers sont connus pour avoir une arme favorite ; se placer entre eux et leur lame serait une grave erreur.</p>",
-      "name": "Guerrier"
-    },
-    "srd-2.0.class.witch": {
-      "description": "<p>Les sorcières sont des praticiennes de la magie qui communient avec les forces de la nature et les entités des royaumes lointains. Leur art mêle le tangible et l’éphémère : sorts, incantations murmurées, talismans, illusions et rituels personnels. Elles protègent leurs alliés et nuisent à leurs ennemis en invoquant des puissances qui les dépassent, tels des ancêtres, des divinités ou des aspects de la nature. Leur savoir magique leur est souvent transmis par ces entités ou par des générations de praticiens réunis en petits groupes appelés covens. Leurs méthodes mystérieuses, étranges, voire macabres aux yeux des profanes, leur valent crainte et incompréhension. Quelle que soit la voie choisie, une sorcière avance sans peur sur la frontière entre lumière et ombre.</p>",
-      "name": "Sorcière"
-    },
-    "srd-2.0.class.wizard": {
-      "description": "<p>Qu’ils étudient dans une institution ou en solitaire, les magiciens acquièrent et perfectionnent une immense puissance magique au fil de longues années d’apprentissage, à l’aide de livres, de pierres, de potions, d’herbes et de nombreux autres outils. Certains consacrent leur vie à une école de magie particulière, tandis que d’autres puisent dans de multiples disciplines. Beaucoup deviennent des figures sages et influentes de leur communauté : ils conseillent les dirigeants, préparent remèdes et soins, ou dirigent même des conseils de guerre. Tous poursuivent l’objectif commun de recueillir le savoir magique, mais leurs plus violents conflits les opposent souvent entre eux, car l’acquisition, la conservation et le partage des secrets de pouvoir nourrissent des débats qui ont déjà causé d’innombrables morts.</p>",
-      "name": "Magicien"
-    },
-    "srd-2.0.class-feature.assassin.deadly-determination": {
-      "name": "Détermination mortelle",
-      "description": "<p><strong>Dépensez 3 Espoir</strong> pour effacer 2 Stress.</p>"
-    },
-    "srd-2.0.class-feature.assassin.get-in-and-get-out": {
-      "name": "Entrer et ressortir",
-      "description": "<p><strong>Dépensez 1 Espoir</strong> pour demander au MJ un moyen rapide ou discret d’entrer dans un lieu visible ou d’en sortir. Le prochain jet effectué pour exploiter cette information bénéficie d’un avantage.</p>"
-    },
-    "srd-2.0.class-feature.assassin.marked-for-death": {
-      "name": "Marqué pour la mort",
-      "description": "<p>Lorsque vous réussissez une attaque avec une arme, vous pouvez <strong>marquer 1 Stress</strong> pour désigner la cible comme <em>Marquée pour la mort</em>. Lorsque vous lui infligez des dégâts, ajoutez au jet de dégâts un nombre de <strong>d4</strong> égal à votre rang.</p><p>Un seul adversaire peut être <em>Marqué pour la mort</em> à la fois. Cet état persiste jusqu’à ce que vous preniez un repos, que l’adversaire soit vaincu ou que le MJ dépense un nombre de Peurs égal à votre rang pour y mettre fin.</p>"
-    },
-    "srd-2.0.class-feature.bard.make-a-scene": {
-      "name": "Faire une scène",
-      "description": "<p><strong>Dépensez 3 Espoir</strong> pour <strong>distraire temporairement une cible</strong> à portée Proche, ce qui lui inflige un <strong>malus de −2</strong> à sa Difficulté.</p>"
-    },
-    "srd-2.0.class-feature.bard.rally": {
-      "name": "Ralliement",
-      "description": "<p>Une fois par session, décrivez comment vous ralliez le groupe et accordez-vous, ainsi qu’à chacun de vos alliés, un dé de Ralliement. Au niveau 1, ce dé est un d6. Un PJ peut dépenser son dé de Ralliement pour le lancer et ajouter le résultat à un jet d’action, de réaction ou de dégâts, ou pour effacer un nombre de Stress égal au résultat. À la fin de chaque session, retirez tous les dés de Ralliement non dépensés. Au niveau 5, votre dé de Ralliement devient un d8.</p>"
-    },
-    "srd-2.0.class-feature.brawler.combo-strike": {
-      "name": "Enchaînement",
-      "description": "<p>Après avoir lancé les dégâts d’une attaque réussie avec une arme de Corps à corps, vous pouvez <strong>marquer 1 Stress</strong> pour commencer un enchaînement. Lancez votre dé d’Enchaînement et notez le résultat, puis continuez à le lancer jusqu’à obtenir un résultat inférieur au précédent. Cette attaque inflige des dégâts supplémentaires égaux à la somme de tous les résultats obtenus. Ces résultats ne peuvent être modifiés d’aucune manière.</p><p>Votre dé d’Enchaînement commence comme un <strong>d4</strong>. Une fois par rang, vous pouvez l’augmenter d’un cran en choisissant l’option correspondante lors d’une progression de niveau.</p>"
-    },
-    "srd-2.0.class-feature.brawler.i-am-the-weapon": {
-      "name": "Je suis l’arme",
-      "description": "<p>Vos attaques à mains nues sont aussi puissantes que n’importe quelle lame. Tant que vous n’avez aucune autre arme active, vous êtes équipé d’une arme principale appelée Frappe du bagarreur. Elle utilise le trait de votre choix, possède une portée Corps à corps et inflige <strong>d8+d6</strong> dégâts physiques selon votre Maîtrise ; le <strong>d8</strong> et le <strong>d6</strong> évoluent tous deux avec celle-ci. Tant que cette arme est active, vous gagnez un bonus de +1 à votre Évasion.</p>"
-    },
-    "srd-2.0.class-feature.brawler.square-up": {
-      "name": "Face-à-face",
-      "description": "<p><strong>Dépensez 3 Espoir</strong> pour intimider une cible à portée Proche et la rendre temporairement <em>Vulnérable</em>.</p>"
-    },
-    "srd-2.0.class-feature.guardian.frontline-tank": {
-      "name": "Rempart de première ligne",
-      "description": "<p><strong>Dépensez 3 Espoir</strong> pour effacer 2 emplacements d’Armure.</p>"
-    },
-    "srd-2.0.class-feature.guardian.unstoppable": {
-      "name": "Inarrêtable",
-      "description": "<p>Une fois par repos long, vous pouvez devenir Inarrêtable et gagner un dé Inarrêtable. Au niveau 1, il s’agit d’un d4. Placez-le sur votre fiche de personnage, face 1 visible. Après avoir effectué un jet de dégâts qui fait perdre au moins 1 PV à une cible, augmentez sa valeur de 1. Lorsque sa valeur devrait dépasser son maximum, ou lorsque la scène prend fin, retirez le dé et vous cessez d’être Inarrêtable. Au niveau 5, ce dé devient un d6. Tant que vous êtes Inarrêtable, vous bénéficiez des effets suivants :</p><ul><li><p>Vous réduisez d’un seuil la gravité des dégâts physiques : Grave devient Majeure, Majeure devient Mineure et Mineure devient Nulle.</p></li><li><p>Vous ajoutez la valeur actuelle du dé Inarrêtable à vos jets de dégâts.</p></li><li><p>Vous ne pouvez être ni Entravé ni Vulnérable.</p></li></ul><blockquote><p>Conseil : si votre dé Inarrêtable est un d4 affichant 4, retirez-le la prochaine fois que vous devriez l’augmenter. S’il est devenu un d6 et affiche 4, tournez-le sur 5 ; vous ne le retirerez que lorsqu’il devrait dépasser 6.</p></blockquote>"
-    },
-    "srd-2.0.class-feature.ranger.hold-them-off": {
-      "name": "Retenez-les",
-      "description": "<p>Lorsque vous réussissez une attaque avec une arme, <strong>dépensez 3 Espoir</strong> pour appliquer le même résultat de jet à deux adversaires supplémentaires situés à portée de l’attaque.</p>"
-    },
-    "srd-2.0.class-feature.ranger.rangers-focus": {
-      "name": "Focalisation du rôdeur",
-      "description": "<p>Dépensez 1 Espoir et effectuez une attaque contre une cible. En cas de réussite, infligez les dégâts normaux de l’attaque et faites temporairement de cette cible votre Focalisation. Jusqu’à ce que cette spécificité prenne fin ou que vous choisissiez une autre créature, vous bénéficiez des effets suivants contre votre Focalisation :</p><ul><li><p>Vous savez précisément dans quelle direction elle se trouve.</p></li><li><p>Lorsque vous lui infligez des dégâts, elle doit marquer 1 Stress.</p></li><li><p>Lorsque vous échouez à une attaque contre elle, vous pouvez mettre fin à cette spécificité pour relancer vos dés de Dualité.</p></li></ul>"
-    },
-    "srd-2.0.class-feature.rogue.cloaked": {
-      "name": "Dissimulé",
-      "description": "<p>Chaque fois que vous devriez être Caché, vous êtes à la place Dissimulé. En plus des bénéfices de l’état Caché, vous restez invisible tant que vous demeurez immobile lorsqu’un adversaire se déplace jusqu’à un endroit d’où il devrait normalement vous voir. Après avoir effectué une attaque ou terminé un déplacement dans la ligne de vue d’un adversaire, vous n’êtes plus Dissimulé.</p>"
-    },
-    "srd-2.0.class-feature.rogue.rogues-dodge": {
-      "name": "Esquive du roublard",
-      "description": "<p><strong>Dépensez 3 Espoir</strong> pour gagner un bonus de +2 à votre Évasion jusqu’à la prochaine attaque réussie contre vous. Si aucune attaque ne réussit, ce bonus persiste jusqu’à votre prochain repos.</p>"
-    },
-    "srd-2.0.class-feature.rogue.sneak-attack": {
-      "name": "Attaque sournoise",
-      "description": "<p>Lorsque vous réussissez une attaque en étant Dissimulé, ou lorsqu’un allié se trouve à portée Corps à corps de votre cible, ajoutez à votre jet de dégâts un nombre de d6 égal à votre rang.</p><ul><li><p>Niveau 1 → rang 1</p></li><li><p>Niveaux 2 à 4 → rang 2</p></li><li><p>Niveaux 5 à 7 → rang 3</p></li><li><p>Niveaux 8 à 10 → rang 4</p></li></ul>"
-    },
-    "srd-2.0.class-feature.seraph.life-support": {
-      "name": "Soutien vital",
-      "description": "<p><strong>Dépensez 3 Espoir</strong> pour effacer 1 PV sur un allié à portée Proche.</p>"
-    },
-    "srd-2.0.class-feature.seraph.prayer-dice": {
-      "name": "Dés de prière",
-      "description": "<p>Au début de chaque session, lancez un nombre de d4 égal à votre trait d’Incantation de sous-classe et placez-les dans l’espace prévu sur votre fiche de personnage. Ce sont vos dés de prière. Vous pouvez dépenser autant de ces dés que vous le souhaitez pour vous aider ou aider un allié à portée Loin. Utilisez la valeur d’un dé dépensé pour réduire des dégâts subis, l’ajouter au résultat d’un jet après son lancer ou gagner autant d’Espoir. À la fin de chaque session, retirez tous les dés de prière non dépensés.</p>"
-    },
-    "srd-2.0.class-feature.sorcerer.arcane-sense": {
-      "name": "Sens arcanique",
-      "description": "<p>Vous pouvez ressentir la présence de personnes et d’objets magiques à portée Proche.</p>"
-    },
-    "srd-2.0.class-feature.sorcerer.channel-raw-power": {
-      "name": "Canaliser la puissance brute",
-      "description": "<p>Une fois par repos long, vous pouvez placer une carte de domaine de votre équipement actif dans votre réserve, puis choisir l’un des effets suivants :</p><ul><li><p>Gagner un nombre d’Espoir égal au niveau de la carte.</p></li><li><p>Renforcer un sort infligeant des dégâts et gagner un bonus au jet de dégâts égal au double du niveau de la carte.</p></li></ul>"
-    },
-    "srd-2.0.class-feature.sorcerer.minor-illusion": {
-      "name": "Illusion mineure",
-      "description": "<p>Effectuez un <strong>jet d’Incantation (10)</strong>. En cas de réussite, vous créez à portée Proche une petite illusion visuelle qui ne dépasse pas votre taille. Cette illusion paraît convaincante à toute personne située à portée Proche ou au-delà.</p>"
-    },
-    "srd-2.0.class-feature.sorcerer.volatile-magic": {
-      "name": "Magie volatile",
-      "description": "<p><strong>Dépensez 3 Espoir</strong> pour relancer autant de dés de dégâts que vous le souhaitez lors d’une attaque qui inflige des dégâts magiques.</p>"
-    },
-    "srd-2.0.class-feature.warlock.favor": {
-      "name": "Faveur",
-      "description": "<p>Vous commencez avec 3 Faveurs. Vous pouvez utiliser une action de temps libre pour rendre hommage à votre patron : décrivez comment, puis gagnez un nombre de Faveurs égal à votre trait d’Incantation. De plus, lorsque vous réussissez un jet d’action avec Espoir, vous pouvez choisir de gagner 1 Faveur au lieu de 1 Espoir.</p>"
-    },
-    "srd-2.0.class-feature.warlock.patrons-boon": {
-      "name": "Don du patron",
-      "description": "<p>Lorsque vous échouez à un jet, vous pouvez <strong>dépenser 3 Espoir</strong> pour le relancer avec un avantage.</p>"
-    },
-    "srd-2.0.class-feature.warlock.patrons-pact": {
-      "name": "Pacte du patron",
-      "description": "<p>Vous vous êtes lié à une entité surnaturelle — dieu, fée ou démon, par exemple — en échange de pouvoir. Inscrivez son nom sur votre fiche de personnage, puis déterminez avec le MJ sa sphère d’influence, comme la Nature, le Chaos, la Sagesse, la Malice, l’Amour, la Guerre, la Justice ou la Mort. Avant d’effectuer un jet d’action en rapport avec cette sphère, vous pouvez <strong>dépenser 1 Faveur</strong> pour demander son aide : lancez votre dé de Patron et ajoutez son résultat au total. Votre dé de Patron commence comme un <strong>[[/r d6]]</strong> et devient un <strong>[[/r d8]]</strong> au niveau 5.</p>"
-    },
-    "srd-2.0.class-feature.warrior.attack-of-opportunity": {
-      "name": "Attaque d’opportunité",
-      "description": "<p>Lorsqu’un adversaire à portée Corps à corps tente de quitter cette portée, effectuez un jet de réaction avec le trait de votre choix contre sa Difficulté. En cas de réussite, choisissez un effet ci-dessous ; choisissez-en deux en cas de réussite critique :</p><ul><li><p>Il ne peut pas quitter sa position.</p></li><li><p>Vous lui infligez des dégâts égaux à ceux de votre arme principale.</p></li><li><p>Vous vous déplacez avec lui.</p></li></ul>"
-    },
-    "srd-2.0.class-feature.warrior.combat-training": {
-      "name": "Entraînement au combat",
-      "description": "<p>Vous ignorez l’Encombrement lorsque vous équipez des armes. Lorsque vous infligez des dégâts physiques, ajoutez à votre jet de dégâts un bonus égal à votre niveau.</p>"
-    },
-    "srd-2.0.class-feature.warrior.no-mercy": {
-      "name": "Sans pitié",
-      "description": "<p><strong>Dépensez 3 Espoir</strong> pour gagner un bonus de +1 à vos jets d’attaque jusqu’à votre prochain repos.</p>"
-    },
-    "srd-2.0.class-feature.witch.commune": {
-      "name": "Communion",
-      "description": "<p>Une fois par repos long, pendant un moment de calme, vous pouvez communier avec un ancêtre, une divinité, un esprit ou une entité d’un autre monde. Posez-lui une question, puis lancez un nombre de <strong>[[/r d6]]{d6}</strong> égal à votre trait d’Incantation. Choisissez l’un des résultats et appliquez l’effet correspondant :</p><ul><li><p>1–3 : vous percevez une saveur, une odeur ou une sensation en rapport avec la réponse.</p></li><li><p>4–5 : vous entendez des sons ou voyez une vision en rapport avec la réponse.</p></li><li><p>6 : vous vivez psychiquement une scène en rapport avec la réponse comme si vous y étiez.</p></li></ul>"
-    },
-    "srd-2.0.class-feature.witch.hex": {
-      "name": "Maléfice",
-      "description": "<p><strong>Marquez 1 Stress</strong> pour placer temporairement un <em>Maléfice</em> sur une cible à portée Loin. Tant qu’elle est <em>Maudite</em>, elle subit à ses jets de dégâts et à sa Difficulté un malus égal à votre rang. Vous pouvez maintenir simultanément un nombre maximal de créatures sous <em>Maléfice</em> égal à votre trait d’Incantation.</p>"
-    },
-    "srd-2.0.class-feature.witch.witchs-charm": {
-      "name": "Charme de la sorcière",
-      "description": "<p>Lorsque vous ou un allié à portée Loin échouez à un jet d’action, vous pouvez <strong>dépenser 3 Espoir</strong> pour transformer cet échec en réussite avec Peur.</p>"
-    },
-    "srd-2.0.class-feature.wizard.not-this-time": {
-      "name": "Pas cette fois",
-      "description": "<p><strong>Dépensez 3 Espoir</strong> pour obliger un adversaire à portée Loin à relancer un jet d’attaque ou de dégâts.</p>"
-    },
-    "srd-2.0.class-feature.wizard.prestidigitation": {
-      "name": "Prestidigitation",
-      "description": "<p>Vous pouvez produire à volonté de petits effets magiques subtils et inoffensifs. Vous pouvez par exemple changer la couleur d’un objet, créer une odeur, allumer une bougie, faire flotter un objet minuscule, éclairer une pièce ou réparer un petit objet.</p>"
-    },
-    "srd-2.0.class-feature.wizard.strange-patterns": {
-      "name": "Motifs étranges",
-      "description": "<p>Choisissez un nombre compris entre 1 et 12. Lorsque l’un de vos dés de Dualité obtient ce nombre, gagnez 1 Espoir ou effacez 1 Stress.</p><p>Vous pouvez changer ce nombre lorsque vous prenez un repos long.</p>"
-    },
-    "the-void.2026-07-09.class.blood-hunter.feature.blood-maledict": {
-      "name": "Malédiction du sang",
-      "description": "<p>Lorsqu’un adversaire réussit un jet d’attaque à portée Proche, <strong>dépensez 3 Espoir</strong> pour l’obliger à le relancer avec un désavantage.</p>"
-    },
-    "the-void.2026-07-09.class.blood-hunter.feature.crimson-rite": {
-      "name": "Rite écarlate",
-      "description": "<p>Marquez 1 PV pour imprégner l’une de vos armes actives d’une puissance assoiffée de sang jusqu’à la fin de votre prochain repos ou jusqu’à ce que vous utilisiez de nouveau cette spécificité. Lorsque vous réussissez une attaque avec cette arme, elle inflige 1d4 dégâts magiques supplémentaires. Ces dégâts passent à 2d4 au niveau 2, 3d4 au niveau 5 et 4d4 au niveau 8.</p>"
-    },
-    "the-void.2026-07-09.class.blood-hunter.feature.grim-psychometry": {
-      "name": "Psychométrie macabre",
-      "description": "<p>Effectuez un jet d’Incantation (12) pour examiner un lieu à portée Très proche. En cas de réussite, vous avez une vision de la dernière créature à y avoir commis un acte violent. Jusqu’à votre prochain repos long ou jusqu’à ce que vous utilisiez de nouveau cette spécificité, vous bénéficiez d’un avantage aux jets d’action visant à la traquer ou à vous remémorer des informations à son sujet.</p>"
-    },
-    "srd-2.0.subclass.beastbound": {
-      "name": "Lié aux bêtes"
-    },
-    "srd-2.0.subclass.call-of-the-brave": {
-      "name": "Appel du brave"
-    },
-    "srd-2.0.subclass.call-of-the-slayer": {
-      "name": "Appel du pourfendeur"
-    },
-    "srd-2.0.subclass.divine-wielder": {
-      "name": "Porteur divin"
-    },
-    "srd-2.0.subclass.elemental-origin": {
-      "name": "Origine élémentaire"
-    },
-    "srd-2.0.subclass.executioners-guild": {
-      "name": "Guilde des exécuteurs"
-    },
-    "srd-2.0.subclass.hedge": {
-      "name": "Haie"
-    },
-    "srd-2.0.subclass.juggernaut": {
-      "name": "Juggernaut"
-    },
-    "srd-2.0.subclass.martial-artist": {
-      "name": "Artiste martial"
-    },
-    "srd-2.0.subclass.moon": {
-      "name": "Lune"
-    },
-    "srd-2.0.subclass.nightwalker": {
-      "name": "Marcheur nocturne"
-    },
-    "srd-2.0.subclass.pact-of-the-endless": {
-      "name": "Pacte de l’Infini"
-    },
-    "srd-2.0.subclass.pact-of-the-wrathful": {
-      "name": "Pacte du Courroucé"
-    },
-    "srd-2.0.subclass.poisoners-guild": {
-      "name": "Guilde des empoisonneurs"
-    },
-    "srd-2.0.subclass.primal-origin": {
-      "name": "Origine primordiale"
-    },
-    "srd-2.0.subclass.school-of-knowledge": {
-      "name": "École du savoir"
-    },
-    "srd-2.0.subclass.school-of-war": {
-      "name": "École de guerre"
-    },
-    "srd-2.0.subclass.stalwart": {
-      "name": "Inébranlable"
-    },
-    "srd-2.0.subclass.syndicate": {
-      "name": "Syndicat"
-    },
-    "srd-2.0.subclass.troubadour": {
-      "name": "Troubadour"
-    },
-    "srd-2.0.subclass.vengeance": {
-      "name": "Vengeance"
-    },
-    "srd-2.0.subclass.warden-of-renewal": {
-      "name": "Gardien du renouveau"
-    },
-    "srd-2.0.subclass.warden-of-the-elements": {
-      "name": "Gardien des éléments"
-    },
-    "srd-2.0.subclass.wayfinder": {
-      "name": "Éclaireur"
-    },
-    "srd-2.0.subclass.winged-sentinel": {
-      "name": "Sentinelle ailée"
-    },
-    "srd-2.0.subclass.wordsmith": {
-      "name": "Maître des mots"
-    },
-    "the-void.2026-07-09.class.blood-hunter": {
-      "name": "Chasseur de sang"
-    },
-    "the-void.2026-07-09.subclass.order-of-the-lycan": {
-      "name": "Ordre du Lycan"
-    },
-    "the-void.2026-07-09.subclass.order-of-the-mutant": {
-      "name": "Ordre du Mutant"
-    },
-    "the-void.2026-07-09.subclass.order-of-the-specter": {
-      "name": "Ordre du Spectre"
     },
     "srd-2.0.domain-card.arcana.adjust-reality": {
       "name": "Altérer la réalité",
@@ -2292,6 +2196,1176 @@
         "description": "Lorsque 4 cartes de domaine ou plus de votre sélection active appartiennent au domaine de la Vaillance, vous bénéficiez des avantages suivants :\n ◦ Bonus de +1 à votre Score d’armure\n ◦ Lorsque vous marquez 1 Point de vie ou plus sans marquer d’emplacement d’armure, effacez un emplacement d’armure."
       }
     },
+    "srd-2.0.environment.abandoned-grove": {
+      "name": "Bosquet abandonné"
+    },
+    "srd-2.0.subclass.beastbound": {
+      "name": "Lié aux bêtes"
+    },
+    "srd-2.0.subclass.call-of-the-brave": {
+      "name": "Appel du brave"
+    },
+    "srd-2.0.subclass.call-of-the-slayer": {
+      "name": "Appel du pourfendeur"
+    },
+    "srd-2.0.subclass.divine-wielder": {
+      "name": "Porteur divin"
+    },
+    "srd-2.0.subclass.elemental-origin": {
+      "name": "Origine élémentaire"
+    },
+    "srd-2.0.subclass.executioners-guild": {
+      "name": "Guilde des exécuteurs"
+    },
+    "srd-2.0.subclass.hedge": {
+      "name": "Haie"
+    },
+    "srd-2.0.subclass.juggernaut": {
+      "name": "Juggernaut"
+    },
+    "srd-2.0.subclass.martial-artist": {
+      "name": "Artiste martial"
+    },
+    "srd-2.0.subclass.moon": {
+      "name": "Lune"
+    },
+    "srd-2.0.subclass.nightwalker": {
+      "name": "Marcheur nocturne"
+    },
+    "srd-2.0.subclass.pact-of-the-endless": {
+      "name": "Pacte de l’Infini"
+    },
+    "srd-2.0.subclass.pact-of-the-wrathful": {
+      "name": "Pacte du Courroucé"
+    },
+    "srd-2.0.subclass.poisoners-guild": {
+      "name": "Guilde des empoisonneurs"
+    },
+    "srd-2.0.subclass.primal-origin": {
+      "name": "Origine primordiale"
+    },
+    "srd-2.0.subclass.school-of-knowledge": {
+      "name": "École du savoir"
+    },
+    "srd-2.0.subclass.school-of-war": {
+      "name": "École de guerre"
+    },
+    "srd-2.0.subclass.stalwart": {
+      "name": "Inébranlable"
+    },
+    "srd-2.0.subclass.syndicate": {
+      "name": "Syndicat"
+    },
+    "srd-2.0.subclass.troubadour": {
+      "name": "Troubadour"
+    },
+    "srd-2.0.subclass.vengeance": {
+      "name": "Vengeance"
+    },
+    "srd-2.0.subclass.warden-of-renewal": {
+      "name": "Gardien du renouveau"
+    },
+    "srd-2.0.subclass.warden-of-the-elements": {
+      "name": "Gardien des éléments"
+    },
+    "srd-2.0.subclass.wayfinder": {
+      "name": "Éclaireur"
+    },
+    "srd-2.0.subclass.winged-sentinel": {
+      "name": "Sentinelle ailée"
+    },
+    "srd-2.0.subclass.wordsmith": {
+      "name": "Maître des mots"
+    },
+    "srd-2.0.weapon.combat-wheelchair.1.arcane-frame-wheelchair": {
+      "name": "Fauteuil de combat à châssis arcanique"
+    },
+    "srd-2.0.weapon.combat-wheelchair.1.heavy-frame-wheelchair": {
+      "name": "Fauteuil de combat à châssis lourd"
+    },
+    "srd-2.0.weapon.combat-wheelchair.1.light-frame-wheelchair": {
+      "name": "Fauteuil de combat à châssis léger"
+    },
+    "srd-2.0.weapon.combat-wheelchair.2.improved-arcane-frame-wheelchair": {
+      "name": "Amélioré : Fauteuil de combat à châssis arcanique"
+    },
+    "srd-2.0.weapon.combat-wheelchair.2.improved-heavy-frame-wheelchair": {
+      "name": "Amélioré : Fauteuil de combat à châssis lourd"
+    },
+    "srd-2.0.weapon.combat-wheelchair.2.improved-light-frame-wheelchair": {
+      "name": "Amélioré : Fauteuil de combat à châssis léger"
+    },
+    "srd-2.0.weapon.combat-wheelchair.3.advanced-arcane-frame-wheelchair": {
+      "name": "Avancé : Fauteuil de combat à châssis arcanique"
+    },
+    "srd-2.0.weapon.combat-wheelchair.3.advanced-heavy-frame-wheelchair": {
+      "name": "Avancé : Fauteuil de combat à châssis lourd"
+    },
+    "srd-2.0.weapon.combat-wheelchair.3.advanced-light-frame-wheelchair": {
+      "name": "Avancé : Fauteuil de combat à châssis léger"
+    },
+    "srd-2.0.weapon.combat-wheelchair.4.legendary-arcane-frame-wheelchair": {
+      "name": "Légendaire : Fauteuil de combat à châssis arcanique"
+    },
+    "srd-2.0.weapon.combat-wheelchair.4.legendary-heavy-frame-wheelchair": {
+      "name": "Légendaire : Fauteuil de combat à châssis lourd"
+    },
+    "srd-2.0.weapon.combat-wheelchair.4.legendary-light-frame-wheelchair": {
+      "name": "Légendaire : Fauteuil de combat à châssis léger"
+    },
+    "srd-2.0.weapon.primary.1.arcane-gauntlets": {
+      "name": "Gantelets arcaniques"
+    },
+    "srd-2.0.weapon.primary.1.arcane-rifle": {
+      "name": "Fusil arcanique"
+    },
+    "srd-2.0.weapon.primary.1.battleaxe": {
+      "name": "Hache de bataille"
+    },
+    "srd-2.0.weapon.primary.1.brass-knuckles": {
+      "name": "Poings américains"
+    },
+    "srd-2.0.weapon.primary.1.brightsword": {
+      "name": "Épée lumineuse"
+    },
+    "srd-2.0.weapon.primary.1.broadsword": {
+      "name": "Épée large"
+    },
+    "srd-2.0.weapon.primary.1.casting-dagger": {
+      "name": "Dague d’incantation"
+    },
+    "srd-2.0.weapon.primary.1.crossbow": {
+      "name": "Arbalète"
+    },
+    "srd-2.0.weapon.primary.1.cutlass": {
+      "name": "Sabre"
+    },
+    "srd-2.0.weapon.primary.1.dagger": {
+      "name": "Dague"
+    },
+    "srd-2.0.weapon.primary.1.dualstaff": {
+      "name": "Bâton double"
+    },
+    "srd-2.0.weapon.primary.1.enchanted-chakram": {
+      "name": "Chakram enchanté"
+    },
+    "srd-2.0.weapon.primary.1.glowing-rings": {
+      "name": "Anneaux lumineux"
+    },
+    "srd-2.0.weapon.primary.1.greatstaff": {
+      "name": "Grand bâton"
+    },
+    "srd-2.0.weapon.primary.1.greatsword": {
+      "name": "Espadon"
+    },
+    "srd-2.0.weapon.primary.1.halberd": {
+      "name": "Hallebarde"
+    },
+    "srd-2.0.weapon.primary.1.hallowed-axe": {
+      "name": "Hache consacrée"
+    },
+    "srd-2.0.weapon.primary.1.hand-runes": {
+      "name": "Runes de main"
+    },
+    "srd-2.0.weapon.primary.1.katana": {
+      "name": "Katana"
+    },
+    "srd-2.0.weapon.primary.1.longbow": {
+      "name": "Arc long"
+    },
+    "srd-2.0.weapon.primary.1.longsword": {
+      "name": "Épée longue"
+    },
+    "srd-2.0.weapon.primary.1.mace": {
+      "name": "Masse"
+    },
+    "srd-2.0.weapon.primary.1.quarterstaff": {
+      "name": "Bâton de combat"
+    },
+    "srd-2.0.weapon.primary.1.rapier": {
+      "name": "Rapière"
+    },
+    "srd-2.0.weapon.primary.1.returning-blade": {
+      "name": "Lame de retour"
+    },
+    "srd-2.0.weapon.primary.1.rope-dart": {
+      "name": "Dard à corde"
+    },
+    "srd-2.0.weapon.primary.1.runelock-pistol": {
+      "name": "Pistolet à verrou runique"
+    },
+    "srd-2.0.weapon.primary.1.scepter": {
+      "name": "Sceptre"
+    },
+    "srd-2.0.weapon.primary.1.scimitar": {
+      "name": "Cimeterre"
+    },
+    "srd-2.0.weapon.primary.1.shadowblade": {
+      "name": "Lame d’ombre"
+    },
+    "srd-2.0.weapon.primary.1.shortbow": {
+      "name": "Arc court"
+    },
+    "srd-2.0.weapon.primary.1.shortstaff": {
+      "name": "Bâton court"
+    },
+    "srd-2.0.weapon.primary.1.spear": {
+      "name": "Lance"
+    },
+    "srd-2.0.weapon.primary.1.twisted-dagger": {
+      "name": "Dague torsadée"
+    },
+    "srd-2.0.weapon.primary.1.wand": {
+      "name": "Baguette"
+    },
+    "srd-2.0.weapon.primary.1.warhammer": {
+      "name": "Marteau de guerre"
+    },
+    "srd-2.0.weapon.primary.1.whipsword": {
+      "name": "Épée-fouet"
+    },
+    "srd-2.0.weapon.primary.2.bladed-fan": {
+      "name": "Éventail à lames"
+    },
+    "srd-2.0.weapon.primary.2.bladed-whip": {
+      "name": "Fouet à lames"
+    },
+    "srd-2.0.weapon.primary.2.blunderbuss": {
+      "name": "Tromblon"
+    },
+    "srd-2.0.weapon.primary.2.cane-sword": {
+      "name": "Canne-épée"
+    },
+    "srd-2.0.weapon.primary.2.casting-sword": {
+      "name": "Épée d’incantation"
+    },
+    "srd-2.0.weapon.primary.2.cyrurgiens-scalpel": {
+      "name": "Scalpel de Cyrurgien"
+    },
+    "srd-2.0.weapon.primary.2.devouring-dagger": {
+      "name": "Dague dévorante"
+    },
+    "srd-2.0.weapon.primary.2.displacement-razor": {
+      "name": "Rasoir de déplacement"
+    },
+    "srd-2.0.weapon.primary.2.ego-blade": {
+      "name": "Lame d’ego"
+    },
+    "srd-2.0.weapon.primary.2.elder-bow": {
+      "name": "Arc ancien"
+    },
+    "srd-2.0.weapon.primary.2.enchanted-lute": {
+      "name": "Luth enchanté"
+    },
+    "srd-2.0.weapon.primary.2.enchanted-shillelagh": {
+      "name": "Shillelagh enchanté"
+    },
+    "srd-2.0.weapon.primary.2.finehair-bow": {
+      "name": "Arc de crin fin"
+    },
+    "srd-2.0.weapon.primary.2.fury-gem": {
+      "name": "Gemme de fureur"
+    },
+    "srd-2.0.weapon.primary.2.gilded-falchion": {
+      "name": "Fauchon doré"
+    },
+    "srd-2.0.weapon.primary.2.greatbow": {
+      "name": "Grand arc"
+    },
+    "srd-2.0.weapon.primary.2.hammer-of-exota": {
+      "name": "Marteau d’Exota"
+    },
+    "srd-2.0.weapon.primary.2.improved-arcane-gauntlets": {
+      "name": "Amélioré : Gantelets arcaniques"
+    },
+    "srd-2.0.weapon.primary.2.improved-arcane-rifle": {
+      "name": "Amélioré : Fusil arcanique"
+    },
+    "srd-2.0.weapon.primary.2.improved-battleaxe": {
+      "name": "Amélioré : Hache de bataille"
+    },
+    "srd-2.0.weapon.primary.2.improved-brass-knuckles": {
+      "name": "Amélioré : Poings américains"
+    },
+    "srd-2.0.weapon.primary.2.improved-brightsword": {
+      "name": "Amélioré : Épée lumineuse"
+    },
+    "srd-2.0.weapon.primary.2.improved-broadsword": {
+      "name": "Amélioré : Épée large"
+    },
+    "srd-2.0.weapon.primary.2.improved-casting-dagger": {
+      "name": "Amélioré : Dague d’incantation"
+    },
+    "srd-2.0.weapon.primary.2.improved-crossbow": {
+      "name": "Amélioré : Arbalète"
+    },
+    "srd-2.0.weapon.primary.2.improved-cutlass": {
+      "name": "Amélioré : Sabre"
+    },
+    "srd-2.0.weapon.primary.2.improved-dagger": {
+      "name": "Amélioré : Dague"
+    },
+    "srd-2.0.weapon.primary.2.improved-dualstaff": {
+      "name": "Amélioré : Bâton double"
+    },
+    "srd-2.0.weapon.primary.2.improved-enchanted-chakram": {
+      "name": "Amélioré : Chakram enchanté"
+    },
+    "srd-2.0.weapon.primary.2.improved-glowing-rings": {
+      "name": "Amélioré : Anneaux lumineux"
+    },
+    "srd-2.0.weapon.primary.2.improved-greatstaff": {
+      "name": "Amélioré : Grand bâton"
+    },
+    "srd-2.0.weapon.primary.2.improved-greatsword": {
+      "name": "Amélioré : Espadon"
+    },
+    "srd-2.0.weapon.primary.2.improved-halberd": {
+      "name": "Amélioré : Hallebarde"
+    },
+    "srd-2.0.weapon.primary.2.improved-hallowed-axe": {
+      "name": "Amélioré : Hache consacrée"
+    },
+    "srd-2.0.weapon.primary.2.improved-hand-runes": {
+      "name": "Amélioré : Runes de main"
+    },
+    "srd-2.0.weapon.primary.2.improved-katana": {
+      "name": "Amélioré : Katana"
+    },
+    "srd-2.0.weapon.primary.2.improved-longbow": {
+      "name": "Amélioré : Arc long"
+    },
+    "srd-2.0.weapon.primary.2.improved-longsword": {
+      "name": "Amélioré : Épée longue"
+    },
+    "srd-2.0.weapon.primary.2.improved-mace": {
+      "name": "Amélioré : Masse"
+    },
+    "srd-2.0.weapon.primary.2.improved-quarterstaff": {
+      "name": "Amélioré : Bâton de combat"
+    },
+    "srd-2.0.weapon.primary.2.improved-rapier": {
+      "name": "Amélioré : Rapière"
+    },
+    "srd-2.0.weapon.primary.2.improved-returning-blade": {
+      "name": "Amélioré : Lame de retour"
+    },
+    "srd-2.0.weapon.primary.2.improved-rope-dart": {
+      "name": "Amélioré : Dard à corde"
+    },
+    "srd-2.0.weapon.primary.2.improved-runelock-pistol": {
+      "name": "Amélioré : Pistolet à verrou runique"
+    },
+    "srd-2.0.weapon.primary.2.improved-scepter": {
+      "name": "Amélioré : Sceptre"
+    },
+    "srd-2.0.weapon.primary.2.improved-scimitar": {
+      "name": "Amélioré : Cimeterre"
+    },
+    "srd-2.0.weapon.primary.2.improved-shadowblade": {
+      "name": "Amélioré : Lame d’ombre"
+    },
+    "srd-2.0.weapon.primary.2.improved-shortbow": {
+      "name": "Amélioré : Arc court"
+    },
+    "srd-2.0.weapon.primary.2.improved-shortstaff": {
+      "name": "Amélioré : Bâton court"
+    },
+    "srd-2.0.weapon.primary.2.improved-spear": {
+      "name": "Amélioré : Lance"
+    },
+    "srd-2.0.weapon.primary.2.improved-twisted-dagger": {
+      "name": "Amélioré : Dague torsadée"
+    },
+    "srd-2.0.weapon.primary.2.improved-wand": {
+      "name": "Amélioré : Baguette"
+    },
+    "srd-2.0.weapon.primary.2.improved-warhammer": {
+      "name": "Amélioré : Marteau de guerre"
+    },
+    "srd-2.0.weapon.primary.2.improved-whipsword": {
+      "name": "Amélioré : Épée-fouet"
+    },
+    "srd-2.0.weapon.primary.2.javelins": {
+      "name": "Javelots"
+    },
+    "srd-2.0.weapon.primary.2.keeper-s-staff": {
+      "name": "Bâton du Gardien"
+    },
+    "srd-2.0.weapon.primary.2.knuckle-blades": {
+      "name": "Lames de poing"
+    },
+    "srd-2.0.weapon.primary.2.lance": {
+      "name": "Lance de cavalerie"
+    },
+    "srd-2.0.weapon.primary.2.scepter-of-elias": {
+      "name": "Sceptre d’Elias"
+    },
+    "srd-2.0.weapon.primary.2.spellbound-bangles": {
+      "name": "Bracelets ensorcelés"
+    },
+    "srd-2.0.weapon.primary.2.splintershaft-bow": {
+      "name": "Arc à hampe éclatée"
+    },
+    "srd-2.0.weapon.primary.2.steelforged-halberd": {
+      "name": "Hallebarde forgée d’acier"
+    },
+    "srd-2.0.weapon.primary.2.urok-broadsword": {
+      "name": "Épée large urok"
+    },
+    "srd-2.0.weapon.primary.2.wand-of-enthrallment": {
+      "name": "Baguette d’envoûtement"
+    },
+    "srd-2.0.weapon.primary.2.war-pick": {
+      "name": "Bec de guerre"
+    },
+    "srd-2.0.weapon.primary.2.war-scythe": {
+      "name": "Faux de guerre"
+    },
+    "srd-2.0.weapon.primary.2.yutari-bloodbow": {
+      "name": "Arc de sang yutari"
+    },
+    "srd-2.0.weapon.primary.3.advanced-arcane-gauntlets": {
+      "name": "Avancé : Gantelets arcaniques"
+    },
+    "srd-2.0.weapon.primary.3.advanced-arcane-rifle": {
+      "name": "Avancé : Fusil arcanique"
+    },
+    "srd-2.0.weapon.primary.3.advanced-battleaxe": {
+      "name": "Avancé : Hache de bataille"
+    },
+    "srd-2.0.weapon.primary.3.advanced-brass-knuckles": {
+      "name": "Avancé : Poings américains"
+    },
+    "srd-2.0.weapon.primary.3.advanced-brightsword": {
+      "name": "Avancé : Épée lumineuse"
+    },
+    "srd-2.0.weapon.primary.3.advanced-broadsword": {
+      "name": "Avancé : Épée large"
+    },
+    "srd-2.0.weapon.primary.3.advanced-casting-dagger": {
+      "name": "Avancé : Dague d’incantation"
+    },
+    "srd-2.0.weapon.primary.3.advanced-crossbow": {
+      "name": "Avancé : Arbalète"
+    },
+    "srd-2.0.weapon.primary.3.advanced-cutlass": {
+      "name": "Avancé : Sabre"
+    },
+    "srd-2.0.weapon.primary.3.advanced-dagger": {
+      "name": "Avancé : Dague"
+    },
+    "srd-2.0.weapon.primary.3.advanced-dualstaff": {
+      "name": "Avancé : Bâton double"
+    },
+    "srd-2.0.weapon.primary.3.advanced-enchanted-chakram": {
+      "name": "Avancé : Chakram enchanté"
+    },
+    "srd-2.0.weapon.primary.3.advanced-glowing-rings": {
+      "name": "Avancé : Anneaux lumineux"
+    },
+    "srd-2.0.weapon.primary.3.advanced-greatstaff": {
+      "name": "Avancé : Grand bâton"
+    },
+    "srd-2.0.weapon.primary.3.advanced-greatsword": {
+      "name": "Avancé : Espadon"
+    },
+    "srd-2.0.weapon.primary.3.advanced-halberd": {
+      "name": "Avancé : Hallebarde"
+    },
+    "srd-2.0.weapon.primary.3.advanced-hallowed-axe": {
+      "name": "Avancé : Hache consacrée"
+    },
+    "srd-2.0.weapon.primary.3.advanced-hand-runes": {
+      "name": "Avancé : Runes de main"
+    },
+    "srd-2.0.weapon.primary.3.advanced-katana": {
+      "name": "Avancé : Katana"
+    },
+    "srd-2.0.weapon.primary.3.advanced-longbow": {
+      "name": "Avancé : Arc long"
+    },
+    "srd-2.0.weapon.primary.3.advanced-longsword": {
+      "name": "Avancé : Épée longue"
+    },
+    "srd-2.0.weapon.primary.3.advanced-mace": {
+      "name": "Avancé : Masse"
+    },
+    "srd-2.0.weapon.primary.3.advanced-quarterstaff": {
+      "name": "Avancé : Bâton de combat"
+    },
+    "srd-2.0.weapon.primary.3.advanced-rapier": {
+      "name": "Avancé : Rapière"
+    },
+    "srd-2.0.weapon.primary.3.advanced-returning-blade": {
+      "name": "Avancé : Lame de retour"
+    },
+    "srd-2.0.weapon.primary.3.advanced-rope-dart": {
+      "name": "Avancé : Dard à corde"
+    },
+    "srd-2.0.weapon.primary.3.advanced-runelock-pistol": {
+      "name": "Avancé : Pistolet à verrou runique"
+    },
+    "srd-2.0.weapon.primary.3.advanced-scepter": {
+      "name": "Avancé : Sceptre"
+    },
+    "srd-2.0.weapon.primary.3.advanced-scimitar": {
+      "name": "Avancé : Cimeterre"
+    },
+    "srd-2.0.weapon.primary.3.advanced-shadowblade": {
+      "name": "Avancé : Lame d’ombre"
+    },
+    "srd-2.0.weapon.primary.3.advanced-shortbow": {
+      "name": "Avancé : Arc court"
+    },
+    "srd-2.0.weapon.primary.3.advanced-shortstaff": {
+      "name": "Avancé : Bâton court"
+    },
+    "srd-2.0.weapon.primary.3.advanced-spear": {
+      "name": "Avancé : Lance"
+    },
+    "srd-2.0.weapon.primary.3.advanced-twisted-dagger": {
+      "name": "Avancé : Dague torsadée"
+    },
+    "srd-2.0.weapon.primary.3.advanced-wand": {
+      "name": "Avancé : Baguette"
+    },
+    "srd-2.0.weapon.primary.3.advanced-warhammer": {
+      "name": "Avancé : Marteau de guerre"
+    },
+    "srd-2.0.weapon.primary.3.advanced-whipsword": {
+      "name": "Avancé : Épée-fouet"
+    },
+    "srd-2.0.weapon.primary.3.arc-wand": {
+      "name": "Baguette d’arc"
+    },
+    "srd-2.0.weapon.primary.3.black-powder-revolver": {
+      "name": "Revolver à poudre noire"
+    },
+    "srd-2.0.weapon.primary.3.bladed-star": {
+      "name": "Étoile à lames"
+    },
+    "srd-2.0.weapon.primary.3.blitz-hammer": {
+      "name": "Marteau-éclair"
+    },
+    "srd-2.0.weapon.primary.3.bravesword": {
+      "name": "Épée vaillante"
+    },
+    "srd-2.0.weapon.primary.3.chained-scythe": {
+      "name": "Faux enchaînée"
+    },
+    "srd-2.0.weapon.primary.3.crystal-spear": {
+      "name": "Lance de cristal"
+    },
+    "srd-2.0.weapon.primary.3.double-flail": {
+      "name": "Fléau double"
+    },
+    "srd-2.0.weapon.primary.3.flickerfly-blade": {
+      "name": "Lame de luciole"
+    },
+    "srd-2.0.weapon.primary.3.gunblade": {
+      "name": "Lame-pistolet"
+    },
+    "srd-2.0.weapon.primary.3.hammer-of-wrath": {
+      "name": "Marteau du courroux"
+    },
+    "srd-2.0.weapon.primary.3.labrys-axe": {
+      "name": "Hache labrys"
+    },
+    "srd-2.0.weapon.primary.3.meridian-cutlass": {
+      "name": "Sabre méridien"
+    },
+    "srd-2.0.weapon.primary.3.platinum-estoc": {
+      "name": "Estoc de platine"
+    },
+    "srd-2.0.weapon.primary.3.retractable-saber": {
+      "name": "Sabre rétractable"
+    },
+    "srd-2.0.weapon.primary.3.rime-scepter": {
+      "name": "Sceptre de givre"
+    },
+    "srd-2.0.weapon.primary.3.rocket-maul": {
+      "name": "Maillet-fusée"
+    },
+    "srd-2.0.weapon.primary.3.singing-sword": {
+      "name": "Épée chantante"
+    },
+    "srd-2.0.weapon.primary.3.soldiers-pike": {
+      "name": "Pique de soldat"
+    },
+    "srd-2.0.weapon.primary.3.spiked-bow": {
+      "name": "Arc à pointes"
+    },
+    "srd-2.0.weapon.primary.3.staff-of-augma": {
+      "name": "Bâton d’Augma"
+    },
+    "srd-2.0.weapon.primary.3.talon-blades": {
+      "name": "Lames-serres"
+    },
+    "srd-2.0.weapon.primary.4.aantari-bow": {
+      "name": "Arc aantari"
+    },
+    "srd-2.0.weapon.primary.4.adders-fang": {
+      "name": "Croc de vipère"
+    },
+    "srd-2.0.weapon.primary.4.arquebus": {
+      "name": "Arquebuse"
+    },
+    "srd-2.0.weapon.primary.4.bec-de-corbin": {
+      "name": "Bec de corbin"
+    },
+    "srd-2.0.weapon.primary.4.black-powder-serpentine": {
+      "name": "Serpentine à poudre noire"
+    },
+    "srd-2.0.weapon.primary.4.bloodstaff": {
+      "name": "Bâton de sang"
+    },
+    "srd-2.0.weapon.primary.4.clockwork-crossbow": {
+      "name": "Arbalète mécanique"
+    },
+    "srd-2.0.weapon.primary.4.curved-dagger": {
+      "name": "Dague courbe"
+    },
+    "srd-2.0.weapon.primary.4.demons-edge": {
+      "name": "Tranchant du démon"
+    },
+    "srd-2.0.weapon.primary.4.dual-ended-sword": {
+      "name": "Épée à double extrémité"
+    },
+    "srd-2.0.weapon.primary.4.extended-polearm": {
+      "name": "Arme d’hast allongée"
+    },
+    "srd-2.0.weapon.primary.4.floating-bladeshards": {
+      "name": "Éclats de lame flottants"
+    },
+    "srd-2.0.weapon.primary.4.fusion-gloves": {
+      "name": "Gants de fusion"
+    },
+    "srd-2.0.weapon.primary.4.gravity-arbalest": {
+      "name": "Arbalète gravitationnelle"
+    },
+    "srd-2.0.weapon.primary.4.hand-cannon": {
+      "name": "Canon à main"
+    },
+    "srd-2.0.weapon.primary.4.impact-gauntlet": {
+      "name": "Gantelet d’impact"
+    },
+    "srd-2.0.weapon.primary.4.infinite-staff": {
+      "name": "Bâton infini"
+    },
+    "srd-2.0.weapon.primary.4.legendary-arcane-gauntlets": {
+      "name": "Légendaire : Gantelets arcaniques"
+    },
+    "srd-2.0.weapon.primary.4.legendary-arcane-rifle": {
+      "name": "Légendaire : Fusil arcanique"
+    },
+    "srd-2.0.weapon.primary.4.legendary-battleaxe": {
+      "name": "Légendaire : Hache de bataille"
+    },
+    "srd-2.0.weapon.primary.4.legendary-brass-knuckles": {
+      "name": "Légendaire : Poings américains"
+    },
+    "srd-2.0.weapon.primary.4.legendary-brightsword": {
+      "name": "Légendaire : Épée lumineuse"
+    },
+    "srd-2.0.weapon.primary.4.legendary-broadsword": {
+      "name": "Légendaire : Épée large"
+    },
+    "srd-2.0.weapon.primary.4.legendary-casting-dagger": {
+      "name": "Légendaire : Dague d’incantation"
+    },
+    "srd-2.0.weapon.primary.4.legendary-crossbow": {
+      "name": "Légendaire : Arbalète"
+    },
+    "srd-2.0.weapon.primary.4.legendary-cutlass": {
+      "name": "Légendaire : Sabre"
+    },
+    "srd-2.0.weapon.primary.4.legendary-dagger": {
+      "name": "Légendaire : Dague"
+    },
+    "srd-2.0.weapon.primary.4.legendary-dualstaff": {
+      "name": "Légendaire : Bâton double"
+    },
+    "srd-2.0.weapon.primary.4.legendary-enchanted-chakram": {
+      "name": "Légendaire : Chakram enchanté"
+    },
+    "srd-2.0.weapon.primary.4.legendary-glowing-rings": {
+      "name": "Légendaire : Anneaux lumineux"
+    },
+    "srd-2.0.weapon.primary.4.legendary-greatstaff": {
+      "name": "Légendaire : Grand bâton"
+    },
+    "srd-2.0.weapon.primary.4.legendary-greatsword": {
+      "name": "Légendaire : Espadon"
+    },
+    "srd-2.0.weapon.primary.4.legendary-halberd": {
+      "name": "Légendaire : Hallebarde"
+    },
+    "srd-2.0.weapon.primary.4.legendary-hallowed-axe": {
+      "name": "Légendaire : Hache consacrée"
+    },
+    "srd-2.0.weapon.primary.4.legendary-hand-runes": {
+      "name": "Légendaire : Runes de main"
+    },
+    "srd-2.0.weapon.primary.4.legendary-katana": {
+      "name": "Légendaire : Katana"
+    },
+    "srd-2.0.weapon.primary.4.legendary-longbow": {
+      "name": "Légendaire : Arc long"
+    },
+    "srd-2.0.weapon.primary.4.legendary-longsword": {
+      "name": "Légendaire : Épée longue"
+    },
+    "srd-2.0.weapon.primary.4.legendary-mace": {
+      "name": "Légendaire : Masse"
+    },
+    "srd-2.0.weapon.primary.4.legendary-quarterstaff": {
+      "name": "Légendaire : Bâton de combat"
+    },
+    "srd-2.0.weapon.primary.4.legendary-rapier": {
+      "name": "Légendaire : Rapière"
+    },
+    "srd-2.0.weapon.primary.4.legendary-returning-blade": {
+      "name": "Légendaire : Lame de retour"
+    },
+    "srd-2.0.weapon.primary.4.legendary-rope-dart": {
+      "name": "Légendaire : Dard à corde"
+    },
+    "srd-2.0.weapon.primary.4.legendary-runelock-pistol": {
+      "name": "Légendaire : Pistolet à verrou runique"
+    },
+    "srd-2.0.weapon.primary.4.legendary-scepter": {
+      "name": "Légendaire : Sceptre"
+    },
+    "srd-2.0.weapon.primary.4.legendary-scimitar": {
+      "name": "Légendaire : Cimeterre"
+    },
+    "srd-2.0.weapon.primary.4.legendary-shadowblade": {
+      "name": "Légendaire : Lame d’ombre"
+    },
+    "srd-2.0.weapon.primary.4.legendary-shortbow": {
+      "name": "Légendaire : Arc court"
+    },
+    "srd-2.0.weapon.primary.4.legendary-shortstaff": {
+      "name": "Légendaire : Bâton court"
+    },
+    "srd-2.0.weapon.primary.4.legendary-spear": {
+      "name": "Légendaire : Lance"
+    },
+    "srd-2.0.weapon.primary.4.legendary-twisted-dagger": {
+      "name": "Légendaire : Dague torsadée"
+    },
+    "srd-2.0.weapon.primary.4.legendary-wand": {
+      "name": "Légendaire : Baguette"
+    },
+    "srd-2.0.weapon.primary.4.legendary-warhammer": {
+      "name": "Légendaire : Marteau de guerre"
+    },
+    "srd-2.0.weapon.primary.4.legendary-whipsword": {
+      "name": "Légendaire : Épée-fouet"
+    },
+    "srd-2.0.weapon.primary.4.magus-revolver": {
+      "name": "Revolver du mage"
+    },
+    "srd-2.0.weapon.primary.4.midas-scythe": {
+      "name": "Faux de Midas"
+    },
+    "srd-2.0.weapon.primary.4.ricochet-axes": {
+      "name": "Haches à ricochet"
+    },
+    "srd-2.0.weapon.primary.4.severed-dragon-claw": {
+      "name": "Griffe de dragon tranchée"
+    },
+    "srd-2.0.weapon.primary.4.siphoning-gauntlets": {
+      "name": "Gantelets siphonneurs"
+    },
+    "srd-2.0.weapon.primary.4.sledge-axe": {
+      "name": "Hache-masse"
+    },
+    "srd-2.0.weapon.primary.4.starmetal-blade": {
+      "name": "Lame de métal stellaire"
+    },
+    "srd-2.0.weapon.primary.4.storm-gods-greataxe": {
+      "name": "Grande hache du dieu des tempêtes"
+    },
+    "srd-2.0.weapon.primary.4.swinging-ropeblade": {
+      "name": "Lame à corde oscillante"
+    },
+    "srd-2.0.weapon.primary.4.sword-of-light-flame": {
+      "name": "Épée de lumière et de flamme"
+    },
+    "srd-2.0.weapon.primary.4.thistlebow": {
+      "name": "Arc de chardon"
+    },
+    "srd-2.0.weapon.primary.4.wand-of-essek": {
+      "name": "Baguette d’Essek"
+    },
+    "srd-2.0.weapon.secondary.1.fighting-cloak": {
+      "name": "Cape de combat"
+    },
+    "srd-2.0.weapon.secondary.1.focus-runes": {
+      "name": "Runes de focalisation"
+    },
+    "srd-2.0.weapon.secondary.1.grappler": {
+      "name": "Grappin"
+    },
+    "srd-2.0.weapon.secondary.1.hand-crossbow": {
+      "name": "Arbalète de poing"
+    },
+    "srd-2.0.weapon.secondary.1.hatchet": {
+      "name": "Hachette"
+    },
+    "srd-2.0.weapon.secondary.1.offhand-brass-knuckles": {
+      "name": "Poings américains de main secondaire"
+    },
+    "srd-2.0.weapon.secondary.1.round-shield": {
+      "name": "Bouclier rond"
+    },
+    "srd-2.0.weapon.secondary.1.rune-shield": {
+      "name": "Bouclier runique"
+    },
+    "srd-2.0.weapon.secondary.1.shortsword": {
+      "name": "Épée courte"
+    },
+    "srd-2.0.weapon.secondary.1.small-dagger": {
+      "name": "Petite dague"
+    },
+    "srd-2.0.weapon.secondary.1.throwing-knives": {
+      "name": "Couteaux de lancer"
+    },
+    "srd-2.0.weapon.secondary.1.tower-shield": {
+      "name": "Pavois"
+    },
+    "srd-2.0.weapon.secondary.1.whip": {
+      "name": "Fouet"
+    },
+    "srd-2.0.weapon.secondary.2.collapsible-baton": {
+      "name": "Matraque télescopique"
+    },
+    "srd-2.0.weapon.secondary.2.eldritch-vambrace": {
+      "name": "Brassard occulte"
+    },
+    "srd-2.0.weapon.secondary.2.improved-fighting-cloak": {
+      "name": "Amélioré : Cape de combat"
+    },
+    "srd-2.0.weapon.secondary.2.improved-focus-runes": {
+      "name": "Amélioré : Runes de focalisation"
+    },
+    "srd-2.0.weapon.secondary.2.improved-grappler": {
+      "name": "Amélioré : Grappin"
+    },
+    "srd-2.0.weapon.secondary.2.improved-hand-crossbow": {
+      "name": "Amélioré : Arbalète de poing"
+    },
+    "srd-2.0.weapon.secondary.2.improved-hatchet": {
+      "name": "Amélioré : Hachette"
+    },
+    "srd-2.0.weapon.secondary.2.improved-offhand-brass-knuckles": {
+      "name": "Amélioré : Poings américains de main secondaire"
+    },
+    "srd-2.0.weapon.secondary.2.improved-round-shield": {
+      "name": "Amélioré : Bouclier rond"
+    },
+    "srd-2.0.weapon.secondary.2.improved-rune-shield": {
+      "name": "Amélioré : Bouclier runique"
+    },
+    "srd-2.0.weapon.secondary.2.improved-shortsword": {
+      "name": "Amélioré : Épée courte"
+    },
+    "srd-2.0.weapon.secondary.2.improved-small-dagger": {
+      "name": "Amélioré : Petite dague"
+    },
+    "srd-2.0.weapon.secondary.2.improved-throwing-knives": {
+      "name": "Amélioré : Couteaux de lancer"
+    },
+    "srd-2.0.weapon.secondary.2.improved-tower-shield": {
+      "name": "Amélioré : Pavois"
+    },
+    "srd-2.0.weapon.secondary.2.improved-whip": {
+      "name": "Amélioré : Fouet"
+    },
+    "srd-2.0.weapon.secondary.2.parrying-dagger": {
+      "name": "Dague de parade"
+    },
+    "srd-2.0.weapon.secondary.2.razor-wire": {
+      "name": "Fil barbelé"
+    },
+    "srd-2.0.weapon.secondary.2.returning-axe": {
+      "name": "Hache de retour"
+    },
+    "srd-2.0.weapon.secondary.2.segmented-staff": {
+      "name": "Bâton segmenté"
+    },
+    "srd-2.0.weapon.secondary.2.spiked-shield": {
+      "name": "Bouclier à pointes"
+    },
+    "srd-2.0.weapon.secondary.3.advanced-fighting-cloak": {
+      "name": "Avancé : Cape de combat"
+    },
+    "srd-2.0.weapon.secondary.3.advanced-focus-runes": {
+      "name": "Avancé : Runes de focalisation"
+    },
+    "srd-2.0.weapon.secondary.3.advanced-grappler": {
+      "name": "Avancé : Grappin"
+    },
+    "srd-2.0.weapon.secondary.3.advanced-hand-crossbow": {
+      "name": "Avancé : Arbalète de poing"
+    },
+    "srd-2.0.weapon.secondary.3.advanced-hatchet": {
+      "name": "Avancé : Hachette"
+    },
+    "srd-2.0.weapon.secondary.3.advanced-offhand-brass-knuckles": {
+      "name": "Avancé : Poings américains de main secondaire"
+    },
+    "srd-2.0.weapon.secondary.3.advanced-round-shield": {
+      "name": "Avancé : Bouclier rond"
+    },
+    "srd-2.0.weapon.secondary.3.advanced-rune-shield": {
+      "name": "Avancé : Bouclier runique"
+    },
+    "srd-2.0.weapon.secondary.3.advanced-shortsword": {
+      "name": "Avancé : Épée courte"
+    },
+    "srd-2.0.weapon.secondary.3.advanced-small-dagger": {
+      "name": "Avancé : Petite dague"
+    },
+    "srd-2.0.weapon.secondary.3.advanced-throwing-knives": {
+      "name": "Avancé : Couteaux de lancer"
+    },
+    "srd-2.0.weapon.secondary.3.advanced-tower-shield": {
+      "name": "Avancé : Pavois"
+    },
+    "srd-2.0.weapon.secondary.3.advanced-whip": {
+      "name": "Avancé : Fouet"
+    },
+    "srd-2.0.weapon.secondary.3.buckler": {
+      "name": "Rondache"
+    },
+    "srd-2.0.weapon.secondary.3.hand-sling": {
+      "name": "Fronde"
+    },
+    "srd-2.0.weapon.secondary.3.powered-gauntlet": {
+      "name": "Gantelet motorisé"
+    },
+    "srd-2.0.weapon.secondary.3.soul-chain": {
+      "name": "Chaîne d’âme"
+    },
+    "srd-2.0.weapon.secondary.3.tinkers-hammer": {
+      "name": "Marteau de bricoleur"
+    },
+    "srd-2.0.weapon.secondary.3.vorpal-shard": {
+      "name": "Éclat vorpal"
+    },
+    "srd-2.0.weapon.secondary.3.war-dart": {
+      "name": "Dard de guerre"
+    },
+    "srd-2.0.weapon.secondary.4.blackblood-tendril": {
+      "name": "Vrille de sang noir"
+    },
+    "srd-2.0.weapon.secondary.4.braveshield": {
+      "name": "Bouclier vaillant"
+    },
+    "srd-2.0.weapon.secondary.4.echo-blade": {
+      "name": "Lame d’écho"
+    },
+    "srd-2.0.weapon.secondary.4.knuckle-claws": {
+      "name": "Griffes de poing"
+    },
+    "srd-2.0.weapon.secondary.4.legendary-fighting-cloak": {
+      "name": "Légendaire : Cape de combat"
+    },
+    "srd-2.0.weapon.secondary.4.legendary-focus-runes": {
+      "name": "Légendaire : Runes de focalisation"
+    },
+    "srd-2.0.weapon.secondary.4.legendary-grappler": {
+      "name": "Légendaire : Grappin"
+    },
+    "srd-2.0.weapon.secondary.4.legendary-hand-crossbow": {
+      "name": "Légendaire : Arbalète de poing"
+    },
+    "srd-2.0.weapon.secondary.4.legendary-hatchet": {
+      "name": "Légendaire : Hachette"
+    },
+    "srd-2.0.weapon.secondary.4.legendary-offhand-brass-knuckles": {
+      "name": "Légendaire : Poings américains de main secondaire"
+    },
+    "srd-2.0.weapon.secondary.4.legendary-round-shield": {
+      "name": "Légendaire : Bouclier rond"
+    },
+    "srd-2.0.weapon.secondary.4.legendary-rune-shield": {
+      "name": "Légendaire : Bouclier runique"
+    },
+    "srd-2.0.weapon.secondary.4.legendary-shortsword": {
+      "name": "Légendaire : Épée courte"
+    },
+    "srd-2.0.weapon.secondary.4.legendary-small-dagger": {
+      "name": "Légendaire : Petite dague"
+    },
+    "srd-2.0.weapon.secondary.4.legendary-throwing-knives": {
+      "name": "Légendaire : Couteaux de lancer"
+    },
+    "srd-2.0.weapon.secondary.4.legendary-tower-shield": {
+      "name": "Légendaire : Pavois"
+    },
+    "srd-2.0.weapon.secondary.4.legendary-whip": {
+      "name": "Légendaire : Fouet"
+    },
+    "srd-2.0.weapon.secondary.4.orb": {
+      "name": "Orbe"
+    },
+    "srd-2.0.weapon.secondary.4.primer-shard": {
+      "name": "Éclat d’amorce"
+    },
+    "srd-2.0.weapon.secondary.4.void-needle": {
+      "name": "Aiguille du Vide"
+    },
+    "srd-2.0.weapon.supplemental-monster-hunting.primary.1.blessed-brass-knuckles": {
+      "name": "Poings américains bénis"
+    },
+    "srd-2.0.weapon.supplemental-monster-hunting.primary.1.holy-shotgun": {
+      "name": "Fusil à pompe sacré"
+    },
+    "srd-2.0.weapon.supplemental-monster-hunting.primary.1.repeating-crossbow": {
+      "name": "Arbalète à répétition"
+    },
+    "srd-2.0.weapon.supplemental-monster-hunting.primary.2.blessed-brass-knuckles": {
+      "name": "Poings américains bénis"
+    },
+    "srd-2.0.weapon.supplemental-monster-hunting.primary.2.holy-shotgun": {
+      "name": "Fusil à pompe sacré"
+    },
+    "srd-2.0.weapon.supplemental-monster-hunting.primary.2.repeating-crossbow": {
+      "name": "Arbalète à répétition"
+    },
+    "srd-2.0.weapon.supplemental-monster-hunting.primary.3.blessed-brass-knuckles": {
+      "name": "Poings américains bénis"
+    },
+    "srd-2.0.weapon.supplemental-monster-hunting.primary.3.holy-shotgun": {
+      "name": "Fusil à pompe sacré"
+    },
+    "srd-2.0.weapon.supplemental-monster-hunting.primary.3.repeating-crossbow": {
+      "name": "Arbalète à répétition"
+    },
+    "srd-2.0.weapon.supplemental-monster-hunting.primary.4.blessed-brass-knuckles": {
+      "name": "Poings américains bénis"
+    },
+    "srd-2.0.weapon.supplemental-monster-hunting.primary.4.holy-shotgun": {
+      "name": "Fusil à pompe sacré"
+    },
+    "srd-2.0.weapon.supplemental-monster-hunting.primary.4.repeating-crossbow": {
+      "name": "Arbalète à répétition"
+    },
+    "srd-2.0.weapon.supplemental-monster-hunting.secondary.1.chain-whip": {
+      "name": "Fouet-chaîne"
+    },
+    "srd-2.0.weapon.supplemental-monster-hunting.secondary.1.hallowed-shield": {
+      "name": "Bouclier consacré"
+    },
+    "srd-2.0.weapon.supplemental-monster-hunting.secondary.1.wooden-stake": {
+      "name": "Pieu de bois"
+    },
+    "srd-2.0.weapon.supplemental-monster-hunting.secondary.2.chain-whip": {
+      "name": "Fouet-chaîne"
+    },
+    "srd-2.0.weapon.supplemental-monster-hunting.secondary.2.hallowed-shield": {
+      "name": "Bouclier consacré"
+    },
+    "srd-2.0.weapon.supplemental-monster-hunting.secondary.2.wooden-stake": {
+      "name": "Pieu de bois"
+    },
+    "srd-2.0.weapon.supplemental-monster-hunting.secondary.3.chain-whip": {
+      "name": "Fouet-chaîne"
+    },
+    "srd-2.0.weapon.supplemental-monster-hunting.secondary.3.hallowed-shield": {
+      "name": "Bouclier consacré"
+    },
+    "srd-2.0.weapon.supplemental-monster-hunting.secondary.3.wooden-stake": {
+      "name": "Pieu de bois"
+    },
+    "srd-2.0.weapon.supplemental-monster-hunting.secondary.4.chain-whip": {
+      "name": "Fouet-chaîne"
+    },
+    "srd-2.0.weapon.supplemental-monster-hunting.secondary.4.hallowed-shield": {
+      "name": "Bouclier consacré"
+    },
+    "srd-2.0.weapon.supplemental-monster-hunting.secondary.4.wooden-stake": {
+      "name": "Pieu de bois"
+    },
+    "srd-2.0.weapon.supplemental-western.primary.1.revolver": {
+      "name": "Revolver"
+    },
+    "srd-2.0.weapon.supplemental-western.primary.1.rifle": {
+      "name": "Fusil"
+    },
+    "srd-2.0.weapon.supplemental-western.primary.1.shotgun": {
+      "name": "Fusil à pompe"
+    },
+    "srd-2.0.weapon.supplemental-western.primary.2.revolver": {
+      "name": "Revolver"
+    },
+    "srd-2.0.weapon.supplemental-western.primary.2.rifle": {
+      "name": "Fusil"
+    },
+    "srd-2.0.weapon.supplemental-western.primary.2.shotgun": {
+      "name": "Fusil à pompe"
+    },
+    "srd-2.0.weapon.supplemental-western.primary.3.revolver": {
+      "name": "Revolver"
+    },
+    "srd-2.0.weapon.supplemental-western.primary.3.rifle": {
+      "name": "Fusil"
+    },
+    "srd-2.0.weapon.supplemental-western.primary.3.shotgun": {
+      "name": "Fusil à pompe"
+    },
+    "srd-2.0.weapon.supplemental-western.primary.4.revolver": {
+      "name": "Revolver"
+    },
+    "srd-2.0.weapon.supplemental-western.primary.4.rifle": {
+      "name": "Fusil"
+    },
+    "srd-2.0.weapon.supplemental-western.primary.4.shotgun": {
+      "name": "Fusil à pompe"
+    },
+    "srd-2.0.weapon.supplemental-western.secondary.1.lasso": {
+      "name": "Lasso"
+    },
+    "srd-2.0.weapon.supplemental-western.secondary.1.small-revolver": {
+      "name": "Petit revolver"
+    },
+    "srd-2.0.weapon.supplemental-western.secondary.2.lasso": {
+      "name": "Lasso"
+    },
+    "srd-2.0.weapon.supplemental-western.secondary.2.small-revolver": {
+      "name": "Petit revolver"
+    },
+    "srd-2.0.weapon.supplemental-western.secondary.3.lasso": {
+      "name": "Lasso"
+    },
+    "srd-2.0.weapon.supplemental-western.secondary.3.small-revolver": {
+      "name": "Petit revolver"
+    },
+    "srd-2.0.weapon.supplemental-western.secondary.4.lasso": {
+      "name": "Lasso"
+    },
+    "srd-2.0.weapon.supplemental-western.secondary.4.small-revolver": {
+      "name": "Petit revolver"
+    },
+    "the-void.2026-07-09.class.blood-hunter": {
+      "name": "Chasseur de sang"
+    },
+    "the-void.2026-07-09.class.blood-hunter.feature.blood-maledict": {
+      "name": "Malédiction du sang",
+      "description": "<p>Lorsqu’un adversaire réussit un jet d’attaque à portée Proche, <strong>dépensez 3 Espoir</strong> pour l’obliger à le relancer avec un désavantage.</p>"
+    },
+    "the-void.2026-07-09.class.blood-hunter.feature.crimson-rite": {
+      "name": "Rite écarlate",
+      "description": "<p>Marquez 1 PV pour imprégner l’une de vos armes actives d’une puissance assoiffée de sang jusqu’à la fin de votre prochain repos ou jusqu’à ce que vous utilisiez de nouveau cette spécificité. Lorsque vous réussissez une attaque avec cette arme, elle inflige 1d4 dégâts magiques supplémentaires. Ces dégâts passent à 2d4 au niveau 2, 3d4 au niveau 5 et 4d4 au niveau 8.</p>"
+    },
+    "the-void.2026-07-09.class.blood-hunter.feature.grim-psychometry": {
+      "name": "Psychométrie macabre",
+      "description": "<p>Effectuez un jet d’Incantation (12) pour examiner un lieu à portée Très proche. En cas de réussite, vous avez une vision de la dernière créature à y avoir commis un acte violent. Jusqu’à votre prochain repos long ou jusqu’à ce que vous utilisiez de nouveau cette spécificité, vous bénéficiez d’un avantage aux jets d’action visant à la traquer ou à vous remémorer des informations à son sujet.</p>"
+    },
     "the-void.2026-07-09.domain_card.bleeding-tree": {
       "name": "Arbre sanglant",
       "system": {
@@ -2418,1088 +3492,74 @@
         "description": "Une fois par repos long, vous pouvez marquer 1 PV pour coaguler, suturer et fortifier les autres avec votre propre sang vital. Chaque cible consentante à portée Très Proche efface 1 PV et 1 emplacement d’armure."
       }
     },
-    "srd-2.0.adversary.bear": {
-      "name": "Ours",
-      "system": {
-        "motivesAndTactics": "Grimper, défendre son territoire, rouer de coups, traquer"
-      }
+    "the-void.2026-07-09.subclass.order-of-the-lycan": {
+      "name": "Ordre du Lycan"
     },
-    "srd-2.0.environment.abandoned-grove": {
-      "name": "Bosquet abandonné"
+    "the-void.2026-07-09.subclass.order-of-the-lycan.feature.apex-hunter": {
+      "name": "Prédateur suprême",
+      "description": "<p>Le dé bonus de votre Forme hybride passe à 1d8.</p>"
     },
-    "srd-2.0.weapon.primary.1.broadsword": {
-      "name": "Épée large"
+    "the-void.2026-07-09.subclass.order-of-the-lycan.feature.bestial-focus": {
+      "name": "Focalisation bestiale",
+      "description": "<p>Une fois par repos, vous pouvez placer une carte de domaine dans votre réserve, puis effacer un nombre de Stress égal au coût de Rappel de cette carte.</p>"
     },
-    "srd-2.0.weapon.primary.1.katana": {
-      "name": "Katana"
+    "the-void.2026-07-09.subclass.order-of-the-lycan.feature.feral-empowerment": {
+      "name": "Puissance sauvage",
+      "description": "<p>Le dé bonus de votre Forme hybride passe à 1d6.</p>"
     },
-    "srd-2.0.weapon.primary.1.longsword": {
-      "name": "Épée longue"
+    "the-void.2026-07-09.subclass.order-of-the-lycan.feature.hybrid-form": {
+      "name": "Forme hybride",
+      "description": "<p>Vous pouvez adopter une Forme hybride lupine. Marquez 1 Stress pour prendre cette forme jusqu’à ce que tout votre Stress soit marqué ou que la scène prenne fin. Sous cette forme, vous gagnez un bonus de 1d4 à vos jets d’action et de dégâts.</p>"
     },
-    "srd-2.0.weapon.primary.1.battleaxe": {
-      "name": "Hache de bataille"
+    "the-void.2026-07-09.subclass.order-of-the-lycan.feature.regeneration": {
+      "name": "Régénération",
+      "description": "<p>Lorsque vous réussissez avec Espoir sous Forme hybride, lancez un d4. Si le résultat est supérieur à votre nombre actuel de PV non marqués, effacez 1 PV.</p>"
     },
-    "srd-2.0.weapon.primary.1.brass-knuckles": {
-      "name": "Poings américains"
+    "the-void.2026-07-09.subclass.order-of-the-lycan.feature.the-beast-within": {
+      "name": "La Bête intérieure",
+      "description": "<p>Lorsque vous gagnez 1 Espoir sous Forme hybride, marquez également 1 Stress.</p>"
     },
-    "srd-2.0.weapon.primary.1.greatsword": {
-      "name": "Espadon"
+    "the-void.2026-07-09.subclass.order-of-the-mutant": {
+      "name": "Ordre du Mutant"
     },
-    "srd-2.0.weapon.primary.1.mace": {
-      "name": "Masse"
+    "the-void.2026-07-09.subclass.order-of-the-mutant.feature.improved-mutagens": {
+      "name": "Mutagènes améliorés",
+      "description": "<p>Lorsque vous choisissez un bénéfice de mutagène, vous pouvez également choisir parmi les options suivantes :</p><ul><li><p><strong>Nerfs d’acier.</strong> Chaque fois que vous devriez marquer 1 Stress, vous pouvez dépenser 2 Espoir à la place.</p></li><li><p><strong>Rapidité.</strong> Votre Évasion augmente de 1.</p></li><li><p><strong>Peau de fer.</strong> Votre seuil de dégâts Graves augmente d’un nombre égal à votre Maîtrise.</p></li></ul>"
     },
-    "srd-2.0.weapon.primary.1.warhammer": {
-      "name": "Marteau de guerre"
+    "the-void.2026-07-09.subclass.order-of-the-mutant.feature.mastered-mutagens": {
+      "name": "Mutagènes maîtrisés",
+      "description": "<p>Le bonus et le malus de trait conférés par Mutagènes passent respectivement à +2 et −2. Lorsque vous choisissez un bénéfice de mutagène, vous pouvez également choisir parmi les options suivantes :</p><ul><li><p><strong>Sang d’éther.</strong> Dans votre ligne de vue, vous voyez les créatures et objets invisibles, et les illusions visuelles vous apparaissent transparentes. Si une créature ou un objet dans votre ligne de vue a été transformé par magie, vous voyez sa véritable forme.</p></li><li><p><strong>Fureur.</strong> Lorsque vous effectuez un jet d’attaque, vous pouvez marquer 1 Stress pour gagner un bonus au jet égal à votre Maîtrise.</p></li><li><p><strong>Chair d’acier.</strong> Votre seuil de dégâts Majeurs gagne un bonus égal à votre Maîtrise.</p></li></ul>"
     },
-    "srd-2.0.weapon.primary.1.dagger": {
-      "name": "Dague"
+    "the-void.2026-07-09.subclass.order-of-the-mutant.feature.mutagens": {
+      "name": "Mutagènes",
+      "description": "<p>Vous employez des toxines mutagènes conçues pour améliorer vos capacités. À la fin d’un repos, vous pouvez boire l’une de ces toxines pour bénéficier de ses effets jusqu’à la fin de votre prochain repos. Vous gagnez +1 à un trait de votre choix, −1 à un autre trait de votre choix, ainsi que l’un des bénéfices suivants :</p><ul><li><p><strong>Célérité.</strong> Si vous êtes Entravé ou Vulnérable, marquez 1 Stress pour mettre fin à cet état sur vous-même.</p></li><li><p><strong>Robuste.</strong> Votre score d’Armure augmente de 2.</p></li><li><p><strong>Sens du chasseur.</strong> Vous bénéficiez d’un avantage aux jets d’action pour traquer une créature et pouvez voir dans l’obscurité totale.</p></li></ul>"
     },
-    "srd-2.0.weapon.primary.1.quarterstaff": {
-      "name": "Bâton de combat"
+    "the-void.2026-07-09.subclass.order-of-the-mutant.feature.volatile-toxins": {
+      "name": "Toxines volatiles",
+      "description": "<p>Vous pouvez choisir deux bénéfices de mutagène au lieu d’un. Si vous le faites, marquez 1 PV qui ne peut pas être effacé avant la fin de votre prochain repos.</p>"
     },
-    "srd-2.0.weapon.primary.1.cutlass": {
-      "name": "Sabre"
+    "the-void.2026-07-09.subclass.order-of-the-specter": {
+      "name": "Ordre du Spectre"
     },
-    "srd-2.0.weapon.primary.1.rapier": {
-      "name": "Rapière"
+    "the-void.2026-07-09.subclass.order-of-the-specter.feature.horror-honed": {
+      "name": "Aiguisé par l’horreur",
+      "description": "<p>Vous ne pouvez pas devenir Vulnérable tant que tout votre Stress n’est pas marqué.</p>"
     },
-    "srd-2.0.weapon.primary.1.scimitar": {
-      "name": "Cimeterre"
+    "the-void.2026-07-09.subclass.order-of-the-specter.feature.shadowed-grit": {
+      "name": "Ténacité des ombres",
+      "description": "<p>Lorsque vous réussissez un jet d’action avec Peur, vous pouvez dépenser 1 Espoir pour effacer 1 Stress.</p>"
     },
-    "srd-2.0.weapon.primary.1.twisted-dagger": {
-      "name": "Dague torsadée"
+    "the-void.2026-07-09.subclass.order-of-the-specter.feature.spectral-form": {
+      "name": "Forme spectrale",
+      "description": "<p>Une fois par repos long, lorsque vous devriez marquer votre dernier PV, vous pouvez marquer 1 Stress et entrer à la place en Forme spectrale. Sous cette forme, vous pouvez traverser la matière physique et bénéficiez d’une résistance aux dégâts physiques. De plus, lorsque vous devriez marquer 1 PV, marquez 1 Stress à la place. Vous quittez cette forme si votre dernier Stress est marqué ou si vous effacez 1 PV.</p>"
     },
-    "srd-2.0.weapon.primary.1.halberd": {
-      "name": "Hallebarde"
+    "the-void.2026-07-09.subclass.order-of-the-specter.feature.veilstalker": {
+      "name": "Traque-voile",
+      "description": "<p>Lorsque vous utilisez Marche-voile, vous pouvez désormais vous déplacer jusqu’à un endroit à portée Loin et vous bénéficiez d’un avantage au prochain jet d’action que vous effectuez pendant cette scène.</p>"
     },
-    "srd-2.0.weapon.primary.1.spear": {
-      "name": "Lance"
-    },
-    "srd-2.0.weapon.primary.1.whipsword": {
-      "name": "Épée-fouet"
-    },
-    "srd-2.0.weapon.primary.1.rope-dart": {
-      "name": "Dard à corde"
-    },
-    "srd-2.0.weapon.primary.1.shortbow": {
-      "name": "Arc court"
-    },
-    "srd-2.0.weapon.primary.1.crossbow": {
-      "name": "Arbalète"
-    },
-    "srd-2.0.weapon.primary.1.longbow": {
-      "name": "Arc long"
-    },
-    "srd-2.0.weapon.primary.1.arcane-gauntlets": {
-      "name": "Gantelets arcaniques"
-    },
-    "srd-2.0.weapon.primary.1.brightsword": {
-      "name": "Épée lumineuse"
-    },
-    "srd-2.0.weapon.primary.1.hallowed-axe": {
-      "name": "Hache consacrée"
-    },
-    "srd-2.0.weapon.primary.1.shadowblade": {
-      "name": "Lame d’ombre"
-    },
-    "srd-2.0.weapon.primary.1.glowing-rings": {
-      "name": "Anneaux lumineux"
-    },
-    "srd-2.0.weapon.primary.1.hand-runes": {
-      "name": "Runes de main"
-    },
-    "srd-2.0.weapon.primary.1.enchanted-chakram": {
-      "name": "Chakram enchanté"
-    },
-    "srd-2.0.weapon.primary.1.returning-blade": {
-      "name": "Lame de retour"
-    },
-    "srd-2.0.weapon.primary.1.casting-dagger": {
-      "name": "Dague d’incantation"
-    },
-    "srd-2.0.weapon.primary.1.shortstaff": {
-      "name": "Bâton court"
-    },
-    "srd-2.0.weapon.primary.1.dualstaff": {
-      "name": "Bâton double"
-    },
-    "srd-2.0.weapon.primary.1.scepter": {
-      "name": "Sceptre"
-    },
-    "srd-2.0.weapon.primary.1.runelock-pistol": {
-      "name": "Pistolet à verrou runique"
-    },
-    "srd-2.0.weapon.primary.1.wand": {
-      "name": "Baguette"
-    },
-    "srd-2.0.weapon.primary.1.arcane-rifle": {
-      "name": "Fusil arcanique"
-    },
-    "srd-2.0.weapon.primary.1.greatstaff": {
-      "name": "Grand bâton"
-    },
-    "srd-2.0.weapon.primary.2.improved-broadsword": {
-      "name": "Amélioré : Épée large"
-    },
-    "srd-2.0.weapon.primary.2.improved-katana": {
-      "name": "Amélioré : Katana"
-    },
-    "srd-2.0.weapon.primary.2.improved-longsword": {
-      "name": "Amélioré : Épée longue"
-    },
-    "srd-2.0.weapon.primary.2.improved-battleaxe": {
-      "name": "Amélioré : Hache de bataille"
-    },
-    "srd-2.0.weapon.primary.2.improved-brass-knuckles": {
-      "name": "Amélioré : Poings américains"
-    },
-    "srd-2.0.weapon.primary.2.improved-greatsword": {
-      "name": "Amélioré : Espadon"
-    },
-    "srd-2.0.weapon.primary.2.improved-mace": {
-      "name": "Amélioré : Masse"
-    },
-    "srd-2.0.weapon.primary.2.improved-warhammer": {
-      "name": "Amélioré : Marteau de guerre"
-    },
-    "srd-2.0.weapon.primary.2.improved-dagger": {
-      "name": "Amélioré : Dague"
-    },
-    "srd-2.0.weapon.primary.2.improved-quarterstaff": {
-      "name": "Amélioré : Bâton de combat"
-    },
-    "srd-2.0.weapon.primary.2.improved-cutlass": {
-      "name": "Amélioré : Sabre"
-    },
-    "srd-2.0.weapon.primary.2.improved-rapier": {
-      "name": "Amélioré : Rapière"
-    },
-    "srd-2.0.weapon.primary.2.improved-scimitar": {
-      "name": "Amélioré : Cimeterre"
-    },
-    "srd-2.0.weapon.primary.2.improved-twisted-dagger": {
-      "name": "Amélioré : Dague torsadée"
-    },
-    "srd-2.0.weapon.primary.2.improved-halberd": {
-      "name": "Amélioré : Hallebarde"
-    },
-    "srd-2.0.weapon.primary.2.improved-spear": {
-      "name": "Amélioré : Lance"
-    },
-    "srd-2.0.weapon.primary.2.improved-whipsword": {
-      "name": "Amélioré : Épée-fouet"
-    },
-    "srd-2.0.weapon.primary.2.improved-rope-dart": {
-      "name": "Amélioré : Dard à corde"
-    },
-    "srd-2.0.weapon.primary.2.improved-shortbow": {
-      "name": "Amélioré : Arc court"
-    },
-    "srd-2.0.weapon.primary.2.improved-crossbow": {
-      "name": "Amélioré : Arbalète"
-    },
-    "srd-2.0.weapon.primary.2.improved-longbow": {
-      "name": "Amélioré : Arc long"
-    },
-    "srd-2.0.weapon.primary.2.gilded-falchion": {
-      "name": "Fauchon doré"
-    },
-    "srd-2.0.weapon.primary.2.knuckle-blades": {
-      "name": "Lames de poing"
-    },
-    "srd-2.0.weapon.primary.2.war-pick": {
-      "name": "Bec de guerre"
-    },
-    "srd-2.0.weapon.primary.2.cane-sword": {
-      "name": "Canne-épée"
-    },
-    "srd-2.0.weapon.primary.2.urok-broadsword": {
-      "name": "Épée large urok"
-    },
-    "srd-2.0.weapon.primary.2.bladed-fan": {
-      "name": "Éventail à lames"
-    },
-    "srd-2.0.weapon.primary.2.cyrurgiens-scalpel": {
-      "name": "Scalpel de Cyrurgien"
-    },
-    "srd-2.0.weapon.primary.2.bladed-whip": {
-      "name": "Fouet à lames"
-    },
-    "srd-2.0.weapon.primary.2.javelins": {
-      "name": "Javelots"
-    },
-    "srd-2.0.weapon.primary.2.steelforged-halberd": {
-      "name": "Hallebarde forgée d’acier"
-    },
-    "srd-2.0.weapon.primary.2.war-scythe": {
-      "name": "Faux de guerre"
-    },
-    "srd-2.0.weapon.primary.2.lance": {
-      "name": "Lance de cavalerie"
-    },
-    "srd-2.0.weapon.primary.2.blunderbuss": {
-      "name": "Tromblon"
-    },
-    "srd-2.0.weapon.primary.2.greatbow": {
-      "name": "Grand arc"
-    },
-    "srd-2.0.weapon.primary.2.finehair-bow": {
-      "name": "Arc de crin fin"
-    },
-    "srd-2.0.weapon.primary.2.improved-arcane-gauntlets": {
-      "name": "Amélioré : Gantelets arcaniques"
-    },
-    "srd-2.0.weapon.primary.2.improved-brightsword": {
-      "name": "Amélioré : Épée lumineuse"
-    },
-    "srd-2.0.weapon.primary.2.improved-hallowed-axe": {
-      "name": "Amélioré : Hache consacrée"
-    },
-    "srd-2.0.weapon.primary.2.improved-shadowblade": {
-      "name": "Amélioré : Lame d’ombre"
-    },
-    "srd-2.0.weapon.primary.2.improved-glowing-rings": {
-      "name": "Amélioré : Anneaux lumineux"
-    },
-    "srd-2.0.weapon.primary.2.improved-hand-runes": {
-      "name": "Amélioré : Runes de main"
-    },
-    "srd-2.0.weapon.primary.2.improved-enchanted-chakram": {
-      "name": "Amélioré : Chakram enchanté"
-    },
-    "srd-2.0.weapon.primary.2.improved-returning-blade": {
-      "name": "Amélioré : Lame de retour"
-    },
-    "srd-2.0.weapon.primary.2.improved-casting-dagger": {
-      "name": "Amélioré : Dague d’incantation"
-    },
-    "srd-2.0.weapon.primary.2.improved-shortstaff": {
-      "name": "Amélioré : Bâton court"
-    },
-    "srd-2.0.weapon.primary.2.improved-dualstaff": {
-      "name": "Amélioré : Bâton double"
-    },
-    "srd-2.0.weapon.primary.2.improved-scepter": {
-      "name": "Amélioré : Sceptre"
-    },
-    "srd-2.0.weapon.primary.2.improved-runelock-pistol": {
-      "name": "Amélioré : Pistolet à verrou runique"
-    },
-    "srd-2.0.weapon.primary.2.improved-wand": {
-      "name": "Amélioré : Baguette"
-    },
-    "srd-2.0.weapon.primary.2.improved-arcane-rifle": {
-      "name": "Amélioré : Fusil arcanique"
-    },
-    "srd-2.0.weapon.primary.2.improved-greatstaff": {
-      "name": "Amélioré : Grand bâton"
-    },
-    "srd-2.0.weapon.primary.2.ego-blade": {
-      "name": "Lame d’ego"
-    },
-    "srd-2.0.weapon.primary.2.casting-sword": {
-      "name": "Épée d’incantation"
-    },
-    "srd-2.0.weapon.primary.2.enchanted-shillelagh": {
-      "name": "Shillelagh enchanté"
-    },
-    "srd-2.0.weapon.primary.2.devouring-dagger": {
-      "name": "Dague dévorante"
-    },
-    "srd-2.0.weapon.primary.2.displacement-razor": {
-      "name": "Rasoir de déplacement"
-    },
-    "srd-2.0.weapon.primary.2.hammer-of-exota": {
-      "name": "Marteau d’Exota"
-    },
-    "srd-2.0.weapon.primary.2.spellbound-bangles": {
-      "name": "Bracelets ensorcelés"
-    },
-    "srd-2.0.weapon.primary.2.fury-gem": {
-      "name": "Gemme de fureur"
-    },
-    "srd-2.0.weapon.primary.2.enchanted-lute": {
-      "name": "Luth enchanté"
-    },
-    "srd-2.0.weapon.primary.2.splintershaft-bow": {
-      "name": "Arc à hampe éclatée"
-    },
-    "srd-2.0.weapon.primary.2.yutari-bloodbow": {
-      "name": "Arc de sang yutari"
-    },
-    "srd-2.0.weapon.primary.2.elder-bow": {
-      "name": "Arc ancien"
-    },
-    "srd-2.0.weapon.primary.2.scepter-of-elias": {
-      "name": "Sceptre d’Elias"
-    },
-    "srd-2.0.weapon.primary.2.wand-of-enthrallment": {
-      "name": "Baguette d’envoûtement"
-    },
-    "srd-2.0.weapon.primary.2.keeper-s-staff": {
-      "name": "Bâton du Gardien"
-    },
-    "srd-2.0.weapon.primary.3.advanced-broadsword": {
-      "name": "Avancé : Épée large"
-    },
-    "srd-2.0.weapon.primary.3.advanced-katana": {
-      "name": "Avancé : Katana"
-    },
-    "srd-2.0.weapon.primary.3.advanced-longsword": {
-      "name": "Avancé : Épée longue"
-    },
-    "srd-2.0.weapon.primary.3.advanced-battleaxe": {
-      "name": "Avancé : Hache de bataille"
-    },
-    "srd-2.0.weapon.primary.3.advanced-brass-knuckles": {
-      "name": "Avancé : Poings américains"
-    },
-    "srd-2.0.weapon.primary.3.advanced-greatsword": {
-      "name": "Avancé : Espadon"
-    },
-    "srd-2.0.weapon.primary.3.advanced-mace": {
-      "name": "Avancé : Masse"
-    },
-    "srd-2.0.weapon.primary.3.advanced-warhammer": {
-      "name": "Avancé : Marteau de guerre"
-    },
-    "srd-2.0.weapon.primary.3.advanced-dagger": {
-      "name": "Avancé : Dague"
-    },
-    "srd-2.0.weapon.primary.3.advanced-quarterstaff": {
-      "name": "Avancé : Bâton de combat"
-    },
-    "srd-2.0.weapon.primary.3.advanced-cutlass": {
-      "name": "Avancé : Sabre"
-    },
-    "srd-2.0.weapon.primary.3.advanced-rapier": {
-      "name": "Avancé : Rapière"
-    },
-    "srd-2.0.weapon.primary.3.advanced-scimitar": {
-      "name": "Avancé : Cimeterre"
-    },
-    "srd-2.0.weapon.primary.3.advanced-twisted-dagger": {
-      "name": "Avancé : Dague torsadée"
-    },
-    "srd-2.0.weapon.primary.3.advanced-halberd": {
-      "name": "Avancé : Hallebarde"
-    },
-    "srd-2.0.weapon.primary.3.advanced-spear": {
-      "name": "Avancé : Lance"
-    },
-    "srd-2.0.weapon.primary.3.advanced-whipsword": {
-      "name": "Avancé : Épée-fouet"
-    },
-    "srd-2.0.weapon.primary.3.advanced-rope-dart": {
-      "name": "Avancé : Dard à corde"
-    },
-    "srd-2.0.weapon.primary.3.advanced-shortbow": {
-      "name": "Avancé : Arc court"
-    },
-    "srd-2.0.weapon.primary.3.advanced-crossbow": {
-      "name": "Avancé : Arbalète"
-    },
-    "srd-2.0.weapon.primary.3.advanced-longbow": {
-      "name": "Avancé : Arc long"
-    },
-    "srd-2.0.weapon.primary.3.flickerfly-blade": {
-      "name": "Lame de luciole"
-    },
-    "srd-2.0.weapon.primary.3.blitz-hammer": {
-      "name": "Marteau-éclair"
-    },
-    "srd-2.0.weapon.primary.3.bravesword": {
-      "name": "Épée vaillante"
-    },
-    "srd-2.0.weapon.primary.3.hammer-of-wrath": {
-      "name": "Marteau du courroux"
-    },
-    "srd-2.0.weapon.primary.3.labrys-axe": {
-      "name": "Hache labrys"
-    },
-    "srd-2.0.weapon.primary.3.platinum-estoc": {
-      "name": "Estoc de platine"
-    },
-    "srd-2.0.weapon.primary.3.meridian-cutlass": {
-      "name": "Sabre méridien"
-    },
-    "srd-2.0.weapon.primary.3.retractable-saber": {
-      "name": "Sabre rétractable"
-    },
-    "srd-2.0.weapon.primary.3.double-flail": {
-      "name": "Fléau double"
-    },
-    "srd-2.0.weapon.primary.3.soldiers-pike": {
-      "name": "Pique de soldat"
-    },
-    "srd-2.0.weapon.primary.3.chained-scythe": {
-      "name": "Faux enchaînée"
-    },
-    "srd-2.0.weapon.primary.3.singing-sword": {
-      "name": "Épée chantante"
-    },
-    "srd-2.0.weapon.primary.3.talon-blades": {
-      "name": "Lames-serres"
-    },
-    "srd-2.0.weapon.primary.3.bladed-star": {
-      "name": "Étoile à lames"
-    },
-    "srd-2.0.weapon.primary.3.black-powder-revolver": {
-      "name": "Revolver à poudre noire"
-    },
-    "srd-2.0.weapon.primary.3.spiked-bow": {
-      "name": "Arc à pointes"
-    },
-    "srd-2.0.weapon.primary.3.advanced-arcane-gauntlets": {
-      "name": "Avancé : Gantelets arcaniques"
-    },
-    "srd-2.0.weapon.primary.3.advanced-brightsword": {
-      "name": "Avancé : Épée lumineuse"
-    },
-    "srd-2.0.weapon.primary.3.advanced-hallowed-axe": {
-      "name": "Avancé : Hache consacrée"
-    },
-    "srd-2.0.weapon.primary.3.advanced-shadowblade": {
-      "name": "Avancé : Lame d’ombre"
-    },
-    "srd-2.0.weapon.primary.3.advanced-glowing-rings": {
-      "name": "Avancé : Anneaux lumineux"
-    },
-    "srd-2.0.weapon.primary.3.advanced-hand-runes": {
-      "name": "Avancé : Runes de main"
-    },
-    "srd-2.0.weapon.primary.3.advanced-enchanted-chakram": {
-      "name": "Avancé : Chakram enchanté"
-    },
-    "srd-2.0.weapon.primary.3.advanced-returning-blade": {
-      "name": "Avancé : Lame de retour"
-    },
-    "srd-2.0.weapon.primary.3.advanced-casting-dagger": {
-      "name": "Avancé : Dague d’incantation"
-    },
-    "srd-2.0.weapon.primary.3.advanced-shortstaff": {
-      "name": "Avancé : Bâton court"
-    },
-    "srd-2.0.weapon.primary.3.advanced-dualstaff": {
-      "name": "Avancé : Bâton double"
-    },
-    "srd-2.0.weapon.primary.3.advanced-scepter": {
-      "name": "Avancé : Sceptre"
-    },
-    "srd-2.0.weapon.primary.3.advanced-runelock-pistol": {
-      "name": "Avancé : Pistolet à verrou runique"
-    },
-    "srd-2.0.weapon.primary.3.advanced-wand": {
-      "name": "Avancé : Baguette"
-    },
-    "srd-2.0.weapon.primary.3.advanced-arcane-rifle": {
-      "name": "Avancé : Fusil arcanique"
-    },
-    "srd-2.0.weapon.primary.3.advanced-greatstaff": {
-      "name": "Avancé : Grand bâton"
-    },
-    "srd-2.0.weapon.primary.3.rocket-maul": {
-      "name": "Maillet-fusée"
-    },
-    "srd-2.0.weapon.primary.3.crystal-spear": {
-      "name": "Lance de cristal"
-    },
-    "srd-2.0.weapon.primary.3.arc-wand": {
-      "name": "Baguette d’arc"
-    },
-    "srd-2.0.weapon.primary.3.rime-scepter": {
-      "name": "Sceptre de givre"
-    },
-    "srd-2.0.weapon.primary.3.gunblade": {
-      "name": "Lame-pistolet"
-    },
-    "srd-2.0.weapon.primary.3.staff-of-augma": {
-      "name": "Bâton d’Augma"
-    },
-    "srd-2.0.weapon.primary.4.legendary-broadsword": {
-      "name": "Légendaire : Épée large"
-    },
-    "srd-2.0.weapon.primary.4.legendary-katana": {
-      "name": "Légendaire : Katana"
-    },
-    "srd-2.0.weapon.primary.4.legendary-longsword": {
-      "name": "Légendaire : Épée longue"
-    },
-    "srd-2.0.weapon.primary.4.legendary-battleaxe": {
-      "name": "Légendaire : Hache de bataille"
-    },
-    "srd-2.0.weapon.primary.4.legendary-brass-knuckles": {
-      "name": "Légendaire : Poings américains"
-    },
-    "srd-2.0.weapon.primary.4.legendary-greatsword": {
-      "name": "Légendaire : Espadon"
-    },
-    "srd-2.0.weapon.primary.4.legendary-mace": {
-      "name": "Légendaire : Masse"
-    },
-    "srd-2.0.weapon.primary.4.legendary-warhammer": {
-      "name": "Légendaire : Marteau de guerre"
-    },
-    "srd-2.0.weapon.primary.4.legendary-dagger": {
-      "name": "Légendaire : Dague"
-    },
-    "srd-2.0.weapon.primary.4.legendary-quarterstaff": {
-      "name": "Légendaire : Bâton de combat"
-    },
-    "srd-2.0.weapon.primary.4.legendary-cutlass": {
-      "name": "Légendaire : Sabre"
-    },
-    "srd-2.0.weapon.primary.4.legendary-rapier": {
-      "name": "Légendaire : Rapière"
-    },
-    "srd-2.0.weapon.primary.4.legendary-scimitar": {
-      "name": "Légendaire : Cimeterre"
-    },
-    "srd-2.0.weapon.primary.4.legendary-twisted-dagger": {
-      "name": "Légendaire : Dague torsadée"
-    },
-    "srd-2.0.weapon.primary.4.legendary-halberd": {
-      "name": "Légendaire : Hallebarde"
-    },
-    "srd-2.0.weapon.primary.4.legendary-spear": {
-      "name": "Légendaire : Lance"
-    },
-    "srd-2.0.weapon.primary.4.legendary-whipsword": {
-      "name": "Légendaire : Épée-fouet"
-    },
-    "srd-2.0.weapon.primary.4.legendary-rope-dart": {
-      "name": "Légendaire : Dard à corde"
-    },
-    "srd-2.0.weapon.primary.4.legendary-shortbow": {
-      "name": "Légendaire : Arc court"
-    },
-    "srd-2.0.weapon.primary.4.legendary-crossbow": {
-      "name": "Légendaire : Arbalète"
-    },
-    "srd-2.0.weapon.primary.4.legendary-longbow": {
-      "name": "Légendaire : Arc long"
-    },
-    "srd-2.0.weapon.primary.4.dual-ended-sword": {
-      "name": "Épée à double extrémité"
-    },
-    "srd-2.0.weapon.primary.4.impact-gauntlet": {
-      "name": "Gantelet d’impact"
-    },
-    "srd-2.0.weapon.primary.4.sledge-axe": {
-      "name": "Hache-masse"
-    },
-    "srd-2.0.weapon.primary.4.curved-dagger": {
-      "name": "Dague courbe"
-    },
-    "srd-2.0.weapon.primary.4.severed-dragon-claw": {
-      "name": "Griffe de dragon tranchée"
-    },
-    "srd-2.0.weapon.primary.4.infinite-staff": {
-      "name": "Bâton infini"
-    },
-    "srd-2.0.weapon.primary.4.bec-de-corbin": {
-      "name": "Bec de corbin"
-    },
-    "srd-2.0.weapon.primary.4.extended-polearm": {
-      "name": "Arme d’hast allongée"
-    },
-    "srd-2.0.weapon.primary.4.swinging-ropeblade": {
-      "name": "Lame à corde oscillante"
-    },
-    "srd-2.0.weapon.primary.4.black-powder-serpentine": {
-      "name": "Serpentine à poudre noire"
-    },
-    "srd-2.0.weapon.primary.4.ricochet-axes": {
-      "name": "Haches à ricochet"
-    },
-    "srd-2.0.weapon.primary.4.aantari-bow": {
-      "name": "Arc aantari"
-    },
-    "srd-2.0.weapon.primary.4.clockwork-crossbow": {
-      "name": "Arbalète mécanique"
-    },
-    "srd-2.0.weapon.primary.4.arquebus": {
-      "name": "Arquebuse"
-    },
-    "srd-2.0.weapon.primary.4.hand-cannon": {
-      "name": "Canon à main"
-    },
-    "srd-2.0.weapon.primary.4.legendary-arcane-gauntlets": {
-      "name": "Légendaire : Gantelets arcaniques"
-    },
-    "srd-2.0.weapon.primary.4.legendary-brightsword": {
-      "name": "Légendaire : Épée lumineuse"
-    },
-    "srd-2.0.weapon.primary.4.legendary-hallowed-axe": {
-      "name": "Légendaire : Hache consacrée"
-    },
-    "srd-2.0.weapon.primary.4.legendary-shadowblade": {
-      "name": "Légendaire : Lame d’ombre"
-    },
-    "srd-2.0.weapon.primary.4.legendary-glowing-rings": {
-      "name": "Légendaire : Anneaux lumineux"
-    },
-    "srd-2.0.weapon.primary.4.legendary-hand-runes": {
-      "name": "Légendaire : Runes de main"
-    },
-    "srd-2.0.weapon.primary.4.legendary-enchanted-chakram": {
-      "name": "Légendaire : Chakram enchanté"
-    },
-    "srd-2.0.weapon.primary.4.legendary-returning-blade": {
-      "name": "Légendaire : Lame de retour"
-    },
-    "srd-2.0.weapon.primary.4.legendary-casting-dagger": {
-      "name": "Légendaire : Dague d’incantation"
-    },
-    "srd-2.0.weapon.primary.4.legendary-shortstaff": {
-      "name": "Légendaire : Bâton court"
-    },
-    "srd-2.0.weapon.primary.4.legendary-dualstaff": {
-      "name": "Légendaire : Bâton double"
-    },
-    "srd-2.0.weapon.primary.4.legendary-scepter": {
-      "name": "Légendaire : Sceptre"
-    },
-    "srd-2.0.weapon.primary.4.legendary-runelock-pistol": {
-      "name": "Légendaire : Pistolet à verrou runique"
-    },
-    "srd-2.0.weapon.primary.4.legendary-wand": {
-      "name": "Légendaire : Baguette"
-    },
-    "srd-2.0.weapon.primary.4.legendary-arcane-rifle": {
-      "name": "Légendaire : Fusil arcanique"
-    },
-    "srd-2.0.weapon.primary.4.legendary-greatstaff": {
-      "name": "Légendaire : Grand bâton"
-    },
-    "srd-2.0.weapon.primary.4.starmetal-blade": {
-      "name": "Lame de métal stellaire"
-    },
-    "srd-2.0.weapon.primary.4.sword-of-light-flame": {
-      "name": "Épée de lumière et de flamme"
-    },
-    "srd-2.0.weapon.primary.4.adders-fang": {
-      "name": "Croc de vipère"
-    },
-    "srd-2.0.weapon.primary.4.demons-edge": {
-      "name": "Tranchant du démon"
-    },
-    "srd-2.0.weapon.primary.4.siphoning-gauntlets": {
-      "name": "Gantelets siphonneurs"
-    },
-    "srd-2.0.weapon.primary.4.midas-scythe": {
-      "name": "Faux de Midas"
-    },
-    "srd-2.0.weapon.primary.4.storm-gods-greataxe": {
-      "name": "Grande hache du dieu des tempêtes"
-    },
-    "srd-2.0.weapon.primary.4.floating-bladeshards": {
-      "name": "Éclats de lame flottants"
-    },
-    "srd-2.0.weapon.primary.4.bloodstaff": {
-      "name": "Bâton de sang"
-    },
-    "srd-2.0.weapon.primary.4.thistlebow": {
-      "name": "Arc de chardon"
-    },
-    "srd-2.0.weapon.primary.4.gravity-arbalest": {
-      "name": "Arbalète gravitationnelle"
-    },
-    "srd-2.0.weapon.primary.4.wand-of-essek": {
-      "name": "Baguette d’Essek"
-    },
-    "srd-2.0.weapon.primary.4.magus-revolver": {
-      "name": "Revolver du mage"
-    },
-    "srd-2.0.weapon.primary.4.fusion-gloves": {
-      "name": "Gants de fusion"
-    },
-    "srd-2.0.weapon.secondary.1.hatchet": {
-      "name": "Hachette"
-    },
-    "srd-2.0.weapon.secondary.1.shortsword": {
-      "name": "Épée courte"
-    },
-    "srd-2.0.weapon.secondary.1.offhand-brass-knuckles": {
-      "name": "Poings américains de main secondaire"
-    },
-    "srd-2.0.weapon.secondary.1.round-shield": {
-      "name": "Bouclier rond"
-    },
-    "srd-2.0.weapon.secondary.1.tower-shield": {
-      "name": "Pavois"
-    },
-    "srd-2.0.weapon.secondary.1.small-dagger": {
-      "name": "Petite dague"
-    },
-    "srd-2.0.weapon.secondary.1.throwing-knives": {
-      "name": "Couteaux de lancer"
-    },
-    "srd-2.0.weapon.secondary.1.fighting-cloak": {
-      "name": "Cape de combat"
-    },
-    "srd-2.0.weapon.secondary.1.rune-shield": {
-      "name": "Bouclier runique"
-    },
-    "srd-2.0.weapon.secondary.1.focus-runes": {
-      "name": "Runes de focalisation"
-    },
-    "srd-2.0.weapon.secondary.1.whip": {
-      "name": "Fouet"
-    },
-    "srd-2.0.weapon.secondary.1.grappler": {
-      "name": "Grappin"
-    },
-    "srd-2.0.weapon.secondary.1.hand-crossbow": {
-      "name": "Arbalète de poing"
-    },
-    "srd-2.0.weapon.secondary.2.improved-hatchet": {
-      "name": "Amélioré : Hachette"
-    },
-    "srd-2.0.weapon.secondary.2.improved-shortsword": {
-      "name": "Amélioré : Épée courte"
-    },
-    "srd-2.0.weapon.secondary.2.improved-offhand-brass-knuckles": {
-      "name": "Amélioré : Poings américains de main secondaire"
-    },
-    "srd-2.0.weapon.secondary.2.improved-round-shield": {
-      "name": "Amélioré : Bouclier rond"
-    },
-    "srd-2.0.weapon.secondary.2.improved-tower-shield": {
-      "name": "Amélioré : Pavois"
-    },
-    "srd-2.0.weapon.secondary.2.improved-small-dagger": {
-      "name": "Amélioré : Petite dague"
-    },
-    "srd-2.0.weapon.secondary.2.improved-throwing-knives": {
-      "name": "Amélioré : Couteaux de lancer"
-    },
-    "srd-2.0.weapon.secondary.2.improved-fighting-cloak": {
-      "name": "Amélioré : Cape de combat"
-    },
-    "srd-2.0.weapon.secondary.2.improved-rune-shield": {
-      "name": "Amélioré : Bouclier runique"
-    },
-    "srd-2.0.weapon.secondary.2.improved-focus-runes": {
-      "name": "Amélioré : Runes de focalisation"
-    },
-    "srd-2.0.weapon.secondary.2.improved-whip": {
-      "name": "Amélioré : Fouet"
-    },
-    "srd-2.0.weapon.secondary.2.improved-grappler": {
-      "name": "Amélioré : Grappin"
-    },
-    "srd-2.0.weapon.secondary.2.improved-hand-crossbow": {
-      "name": "Amélioré : Arbalète de poing"
-    },
-    "srd-2.0.weapon.secondary.2.collapsible-baton": {
-      "name": "Matraque télescopique"
-    },
-    "srd-2.0.weapon.secondary.2.spiked-shield": {
-      "name": "Bouclier à pointes"
-    },
-    "srd-2.0.weapon.secondary.2.parrying-dagger": {
-      "name": "Dague de parade"
-    },
-    "srd-2.0.weapon.secondary.2.eldritch-vambrace": {
-      "name": "Brassard occulte"
-    },
-    "srd-2.0.weapon.secondary.2.segmented-staff": {
-      "name": "Bâton segmenté"
-    },
-    "srd-2.0.weapon.secondary.2.razor-wire": {
-      "name": "Fil barbelé"
-    },
-    "srd-2.0.weapon.secondary.2.returning-axe": {
-      "name": "Hache de retour"
-    },
-    "srd-2.0.weapon.secondary.3.advanced-hatchet": {
-      "name": "Avancé : Hachette"
-    },
-    "srd-2.0.weapon.secondary.3.advanced-shortsword": {
-      "name": "Avancé : Épée courte"
-    },
-    "srd-2.0.weapon.secondary.3.advanced-offhand-brass-knuckles": {
-      "name": "Avancé : Poings américains de main secondaire"
-    },
-    "srd-2.0.weapon.secondary.3.advanced-round-shield": {
-      "name": "Avancé : Bouclier rond"
-    },
-    "srd-2.0.weapon.secondary.3.advanced-tower-shield": {
-      "name": "Avancé : Pavois"
-    },
-    "srd-2.0.weapon.secondary.3.advanced-small-dagger": {
-      "name": "Avancé : Petite dague"
-    },
-    "srd-2.0.weapon.secondary.3.advanced-throwing-knives": {
-      "name": "Avancé : Couteaux de lancer"
-    },
-    "srd-2.0.weapon.secondary.3.advanced-fighting-cloak": {
-      "name": "Avancé : Cape de combat"
-    },
-    "srd-2.0.weapon.secondary.3.advanced-rune-shield": {
-      "name": "Avancé : Bouclier runique"
-    },
-    "srd-2.0.weapon.secondary.3.advanced-focus-runes": {
-      "name": "Avancé : Runes de focalisation"
-    },
-    "srd-2.0.weapon.secondary.3.advanced-whip": {
-      "name": "Avancé : Fouet"
-    },
-    "srd-2.0.weapon.secondary.3.advanced-grappler": {
-      "name": "Avancé : Grappin"
-    },
-    "srd-2.0.weapon.secondary.3.advanced-hand-crossbow": {
-      "name": "Avancé : Arbalète de poing"
-    },
-    "srd-2.0.weapon.secondary.3.buckler": {
-      "name": "Rondache"
-    },
-    "srd-2.0.weapon.secondary.3.tinkers-hammer": {
-      "name": "Marteau de bricoleur"
-    },
-    "srd-2.0.weapon.secondary.3.vorpal-shard": {
-      "name": "Éclat vorpal"
-    },
-    "srd-2.0.weapon.secondary.3.soul-chain": {
-      "name": "Chaîne d’âme"
-    },
-    "srd-2.0.weapon.secondary.3.powered-gauntlet": {
-      "name": "Gantelet motorisé"
-    },
-    "srd-2.0.weapon.secondary.3.war-dart": {
-      "name": "Dard de guerre"
-    },
-    "srd-2.0.weapon.secondary.3.hand-sling": {
-      "name": "Fronde"
-    },
-    "srd-2.0.weapon.secondary.4.legendary-hatchet": {
-      "name": "Légendaire : Hachette"
-    },
-    "srd-2.0.weapon.secondary.4.legendary-shortsword": {
-      "name": "Légendaire : Épée courte"
-    },
-    "srd-2.0.weapon.secondary.4.legendary-offhand-brass-knuckles": {
-      "name": "Légendaire : Poings américains de main secondaire"
-    },
-    "srd-2.0.weapon.secondary.4.legendary-round-shield": {
-      "name": "Légendaire : Bouclier rond"
-    },
-    "srd-2.0.weapon.secondary.4.legendary-tower-shield": {
-      "name": "Légendaire : Pavois"
-    },
-    "srd-2.0.weapon.secondary.4.legendary-small-dagger": {
-      "name": "Légendaire : Petite dague"
-    },
-    "srd-2.0.weapon.secondary.4.legendary-throwing-knives": {
-      "name": "Légendaire : Couteaux de lancer"
-    },
-    "srd-2.0.weapon.secondary.4.legendary-fighting-cloak": {
-      "name": "Légendaire : Cape de combat"
-    },
-    "srd-2.0.weapon.secondary.4.legendary-rune-shield": {
-      "name": "Légendaire : Bouclier runique"
-    },
-    "srd-2.0.weapon.secondary.4.legendary-focus-runes": {
-      "name": "Légendaire : Runes de focalisation"
-    },
-    "srd-2.0.weapon.secondary.4.legendary-whip": {
-      "name": "Légendaire : Fouet"
-    },
-    "srd-2.0.weapon.secondary.4.legendary-grappler": {
-      "name": "Légendaire : Grappin"
-    },
-    "srd-2.0.weapon.secondary.4.legendary-hand-crossbow": {
-      "name": "Légendaire : Arbalète de poing"
-    },
-    "srd-2.0.weapon.secondary.4.braveshield": {
-      "name": "Bouclier vaillant"
-    },
-    "srd-2.0.weapon.secondary.4.knuckle-claws": {
-      "name": "Griffes de poing"
-    },
-    "srd-2.0.weapon.secondary.4.void-needle": {
-      "name": "Aiguille du Vide"
-    },
-    "srd-2.0.weapon.secondary.4.echo-blade": {
-      "name": "Lame d’écho"
-    },
-    "srd-2.0.weapon.secondary.4.orb": {
-      "name": "Orbe"
-    },
-    "srd-2.0.weapon.secondary.4.primer-shard": {
-      "name": "Éclat d’amorce"
-    },
-    "srd-2.0.weapon.secondary.4.blackblood-tendril": {
-      "name": "Vrille de sang noir"
-    },
-    "srd-2.0.weapon.supplemental-western.primary.1.revolver": {
-      "name": "Revolver"
-    },
-    "srd-2.0.weapon.supplemental-western.primary.2.revolver": {
-      "name": "Revolver"
-    },
-    "srd-2.0.weapon.supplemental-western.primary.3.revolver": {
-      "name": "Revolver"
-    },
-    "srd-2.0.weapon.supplemental-western.primary.4.revolver": {
-      "name": "Revolver"
-    },
-    "srd-2.0.weapon.supplemental-western.primary.1.rifle": {
-      "name": "Fusil"
-    },
-    "srd-2.0.weapon.supplemental-western.primary.2.rifle": {
-      "name": "Fusil"
-    },
-    "srd-2.0.weapon.supplemental-western.primary.3.rifle": {
-      "name": "Fusil"
-    },
-    "srd-2.0.weapon.supplemental-western.primary.4.rifle": {
-      "name": "Fusil"
-    },
-    "srd-2.0.weapon.supplemental-western.primary.1.shotgun": {
-      "name": "Fusil à pompe"
-    },
-    "srd-2.0.weapon.supplemental-western.primary.2.shotgun": {
-      "name": "Fusil à pompe"
-    },
-    "srd-2.0.weapon.supplemental-western.primary.3.shotgun": {
-      "name": "Fusil à pompe"
-    },
-    "srd-2.0.weapon.supplemental-western.primary.4.shotgun": {
-      "name": "Fusil à pompe"
-    },
-    "srd-2.0.weapon.supplemental-western.secondary.1.lasso": {
-      "name": "Lasso"
-    },
-    "srd-2.0.weapon.supplemental-western.secondary.2.lasso": {
-      "name": "Lasso"
-    },
-    "srd-2.0.weapon.supplemental-western.secondary.3.lasso": {
-      "name": "Lasso"
-    },
-    "srd-2.0.weapon.supplemental-western.secondary.4.lasso": {
-      "name": "Lasso"
-    },
-    "srd-2.0.weapon.supplemental-western.secondary.1.small-revolver": {
-      "name": "Petit revolver"
-    },
-    "srd-2.0.weapon.supplemental-western.secondary.2.small-revolver": {
-      "name": "Petit revolver"
-    },
-    "srd-2.0.weapon.supplemental-western.secondary.3.small-revolver": {
-      "name": "Petit revolver"
-    },
-    "srd-2.0.weapon.supplemental-western.secondary.4.small-revolver": {
-      "name": "Petit revolver"
-    },
-    "srd-2.0.weapon.supplemental-monster-hunting.primary.1.blessed-brass-knuckles": {
-      "name": "Poings américains bénis"
-    },
-    "srd-2.0.weapon.supplemental-monster-hunting.primary.2.blessed-brass-knuckles": {
-      "name": "Poings américains bénis"
-    },
-    "srd-2.0.weapon.supplemental-monster-hunting.primary.3.blessed-brass-knuckles": {
-      "name": "Poings américains bénis"
-    },
-    "srd-2.0.weapon.supplemental-monster-hunting.primary.4.blessed-brass-knuckles": {
-      "name": "Poings américains bénis"
-    },
-    "srd-2.0.weapon.supplemental-monster-hunting.primary.1.holy-shotgun": {
-      "name": "Fusil à pompe sacré"
-    },
-    "srd-2.0.weapon.supplemental-monster-hunting.primary.2.holy-shotgun": {
-      "name": "Fusil à pompe sacré"
-    },
-    "srd-2.0.weapon.supplemental-monster-hunting.primary.3.holy-shotgun": {
-      "name": "Fusil à pompe sacré"
-    },
-    "srd-2.0.weapon.supplemental-monster-hunting.primary.4.holy-shotgun": {
-      "name": "Fusil à pompe sacré"
-    },
-    "srd-2.0.weapon.supplemental-monster-hunting.primary.1.repeating-crossbow": {
-      "name": "Arbalète à répétition"
-    },
-    "srd-2.0.weapon.supplemental-monster-hunting.primary.2.repeating-crossbow": {
-      "name": "Arbalète à répétition"
-    },
-    "srd-2.0.weapon.supplemental-monster-hunting.primary.3.repeating-crossbow": {
-      "name": "Arbalète à répétition"
-    },
-    "srd-2.0.weapon.supplemental-monster-hunting.primary.4.repeating-crossbow": {
-      "name": "Arbalète à répétition"
-    },
-    "srd-2.0.weapon.supplemental-monster-hunting.secondary.1.wooden-stake": {
-      "name": "Pieu de bois"
-    },
-    "srd-2.0.weapon.supplemental-monster-hunting.secondary.2.wooden-stake": {
-      "name": "Pieu de bois"
-    },
-    "srd-2.0.weapon.supplemental-monster-hunting.secondary.3.wooden-stake": {
-      "name": "Pieu de bois"
-    },
-    "srd-2.0.weapon.supplemental-monster-hunting.secondary.4.wooden-stake": {
-      "name": "Pieu de bois"
-    },
-    "srd-2.0.weapon.supplemental-monster-hunting.secondary.1.hallowed-shield": {
-      "name": "Bouclier consacré"
-    },
-    "srd-2.0.weapon.supplemental-monster-hunting.secondary.2.hallowed-shield": {
-      "name": "Bouclier consacré"
-    },
-    "srd-2.0.weapon.supplemental-monster-hunting.secondary.3.hallowed-shield": {
-      "name": "Bouclier consacré"
-    },
-    "srd-2.0.weapon.supplemental-monster-hunting.secondary.4.hallowed-shield": {
-      "name": "Bouclier consacré"
-    },
-    "srd-2.0.weapon.supplemental-monster-hunting.secondary.1.chain-whip": {
-      "name": "Fouet-chaîne"
-    },
-    "srd-2.0.weapon.supplemental-monster-hunting.secondary.2.chain-whip": {
-      "name": "Fouet-chaîne"
-    },
-    "srd-2.0.weapon.supplemental-monster-hunting.secondary.3.chain-whip": {
-      "name": "Fouet-chaîne"
-    },
-    "srd-2.0.weapon.supplemental-monster-hunting.secondary.4.chain-whip": {
-      "name": "Fouet-chaîne"
-    },
-    "srd-2.0.weapon.combat-wheelchair.1.light-frame-wheelchair": {
-      "name": "Fauteuil de combat à châssis léger"
-    },
-    "srd-2.0.weapon.combat-wheelchair.2.improved-light-frame-wheelchair": {
-      "name": "Amélioré : Fauteuil de combat à châssis léger"
-    },
-    "srd-2.0.weapon.combat-wheelchair.3.advanced-light-frame-wheelchair": {
-      "name": "Avancé : Fauteuil de combat à châssis léger"
-    },
-    "srd-2.0.weapon.combat-wheelchair.4.legendary-light-frame-wheelchair": {
-      "name": "Légendaire : Fauteuil de combat à châssis léger"
-    },
-    "srd-2.0.weapon.combat-wheelchair.1.heavy-frame-wheelchair": {
-      "name": "Fauteuil de combat à châssis lourd"
-    },
-    "srd-2.0.weapon.combat-wheelchair.2.improved-heavy-frame-wheelchair": {
-      "name": "Amélioré : Fauteuil de combat à châssis lourd"
-    },
-    "srd-2.0.weapon.combat-wheelchair.3.advanced-heavy-frame-wheelchair": {
-      "name": "Avancé : Fauteuil de combat à châssis lourd"
-    },
-    "srd-2.0.weapon.combat-wheelchair.4.legendary-heavy-frame-wheelchair": {
-      "name": "Légendaire : Fauteuil de combat à châssis lourd"
-    },
-    "srd-2.0.weapon.combat-wheelchair.1.arcane-frame-wheelchair": {
-      "name": "Fauteuil de combat à châssis arcanique"
-    },
-    "srd-2.0.weapon.combat-wheelchair.2.improved-arcane-frame-wheelchair": {
-      "name": "Amélioré : Fauteuil de combat à châssis arcanique"
-    },
-    "srd-2.0.weapon.combat-wheelchair.3.advanced-arcane-frame-wheelchair": {
-      "name": "Avancé : Fauteuil de combat à châssis arcanique"
-    },
-    "srd-2.0.weapon.combat-wheelchair.4.legendary-arcane-frame-wheelchair": {
-      "name": "Légendaire : Fauteuil de combat à châssis arcanique"
+    "the-void.2026-07-09.subclass.order-of-the-specter.feature.veilwalker": {
+      "name": "Marche-voile",
+      "description": "<p>Vous pouvez brièvement vous glisser dans le royaume entre les vivants et les morts. Marquez 1 Stress pour vous déplacer jusqu’à portée Proche en traversant créatures et objets.</p>"
     }
   }
 }

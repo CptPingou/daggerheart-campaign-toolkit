@@ -347,6 +347,47 @@ async function inspectPack(index, packName) {
   };
 }
 
+async function inspectOwnedFeatureLinks(index) {
+  const checkedPacks = ["dh-classes", "dh-subclasses"]
+    .filter(packName => packSources(index).has(packName));
+  const missing = [];
+  let checked = 0;
+
+  for (const packName of checkedPacks) {
+    const pack = game.packs.get(`${MODULE_ID}.${packName}`);
+    if (!pack) continue;
+
+    const docs = await pack.getDocuments();
+    for (const doc of docs) {
+      for (let index = 0; index < (doc.system?.features ?? []).length; index += 1) {
+        const link = doc.system.features[index];
+        const uuid = link?.uuid
+          ?? (typeof link?.item === "string" ? link.item : link?.item?.uuid);
+        if (!uuid?.startsWith(`Compendium.${MODULE_ID}.dh-features.Item.`)) continue;
+
+        checked += 1;
+        const target = await fromUuid(uuid);
+        if (!target) {
+          missing.push({
+            pack: packName,
+            parentId: doc.id,
+            parentName: doc.name,
+            index,
+            type: link?.type ?? null,
+            uuid,
+          });
+        }
+      }
+    }
+  }
+
+  return {
+    checked,
+    missing,
+    green: missing.length === 0,
+  };
+}
+
 export async function autonomousSourceStatus() {
   const index = await sourceIndex();
   const packs = {};
@@ -360,12 +401,16 @@ export async function autonomousSourceStatus() {
     green &&= status.green === true;
   }
 
+  const references = await inspectOwnedFeatureLinks(index);
+  green &&= references.green;
+
   return {
     schema: index.schema,
     sourceNamespace: index.sourceNamespace,
     expected: index.total,
     actual,
     packs,
+    references,
     green,
   };
 }

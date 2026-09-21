@@ -2,65 +2,75 @@
   "schema": "daggerheart-campaign-toolkit/source-index@2",
   "owner": "daggerheart-campaign-toolkit",
   "sourceNamespace": "daggerheart-srd-2.0",
-  "total": 820,
+  "total": 874,
   "origins": {
     "core": {
-      "total": 778,
+      "total": 814,
       "packs": {
         "dh-ancestries": {
           "count": 72,
           "file": "data/core/fr/dh-ancestries.json",
-          "sha256": "57ebfaaa98e1cf1d3db983eff980a7e14434f620b647530c7de07e143a441860"
+          "sha256": "12e8dd77374013e4022971ba618da07c1b289e194e40908a34fbb7988a864988"
         },
         "dh-armor": {
           "count": 69,
           "file": "data/core/fr/dh-armor.json",
-          "sha256": "298406ca3aafb25afe05755634f81c5e17082316f673b8b50d8ba66f574fa28a"
+          "sha256": "24402342c078b4163968176a82d4c5fd79a4d5f065b69fed57a509db3f4a6ea6"
         },
         "dh-classes": {
           "count": 13,
           "file": "data/core/fr/dh-classes.json",
-          "sha256": "3db752266155a14012c3dac0884f4a544f3084aa06096b13003441a7cc6fbbc1"
+          "sha256": "7b5d8fe884bf0531b51e6ef71e6d036a99fa97d5b29df7e7754e404e69f8c4a2"
         },
         "dh-communities": {
           "count": 30,
           "file": "data/core/fr/dh-communities.json",
-          "sha256": "d29bbab5561721bec1f735f431c1d85e0e0720e32ddd023830ec4e9acb81d73c"
+          "sha256": "5d6bf93496ecf9b29110023758ccbd78d4bb76363a8d441644ec439b54b2e9e6"
         },
         "dh-domain-cards": {
           "count": 210,
           "file": "data/core/fr/dh-domain-cards.json",
-          "sha256": "cfa610062dc53b102642a28c2dc38b02341bd63ea8625610111327cc83fb2f5d"
+          "sha256": "62cf25f8aa67e0ec6ef092997e0a51f425747c96b284ac98e26f8a4d962f72b7"
         },
         "dh-subclasses": {
           "count": 26,
           "file": "data/core/fr/dh-subclasses.json",
-          "sha256": "9a2e23f836d0faaf079ad03099057a42d48f74bff8079d9c795f34cefa7ed4fa"
+          "sha256": "c24cc319a0e1269e855046de169ffe8d3aff6856dc3148714b69df85dd6194be"
         },
         "dh-weapons": {
           "count": 358,
           "file": "data/core/fr/dh-weapons.json",
-          "sha256": "6d8df7ae80f62e2472ffc9be83d51d0314e3ea283dc40f973f911b1334ab2a33"
+          "sha256": "8846f140be9950371bb77574caadf061ace0a4c0dfe83f365ee5942bcab3c7d5"
+        },
+        "dh-features": {
+          "count": 36,
+          "file": "data/core/fr/dh-features.json",
+          "sha256": "e2c7e0be82928d272f39a11a115b92015422ce375bf402630cda95539022ebd2"
         }
       }
     },
     "playtest": {
-      "total": 25,
+      "total": 43,
       "packs": {
         "dh-classes": {
           "count": 1,
           "file": "data/playtest/dh-classes.json",
-          "sha256": "66a3651aeeeb7ba7f45b46042ba854ffeef15d9a2a6e69f8feaf10f444586497"
+          "sha256": "0fbdacdd2e68f39b32ea5d5f386f4c26e48a9093cb858dfa40eb640e0e275bd6"
         },
         "dh-domain-cards": {
           "count": 21,
           "file": "data/playtest/dh-domain-cards.json",
-          "sha256": "2772472f33ec8adc81e544b675779e18762a6927a894d9735a471e82f0d7fb30"
+          "sha256": "8656716bd9bf2462c85a0b50298f1fe401811b0d4955d661b559a6d3482c86ef"
         },
         "dh-subclasses": {
           "count": 3,
           "file": "data/playtest/dh-subclasses.json",
-          "sha256": "55f27f256ac3a7af28b5d91b962028a89a84de9b447dd61c3ef7c1d007ae9ccb"
+          "sha256": "efa1be140ebecb874ad012d5acac8630fbb4d92a985d6e2fca06c632195f88fd"
+        },
+        "dh-features": {
+          "count": 18,
+          "file": "data/playtest/dh-features.json",
+          "sha256": "f27f7fc19d4702e1d30924c82551789deac0256322be3e580de9e88390cdaa32"
         }
       }
     },
@@ -73,7 +83,7 @@
             "dh-domain-cards": {
               "count": 17,
               "file": "data/homebrew/monster-hunter/dh-domain-cards.json",
-              "sha256": "6c440ffd0284594e424e4cd83b16c2d747fa6100c545dd7d47dc947948d88b2c"
+              "sha256": "4fdc22236849afd8495be84fa99af2123295362d28a1a5f36fdf84dd15ac9225"
             }
           }
         },
